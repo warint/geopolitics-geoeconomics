@@ -1,0 +1,339 @@
+---
+title: "Session 1: What Is Geopolitical Risk?"
+subtitle: "Concepts, indicators, and the syllabus"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "01"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 01 · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · The hour ahead {.center .scrollable}
+
+1. The course in fifteen minutes
+2. Risk, uncertainty, and three kinds of risk
+3. Six families of indicators
+4. The GPR index: how it is built
+5. Why a firm should care
+6. What GPR does not tell you
+7. The Tableau skill of the day
+
+## What session 1 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Separate **risk** from **uncertainty**
+- Separate **political**, **country** and **geopolitical** risk
+- Sort indicators into six families
+- Say what the GPR index measures — and what it cannot
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Connect to an `.xls` file and set a date field
+- Build a line chart with a reference line
+- Annotate the spikes
+- Start a provenance log
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Name five channels from an event to a firm's P&L
+- Say why firms delay investment when GPR spikes
+- Say why newspaper attention is not a risk score for a subsidiary
+
+::::
+
+:::::
+
+# The course in fifteen minutes {background-color="#E3120B" style="color:#F7F4ED"}
+
+## The big theme
+
+> **How does a multinational firm know how much geopolitical risk it faces — and what should it do about it?**
+
+| Sessions | Movement |
+|---|---|
+| **01–04** | The system: what risk is · the economic order · anarchy and power · fragmentation |
+| **05–06** | Who governs it: public institutions · private authority and standards |
+| **07** | How risk becomes a number: text, coding, big data, indices |
+| **08–11** | How it reaches the firm: cyber · economic diplomacy · sanctions · supply chains |
+| **12** | Your assessment, for one named multinational |
+
+## Every session has the same rhythm
+
+| Before | First half | Second half · practice round |
+|---|---|---|
+| A **big article or book** | The concept, its theory, its evidence | **Collect** the data at source |
+| Its **target figure** | What it means for the firm | **Prepare** it in Tableau |
+| The **data source** located | The Tableau skill of the day | **Replicate** the figure |
+| A written **self-check** | | **Compare**, break, extend |
+| | | **The catch** — one slide, two minutes |
+
+::: {.warn}
+**The one rule.** Every practice deliverable documents at least one place where the data disagreed with the paper.
+:::
+
+## The grade
+
+| Component | Weight | When |
+|---|---|---|
+| Participation | 10% | every session |
+| Three quizzes | 15% | Sessions 04, 07, 10 |
+| Risk Brief — individual, 5 minutes | 15% | one of Sessions 02–11 |
+| Team dashboard for one multinational | 20% | Session 12 |
+| Take-home examination, 3 h in a 48 h window | 40% | final examination period |
+
+::: {.muted}
+80% individual. Full detail: `SYLLABUS.md` and `assessments/README.md`.
+:::
+
+# Risk, uncertainty, and three kinds of risk {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Knight's distinction
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Risk
+
+Outcomes whose **probabilities can be estimated** from experience.
+
+A shipping insurer pricing piracy in the Gulf of Aden.
+
+::::
+
+:::: {.column width="50%"}
+
+### Uncertainty
+
+Outcomes whose probabilities **cannot** be estimated.
+
+A board asking whether Taiwan will be blockaded within five years.
+
+::::
+
+:::::
+
+::: {.get}
+Geopolitics lives between the two. Wars and coups recur, but each is unlike the last. This course moves questions from the right column towards the left — and is honest about how far they move.
+:::
+
+::: {.muted}
+Knight, F. H. (1921). *Risk, Uncertainty and Profit*.
+:::
+
+## Three kinds of risk
+
+| | Question | Unit | Example |
+|---|---|---|---|
+| **Political** | Can the host government change the rules on *me*? | firm × country | expropriation, licence withdrawal |
+| **Country** | Will this country pay, convert, transfer? | country | default, capital controls |
+| **Geopolitical** | Will relations *between* states move against me? | system or dyad | war, sanctions, export controls, blocs |
+
+::: {.step}
+**Kobrin (1979):** *macro* risk hits every foreign firm in a country; *micro* risk hits one sector or firm.
+:::
+
+::: {.get}
+Geopolitical risk adds a **third layer**: risk that originates *outside* the host country and reaches the firm through suppliers, customers, banks and networks.
+:::
+
+## Put it to the room
+
+> A Canadian bank with a Moscow subsidiary, February 2022. **Political, country, or geopolitical risk?**
+
+::: {.fragment}
+All three — and they arrive through different channels:
+
+- **Political:** the host state restricts the withdrawal of foreign firms
+- **Country:** capital controls trap the subsidiary's earnings
+- **Geopolitical:** Canada's own sanctions forbid transactions the subsidiary depends on
+:::
+
+# Six families of indicators {background-color="#E3120B" style="color:#F7F4ED"}
+
+## What is being counted?
+
+| Family | Counts | You will use | Blind spot |
+|---|---|---|---|
+| **Event-based** | things that happened | cyber incidents (S08), sanctions (S10) | only what was reported |
+| **Text-based** | how much the press talks | **GPR (today)**, EPU (S07) | attention, not exposure |
+| **Expert-based** | analysts' scores | governance indicators | opaque, sticky |
+| **Structural** | slow features of the system | capabilities (S03), dependence (S04, S11) | rarely says *when* |
+| **Market-based** | prices embedding risk | CDS spreads, implied volatility | mixes risk and appetite |
+| **Firm-level** | firms' own perception | earnings calls (S07) | listed firms only |
+
+## Triangulate
+
+::: {.get}
+**No single family is enough.** The team project must combine at least three.
+:::
+
+When they disagree, the disagreement is the information:
+
+- the **text** is calm, the **market** is not → someone is pricing something the press has not seen
+- the **structure** is fragile, the **events** are quiet → risk is accumulating, not absent
+- **experts** are alarmed, **firms** are not → exposure is concentrated, or the experts are behind
+
+# The GPR index: how it is built {background-color="#E3120B" style="color:#F7F4ED"}
+
+## The definition
+
+> *"The threat, realization, and escalation of adverse events associated with wars, terrorism, and any tensions among states and political actors that affect the peaceful course of international relations."*
+
+::: {.muted}
+Caldara, D., & Iacoviello, M. (2022). Measuring Geopolitical Risk. *AER*, 112(4), 1194–1225.
+:::
+
+::: {.step}
+Note what is **in**: threats as well as acts; non-state actors; tensions short of war.
+Note what is **out**: domestic politics, elections, regulation.
+:::
+
+## Four steps
+
+| Step | What happens |
+|---|---|
+| **1 · Corpus** | Ten US, UK and Canadian newspapers from 1985; three US newspapers from 1900 |
+| **2 · Dictionary** | Eight categories: war threats, peace threats, military build-ups, nuclear threats, terror threats, beginning of war, escalation of war, terror acts |
+| **3 · Share** | GPR articles ÷ all articles, each month |
+| **4 · Normalise** | Rescale so that 1985–2019 averages **100** |
+
+::: {.get}
+**Why divide by all articles?** Newspapers grow and shrink. The share does not care.
+:::
+
+## Threats and acts
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### GPR Threats
+
+war threats · peace threats · military build-ups · nuclear threats · terror threats
+
+::::
+
+:::: {.column width="50%"}
+
+### GPR Acts
+
+beginning of war · escalation of war · terror acts
+
+::::
+
+:::::
+
+::: {.warn}
+For the firm, the distinction matters: **threats alone** depress investment. You do not need the war to pay its cost.
+:::
+
+## Does it measure something real?
+
+- **Narrative.** It spikes when it should: the World Wars, Korea, Cuba 1962, the Gulf War, 9/11, Iraq 2003, Ukraine 2022
+- **Audit.** Samples of flagged articles are read by hand
+- **Country indices.** The same count, restricted to articles naming the country
+
+::: {.muted}
+Today's practice round rebuilds the first of these: the monthly index with its spikes labelled.
+:::
+
+# Why a firm should care {background-color="#E3120B" style="color:#F7F4ED"}
+
+## The value of waiting
+
+::: {.step}
+Investment is **costly to reverse** + the future is **uncertain** → **waiting has value**
+:::
+
+- A GPR spike raises the value of waiting
+- Firms postpone capital expenditure, hiring and entry
+- The paper: higher GPR predicts **lower investment and employment**, more so in exposed industries
+
+::: {.muted}
+Bernanke (1983), *QJE* · Bloom (2009), *Econometrica*
+:::
+
+## Five channels, all term
+
+| Channel | Example | Session |
+|---|---|---|
+| **Market access** | bloc-based trade diversion | 04 |
+| **Inputs** | export restrictions on critical minerals | 11 |
+| **Finance and payments** | sanctioned banks, frozen assets | 10 |
+| **Assets and people** | conflict, expropriation, evacuation | 03, 05 |
+| **Data and operations** | state-sponsored cyber operations | 08 |
+
+# What GPR does not tell you {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four limits
+
+1. It measures **attention in the anglophone press** — not the risk to a subsidiary in Abidjan
+2. It is **global**; the country indices exist only where newspapers write
+3. **Attention fades** while risk persists — a frozen conflict
+4. It is **not a forecast**
+
+::: {.get}
+**Add a fifth.** This list is the template for *the catch*, the last step of every practice round.
+:::
+
+## Put it to the room
+
+> March 2022. GPR is several times its long-run average. You run a Canadian fertiliser exporter.
+> **What do you actually do differently this month?**
+
+::: {.warn}
+"Monitor the situation" is not an answer. Name a decision — hedge, delay, reroute, diversify — and the threshold that triggers it.
+:::
+
+# The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
+
+## From file to figure
+
+1. **Connect** → Microsoft Excel → `data_gpr_export.xls`
+2. Check `month` is a **date** (calendar icon), not text
+3. `month` → Columns, as **continuous MONTH** (green pill)
+4. `GPR` → Rows
+5. **Analytics** pane → *Reference Line* → constant **100**
+6. Right-click a peak → **Annotate → Point**
+
+::: {.check}
+That is the practice round's first fifteen minutes. The rest is making it match Figure 1 — and finding where it cannot.
+:::
+
+## Over to the practice round
+
+> **Practice round 01:** rebuild the GPR figure, compare threats with acts, and say what it does not license.
+
+::: {.muted}
+`02-practice/README.md`
+:::

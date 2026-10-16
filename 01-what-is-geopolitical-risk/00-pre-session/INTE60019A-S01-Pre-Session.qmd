@@ -1,0 +1,167 @@
+---
+title: "Session 1: Before the session"
+subtitle: "Before we can manage geopolitical risk, what exactly are we counting?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "01"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 01 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Install Tableau
+3. Read the paper
+4. Get the data
+5. Self-check
+
+## What session 1 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Separate **risk** from **uncertainty**
+- Separate **political**, **country** and **geopolitical** risk
+- Sort indicators into six families
+- Say what the GPR index measures — and what it cannot
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Install Tableau Desktop and Prep under the academic licence
+- Connect to an `.xls` file and set a date field
+- Build a line chart with a reference line
+- Annotate the spikes
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Name the channels from an event to a firm's P&L
+- Say why firms delay investment when GPR spikes
+- Say why newspaper attention is not a risk score for a subsidiary
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Before we can manage geopolitical risk, what exactly are we counting?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Install Tableau Desktop, Tableau Prep, open a Tableau Public account | 20 min + licence wait |
+| **2** | Read Caldara & Iacoviello (2022) | 60–75 min |
+| **3** | Download the GPR index | 10 min |
+| **4** | Attempt the self-check | 15 min |
+
+::: {.warn}
+Request the academic licence **today**. Approval can take several days, and the practice round starts
+at minute 90 of the first class.
+:::
+
+## 1 · Install Tableau
+
+::: {.step}
+**Tableau for Students** → request a licence with your HEC address → product key by e-mail
+:::
+
+1. Install **Tableau Desktop** and **Tableau Prep Builder**; activate both with the key
+2. Create a free **Tableau Public** account
+3. Test: *Sample – Superstore* → `Order Date` to Columns, `Sales` to Rows
+
+::: {.check}
+A line appears? You are ready.
+:::
+
+::: {.muted}
+No key yet? Install the 14-day trial. Full instructions: `TABLEAU-TOOLKIT.md` at the repository root.
+:::
+
+## 2 · Read the paper
+
+**Caldara & Iacoviello (2022), *Measuring Geopolitical Risk*, AER 112(4): 1194–1225**
+
+::: {.muted}
+[doi:10.1257/aer.20191823](https://doi.org/10.1257/aer.20191823) · free working paper on the authors' page
+:::
+
+Annotate four things:
+
+| | |
+|---|---|
+| **1** | Their **definition** of geopolitical risk — word for word |
+| **2** | How the index is **built**: newspapers, words, normalisation |
+| **3** | The **strongest evidence** that it measures something real |
+| **4** | One **limitation** a chief risk officer would raise |
+
+::: {.get}
+**Figure 1 is today's target figure.** Read Sections I–III closely; skim IV–V.
+:::
+
+## 3 · Get the data
+
+::: {.step}
+[matteoiacoviello.com/gpr.htm](https://www.matteoiacoviello.com/gpr.htm) → monthly export, `data_gpr_export.xls`
+:::
+
+Save it **untouched** in:
+
+```text
+01-what-is-geopolitical-risk/data/raw/
+```
+
+Open it once in a spreadsheet and find:
+
+- the first month of the **recent** index
+- the first month of the **historical** index
+- the column for **one country you care about** (`GPRC_` + ISO code)
+
+## 4 · Self-check
+
+Answer on paper.
+
+1. What is the difference between **risk** and **uncertainty**?
+2. Name one **non-text** indicator of geopolitical risk, and one advantage it has over text.
+3. GPR reads **300** in March 2022. Say what that means to a manager.
+4. Name an event that **mattered to a multinational** but barely moved GPR. Why might it not have?
+
+## Arrive with
+
+::: {.check}
+- Tableau Desktop and Prep installed (or the trial)
+- A Tableau Public account
+- The paper annotated, Figure 1 understood
+- `data_gpr_export.xls` in `data/raw/`
+- Your self-check, on paper
+:::

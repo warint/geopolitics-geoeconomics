@@ -1,0 +1,238 @@
+---
+title: "Session 5: International Institutions"
+subtitle: "Arenas of power, or constraints on it?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "05"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 05 · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · The hour ahead {.center .scrollable}
+
+1. Risk Briefs
+2. Why would states under anarchy build institutions?
+3. The Security Council in five facts
+4. The price of a seat — Kuziemko & Werker (2006)
+5. What it means for multinational firms
+6. The Tableau skill of the day: LOD expressions
+
+## What session 5 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Realism vs liberal institutionalism on why institutions exist
+- The structure of the Security Council
+- Kuziemko & Werker's finding, and how it is identified
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- A country × term table related to a country × year file
+- **`FIXED` LOD expressions**
+- An event-time chart with a reference band
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Where institutions enter a firm's risk
+- Why a Chapter VII resolution binds a firm everywhere
+- Track the coalition, not just the rule
+
+::::
+
+:::::
+
+# Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four briefs, five minutes each
+
+| | |
+|---|---|
+| **0–1** | The development |
+| **1–3** | The view |
+| **3–4** | The exposure |
+| **4–5** | The recommendation |
+
+::: {.muted}
+One question from the room per brief.
+:::
+
+# Why would states under anarchy build institutions? {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Two answers
+
+| | **Liberal institutionalism** | **Realism** |
+|---|---|---|
+| **Key text** | Keohane (1984), *After Hegemony* | Mearsheimer (1994/95), *The False Promise…* |
+| **Why they exist** | Lower transaction costs; information; a longer shadow of the future | They reflect the distribution of power |
+| **Do they constrain?** | At the margin — reneging becomes costly | Rarely — power wins when interests collide |
+| **For the firm** | Rules are a stable floor | Rules last as long as the coalition behind them |
+
+::: {.get}
+The firm's question is not *which theory is true* but **which institution, on which issue, behaves like which.**
+:::
+
+## Put it to the room
+
+> The WTO Appellate Body has been unable to hear appeals since December 2019.
+> **Which theory explains that better — and what does it predict next?**
+
+# The Security Council in five facts {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Fifteen seats
+
+1. **Five permanent** — China, France, Russia, UK, US — and **ten elected** (six before 1966)
+2. Elected for **two years**, five each year, by regional group, two-thirds of the General Assembly; no immediate re-election
+3. Substantive decisions: **nine votes, no veto**
+4. **Chapter VII** measures bind **every UN member state**
+5. The P5 need nine votes → an elected member's vote **can be pivotal**
+
+::: {.warn}
+Fact 5 is the whole paper.
+:::
+
+# The price of a seat {background-color="#E3120B" style="color:#F7F4ED"}
+
+## The question
+
+> **Do powerful states pay for the votes of elected Security Council members?**
+
+::: {.muted}
+Kuziemko, I., & Werker, E. (2006). *Journal of Political Economy*, 114(5), 905–930. [doi:10.1086/507155](https://doi.org/10.1086/507155)
+:::
+
+## The identification idea
+
+::: {.step}
+Rotation follows **regional queues and norms**, not a country's need for aid.
+:::
+
+So compare a country **with itself**:
+
+| Event time | −3 | −2 | −1 | **0** | **+1** | +2 | +3 |
+|---|---|---|---|---|---|---|---|
+| | before | before | election year | **term** | **term** | after | after |
+
+::: {.get}
+If aid rises in years 0 and +1 and falls back afterwards, the **seat** is the likeliest explanation — not poverty, alliances or politics, which do not rotate.
+:::
+
+## What they find
+
+- **US aid rises substantially** during the term — about **59%** in the abstract's headline estimate; UN aid rises more modestly
+- The increase is **concentrated in the term** and **disappears afterwards**
+- It is **larger when the Council matters more** — measured by press coverage of the Council
+
+::: {.warn}
+The salience result turns a correlation into a mechanism. Why?
+:::
+
+## Finding vs interpretation
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### The finding
+
+Aid moves with membership — and with the salience of Council business.
+
+::::
+
+:::: {.column width="50%"}
+
+### The interpretation
+
+"Vote buying" — the most plausible reading, not a proof of bribery.
+
+::::
+
+:::::
+
+::: {.muted}
+Follow-ups extend the pattern to the World Bank and the IMF: Vreeland & Dreher (2014), *The Political Economy of the United Nations Security Council*, Cambridge UP.
+:::
+
+# What it means for multinational firms {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four places institutions enter a firm's risk
+
+| Where | Institution | The firm relies on | The warning |
+|---|---|---|---|
+| **Sanctions** | UNSC Chapter VII | a predictable list | resolutions are bargained; a veto pushes sanctions into diverging national regimes |
+| **Investment protection** | BITs, ICSID | a neutral forum | only as strong as the host's willingness to pay |
+| **Insurance** | MIGA, export-credit agencies | cover against expropriation, war, transfer | the insurer's shareholders are states |
+| **Trade rules** | WTO | bindings, non-discrimination | no functioning appeal since 2019 |
+
+## The lesson
+
+::: {.get}
+An institution is a risk **mitigator** when its coalition is stable, and a risk **source** when it is not.
+:::
+
+**Track the coalition, not just the rule:** who sits on the Council, how they vote, what they are being offered.
+
+> **Put it to the room:** is a UN sanctions resolution more or less durable for a firm than a unilateral US one?
+
+# The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Years relative to a term
+
+**Join** the **term table** (one row per term) to the **aid table** (country × year) on `Iso3` — a join, not a relationship: row-level calculations cannot mix related tables.
+
+```text
+[Event time] = [Year] - [Term start]
+```
+
+::: {.warn}
+A country with two terms close together appears twice in some years. Overlapping windows: log it.
+:::
+
+## A baseline that ignores the view — `FIXED`
+
+```text
+[Baseline aid] = { FIXED [Iso3], [Term start] :
+                   AVG( IF [Event time] >= -3 AND [Event time] <= -1
+                        THEN [Aid] END ) }
+
+[Aid relative to baseline] = [Aid] / [Baseline aid]      // row level: one value per country-year-term
+```
+
+::: {.step}
+`FIXED` computes at country × term, whatever is on Rows and Columns — so one chart can average across terms a ratio computed **within** each term.
+:::
+
+## Over to the practice round
+
+> **Practice round 05:** rebuild aid in event time around a Security Council term, and ask what it means for a firm relying on the Council.
+
+::: {.muted}
+`02-practice/README.md`
+:::

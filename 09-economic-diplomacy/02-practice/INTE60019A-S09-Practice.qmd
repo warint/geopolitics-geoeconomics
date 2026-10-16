@@ -1,0 +1,115 @@
+---
+title: "Session 9: Practice round 09"
+subtitle: "Do embassies follow, or lead, exports?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "09"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 09 practice · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Ninety minutes {.center .scrollable}
+
+1. The target
+2. Collect — 15 min
+3. Prepare — 25 min
+4. Replicate — 20 min
+5. Compare and break — 20 min
+6. The catch — 10 min
+7. Hand in
+
+## The target
+
+> **Rose (2007):** exports against the number of posts the exporter keeps in the partner — log scales, trend line — rebuilt with **Lowy 2023** and **IMF** trade.
+
+| Step | Minutes |
+|---|---|
+| **1 · Collect** | 15 |
+| **2 · Prepare** | 25 |
+| **3 · Replicate** | 20 |
+| **4 · Compare and break** | 20 |
+| **5 · The catch** | 10 |
+
+## 1 · Collect — 15 min
+
+| File | From |
+|---|---|
+| `DataDownload.xlsx` | Lowy Global Diplomacy Index |
+| exports 2023 | IMF IMTS — goods, FOB, US$ — Canada + 4 × all partners |
+| GDP | WDI `NY.GDP.MKTP.CD` |
+
+::: {.muted}
+Log which side of the flow you used: **exporter-reported exports**.
+:::
+
+## 2 · Prepare — 25 min
+
+1. Lowy, sheet **2023** — drop missions to international organisations
+2. IMF — five exporters, 2023, no aggregate partners
+3. **Concordance** `name → ISO3` for both files
+4. **Relationship** (not join) on exporter = sender **and** partner = host
+5. `Posts` = `ZN(COUNT([Post City]))` — **the zeros**
+6. `Posts + 1` — so it can be logged · log the decision
+7. `Exports / partner GDP (‰)`
+
+::: {.warn}
+A join repeats each export value once per post. Check one pair against the IMF file.
+:::
+
+## 3 · Replicate — 20 min
+
+| Shelf | Field |
+|---|---|
+| Columns | `Posts + 1` |
+| Rows | `Exports` |
+| Detail | exporter ISO3, partner ISO3 |
+| Colour | exporter |
+
+1. Both axes → *Edit Axis* → **Logarithmic**
+2. *Analytics* → **Trend Line** → Linear → **Describe Trend Model**
+
+## 4 · Compare and break — 20 min
+
+1. **Differ.** Steeper or flatter than Rose? One reason
+2. **Size.** Exports → exports per partner GDP: slope? R²?
+3. **Type.** Embassies only, then consulates only
+4. **Zeros.** Drop `Posts = 0` — how far does the line move?
+5. **Reverse causality** (fast teams): Lowy 2017 + IMF 2017 → change in posts vs export growth
+
+## 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| Rose's relationship | Your Sheet 1 | What it does **not** license a firm — or a ministry — to conclude |
+
+::: {.warn}
+R² = 0.6 does not mean "embassies explain 60% of exports". They co-vary.
+:::
+
+## Hand in
+
+- `.twbx` and provenance log, with concordance fixes → ZoneCours
+
+::: {.check}
+**The one rule:** the log records at least one place where the data disagreed with the paper.
+:::
+
+::: {.muted}
+Session 10 opens with **Quiz 3** (Sessions 07–09). Bring the **GSDB** file.
+:::

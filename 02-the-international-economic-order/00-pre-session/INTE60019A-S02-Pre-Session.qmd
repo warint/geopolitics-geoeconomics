@@ -1,0 +1,150 @@
+---
+title: "Session 2: Before the session"
+subtitle: "Who wrote the rules multinationals play by?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "02"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 02 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read Baldwin
+3. Collect the WDI extract
+4. Shortlist your team's firm
+5. Self-check
+
+## What session 2 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- The post-1945 order: Bretton Woods, GATT, WTO
+- Baldwin's three unbundlings
+- Rodrik's trilemma and the backlash
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- A custom DataBank extract
+- **Pivot** sixty year-columns into two
+- Filter on ISO codes, never names
+- Area chart · **percent of total**
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- The multinational as organiser of value chains
+- What a shrinking G7 share means for rule-making
+- Slowbalisation and the firm's footprint
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Who wrote the rules multinationals play by — and what happens when the writers' share shrinks?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read Baldwin, *The Great Convergence* — Introduction, Parts I–II | 60–75 min |
+| **2** | Collect the WDI extract from DataBank | 15 min |
+| **3** | Shortlist three multinationals for your team | 15 min |
+| **4** | Self-check | 15 min |
+
+::: {.warn}
+Teams form in the first ten minutes of the practice. No two teams the same firm — first come, first served.
+:::
+
+## 1 · Read Baldwin
+
+**Baldwin (2016), *The Great Convergence*, Belknap / Harvard UP**
+
+| | Annotate |
+|---|---|
+| **1** | The **three costs**: moving goods, ideas, people — which fell when |
+| **2** | Why unbundling 1 → **divergence**, unbundling 2 → **convergence** |
+| **3** | The **G7 share** figure: units, years, source |
+| **4** | One claim a G7 multinational's strategy team would **contest** |
+
+::: {.get}
+**Target figure:** the G7 share of world GDP. Note whether it is current dollars, constant dollars or PPP.
+:::
+
+## 2 · Collect the WDI extract
+
+::: {.step}
+[DataBank → World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
+:::
+
+| Choose | |
+|---|---|
+| **Countries** | `CAN FRA DEU ITA JPN GBR USA` · `CHN KOR IND POL IDN THA` · World |
+| **Series** | `NY.GDP.MKTP.CD` · `NY.GDP.MKTP.PP.CD` · `NE.TRD.GNFS.ZS` |
+| **Time** | 1970 → latest |
+| **Download** | Excel → `02-…/data/raw/` |
+
+::: {.warn}
+There is **no G7 aggregate** in WDI. You will build it.
+:::
+
+## 3 · Shortlist your firm
+
+A good team firm:
+
+- publishes **revenue by country or region**
+- operates in **three or more** of: US, EU, China, Russia, the Gulf, India
+- is exposed to sanctions, export controls, cyber or standards
+
+::: {.muted}
+Bring three names. Register the team's choice on ZoneCours before you leave class.
+:::
+
+## 4 · Self-check
+
+1. What did **Bretton Woods** (1944) create? What did the **GATT** (1947) add?
+2. What was unbundled in the **first** unbundling? In the **second**?
+3. Market exchange rates or **PPP**: which gives the G7 a larger share, and why?
+4. Rodrik's **trilemma**: name the three.
+
+## Arrive with
+
+::: {.check}
+- Baldwin read, target figure understood
+- WDI extract in `data/raw/`, logged
+- Three candidate multinationals
+- Self-check on paper
+- Risk Brief today? `.twbx` on ZoneCours before class
+:::

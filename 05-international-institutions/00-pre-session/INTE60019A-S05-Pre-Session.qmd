@@ -1,0 +1,145 @@
+---
+title: "Session 5: Before the session"
+subtitle: "Is an institution a rule — or a market for influence?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "05"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 05 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read the paper
+3. Collect the data — route A or route B
+4. Self-check
+
+## What session 5 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Realism vs liberal institutionalism on why institutions exist
+- The structure of the Security Council
+- Kuziemko & Werker's finding, and how it is identified
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- A country × term table, transcribed from an official list
+- **`FIXED` LOD expressions**: years relative to a term, a pre-term baseline
+- An event-time chart with a reference band
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Where institutions enter a firm's risk
+- Why a Chapter VII resolution binds a firm everywhere
+- When an institution reduces risk — and when it makes it
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Is an institution a rule — or a market for influence?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read Kuziemko & Werker (2006) | 60–75 min |
+| **2** | Collect the data — route A or B, decided as a team | 30–45 min |
+| **3** | Attempt the self-check | 15 min |
+
+## 1 · Read the paper
+
+**Kuziemko & Werker (2006), *How Much Is a Seat on the Security Council Worth?*, JPE 114(5): 905–930**
+
+::: {.muted}
+[doi:10.1086/507155](https://doi.org/10.1086/507155)
+:::
+
+| | |
+|---|---|
+| **1** | The **research question**, in one sentence |
+| **2** | The **identification idea**: why does rotation help? |
+| **3** | The **strongest evidence** — and when the effect is larger |
+| **4** | One **limitation**, as a referee or as a firm |
+
+::: {.get}
+**Target figure:** aid in **event time**, before, during and after a term. Write down what is on each axis.
+:::
+
+## 2 · Collect the data
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Route A · faster
+
+- AidData → replication page → **Download Data**
+- Log the format, the variable list, the units
+
+::::
+
+:::: {.column width="50%"}
+
+### Route B · teaches more
+
+- **Greenbook** country summary — official site or the Heiss mirror
+- **Transcribe** the UN list of elected members, 1970–2010, one row per term
+- Split the alphabet across the team
+
+::::
+
+:::::
+
+::: {.warn}
+Everything untouched in `05-international-institutions/data/raw/`. Details in `data/README.md`.
+:::
+
+## 3 · Self-check
+
+1. Why do states build institutions — for a **liberal institutionalist**, for a **realist**?
+2. Council size, permanent members, length of an elected term?
+3. Why compare a country with **itself** in other years?
+4. A Chapter VII sanctions resolution hits your distributor's country. **Who is bound — and why care how it was voted?**
+
+## Arrive with
+
+::: {.check}
+- The paper annotated; the event-time figure understood
+- Route A or route B files in `data/raw/`, logged
+- Your self-check, on paper
+:::

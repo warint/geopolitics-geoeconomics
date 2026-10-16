@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you reuse these course materials, please cite them as below."
+title: "Geopolitical Risks and International Business (INTE 60019A)"
+type: generic
+authors:
+  - family-names: Warin
+    given-names: Thierry
+    affiliation: HEC Montréal
+year: 2026
+license: CC-BY-NC-4.0
+keywords:
+  - geopolitical risk
+  - international business
+  - multinational firms
+  - economic sanctions
+  - economic diplomacy
+  - Tableau
+  - replication

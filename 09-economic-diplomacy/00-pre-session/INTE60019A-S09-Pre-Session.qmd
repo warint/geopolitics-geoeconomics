@@ -1,0 +1,126 @@
+---
+title: "Session 9: Before the session"
+subtitle: "Is the multinational the object of diplomacy, its instrument — or a diplomat?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "09"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 09 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read three texts
+3. Get three datasets
+4. Self-check
+
+## What session 9 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Putnam's **two-level game** and the **win-set**
+- **Digital diplomacy** at Level II
+- States and firms as bargaining partners
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Post-level file → dyad counts
+- Keep the **zeros** in a join
+- **Log scales** and **trend lines**, read honestly
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Instruments of **commercial diplomacy**
+- **Investment screening** aimed at firms
+- When to lean on the home state
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Is the multinational the object of diplomacy, its instrument — or a diplomat?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read Rose (2007), Putnam (1988), Bjola & Manor (2018) | 80 min |
+| **2** | Download Lowy GDI, IMF exports, WDI GDP | 20 min |
+| **3** | Self-check | 15 min |
+
+## 1 · Read
+
+| | |
+|---|---|
+| **Rose (2007)** | *The World Economy* 30(1): 22–38 · [doi](https://doi.org/10.1111/j.1467-9701.2007.00870.x) · **the target** |
+| **Putnam (1988)** | *International Organization* 42(3): 427–460 · [doi](https://doi.org/10.1017/S0020818300027697) · first half |
+| **Bjola & Manor (2018)** | *Cambridge Review of International Affairs* 31(1): 3–32 · [doi](https://doi.org/10.1080/09557571.2018.1476836) |
+
+Annotate: Rose's **claim, data, effect size** · the **reverse-causality** objection · the **win-set** · what **digital** changes at Level II
+
+## 2 · Get the data
+
+::: {.step}
+**Lowy GDI** → `downloads/DataDownload.xlsx` — one sheet per year, one row per **post**
+:::
+
+::: {.step}
+**IMF IMTS** → goods exports, FOB, US$, **2023** — Canada + four other Lowy countries × all partners
+:::
+
+::: {.step}
+**WDI** → `NY.GDP.MKTP.CD`
+:::
+
+::: {.warn}
+Lowy lists posts that **exist**. "No post" is not a zero in the file — it is a missing row.
+:::
+
+## 3 · Self-check
+
+1. Why can a **small** win-set strengthen a negotiator?
+2. Two explanations of Rose's correlation **other** than export promotion
+3. One instrument of commercial diplomacy besides embassies — and a firm that used it
+4. One **investment-screening** case you know
+
+## Arrive with
+
+::: {.check}
+- Three readings annotated
+- Lowy, IMF and WDI files in `data/raw/`
+- Self-check on paper
+- **GSDB file received** for Session 10
+:::

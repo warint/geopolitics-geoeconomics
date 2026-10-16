@@ -1,0 +1,154 @@
+---
+title: "Session 1: Practice round 01"
+subtitle: "Rebuild the Geopolitical Risk index"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "01"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 01 practice · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Ninety minutes {.center .scrollable}
+
+1. The target
+2. Collect — 15 min
+3. Prepare — 15 min
+4. Replicate — 30 min
+5. Compare and break — 20 min
+6. The catch — 10 min
+7. Hand in
+
+## The target
+
+> **Caldara & Iacoviello (2022), Figure 1** — the monthly GPR index since 1985, spikes labelled.
+> Then the historical index since 1900.
+
+| Step | Minutes |
+|---|---|
+| **1 · Collect** | 15 |
+| **2 · Prepare** | 15 |
+| **3 · Replicate** | 30 |
+| **4 · Compare and break** | 20 |
+| **5 · The catch** | 10 |
+
+::: {.muted}
+In pairs today. Teams form in Session 02.
+:::
+
+## 1 · Collect — 15 min
+
+::: {.step}
+[matteoiacoviello.com/gpr.htm](https://www.matteoiacoviello.com/gpr.htm) → `data_gpr_export.xls` → `data/raw/`
+:::
+
+Start the **provenance log** — `templates/provenance-log.csv`:
+
+| file | source | url | version | accessed | licence | notes |
+|---|---|---|---|---|---|---|
+| data_gpr_export.xls | Caldara & Iacoviello | …/gpr.htm | *last updated* | *today* | free, cite | *?* |
+
+::: {.warn}
+No version, no access date → no credit, from Session 02 on.
+:::
+
+## 2 · Prepare — 15 min
+
+1. **Connect → Microsoft Excel** → the file
+2. Drag the data sheet to the canvas; read the grid
+3. `month` must be a **date** — fix the icon if not
+4. `GPR`, `GPRT`, `GPRA`, `GPRH` must be **numbers**
+5. Log what Tableau got wrong
+
+::: {.muted}
+Blank `GPR` before 1985 is expected — the recent index starts then.
+:::
+
+## 3 · Replicate · Sheet 1 — GPR since 1985
+
+1. `month` → Columns → **continuous Month** (green pill)
+2. `GPR` → Rows
+3. Filter from January 1985
+4. Analytics → **Reference Line** → constant **100**
+5. **Annotate** the five highest peaks — check the months yourself
+6. Title + source caption
+
+::: {.check}
+Your line should already look like Figure 1. Now make it *say* what Figure 1 says.
+:::
+
+## 3 · Replicate · Sheets 2 and 3
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Sheet 2 · since 1900
+
+- Duplicate Sheet 1
+- `GPR` → `GPRH`
+- Remove the date filter
+- Annotate both World Wars, Korea, Cuba 1962
+
+::::
+
+:::: {.column width="50%"}
+
+### Sheet 3 · threats and acts
+
+- `GPRT` to Rows
+- Drop `GPRA` **on the same axis**
+- Colour by **Measure Names**
+
+::::
+
+:::::
+
+## 4 · Compare and break — 20 min
+
+1. **Differ.** Yours vs Figure 1: one difference, and why
+2. **Threats vs acts.** One episode where threats led acts. What did an acts-only watcher miss?
+3. **Break.** Monthly → **yearly average**. Which spikes vanish? What frequency should a dashboard run at?
+4. **Extend.** Add one `GPRC_` country. When does it diverge from the world?
+
+## 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| Figure 1 | Your Sheet 1 | What it does **not** license a multinational to conclude |
+
+::: {.warn}
+A limitation of the *paper* is not a catch. A catch is about what the *firm* may conclude.
+:::
+
+::: {.muted}
+A pair drawn at random presents, two minutes.
+:::
+
+## Hand in
+
+- `.twbx` — *File → Export Packaged Workbook*
+- Your provenance log
+
+::: {.check}
+**The one rule:** the log records at least one place where the data disagreed with the paper.
+:::
+
+::: {.muted}
+Formative today: commented, not marked; counts towards participation.
+:::

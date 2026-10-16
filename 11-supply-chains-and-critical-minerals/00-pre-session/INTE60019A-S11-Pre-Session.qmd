@@ -1,0 +1,157 @@
+---
+title: "Session 11: Before the session"
+subtitle: "Who really holds the risk in a critical-mineral supply chain?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "11"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 11 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read the OECD paper
+3. Read Le Billon & Shykora
+4. Collect — and transcribe — the data
+5. Self-check
+
+## What session 11 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- **Weaponised interdependence**: chokepoints and panopticons
+- Conflict commodities, resource nationalism, strategic export controls
+- Friend-shoring, de-risking, the EU Critical Raw Materials Act
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Make a policy inventory and a production table share a key
+- **HHI** with an LOD expression
+- Treemaps
+- **Dashboard actions** across sheets
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Map a bill of materials to the countries behind it
+- Read a count of restrictions against one supplier contract
+- Choose: stockpile, diversify, substitute, integrate
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### When a handful of countries mine what you cannot do without, who holds the risk?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read Kowalski & Legendre (2023) | 45 min |
+| **2** | Read Le Billon & Shykora (2020) | 30 min |
+| **3** | Collect three datasets; **transcribe four USGS tables** | 40 min |
+| **4** | Attempt the self-check | 15 min |
+
+::: {.warn}
+The practice round starts from your transcription. No transcription, no practice.
+:::
+
+## 1 · The big work
+
+**Kowalski & Legendre (2023), *Raw Materials Critical for the Green Transition*, OECD Trade Policy Papers 269**
+
+::: {.muted}
+[doi:10.1787/c6bb598b-en](https://doi.org/10.1787/c6bb598b-en) · free
+:::
+
+| | |
+|---|---|
+| **1** | How is **concentration** measured? |
+| **2** | How is the **restrictions inventory** built? |
+| **3** | The **strongest evidence** that restrictions spread after 2009 |
+| **4** | One **limitation** a procurement director would raise |
+
+::: {.get}
+**Targets:** restrictions over time · concentration of production by country.
+:::
+
+## 2 · The companion reading
+
+**Le Billon & Shykora (2020), *Conflicts, commodities and the environmental geopolitics of supply chains***
+
+::: {.muted}
+In S. O'Lear (Ed.), *A Research Agenda for Environmental Geopolitics*, pp. 59–73 · [doi:10.4337/9781788971249.00012](https://doi.org/10.4337/9781788971249.00012)
+:::
+
+- What makes a commodity a **conflict** commodity?
+- How do supply chains **carry** conflict and harm to consumers?
+- One governance response — and why it falls short
+
+::: {.step}
+Revisit **Farrell & Newman (2019)**: *chokepoint* and *panopticon* — definitions only.
+:::
+
+## 3 · Collect — and transcribe
+
+| Dataset | Where | What |
+|---|---|---|
+| **OECD export restrictions** | OECD Data Explorer | full table, CSV |
+| **USGS Mineral Commodity Summaries** | usgs.gov | cobalt, graphite, lithium, rare earths — **transcribe** the world-production tables |
+| **GSCPI** | newyorkfed.org | `gscpi_interactive_data.csv` — find the **latest vintage** |
+
+::: {.warn}
+Transcription rules: latest estimated year · drop *World total* · keep *Other countries* flagged · blanks for withheld values · write the unit.
+:::
+
+::: {.muted}
+Split the minerals across the team. One person checks every row against the PDF.
+:::
+
+## 4 · Self-check
+
+1. **Chokepoint** vs **panopticon**: one example of each
+2. Shares 70%, 20%, 10%. **HHI?** Highly concentrated?
+3. Two reasons to restrict ore exports **other than** coercion
+4. A product of your team's firm that stops without one of the four minerals
+
+## Arrive with
+
+::: {.check}
+- Both readings annotated; target figures located
+- OECD CSV and GSCPI CSV in `data/raw/`
+- `usgs_world_production.csv` complete and checked
+- Provenance log started
+- Self-check, on paper
+:::

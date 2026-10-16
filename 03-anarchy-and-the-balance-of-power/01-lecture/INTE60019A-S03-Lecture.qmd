@@ -1,0 +1,292 @@
+---
+title: "Session 3: Anarchy and the Balance of the Major Powers"
+subtitle: "The geostrategic balance that dictates international trade relations"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "03"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 03 · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · The hour ahead {.center .scrollable}
+
+1. Risk Briefs
+2. Anarchy: the starting point
+3. Two realisms
+4. Power transition and the Thucydides's Trap
+5. Measuring power: the CINC
+6. What it means for the multinational
+7. What the figure does not license
+8. The Tableau skill of the day
+
+## What session 3 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Anarchy — what it means, what it does not
+- Defensive vs offensive realism
+- Power transition, Thucydides's Trap, and its critics
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- **Calculated fields**: shares and ratios
+- **Parameters** to choose the challenger
+- Reference lines at parity
+- Dual axis
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- The balance of power sets the rules of trade
+- Two compliance regimes
+- "Overtaken" — on what measure?
+
+::::
+
+:::::
+
+# Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four briefs, five minutes each
+
+| | |
+|---|---|
+| **0–1** | The development |
+| **1–3** | The view |
+| **3–4** | The exposure — which channel? |
+| **4–5** | The recommendation, and its trigger |
+
+# Anarchy {background-color="#E3120B" style="color:#F7F4ED"}
+
+## No government above states
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### What it means
+
+- No authority to make rules binding
+- No one to enforce contracts
+- No guarantee of survival
+
+::::
+
+:::: {.column width="50%"}
+
+### What it does not mean
+
+- Chaos
+- Constant war
+- Absence of rules or trade
+
+::::
+
+:::::
+
+::: {.step}
+What follows: **self-help** · **uncertainty about intentions** · **relative gains** (Grieco 1988)
+:::
+
+## Relative gains, applied
+
+> A deal that makes both sides richer — but the rival richer **faster** — may be refused, restricted or reversed.
+
+::: {.get}
+That is the logic of export controls on advanced semiconductors. Commerce becomes security.
+:::
+
+# Two realisms {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Waltz — defensive realism
+
+- **Structure** — anarchy + the **distribution of capabilities** — shapes behaviour
+- States seek **enough** power for security; too much provokes balancing
+- **Bipolarity** is more stable than multipolarity
+
+::: {.step}
+**The security dilemma** (Jervis 1978): what makes me secure makes you insecure — and you respond.
+:::
+
+::: {.muted}
+Waltz, K. N. (1979). *Theory of International Politics*.
+:::
+
+## Mearsheimer — offensive realism
+
+| | Five bedrock assumptions |
+|---|---|
+| **1** | The system is **anarchic** |
+| **2** | Great powers have **offensive** military capability |
+| **3** | Intentions are **uncertain** |
+| **4** | **Survival** is the primary goal |
+| **5** | Great powers are **rational** |
+
+::: {.get}
+→ Great powers **maximise relative power**; the ideal is **regional hegemony**. *"China cannot rise peacefully."*
+:::
+
+## Side by side
+
+| | Defensive (Waltz) | Offensive (Mearsheimer) |
+|---|---|---|
+| Power wanted | enough for security | as much as possible |
+| Restraint | balancing by others | only capability limits |
+| US–China | managed competition | intense security competition |
+
+::: {.warn}
+Neither predicts **war**. Both predict **competition**.
+:::
+
+# Power transition and the Thucydides's Trap {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Power transition theory
+
+- **Hierarchy**, not balance, keeps the peace
+- A **dominant power** writes the order
+- Danger: a **dissatisfied challenger** approaching **parity** — often operationalised as ~80% of the leader
+
+::: {.muted}
+Organski (1958) · Organski & Kugler (1980)
+:::
+
+## Allison's Thucydides's Trap
+
+> *"It was the rise of Athens and the fear that this instilled in Sparta that made war inevitable."*
+
+::: {.step}
+**16 cases** in 500 years of a rising power challenging a ruling one · **12 ended in war**
+:::
+
+::: {.fragment}
+**What is wrong with this ratio?**
+:::
+
+## The critics
+
+| Objection | |
+|---|---|
+| **Case selection** | chosen on the outcome; peaceful transitions under-counted |
+| **Nuclear weapons** | no pre-1945 case prices them |
+| **Interdependence** | US–China ties are deeper — though 1914 Britain and Germany traded heavily too |
+| **Measuring "rise"** | gross indicators overstate China (Beckley 2018) |
+
+# Measuring power: the CINC {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Six components, one average
+
+| Dimension | Components |
+|---|---|
+| **Demographic** | total population · urban population |
+| **Industrial** | iron and steel · primary energy consumption |
+| **Military** | personnel · expenditure |
+
+1. Each state's **share of the system total**, per component, per year
+2. **Average** the six shares → CINC between 0 and 1
+
+::: {.muted}
+Singer, Bremer & Stuckey (1972) · Correlates of War NMC v7.0, 1816–2022
+:::
+
+## What it rewards — and misses
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Rewards
+
+- Size: two components are **population**
+- Smokestacks: two are **steel and energy**
+
+::::
+
+:::: {.column width="50%"}
+
+### Misses
+
+- Technology and force quality
+- Alliances
+- Finance and **networks** — the dollar, SWIFT, the cloud
+
+::::
+
+:::::
+
+::: {.get}
+**Predict:** in which decade does CINC show China passing the US? The practice round answers it — and then asks the same of military spending and GDP.
+:::
+
+# What it means for the multinational {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Five implications
+
+| | |
+|---|---|
+| **Power sets the rules of trade** | sanctions, export controls, market-access conditions |
+| **Transition → two compliance regimes** | following one can violate the other |
+| **Relative gains → security goods** | chips, AI, batteries, aerospace |
+| **"Overtaken" depends on the measure** | say on **what** |
+| **Security dilemmas escalate without intent** | and reach your supply chain |
+
+## Put it to the room
+
+> 30% of your revenue is in China. A board member says *"China has already overtaken America."*
+> **What do you ask before you answer?**
+
+::: {.fragment}
+::: {.check}
+Overtaken **on what**? **When**? And **which of our decisions** depends on it?
+:::
+:::
+
+# What the figure does not license {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four limits
+
+1. Capabilities, not **influence, intentions or war**
+2. **Overweights size** — blind to chips, alliances, finance
+3. Ends in **2022**
+4. Describes **states**, not your firm's revenue and suppliers
+
+# The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Parameters and ratios
+
+1. **Create → Parameter** `Challenger` · list · add values from `stateabb`
+2. `Challenger CINC` = `IF [stateabb] = [Challenger] THEN [cinc] END`
+3. `US CINC` = `IF [stateabb] = "USA" THEN [cinc] END`
+4. `Power ratio` = `SUM([Challenger CINC]) / SUM([US CINC])`
+5. Reference lines at **1.0** (parity) and **0.8**
+6. Right-click the parameter → **Show Parameter**
+
+::: {.check}
+Over to the practice round.
+:::

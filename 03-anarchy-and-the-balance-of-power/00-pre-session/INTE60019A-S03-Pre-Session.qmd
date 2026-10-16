@@ -1,0 +1,149 @@
+---
+title: "Session 3: Before the session"
+subtitle: "Who sets the terms of trade when no one governs states?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "03"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 03 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read Mearsheimer and Allison
+3. Collect NMC and SIPRI — and read the codebook
+4. Self-check
+
+## What session 3 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Anarchy — what it means, what it does not
+- Defensive vs offensive realism
+- Power transition and the Thucydides's Trap
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Read a codebook first
+- **Calculated fields**: shares and ratios
+- **Parameters** to choose the challenger
+- Dual axis
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- The balance of power sets market access, sanctions, export controls
+- A transition changes which rules your firm follows
+- Three measures, three dates — which matters?
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### In a system with no government above states, who sets the terms of trade?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read Mearsheimer ch. 1–2 and Allison's introduction, ch. 2 and appendix | 60–75 min |
+| **2** | Collect NMC v7.0 and SIPRI · **read the NMC codebook** | 20 min |
+| **3** | Self-check | 15 min |
+
+## 1 · Read
+
+::::: columns
+
+:::: {.column width="50%"}
+
+**Mearsheimer (2001)**, *The Tragedy of Great Power Politics*, ch. 1–2
+
+Copy the **five bedrock assumptions**.
+
+::::
+
+:::: {.column width="50%"}
+
+**Allison (2017)**, *Destined for War*, introduction, ch. 2, appendix
+
+Count the cases — and how they were chosen.
+
+::::
+
+:::::
+
+| | Annotate |
+|---|---|
+| **1** | Which assumption does the most work |
+| **2** | How each author **measures power** |
+| **3** | Allison's cases: how many, how many wars, how selected |
+| **4** | One claim a firm in **both** the US and China should take seriously — one to doubt |
+
+## 2 · Collect — and read the codebook
+
+::: {.step}
+[correlatesofwar.org → National Material Capabilities](https://correlatesofwar.org/data-sets/national-material-capabilities/) → `NMCv7.zip`
+:::
+
+::: {.step}
+[sipri.org/databases/milex](https://www.sipri.org/databases/milex) → the latest `SIPRI-Milex-data-….xlsx`
+:::
+
+Find in the codebook:
+
+- the **six components** and their units
+- how **CINC** is computed
+- the codes for China, Russia/USSR, Germany, the UK
+- the **last year** covered
+
+::: {.warn}
+COW codes are **not** ISO codes. Germany is `GMY`, the UK `UKG`.
+:::
+
+## 3 · Self-check
+
+1. What does **anarchy** mean in realist theory — and what does it not?
+2. Waltz vs Mearsheimer: on **how much power** states want, where do they differ?
+3. CINC's three dimensions? Which flatters a populous, industrialising country?
+4. Allison: how many cases, how many wars? One reason to **doubt** the ratio.
+
+## Arrive with
+
+::: {.check}
+- Readings done, five assumptions copied
+- NMC unzipped and SIPRI in `data/raw/`, logged
+- Codebook read
+- Self-check on paper
+:::

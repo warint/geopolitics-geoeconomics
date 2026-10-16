@@ -1,0 +1,151 @@
+---
+title: "Session 8: Before the session"
+subtitle: "Is cyberspace a new battlefield — or old rivals with new tools?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "08"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 08 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read the book and the article
+3. Get the data
+4. Request the GSDB — for Session 10
+5. Self-check
+
+## What session 8 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- The **cyber-restraint** argument and its evidence
+- **Panopticon** and **chokepoint** effects
+- Why **attribution** makes cyber data peculiar
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Read an event dataset's codebook
+- **Highlight tables** and an initiator × target matrix
+- **Filter actions** between sheets
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Cyber in the firm's decision architecture
+- Collateral damage to firms not targeted
+- Data localisation and digital sovereignty
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Is cyberspace a new battlefield — or old rivals with new tools?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read Valeriano & Maness (selected chapters) and Farrell & Newman | 75 min |
+| **2** | Download DCID v2.0 and EuRepoC v1.3 | 15 min |
+| **3** | **Submit the GSDB request form** | 5 min |
+| **4** | Self-check | 15 min |
+
+## 1 · Read
+
+**Valeriano & Maness (2015), *Cyber War versus Cyber Realities*, Oxford UP**
+
+::: {.muted}
+[doi:10.1093/acprof:oso/9780190204792.001.0001](https://doi.org/10.1093/acprof:oso/9780190204792.001.0001) · introduction, the theory of restraint, the data chapter
+:::
+
+**Farrell & Newman (2019), *Weaponized Interdependence*, International Security 44(1): 42–79**
+
+::: {.muted}
+[doi:10.1162/isec_a_00351](https://doi.org/10.1162/isec_a_00351) · in full — it returns in Sessions 10 and 11
+:::
+
+| | Annotate |
+|---|---|
+| **1** | Who targets whom, how severely, and why |
+| **2** | How the incident data are built |
+| **3** | Panopticon vs chokepoint |
+| **4** | Why a firm with no quarrel might be hit |
+
+## 2 · Get the data
+
+::: {.step}
+**DCID v2.0** — Dataverse [doi:10.7910/DVN/CQOMYV](https://doi.org/10.7910/DVN/CQOMYV) → *Access File → CSV* + codebook
+:::
+
+::: {.step}
+**EuRepoC v1.3** — Zenodo [doi:10.5281/zenodo.14965395](https://doi.org/10.5281/zenodo.14965395) → `eurepoc_global_dataset_1_3.csv` + codebook
+:::
+
+```text
+08-cyber-geopolitics/data/raw/
+```
+
+In the DCID codebook, find: the **unit**, the list of **methods**, the **severity** scale.
+
+## 3 · Request the GSDB — now
+
+::: {.warn}
+Session 10 needs the **Global Sanctions Data Base**. It is free, but sent **on request**, by e-mail.
+:::
+
+::: {.step}
+[globalsanctionsdatabase.com](https://globalsanctionsdatabase.com/) → request form → HEC address → "academic use, INTE 60019A"
+:::
+
+::: {.muted}
+No redistribution, no commercial use: the file stays on your machine; workbooks go to ZoneCours only.
+:::
+
+## 4 · Self-check
+
+1. **Restraint** by whom — and why hold back a weapon you have?
+2. **Panopticon** vs **chokepoint**: one example each involving a private firm
+3. Why is **attribution** a problem for whoever builds the dataset?
+4. Name a multinational hit by an operation **not aimed at it**
+
+## Arrive with
+
+::: {.check}
+- Both readings annotated
+- DCID and EuRepoC in `data/raw/`, with codebooks
+- **GSDB request submitted**
+- Your self-check, on paper
+:::

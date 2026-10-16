@@ -1,0 +1,28 @@
+# Raw and derived data are never committed: collect at source, every time.
+**/data/*
+!**/data/README.md
+
+# Tableau working files belong on ZoneCours and Tableau Public, not in the course repository.
+*.twb
+*.twbx
+*.hyper
+*.tde
+*.tfl
+*.tflx
+Tableau Repository/
+
+# Quarto build cache and rendered decks. Sources (.qmd) are committed; renders are not.
+.quarto/
+*_files/
+*.html
+# ...except the GitHub Pages site, which must be committed for Pages to serve it.
+!docs/*.html
+
+# Live assessments — never commit: the repository is public.
+assessments/**/LIVE/
+
+# OS
+.DS_Store
+
+# Stray web pages saved while checking sources
+/*.htm

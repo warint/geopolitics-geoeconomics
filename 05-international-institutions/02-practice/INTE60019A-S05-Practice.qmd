@@ -1,0 +1,145 @@
+---
+title: "Session 5: Practice round 05"
+subtitle: "The price of a seat, in event time"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "05"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 05 practice · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Ninety minutes {.center .scrollable}
+
+1. The target
+2. Collect — 15 min
+3. Prepare — 20 min
+4. Replicate — 25 min
+5. Compare and break — 20 min
+6. The catch — 10 min
+7. Hand in
+
+## The target
+
+> **Kuziemko & Werker (2006):** US aid around a Security Council term — flat before, up in the two term years, back down after.
+
+| Step | Minutes |
+|---|---|
+| **1 · Collect** | 15 |
+| **2 · Prepare** | 20 |
+| **3 · Replicate** | 25 |
+| **4 · Compare and break** | 20 |
+| **5 · The catch** | 10 |
+
+## 1 · Collect — 15 min
+
+::: {.step}
+Route A: AidData replication file · Route B: Greenbook + UN list of elected members
+:::
+
+- One provenance-log line per file
+- Mirror used? Version = "mirror, frozen 2024-12-19"
+- **Route A:** build the term table — filter members, export crosstab, mark `term_start`
+
+::: {.warn}
+Fiscal years, obligations, current or constant dollars: all three go in the notes.
+:::
+
+## 2 · Prepare — 20 min
+
+1. Connect to both files
+2. Double-click the aid table → physical layer → **inner join** the term table on `Iso3`
+3. Row count **before and after** — in the log
+4. Drop donors and regional aggregates; check constant dollars
+
+::: {.muted}
+A join, not a relationship: the next calculation mixes `Year` and `Term start` at row level.
+:::
+
+## 3 · Replicate · the calculations
+
+```text
+[Event time]               = [Year] - [Term start]
+
+[Baseline aid]             = { FIXED [Iso3], [Term start] :
+                               AVG( IF [Event time] >= -3 AND [Event time] <= -1
+                                    THEN [Aid] END ) }
+
+[Aid relative to baseline] = [Aid] / [Baseline aid]      // row level: one value per country-year-term
+```
+
+::: {.muted}
+Aid already in logs? Use the difference from the baseline log instead of a ratio.
+:::
+
+## 3 · Replicate · the sheets
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Sheet 1 · aid in event time
+
+- `[Event time]` −3 … +3 → Columns
+- Ratio → Rows, averaged across terms
+- Line + circles, dual axis
+- **Reference band** 0 to 1: "On the Council"
+- **Reference line** at 1.0: "Pre-term baseline"
+
+::::
+
+:::: {.column width="50%"}
+
+### Sheet 2 · how many terms?
+
+- `[Event time]` → Columns
+- `COUNTD([Iso3])` → Rows
+- Balanced? If not, why?
+
+::::
+
+:::::
+
+## 4 · Compare and break — 20 min
+
+1. **Differ.** Same shape? Same size? One difference and its likely cause
+2. **Break.** Mean → **median**. Does the bump survive?
+3. **Break.** Terms after **1990** only. Does the Cold War matter?
+4. **Extend.** Tag 1990–91 and 2002–03 as *high salience*; colour by it. Why are two episodes far too few?
+
+## 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| The paper's event-time evidence | Your Sheet 1 | What it does **not** license a multinational to conclude |
+
+::: {.warn}
+A catch is about what the *firm* may conclude — e.g. about how durable a UN sanctions resolution is.
+:::
+
+## Hand in
+
+- `.twbx` + provenance log on ZoneCours
+
+::: {.check}
+**The one rule:** the log records at least one place where the data disagreed with the paper.
+:::
+
+::: {.get}
+**Team project:** is one of your firm's key countries on the Council now, or about to be?
+:::

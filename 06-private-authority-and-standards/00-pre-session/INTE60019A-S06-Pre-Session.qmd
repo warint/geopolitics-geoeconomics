@@ -1,0 +1,132 @@
+---
+title: "Session 6: Before the session"
+subtitle: "Who writes the rules a multinational actually follows?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "06"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 06 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read the paper; skim the triangle
+3. Collect three datasets
+4. Self-check
+
+## What session 6 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- The **governance triangle**: states, firms, NGOs
+- Standards and power — Mattli & Büthe
+- Delegated vs entrepreneurial private authority
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- The ISO Survey, normalised by GDP
+- **Maps**, geocoding by ISO code, **Pages**
+- An export-weighted measure with a double join
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Certification as **market access**
+- Technical standards as **geopolitics**
+- Adopt, shape, or resist a private standard
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Who writes the rules a multinational actually follows?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read Prakash & Potoski (2006); skim Abbott & Snidal and Mattli & Büthe | 75–90 min |
+| **2** | Collect ISO Survey, IMF exports, WDI GDP | 45 min + account wait |
+| **3** | Attempt the self-check | 15 min |
+
+::: {.warn}
+**Start the ISO Survey download two days ahead.** IAF CertSearch may require a free account.
+:::
+
+## 1 · Read
+
+**Prakash & Potoski (2006), *Racing to the Bottom? Trade, Environmental Governance, and ISO 14001*, AJPS 50(2): 350–364**
+
+::: {.muted}
+[doi:10.1111/j.1540-5907.2006.00188.x](https://doi.org/10.1111/j.1540-5907.2006.00188.x)
+:::
+
+| | |
+|---|---|
+| **1** | The **question**: race to the bottom? |
+| **2** | The **mechanism**: why do export markets matter? |
+| **3** | The **evidence**: which panel, which key variable? |
+| **4** | One **limitation** |
+
+::: {.get}
+**Skim:** Abbott & Snidal (2009) — *draw the triangle* · Mattli & Büthe (2003) — *write down the three explanations*
+:::
+
+## 2 · Collect
+
+| | Dataset | What |
+|---|---|---|
+| **1** | **ISO Survey** | ISO 14001 and ISO 9001 certificates, country × year |
+| **2** | **IMF IMTS** | goods exports, your ~35 countries → all partners |
+| **3** | **WDI** | GDP, current US$ |
+
+::: {.step}
+Cannot download the ISO tables? **Fallback:** transcribe 35 countries × 6 years (2000, 2005, 2010, 2015, 2020, 2024). Details in `data/README.md`.
+:::
+
+## 3 · Self-check
+
+1. The three corners of the triangle — place **one** scheme inside it
+2. **Race to the bottom** vs **California effect** — which does the paper support?
+3. Why would a Vietnamese firm certify to ISO 14001 if no law requires it?
+4. Who sits at the table when an ISO standard is written — and why does it matter?
+
+## Arrive with
+
+::: {.check}
+- The paper read; the triangle drawn; three explanations written down
+- ISO, IMTS and WDI files in `data/raw/`, logged
+- Your self-check, on paper
+:::

@@ -1,0 +1,188 @@
+---
+title: "Session 12: Team Presentations"
+subtitle: "A geopolitical risk assessment for one multinational"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "12"
+filters:
+  - ../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 12 · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · The last session {.center .scrollable}
+
+1. Run of show
+2. What the twelve minutes must contain
+3. How it is marked
+4. The presentations
+5. Closing address: from indicators to decisions
+6. After today
+
+# Run of show {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Twenty minutes per team
+
+| | |
+|---|---|
+| **12 min** | Presentation — the dashboard **driven live** |
+| **8 min** | Defence — the instructor, the **board panel**, the room |
+
+::: {.step}
+**The board panel:** two other teams per slot, one prepared question each, from the dashboard link sent 48 hours ago.
+:::
+
+::: {.warn}
+At least one question goes to a member **drawn at random**. Every member defends every part.
+:::
+
+## The order
+
+| Slot | Team | Firm | Board panel |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| *break* | | | |
+| 5 | | | |
+| 6 | | | |
+| 7 | | | |
+| 8 | | | |
+
+::: {.muted}
+Drawn at random at 0:00. Closing address after the last team.
+:::
+
+## What the twelve minutes must contain
+
+| Minutes | |
+|---|---|
+| **0–2** | The firm and its **footprint** |
+| **2–5** | The **composite exposure index** — move one weight live |
+| **5–9** | **Two channel views**, driven live |
+| **9–11** | The **interaction** between two risks, for *this* firm |
+| **11–12** | **Decisions and watchlist**: three indicators · three thresholds · three decisions |
+
+::: {.muted}
+Stopped at thirteen minutes.
+:::
+
+## How it is marked
+
+| Criterion | Points | Where |
+|---|---|---|
+| Conceptual grounding | 3 | memo + today |
+| Data and provenance | 3 | memo |
+| Method of the composite index | 4 | memo |
+| Analysis of interactions | 3 | memo |
+| Recommendations | 2 | memo |
+| **Presentation and defence** | **5** | **today** |
+
+::: {.get}
+**Today's 5:** clarity and time (2) · defence (2) · the random member's answer (1)
+:::
+
+# The presentations {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Team 1
+
+::: {.muted}
+Firm · board panel · timekeeper ready
+:::
+
+## Team 2
+
+## Team 3
+
+## Team 4
+
+## Break · five minutes
+
+## Team 5
+
+## Team 6
+
+## Team 7
+
+## Team 8
+
+# Closing address {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### From indicators to decisions
+:::
+
+## Kobrin was right about the hard part
+
+> Political risk is not the event. It is the **contingency** that the event affects **this firm's** operations.
+
+::: {.muted}
+Kobrin, S. J. (1979). Political Risk: A Review and Reconsideration. *JIBS*, 10(1), 67–80.
+:::
+
+- Every dashboard today is a claim about that contingency
+- The footprint is where the claim starts — not the map of the world
+
+## Henisz on constraint
+
+**POLCON:** how many independent **veto players** constrain a government — and how aligned they are
+
+- **Low constraint** → policy can change fast, in either direction
+- The **structural** complement to every event- and text-based indicator of the course
+- And the second condition for a chokepoint (S11): can the state direct the firms at the hub?
+
+::: {.muted}
+Henisz, W. J. (2000). The Institutional Environment for Economic Growth. *Economics & Politics*, 12(1), 1–31.
+:::
+
+## Indicators do not decide
+
+::: {.warn}
+An indicator without a **threshold** and an **owner** is decoration.
+:::
+
+| Indicator | Threshold | Decision | Owner |
+|---|---|---|---|
+| *what you watch* | *the number that triggers* | *what happens on Monday* | *who signs* |
+
+::: {.get}
+The best dashboards today would make someone **do** something on a given Monday.
+:::
+
+## What the twelve weeks established
+
+1. Geopolitical risk is measured through **six families** of indicators — and they **disagree**
+2. Every figure in a famous work is a **stack of decisions**: countries, years, deflators, codes, weights
+3. The system a firm operates in — order, power, institutions — **moves slowly, then suddenly**
+4. It reaches the firm through **channels**: markets, inputs, finance, assets, data
+5. The analyst's job is to make the decisions **visible** to the person who must act
+
+## After today
+
+| | |
+|---|---|
+| **+ 1 week** | Memo + published dashboard + peer ratings → ZoneCours |
+| **Exam period** | **Take-home** — 40%, individual, 3 h in a 48 h window |
+
+::: {.step}
+Prepare by re-reading your eleven **catch** slides: together, they are the course's list of what each indicator cannot tell a firm.
+:::
+
+::: {.muted}
+`assessments/take-home/README.md`
+:::

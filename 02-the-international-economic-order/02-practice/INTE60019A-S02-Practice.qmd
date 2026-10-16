@@ -1,0 +1,136 @@
+---
+title: "Session 2: Practice round 02"
+subtitle: "Rebuild the Great Convergence"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "02"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 02 practice · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Ninety minutes {.center .scrollable}
+
+1. The target
+2. Form your team — 10 min
+3. Collect — 10 min
+4. Prepare — 20 min
+5. Replicate — 25 min
+6. Compare and break — 15 min
+7. The catch — 10 min
+8. Hand in
+
+## The target
+
+> **Baldwin (2016)** — the **G7 share of world GDP**, falling sharply after about 1990.
+
+| Step | Minutes |
+|---|---|
+| **0 · Team** | 10 |
+| **1 · Collect** | 10 |
+| **2 · Prepare** | 20 |
+| **3 · Replicate** | 25 |
+| **4 · Compare and break** | 15 |
+| **5 · The catch** | 10 |
+
+## 0 · Form your team — 10 min
+
+- Three or four students, for the whole term
+- **One multinational**, registered on ZoneCours — first come, first served
+- Team name and firm at the top of the provenance log
+
+## 1 · Collect — 10 min
+
+::: {.step}
+DataBank WDI → G7 + I6 + World · three series · 1970 → latest → Excel → `data/raw/`
+:::
+
+| Group | Codes |
+|---|---|
+| **G7** | `CAN FRA DEU ITA JPN GBR USA` |
+| **I6** | `CHN KOR IND POL IDN THA` |
+| **World** | `WLD` |
+
+::: {.muted}
+Version = DataBank's "Last Updated" date.
+:::
+
+## 2 · Prepare — 20 min
+
+1. Connect → Excel; **Data Interpreter** if notes rows appear
+2. Select all year columns → right-click → **Pivot**
+3. Rename → `Year`, `Value`
+4. `Year (n)` = `INT(LEFT([Year], 4))`
+5. `Value` → **Number (decimal)** — `..` become nulls
+6. Filter on **codes**, never names
+
+## 3 · Replicate · Sheet 1 — the G7 share
+
+```text
+G7 GDP    = IF [Country Code] IN ("CAN","FRA","DEU","ITA","JPN","GBR","USA") THEN [Value] END
+World GDP = IF [Country Code] = "WLD" THEN [Value] END
+G7 share  = SUM([G7 GDP]) / SUM([World GDP])
+```
+
+- Filter `Series Code` = `NY.GDP.MKTP.CD`
+- `Year (n)` → Columns (continuous) · `G7 share` → Rows · format as %
+- Annotate the peak and the latest year · title = the finding · source caption
+
+## 3 · Replicate · Sheet 2 — who gained?
+
+```text
+I6 GDP            = IF [Country Code] IN ("CHN","KOR","IND","POL","IDN","THA") THEN [Value] END
+Rest of world GDP = SUM([World GDP]) - SUM([G7 GDP]) - SUM([I6 GDP])
+```
+
+1. Three measures on one axis → **Area** → colour by Measure Names
+2. **Quick Table Calculation → Percent of Total**
+3. **Compute Using → Measure Names** — shares sum to 100% **within each year**
+
+::: {.warn}
+Check one year by hand against Sheet 1.
+:::
+
+## 4 · Compare and break — 15 min
+
+1. **Compare.** Peak year, fall since — one difference with Baldwin, and its cause
+2. **Missing data.** Which I6 members are blank in the 1970s–80s? What does that do to the areas?
+3. **Break.** Switch to `NY.GDP.MKTP.PP.CD` (from 1990). How much smaller is the G7 at PPP?
+4. **Extend.** `NE.TRD.GNFS.ZS` for `WLD`. Annotate 2008. Retreat, or change of form?
+
+## 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| Baldwin's G7 share | Your Sheet 1 + PPP line | What it does **not** license **your firm** to conclude |
+
+::: {.muted}
+A member drawn at random presents, two minutes.
+:::
+
+## Hand in
+
+- `.twbx` · provenance log · the slide — one per team, on ZoneCours
+
+::: {.check}
+**The one rule:** the log records at least one place where the data disagreed with the book.
+:::
+
+::: {.warn}
+Loses credit: names instead of codes · percent of total across years · current dollars with no word on exchange rates.
+:::

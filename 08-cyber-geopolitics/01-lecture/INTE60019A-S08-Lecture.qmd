@@ -1,0 +1,245 @@
+---
+title: "Session 8: Cyber Geopolitics and Digital Threats"
+subtitle: "Restraint, rivals and weaponised networks"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "08"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 08 · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · The hour ahead {.center .scrollable}
+
+0. Four Risk Briefs
+1. Is cyberspace a domain of geopolitics?
+2. Valeriano and Maness: cyber war versus cyber realities
+3. Farrell and Newman: weaponised interdependence
+4. The attribution problem
+5. When the firm is collateral
+6. Digital sovereignty
+7. Cyber risk in the firm's decision architecture
+8. The Tableau skill of the day
+
+## What session 8 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- The **cyber-restraint** argument and its evidence
+- **Panopticon** and **chokepoint** effects
+- Why **attribution** makes cyber data peculiar
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Read an event dataset's codebook
+- **Highlight tables**: an initiator × target matrix
+- **Filter actions** between sheets
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Cyber in the firm's decision architecture
+- Collateral damage to firms not targeted
+- Data localisation and digital sovereignty
+
+::::
+
+:::::
+
+# Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Four briefs · five minutes each · three minutes of questions
+:::
+
+# Is cyberspace a domain of geopolitics? {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Two caricatures
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### The revolution
+
+A "cyber Pearl Harbor" switches off a grid. Small states humble great powers.
+
+::::
+
+:::: {.column width="50%"}
+
+### The non-event
+
+Crime and espionage with better tools. Strategically irrelevant.
+
+::::
+
+:::::
+
+::: {.get}
+Both are claims about **evidence**. Today we put them to data.
+:::
+
+## Three activities, easily confused
+
+| | Purpose | Typical actor |
+|---|---|---|
+| **Espionage** | steal information — secrets or IP | intelligence services, contractors |
+| **Disruption** | interrupt or damage systems | military units, proxies |
+| **Crime** | extract money | criminal groups — sometimes tolerated by states |
+
+::: {.warn}
+The boundaries blur. States tolerate, hire and shelter criminal groups — and that blur is itself a geopolitical fact.
+:::
+
+# Cyber war versus cyber realities {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Valeriano and Maness, in four propositions
+
+| | |
+|---|---|
+| **1 · Restraint** | States use cyber operations less, and less destructively, than the narrative predicts |
+| **2 · Regional rivals** | Cyber conflict follows **existing** rivalries — US–China, Russia–neighbours, Israel–Iran, India–Pakistan, the Koreas |
+| **3 · Why restraint** | escalation risk · revealing the capability · blowback · keeping access to spy |
+| **4 · Limited coercion** | Better at signalling and spying than at compelling |
+
+::: {.muted}
+Valeriano & Maness (2015), OUP · data extended in DCID v2.0, 2000–2020
+:::
+
+## What restraint does not mean
+
+::: {.get}
+Low **strategic** severity ≠ low **commercial** cost.
+:::
+
+An operation that barely registers on a scale of interstate harm can stop a company's production for weeks.
+
+> Back to the opening vote. What would the book say about the grid?
+
+# Weaponised interdependence {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Networks have hubs
+
+| Effect | Mechanism | Of the type |
+|---|---|---|
+| **Panopticon** | use access to the hub to **see** | intelligence access to data in cables, data centres, clouds under one's jurisdiction |
+| **Chokepoint** | use control of the hub to **deny** | cutting banks out of messaging networks; denying chips, software, cloud |
+
+::: {.muted}
+Farrell & Newman (2019), *International Security* 44(1): 42–79
+:::
+
+## The firm can be the hub
+
+::: {.warn}
+Its cloud, its payment rails, its software updates are infrastructure its **home state** can watch or weaponise — and **rival states** therefore treat as a target.
+:::
+
+::: {.step}
+The bridge to **Session 10** (sanctions: chokepoints in finance) and **Session 11** (supply chains: chokepoints in inputs).
+:::
+
+# The attribution problem {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Someone has to say who did it
+
+| Attribution is | Because |
+|---|---|
+| **slow** | months or years after the event |
+| **probabilistic** | indicators can be faked or reused |
+| **political** | governments choose when, and whom, to name |
+| **selective** | what is attributed is what someone wanted known |
+
+::: {.get}
+Event data on cyber operations is **a record of public attributions**, not a record of operations.
+:::
+
+# When the firm is collateral {background-color="#E3120B" style="color:#F7F4ED"}
+
+## NotPetya, June 2017
+
+- Spread through a **Ukrainian accounting-software update**; widely attributed by Western governments to Russian military intelligence
+- Shipping, pharmaceutical, food and logistics multinationals reported very large losses — Maersk, Merck, Mondelez among them
+
+| Lesson | |
+|---|---|
+| **Proximity is technical** | hit for running a piece of software in Ukraine, not for being chosen |
+| **Insurance is no backstop** | insurers invoked **war exclusions**; the market now writes explicit exclusions for state-backed attacks (Lloyd's, from 2023) |
+| **The board owns it** | regulators increasingly require disclosure of material incidents and of board oversight |
+
+# Digital sovereignty {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Where data sits, and who may see it
+
+States regulate data localisation, cross-border transfers, foreign cloud and telecoms vendors.
+
+| For the multinational | |
+|---|---|
+| **Duplication** | separate data centres or cloud regions per jurisdiction |
+| **Conflicting law** | one state requires disclosure another forbids |
+| **Vendor risk** | a supplier banned in one market, mandatory in another |
+
+# The firm's decision architecture {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Who owns geopolitical cyber risk?
+
+| Who | Role |
+|---|---|
+| **Board** | risk appetite, disclosure — *which state would want our data or our downtime?* |
+| **CISO** | threat intelligence → controls; incident response |
+| **Chief risk officer** | integrates cyber with country, sanctions and supply-chain risk |
+| **Insurer** | prices it — and stops at state-backed operations |
+| **Regulators** | disclosure, localisation, vendor rules |
+
+## Put it to the room
+
+> Your firm runs a plant in a country that sits in one of the densest cells of the initiator × target matrix.
+> **What do you change on Monday — and what do you tell the insurer?**
+
+# The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
+
+## From incident list to matrix
+
+1. Initiator → **Rows**, target → **Columns**
+2. `Count` of incidents → **Colour** → *Show Me* → **highlight table**
+3. Duplicate: year → Columns, count → Rows, method → Colour
+4. Dashboard: both sheets → *Dashboard → Actions → Add Action → Filter* — source = matrix
+
+::: {.check}
+Click a cell, and the time series shows that dyad's history.
+:::
+
+## Over to the practice round
+
+> **Practice round 08:** rebuild the cyber-conflict picture — and say what a record of public attributions cannot tell a firm.
+
+::: {.muted}
+`02-practice/README.md`
+:::
