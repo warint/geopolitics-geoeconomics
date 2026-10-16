@@ -30,7 +30,7 @@
 | | Where | Time |
 |---|---|---|
 | **Before class** | [`00-pre-session/`](00-pre-session/README.md) — read Baldwin, collect the WDI extract, choose your team's firm | 2 h |
-| **Opening** | **Risk Briefs** 1–4 · four students, five minutes each | 20 min |
+| **Opening** | **Risk Briefs** 1–4 · four students, five-minute slots (four minutes + one question) | 20 min |
 | **First half** | [`01-lecture/`](01-lecture/README.md) — the order, the unbundlings, the convergence, the trilemma | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — team formation, then **Practice round 02:** rebuild the G7 share of world GDP | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |

@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|
 | **Participation** | 10% | yes | active engagement, continuous | every session | below |
 | **Quizzes** | 15% | yes | 3 × 5%, 20 min, in class, on paper, closed book | Sessions 04, 07, 10 | [`quizzes/`](quizzes/README.md) |
-| **Risk Brief** | 15% | yes | 5-minute presentation + 3 minutes of questions | one of Sessions 02–11 | [`risk-brief/`](risk-brief/README.md) |
+| **Risk Brief** | 15% | yes | 4-minute presentation + one question (a 5-minute slot) | one of Sessions 02–11 | [`risk-brief/`](risk-brief/README.md) |
 | **Team work** | 20% | no | risk dashboard for one multinational + memo + presentation | presented Session 12 · memo one week later | [`team-project/`](team-project/README.md) |
 | **Take-home examination** | 40% | yes | 3 hours of work within a 48-hour window | final examination period | [`take-home/`](take-home/README.md) |
 

@@ -1,0 +1,144 @@
+---
+title: "Session 10: Before the session"
+subtitle: "Are sanctions a mechanism for regulating geopolitical risk — or a source of it?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "10"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 10 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read three works
+3. Get the data
+4. Quiz 3
+5. Self-check
+
+## What session 10 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Sender, type, objective, target
+- **Success** — Hufbauer et al. vs Pape
+- The **selection effect** of threats
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Episodes → **active cases per year**
+- Pivot type dummies; **percent of total**
+- One target's history as a **Gantt chart**
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- The **compliance perimeter**; secondary sanctions
+- **Overcompliance** and de-risking
+- The **exit decision**: Russia 2022
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Are sanctions a mechanism for regulating geopolitical risk — or a source of it?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read the GSDB article, Hufbauer et al., Pape | 80 min |
+| **2** | GSDB files arrived? TIES; `years.csv` | 15 min |
+| **3** | Revise Sessions 07–09 for **Quiz 3** | — |
+| **4** | Self-check | 15 min |
+
+::: {.warn}
+Teams: bring your **dashboard skeleton** — it is reviewed in the last 20 minutes of the practice round.
+:::
+
+## 1 · Read
+
+| | |
+|---|---|
+| **Felbermayr et al. (2020)** | *European Economic Review* 129: 103561 · [doi](https://doi.org/10.1016/j.euroecorev.2020.103561) · **the target** |
+| **Hufbauer et al. (2007)** | *Economic Sanctions Reconsidered*, 3rd ed., PIIE · ch. 1 and the success chapter |
+| **Pape (1997)** | *International Security* 22(2): 90–136 · [doi](https://doi.org/10.1162/isec.22.2.90) |
+
+Annotate: how **success** is coded · Pape's **critique** · how the **GSDB** is built · how sanctions hit **firms** that were not targets
+
+## 2 · Get the data
+
+::: {.step}
+**GSDB Release 5** — the e-mailed files + codebook. **Not arrived? Tell the instructor before class.**
+:::
+
+::: {.step}
+**TIES v4.0** — [sanctions.web.unc.edu](https://sanctions.web.unc.edu/) → case file + user manual
+:::
+
+::: {.step}
+**`years.csv`** — header `Year`, rows 1945 … 2025
+:::
+
+::: {.warn}
+GSDB licence: **no redistribution**. ZoneCours only — never Tableau Public with raw data.
+:::
+
+## 3 · Quiz 3 — opens the session
+
+| Part | Points |
+|---|---|
+| **A · Concepts** — Sessions 07–09 | 4 |
+| **B · One big work** | 3 |
+| **C · Read an unseen chart** | 3 |
+
+::: {.muted}
+Twenty minutes, closed book. Specimen in `assessments/quizzes/`.
+:::
+
+## 4 · Self-check
+
+1. **Comprehensive** vs **targeted** sanctions — one example each
+2. Why might **threats** succeed more often than impositions?
+3. What are **secondary sanctions** — and why do they reach a third-country firm?
+4. Two reasons a firm leaves a market the law does not require it to leave
+
+## Arrive with
+
+::: {.check}
+- Three works annotated
+- GSDB, TIES, codebooks, `years.csv` in `data/raw/`
+- Revised for Quiz 3
+- Team dashboard skeleton
+:::

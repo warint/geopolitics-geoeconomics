@@ -89,7 +89,7 @@ Before class                First half (~90 min)            Second half (~90 min
                                                               · one slide · two minutes
 ```
 
-**Risk Briefs.** Sessions 02–11 open with four individual Risk Briefs of five minutes each — one
+**Risk Briefs.** Sessions 02–11 open with four individual Risk Briefs in five-minute slots (20 minutes in all) — one
 current geopolitical development, one Tableau view, one named multinational. See
 [`assessments/risk-brief/`](assessments/risk-brief/README.md).
 
@@ -163,7 +163,7 @@ its own assessment, for one named multinational, in front of the room.
 |---|---|---|---|
 | **Participation** | **10%** | individual, continuous | every session |
 | **Quizzes** | **15%** | three in-class quizzes, 5% each, 20 minutes, individual | Sessions 04, 07, 10 |
-| **Risk Brief** | **15%** | individual presentation in class, 5 min + 3 min questions | one of Sessions 02–11, by sign-up |
+| **Risk Brief** | **15%** | individual presentation in class, 4 min + one question | one of Sessions 02–11, by sign-up |
 | **Team work** | **20%** | team geopolitical risk dashboard for one multinational (Tableau Public) + 2,500-word memo + presentation | presented Session 12 · memo due one week later |
 | **Take-home examination** | **40%** | individual, 3 hours, within a 48-hour window during the final examination period | final examination period |
 
@@ -195,9 +195,9 @@ unseen Tableau chart. Specimen questions: [`assessments/quizzes/`](assessments/q
 
 ### Risk Brief — 15%
 
-One individual presentation in one of Sessions 02–11: **five minutes, one current geopolitical
+One individual presentation in one of Sessions 02–11: **four minutes, one current geopolitical
 development, one Tableau view built from data you collected, one named multinational, one
-recommendation.** Three minutes of questions follow. Brief and rubric:
+recommendation.** One question follows, from the room or the instructor. Brief and rubric:
 [`assessments/risk-brief/`](assessments/risk-brief/README.md).
 
 > **Why it exists.** The practice rounds are done in teams; this is where you show you can do alone,

@@ -1,0 +1,141 @@
+---
+title: "Session 6: Practice round 06"
+subtitle: "The diffusion of ISO 14001 — and the pull of export markets"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "06"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 06 practice · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Ninety minutes {.center .scrollable}
+
+1. The target
+2. Collect — 10 min
+3. Prepare — 20 min
+4. Replicate — 30 min
+5. Compare and break — 20 min
+6. The catch — 10 min
+7. Hand in
+
+## The target
+
+> **Prakash & Potoski (2006):** ISO 14001 spreads; a country adopts more when its **export markets** have adopted more.
+
+| Step | Minutes |
+|---|---|
+| **1 · Collect** | 10 |
+| **2 · Prepare** | 20 |
+| **3 · Replicate** | 30 |
+| **4 · Compare and break** | 20 |
+| **5 · The catch** | 10 |
+
+## 1 · Collect — 10 min
+
+- ISO Survey — full tables **or** the transcription fallback
+- IMF IMTS — exports, reporter × partner × year
+- WDI — GDP, current US$, plus **Region** from the metadata file
+
+::: {.warn}
+Log the survey edition, and whether you transcribed.
+:::
+
+## 2 · Prepare — 20 min
+
+1. **Pivot** wide years — ISO and WDI
+2. Drop WDI aggregates; bring in **Region**
+3. **Join** ISO ↔ GDP on `iso3` **and** `Year`
+4. Calculated field:
+
+```text
+[ISO 14001 per $bn GDP] = [Certificates 14001] / ([GDP current US$] / 1e9)
+```
+
+5. Log the countries that did not match
+
+## 3 · Replicate · Sheets 1 and 2
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Sheet 1 · the map
+
+- `iso3` → **Country/Region**
+- Fix the **unknowns**
+- Colour: per $bn GDP, stepped, sequential
+- `Year` → **Pages** → play
+
+::::
+
+:::: {.column width="50%"}
+
+### Sheet 2 · small multiples
+
+- `Year` → Columns
+- `Region` → Rows
+- `MEDIAN(per $bn GDP)` → Rows
+- Who adopted first? Who caught up?
+
+::::
+
+:::::
+
+## 3 · Replicate · Sheet 3 — the pull of export markets
+
+Exports table, joined to the ISO + GDP table **twice** — as **Partner** and as **Reporter**:
+
+```text
+[Weighted partner adoption] = [Exports] * [Partner ISO 14001 per $bn GDP]
+[Export-market adoption]    = SUM([Weighted partner adoption]) / SUM([Exports])
+[Own adoption]              = { FIXED [Reporter iso3], [Year] :
+                                AVG([Reporter ISO 14001 per $bn GDP]) }
+```
+
+- Scatter: market adoption × own adoption, one dot per reporter
+- **Log** axes · trend line as description, not test
+
+## 4 · Compare and break — 20 min
+
+1. **Differ.** A panel with controls vs your cloud — what can the cloud show?
+2. **Placebo.** Redo Sheet 3 with **ISO 9001**. Same pull? Then *why* do firms certify to 14001?
+3. **Break.** Unweighted average of partners. Does it survive?
+4. **Break.** Raw counts on the map. Who jumps to the top — and why mislead?
+
+## 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| The paper's finding | Sheet 3 (and Sheet 1) | What it does **not** license a multinational to conclude |
+
+::: {.warn}
+A certified supplier is not necessarily a greener one. Decoupling — Brunsson et al.
+:::
+
+## Hand in
+
+- `.twbx` + provenance log on ZoneCours
+
+::: {.check}
+**The one rule:** the log records at least one place where the data disagreed with the paper.
+:::
+
+::: {.get}
+**Team project:** which private standards do your firm's buyers require? Which key countries lag their export markets?
+:::

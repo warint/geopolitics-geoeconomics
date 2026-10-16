@@ -1,0 +1,142 @@
+---
+title: "Session 7: Practice round 07"
+subtitle: "Firm-level risk, your coded index, and a composite with moving weights"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "07"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 07 practice · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Ninety minutes {.center .scrollable}
+
+1. Three targets
+2. (a) Firm-level risk vs EPU — 30 min
+3. (b) Your coded index — 20 min
+4. (c) A composite with moving weights — 30 min
+5. The catch — 10 min
+6. Hand in
+
+## Three targets
+
+| Part | Target | Minutes |
+|---|---|---|
+| **(a)** | Hassan et al.: average **PRisk** over time vs **EPU** | 30 |
+| **(b)** | **Your coded index** — 40 headlines, two coders, a kappa | 20 |
+| **(c)** | A **composite** for your firm's countries, weights the board can move | 30 |
+| **Catch** | one slide, three panels | 10 |
+
+::: {.warn}
+Keep to the clock. Part (c) is your team's draft composite.
+:::
+
+## (a) · A common grain: the quarter
+
+```text
+[Quarter date] = MAKEDATE( INT(LEFT([date], 4)),
+                           (INT(RIGHT([date], 1)) - 1) * 3 + 1, 1 )     // firm file
+
+[Quarter date] = DATETRUNC('quarter', MAKEDATE([Year], [Month], 1))     // EPU
+```
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Route 1 · Tableau Prep
+
+Input → Clean (date) → **Aggregate** by quarter → **Join** → Output `.hyper`
+
+::::
+
+:::: {.column width="50%"}
+
+### Route 2 · data source pane
+
+**Relationship calculation** on `[Quarter date]` both sides — each table aggregates at its own level
+
+::::
+
+:::::
+
+::: {.muted}
+Check the column names in your vintage — they change.
+:::
+
+## (a) · Replicate and compare
+
+- Continuous **Quarter** → Columns
+- `AVG(PRisk)` and EPU → Rows, **dual axis**, not synchronised
+- Annotate three peaks
+
+::: {.step}
+**Compare:** where do the series part company? Does the number of firms change? How many non-US firms?
+:::
+
+## (b) · Your coded index
+
+1. **Highlight table**: `coder_A` × `coder_B`, `CNT(id)`, grand totals on
+2. `[Agree] = IF [coder_A] = [coder_B] THEN 1 ELSE 0 END` → `AVG` = $p_o$
+3. **Kappa by hand** from the totals: $p_e = \sum_k (n_{A,k}/N)(n_{B,k}/N)$
+4. **Adjudicate** every disagreement → `final`, with a reason
+5. **The index**: shares by category; how many `econ` headlines forced into 0?
+
+## (c) · Select and normalise
+
+**Spine:** 8–12 countries, `iso3` — every input **left-joined** to it
+
+| Indicator | Direction |
+|---|---|
+| Country GPR (`GPRC_`) | higher = riskier |
+| Country EPU | higher = riskier |
+| WGI political stability | **higher = safer** → invert |
+| UN voting distance from home | higher = riskier |
+
+```text
+[GPR n] = ([GPR] - {MIN([GPR])}) / ({MAX([GPR])} - {MIN([GPR])})
+[WGI n] = ({MAX([WGI])} - [WGI]) / ({MAX([WGI])} - {MIN([WGI])})
+```
+
+## (c) · Weight and test
+
+- Four **parameters**, 0–5, default 1 — controls shown
+- `[Composite]`: weighted average **over available indicators** — missing ≠ zero risk
+- Bars sorted, `RANK()` as label
+
+::: {.step}
+**Test:** ranks under equal weights vs each indicator alone. Who moves more than two places — and why?
+:::
+
+## The catch — 10 min
+
+| (a) | (b) | (c) |
+|---|---|---|
+| What an average of US-listed firms does **not** tell your firm | Your kappa, and one protocol change | Your ranking — and the weight that would overturn it |
+
+## Hand in
+
+- `.twbx` (+ `.tfl` if Prep), `coding_sheet.xlsx` with `final`, provenance log
+
+::: {.check}
+**The one rule:** at least one place where the data — or the categories — disagreed with the paper.
+:::
+
+::: {.get}
+**Team milestone:** part (c) is your draft composite — revised for the Session 10 dashboard review.
+:::

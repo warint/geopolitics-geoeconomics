@@ -91,7 +91,10 @@ the release), WDI (reused; same version as Session 02).
 
    Put them on one sheet with the CINC ratio by **blending** on the year: on a sheet that uses NMC,
    drag a SIPRI field onto the view; check that the link icon is active on the year field (*Data →
-   Edit Blend Relationships* if Tableau did not find it). Use a **dual axis** (right-click the
+   Edit Blend Relationships* if Tableau did not find it). **Blending links fields only by name and
+   type**: if the year is `year` in NMC, `Year` in SIPRI and `Year (n)` in your Session 02 WDI
+   extract, rename them to the same name (right-click → *Rename*) and make all three whole numbers
+   before you blend, or use *Edit Blend Relationships → Custom* to pair them by hand. Use a **dual axis** (right-click the
    second axis → *Dual Axis* → *Synchronize Axis*) so both ratios share one scale, with the parity
    line at 1.
 3. **Read it.** Three measures, three transition dates (or no transition yet). Which date belongs in a

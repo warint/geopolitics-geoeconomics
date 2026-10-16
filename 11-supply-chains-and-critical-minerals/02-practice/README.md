@@ -1,4 +1,4 @@
-# Session 11 — Practice round 11 (second half, 80 min)
+# Session 11 — Practice round 11 (second half, 90 min)
 
 # Restrictions, concentration, and one dashboard
 
@@ -75,7 +75,7 @@ Provenance log — one line per file, as always:
 
 ---
 
-## 3 · Replicate — 25 min
+## 3 · Replicate — 35 min
 
 ### Sheet 1 · "Export restrictions since 2009"
 

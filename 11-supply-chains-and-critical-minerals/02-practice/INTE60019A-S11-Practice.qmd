@@ -24,12 +24,12 @@ format:
     footer: "INTE60019A · Session 11 practice · Thierry Warin, PhD · HEC Montréal"
 ---
 
-## Outline · Eighty minutes {.center .scrollable}
+## Outline · Ninety minutes {.center .scrollable}
 
 1. The targets
 2. Collect — check, 15 min
 3. Prepare — 15 min
-4. Replicate — 25 min
+4. Replicate — 35 min
 5. Compare and break — 15 min
 6. The catch — 10 min
 7. Hand in — and into the team dashboard
@@ -43,7 +43,7 @@ format:
 |---|---|
 | **1 · Collect — check** | 15 |
 | **2 · Prepare** | 15 |
-| **3 · Replicate** | 25 |
+| **3 · Replicate** | 35 |
 | **4 · Compare and break** | 15 |
 | **5 · The catch** | 10 |
 

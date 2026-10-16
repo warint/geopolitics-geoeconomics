@@ -1,0 +1,231 @@
+---
+title: "Session 4: Trade, Conflict and Geoeconomic Fragmentation"
+subtitle: "Is the world now trading along geopolitical lines?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "04"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 04 · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · The hour ahead {.center .scrollable}
+
+1. Quiz 1 · Risk Briefs
+2. Does trade keep the peace? The liberal answer
+3. The realist critique
+4. What the evidence says: Mansfield (2021)
+5. Bilateral vs multilateral openness
+6. Fragmentation: the new question
+7. What it means for the multinational
+8. What the figure does not license
+9. The Tableau skill of the day
+
+## What session 4 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Commercial peace vs the realist critique
+- Bilateral vs multilateral openness
+- How Gopinath et al. measure fragmentation
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- **Relationships** on dyads — one table, twice
+- **Sets** for blocs, **parameters** as thresholds
+- Indexing to a base year
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Classify markets by alignment
+- De-coupling vs de-risking
+- Connector countries
+
+::::
+
+:::::
+
+# Quiz 1 · Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Twenty minutes, then four briefs
+
+| | |
+|---|---|
+| **Quiz 1** | Sessions 01–03 · concepts (4) · the big work (3) · read the chart (3) |
+| **Risk Briefs** | Four × five minutes · one question each |
+
+# Does trade keep the peace? {background-color="#E3120B" style="color:#F7F4ED"}
+
+## The liberal answer
+
+> *"Peace is the natural effect of trade."* — Montesquieu
+
+| Mechanism | |
+|---|---|
+| **Opportunity cost** | the more a dyad trades, the more war costs |
+| **Signalling** | economic threats short of force reduce miscalculation |
+| **Domestic coalitions** | exporters and importers lobby for peace |
+| **Institutions** | trade agreements create forums and dispute settlement |
+
+::: {.muted}
+Angell, *The Great Illusion* (1910) · Russett & Oneal, *Triangulating Peace* (2001)
+:::
+
+# The realist critique {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Interdependence can cause conflict
+
+| Argument | |
+|---|---|
+| **Vulnerability** | dependence on a rival is a security risk (Waltz 1979) |
+| **Relative gains** | trade that strengthens the rival faster is a threat |
+| **Security externalities** | trade with allies, not adversaries (Gowa 1994) |
+| **Expectations** | what matters is whether trade is expected to **continue** (Copeland 2015) |
+
+::: {.warn}
+Britain and Germany were heavily interdependent in 1914.
+:::
+
+# What the evidence says {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Mansfield (2021) — four points
+
+1. **Both directions.** Conflict reduces trade — a correlation is not a cause
+2. **Institutions.** Preferential trade arrangements → fewer disputes (Mansfield & Pevehouse 2000)
+3. **Context.** Regime type, development, distribution of power
+4. **The question has changed:** from *does trade pacify?* to *how is trade used as a weapon?*
+
+::: {.muted}
+Mansfield, E. D. (2021). International trade and conflict. *Oxford Handbook of IPE*, 660–671.
+:::
+
+# Bilateral vs multilateral openness {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Make trade not war?
+
+| | Effect on bilateral conflict risk |
+|---|---|
+| **Bilateral** trade between A and B | ? |
+| **Multilateral** openness of A and B | ? |
+
+::: {.fragment}
+| | |
+|---|---|
+| **Bilateral** | **lowers** it — more to lose from each other |
+| **Multilateral** | **raises** it — substitutes make losing B cheaper |
+:::
+
+::: {.muted}
+Martin, Mayer & Thoenig (2008), *Review of Economic Studies*, 75(3), 865–900
+:::
+
+## The uncomfortable implication
+
+::: {.get}
+**Globalisation lowers the cost of bilateral conflict.** A world of many alternative suppliers makes it cheaper for a state to break with any one of them.
+:::
+
+# Fragmentation {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Three words, three policies
+
+| | |
+|---|---|
+| **Friend-shoring** | move supply chains towards trusted partners |
+| **De-risking** | cut dependence on rivals in critical goods — not trade overall |
+| **De-coupling** | separate economic blocs |
+
+## Gopinath et al. (2025) — the design
+
+1. **Define blocs** — US-leaning, China-leaning, non-aligned — from **UN General Assembly voting**
+2. **Compare** trade within vs between blocs, before and after **February 2022**
+3. **Look for connectors** — non-aligned countries trading more with both
+
+::: {.get}
+**Finding:** between-bloc trade fell relative to within-bloc trade — find the exact magnitude in the paper. Small next to the Cold War, concentrated in strategic sectors, but real.
+:::
+
+::: {.muted}
+*Journal of International Economics*, 153, 104042 · IMF WP/24/76
+:::
+
+## Who wrote down the bloc definition?
+
+> **Which vote or measure? Which year? Which threshold?**
+
+::: {.warn}
+Ours, in the practice round, will be a simplification — ideal points with thresholds you choose. Your slide must say how it differs.
+:::
+
+# What it means for the multinational {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four implications
+
+| | |
+|---|---|
+| **Classify your markets** | your five countries — which bloc, which drifting? |
+| **Connectors** | gain between-bloc trade — and transshipment scrutiny |
+| **Switching is cheaper for states, not for you** | contracts do not get cheaper to break |
+| **De-risking is sectoral** | consumer goods vs semiconductors: two different worlds |
+
+## Put it to the room
+
+> You sell industrial equipment. Three of your five main markets are **non-aligned**.
+> **Risk or opportunity?**
+
+::: {.fragment}
+::: {.check}
+Both: connectors grow — and become targets of secondary sanctions and rules-of-origin enforcement.
+:::
+:::
+
+# What the figure does not license {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four limits
+
+1. **Correlation with a date** — sanctions, the post-COVID cycle and prices all move in 2022
+2. **Blocs are a modelling choice** — move the threshold, countries move
+3. **Values, not volumes** — 2022 commodity prices inflate dollar trade
+4. **Aggregate** — your sector may be very different
+
+# The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
+
+## One country table, used twice
+
+1. Data model: **trade** (exporter × partner × year)
+2. Add **blocs**, relate on `exporter` = `iso3`
+3. Add **blocs** again → rename "Partner blocs", relate on `partner` = `iso3`
+4. Blocs = **sets** by condition, thresholds = **parameters**
+5. `Pair type` = within / between / involves non-aligned
+6. Index to a base year: **Quick Table Calculation → Percent Difference From → First**
+
+::: {.check}
+Over to the practice round.
+:::

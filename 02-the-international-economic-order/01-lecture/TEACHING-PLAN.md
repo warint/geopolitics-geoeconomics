@@ -12,7 +12,7 @@ of the world shrinks?*
 
 ## Opening — Risk Briefs (20 min)
 
-The first four Risk Briefs of the term. Keep them to five minutes each, hard stop at six, and hold
+The first four Risk Briefs of the term. Keep them to five-minute slots (four minutes + one question), hard stop at six, and hold
 questions to **one per brief** today so the block fits twenty minutes. Set the tone: after the first
 brief, ask the room *"Which channel?"* — and accept only one of the five from Session 01.
 

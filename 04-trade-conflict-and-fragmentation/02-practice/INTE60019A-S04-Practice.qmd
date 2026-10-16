@@ -1,0 +1,126 @@
+---
+title: "Session 4: Practice round 04"
+subtitle: "Rebuild trade within and between blocs"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "04"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 04 practice · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Ninety minutes {.center .scrollable}
+
+1. The target
+2. Collect — 10 min
+3. Prepare — 25 min
+4. Replicate — 25 min
+5. Compare and break — 20 min
+6. The catch — 10 min
+7. Hand in
+
+## The target
+
+> **Gopinath et al. (2025)** — trade **between** blocs vs **within** them, before and after February 2022.
+> You define the blocs. Then you move the line.
+
+| Step | Minutes |
+|---|---|
+| **1 · Collect** | 10 |
+| **2 · Prepare** | 25 |
+| **3 · Replicate** | 25 |
+| **4 · Compare and break** | 20 |
+| **5 · The catch** | 10 |
+
+## 1 · Collect — 10 min
+
+| Log line | Note |
+|---|---|
+| Ideal points | **version 39** — calendar-year estimates |
+| IMF IMTS | extract date + exact indicator |
+
+## 2 · Prepare · A — blocs from ideal points
+
+1. Codebook → columns for `iso3`, `year`, `IdealPoint`
+2. Filter `year` = **2021**
+3. Parameters `US ref`, `CHN ref` (read off the data) and `Margin` (start 0.5)
+
+```text
+Bloc =
+IF ABS([IdealPoint]-[CHN ref]) - ABS([IdealPoint]-[US ref]) > [Margin] THEN "US-leaning"
+ELSEIF ABS([IdealPoint]-[US ref]) - ABS([IdealPoint]-[CHN ref]) > [Margin] THEN "China-leaning"
+ELSE "Non-aligned" END
+```
+
+4. Check countries you know · **export** → `data/derived/blocs_2021.csv` · log it
+
+## 2 · Prepare · B — the dyad model
+
+1. IMF extract → `exporter`, `partner`, `year`, `value`
+2. Remove aggregate partners — log which
+3. Add `blocs_2021.csv` → relate `exporter` = `iso3` → field **Exporter bloc**
+4. Add it **again** → relate `partner` = `iso3` → **Partner blocs** → **Partner bloc**
+
+::: {.warn}
+Not ISO3 in the IMF file? You need a concordance — log it.
+:::
+
+## 3 · Replicate · Sheet 1
+
+```text
+Pair type =
+IF [Exporter bloc]="Non-aligned" OR [Partner bloc]="Non-aligned" THEN "Involves non-aligned"
+ELSEIF [Exporter bloc]=[Partner bloc] THEN "Within bloc"
+ELSE "Between US- and China-leaning" END
+
+Trade index = SUM([value]) / WINDOW_SUM(SUM(IF [year]=2021 THEN [value] END)) * 100
+```
+
+- `year` discrete → Columns · `Trade index` → Rows · `Pair type` → Colour
+- **Compute Using → year** · reference line at 100 · annotate 2022
+- Caption: sources, versions, **the bloc rule and margin**
+
+## 3 · Replicate · Sheet 2 — who sits where?
+
+- `iso3` as *Country/Region* → map · colour by `Bloc`
+- **Group** your firm's five markets: "Our markets"
+
+## 4 · Compare and break — 20 min
+
+1. **Compare.** Quarterly + controls (theirs) vs annual + raw (ours). Direction? Order of magnitude?
+2. **Break the blocs.** `Margin` 0.25 and 1.0 → re-export → refresh. Who moves? Does the gap survive?
+3. **Break the side.** Partner-reported imports — same picture?
+4. **Extend.** A **set** of connectors: non-aligned, exports to both blocs growing. Any of your markets?
+
+## 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| Within/between figure | Sheet 1 + another margin | What it does **not** license **your firm** to conclude |
+
+## Hand in
+
+- `.twbx` (with `blocs_2021.csv`) · provenance log · slide
+
+::: {.check}
+**The one rule:** one disagreement with the paper — and how your blocs differ from theirs.
+:::
+
+::: {.warn}
+Loses credit: names instead of codes · aggregates among partners · index across pair types · unreported threshold.
+:::

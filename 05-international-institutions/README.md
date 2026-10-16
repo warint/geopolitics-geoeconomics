@@ -30,7 +30,7 @@
 | | Where | Time |
 |---|---|---|
 | **Before class** | [`00-pre-session/`](00-pre-session/README.md) — read the paper, collect the aid data and the list of elected members | 2 h |
-| **Opening** | Four **Risk Briefs**, five minutes each, plus questions | 20 min |
+| **Opening** | Four **Risk Briefs**, five-minute slots (four minutes + one question) | 20 min |
 | **First half** | [`01-lecture/`](01-lecture/README.md) — why institutions exist; the Council; the price of a seat; what it means for firms | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 05:** rebuild the event-time figure | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |

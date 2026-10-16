@@ -24,7 +24,7 @@ the break.
 
 | Minutes | |
 |---|---|
-| **0–20** | **Four Risk Briefs**, five minutes each plus questions. Keep time strictly. |
+| **0–20** | **Four Risk Briefs**, five-minute slots (four minutes + one question). Keep time strictly. |
 | **20–30** | **A domain of geopolitics?** The two caricatures. Espionage / disruption / crime table — ask for one example of each from the briefs or the news. Insist on the blur: states and criminal groups. |
 | **30–45** | **Valeriano and Maness.** Four propositions. Return to the opening vote: what would the book say? Ask why a state would hold back a weapon it has — get *escalation*, *revealing the capability*, *blowback*, *keeping access to spy*. Then: restraint is low *strategic* severity, not low *commercial* cost. |
 | **45–58** | **Weaponised interdependence.** Draw a hub-and-spoke network on the board. Panopticon: circle the hub, draw the eye. Chokepoint: cut a spoke. Ask: *which firms in this room's future employers are hubs?* (cloud, payments, telecoms, software). Bridge to Sessions 10 and 11. |

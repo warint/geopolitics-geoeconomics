@@ -31,9 +31,9 @@
 | | Where | Time |
 |---|---|---|
 | **Before class** | [`00-pre-session/`](00-pre-session/README.md) — read the OECD paper and Le Billon & Shykora; collect the three datasets | 2 h |
-| **Opening** | Four Risk Briefs (5 min + 3 min questions each) | 30 min |
+| **Opening** | Four Risk Briefs (4 min + one question each) | 20 min |
 | **First half** | [`01-lecture/`](01-lecture/README.md) — conflict commodities; chokepoints; export restrictions; concentration; firm strategies | 70 min |
-| **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 11:** restrictions, concentration, and one dashboard | 80 min |
+| **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 11:** restrictions, concentration, and one dashboard | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
 
 > **The last practice round before the presentations.** Session 11 is the final practice round of

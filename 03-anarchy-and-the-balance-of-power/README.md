@@ -30,7 +30,7 @@
 | | Where | Time |
 |---|---|---|
 | **Before class** | [`00-pre-session/`](00-pre-session/README.md) — read Mearsheimer ch. 1–2 and Allison's Thucydides chapters, collect NMC and SIPRI | 2 h |
-| **Opening** | **Risk Briefs** · four students, five minutes each | 20 min |
+| **Opening** | **Risk Briefs** · four students, five-minute slots (four minutes + one question) | 20 min |
 | **First half** | [`01-lecture/`](01-lecture/README.md) — anarchy, the balance of power, power transition, measuring capabilities | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 03:** rebuild the distribution of power | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |

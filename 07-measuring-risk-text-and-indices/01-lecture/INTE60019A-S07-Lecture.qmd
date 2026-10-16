@@ -1,0 +1,267 @@
+---
+title: "Session 7: Measuring Risk"
+subtitle: "Content analysis, coding, big data and composite indices"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "07"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 07 · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · The hour ahead {.center .scrollable}
+
+1. Quiz 2
+2. Risk Briefs
+3. The measurement chain
+4. Content analysis
+5. Three dictionary methods
+6. Reliability: how much do coders agree?
+7. Big data: what it adds, what it hides
+8. Composite indicators
+
+## What session 7 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- **Dictionary methods**: GPR, EPU, political bigrams
+- A **coding protocol** and **intercoder reliability**
+- **Composite indicators**, the OECD/JRC way
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Tableau Prep — or the data source pane
+- A coder A × coder B **highlight table**
+- **Normalisation** with LOD; **parameters** as weights
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Audit a vendor's risk score
+- Big data for detection, small data for measurement
+- Draft your team's composite index
+
+::::
+
+:::::
+
+# Quiz 2 {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Twenty minutes
+
+| Part | Points | |
+|---|---|---|
+| **A · Concepts** | 4 | Sessions 04–06 |
+| **B · The big work** | 3 | one of the three readings |
+| **C · Read the chart** | 3 | an unseen Tableau chart |
+
+::: {.muted}
+On paper, closed book. Then four Risk Briefs.
+:::
+
+# The measurement chain {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Every number is the end of a chain
+
+| Concept | Indicator | Source | Coding rule | Aggregation | Presentation |
+|---|---|---|---|---|---|
+| "geopolitical risk" | share of articles… | ten newspapers | eight categories | monthly share, base 1985–2019 | a line, spikes labelled |
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Validity
+
+Does the indicator measure the concept?
+
+::::
+
+:::: {.column width="50%"}
+
+### Reliability
+
+Would someone else, with the same rules, get the same number?
+
+::::
+
+:::::
+
+::: {.warn}
+Perfectly reliable and invalid: a thermometer everyone reads identically — in the wrong room.
+:::
+
+# Content analysis {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Krippendorff's steps
+
+| Step | GPR index | Your coding today |
+|---|---|---|
+| **Unitising** | an article | a headline |
+| **Sampling** | ten newspapers, all articles | 40 GDELT headlines, at random |
+| **Coding** | a dictionary | two humans and a protocol |
+| **Reducing** | monthly share | counts by category |
+| **Inferring** | risk is high | your firm's countries are in the news for … |
+
+::: {.get}
+**Manifest** content: the words — dictionaries see it, perfectly reliably. **Latent** content: what it is *about* — humans see it, less reliably. Best practice: a dictionary **audited by humans**.
+:::
+
+# Three dictionary methods {background-color="#E3120B" style="color:#F7F4ED"}
+
+## GPR · EPU · PRisk
+
+| | **GPR** | **EPU** | **PRisk** |
+|---|---|---|---|
+| **Text** | newspapers | newspapers | earnings calls |
+| **Counted** | articles with GPR words | articles with **E** and **P** and **U** terms | political bigrams near "risk"/"uncertainty" |
+| **Dictionary** | authors' categories | authors' terms, audited | **learned** from political vs non-political texts |
+| **Level** | world, 44 countries | country | **firm × quarter** |
+| **Validated by** | narrative, audit | large human audit | EPU; lobbying; investment and hiring |
+
+::: {.muted}
+Caldara & Iacoviello (2022) · Baker, Bloom & Davis (2016) · Hassan, Hollander, van Lent & Tahoun (2019)
+:::
+
+## Hassan et al.'s striking finding
+
+::: {.get}
+Most variation in political risk is **across firms at the same time** — not common to all firms.
+:::
+
+> **Put it to the room:** what does that mean for a firm that buys a *country*-risk score?
+
+# Reliability {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Agreement corrected for chance
+
+$$
+\kappa = \frac{p_o - p_e}{1 - p_e}
+\qquad
+p_o = \frac{\text{agreements}}{N}
+\qquad
+p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
+$$
+
+::: {.warn}
+Percent agreement flatters: two coders guessing will agree often, especially when one category dominates.
+:::
+
+## A worked example — 40 headlines
+
+| | **B: 0** | **B: threat** | **B: act** | **A total** |
+|---|---:|---:|---:|---:|
+| **A: 0** | **20** | 3 | 1 | 24 |
+| **A: threat** | 2 | **8** | 0 | 10 |
+| **A: act** | 0 | 1 | **5** | 6 |
+| **B total** | 22 | 12 | 6 | 40 |
+
+::: {.fragment}
+$p_o = 33/40 = 0.825$ · $p_e = (24\cdot22 + 10\cdot12 + 6\cdot6)/1600 = 0.4275$ · $\kappa \approx 0.69$
+:::
+
+::: {.muted}
+Landis & Koch: 0.61–0.80 "substantial". Krippendorff's alpha: ≥ 0.800 for firm conclusions, ≥ 0.667 for tentative ones.
+:::
+
+## Disagreement is information
+
+1. Read every disagreement
+2. Unclear protocol, or coder error?
+3. **Revise the protocol**
+4. Adjudicate
+
+::: {.step}
+Never average disagreement away. It shows where the concept is fuzzy.
+:::
+
+# Big data {background-color="#E3120B" style="color:#F7F4ED"}
+
+## GDELT: coverage and speed — and four traps
+
+| Trap | What happens |
+|---|---|
+| **Selection** | only reported events, from monitored sources; coverage grows over time |
+| **Duplication** | one wire story, hundreds of articles |
+| **Machine coding** | irony, quotation and history misread |
+| **"N = all"** | a huge biased sample is confidently wrong |
+
+::: {.get}
+**Big data for detection** — something is happening, here, now. **Small, coded data for measurement** — how much, compared with what.
+:::
+
+# Composite indicators {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Five decisions that decide the result
+
+| Step | Choice | Risk |
+|---|---|---|
+| **Framework** | which dimensions, why | an index of whatever was available |
+| **Missing data** | drop, impute, flag | the risky countries silently vanish |
+| **Normalisation** | min–max, z-score, rank | different rankings |
+| **Weighting and aggregation** | equal, statistical, expert; additive or geometric | **compensability** |
+| **Sensitivity** | how much do results move? | a ranking one weight would overturn |
+
+::: {.muted}
+OECD/JRC (2008), *Handbook on Constructing Composite Indicators*. [doi:10.1787/9789264043466-en](https://doi.org/10.1787/9789264043466-en)
+:::
+
+## Normalise, then weight
+
+$$
+x^{*} = \frac{x - \min x}{\max x - \min x}
+\quad\text{(higher = riskier)}
+\qquad
+x^{*} = \frac{\max x - x}{\max x - \min x}
+\quad\text{(higher = safer)}
+$$
+
+$$
+CI = \frac{\sum_j w_j\, x^{*}_j}{\sum_j w_j}
+$$
+
+::: {.warn}
+**Compensability:** excellent governance + an active war → "medium risk". Is that what the board should read?
+:::
+
+## The point for the board
+
+::: {.get}
+Weights are value judgements. **Show them, let the reader move them, report whether the ranking survives.**
+:::
+
+> **Put it to the room:** a consultancy sells you a 0–100 country-risk score. Which five questions before it enters a decision?
+
+## Over to the practice round
+
+> **Practice round 07:** (a) firm-level risk against EPU · (b) your coded index and its kappa · (c) a composite with moving weights — your team's draft.
+
+::: {.muted}
+`02-practice/README.md`
+:::

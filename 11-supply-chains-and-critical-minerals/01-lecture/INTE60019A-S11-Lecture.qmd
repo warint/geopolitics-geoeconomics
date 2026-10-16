@@ -75,7 +75,7 @@ format:
 
 # Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four briefs · five minutes each
+## Four briefs · five-minute slots (four minutes + one question)
 
 | | Development | Firm |
 |---|---|---|
@@ -85,7 +85,7 @@ format:
 | **4** | | |
 
 ::: {.muted}
-Five minutes, three minutes of questions. Stopped at six.
+Four minutes, one question. Stopped at five.
 :::
 
 ::: {.get}

@@ -96,7 +96,7 @@ Green distinguishes two sources of private authority:
 | | **Delegated** | **Entrepreneurial** |
 |---|---|---|
 | **Origin** | States hand rule-making to private actors | Private actors create rules on their own, and others adopt them |
-| **Example in Green** | Private bodies operating within the Clean Development Mechanism | Carbon accounting and offset standards such as the GHG Protocol |
+| **Illustration (carbon governance, Green's field)** | Private bodies accrediting and verifying projects under the Kyoto Protocol's Clean Development Mechanism | Voluntary carbon accounting and offset standards, such as the GHG Protocol |
 | **What a firm should watch** | The state that delegated can take it back | Adoption — the rule is as strong as the number of users |
 
 ---

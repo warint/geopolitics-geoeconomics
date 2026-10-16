@@ -1,0 +1,149 @@
+---
+title: "Session 4: Before the session"
+subtitle: "Is the world now trading along geopolitical lines?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "04"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 04 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Quiz 1
+3. Read Mansfield, then Gopinath et al.
+4. Collect ideal points and IMF trade
+5. Self-check
+
+## What session 4 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Commercial peace vs its realist critique
+- Bilateral vs multilateral openness
+- How fragmentation is measured
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- **Relationships** on dyads — one table used twice
+- **Sets** for blocs, thresholds as parameters
+- Indexing to a base year
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Which side is each market on?
+- De-coupling vs de-risking
+- Connector countries
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Which side is each of your markets on — and how fast are the lines hardening?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Revise Sessions 01–03 for **Quiz 1** | 30 min |
+| **2** | Read Mansfield (2021), then Gopinath et al. (2025) | 60–75 min |
+| **3** | Collect ideal points + IMF extract | 20 min |
+| **4** | Self-check | 15 min |
+
+::: {.warn}
+The class opens with **Quiz 1** — twenty minutes, closed book, Sessions 01–03.
+:::
+
+## 2 · Read
+
+::::: columns
+
+:::: {.column width="50%"}
+
+**Mansfield (2021)**, *International Trade and Conflict*, Oxford Handbook of IPE, pp. 660–671
+
+The debate in eleven pages.
+
+::::
+
+:::: {.column width="50%"}
+
+**Gopinath, Gourinchas, Presbitero & Topalova (2025)**, *A New Cold War?*, JIE 153
+
+[doi:10.1016/j.jinteco.2024.104042](https://doi.org/10.1016/j.jinteco.2024.104042) · free as IMF WP/24/76
+
+::::
+
+:::::
+
+| | Annotate |
+|---|---|
+| **1** | Liberal argument · realist reply · Mansfield's verdict |
+| **2** | **Exactly** how the blocs are defined |
+| **3** | The target figure: base period, frequency, units |
+| **4** | Connector countries — one your firm depends on |
+
+## 3 · Collect
+
+::: {.step}
+[Harvard Dataverse doi:10.7910/DVN/LEJUQZ](https://doi.org/10.7910/DVN/LEJUQZ) → `IdealpointestimatesFP_2026FP.csv` + codebook
+:::
+
+::: {.step}
+[data.imf.org → IMTS](https://data.imf.org/en/datasets/IMF.STA:IMTS) → exports of goods, FOB, US$ · annual · all × all · 2015 → latest
+:::
+
+::: {.warn}
+Ideal points are now estimated by **calendar year** (version 39). Log it.
+The IMF extract is large: download **before** you read.
+:::
+
+## 4 · Self-check
+
+1. The commercial peace in one sentence; the realist objection in one
+2. Martin, Mayer & Thoenig: bilateral or **multilateral** openness — which raises bilateral conflict risk?
+3. What does an **ideal point** measure? One thing it does not
+4. Why could trade between blocs fall **without a single new barrier**?
+
+## Arrive with
+
+::: {.check}
+- Revised for Quiz 1
+- Both readings done; bloc definition written down
+- Data in `data/raw/`, logged
+- Team milestone on ZoneCours
+- Self-check on paper
+:::

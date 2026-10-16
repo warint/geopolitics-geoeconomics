@@ -12,7 +12,7 @@ multinational know that the balance is shifting?*
 
 ## Opening — Risk Briefs (20 min)
 
-Four briefs, five minutes each, one question each. After the last one, ask: *"Was any of these four
+Four briefs, five-minute slots (four minutes + one question). After the last one, ask: *"Was any of these four
 about the distribution of power between states?"* — it usually is, and it bridges into the lecture.
 
 ---

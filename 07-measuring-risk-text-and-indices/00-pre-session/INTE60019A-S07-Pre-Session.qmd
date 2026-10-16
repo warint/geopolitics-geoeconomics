@@ -1,0 +1,158 @@
+---
+title: "Session 7: Before the session"
+subtitle: "How a political judgement becomes a number"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "07"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 07 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read
+3. Collect
+4. Pull 40 headlines and code them
+5. Self-check
+
+## What session 7 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- **Dictionary methods**: GPR, EPU, political bigrams
+- A **coding protocol** and **intercoder reliability**
+- **Composite indicators**, the OECD/JRC way
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Tableau Prep — or the data source pane
+- A coder A × coder B **highlight table**
+- **Normalisation** and **parameters** as weights
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Audit a vendor's risk score
+- What big data adds, and hides
+- Draft your team's composite index
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### How a political judgement becomes a number
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read Hassan et al. (2019); skim EPU and the OECD/JRC Handbook | 60–75 min |
+| **2** | Collect: firm-level risk, EPU, GPR, WGI | 30 min |
+| **3** | Pull 40 headlines; **two coders, independently** | 45 min |
+| **4** | Self-check | 15 min |
+
+::: {.warn}
+**Quiz 2** opens the session — Sessions 04–06.
+:::
+
+## 1 · Read
+
+**Hassan, Hollander, van Lent & Tahoun (2019), *Firm-Level Political Risk*, QJE 134(4): 2135–2202**
+
+::: {.muted}
+[doi:10.1093/qje/qjz021](https://doi.org/10.1093/qje/qjz021)
+:::
+
+| | |
+|---|---|
+| **1** | The **question** |
+| **2** | The **measurement**: which text, which bigrams, how close to "risk"? |
+| **3** | The **validation** |
+| **4** | Where does the **variation** lie — time, sector, or firm? |
+
+::: {.get}
+**Skim:** Baker, Bloom & Davis (2016), Section II · OECD/JRC (2008), the ten-step checklist
+:::
+
+## 2 · Collect
+
+| File | From |
+|---|---|
+| `firmquarter_2022q1.csv` | firmlevelrisk.com/download |
+| `Global_Policy_Uncertainty_Data.xlsx`, `All_Country_Data.xlsx` | policyuncertainty.com |
+| `data_gpr_export.xls` (revised!) | matteoiacoviello.com/gpr.htm |
+| WGI, 2025 edition | World Bank |
+| Your Session 04 ideal points | Dataverse |
+
+## 3 · Your corpus
+
+- **One member:** GDELT query about your firm's countries or sector → **40 headlines at random**
+- **Two members:** code all 40, **independently, without talking**
+- **One adjudicator** in class
+
+::: {.warn}
+Never revise your code after seeing your partner's.
+:::
+
+## The protocol — one code per headline
+
+| Code | Category | Code | Category |
+|---|---|---|---|
+| **0** | Not geopolitical | **5** | Terror threats |
+| **1** | War threats | **6** | Beginning of war |
+| **2** | Peace threats | **7** | Escalation of war |
+| **3** | Military build-ups | **8** | Terror acts |
+| **4** | Nuclear threats | | |
+
+::: {.step}
+**Rules:** acts beat threats · sanctions and export controls → **0**, comment `econ` · in doubt → **0**, say why
+:::
+
+## 4 · Self-check
+
+1. The three components of EPU's article filter?
+2. Why political bigrams **near** "risk" or "uncertainty"?
+3. 80% agreement — why might it still be poor?
+4. The steps of a composite indicator — which is most often skipped?
+
+## Arrive with
+
+::: {.check}
+- Sessions 04–06 revised
+- The paper read; companions skimmed
+- All files in `data/raw/`, logged
+- `coding_sheet.xlsx` with **two independent codings**
+- Your self-check, on paper
+:::

@@ -5,7 +5,7 @@
 Slides: [`INTE60019A-S11-Lecture.qmd`](INTE60019A-S11-Lecture.qmd) · Instructor plan:
 [`TEACHING-PLAN.md`](TEACHING-PLAN.md)
 
-The session opens with **four Risk Briefs** (30 min). The lecture follows.
+The session opens with **four Risk Briefs** (20 min). The lecture follows.
 
 ---
 

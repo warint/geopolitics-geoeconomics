@@ -1,0 +1,221 @@
+---
+title: "Session 10: Economic Sanctions"
+subtitle: "Do they work — and what do they do to the firms caught in the middle?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "10"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 10 · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · The hour ahead {.center .scrollable}
+
+0. Quiz 3 · four Risk Briefs
+1. The instrument of first resort
+2. Do they work? The great debate
+3. From comprehensive to smart sanctions
+4. The firm in the middle
+5. What a risk dashboard should track
+6. The Tableau skill of the day
+
+## What session 10 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Sender, type, scope, objective
+- **Success** — Hufbauer et al. vs Pape
+- The **selection effect** of threats
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Episodes → **active cases per year**
+- Pivot, count distinct, **percent of total**
+- **Gantt chart** of one target's history
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- **Compliance perimeter**; secondary sanctions
+- **Overcompliance** and de-risking
+- The **exit decision**: Russia 2022
+
+::::
+
+:::::
+
+# Quiz 3 · Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### Twenty minutes, closed book — then four briefs
+:::
+
+# The instrument of first resort {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four dimensions
+
+| Dimension | Categories |
+|---|---|
+| **Sender** | unilateral · plurilateral (EU, coalition) · multilateral (UN Security Council) |
+| **Type** | trade · financial · travel · arms · military assistance · other |
+| **Scope** | **comprehensive** vs **targeted** ("smart") |
+| **Objective** | policy change · regime destabilisation · war and territory · terrorism · human rights · democracy |
+
+::: {.get}
+Classify the 2022 measures on Russia on all four.
+:::
+
+# Do they work? {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Hufbauer, Schott, Elliott and Oegg
+
+::: {.step}
+**Success** = how far the **policy outcome** was achieved × how far **sanctions contributed**
+:::
+
+- **Roughly a third** of cases judged at least partly successful
+- More likely when goals are **modest**, the target **small, weak, friendly**, the imposition **quick and decisive**
+
+::: {.muted}
+*Economic Sanctions Reconsidered*, 3rd ed. (2007), PIIE
+:::
+
+## Pape: most "successes" are not
+
+- Outcome achieved by **force**
+- Outcome **not really conceded**
+- Outcome **not attributable** to sanctions
+
+::: {.warn}
+Sanctions rarely achieve **major** political goals. Elliott (1998): *the glass is half full*. The quarrel is about **coding**.
+:::
+
+::: {.muted}
+Pape (1997), *International Security* 22(2): 90–136
+:::
+
+## The selection effect
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Threatened
+
+Targets that would concede **concede here** — the sanction is never imposed
+
+::::
+
+:::: {.column width="50%"}
+
+### Imposed
+
+What remains: the **hard cases**
+
+::::
+
+:::::
+
+::: {.get}
+Imposed sanctions **look** ineffective even if the instrument works. Hence **TIES** records threats too.
+:::
+
+::: {.muted}
+Drezner (2003), *International Organization* 57(3)
+:::
+
+# From comprehensive to smart {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Targeted — and still contagious
+
+- Humanitarian cost of the 1990s Iraq sanctions → **asset freezes, travel bans, sectoral measures**
+- **Financial** sanctions: dollar clearing and messaging networks are **chokepoints** (Farrell & Newman)
+
+::: {.warn}
+Sanctions on banks, insurers and shippers propagate to every firm that depends on them.
+:::
+
+# The firm in the middle {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Three mechanisms
+
+| | |
+|---|---|
+| **Compliance perimeter** | screen against OFAC (US), EU regulations, Canada's *Special Economic Measures Act* — and ownership rules widen the list |
+| **Secondary sanctions** | penalties on **third-country** firms dealing with the target |
+| **Overcompliance** | banks and firms exit what the law does not close |
+
+::: {.get}
+The *effective* scope of sanctions is set by compliance departments as much as by governments.
+:::
+
+## Russia 2022: the exit decision
+
+| Option | Cost | Risk |
+|---|---|---|
+| **Stay** | reputation, compliance | new sanctions, seizure, home-state pressure |
+| **Suspend** | idle assets | write-off if it lasts |
+| **Sell** | forced discount, approval delays | buyer sanctioned; buy-back clauses |
+| **Walk away** | full write-off | — |
+
+> Choose for a consumer-goods firm. Then for an energy firm. **Why do the answers differ?**
+
+## Put it to the room
+
+> Compliance says the law does not require you to exit. Your bank says it will no longer process your payments there.
+> **Who just set your sanctions policy?**
+
+# What a dashboard should track {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four lines for the team projects
+
+1. **Exposure** — revenues, assets, suppliers in sanctioned or at-risk jurisdictions
+2. **Pipeline** — threats and announced measures
+3. **Propagation** — banks, insurers, logistics providers that could cut you off
+4. **Counter-measures** — what the target can do to foreign firms on its soil
+
+# The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Episodes into years
+
+1. `years.csv` on the canvas, GSDB beside it
+2. Join clause: `Year >= begin` **and** `Year <= IFNULL(end, 2025)` — a **join calculation**
+3. `COUNTD(case id)` by `Year` → active cases per year
+
+::: {.check}
+Then a **Gantt bar**: begin on Columns, case on Rows, duration on Size.
+:::
+
+## Over to the practice round
+
+> **Practice round 10:** rebuild the sanctions record — and test the threat/imposition gap.
+
+::: {.muted}
+`02-practice/README.md` · last 20 minutes: **team dashboard skeleton review**
+:::

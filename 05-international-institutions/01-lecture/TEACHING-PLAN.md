@@ -22,7 +22,7 @@ Return to them in section 4.
 
 | Minutes | |
 |---|---|
-| **0–20** | **Four Risk Briefs**, five minutes each, questions folded in. Keep strict time; one question from the room per brief. |
+| **0–20** | **Four Risk Briefs**, five-minute slots (four minutes + one question). Keep strict time; one question from the room per brief. |
 | **20–35** | **Why institutions under anarchy?** Keohane and Mearsheimer side by side; build the four-row table on the board. Ask: *which of the two would explain the WTO Appellate Body's paralysis since 2019?* |
 | **35–43** | **The Council in five facts.** Draw the fifteen seats; shade the P5; write "9 votes, no veto". Ask why the P5 need the elected members at all. |
 | **43–65** | **The price of a seat.** The question; then the identification idea on the board — *a country compared with itself*. Draw the expected event-time shape before showing the result: flat, up in years 0 and +1, back down. Then the salience result: why it turns a correlation into a mechanism. Ask what alternative explanation is left standing. |

@@ -1,0 +1,251 @@
+---
+title: "Session 6: Private Authority, Standards and Global Regulation"
+subtitle: "Who writes the rules a multinational actually follows?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "06"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 06 · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · The hour ahead {.center .scrollable}
+
+1. Risk Briefs
+2. The rules a firm actually follows
+3. The governance triangle
+4. Standards and power
+5. Three perspectives; delegated or entrepreneurial
+6. Race to the bottom, or trading up?
+7. The Tableau skill of the day: maps and Pages
+
+## What session 6 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- The **governance triangle**: states, firms, NGOs
+- Standards and power — Mattli & Büthe
+- Delegated vs entrepreneurial private authority
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- ISO Survey, normalised by GDP
+- **Maps**, geocoding by ISO code, **Pages**
+- An export-weighted measure
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- Certification as **market access**
+- Technical standards as **geopolitics**
+- Adopt, shape, or resist
+
+::::
+
+:::::
+
+# Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Four briefs, five-minute slots (four minutes + one question)
+
+| | |
+|---|---|
+| **0–1** | The development |
+| **1–3** | The view |
+| **3–4** | The exposure |
+| **4–5** | The recommendation |
+
+# The rules a firm actually follows {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Count the rules in a phone
+
+| Rule | Written by |
+|---|---|
+| The radio interface | 3GPP — an industry partnership |
+| Wi-Fi | IEEE — a professional association |
+| The charging port | a private consortium — then made mandatory by the EU |
+| The factory's quality and environmental systems | ISO 9001, ISO 14001 |
+| The supplier's minerals due diligence | OECD guidance, industry schemes, buyer codes |
+
+::: {.get}
+**Private authority:** non-state actors making rules others treat as binding. For a firm, a **risk** — and a **lever**.
+:::
+
+# The governance triangle {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Abbott & Snidal (2009)
+
+```
+                       STATE
+                        /\
+                       /  \
+                      /    \
+                     /      \
+                    /________\
+                FIRM          NGO
+```
+
+- Near a **corner**: one actor type — industry code, activist label, treaty
+- In the **middle**: hybrids — multi-stakeholder certification; the UN Global Compact
+- **The shadow of the state**: private schemes are shaped by the threat — or promise — of public regulation
+
+::: {.muted}
+In W. Mattli & N. Woods (Eds.), *The Politics of Global Regulation*, Princeton UP, pp. 44–88.
+:::
+
+## Put it to the room
+
+> Place these in the triangle: **FSC**, **UN Global Compact**, **ISO 14001**, **an industry code of conduct**, **the EU's common charger rule**.
+
+::: {.warn}
+The placement predicts the behaviour: who can change the scheme, who finds it legitimate, whether a state may make it mandatory.
+:::
+
+# Standards and power {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Who wins at ISO and the IEC? Mattli & Büthe (2003)
+
+| Explanation | Prediction |
+|---|---|
+| **Technological rationality** | the best technology wins |
+| **Primacy of power** | the largest markets win |
+| **Institutional complementarity** | those whose **domestic** standard-setting matches the international structure win |
+
+::: {.fragment}
+::: {.get}
+Their evidence favours **institutional complementarity**: coordinated European national bodies were better placed than the fragmented US system.
+:::
+:::
+
+::: {.muted}
+*World Politics*, 56(1), 1–42. [doi:10.1353/wp.2004.0006](https://doi.org/10.1353/wp.2004.0006)
+:::
+
+## Technical standards are geopolitics
+
+- **Telecoms** — whose patents and specifications are in the next generation?
+- **Batteries and charging** — whose formats become the default?
+- **AI and data** — whose rules does a global firm adopt everywhere?
+
+::: {.step}
+**The Brussels effect** (Bradford, 2020): it is often cheaper for a firm to adopt the strictest rule everywhere than to run two product lines.
+:::
+
+# Three perspectives; delegated or entrepreneurial {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Brunsson, Rasche & Seidl (2012)
+
+| Standardization… | Example |
+|---|---|
+| ***of*** organizations | ISO 14001 tells a firm how to organise environmental management |
+| ***by*** organizations | the bodies that write standards, and how |
+| ***as*** organization | standards ordering markets without hierarchy |
+
+::: {.warn}
+Standards are **dynamic**: revised, contested, translated — and **decoupled**. A certificate is not a practice.
+:::
+
+## Green (2013)
+
+| | **Delegated** | **Entrepreneurial** |
+|---|---|---|
+| **Origin** | states hand over rule-making | private actors create rules others adopt |
+| **Illustration** | verification under the Clean Development Mechanism | voluntary carbon accounting, e.g. the GHG Protocol |
+| **Watch** | the state can take it back | adoption — the rule is as strong as its users |
+
+# Race to the bottom, or trading up? {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Two scenarios
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Race to the bottom
+
+Trade intensifies competition → governments and firms cut environmental standards to win exports.
+
+::::
+
+:::: {.column width="50%"}
+
+### Trading up — the California effect
+
+Exporters to strict markets adopt strict standards → trade spreads them (Vogel, 1995).
+
+::::
+
+:::::
+
+## Prakash & Potoski (2006)
+
+- **ISO 14001**: voluntary, beyond what many domestic laws require
+- **Panel**: 108 countries, seven years
+- **Key variable**: adoption in a country's **export markets**
+
+::: {.get}
+**Finding:** trade linkages **encourage** ISO 14001 adoption when a country's major export markets have adopted it. Standards travel towards the customer's.
+:::
+
+::: {.muted}
+*AJPS*, 50(2), 350–364. [doi:10.1111/j.1540-5907.2006.00188.x](https://doi.org/10.1111/j.1540-5907.2006.00188.x)
+:::
+
+## For the firm
+
+::: {.warn}
+"Voluntary" is not "optional". A standard your buyers require is as binding as a law.
+:::
+
+- Monitor what your **customers' home markets** adopt, not only what your host government legislates
+- Decide: **adopt** early, **shape** in the committee, or **resist** — each has a cost
+
+> **Put it to the room:** two engineers, a quarter of their time, three years on an ISO committee. Worth it?
+
+# The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Maps and Pages
+
+1. `iso3` → *Geographic Role* → **Country/Region**
+2. Check the **unknown** indicator → *Map → Edit Locations*
+3. **Filled map** of certificates per billion US$ of GDP — sequential palette
+4. `Year` → **Pages** shelf → press play
+5. **Small multiples**: `Region` × `Year`, line of the median country
+
+::: {.check}
+Never join or geocode on names. Hong Kong, Taiwan, Korea and Türkiye will tell you why.
+:::
+
+## Over to the practice round
+
+> **Practice round 06:** map the diffusion of ISO 14001, then test whether export markets pull it.
+
+::: {.muted}
+`02-practice/README.md`
+:::
