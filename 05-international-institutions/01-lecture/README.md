@@ -3,7 +3,7 @@
 # International institutions: the economic institutions that build business — old and new
 
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-05-lecture.html)** — or read the source at [`INTE60019A-S05-Lecture.qmd`](INTE60019A-S05-Lecture.qmd).
-> As a book chapter: [course book, Session 05](https://warint.github.io/geopolitics-geoeconomics/book/session-05.html) · Instructor plan:
+> Read further: [Chapter 5 of the book](https://warint.github.io/geopolitics-geoeconomics/book/session-05.html) · Instructor plan:
 > [`TEACHING-PLAN.md`](TEACHING-PLAN.md)
 
 > **Figures that change** (memberships, voting shares, annual volumes) were checked at the

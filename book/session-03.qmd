@@ -2,22 +2,6 @@
 title: "Anarchy and the Balance of Power: Who Sets the Terms When No One Governs"
 ---
 
-::: {.chapter-meta}
-Session 3 · The geostrategic balance that dictates international trade relations<br>
-[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-03-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-03-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-03-practice.html) · [Pre-session page](https://github.com/warint/geopolitics-geoeconomics/blob/main/03-anarchy-and-the-balance-of-power/00-pre-session/README.md) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/03-anarchy-and-the-balance-of-power) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/03-anarchy-and-the-balance-of-power/data/README.md)
-:::
-
-> **In a system with no government above states, who sets the terms of trade — and how would a
-> multinational know that the balance is shifting?**
-
-| | |
-|---|---|
-| **Big works** | Mearsheimer, J. J. (2001). *The Tragedy of Great Power Politics*. W. W. Norton. · Allison, G. (2017). *Destined for War: Can America and China Escape Thucydides's Trap?* Houghton Mifflin Harcourt. |
-| **Target figure** | The **shares of world material capabilities** (CINC) of the major powers, 1816–2022, and the US–China crossover |
-| **Data you collect** | Correlates of War, National Material Capabilities v7.0 — [correlatesofwar.org](https://correlatesofwar.org/data-sets/national-material-capabilities/) · SIPRI Military Expenditure Database — [sipri.org/databases/milex](https://www.sipri.org/databases/milex) · WDI GDP (from Session 02) |
-| **Tableau skill** | **Calculated fields** · ratios · **parameters** to choose a country · dual axis |
-| **Course themes** | Inter-state anarchy and the geostrategic balance of the major powers that dictate international trade relations |
-
 ## A system with no government
 
 The previous chapter described the international economic order as a set of rules, written by
@@ -26,22 +10,20 @@ is not law. Inside a country, a contract is enforced by courts, and the courts a
 that holds a monopoly of legitimate force. Between countries there is no such state. There is no
 world government that can make a rule binding, enforce a contract between two governments, or
 guarantee that a state which disarms will not be invaded. That absence is the starting point of the
-realist tradition in international relations, and it is the reason this course cannot treat
+realist tradition in international relations, and it is the reason this book cannot treat
 geopolitics as a branch of regulation.
 
-The session's question follows directly. In a system with no government above states, who sets the
+The question that follows is direct. In a system with no government above states, who sets the
 terms of trade — and how would a multinational know that the balance is shifting? The realist answer
 to the first half is blunt: the terms are set, in the end, by those who hold the capabilities
 others need, and they are revised when the distribution of capabilities changes. The second half is
-a measurement problem, and it is the subject of the practice round, which rebuilds the long-run
-distribution of material capabilities among the major powers and asks when, and on what measure,
-China overtook the United States.
+a measurement problem, and the chapter answers it with two centuries of data on the distribution
+of material capabilities among the major powers, asking when, and on what measure, China overtook
+the United States.
 
-The chapter proceeds in five steps. It defines anarchy and what follows from it; sets out the two
-main realist theories of how states respond, defensive and offensive; turns to power transition
-theory and its popular form, Graham Allison's "Thucydides's Trap"; examines how power is measured,
-and what the standard measure rewards and misses; and ends with what all this means for a firm that
-operates in both the rising and the ruling power.
+The chapter defines anarchy; sets out the defensive and offensive realist theories; turns to power
+transition theory and Graham Allison's "Thucydides's Trap"; and examines how power is measured, and
+what the standard measure rewards and misses.
 
 ## Anarchy, and what it does not mean
 
@@ -92,7 +74,7 @@ force is a live possibility between the two states. Where force is unthinkable, 
 and the United States, relative gains matter little and cooperation is easy; where it is
 conceivable, relative gains matter a great deal.
 
-That is why the concept belongs in a course on international business. Relative-gains thinking is
+That is why the concept belongs in a book on international business. Relative-gains thinking is
 the logic by which trade becomes a security question. A sale of advanced semiconductors to a
 rival, or of the equipment to make them, may be profitable for the seller and beneficial for the
 buyer, and still be prohibited, because it narrows a capability gap the seller's government wishes
@@ -154,9 +136,8 @@ need either government to want a confrontation in order to lose a market or a su
 
 ### Offensive realism: as much as possible
 
-John Mearsheimer's *The Tragedy of Great Power Politics* (2001), the session's first big work,
-accepts Waltz's starting point but reaches a darker conclusion. It rests on five bedrock
-assumptions [@mearsheimer2001]:
+John Mearsheimer's *The Tragedy of Great Power Politics* (2001) accepts Waltz's starting point but
+reaches a darker conclusion. It rests on five bedrock assumptions [@mearsheimer2001]:
 
 1. The international system is **anarchic**.
 2. Great powers inherently possess some **offensive military capability**.
@@ -190,7 +171,7 @@ competition, with a considerable possibility of war.
 | What restrains them? | balancing by others; expansion is self-defeating | only the limits of their capabilities |
 | Expected US–China outcome | managed competition | intense security competition |
 
-A caution belongs here, and the lecture states it twice. Realism predicts **competition**, not war.
+A caution belongs here. Realism predicts **competition**, not war.
 In Waltz's version it often predicts restraint, since overexpansion provokes balancing. Even
 Mearsheimer's version predicts security competition, of which war is one possible outcome among
 several. A risk analyst who reads realism as a forecast of war has misread it; one who reads it as a
@@ -217,7 +198,9 @@ as it believes it should — draws close to the dominant power in capabilities. 
 challenger has both the motive and, increasingly, the means to revise the order, and the dominant
 power has reason to act before its lead disappears. In empirical work, parity is often
 operationalised as the challenger reaching around 80 per cent of the dominant power's
-capabilities, a threshold the practice round places on the chart as a reference line.
+capabilities. On the standard capability index discussed below, China crossed that threshold
+relative to the United States in 1975, two decades before it passed it — which says as much about
+the index as about the transition.
 
 @organski1980 took the theory to data in *The War Ledger*, and a substantial literature followed,
 including the essays collected in @kugler1996. The tradition connects to Robert Gilpin's account of
@@ -233,7 +216,7 @@ them, and as its capabilities approach those of the rule-writer, its ability to 
 
 ### Allison's sixteen cases
 
-Graham Allison's *Destined for War* (2017), the session's second big work, brought the argument to
+Graham Allison's *Destined for War* (2017) brought the argument to
 a mass audience under a classical name. Thucydides, the historian of the war between Athens and
 Sparta in the fifth century BCE, wrote, in the translation Allison uses, that "it was the rise of
 Athens and the fear that this instilled in Sparta that made war inevitable" [@allison2017].
@@ -293,13 +276,13 @@ not at the table.
 
 ### The critics
 
-The Thucydides's Trap has been criticised on four grounds, and the lecture puts them to the room
-before showing them.
+The Thucydides's Trap has been criticised on four grounds.
 
-**Case selection.** The cases were assembled with knowledge of the outcome. What counts as a "rising"
-power, a "ruling" power, and a "challenge" is elastic enough that peaceful transitions — which leave
-less of a trace in history than wars — may be under-counted, inflating the proportion that ended in
-war. A ratio of twelve to sixteen is only as informative as the rule that produced the sixteen.
+**Case selection.** The cases were assembled with knowledge of the outcome. What counts as a
+"rising" power, a "ruling" power, and a "challenge" is elastic enough that peaceful transitions —
+which leave less of a trace in history than wars — may be under-counted, inflating the proportion
+that ended in war. A ratio of twelve to sixteen is only as informative as the rule that produced the
+sixteen.
 
 **Nuclear weapons.** No pre-1945 case involved two powers each capable of destroying the other.
 Nuclear deterrence changes the expected cost of great-power war so drastically that it is not clear
@@ -309,7 +292,9 @@ between nuclear powers in the dataset, did not end in war between the principals
 **Interdependence.** The United States and China are bound by trade, investment and finance far more
 tightly than Athens and Sparta were. Liberal theory holds that interdependence raises the cost of
 conflict and so makes it less likely. The realist reply is that Britain and Germany were also major
-trading partners in 1914, and fought anyway. Session 04 takes up the debate with data.
+trading partners in 1914, and fought anyway; @copeland2015 argues that what matters is not the
+level of trade but leaders' expectations of its future, so that interdependence restrains only as
+long as it is expected to last. Chapter 4 takes up the debate with data.
 
 **Measuring "rise".** The trap depends on knowing when a challenger is approaching parity, and that
 depends on how power is measured. @beckley2018 argues that the conventional gross indicators — GDP,
@@ -320,8 +305,7 @@ surplus available for projecting power than the gross figures imply. Beckley pro
 account for such costs, and on them the gap between the United States and China looks larger and the
 transition further off.
 
-The last criticism is the one this session's practice round can examine directly, because it turns
-on the choice of measure.
+The last criticism can be examined directly, because it turns on the choice of measure.
 
 ## Measuring power
 
@@ -347,13 +331,12 @@ it comes to about 1 — not exactly, because a state with a missing component is
 components it has. In the current release, the National Material Capabilities dataset version 7.0,
 the coverage runs from 1816 to 2022, one row per state-year.
 
-The design has real virtues. It is transparent: anyone can recompute it. It is long: two centuries
+The design has real virtues. It is transparent. It is long: two centuries
 of comparable data, which is what allows Organski's and Mearsheimer's arguments to be confronted
 with evidence at all. And by using shares of the system total, it sidesteps the problem of comparing
 military spending in nineteenth-century pounds with twenty-first-century dollars — each year is
 compared only with itself. Mearsheimer's own measures of latent power in the *Tragedy* rely on
-similar ingredients: for the nineteenth and early twentieth centuries, he proxies a state's wealth
-with indicators of industrial output such as steel production and energy consumption.
+similar industrial ingredients for the nineteenth and early twentieth centuries.
 
 ### What it rewards
 
@@ -363,22 +346,36 @@ smokestacks**. A large, populous, industrialising country — one that produces 
 and burns a great deal of energy — will score highly even if its technology is behind, its
 productivity low and its military poorly equipped.
 
-The consequence is visible in the replication. CINC shows China passing the United States much
-earlier than military expenditure or GDP at market exchange rates do. One underlying reality, three
-measures, three dates. The practice round asks you to find each date for yourself; the point to
-take into it is that the date of the "transition" is a property of the measure, not only of the
-world.
+The consequence is visible in the data. In version 7.0 of the National Material Capabilities
+dataset, China's CINC first exceeds that of the United States in 1995; the order reverses for a
+single year in 2002, and China has led in every year since 2003. By 2022 its score was nearly
+twice the American one. Other measures tell a different story. At purchasing-power parity, China's
+GDP passed that of the United States in 2014, according to the World Bank's data. At market
+exchange rates it has never passed it: the ratio peaked at about 77 per cent in 2021 and stood at
+about 64 per cent in 2024. On military expenditure the gap is wider still. The Correlates of War
+series itself puts China's spending in 2022 at about a quarter of the American figure, and the
+Stockholm International Peace Research Institute's database, in constant 2024 dollars, puts it at
+about a third in 2025 — with the Chinese figures marked as SIPRI's own estimates. One underlying
+reality, four measures, four answers: 1995, 2014, not yet, and not close. The date of the
+"transition" is a property of the measure, not only of the world.
+
+The size bias is visible even earlier in the series. In the 1860s, 1870s and most of the 1880s —
+decades in which China was losing wars to European powers and ceding territory and treaty ports
+— its CINC exceeded that of the United States, because its population was vastly larger and
+American industry had not yet grown to its later scale. No historian of the period would call
+Qing China the more powerful of the two. The index does, for a quarter of a century, and for the
+same reason that it dates the modern transition early.
 
 ### What it misses
 
 CINC is equally instructive for what it cannot see. It has no component for **technology** — the
-quality of weapons, the sophistication of industry, the capacity to innovate. It has no component for
-**alliances**, although a state with many capable allies commands far more power than its own
+quality of weapons, the sophistication of industry, the capacity to innovate. It has no component
+for **alliances**, although a state with many capable allies commands far more power than its own
 figures suggest. It has nothing on **financial power**: the role of a state's currency in
 international payments, the depth of its capital markets, its control of the institutions through
 which money moves. And it has nothing on **control of networks** — the payment systems, cloud
 platforms and communications infrastructure that @farrell2019 identify as instruments of coercion
-(Chapter 2). These are precisely the forms of power that reach firms most directly, and Sessions 08,
+(Chapter 2). These are precisely the forms of power that reach firms most directly, and Chapters 8,
 10 and 11 return to them.
 
 The choice of measure is not a technicality, and Beckley's critique shows why. If power is gross
@@ -388,33 +385,44 @@ economy runs, the picture changes. Each measure is defensible. None is neutral.
 
 ## Reading two centuries in one chart
 
-The long-run chart of capability shares is a compressed history of the modern state system, and it
-is worth knowing what to expect before building it, so that the anomalies are recognisable as
+The long-run chart of capability shares is a compressed history of the modern state system, and
+reading it well requires knowing where its seams are, so that the anomalies are recognisable as
 anomalies.
 
-The first thing to expect is that the chart is not a chart of a fixed set of countries. The
-Correlates of War data describe the members of the state system in each year, and membership
-changes. China and Japan enter the data in 1860. Germany, coded `GMY`, disappears in 1945 and
-returns in 1991; in between, the Federal Republic and the Democratic Republic appear as separate
-states, `GFR` and `GDR`. Japan is absent from 1946 to 1951, under occupation. The Soviet Union, by
-contrast, is coded as `RUS` throughout, so that Russia, the USSR and Russia again form one continuous
-series. Each of these is a decision by the data's authors about what counts as the same state over
-time, and each produces a visible break or a visible continuity on the chart that has nothing to do
-with power and everything to do with coding. The codes themselves are a second trap: they look like
-ISO codes and are not, so that a join with the World Bank data of Chapter 2 on the three-letter code
-will silently fail for Germany, the United Kingdom and France.
+The first seam is that the chart is not a chart of a fixed set of countries. The Correlates of War
+data describe the members of the state system in each year — some 17,000 state-years in the current
+release — and membership changes. China and Japan enter the data in 1860. Germany, coded `GMY`,
+disappears in 1945 and returns in 1991; in between, the Federal Republic and the Democratic Republic
+appear as separate states, `GFR` and `GDR`. Japan is absent from 1946 to 1951, under occupation. The
+Soviet Union, by contrast, is coded as `RUS` throughout, so that Russia, the USSR and Russia again
+form one continuous series. Each produces a break or a continuity that has nothing to do with power
+and everything to do with coding. The codes themselves look like ISO codes and are not — the United
+Kingdom is `UKG`, France `FRN` — so that any combination with the World Bank data of Chapter 2 has
+to be made through a concordance rather than by matching letters.
 
-The second thing to expect is that the components are incomplete. Missing values of the six
-components are coded as `-9`, not left blank. The index itself has no missing values, because it is
-averaged over whatever components exist, but any calculation that uses a component directly must
-exclude the `-9`s first or it will be wrong in a way that is easy to miss on a chart of shares.
+The second seam is arithmetic. Missing values of the six components are coded as `-9`, not left
+blank, and the index is averaged over whatever components a state has. Summed over all states, CINC
+should equal one; in practice the yearly total runs from 1.000 to about 1.075, highest in 1860 and
+generally above one in the nineteenth century, when the components are most often missing.
 
-The third is the substantive story. Read with these cautions, the chart shows a sequence that the
-theories of this chapter were built to explain: a nineteenth-century system in which European
-powers and then the United States hold the largest shares; the two World Wars as moments when the
-distribution is violently rearranged; a Cold War in which two powers dominate — Waltz's bipolarity,
-visible as data; and, from the late twentieth century, the rise of China's share. The practice round
-asks you to date the last of these yourself, and to see how the date moves when the measure does.
+The third seam is the joining of sources over time. Between 2016 and 2017 the urban population
+recorded for the United States falls from about 198 million to about 110 million, while its total
+population continues to rise; the American share of the world's urban population, as the dataset
+counts it, drops from about 8 per cent to about 3 per cent in a single year. No migration explains
+that. It is a change in source or definition, and because urban population is one of six
+components, it removes nearly a tenth of the United States' CINC score — from 0.133 to 0.122 —
+overnight. China's urban population jumps in the same year in the opposite direction. A reader who
+saw the gap between the two powers widen in 2017 would be reading a revision, not a shift in power.
+
+The fourth thing is the substantive story, and read with these cautions it is clear. Britain holds
+the largest share from 1816 until the 1890s; the United States passes it briefly in 1892 and for
+good in 1897, in the years when, as the archive above recounts, Britain chose to accommodate it. The
+two World Wars violently rearrange the distribution: the American share peaks in 1945 at nearly 40
+per cent of the system's capabilities, the highest any state reaches in two centuries. The Cold War
+appears as Waltz's bipolarity made visible — two powers far above the rest — and on this index the
+Soviet Union actually leads from 1971 to 1988, a reminder of how much weight the measure gives to
+steel, energy and soldiers and how little to technology. From the 1990s, China's share rises past
+both, to about 23 per cent in 2022 against about 12 per cent for the United States.
 
 ### Bipolar, multipolar, or something else?
 
@@ -426,24 +434,23 @@ returning to bipolarity — the United States and China — or moving to a multi
 significant powers is contested, and the answer depends, once again, on the measure.
 
 The question matters to firms because the two configurations imply different environments.
-A bipolar system tends to produce two blocs with relatively clear membership, so that the firm's
-problem is choosing, or being made to choose, a side, and organising its operations to comply with
-two sets of rules. A multipolar system produces more hedging states — governments that trade with
-both sides, refuse to join either bloc, and bargain for advantage between them — and therefore more
-room for firms to locate operations in third countries that remain open to both. The geography of
-"connector" economies, which Session 04 examines with trade data, is a direct consequence of which
+A bipolar system tends to produce two blocs with clear membership, so that the firm's problem is
+being made to choose a side. A multipolar system produces more hedging states — governments that
+trade with both sides and bargain between them — and therefore more room for firms to locate
+operations in third countries open to both. The geography of
+"connector" economies, which Chapter 4 examines with trade data, is a direct consequence of which
 of the two worlds firms are in.
 
 ## How a firm would know the balance is shifting
 
-The second half of the session's question — how would a multinational know that the balance is
+The second half of the chapter's question — how would a multinational know that the balance is
 shifting? — has two answers, a structural one and a behavioural one.
 
-The structural answer is the one the practice round builds: track the distribution of capabilities
-on several measures, and watch the ratios. A challenger's share approaching the dominant power's on
+The structural answer is the one the data above supply: track the distribution of capabilities on
+several measures, and watch the ratios. A challenger's share approaching the dominant power's on
 one measure, while still far behind on others, is a transition in progress and a transition
 contested; it is the situation in which the security dilemma is most acute, because each side can
-read the evidence as it wishes. Structural indicators of this kind, in the typology of Session 01,
+read the evidence as it wishes. Structural indicators of this kind, in the typology of Chapter 1,
 explain *why* tension is building. They do not say *when* it will matter.
 
 The behavioural answer is to watch what states do with the rules. A shifting balance shows up first
@@ -451,19 +458,19 @@ not in war but in the instruments of economic statecraft: export controls, inves
 sanctions and counter-sanctions, restrictions on data, rules about where a firm may source a
 component. These are the measures by which states convert relative-gains concerns into policy, and
 they are observable — in official gazettes, in company disclosures, in the event datasets of later
-sessions — long before any military confrontation. For a firm, the most reliable signal that the
+chapters — long before any military confrontation. For a firm, the most reliable signal that the
 balance is shifting is a change in which rules it is being asked to follow.
 
 ## What it means for the multinational
 
-The realist frame leads to five implications for a firm, each of which recurs later in the course.
+The realist frame leads to three implications for a firm, each of which recurs later in the book.
 
 **The balance of power sets the rules of trade.** Who can impose sanctions, export controls and
 market-access conditions depends on who holds capabilities others need: the largest market, the
 dominant currency, the critical technology. A firm's exposure to a state's economic statecraft is a
 function of how much of its business depends on capabilities that state controls.
 
-**A transition changes which rules you follow.** A firm operating in both the United States and
+**A transition changes which rules a firm follows.** A firm operating in both the United States and
 China increasingly faces two compliance regimes — and, since China adopted its own instruments of
 counter-sanction in 2020 and 2021, the possibility of penalties in one jurisdiction for complying
 with the other's rules. The question "is this transaction legal?" has acquired a second clause:
@@ -475,42 +482,11 @@ the trade ministry's jurisdiction to the security establishment's. For firms in 
 market access is no longer negotiated mainly on economic grounds, and commercial arguments about
 mutual benefit carry less weight than they did.
 
-**The date of the transition depends on the measure.** A board slide that says "China has overtaken
-the United States" should say *on what*. On some measures it happened decades ago; on others it has
-not happened. The decision the slide is meant to inform — whether to expand, hedge, or relocate —
-depends on which kind of power is relevant to it.
-
-**Security dilemmas escalate without intent.** A defensive measure by one government — an export
-control, a military exercise, an investment restriction — is read by the other as offensive and
-triggers a response that may fall on firms that had nothing to do with the original measure. A firm
-cannot assume that because neither government wants a confrontation, none will occur.
-
-Mapped onto the five channels of this course, the balance of power runs through every one, but
+Mapped onto the five channels of this book, the balance of power runs through every one, but
 most directly through **market access** (which markets will remain open to firms from which bloc)
 and **assets and people** (where conflict, if it comes, will fall). It reaches **inputs** through
 export controls on critical goods, **finance and payments** through the dominant currency, and
 **data and operations** through the control of networks.
-
-## What the figure does not license
-
-The target figure — the shares of world material capabilities of the major powers since 1816, with
-the US–China crossover — is the picture behind both big works. It does not license four
-conclusions.
-
-CINC measures **material capabilities**, not influence, intentions or the likelihood of war. A
-crossover on the chart is not a prediction of conflict. Power transition theory says war is more
-likely near parity *if* the challenger is dissatisfied; dissatisfaction is not on the chart.
-
-It **overweights size**. Population and heavy industry account for four of six components. The
-index cannot see semiconductors, alliances, the dollar or control of networks — the forms of power
-that matter most for the economic statecraft firms face.
-
-It **ends in 2022**. The most recent shifts in the distribution of capabilities are not in it, and
-for a firm making decisions now the most recent years are the most relevant.
-
-It describes **states**, not markets. A firm's exposure depends on where its revenue, suppliers,
-assets and data sit, not on the system's distribution of power. Two firms in the same country can
-face entirely different consequences from the same transition.
 
 ## A short review of the literature
 
@@ -527,8 +503,8 @@ and regional hegemony — and applied it to China.
 A parallel tradition locates danger in hierarchy rather than balance. @organski1958 introduced power
 transition theory; @organski1980 and the contributions in @kugler1996 tested it on data. @gilpin1981
 gave a systemic account of hegemonic war, and @kennedy1987 a historical account of how great powers
-rise and decline relative to their economic base. @allison2017 reframed the transition debate for the
-US–China relationship through sixteen historical cases.
+rise and decline relative to their economic base. @allison2017 reframed the transition debate for
+the US–China relationship through sixteen historical cases.
 
 Measurement runs through all of it. @singer1972 introduced the Composite Index of National
 Capability and the Correlates of War data on which much of the quantitative literature rests.
@@ -541,168 +517,41 @@ it, and that the measurement is where theories can be checked against the world 
 most often disagree.
 :::
 
-## Into the practice round
+## Which kind of power the firm depends on
 
-The practice round rebuilds the distribution of material capabilities among the major powers from
-1816 to 2022 using the Correlates of War data, then sets the US–China relationship against the
-parity and 80 per cent thresholds, and then measures the same transition with military expenditure
-and GDP. The steps are in the brief that follows. What this chapter adds is the reason each step
-matters.
+Realism begins from an absence. There is no government above states, and so the rules on which firms
+rely — the open market, the convertible currency, the procedure for settling a dispute — are kept
+only as long as the states that hold the relevant capabilities find it in their interest to keep
+them. That is not a prediction of war. Defensive realists expect restraint; offensive realists
+expect security competition; power transition theorists expect danger only where a dissatisfied
+challenger nears parity. What all three share is the claim that the economic relationship between
+great powers is, in the end, subordinate to the strategic one. Export controls, investment screens
+and counter-sanctions are what that subordination looks like before anyone fires a shot.
 
-When you sum CINC across all states and find that the total is not exactly one, you are seeing the
-consequence of averaging over the components a state has — a reminder that every index carries its
-construction with it. When you build the ratio of challenger to leader and set a reference line at
-80 per cent, you are operationalising Organski's theory, and the line is only as meaningful as the
-theory. When you find the crossover year, and then find two different years on two other measures,
-you are reproducing Beckley's critique on your own screen.
+The evidence of this chapter adds a second claim, about measurement. Every theory of the balance of
+power turns on a quantity — capabilities, parity, relative power — that cannot be observed directly,
+and the answer to the question "has the transition happened?" depends on how the quantity is built.
+On an index that rewards population and heavy industry, China overtook the United States in 1995,
+and Qing China was ahead of it in the 1870s. On output at purchasing-power parity it did so in 2014;
+at market exchange rates it has not; on military spending it is far behind. Each number is correctly
+computed; none is *the* balance of power. A board slide that says "China has overtaken the United
+States" without saying on what has said nothing a decision can use.
 
-Then write the catch, for your team's firm. A crossover on a capability chart does not tell a
-multinational that war is coming, that its Chinese revenue is at risk, or that its American
-suppliers are safe. It tells it that, on one measure that rewards size and heavy industry, the
-distribution of material capabilities has shifted. The question for the firm is which kind of power
-its own exposures depend on — markets, technology, currency, networks — and whether the measure on
-the chart can see it.
+For a multinational, the useful question is therefore not which measure is right in general, but
+which kind of power its own exposures depend on. A firm whose risk lies in market access needs to
+know who holds the largest market and the willingness to close it. A firm whose risk lies in inputs
+needs to know who controls the technology, the mineral or the equipment that cannot be replaced
+quickly. A firm whose risk lies in finance needs to know whose currency clears its payments, and a
+firm whose risk lies in data needs to know whose networks its operations run through. On some of
+these dimensions the transition is far advanced; on others it has barely begun; on the forms of
+power that reach firms most directly — currency, networks, critical technology — the standard
+capability index does not look at all.
 
-## In the practice
-
-> **The target.** The shares of world material capabilities (CINC) of the major powers, 1816–2022 —
-> the picture behind Mearsheimer's and Allison's argument — and the year China passes the United
-> States. Then: the same transition measured two other ways, dated two other years.
-
-Work in your team. Everyone builds their own workbook; the team hands in one.
-
----
-
-### 1 · Collect — 15 min
-
-NMC v7.0 and the SIPRI workbook should already be in `data/raw/`; your Session 02 WDI extract
-too. If not: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/03-anarchy-and-the-balance-of-power/data/README.md).
-
-Provenance log: three lines — NMC (version 7.0, and the codebook's date), SIPRI (the file name gives
-the release), WDI (reused; same version as Session 02).
-
----
-
-### 2 · Prepare — 20 min
-
-#### NMC
-
-1. **Connect → Text file** → `NMC-70-abridged.csv` (from `NMC-v7-abridged.zip`, inside
-   `NMCv7.zip`). Drag it to the canvas.
-2. Check the columns against the **codebook**. In v7.0 they are unchanged from v6.0: `stateabb`
-   (three letters), `ccode` (number), `year`, the six components `milex`, `milper`, `irst`, `pec`,
-   `tpop`, `upop`, then `cinc` and `version`. Missing component values are coded **`-9`**: before you
-   use any component, exclude them (a filter `>= 0`), or every sum is wrong.
-3. `year` should be a **number (whole)**, not a date: keep it that way for now.
-4. Sanity check before you build anything: new sheet, `year` → Columns (continuous), `SUM(cinc)` →
-   Rows, no filter. Every year should sum to **about 1** — in v7.0, between 1.000 and about 1.075.
-   Which years are furthest from 1, and why? (The codebook's CINC section explains it: the average
-   is taken over the components a state *has*.)
-
-#### SIPRI
-
-1. **Connect → Microsoft Excel** → the SIPRI workbook. Use the **`Constant (2024) US$`** sheet
-   (US$ millions, constant 2024 prices).
-2. Tick **Use Data Interpreter**: the sheet has five rows of notes above the header (`Country`, an
-   unnamed column, `Notes`, `1949` … `2025`). Region headings (`Africa`, `North Africa`, …) remain
-   as rows with no values: filter them out.
-3. **Pivot** the year columns (as in Session 02). Rename to `Year` and `Milex`. Make `Year` a whole
-   number with the same name as NMC's year field — it will be the link.
-4. `Milex` arrives as text: SIPRI writes `...` for unavailable data and `xxx` for a country that
-   did not exist (the notes at the top of the sheet; the `Footnotes` sheet explains the † § ¶
-   marks in `Notes`). Change to **Number (decimal)** and check what became null.
-5. SIPRI identifies countries by **name**, not code. Write down the exact strings for China, the
-   United States and Russia. This is a provenance-log entry.
-
----
-
-### 3 · Replicate — 25 min
-
-#### Sheet 1 · "Shares of world capabilities, 1816–2022"
-
-1. `year` → Columns (continuous); `SUM(cinc)` → Rows.
-2. `stateabb` → Colour. Filter to the major powers: `USA`, `UKG`, `FRN`, `GMY`, `RUS`, `JPN`,
-   `CHN`, `ITA` — **check each code in the COW state list** (`COW-country-codes.csv`; see
-   [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/03-anarchy-and-the-balance-of-power/data/README.md)). Russia/USSR is one continuous series (`RUS`).
-   Germany is not: `GMY` stops in 1945 and returns in 1991, with `GFR` and `GDR` in between.
-   `JPN` also has a gap (1946–1951). Look for them, and decide what your line does there.
-3. Highlight the US and China (strong colours), grey the rest.
-4. Annotate 1945, 1991, and the year China passes the US.
-5. Title with the finding; caption: *Correlates of War, NMC v7.0 (Singer, Bremer & Stuckey 1972),
-   accessed …*.
-
-#### Sheet 2 · "How close is the challenger?"
-
-1. **Create → Parameter** `Challenger`: data type *String*, *List*, **Add values from** `stateabb`.
-   Default `CHN`.
-2. Calculated fields:
-
-   ```text
-   Challenger CINC = IF [stateabb] = [Challenger] THEN [cinc] END
-   US CINC         = IF [stateabb] = "USA" THEN [cinc] END
-   Power ratio     = SUM([Challenger CINC]) / SUM([US CINC])
-   ```
-
-3. `year` → Columns; `Power ratio` → Rows. Right-click the parameter → **Show Parameter**.
-4. **Analytics → Reference Line**: constant **1** ("parity") and constant **0.8** ("power transition
-   zone", Organski & Kugler).
-5. Switch the parameter to `GMY`, `JPN` and `RUS`. When did each enter the transition zone against
-   the US — or against the UK, if you also make the leader a parameter?
-
----
-
-### 4 · Compare and break — 20 min
-
-1. **Compare.** Put Sheet 1 beside the readings' claims. In which year does China's CINC first exceed
-   the US's in your data? Does that date surprise you, given what you read?
-2. **Break — change the measure of power.** Build two more ratios, China ÷ US:
-   - **military expenditure** from SIPRI (constant dollars), and
-   - **GDP** from your WDI extract (current US$ and PPP).
-
-   Put them on one sheet with the CINC ratio by **blending** on the year: on a sheet that uses NMC,
-   drag a SIPRI field onto the view; check that the link icon is active on the year field (*Data →
-   Edit Blend Relationships* if Tableau did not find it). **Blending links fields only by name and
-   type**: if the year is `year` in NMC, `Year` in SIPRI and `Year (n)` in your Session 02 WDI
-   extract, rename them to the same name (right-click → *Rename*) and make all three whole numbers
-   before you blend, or use *Edit Blend Relationships → Custom* to pair them by hand. Use a **dual axis** (right-click the
-   second axis → *Dual Axis* → *Synchronize Axis*) so both ratios share one scale, with the parity
-   line at 1.
-3. **Read it.** Three measures, three transition dates (or no transition yet). Which date belongs in a
-   board presentation, and for which decision?
-4. **Extend.** Use the NMC components: which of the six drives China's CINC? Build one component's
-   share (e.g. iron and steel) with a percent-of-total table calculation computed across states,
-   restarting every year.
-
----
-
-### 5 · The catch — 10 min
-
-One slide:
-
-| Original | Ours | The catch |
-|---|---|---|
-| The distribution of power as the readings describe it | Sheet 1, and the three-measure ratio sheet | One sentence: what this figure does **not** license your team's multinational to conclude |
-
-A member drawn at random presents in two minutes.
-
----
-
-### Hand in
-
-On ZoneCours before leaving, one per team: `.twbx`, provenance log, slide. Formative.
-
-**The one rule:** your log records at least one place where the data disagreed with the readings — or
-with each other.
-
-**Team project milestone (Session 04):** a one-paragraph footprint of your firm — its five most
-important countries, with sources.
-
----
-
-### What loses credit
-
-- Joining NMC to WDI or SIPRI on names or on COW codes treated as ISO
-- `SUM` of a ratio across years or states
-- "China overtook the US in …" without saying on what measure
-- A catch about the theory rather than about what the firm may conclude
-
+A crossover on a capability chart, then, does not tell a multinational that war is coming — power
+transition theory makes war likelier near parity only if the challenger is dissatisfied, and
+dissatisfaction is not on the chart. Nor does it say that the firm's Chinese revenue is at risk or
+its American suppliers safe. It says that, on one measure built in the 1960s around steel, energy
+and soldiers, and ending in 2022, the distribution of material capabilities has shifted. Whether
+that shift reaches the firm depends on whether the measure can see the kind of power the firm
+actually depends on — and, as the chapters on trade, sanctions, cyber operations and space will
+show, the kinds that matter most are often the ones it cannot.

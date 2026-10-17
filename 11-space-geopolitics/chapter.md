@@ -21,18 +21,18 @@ kilometres up, and since 2019 from constellations of thousands of satellites in 
 few hundred kilometres up. **Earth observation** comes from state agencies and from a growing number
 of commercial imaging firms.
 
-Sessions 08 and 10 showed how networks become instruments of power: a network's hubs are under
-someone's jurisdiction, and whoever has jurisdiction can watch the traffic or cut it off. This
-session's network is physically above the firm. Its hubs are a handful of states and, increasingly,
-a handful of companies, and its environment is degrading in a way no terrestrial network's does —
-through debris that stays where it was created for years or centuries. The scale of the change is
-recent. The European Space Agency's 2026 environment report notes that the exponential growth in the
-number of new payloads continued in 2025, driven by a higher launch frequency, rideshare launches
-and the deployment of large constellations by commercial operators [@esa2026].
+Chapters 8 and 10 showed how networks become instruments of power: a network's hubs are under
+someone's jurisdiction, and whoever has jurisdiction can watch the traffic or cut it off. The
+network of this chapter is physically above the firm. Its hubs are a handful of states and,
+increasingly, a handful of companies, and its environment is degrading in a way no terrestrial
+network's does — through debris that stays where it was created for years or centuries. The scale of
+the change is recent. The European Space Agency's 2026 environment report notes that the exponential
+growth in the number of new payloads continued in 2025, driven by a higher launch frequency,
+rideshare launches and the deployment of large constellations by commercial operators [@esa2026].
 
-The session's question is who holds the risk when orbit is crowded, contested and dominated by one
-operator — and what the firm can do about it. The answer the chapter builds is that the firm holds
-more of it than it thinks, that most of it arrives through the reversible and unspectacular threats
+The question of this chapter is who holds the risk when orbit is crowded, contested and dominated by
+one operator — and what the firm can do about it. The answer it develops is that the firm holds more
+of it than it thinks, that most of it arrives through the reversible and unspectacular threats
 rather than the destructive ones, and that dependence on a satellite service is, by the construction
 of space law, dependence on a state.
 
@@ -91,6 +91,19 @@ Treaty four years later prohibited nuclear weapons in orbit. Neither prohibited 
 same problem: a conventional weapon that destroys a satellite and fills its orbit with fragments.
 :::
 
+Article II has also become the ground of a newer contest, over resources rather than weapons. The
+Treaty forbids national appropriation of outer space and celestial bodies; it does not say whether a
+firm may own what it extracts from them. The United States answered the question for its own
+citizens in the Commercial Space Launch Competitiveness Act of 2015, which recognises their property
+rights in resources obtained from asteroids and other bodies, and Luxembourg followed with a law of
+its own in 2017. In 2020 the United States and seven partners signed the Artemis Accords, a
+non-binding set of principles for the civil exploration of the Moon that treat resource extraction
+as consistent with the Treaty; China and Russia announced a joint lunar research station the
+following year and gathered partners of their own. The pattern resembles the contest over technical
+standards described in Chapter 6: where the treaty process has stalled, rules are written by
+coalitions, and a firm's access to a future market depends on which coalition its home state has
+joined.
+
 ## Liability, registration and the right to transmit
 
 The Outer Space Treaty is the constitution; three further layers turn it into rules a firm
@@ -137,7 +150,12 @@ becomes, in practice, a set of permits: to launch, to use spectrum, to operate a
 system, to export a satellite or its components, to land a service in a national market. This is
 where a firm meets space law directly, and where the balance of power enters most visibly — through
 the export-control lists discussed below and through decisions about which foreign constellations
-may sell service in which countries.
+may sell service in which countries. It is also where the rules on debris acquire teeth. The
+international guidelines are voluntary, but a licence condition is not: in 2022 the US Federal
+Communications Commission adopted a rule requiring operators of satellites in low orbit that it
+licenses, or that serve the US market, to dispose of them within five years of the end of their
+missions, replacing a guideline of twenty-five years. A firm's satellite provider is therefore bound
+not by one law of space but by the licensing conditions of every state whose market it serves.
 
 ## The physics of a commons
 
@@ -198,7 +216,7 @@ Mackinder's logic — whoever controls the pivot controls the world — and appl
 controls low Earth orbit controls access to the rest of space, and through it can dominate the Earth
 below [@dolman2002]. On this realist reading the United States should seize and hold that control
 while it can, and space is a territory to dominate, its orbits and transfer routes the chokepoints
-of a new strategic geography. It is Session 03's anarchy, with orbits in place of straits.
+of a new strategic geography. It is the anarchy of Chapter 3, with orbits in place of straits.
 
 The second reading is institutional and commercial. Saadia Pekkanen describes the new space race as
 driven by three intertwined trends [@pekkanen2019]. *Democratisation*: many more states, and many
@@ -271,10 +289,10 @@ aircraft and sites depend on signals from orbit.
 
 ## The debris record, and how it is counted
 
-The evidence on the state of the orbital environment comes, for this session, from ESA's Space
-Debris Office, which has published an annual *Space Environment Report* since 2017. The 2026
-edition, with data to the end of 2025, is the session's big work [@esa2026], and its method deserves
-reading before its figures.
+The most complete public account of the orbital environment comes from ESA's Space Debris Office,
+which has published an annual *Space Environment Report* since 2017. The 2026 edition, with data to
+the end of 2025, is the source of the figures that follow [@esa2026], and its method deserves
+reading before its numbers.
 
 ESA counts two kinds of objects. *Catalogued* objects are those tracked and published in catalogues:
 the US public catalogue, the Russian Vimpel catalogue and, for the early decades, the United
@@ -292,30 +310,52 @@ the dominant source of debris. Non-deliberate fragmentations have averaged 9.8 a
 two decades, and 2024 alone added more than 3,000 catalogued fragments, mostly from
 propulsion-related break-ups.
 
-The report's Figure 2.1, the number of objects in geocentric orbit by object class since 1957, is
-the practice round's target. It shows the cumulative result of seven decades of launches,
-explosions, collisions and re-entries, and three events stand out on it. On 11 January 2007 China
-destroyed its Fengyun-1C weather satellite with a ground-launched missile, at about 850 kilometres;
-the test remains the largest single source of catalogued debris in the public catalogue, and most of
-its thousands of fragments are still in orbit. On 10 February 2009 the active Iridium 33 and the
-defunct Cosmos 2251 collided at about 780 kilometres — the first accidental collision between two
-intact satellites, Kessler's mechanism observed. And on 15 November 2021 Russia destroyed Cosmos
-1408 at roughly 470 to 490 kilometres, producing some 1,800 catalogued fragments; at that altitude
-almost all re-entered within three years, and ESA attributes the 2022 spike in re-entering debris to
-the test.
+The report's count of objects in geocentric orbit by object class since 1957 shows the cumulative
+result of seven decades of launches, explosions, collisions and re-entries, and three events stand
+out on it. On 11 January 2007 China destroyed its Fengyun-1C weather satellite with a
+ground-launched missile, at about 850 kilometres; the test remains the largest single source of
+catalogued debris in the public catalogue, and most of its thousands of fragments are still in
+orbit. On 10 February 2009 the active Iridium 33 and the defunct Cosmos 2251 collided at about 780
+kilometres — the first accidental collision between two intact satellites, Kessler's mechanism
+observed. And on 15 November 2021 Russia destroyed Cosmos 1408 at roughly 470 to 490 kilometres,
+producing some 1,800 catalogued fragments; at that altitude almost all re-entered within three
+years, and ESA attributes the 2022 spike in re-entering debris to the test.
 
 The contrast between the first and third events is a lesson in altitude. Both were deliberate
 destructions of a satellite by its own state; one polluted a high orbit for decades, the other a low
 orbit for a few years. A count of objects treats them alike.
 
 ::: {.warn}
-**What the figure does not measure.** It counts objects, not risk: a ten-centimetre fragment and a
+**What the count does not measure.** It counts objects, not risk: a ten-centimetre fragment and a
 five-tonne rocket stage each count once, and the objects too small to catalogue — the majority of
 the fragments able to disable a satellite — do not appear at all. It is drawn from catalogues that
 themselves improve: when sensors get better, the count rises with nothing new having happened in
 orbit. And it shows the *environment*, not the exposure of any operator or customer, which depends
 on which shells their satellites use.
 :::
+
+## From a catalogue to a stock
+
+ESA's series can be approximated from public data, and the approximation shows how a concept — the
+number of objects in orbit — becomes a number. The public catalogue, maintained from US Space Force
+data and redistributed by CelesTrak, does not record a stock. It records objects: one row for each
+catalogued object over its whole life, with a launch date and, if it has re-entered, a decay date.
+There is no "year" in the file. An object is in orbit in a given year if it was launched by then and
+had not decayed by then, so the stock in each year is the running sum of launches minus the running
+sum of decays — a stock rebuilt from two flows. Much of what a risk analyst needs to know is a stock
+of this kind, which no one publishes and which has to be rebuilt from the events that change it.
+
+The construction exposes the catalogue's decisions. Debris carries the launch date of its parent
+object, not the date of the event that created it: the fragments of China's 2007 test are dated to
+the launch of Fengyun-1C in 1999, so a debris series built on launch dates moves in the wrong year,
+and the published record and the reconstruction disagree precisely at the events that matter. "Not
+decayed" is not the same as "in Earth orbit", because some objects orbit the Sun, the Moon or a
+Lagrange point. The owner field records a country, organisation or company code, not the operator:
+every Starlink satellite is simply American, and the former Soviet Union and Russia share one code.
+Operational status describes today only, so the file cannot say how many satellites were active in
+any past year. And the public catalogue is not the environment: it omits classified objects and
+everything too small to track, which is one reason ESA's totals, drawn from more catalogues and
+asserted objects, are higher.
 
 ## One operator
 
@@ -324,13 +364,13 @@ concentration was extreme because only two states could launch anything; it fell
 Europe, Japan, China, India and many others acquired the capability, and as commercial operators
 multiplied. It has risen again — not because states have dropped out, but because one company has
 launched more satellites than everyone else together. SpaceX's Starlink, first launched in May 2019,
-grew in six years into the majority of the world's operating satellites. The practice round measures
-how large a majority, and finds that the concentration of who launches payloads has returned to Cold
-War levels, with a firm rather than a superpower at the top.
+grew in six years into the majority of the world's operating satellites. Measured on the public
+catalogue's owner codes, the concentration of payloads launched each year has returned to levels
+last seen in the Cold War, with a firm rather than a superpower at the top.
 
-Concentration needs a measure, and the course uses the one antitrust authorities use. Its origins
-are in geopolitics: Albert Hirschman devised an index of the concentration of a country's trade in
-1945, to show how Nazi Germany had used the structure of trade to make its smaller partners
+Concentration needs a measure, and the standard one is the index that antitrust authorities use. Its
+origins are in geopolitics: Albert Hirschman devised an index of the concentration of a country's
+trade in 1945, to show how Nazi Germany had used the structure of trade to make its smaller partners
 dependent on it [@hirschman1945]. Orris Herfindahl reinvented it a few years later for industrial
 concentration, and it carries both their names.
 
@@ -342,6 +382,12 @@ percent contributes 5,625 on its own. US merger guidelines treat markets above 2
 or, in the 2023 revision, above 1,800 [@usdoj2023] as highly concentrated.
 :::
 
+The index, built from the catalogue, inherits the catalogue's owner-code problem twice over.
+Concentration by *state* hides the fact that one company dominates the American share; concentration
+by *operator* must be reconstructed from object names. Each choice yields a different index, and
+each answers a different question — about the balance of power among states, or about the dependence
+of customers on firms.
+
 Concentration matters to a firm because of what it implies about dependence, and Starlink in Ukraine
 shows what that dependence means. Within days of the 2022 invasion, Starlink terminals became a
 backbone of Ukraine's military and civil communications. The company's decisions about where its
@@ -349,23 +395,23 @@ service would work — including, by its owner's account, a refusal to enable it
 Crimea in 2022 — became questions of war policy, and governments moved to contract for the service
 directly.
 
-Farrell and Newman's framework, met in Session 08, applies without modification [@farrell2019]. A
-constellation is a hub. Its operator sees who connects and from where — a panopticon — and can
-switch off a user, a region or a country — a chokepoint. Weaponisation requires two conditions: that
-the network be concentrated, and that a state can direct the firm that runs the hub. Article VI of
-the Outer Space Treaty guarantees the second, because every operator has a licensing state that is
-internationally responsible for its activities and must supervise them. A firm that depends on one
-operator depends on that operator's state as well.
+Farrell and Newman's framework, introduced in Chapter 8, applies without modification
+[@farrell2019]. A constellation is a hub. Its operator sees who connects and from where — a
+panopticon — and can switch off a user, a region or a country — a chokepoint. Weaponisation requires
+two conditions: that the network be concentrated, and that a state can direct the firm that runs the
+hub. Article VI of the Outer Space Treaty guarantees the second, because every operator has a
+licensing state that is internationally responsible for its activities and must supervise them. A
+firm that depends on one operator depends on that operator's state as well.
 
-States are responding as Session 03 would predict: by building their own. The European Union's IRIS²
-secure-connectivity programme, established by Regulation (EU) 2023/588, China's Qianfan and Guowang
-constellations, and the many national launch programmes are all, in part, answers to dependence on
-one American firm. Export controls draw the same line from the other side. Spacecraft and their
-components sit either on the US Munitions List, under Category XV of the International Traffic in
-Arms Regulations, or — for most commercial satellites since 2014 — under the Export Administration
-Regulations, in the "9x515" entries; a non-US manufacturer whose satellite contains a controlled US
-component needs US permission to sell it to some customers. The balance of power reaches into the
-bill of materials.
+States are responding as the balance-of-power reasoning of Chapter 3 would predict: by building
+their own. The European Union's IRIS² secure-connectivity programme, established by Regulation (EU)
+2023/588, China's Qianfan and Guowang constellations, and the many national launch programmes are
+all, in part, answers to dependence on one American firm. Export controls draw the same line from
+the other side. Spacecraft and their components sit either on the US Munitions List, under Category
+XV of the International Traffic in Arms Regulations, or — for most commercial satellites since 2014
+— under the Export Administration Regulations, in the "9x515" entries; a non-US manufacturer whose
+satellite contains a controlled US component needs US permission to sell it to some customers. The
+balance of power reaches into the bill of materials.
 
 Navigation is the older case of the same pattern, and the one on which almost every firm already
 depends. GPS was built by the US military. Its opening to the world followed a tragedy: after the
@@ -382,8 +428,8 @@ port.
 
 ## Through which channels, and what the firm can do
 
-Space risk reaches the profit and loss account through the same five channels as every other risk in
-the course, and naming the channel is the first step towards a decision.
+Space risk reaches the profit and loss account through the same five channels as every other risk
+in this book, and naming the channel is the first step towards a decision.
 
 Through **market access**, export controls and licensing decide whether a satellite, a terminal or a
 service can be sold or switched on in a given market, and spectrum and landing rights decide whether
@@ -391,70 +437,39 @@ a constellation may serve a country at all. Through **inputs**, a firm that buys
 its ships or mines from one constellation, or that times its networks from one state's navigation
 system, has a single point of failure with a sovereign behind it. Through **finance and payments**,
 trading venues and payment systems time-stamp transactions from navigation signals, and the
-insurance capacity for space assets — a thin market — shrinks after large losses, so that a
-fragmentation event can double a premium. Through **assets and people**, ships and aircraft
-operating in jammed or spoofed regions are rerouted, delayed, or misreport their positions, with
-consequences for safety and for sanctions compliance alike. Through **data and operations**, a
-cyberattack on a ground segment cuts the firm's links, as the KA-SAT modems showed, and the loss of
-an imagery feed leaves a crop forecast or a supply-chain monitor blind.
+insurance capacity for space assets — a thin market — shrinks after large losses. Through **assets
+and people**, ships and aircraft operating in jammed or spoofed regions are rerouted, delayed, or
+misreport their positions, with consequences for safety and for sanctions compliance alike. Through
+**data and operations**, a cyberattack on a ground segment cuts the firm's links, as the KA-SAT
+modems showed, and the loss of an imagery feed leaves a crop forecast or a supply-chain monitor
+blind.
 
-A dashboard view of space risk should therefore track four things, each with a threshold that
-triggers a named decision. *Dependence*: the share of a critical service — connectivity, imagery,
-timing — supplied by one operator or one state's system; above a set share, say half from one
-operator, the decision is to contract a second. *Interference*: official warnings of
-navigation-signal interference, which aviation authorities publish, in the regions where the firm's
-ships, aircraft or sites operate. *Environment*: destructive tests and fragmentation events in the
-orbital shells used by the firm's providers, and the yearly indicators in ESA's report. *Rules*:
-changes in export-control lists, licensing conditions and ITU filings that affect the firm's
-suppliers or markets.
+Four kinds of evidence bear on that exposure, and each can be tied in advance to a decision.
+*Dependence*: the share of a critical service — connectivity, imagery, timing — supplied by one
+operator or one state's system; above a share the firm has fixed beforehand, the decision is to
+contract a second. *Interference*: the official warnings of navigation-signal interference that
+aviation authorities publish for the regions where the firm's ships, aircraft or sites operate.
+*Environment*: destructive tests and fragmentation events in the orbital shells its providers use,
+and the yearly indicators in ESA's report. *Rules*: changes in export-control lists, licensing
+conditions and ITU filings that affect its suppliers or markets.
 
 The strategies available each have a cost and a limit. A firm can buy **multi-orbit,
 multi-operator** connectivity — geostationary and low-orbit links from two providers — at the price
 of integration, but the second operator may share the first one's licensing state. It can use
 **multi-constellation receivers** that combine GPS, Galileo and others, which is cheap and protects
 against the failure of one system, but a local jammer can still blind them all. It can invest in
-**terrestrial back-ups** — holdover clocks and time delivered by fibre, cellular and fibre links —
+**terrestrial back-ups** — holdover clocks and time delivered over fibre and cellular networks —
 which requires capital and is unavailable at sea or at remote sites. It can buy **insurance**, in a
 thin market whose capacity shrinks after large losses. And it can practise **compliance by design**,
 classifying every space-related component it buys or sells under the relevant export-control
 regimes, at the cost of staff and delay, knowing that the rules change with the balance of power.
 
-The question the lecture puts to the room ties these together. A shipping subsidiary's only
-broadband at sea is one low-orbit constellation; the operator's government has been asked by an ally
-to switch the service off over a strait the firm's ships use. What does the firm do this quarter?
-The answer turns on the distinction between dependence on a *service* and dependence on a *state*. A
-second operator under the same licensing state diversifies the first and not the second.
-
-## From a catalogue to a stock
-
-The practice round rebuilds ESA's figure from the public catalogue maintained by CelesTrak from US
-Space Force data, and the construction is a lesson in how a concept — the number of objects in orbit
-— becomes data.
-
-The catalogue does not record a stock. It records objects: one row for each catalogued object over
-its whole life, with a launch date and, if it has re-entered, a decay date. There is no "year" in
-the file. An object is in orbit in a given year if it was launched by then and had not decayed by
-then, so the stock in each year is the running sum of launches minus the running sum of decays — a
-stock rebuilt from two flows. The construction is general: much of what a risk analyst needs to know
-is a stock that no one publishes, and has to be rebuilt from the events that change it.
-
-The construction exposes the catalogue's decisions. Debris carries the launch date of its parent
-object, not the date of the event that created it: the fragments of China's 2007 test are dated to
-the launch of Fengyun-1C in 1999, so a debris line built on launch dates moves in the wrong year.
-"Not decayed" is not the same as "in Earth orbit", because some objects orbit the Sun, the Moon or a
-Lagrange point. The owner field records a country, organisation or company code, not the operator:
-every Starlink satellite is simply American, and the former Soviet Union and Russia share one code.
-Operational status describes today only, so the file cannot say how many satellites were active in
-any past year. And the public catalogue is not the environment: it omits classified objects and
-everything too small to track, which is one reason ESA's totals, drawn from more catalogues and
-asserted objects, are higher.
-
-Concentration is built from the same file by computing each owner's share of the payloads launched
-in a year and summing the squares. Here the owner-code problem bites twice: concentration by *state*
-hides the fact that one company dominates the American share, and concentration by *operator* must
-be reconstructed from object names. Each choice yields a different index, and each answers a
-different question — about the balance of power among states, or about the dependence of customers
-on firms.
+A single case ties these together. A shipping subsidiary's only broadband at sea is one low-orbit
+constellation; the operator's government has been asked by an ally to switch the service off over a
+strait the firm's ships use. The firm's options this quarter turn on the distinction between
+dependence on a *service* and dependence on a *state*. A second operator under the same licensing
+state diversifies the first and not the second; a second operator under another state diversifies
+both, at the price of a second set of export controls and a second government's discretion.
 
 ## A short review of the literature
 
@@ -468,7 +483,7 @@ physical mechanism is @kessler1978, with @liou2006 showing by simulation that th
 population would grow even without new launches. The economics of the externality is set out by
 @adilov2015, and @rao2020 estimate the gains from orbital-use fees.
 
-The strategic literature divides along the lines of the session's three readings. @dolman2002
+The strategic literature divides along the lines of this chapter's three readings. @dolman2002
 carries classical geopolitics into orbit; @bowen2020 argues that spacepower matters for its
 terrestrial effects; @pekkanen2019 describes the democratisation, commercialisation and
 militarisation of a domain in which most technology is dual-use and treaty-making has stalled. The
@@ -481,28 +496,32 @@ meets both conditions for weaponised interdependence. The measure of concentrati
 its antitrust thresholds are those of the US merger guidelines [@usdoj2010; @usdoj2023].
 :::
 
-## What the figure will not tell the firm
+## What the evidence does not license
 
-The practice round rebuilds ESA's count of objects in orbit by class, annotated with the 2007 test,
-the 2009 collision and the 2021 test, and adds the concentration of who launches payloads, from
-Sputnik to today. It will show the steady accumulation of debris, the steps that the three events
-cut into the record, the explosion of payloads since the large constellations began, and a
-concentration index that falls for decades and then climbs back. It will also show the decisions:
-the dating of debris, the filtering of objects that do not orbit the Earth, the reading of owner
-codes, the definition of an active satellite.
+The public record of the orbital environment is unusually good. ESA's count of objects by class, the
+catalogue from which it can be approximated, and the concentration of who launches payloads from
+Sputnik to today together show the steady accumulation of debris, the steps that the 2007 test, the
+2009 collision and the 2021 test cut into the record, the explosion of payloads since the large
+constellations began, and a concentration index that falls for decades and then climbs back. They
+also show the decisions underneath: the dating of debris, the filtering of objects that do not
+orbit the Earth, the reading of owner codes, the definition of an active satellite.
 
-The question to carry into the round is what this figure does not license a multinational to
-conclude. A rising count of objects does not tell a firm that its services are at greater risk,
-because risk depends on the size of objects, the shells its providers use, and the manoeuvring
-capability of their satellites — none of which the count contains. The absence of a spike does not
-mean the absence of a threat: the counterspace effects firms have actually suffered — jamming,
-spoofing, cyberattacks on ground segments — leave no trace in a catalogue of objects. And
+Three conclusions do not follow. A rising count of objects does not tell a firm that its services
+are at greater risk, because risk depends on the size of objects, the shells its providers use and
+the manoeuvring capability of their satellites — none of which the count contains. The absence of a
+spike does not mean the absence of a threat: the counterspace effects firms have actually suffered
+— jamming, spoofing, cyberattacks on ground segments — leave no trace in a catalogue of objects. And
 concentration by owner code is not the firm's dependence. A firm may buy its connectivity from a
 small operator in an unconcentrated market and still depend on one state's navigation system for its
 time, or buy from the dominant operator through a reseller and not know it.
 
-The figure is the right place to begin a space-infrastructure view on a team dashboard, because it
-shows the condition of the commons and the shape of the new space race. The firm's own exposure
-begins elsewhere: with the list of satellite services it buys, the operators and states behind each,
-and the regions where its ships, aircraft and sites depend on signals that someone else can switch
-off.
+What the evidence does support is a conclusion about where the risk sits. Space was governed for
+half a century by a bargain between two states that could each destroy the other's satellites and
+chose, mostly, not to. That bargain has not been replaced; it has been overlaid by a market in which
+one firm carries much of the world's new capacity, by coalitions writing rules the treaty process
+cannot, and by an environment that the least careful user degrades for everyone. In each of those
+layers the risk falls less on the owner of the satellite than on the customer of the service, and
+the customer is usually the last to know. A multinational's exposure to space therefore begins not
+with the sky but with a list it rarely keeps: the satellite services it buys, the operators and
+states behind each, and the regions where its ships, aircraft and sites depend on signals that
+someone else can switch off.

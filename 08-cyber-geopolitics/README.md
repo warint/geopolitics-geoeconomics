@@ -8,7 +8,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-08-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S08-Lecture.qmd`](01-lecture/INTE60019A-S08-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-08-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-08-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-08.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-08-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-08.html)
 
 | | |
 |---|---|
@@ -40,7 +40,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — cyber as a domain; restraint; weaponised interdependence; attribution; the firm | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 08:** rebuild the cyber-conflict picture | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
-| **Lecture notes** | [Chapter 8 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-08.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 8 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-08.html) — the argument at length, with its sources | — |
 
 > **Action today for Session 10.** Submit the request form of the Global Sanctions Data Base
 > ([globalsanctionsdatabase.com](https://globalsanctionsdatabase.com/)) — the data are e-mailed, and

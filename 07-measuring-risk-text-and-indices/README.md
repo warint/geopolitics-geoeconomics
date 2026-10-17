@@ -8,7 +8,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-07-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S07-Lecture.qmd`](01-lecture/INTE60019A-S07-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-07-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-07-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-07.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-07-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-07.html)
 
 | | |
 |---|---|
@@ -42,7 +42,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — content analysis; dictionaries; reliability; big data; composite indicators | 50 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 07:** three short builds — firm-level risk vs EPU; your coded index; a composite with moving weights | 90 min |
 | **Data** | [`data/`](data/README.md) | — |
-| **Lecture notes** | [Chapter 7 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-07.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 7 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-07.html) — the argument at length, with its sources | — |
 
 **Team project milestone.** The composite built in part (c) of today's practice is your **draft
 composite index**, reviewed in class.

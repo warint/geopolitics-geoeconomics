@@ -4,7 +4,7 @@ title: "Economic Diplomacy Redefined: Two-Level Games, Embassies and the Firm"
 
 ## From serving firms to screening them
 
-For most of the period covered by Session 02 — the decades in which the liberal economic order was
+For most of the period covered by Chapter 2 — the decades in which the liberal economic order was
 built out and then globalised — economic diplomacy had a settled meaning and a settled direction.
 Diplomats negotiated trade agreements, opened markets, promoted exports and courted investors. Trade
 commissioners in embassies found distributors for small exporters; ministers led delegations of
@@ -19,10 +19,10 @@ conducted on social media. A multinational today is still the beneficiary of eco
 is also, increasingly, its object and its instrument — and sometimes a diplomat in its own right.
 
 ::: {.definition}
-[**Economic diplomacy**]{.term} — the use of the instruments of foreign policy for economic ends, and
-of economic instruments for foreign-policy ends. The first covers trade negotiation, export and
-investment promotion; the second covers sanctions, export controls, aid and investment screening used
-to pursue security or political goals.
+[**Economic diplomacy**]{.term} — the use of the instruments of foreign policy for economic ends,
+and of economic instruments for foreign-policy ends. The first covers trade negotiation, export and
+investment promotion; the second covers sanctions, export controls, aid and investment screening
+used to pursue security or political goals.
 :::
 
 ::: {.definition}
@@ -36,16 +36,16 @@ technology are now treated as matters of national security, so that a firm faces
 controls and "trusted vendor" rules not only from rival states but from its own side. The second is
 the move **from promotion to coercion**: the networks that were built to promote exports — financial
 messaging, payment systems, technology supply chains — are the same networks that states now use to
-deny access, as Session 08's chokepoints showed and Session 10's sanctions will show in detail.
-Home- state support can become home-state constraint overnight. The third is **digitalisation**:
-diplomacy is increasingly conducted in public, on social media, addressed to domestic and foreign
-audiences at once, and firms are pulled into it — through boycotts, hashtags and official
-denunciations — without having chosen to be.
+deny access, as the chokepoints of Chapter 8 showed and the sanctions of Chapter 10 will show in
+detail. Home-state support can become home-state constraint overnight. The third is
+**digitalisation**: diplomacy is increasingly conducted in public, on social media, addressed to
+domestic and foreign audiences at once, and firms are pulled into it — through boycotts, hashtags
+and official denunciations — without having chosen to be.
 
 This chapter takes the redefinition in three steps. It begins with the theory that best captures how
 international bargaining is shaped by domestic politics, Robert Putnam's two-level game, and with
 the argument of Corneliu Bjola and Ilan Manor that digital diplomacy has changed how that game is
-played. It then turns to the empirical question at the heart of the replication: whether the most
+played. It then turns to the empirical question at the heart of the evidence: whether the most
 traditional instrument of commercial diplomacy, the embassy, actually promotes exports, as Andrew
 Rose found. Finally it turns to the relationship between states and firms directly — bargaining,
 screening and the choice a firm faces about when to lean on its home state.
@@ -64,10 +64,10 @@ need not be formal; any domestic process that can kill an agreement counts. An a
 only if it is acceptable at both levels, on both sides.
 
 ::: {.definition}
-[**Win-set**]{.term} — for a given Level II constituency, the set of possible Level I agreements that
-it would ratify. An agreement is possible only where the two sides' win-sets overlap. The size of each
-win-set depends on the distribution of power and preferences at home, on the domestic institutions
-that govern ratification, and on the strategies of the negotiators themselves.
+[**Win-set**]{.term} — for a given Level II constituency, the set of possible Level I agreements
+that it would ratify. An agreement is possible only where the two sides' win-sets overlap. The size
+of each win-set depends on the distribution of power and preferences at home, on the domestic
+institutions that govern ratification, and on the strategies of the negotiators themselves.
 :::
 
 Three lessons follow, and each has a direct application to firms.
@@ -134,12 +134,12 @@ coalition in which country would decide whether there was an agreement at all.
 
 ## The two-level game goes digital
 
-Putnam wrote in 1988, about a world in which Level II was reached mainly through legislatures, interest
-groups and the press. Bjola and Manor revisit his model three decades later through the negotiations
-over Iran's nuclear programme, which culminated in the Joint Comprehensive Plan of Action of July 2015
-[@bjola2018]. Their argument is that **digital diplomacy** — ministries, embassies and leaders
-communicating directly with publics on social media — gives negotiators a new instrument for acting on
-Level II, both their own and the other side's.
+Putnam wrote in 1988, about a world in which Level II was reached mainly through legislatures,
+interest groups and the press. Bjola and Manor revisit his model three decades later through the
+negotiations over Iran's nuclear programme, which culminated in the Joint Comprehensive Plan of
+Action of July 2015 [@bjola2018]. Their argument is that **digital diplomacy** — ministries,
+embassies and leaders communicating directly with publics on social media — gives negotiators a new
+instrument for acting on Level II, both their own and the other side's.
 
 The mechanics are straightforward. Before social media, a negotiator who wanted to build domestic
 support for a deal worked through intermediaries: parliamentary allies, friendly editors, interest
@@ -174,14 +174,15 @@ cost by their contribution to trade. Rose asked whether the justification holds 
 
 His design combined, in a single recent cross-section, data on the embassies and consulates that 22
 large exporting countries maintain in some 200 destinations with their bilateral exports, using the
-framework that economists have used to explain bilateral trade since Jan Tinbergen first applied it in the
-1960s [@tinbergen1962].
+framework that economists have used to explain bilateral trade since Jan Tinbergen first applied it
+in the 1960s [@tinbergen1962].
 
 ::: {.definition}
-[**Gravity model**]{.term} — the empirical relationship in which bilateral trade between two countries
-rises with their economic size and falls with the distance between them, by analogy with Newton's law
-of gravitation. Modern versions add measures of trade costs — common language, shared borders, colonial
-ties, trade agreements — and controls for each country's overall openness to trade with all partners.
+[**Gravity model**]{.term} — the empirical relationship in which bilateral trade between two
+countries rises with their economic size and falls with the distance between them, by analogy with
+Newton's law of gravitation. Modern versions add measures of trade costs — common language, shared
+borders, colonial ties, trade agreements — and controls for each country's overall openness to trade
+with all partners.
 :::
 
 The model's empirical success is remarkable — few relationships in economics fit cross-country data
@@ -201,9 +202,9 @@ off his tables, by exporter and type of post, rather than remembered from a summ
 
 ## Three objections
 
-The replication tests the result against three objections. Each is a general problem in inferring
-the effect of a policy from a cross-section, and each will recur in the evaluation of sanctions in
-Session 10.
+Rose's result faces three objections, and a fourth problem that lies in the data. Each is a general
+problem in inferring the effect of a policy from a cross-section, and each will recur in the
+evaluation of sanctions in Chapter 10.
 
 ### Reverse causality
 
@@ -220,48 +221,52 @@ the two apart requires data over time, and even then requires that the timing of
 driven by anticipated growth — a ministry that opens a consulate because it expects a market to boom
 will produce a post that "precedes" growth without causing it. Rose took the objection seriously and
 argued that his evidence was consistent with posts having an effect, but a cross-section cannot
-settle the question. That is the catch of the replication, and its extension step is a first, rough
-attempt at the dynamic comparison.
+settle the question. The networks themselves do change, and the changes offer a first, rough test:
+between 2017 and 2023 the major diplomatic services opened some posts and closed others, and a
+relationship that holds in the cross-section should leave a trace in the trade of the pairs whose
+posts changed. A trace, however, is not proof, for the reason just given — a post opened in
+anticipation of growth will appear to cause it.
 
 ### Omitted variables
 
 Large, rich and nearby partners receive more posts *and* more trade, for reasons that have nothing
 to do with each other. The gravity controls are designed to absorb exactly this, but a raw scatter
-of exports against posts does not include them. The replication's simplest correction — dividing
-exports by the partner's GDP — removes the most obvious confounder and shows how much of the raw
-relationship was simply size. Other confounders are harder: a shared language, a large diaspora, a
-history of colonial ties or a security alliance may raise both the number of posts and the volume of
-trade.
+of exports against posts does not include them. The simplest correction — dividing exports by the
+partner's GDP — removes the most obvious confounder and shows how much of the raw relationship was
+simply size. Other confounders are harder: a shared language, a large diaspora, a history of
+colonial ties or a security alliance may raise both the number of posts and the volume of trade.
 
 ### Measurement
 
 A post is not a budget. A small consulate with two staff and a large embassy with a commercial
 section of fifty count the same in a tally of posts, and an honorary consulate run by a local
-businessman may count too. The type of post matters, which is why the replication separates
-embassies from consulates. The direction of the measurement problem is not obvious. Consulates are
-often placed in commercial cities precisely to serve trade; yet Rose found the creation of an
-embassy to matter more than an additional consulate, which may say as much about what an embassy
-signals as about what it does.
+businessman may count too. The type of post matters, which is why embassies and consulates must be
+counted separately. The direction of the measurement problem is not obvious. Consulates are often
+placed in commercial cities precisely to serve trade; yet Rose found the creation of an embassy to
+matter more than an additional consulate, which may say as much about what an embassy signals as
+about what it does.
 
 ### The zeros
 
-There is a fourth problem, which the data file makes unavoidable. The Lowy Institute's file lists
-posts that exist. A country with no post in a partner does not appear — the zero is missing, not
-zero — and must be constructed. Once constructed, the zeros create a second difficulty: the
-logarithm of zero is undefined, so on a chart with logarithmic axes the partners with no posts fall
-off the plot. Dropping them silently changes the sample in a way that is correlated with the
-outcome, because the partners with no posts are disproportionately the small and distant ones with
-little trade. The same problem in the trade variable — pairs of countries that do not trade at all —
-led Santos Silva and Tenreyro to argue that the standard practice of estimating gravity equations in
-logarithms is biased, and to propose an estimator that keeps the zeros in [@santossilva2006]. The
-lesson for a chart is simpler: say how many observations a log scale has removed, and show what the
-relationship looks like with and without them.
+There is a fourth problem, which the data make unavoidable. The most comprehensive public record of
+diplomatic networks, the Lowy Institute's Global Diplomacy Index, lists posts that exist
+[@lowy2024]. A country with no post in a partner does not appear — the zero is missing, not zero —
+and must be constructed. Once constructed, the zeros create a second difficulty: the logarithm of
+zero is undefined, so on a chart with logarithmic axes the partners with no posts fall off the plot.
+Dropping them silently changes the sample in a way that is correlated with the outcome, because the
+partners with no posts are disproportionately the small and distant ones with little trade. The same
+problem in the trade variable — pairs of countries that do not trade at all — led Santos Silva and
+Tenreyro to argue that the standard practice of estimating gravity equations in logarithms is
+biased, and to propose an estimator that keeps the zeros in [@santossilva2006]. The lesson for a
+chart is simpler: say how many observations a log scale has removed, and show what the relationship
+looks like with and without them.
 
 ::: {.warn}
-**A trend line with a high R² and a tiny p-value does not show that embassies cause exports.** It shows
-a strong association in a cross-section. The R² measures how closely the points cluster around the
-line; the p-value measures how surprising the slope would be if there were no association at all.
-Neither says anything about which way the causation runs, or whether a third variable drives both.
+**A trend line with a high R² and a tiny p-value does not show that embassies cause exports.** It
+shows a strong association in a cross-section. The R² measures how closely the points cluster around
+the line; the p-value measures how surprising the slope would be if there were no association at
+all. Neither says anything about which way the causation runs, or whether a third variable drives
+both.
 :::
 
 ## The rest of the toolbox, and what the evidence says
@@ -299,10 +304,10 @@ after the missions against the trade it would otherwise have been expected to ha
 the missions had small, negative and mainly insignificant effects.
 
 The episode is a clean illustration of the reverse-causality objection to Rose. Governments direct
-their most visible commercial diplomacy at the markets they expect to matter — which are, very often,
-the markets that would have grown anyway. A ministry that evaluates its missions by the deals announced
-during them, or by the subsequent growth of trade with the destinations, will always conclude that the
-missions succeeded.
+their most visible commercial diplomacy at the markets they expect to matter — which are, very
+often, the markets that would have grown anyway. A ministry that evaluates its missions by the deals
+announced during them, or by the subsequent growth of trade with the destinations, will always
+conclude that the missions succeeded.
 :::
 
 **Export promotion agencies.** Lederman, Olarreaga and Payton surveyed national export promotion
@@ -338,8 +343,8 @@ was mobile can be renegotiated when it is not.
 ::: {.definition}
 [**Obsolescing bargain**]{.term} — the tendency for a multinational's bargaining power over a host
 government to decline after its investment is sunk, so that the terms agreed at entry become
-vulnerable to renegotiation, higher taxation or, in the limit, expropriation. The bargain "obsolesces"
-because the conditions that made it acceptable to the host no longer hold.
+vulnerable to renegotiation, higher taxation or, in the limit, expropriation. The bargain
+"obsolesces" because the conditions that made it acceptable to the host no longer hold.
 :::
 
 ::: {.archive}
@@ -354,14 +359,14 @@ approved a constitutional amendment nationalising the large copper mines. The co
 allowed the government to deduct "excess profits" earned in previous years, and the deductions
 largely eliminated what the companies would otherwise have been owed.
 
-The episode is the textbook case of the obsolescing bargain, and it was a geopolitical event as much as
-a commercial one. The companies' home government treated the nationalisation as a matter of foreign
-policy, and the dispute became entangled with the wider hostility of the United States to Allende's
-government in the years before the coup of 1973. Kobrin's study of expropriations across developing
-countries from 1960 to 1979 placed Chile's in a wider wave, in which natural resources — where capital
-is most sunk — were prominent [@kobrin1984]. For a firm, the lesson has two
-halves: sunk capital weakens bargaining power over time, and a dispute over that capital can quickly
-stop being a dispute between a firm and a host and become one between two states.
+The episode is the textbook case of the obsolescing bargain, and it was a geopolitical event as much
+as a commercial one. The companies' home government treated the nationalisation as a matter of
+foreign policy, and the dispute became entangled with the wider hostility of the United States to
+Allende's government in the years before the coup of 1973. Kobrin's study of expropriations across
+developing countries from 1960 to 1979 placed Chile's in a wider wave, in which natural resources —
+where capital is most sunk — were prominent [@kobrin1984]. For a firm, the lesson has two halves:
+sunk capital weakens bargaining power over time, and a dispute over that capital can quickly stop
+being a dispute between a firm and a host and become one between two states.
 :::
 
 ## Screening: diplomacy aimed at firms
@@ -422,36 +427,47 @@ could not restore their market access without conceding on an issue that was not
 terms, they had become instruments for acting on Canada's Level II — a constituency whose losses
 were meant to raise the domestic cost of the government's position.
 
-The decision can be framed with the course's five channels. Leaning on the home state may protect
-**market access** and **assets** in a dispute, but it may endanger **market access** in a rival's
-market, **inputs** sourced from a rival, **finance** from banks that fear sanctions, and the safety
-of **people** posted in a country where the firm has become a symbol. And it may draw the firm into
-the **data** demands that come with being seen as part of a state's infrastructure. The question is
-not whether a firm should ever accept help. It is whether the firm has thought about what the help
-will mean if relations between the two states change — and whether it is prepared to be, in the eyes
-of its host, its government's instrument.
+The decision can be framed with the five channels used throughout this book. Leaning on the home
+state may protect **market access** and **assets** in a dispute, but it may endanger **market
+access** in a rival's market, **inputs** sourced from a rival, **finance** from banks that fear
+sanctions, and the safety of **people** posted in a country where the firm has become a symbol. And
+it may draw the firm into the **data** demands that come with being seen as part of a state's
+infrastructure. The question is not whether a firm should ever accept help. It is whether the firm
+has thought about what the help will mean if relations between the two states change — and whether
+it is prepared to be, in the eyes of its host, its government's instrument.
 
-## From concept to data
+## What the diplomatic networks show
 
-The replication asks whether a country's exports to a partner rise with the number of diplomatic
-posts it keeps there, using the most comprehensive public record of diplomatic networks. The Lowy
-Institute's Global Diplomacy Index records the networks of 66 countries and territories — G20, OECD
-and Asian states, with data collected up to November 2023 — at the level of the individual post.
-Each row of its 2023 sheet is one post, about 7,700 in all, with the sending country, the host
-country, the city and the type of post, which distinguishes embassies and high commissions from
-consulates, permanent missions and other offices. Earlier sheets allow the 2023 networks to be
-compared with those of 2017, which covers 60 senders.
+The Lowy Institute's index records the networks of 66 countries and territories — G20, OECD and
+Asian states, with data collected up to November 2023 — at the level of the individual post. Each of
+its roughly 7,700 entries for 2023 is one post, with the sending country, the host country, the city
+and the type of post, which distinguishes embassies and high commissions from consulates, permanent
+missions and other offices. Earlier releases allow the 2023 networks to be compared with those of
+2017, which cover 60 senders.
 
-Three features of the data carry the arguments of this chapter into the replication. The first is
-that the file is at the wrong level: the gravity question is about pairs of countries, and the file
-is about posts. Turning posts into a count per pair is a reduction in Krippendorff's sense, and like
-every reduction it discards information — the city, the type of post — that the analysis may later
-need. The second is the missing zeros. The pairs in which a country keeps no post do not appear, and
-must be built from the list of partners in the trade data; without them, the analysis can only
+The headline the index made famous is a change at the top. In 2017 the United States kept the
+largest diplomatic network in the record, with 274 posts against China's 271. By 2023 the order had
+reversed: China kept 274 and the United States 271, with Türkiye, Japan and France following at
+around 250 each [@lowy2024]. The difference at the top is small, and a tally of posts says nothing
+about the size of the staff in them or the quality of their work. But the composition is revealing.
+China's lead rests on its consulates — 91 against the United States' 83 in 2023 — which are the
+posts most directly concerned with trade, investment and nationals abroad, while the United States
+keeps more permanent missions to international organisations. A state's diplomatic network is a
+revealed preference: it shows where a foreign ministry has chosen to spend scarce money, and the
+shift at the top is a shift in where two great powers expect their commercial and political
+interests to lie.
+
+Three features of the data carry the arguments of this chapter into any test of Rose's result. The
+first is that the record is at the wrong level: the gravity question is about pairs of countries,
+and the record is about posts. Turning posts into a count per pair is a reduction in Krippendorff's
+sense, and like every reduction it discards information — the city, the type of post — that the
+analysis may later need. The second is the missing zeros: the pairs in which a country keeps no post
+must be built from the list of partners in the trade data, and without them the analysis can only
 compare partners with one post against partners with several, which is not Rose's question. The
-third is the exports themselves, taken from the IMF's bilateral trade statistics as reported by the
-exporter, and scaled in one variant by the partner's GDP — the simplest available correction for the
-most obvious omitted variable.
+third is the exports themselves. The IMF's bilateral trade statistics record each pair's trade
+twice, as one country's exports and the other's imports, and the two often disagree; using the
+exporter's own report is a choice, and scaling it by the partner's GDP is the simplest available
+correction for the most obvious omitted variable.
 
 The type of post deserves a moment of its own. Embassies and high commissions are the standard
 bilateral posts; consulates and consulates-general are usually in commercial or populous cities
@@ -460,53 +476,62 @@ abroad. Permanent missions are a different thing altogether: a mission to the Un
 York or Geneva, or to an international organisation elsewhere, is located in the host country but is
 accredited to the organisation, not to the host. Counting it as a bilateral post would credit
 Switzerland or the United States with diplomatic attention that is really directed at multilateral
-bodies. Deciding which types to count is a measurement decision of exactly the kind Session 07 asked
+bodies. Deciding which types to count is a measurement decision of exactly the kind Chapter 7 asked
 to be made explicitly.
 
-Two further features are worth knowing before the first chart is drawn. The Lowy file identifies
-countries by name only, with inconsistent spellings, and the trade and GDP data use codes, so every
-join depends on a concordance built by hand. And a join done carelessly, on country fields that do
-not uniquely identify a pair, can multiply rows and inflate exports without any error message. Both
-are data problems; both, unnoticed, would change the slope of the trend line more than any of the
-substantive objections.
+A humbler feature matters as much: the index identifies countries by name only, with inconsistent
+spellings, while trade statistics use codes, so every link between the two depends on a concordance
+built by hand — and an error there changes the slope more than any substantive objection.
 
 ## A short review of the literature
 
 ::: {.lit}
 The theory of how domestic politics shapes international bargaining is @putnam1988, whose two-level
-game and win-set remain the standard vocabulary; @bjola2018 extend it to digital diplomacy through the
-Iran nuclear negotiations. On the relationship between states and firms, @vernon1971 introduced the
-dynamic later called the obsolescing bargain, @kobrin1984 documented the wave of expropriations that
-gave it empirical content, and @stopford1991 and @strange1992 recast diplomacy as a triangle of
-state–state, state–firm and firm–firm relations. @blackwill2016 describe the return of geoeconomics —
-the systematic use of economic instruments for geopolitical ends — that has redefined the field.
+game and win-set remain the standard vocabulary; @bjola2018 extend it to digital diplomacy through
+the Iran nuclear negotiations. On the relationship between states and firms, @vernon1971 introduced
+the dynamic later called the obsolescing bargain, @kobrin1984 documented the wave of expropriations
+that gave it empirical content, and @stopford1991 and @strange1992 recast diplomacy as a triangle of
+state–state, state–firm and firm–firm relations. @blackwill2016 describe the return of geoeconomics
+— the systematic use of economic instruments for geopolitical ends — that has redefined the field.
 
 The empirical evaluation of commercial diplomacy rests on the gravity model, introduced by
-@tinbergen1962 and given its modern theoretical foundation by @anderson2003; @head2014 is the practical
-guide and @santossilva2006 the warning about logarithms and zeros. @rose2007 is the central study of
-diplomatic posts and exports. @nitsch2007 examines state visits, @head2010 Canada's trade missions,
-@lederman2010 export promotion agencies, and @moons2017 synthesises the econometric evidence in a
-meta-analysis. @gertz2018 shows commercial diplomacy at work in investment disputes, connecting the
+@tinbergen1962 and given its modern theoretical foundation by @anderson2003; @head2014 is the
+practical guide and @santossilva2006 the warning about logarithms and zeros. @rose2007 is the
+central study of diplomatic posts and exports. @nitsch2007 examines state visits, @head2010 Canada's
+trade missions, @lederman2010 export promotion agencies, and @moons2017 synthesises the econometric
+evidence in a meta-analysis, and @lowy2024 is the most comprehensive public record of diplomatic
+networks. @gertz2018 shows commercial diplomacy at work in investment disputes, connecting the
 promotion of firms abroad to the management of political risk.
 :::
 
-## What the trend line will not tell the firm
+## What the evidence does not license
 
-The practice round produces a scatter of exports against diplomatic posts, on logarithmic axes, with
-a trend line and a model summary. It will almost certainly slope upwards, and the R² will be
-respectable. The temptation is to read it as Rose's finding confirmed: posts promote exports.
+Set a country's exports to each partner against the number of posts it keeps there, on logarithmic
+axes, and the cloud of points will almost certainly slope upwards, with a respectable fit. The
+temptation is to read it as Rose's finding confirmed: posts promote exports.
 
-The trend line does not license that conclusion, for a multinational or for a foreign ministry. It
+The association does not license that conclusion, for a multinational or for a foreign ministry. It
 does not show that opening a post in a market will raise exports there, because posts are opened
 where exports are expected, and the snapshot cannot tell the two directions apart. It does not show
 that the relationship is about diplomacy at all until the size of the partner has been removed, and
 it may show something quite different once embassies and consulates are separated. And if the zeros
 have been dropped — silently, by a logarithmic axis — it does not show the relationship for the
 partners where the question is most interesting: the markets in which a country has no presence yet.
+The studies reviewed above point the same way. The more carefully they deal with selection, the
+smaller and shorter-lived the effect of commercial diplomacy tends to become, and the most visible
+instruments — the state visit, the trade mission — fare worst.
 
 For a firm, the more useful reading is the reverse of the naive one. The density of a home state's
 diplomatic network in a market is a measure of how much that state already cares about the market —
 a measure of the political attention a firm can expect when it needs help, and of the political
-attention it will attract when relations sour. The question to carry into the practice round is the
-one this chapter has framed: in the markets that matter to the team's firm, is the firm the object
-of its home state's diplomacy, its instrument, or its hostage — and what would change that answer?
+attention it will attract when relations sour. The canola exporters of 2019 operated in a market
+where their government kept an embassy and several consulates; the network did not protect them, and
+their visibility as Canada's commercial presence in China is what made them useful to squeeze.
+
+The redefinition of economic diplomacy with which this chapter began changes what a firm should ask
+of its home state. The old question was how much help was available. The new one is what the help
+will cost if the two states fall out — and the answer depends on the two-level game, the screening
+regime and the rivalry in which the firm's markets sit. In each market that matters, a firm is some
+combination of its home state's client, instrument and hostage. Knowing the proportions, and how
+fast they could change, is the part of geopolitical risk that no gravity equation will estimate for
+it.

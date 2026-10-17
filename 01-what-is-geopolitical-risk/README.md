@@ -7,7 +7,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-01-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S01-Lecture.qmd`](01-lecture/INTE60019A-S01-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-01-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-01-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-01.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-01-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-01.html)
 
 | | |
 |---|---|
@@ -37,7 +37,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — the syllabus; risk vs uncertainty; a typology of indicators; how GPR is built | 90 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 01:** rebuild the GPR figure | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
-| **Lecture notes** | [Chapter 1 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-01.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 1 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-01.html) — the argument at length, with its sources | — |
 
 Session 01 has **no Risk Brief**. Sign-up for Risk Briefs (Sessions 02–11) opens at the end of class.
 Teams are formed at the start of Session 02.

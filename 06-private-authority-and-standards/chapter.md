@@ -1,5 +1,5 @@
 ---
-title: "Private Authority, Standards and Global Regulation"
+title: "Private Authority, Standards and Global Regulation: Who Writes the Rules Firms Obey"
 ---
 
 ## Count the rules in a telephone
@@ -22,7 +22,7 @@ and revised by engineers, auditors, industry associations and non-governmental o
 multinational that sells the phone spends far more of its compliance effort on these rules than on
 any treaty.
 
-Session 05 looked at intergovernmental institutions — the organisations states build and in which
+Chapter 5 looked at intergovernmental institutions — the organisations states build and in which
 states vote. This chapter is about the other half of global governance, the rules that come from
 somewhere other than states, and about why that half is increasingly geopolitical.
 
@@ -36,8 +36,8 @@ For a multinational, private authority is two things at once. It is a **risk**: 
 elsewhere, by actors the firm does not control, can become a condition of access to a market. And it
 is a **lever**: a firm that shapes a standard shapes the market the standard governs, and may write
 its own technology, its own processes and its own costs into the rules its competitors must follow.
-The question this chapter asks is the one in the session's title: who writes the rules a
-multinational actually follows, with whose power — and does trade spread those rules up or down?
+The question this chapter asks is therefore twofold: who writes the rules a multinational actually
+follows, and with whose power — and does trade spread those rules up or down?
 
 ## Where private authority comes from
 
@@ -70,9 +70,6 @@ is, for that firm, as compulsory as a law — and sometimes more so, because a l
 in court and a lost customer cannot.
 :::
 
-Voluntary describes how a standard is adopted — no state compels it. It does not describe how much
-choice the firm has once its customers have adopted it.
-
 ## The governance triangle
 
 If rules can come from states, firms and NGOs, it helps to have a map. Kenneth Abbott and Duncan
@@ -98,7 +95,7 @@ the UN Secretary-General as a set of principles to which firms commit, brings st
 civil society together and is often placed near the centre. ISO itself is harder to place: its
 members are national standards bodies, some of them government agencies and many of them private
 associations whose committees are staffed largely by industry experts — which is why the placement
-of ISO standards is a useful argument to have in class rather than a fact to memorise.
+of ISO standards is a matter of argument rather than of fact.
 
 The triangle's most important feature is not on the diagram. Abbott and Snidal stress the **shadow
 of the state**: even schemes run entirely by private actors are shaped by the possibility that
@@ -196,7 +193,7 @@ telecommunications standards, over battery and charging standards, over the rule
 intelligence and for the flow of data, has become a competition between blocs, each trying to make
 its domestic rules the world's.
 
-The reason is that standards confer advantages that outlast the meeting at which they were agreed. A
+Standards confer advantages that outlast the meeting at which they were agreed. A
 standard that incorporates patented technology generates licence revenue for as long as it is used;
 one that matches a country's industrial practice lowers its firms' costs and raises its
 competitors'; one that embeds choices about data access or encryption shapes what governments can
@@ -222,9 +219,22 @@ competition law and product standards are her main cases; the common charger is 
 example.
 
 The Brussels effect is a mechanism of *unilateral* regulatory globalisation, but it shares a logic
-with private standards. In both cases, rules travel along the channels of trade, carried by firms
-that find it cheaper to adopt one rule everywhere than to maintain many. That shared logic is
-precisely what the big work of this session tests.
+with private standards. In both cases, rules travel along the channels of trade, carried by firms.
+That shared logic is precisely what the evidence later in this chapter tests.
+
+The contest has since become explicit. In *Digital Empires* Bradford extends the argument from a
+single regulator to a rivalry among three [@bradford2023]: an American model that leaves the
+governance of technology largely to markets and firms, a Chinese model in which the state directs
+technology to serve its own goals, and a European model that regulates in the name of individual
+rights. Each jurisdiction seeks to export its model, through its firms and its market, and the
+battles run vertically — between governments and the technology companies they regulate — as well as
+horizontally, between the jurisdictions themselves. The European Commission's 2022 strategy on
+standardisation states the stakes in the language of geopolitics: the geopolitical landscape, it
+observes, "has significantly shifted in recent years", and other actors "follow a much more
+assertive approach to international standardisation than the EU and have gained influence in
+international standardisation committees" [@europeancommission2022]. For a firm, the change is that
+the technical committee where its engineers sit has become a place where its home state's interests
+are being pursued, whether or not the firm shares them.
 
 ## Of, by, as: what standards do to organisations
 
@@ -310,7 +320,7 @@ time, and it can be lost the same way.
 
 ## Race to the bottom, or trading up?
 
-With the concepts in place, the session's central question can be stated precisely. Trade
+With the concepts in place, the chapter's central question can be stated precisely. Trade
 intensifies competition among producers in different countries. Does that competition push standards
 down or up?
 
@@ -399,17 +409,16 @@ more likely where firms were linked to multinational owners or exported to devel
 customers. Across these studies the picture is consistent: private standards travel along supply
 chains, from buyer to supplier, and the supply chains themselves determine where they go.
 
-For the firm, the conclusion is one of the most practical in the course. A private standard can
+For the firm, the conclusion is one of the most practical in this book. A private standard can
 become a de facto condition of access to a market without a single law changing. Monitoring
 "regulatory" risk therefore means monitoring not only what governments legislate but what one's
 customers' home markets adopt.
 
-## Turning a certificate into data
+## How a certificate becomes evidence
 
-The practice round rebuilds the two figures that carry Prakash and Potoski's argument: the diffusion
-of ISO 14001 across countries over time, and each country's adoption against the adoption level of
-its export markets. Every step of the construction involves a choice that affects what the figure
-shows.
+The evidence for the California effect in private standards rests on two constructed quantities: how
+far a standard has diffused across countries, and how each country's adoption compares with that of
+the markets it sells to.
 
 The data on certification come from **the ISO Survey of Management System Standard Certifications**,
 which counts valid certificates by country and year for the main management-system standards. Two
@@ -417,61 +426,59 @@ features of the survey should temper any reading of it. It counts *certificates*
 certification bodies, not firms or sites, and its coverage of certification bodies has changed
 across editions, so that a sudden jump in one country in one year may reflect a change in reporting
 rather than a wave of adoption. And from 2025 it is compiled from the IAF CertSearch database, a
-change of method that belongs in a provenance log. The 2015 revision of ISO 14001 adds a further
-wrinkle: as certificates to the old version expired and were reissued, transition years can show
-dips that have nothing to do with firms abandoning the standard.
+change of method that breaks the comparability of the series at exactly the point where a reader
+would most like to extend it. The 2015 revision of ISO 14001 adds a further wrinkle: as
+certificates to the old version expired and were reissued, transition years can show dips that have
+nothing to do with firms abandoning the standard.
 
 A count of certificates is not an adoption rate. A large economy has more certificates because it
-has more firms, and a map of raw counts is mostly a map of economic size. The practice round
-therefore **normalises** by GDP, expressing adoption as certificates per billion US dollars of
-output. That is one reasonable choice among several — per firm, per unit of manufacturing output,
-per unit of exports would each tell a somewhat different story — and the scaling Prakash and Potoski
-themselves use should be checked against the paper. If it differs, the difference is logged, not
-hidden.
+has more firms, and a map of raw counts is mostly a map of economic size. Adoption must therefore be
+**normalised** — by GDP, by the number of firms, by manufacturing output or by exports — and each
+denominator tells a somewhat different story. Certificates per firm depend on business registers
+whose quality varies enormously across countries. No denominator is neutral, and a finding that
+holds under only one of them is a finding about the denominator.
 
-The trade side requires a measure of **export-market adoption** for each country: how much ISO 14001
-adoption there is, on average, among the countries it sells to. The natural measure is a weighted
-average of partners' adoption rates, with each partner weighted by its share of the country's
-exports. Bilateral exports come from the IMF's International Trade in Goods by partner country
-[@imf2026], the dataset already used in Session 04. The weighting is the substance of the argument,
-not a technical detail. The California effect predicts that what matters is adoption among the
-markets a country actually sells to, in proportion to how much it sells to them. An unweighted
-average of all partners would give a country's smallest customers as much influence as its largest
-and would test a different, much weaker hypothesis.
+The trade side requires a measure of **export-market adoption** for each country: how much adoption
+there is, on average, among the countries it sells to. The natural measure is a weighted average of
+partners' adoption rates, each partner weighted by its share of the country's exports, built from
+bilateral trade data such as the IMF's International Trade in Goods by partner country [@imf2026],
+the source used for the fragmentation evidence of Chapter 4. The weighting is the substance of the
+argument, not a technical detail. The California effect predicts that what matters is adoption
+among the markets a country actually sells to, in proportion to how much it sells to them. An
+unweighted average of all partners would give a country's smallest customers as much influence as
+its largest and would test a different, much weaker hypothesis.
 
-A scatter of own adoption against export-market adoption can show whether the two move together, not
-why; the paper's panel model with controls and the replication's descriptive cloud differ precisely
-there, and the final section returns to the gap.
+A scatter of own adoption against export-market adoption shows whether the two move together, not
+why; Prakash and Potoski's panel model, with its controls, is what carries the causal claim.
 
 The most instructive check is a **placebo**. ISO 9001, the quality-management standard, is demanded
 by buyers everywhere and has no environmental content at all. If adoption of ISO 9001 tracks
 export-market adoption of ISO 9001 just as closely as ISO 14001 tracks its own, then the
 export-market pull may have little to do with environmental governance and a great deal to do with
-the general practice of supply chains demanding certificates of their suppliers. That would not
-overturn the finding that trade spreads private standards upward. It would change what the finding
-means — from "trade spreads environmental governance" to "trade spreads certification", which is a
-different and less encouraging claim.
+the general practice of supply chains demanding certificates of their suppliers. The earlier
+finding of @guler2002, that ISO 9000 certificates themselves spread along trade ties, suggests that
+the placebo would not come back empty. That would not overturn the finding that trade spreads
+private standards upward. It would change what the finding means — from "trade spreads
+environmental governance" to "trade spreads certification", which is a different and less
+encouraging claim.
 
 ## What private authority means for the multinational, channel by channel
 
-The five channels through which the course traces geopolitical risk all run through private
+The five channels through which this book traces geopolitical risk all run through private
 authority, and in each the firm is both a rule-taker and a potential rule-maker.
 
 **Market access** is the most direct channel. A certificate required by buyers is a condition of
 entry as real as a tariff, and it is set by the buyers and, behind them, by their home markets. When
 a large market writes a private standard into law, as the EU did with the common charger, the
-condition of access hardens and its reach extends through the Brussels effect to markets far beyond
-the one that legislated. A firm that monitors only government regulation will see these changes
-late. The practical discipline is to track what one's customers' home markets adopt, both privately
-and in law, because the evidence of this chapter says that is where one's own future requirements
-will come from.
+condition hardens and its reach extends through the Brussels effect. A firm that monitors only
+government regulation will see these changes late; its future requirements will come from what its
+customers' home markets adopt, privately and in law.
 
 **Inputs** are where the multinational becomes the imposer rather than the imposed upon. A firm that
 requires its suppliers to certify is exercising private authority over them, and the evidence on
 decoupling says that the value of that requirement depends on whether the firm monitors behind the
-certificate. A supplier's ISO 14001 certificate is evidence that a management system exists. It is
-not, by itself, evidence that the supplier pollutes less, and a firm that treats it as such is
-exposed when the gap between certificate and practice becomes public.
+certificate. A supplier's ISO 14001 certificate is evidence that a management system exists, not
+that the supplier pollutes less.
 
 **Finance** increasingly runs on private standards too — carbon accounting, sustainability reporting
 frameworks, credit ratings — each written by a private or hybrid body, each conditioning access to
@@ -486,17 +493,17 @@ in the eyes of customers has fallen overnight.
 Telecommunications standards, information-security standards, rules for artificial intelligence and
 for cross-border data flows are now contested between blocs. A firm whose products embed one bloc's
 standards may find them excluded from the other's procurement, and a firm whose engineers sit on the
-committees writing the next generation of a standard is not only shaping its own costs but taking
-part, whether it likes it or not, in a contest between states.
+committees writing the next generation of a standard is taking part, whether it likes it or not, in
+a contest between states.
 
-Across the five channels, the strategic choice is the same, and it has three options. The firm can
-**adopt** a standard written elsewhere, accepting the cost of compliance as the price of access. It
-can **shape** the standard, investing in participation in the bodies that write it — the lesson of
-Mattli and Büthe is that this investment pays only if the firm and its national body are organised
-to use it. Or it can **resist**, backing a competing standard or lobbying against legal adoption — a
-bet that the rival standard will win enough users, or that the shadow of the state will not fall.
-The choice depends on where the scheme sits in the governance triangle, on whether its authority is
-delegated or entrepreneurial, and on whether the firm's own customers are among those who confer it.
+Across the five channels, the strategic choice has three options. The firm can **adopt** a standard
+written elsewhere, accepting the cost of compliance as the price of access. It can **shape** the
+standard, investing in participation in the bodies that write it — the lesson of Mattli and Büthe is
+that this investment pays only if the firm and its national body are organised to use it. Or it can
+**resist**, backing a competing standard or lobbying against legal adoption — a bet that the shadow
+of the state will not fall. The choice depends on where the scheme sits in the governance triangle,
+on whether its authority is delegated or entrepreneurial, and on whether the firm's own customers
+are among those who confer it.
 
 ## A short review of the literature
 
@@ -514,8 +521,9 @@ The politics of who writes international standards is the subject of @mattli2003
 institutional complementarity over technological rationality and raw power was generalised in
 @buthe2011 to the private regulation of products and financial reporting. @bradford2020 documented
 the unilateral mechanism by which strict EU rules become global through firms' preference for a
-single production standard; the EU's common-charger directive [@europeanunion2022] is a recent and
-transparent instance of a private specification hardened into law.
+single production standard, and @bradford2023 extended it to a three-way contest over the regulation
+of technology; the EU's common-charger directive [@europeanunion2022] is a recent and transparent
+instance of a private specification hardened into law.
 
 On standards as organisation, @brunsson2012 set out the three perspectives — of, by and as
 organisation — and the dynamism of standards in practice, drawing on the institutionalist insight of
@@ -525,7 +533,7 @@ by @christmann2006, who show that substantive rather than symbolic implementatio
 monitoring by customers.
 
 On the race to the bottom, @vogel1995 named the California effect and set it against the Delaware
-effect. @prakash2006 provided the cross-national test at the centre of this session, finding that
+effect. @prakash2006 provided the cross-national test at the centre of this chapter, finding that
 trade spreads ISO 14001 from export markets to exporters, and @prakash2006b developed the theory of
 voluntary programmes as clubs. The diffusion mechanism is corroborated for quality standards by
 @guler2002, for Chinese firms by @christmann2001, and for the differing paths of Europe and the
@@ -533,37 +541,27 @@ United States by @delmas2002. The through-line is that private rules travel alon
 that the power to write them lies with those organised to take part.
 :::
 
-## What the map will not tell the firm
+## What the evidence does not license
 
-The practice round produces a map of ISO 14001 adoption that changes as the years advance, small
-multiples of its diffusion by region, and a scatter of each country's adoption against the adoption
-of its export markets. If the build goes well, the scatter will slope upward, as Prakash and
-Potoski's argument predicts. The temptation will be to read that slope as proof that trade spreads
-environmental governance. It is evidence of something narrower.
+Suppose the evidence comes out as Prakash and Potoski's argument predicts: countries whose export
+markets certify heavily certify more themselves. That is not yet proof that trade spreads
+environmental governance.
 
-The scatter is a **correlation**, not a test. Countries whose export markets certify heavily are
-richer, more industrialised and more embedded in multinational supply chains than others, and any of
-those differences could produce the slope on its own; the paper's panel model controls for some of
-them, the cloud of points controls for none. Certificates are **not performance**: the evidence on
+The cross-country pattern is a **correlation** before it is a test. Countries whose export markets
+certify heavily are richer, more industrialised and more embedded in multinational supply chains
+than others, and any of those differences could produce the pattern on its own; a panel model
+controls for some of them, a scatter for none. Certificates are **not performance**: the evidence on
 decoupling says that a certified plant may or may not pollute less than an uncertified one, and the
-figure says nothing about which. The data carry the scars of their **collection**:
-certification-body coverage changes between survey editions, the 2015 revision produces transition
-dips, and the switch to IAF CertSearch is a change of method. And the measure depends on choices —
-normalising by GDP rather than by firms or exports, weighting partners by exports rather than
-equally — that the comparison step asks you to break deliberately.
+counts say nothing about which. The data carry the scars of their **collection**, and the measure
+depends on **choices** of denominator and weighting.
 
-What the figures *can* show is whether the broad pattern the paper reports is visible in public data
-with transparent choices; how unevenly a private standard has diffused across the world; and,
-through the ISO 9001 placebo, whether the pull of export markets is specific to environmental
-governance or general to certification. Each of these matters to a firm deciding whether to certify,
-whether to require certification of its suppliers, and how much to trust the certificates it
-receives.
-
-The question for the catch slide is the course's usual one, applied to private rules. Suppose the
-scatter slopes upward exactly as the paper says. What does it *not* license a multinational to
-conclude? It does not license the conclusion that a certified supplier is environmentally better
-than an uncertified one, that certification caused a country's export success, that a standard
-voluntary today will stay voluntary, or that the rules the firm's markets follow were written by
-anyone the firm can vote for. The answer you give — one sentence — is a judgement about where
-authority lies, and it is the judgement a multinational must make every time it decides whether to
-adopt, shape or resist a rule it did not write.
+The evidence therefore does not license the conclusion that a certified supplier is
+environmentally better than an uncertified one, that certification caused a country's export
+success, that a standard voluntary today will stay voluntary, or that the rules a firm's markets
+follow were written by anyone the firm can vote for. What it does license is the chapter's central
+claim about authority. Rules that no legislature enacted travel along supply chains, from buyer to
+supplier, with the force of market access behind them; the bodies that write them reward those
+organised to take part; and states, increasingly conscious of the stakes, are moving to capture
+both the bodies and the rules. A multinational that treats standards as a technical matter for its
+engineers and its quality department has misread where authority lies. Every time it decides
+whether to adopt, shape or resist a rule it did not write, it is making a judgement about power.

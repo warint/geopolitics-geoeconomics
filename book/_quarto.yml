@@ -5,42 +5,44 @@ project:
 
 book:
   title: "Geopolitical Risks and International Business"
-  subtitle: "INTE 60019A · HEC Montréal"
-  author: "Thierry Warin, PhD"
+  subtitle: "Measuring the politics of the world economy, and acting on it"
+  author: "Thierry Warin"
   date: last-modified
   date-format: "D MMMM YYYY"
   search: true
   repo-url: https://github.com/warint/geopolitics-geoeconomics
   repo-branch: main
-  repo-actions: [source, issue]
   downloads: [pdf]
   page-navigation: true
   sidebar:
     style: docked
     collapse-level: 1
   page-footer:
-    left: "INTE 60019A · HEC Montréal"
-    right: "Built from the course repository"
+    left: "Thierry Warin · Geopolitical Risks and International Business"
+    right: "HEC Montréal"
   chapters:
     - index.qmd
     - session-01.qmd
-    - session-02.qmd
-    - session-03.qmd
-    - session-04.qmd
-    - session-05.qmd
-    - session-06.qmd
-    - session-07.qmd
-    - session-08.qmd
-    - session-09.qmd
-    - session-10.qmd
-    - session-11.qmd
+    - part: "The system"
+      chapters:
+        - session-02.qmd
+        - session-03.qmd
+        - session-04.qmd
+    - part: "Who governs"
+      chapters:
+        - session-05.qmd
+        - session-06.qmd
+    - part: "From judgement to number"
+      chapters:
+        - session-07.qmd
+    - part: "The channels"
+      chapters:
+        - session-08.qmd
+        - session-09.qmd
+        - session-10.qmd
+        - session-11.qmd
     - session-12.qmd
-  appendices:
-    - replications.qmd
-    - data-sources.qmd
-    - tableau-toolkit.qmd
-    - readings.qmd
-    - assessment.qmd
+    - references.qmd
 
 bibliography: references.bib
 link-citations: true
@@ -61,6 +63,6 @@ format:
     monofontoptions: [Scale=0.82]
     colorlinks: true
     toc: true
-    toc-depth: 2
+    toc-depth: 1
     number-sections: true
     geometry: [margin=2.2cm]

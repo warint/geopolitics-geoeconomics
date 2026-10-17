@@ -5,9 +5,9 @@
 **INTE 60019A · HEC Montréal · M. Sc. in International Business · 3 credits · in English**
 Thierry Warin, PhD
 
-> **The lecture notes are a book.** [*Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/) — every
-> session as one chapter (before the session, the lecture, the practice round), searchable, with a
-> [PDF](https://warint.github.io/geopolitics-geoeconomics/book/Geopolitical-Risks-and-International-Business.pdf). The slides are on the
+> **The book.** [*Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/) — twelve chapters of
+> about six thousand words, one for each session, written to be read on their own
+> ([PDF](https://warint.github.io/geopolitics-geoeconomics/book/Geopolitical-Risks-and-International-Business.pdf)). The slides are on the
 > [course site](https://warint.github.io/geopolitics-geoeconomics/).
 
 A twelve-session graduate course in which every big idea about geopolitical risk is **read**, then
@@ -111,7 +111,7 @@ git clone <this repository> geopolitical-risks-international-business
 
 **Rendering the decks and the book** (instructors): `scripts/render_slides.sh` renders every `.qmd`
 to a self-contained HTML deck with Quarto (press **F** for full screen, **S** for speaker view);
-`scripts/render_book.sh` assembles the lecture notes into `book/` and renders them to `docs/book/`;
+`scripts/render_book.sh` assembles the book from each session's `chapter.md` into `book/` and renders it to `docs/book/`;
 `python3 scripts/build_docs.py` publishes the decks to `docs/`.
 
 ---
@@ -129,7 +129,7 @@ to a self-contained HTML deck with Quarto (press **F** for full screen, **S** fo
 ├── templates/                    provenance-log.csv
 ├── slides/                       deck theme (economist.scss), book theme (book.scss), filter
 ├── scripts/                      render_slides.sh · render_book.sh · build_book.py · build_docs.py
-├── book/                         the course book, assembled from the sessions (generated — do not edit)
+├── book/                         the book, assembled from each session's chapter.md (generated — do not edit)
 ├── docs/                         the GitHub Pages site: decks and docs/book/
 ├── NN-session-slug/              sessions 01–11
 │   ├── README.md                 the session at a glance

@@ -3,7 +3,7 @@
 # Private authority, standards and global regulation
 
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-06-lecture.html)** — or read the source at [`INTE60019A-S06-Lecture.qmd`](INTE60019A-S06-Lecture.qmd).
-> As a book chapter: [course book, Session 06](https://warint.github.io/geopolitics-geoeconomics/book/session-06.html) · Instructor plan:
+> Read further: [Chapter 6 of the book](https://warint.github.io/geopolitics-geoeconomics/book/session-06.html) · Instructor plan:
 > [`TEACHING-PLAN.md`](TEACHING-PLAN.md)
 
 ---

@@ -56,7 +56,7 @@ def main() -> None:
             shutil.copy2(src, DOCS / dest)
             links.append(f'<a href="{dest}">{src.stem.split("-")[-1]}</a>')
         if (DOCS / "book" / f"session-{num}.html").exists():
-            links.append(f'<a href="book/session-{num}.html">Lecture notes</a>')
+            links.append(f'<a href="book/session-{num}.html">Book chapter</a>')
         if links:
             rows.append(
                 f"<tr><td class='n'>{num}</td><td>{html.escape(session_title(folder))}</td>"
@@ -99,8 +99,8 @@ PAGE = """<!doctype html>
 <h1>Geopolitical Risks and International Business</h1>
 <p class="sub">INTE 60019A · HEC Montréal · Thierry Warin, PhD — every deck of the course, in your browser.
 Press <b>F</b> for full screen, <b>S</b> for speaker notes, <b>Esc</b> for the overview.</p>
-<p class="book"><a href="book/"><b>The lecture notes, as a book</b></a> — every session as one chapter:
-before the session, the lecture, the practice round. Searchable, with a
+<p class="book"><a href="book/"><b>The book: <i>Geopolitical Risks and International Business</i></b></a> —
+twelve chapters, one for each session, written to be read on their own. Searchable, with a
 <a href="book/Geopolitical-Risks-and-International-Business.pdf">PDF</a>.</p>
 <table>
 {rows}

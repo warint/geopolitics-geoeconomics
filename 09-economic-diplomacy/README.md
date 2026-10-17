@@ -8,7 +8,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-09-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S09-Lecture.qmd`](01-lecture/INTE60019A-S09-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-09-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-09-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-09.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-09-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-09.html)
 
 | | |
 |---|---|
@@ -40,7 +40,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — what changed in economic diplomacy; two-level games; digital diplomacy; embassies and exports; screening and bargaining | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 09:** do embassies follow, or lead, exports? | 90 min |
 | **Data** | [`data/`](data/README.md) | — |
-| **Lecture notes** | [Chapter 9 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-09.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 9 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-09.html) — the argument at length, with its sources | — |
 
 > **Reminder.** Session 10 opens with **Quiz 3** (Sessions 07–09) and needs the **GSDB** file — if
 > it has not arrived, write to the database team today.

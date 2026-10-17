@@ -1,5 +1,5 @@
 ---
-title: "Trade, Conflict and Geoeconomic Fragmentation"
+title: "Trade, Conflict and Geoeconomic Fragmentation: From Commercial Peace to Rival Blocs"
 ---
 
 ## An old promise, and an old embarrassment
@@ -46,7 +46,8 @@ evidence has settled, and then turns to the question that has replaced it. The o
 whether trade pacifies. The question that matters to a multinational in the 2020s is different: if
 states have begun to trade more with friends than with rivals, how does a firm find out which side
 each of its markets is on, and how fast the lines are hardening? That question has an empirical
-answer, it can be rebuilt from public data, and it is the target of this session's replication.
+answer, assembled from public data, and the second half of the chapter shows how the answer is built
+and how far it can be trusted.
 
 ## Four reasons trade might pacify
 
@@ -95,9 +96,9 @@ correlation is real. What it means is a different question.
 ## The realist reply: interdependence as exposure
 
 The realist critique does not deny that trade creates gains. It denies that gains are what states
-care about most. In an anarchic system — the world of Session 03, with no authority above states to
-enforce agreements — a state's first concern is survival, and every economic relationship is
-evaluated for what it does to security.
+care about most. In an anarchic system — the world described in Chapter 3, with no authority above
+states to enforce agreements — a state's first concern is survival, and every economic relationship
+is evaluated for what it does to security.
 
 Seen that way, interdependence is a polite word for **vulnerability**. If a state depends on a rival
 for food, fuel or critical components, the rival holds a lever over it. Kenneth Waltz drew the
@@ -123,8 +124,8 @@ Herfindahl, became the standard measure of market concentration in competition p
 intellectual ancestor of every modern dependency dashboard was designed to measure geopolitical
 leverage.
 
-Two further realist arguments sharpen the point. The first concerns **relative gains**. In Session
-03 we saw why a state in an anarchic system may reject a deal that makes it better off if the deal
+Two further realist arguments sharpen the point. The first concerns **relative gains**. Chapter 3
+showed why a state in an anarchic system may reject a deal that makes it better off if the deal
 makes its rival better off by more. Trade usually benefits both partners, but rarely equally, and a
 state that expects to face its partner as an adversary must worry that today's gains will fund
 tomorrow's threat.
@@ -186,8 +187,8 @@ measures that distinguished the salience of a relationship from its symmetry, fo
 interdependence was associated with *more* militarised disputes, not fewer, and later extended the
 case against the liberal view at book length [@barbieri2002]. Much of the disagreement turned out to
 be about measurement — trade relative to whose GDP, counted from whose customs records, over which
-years, against which definition of a dispute — which is a warning this course will repeat in every
-practice round.
+years, against which definition of a dispute — which is a warning that applies to every measure in
+this book.
 
 Edward Mansfield's review in the *Oxford Handbook of International Political Economy* is the best
 short guide to where the debate now stands [@mansfield2021]. Four of its points organise everything
@@ -198,7 +199,7 @@ fight trade less, and states that are fighting trade hardly at all. A negative c
 trade and conflict is therefore what we would observe whether trade causes peace, peace causes
 trade, or both are driven by something else — a shared alliance, a shared regime type, geographical
 distance. This is reverse causality in its classic form, and it is fatal to any naive reading of a
-dyadic correlation. It returns in this session's replication in a new form: when trade between two
+dyadic correlation. It returns in the fragmentation literature in a new form: when trade between two
 blocs falls, we must ask whether the trade fell because the relationship deteriorated, or whether
 the deterioration is what the falling trade is measuring.
 
@@ -214,8 +215,8 @@ describe none of them well.
 
 The fourth is the one that matters most for a business school: **the question has changed**. As
 great-power competition returned, research turned from asking whether trade pacifies to asking how
-states use trade as an instrument of conflict. That is the question of Sessions 08, 09 and 10 —
-cyber, economic diplomacy and sanctions — and it is the reason this session ends not with dyadic
+states use trade as an instrument of conflict. That is the question of Chapters 8, 9 and 10 —
+cyber, economic diplomacy and sanctions — and it is the reason this chapter ends not with dyadic
 dispute data but with the geography of trade itself.
 
 ## Bilateral ties, multilateral exits
@@ -310,7 +311,8 @@ That narrower question is the one Gopinath and her co-authors set out to answer.
 
 @gopinath2025, first circulated as an IMF working paper [@gopinath2024], ask whether the global
 economy has begun to split into blocs since Russia's full-scale invasion of Ukraine in February
-2022. Their design has three steps, and the replication rebuilds a simplified version of each.
+2022. Their design has three steps, and each embeds a choice that a reader of the result should
+know about.
 
 **First, define the blocs.** Countries are grouped into a US-leaning bloc, a China-leaning bloc and
 a non-aligned group on the basis of their foreign-policy alignment as revealed by voting in the UN
@@ -318,8 +320,9 @@ General Assembly. The choice is deliberate. Alliances are too sparse to classify
 trade itself cannot be used, because trade is the outcome; and General Assembly votes are cast by
 nearly every state on hundreds of resolutions a year, recorded publicly and comparable across
 countries. Section 2 of the paper states exactly which measure, which reference period and which
-cut-offs the authors use. Read it carefully, because the version built in the practice round is a
-simplification, and the size of the simplification is part of what you must report.
+cut-offs the authors use. Any simpler classification — including the illustrative rule described
+later in this chapter — departs from theirs, and the size of the departure is part of what any
+comparison with their result has to report.
 
 **Second, compare trade within and between blocs** before and after the invasion. The comparison is
 made in a gravity framework — the workhorse model of international trade, in which bilateral trade
@@ -331,12 +334,25 @@ investment, where the same question is asked of announced investment projects.
 **Third, look for connectors.** Non-aligned countries whose trade with *both* blocs grew after 2022
 are candidates for rerouted trade: goods that once moved directly between the blocs may now move
 through a third country, sometimes after some processing, sometimes after very little. Countries
-such as Mexico and Vietnam are the obvious candidates, and they appear in the lecture as
-illustrations.
+such as Mexico and Vietnam are the obvious candidates.
 
-The main finding is that after the invasion trade *between* the two blocs fell relative to trade
-*within* them, by a margin the paper estimates precisely and which you should take from the paper
-itself rather than from any summary, including this one; foreign direct investment shows a similar
+Independent evidence on the United States points the same way and sharpens what "connector" means.
+@freund2024, working with US imports at the ten-digit tariff line between 2017 and 2022, find that
+China's share of US imports fell from 22 to 16 per cent and attribute the decline to the tariffs
+imposed from 2018. The imports were replaced by large developing countries with a revealed
+comparative advantage in the products concerned — and those countries were deeply integrated into
+China's own supply chains and saw their imports from China grow faster, especially in strategic
+industries: to displace China as an exporter to the United States, a country had to embrace China's
+supply chains. Within products the pattern looked like "China plus one" rather than broad
+diversification, and there was no consistent evidence of reshoring. China remained the largest
+supplier of goods to the United States in 2022. @alfaro2023 reach a compatible conclusion from a
+longer view of US sourcing: direct imports from China have fallen while Vietnam and Mexico have
+gained share, and it is unclear whether the reallocation reduces dependence on supply chains linked
+to China at all. The bilateral line has moved; the network beneath it has moved much less.
+
+The main finding of @gopinath2025 is that after the invasion trade *between* the two blocs fell
+relative to trade *within* them, by a margin the paper estimates with care and which no summary,
+including this one, should be trusted to round; foreign direct investment shows a similar
 pattern. The authors are careful in two directions. The fragmentation they measure is real and is
 concentrated in strategic sectors. It is also small compared with the Cold War, when trade between
 the Western and Soviet blocs was a small fraction of what it is now. Both halves of that conclusion
@@ -344,18 +360,15 @@ matter to a firm. The first says the lines are hardening. The second says that t
 way from two separate economies, and that a strategy built on the assumption of complete de-coupling
 is a strategy built for a world that does not yet exist.
 
-The design deserves the scrutiny a referee would give it. Bloc membership is fixed at a reference
-date, so countries that drift — and some do — are classified by where they stood, not where they are
-going. The non-aligned group is large and heterogeneous; it contains countries that lean slightly
-towards one side and countries that genuinely balance between them. The before-and-after comparison
-is anchored on a single event, and anything else that happened in 2022 is a candidate explanation.
-None of this undermines the paper. It defines what the paper licenses, which is the subject of the
-final section.
+Bloc membership is fixed at a reference date, so countries that drift are classified by where they
+stood; the non-aligned group mixes countries that lean slightly and countries that genuinely
+balance. None of this undermines the paper; it defines what the paper licenses.
 
 ## Turning alignment into a number
 
-The replication depends on a single variable that most students have never met, and it is worth
-understanding how it is made, because every choice in its construction travels into the figure.
+The whole design rests on a single variable that few readers outside political science have met,
+and it is worth understanding how it is made, because every choice in its construction travels into
+the result.
 
 A General Assembly roll call records, for each resolution, whether each state voted yes, no or
 abstained. The simplest way to measure the alignment of two states is to count how often they vote
@@ -387,75 +400,71 @@ co-operation or friendship.
 The data come from the Dataverse record maintained by Erik Voeten and co-authors [@voeten2026].
 Version 39, released in July 2026, estimates ideal points by calendar year, where older releases
 used Assembly sessions; the file still carries a session column, and the calendar year is the
-session number plus 1945. That change of meaning is exactly the sort of detail that belongs in a
-provenance log, because a figure built on the older file and a figure built on the newer one can
-disagree for reasons that have nothing to do with geopolitics. In 2021, the reference year used in
-the practice round, the file covers 193 countries, with the United States at 2.41 and China at −0.41
-on the scale.
+session number plus 1945. That change of meaning is not a pedantic detail: a figure built on the
+older file and a figure built on the newer one can disagree for reasons that have nothing to do
+with geopolitics. In 2021, the last full year before the invasion, the file covers 193 countries,
+with the United States at 2.41 and China at −0.41 on the scale.
 
 An ideal point is a continuous variable. A bloc is a category. Getting from one to the other
-requires a rule, and the rule is a modelling choice. The practice round uses a simple one: a country
+requires a rule, and the rule is a modelling choice. The simplest serviceable rule runs: a country
 is US-leaning if it is closer to the United States than to China by more than a chosen margin,
 China-leaning if the reverse holds, and non-aligned otherwise. The margin is a parameter, which
-means it can be moved — and when it moves, countries change bloc and the figure changes with them. A
+means it can be moved — and when it moves, countries change bloc and the result changes with them. A
 result that survives a range of reasonable margins is evidence of fragmentation. A result that
 appears at one margin and vanishes at another is evidence of the margin.
 
-The trade side of the figure has its own decisions. The source is the IMF's International Trade in
-Goods by partner country, the dataset formerly known as the Direction of Trade Statistics
+The trade side of the comparison has its own decisions. The source is the IMF's International Trade
+in Goods by partner country, the dataset formerly known as the Direction of Trade Statistics
 [@imf2026]. It reports, for each reporting country and each partner, the value of goods exports and
-imports in US dollars. Two things about it shape the replication. The first is the **mirror
+imports in US dollars. Two things about it shape any analysis built on it. The first is the **mirror
 problem**: A's reported exports to B are not equal to B's reported imports from A, because of
 timing, of valuation (exports are recorded free on board, imports including cost, insurance and
-freight), of re-exports and of confidentiality. A figure must pick one side and say which; the
-practice round uses exporter-reported exports throughout. The second is that the values are in
-**current US dollars**. When commodity prices rise, the dollar value of trade rises without a single
-extra barrel or tonne crossing a border, and 2022 was a year of very high energy and food prices.
-Trade "within" a bloc that includes large energy exporters can rise for reasons that have nothing to
-do with alignment.
+freight), of re-exports and of confidentiality. An analysis must pick one side and say which,
+because the two sides can diverge most where trade is routed through third countries — precisely
+where the interesting movement is. The second is that the values are in **current US dollars**. When
+commodity prices rise, the dollar value of trade rises without a single extra barrel or tonne
+crossing a border, and 2022 was a year of very high energy and food prices. Trade "within" a bloc
+that includes large energy exporters can rise for reasons that have nothing to do with alignment.
 
 The final step is the index. Each series — trade within the US-leaning bloc, within the
 China-leaning bloc, between the two, and involving the non-aligned — is divided by its own value in
 a base year and multiplied by a hundred. Indexing removes the enormous differences in level between
 the series and lets the eye compare their *trajectories*, which is what fragmentation is about. It
 also hands enormous weight to the base year. Index to 2021 and the post-COVID rebound of 2021 is
-built into the denominator; index to 2019 and it is not. The paper's choice and the replication's
-choice should be stated, and if they differ, the difference should be logged.
+built into the denominator; index to 2019 and it is not. Two honest analyses of the same data can
+therefore disagree about the size of the break simply because they chose different base years, and
+the base year belongs in the caption of any such figure, not in a footnote.
 
 ## What fragmentation does to a multinational, channel by channel
 
-The course follows five channels through which geopolitical risk reaches a firm. Fragmentation
+This book follows five channels through which geopolitical risk reaches a firm. Fragmentation
 touches all of them, but not equally, and a firm that can say which channel matters most for its own
 business has already done most of the analysis.
 
 **Market access** is the most direct. A firm whose markets sit in different blocs faces the prospect
 that the rules governing its sales — tariffs, export controls, procurement preferences, product
 standards — will diverge between them. The first practical step is unglamorous: classify the firm's
-five most important countries by alignment, as the team milestone of this session asks, and look not
-only at where they sit but at whether they are drifting. A market that is non-aligned today and
-drifting is a different exposure from one that is non-aligned and stable.
+most important markets by alignment, and look not only at where they sit but at whether they are
+drifting.
 
 **Inputs** are where friend-shoring and de-risking bite. Fragmentation in the data is concentrated
 in strategic sectors — semiconductors, critical minerals, advanced machinery, energy — and so is the
-policy pressure. A firm making consumer goods and a firm making semiconductor equipment live, in
-effect, in two different worlds: the first may see little change beyond rising transport and
-compliance costs, the second may find its suppliers, customers and technology licences reorganised
-by law. The connectors matter here twice over. A supplier in a connector country may be the cheapest
-route around a bloc boundary. It may also be the next target of rules-of-origin enforcement and
-transshipment investigations, because governments that wish to make fragmentation stick have every
-reason to close the routes around it.
+policy pressure. A maker of consumer goods may see little beyond rising transport and compliance
+costs; a maker of semiconductor equipment may find its suppliers, customers and licences reorganised
+by law. A supplier in a connector country may be the cheapest route around a bloc boundary — and the
+next target of rules-of-origin enforcement, because governments that wish to make fragmentation
+stick have every reason to close the routes around it.
 
 **Finance** follows the same lines. The between-bloc decline Gopinath and co-authors find in foreign
-direct investment is the investment counterpart of the trade finding, and it reaches firms through
-investment screening, restrictions on outbound investment in sensitive technologies, and the cost of
-capital for projects that straddle the boundary. Payments, too, run through hubs of the kind
-@farrell2019 describe, and access to them is a matter of jurisdiction.
+direct investment reaches firms through investment screening, restrictions on outbound investment in
+sensitive technologies, and the cost of capital for projects that straddle the boundary. Payments,
+too, run through hubs of the kind @farrell2019 describe, and access to them is a matter of
+jurisdiction.
 
-**Assets and people** are exposed in the connector countries and in the blocs' borderlands. A plant
-built to serve both blocs from a non-aligned location is a bet that the location will stay
-non-aligned and that both blocs will continue to accept goods from it. Staff who move between blocs
-face visa regimes, export-control rules on what technical knowledge they may carry, and in extreme
-cases detention risk.
+**Assets and people** are exposed in the connector countries. A plant built to serve both blocs
+from a non-aligned location is a bet that the location will stay non-aligned and that both blocs
+will keep accepting its goods. Staff who move between blocs face visa regimes and export-control
+rules on the technical knowledge they carry.
 
 **Data and operations** fragment as well: rules on data localisation, on cloud providers and on
 cross-border transfers increasingly follow the same alignment, and a firm whose systems are
@@ -464,13 +473,10 @@ integrated across blocs may find that integration itself becomes a compliance pr
 Across all five channels the same distinction from Martin, Mayer and Thoenig applies. The aggregate
 economy has substitutes; the firm has contracts. When a government decides that de-risking is
 affordable because the country's imports can be sourced elsewhere, it is making a claim about
-averages. The firm's own exposure is whatever its supply chain happens to be, and its own
-substitutes may be few, slow and expensive. The distinction between de-coupling and de-risking
-matters here too. If the data show de-risking — selective reductions in strategic sectors with
-overall trade preserved — then a blanket strategy of exit from the other bloc overreacts. If they
-show de-coupling, a strategy of waiting overreacts in the other direction. On the evidence so far
-the picture is closer to the former, and the right response is sectoral: know which of your products
-sit in the strategic categories where fragmentation is concentrated.
+averages; the firm's own substitutes may be few, slow and expensive. If the data show de-risking —
+selective reductions in strategic sectors with overall trade preserved — a blanket exit from the
+other bloc overreacts; if they show de-coupling, waiting overreacts the other way. The evidence so
+far is closer to the former, and the right response is sectoral.
 
 ::: {.warn}
 A tempting but wrong conclusion is that non-aligned markets are safe because they are on neither
@@ -505,11 +511,13 @@ The contemporary turn is from trade as a restraint to trade as an instrument. @f
 interdependence as a network with hubs that confer panopticon and chokepoint power. @aiyar2023
 defined geoeconomic fragmentation and set out its channels; @gopinath2024, published as
 @gopinath2025, provided the first systematic evidence that trade and investment have begun to
-reorganise along lines of foreign-policy alignment. The measurement of that alignment rests on a
-parallel literature: @signorino1999 on the pitfalls of agreement scores, @voeten2000 on the
-post-Cold War structure of General Assembly voting, and @bailey2017 on dynamic ideal points
-comparable over time. @lebillon2020 extends the analysis from manufactured goods to commodities,
-showing how supply chains themselves carry conflict.
+reorganise along lines of foreign-policy alignment; @freund2024 and @alfaro2023 show, for US
+imports, that the reallocation away from China runs largely through countries tied into China's own
+supply chains. The measurement of that alignment rests on a parallel literature: @signorino1999 on
+the pitfalls of agreement scores, @voeten2000 on the post-Cold War structure of General Assembly
+voting, and @bailey2017 on dynamic ideal points comparable over time. @lebillon2020 extends the
+analysis from manufactured goods to commodities, showing how supply chains themselves carry
+conflict.
 
 The through-line is a shift in what is being explained. The older literature asked whether economic
 ties prevent war. The newer one asks how the expectation of conflict reorganises economic ties — and
@@ -517,35 +525,31 @@ therefore treats trade data not as a cause of peace but as a record of how state
 to behave.
 :::
 
-## What the figure will not tell the firm
+## What the evidence does not license
 
-The practice round rebuilds, from ideal points and IMF trade data, a version of the figure at the
-centre of @gopinath2025: trade within and between blocs, indexed to the period before the invasion.
-If the build goes well, the lines will separate after 2022 in the direction the paper reports. The
-temptation will be to read that separation as a finding about geopolitics. It is a finding about a
-classification, a currency and a date, and each of those carries part of the result.
+Suppose the lines separate after 2022 exactly as @gopinath2025 report. The temptation is to read the
+separation as a finding about geopolitics. It is a finding about a classification, a currency and a
+date, and each carries part of the result.
 
-It is a **correlation with a date**. Sanctions on Russia, the post-pandemic rebound and the surge in
-commodity prices all move trade values in 2022, and all of them move trade *between* some blocs more
-than *within* others. A simple index cannot separate them; the paper's gravity specification goes
-some way towards doing so, and the replication does not. **Bloc membership is a modelling choice**:
-move the margin and countries move between blocs, and if the gap between the lines moves with them,
-the gap is partly an artefact of where the lines were drawn. **Values are not volumes**: a bloc rich
-in energy exporters will show trade rising in 2022 because oil and gas were expensive, not because
-its members drew closer. And the figure is **aggregate**: a multinational's products may sit in a
-sector where fragmentation is far stronger than the average, or in one where it is absent.
+It is a **correlation with a date**: sanctions on Russia, the post-pandemic rebound and the surge in
+commodity prices all moved trade in 2022, and a gravity specification separates only some of them.
+**Bloc membership is a modelling choice**: move the margin and countries move between blocs, and a
+gap that moves with them is partly an artefact of where the lines were drawn. **Values are not
+volumes**, as the energy exporters' 2022 figures show. And the result is **aggregate**: a firm's
+products may sit in a sector where fragmentation is far stronger than the average, or in one where
+it is absent.
 
-What the figure *can* do is narrower and still useful. It can show whether the broad pattern
-Gopinath and co-authors report is visible in raw data, with transparent choices that anyone can
-reproduce and change. It can show which of a firm's markets sit in which bloc under a stated rule,
-and how fragile that classification is. It can identify the connectors through which between-bloc
-trade appears to be flowing, which is where both the opportunities and the enforcement risks are
-concentrated.
+What the evidence does establish is narrower and still worth having: the broad pattern is visible in
+public data under transparent choices, a firm's markets can be placed in blocs under a stated rule
+whose fragility can be shown, and the connectors can be identified — where, on the evidence of
+@freund2024, dependence on the rival has often been relabelled rather than removed.
 
-The question to carry into the practice round is therefore the one the course asks of every
-replication. Suppose the lines separate exactly as the paper says. What does that figure *not*
-license a multinational to conclude? It does not license the conclusion that geopolitics caused the
-separation, that the firm's own sector follows the aggregate, that its non-aligned markets are safe,
-or that the bloc boundaries drawn at one margin in one year will be the boundaries that matter in
-five. The answer you give — in one sentence, on the catch slide — is the part of the round that most
-resembles the judgement a risk analyst is paid to make.
+Angell was right about the costs of war and wrong about what leaders would do with that knowledge;
+Copeland located the danger in expectations rather than in levels of trade. The fragmentation data
+are best read in the same spirit: not as proof that geopolitics has caused trade to split, but as a
+record of what states and firms now expect of one another. The evidence does not license the
+conclusion that alignment caused the separation, that a firm's own sector follows the aggregate,
+that its non-aligned markets are safe, or that blocs drawn at one margin in one year will be the
+blocs that matter in five. It licenses something more modest and more useful: the knowledge that the
+expectation of a divided world is already reorganising the network the firm depends on, in places
+the averages do not show.

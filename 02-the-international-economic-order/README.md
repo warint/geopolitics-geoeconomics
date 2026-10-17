@@ -8,7 +8,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-02-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S02-Lecture.qmd`](01-lecture/INTE60019A-S02-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-02-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-02-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-02.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-02-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-02.html)
 
 | | |
 |---|---|
@@ -39,7 +39,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — the order, the unbundlings, the convergence, the trilemma | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — team formation, then **Practice round 02:** rebuild the G7 share of world GDP | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
-| **Lecture notes** | [Chapter 2 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-02.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 2 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-02.html) — the argument at length, with its sources | — |
 
 **Teams form today.** Three or four students, one named multinational per team, registered on
 ZoneCours before you leave. See [`assessments/team-project/`](../assessments/team-project/README.md).

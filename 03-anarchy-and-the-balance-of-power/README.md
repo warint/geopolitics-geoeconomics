@@ -8,7 +8,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-03-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S03-Lecture.qmd`](01-lecture/INTE60019A-S03-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-03-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-03-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-03.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-03-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-03.html)
 
 | | |
 |---|---|
@@ -39,7 +39,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — anarchy, the balance of power, power transition, measuring capabilities | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 03:** rebuild the distribution of power | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
-| **Lecture notes** | [Chapter 3 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-03.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 3 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-03.html) — the argument at length, with its sources | — |
 
 **Quiz 1** opens Session 04 and covers Sessions 01–03.
 

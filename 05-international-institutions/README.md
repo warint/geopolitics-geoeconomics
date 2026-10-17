@@ -8,7 +8,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-05-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S05-Lecture.qmd`](01-lecture/INTE60019A-S05-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-05-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-05-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-05.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-05-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-05.html)
 
 | | |
 |---|---|
@@ -39,7 +39,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — why institutions; the Bretton Woods core and the World Bank Group as a business toolkit; the price of a seat; the regional development banks; the new institutions from Asia and the BRICS; complement or counter-hegemony; what it means for firms | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 05:** rebuild the event-time figure | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
-| **Lecture notes** | [Chapter 5 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-05.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 5 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-05.html) — the argument at length, with its sources | — |
 
 ---
 

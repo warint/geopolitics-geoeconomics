@@ -7,14 +7,14 @@ title: "Cyber Geopolitics: Restraint, Rivals and Weaponised Networks"
 For most of the past three decades, the public conversation about cyberspace and international
 politics has been conducted in the future tense. A "cyber Pearl Harbor" would switch off a country's
 power grid; a handful of skilled operators would humble a great power; the next war would be won or
-lost before a shot was fired. The scenarios were vivid, and they were not absurd: modern economies do
-run on networked systems, and those systems can be broken. What the scenarios lacked was a record.
-They were claims about what *could* happen, offered in the absence of systematic evidence about what
-*had*.
+lost before a shot was fired. The scenarios were vivid, and they were not absurd: modern economies
+do run on networked systems, and those systems can be broken. What the scenarios lacked was a
+record. They were claims about what *could* happen, offered in the absence of systematic evidence
+about what *had*.
 
 The opposite caricature is just as easy to state. On this view cyber operations are simply crime and
 espionage conducted with better tools — a nuisance for security departments, of no strategic
-consequence, and no business of a course on geopolitics. It, too, is a claim about evidence, and it,
+consequence, and no business of a book on geopolitics. It, too, is a claim about evidence, and it,
 too, is usually made without any.
 
 This chapter takes the question to the data. It does so through the work of Brandon Valeriano and
@@ -62,7 +62,7 @@ use their tools. An intrusion that begins as espionage leaves access that can la
 disruption. A ransomware campaign run by a criminal group may serve a state's purposes by sowing
 disorder in a rival's economy, without the state having ordered it. When a ransomware attack by a
 criminal group believed to operate from Russia forced the shutdown of the Colonial Pipeline in the
-United States in May 2021, it was crime in its motive and geopolitics in its consequences: the
+United States in May 2021 [@cisa2023], it was crime in its motive and geopolitics in its consequences: the
 question of what the Russian state knew, tolerated or could have prevented became a matter between
 governments.
 
@@ -95,8 +95,8 @@ Its institutional legacy was substantial. NATO's Cooperative Cyber Defence Centr
 established in Tallinn the following year, and under its auspices a group of international lawyers
 produced the *Tallinn Manual*, an attempt to state how existing international law applies to cyber
 operations [@schmitt2013]. The episode was widely described at the time as the first cyber war. With
-hindsight it looks more like the first clear case of what Valeriano and Maness would call restraint: a
-rival state's displeasure expressed through disruption that stopped well short of destruction.
+hindsight it looks more like the first clear case of what Valeriano and Maness would call restraint:
+a rival state's displeasure expressed through disruption that stopped well short of destruction.
 :::
 
 ## The restraint thesis
@@ -106,9 +106,8 @@ found. They did not try to catalogue every cyber operation in the world. They to
 with a history of enduring hostility — **rivals**, in the sense the international-conflict
 literature has used for decades — and recorded the cyber incidents between them. The unit is the
 incident, nested in campaigns; the population is rival dyads; the evidence is public. The dataset
-has since been extended as the Dyadic Cyber Incident and Campaign Data, whose version 2.0 covers
-incidents beginning between 2000 and 2020 and is the replication data for this session
-[@maness2022].
+has since been extended as the Dyadic Cyber Incident and Campaign Data (DCID), whose version 2.0
+covers incidents beginning between 2000 and 2020 [@maness2022].
 
 ::: {.definition}
 [**Cyber incident**]{.term} (in DCID) — an individual cyber operation launched by one state against
@@ -124,8 +123,8 @@ persists, crises recur, and each side interprets the other's moves in the light 
 If cyber operations are a new instrument of old conflicts, rivalries are where they should appear;
 if they are something genuinely new — an instrument that lets any state hurt any other cheaply —
 they should appear outside rivalries too. Restricting the data to rivals makes the first hypothesis
-testable and the second invisible — a limitation that the comparison dataset in the practice round
-makes concrete.
+testable and the second invisible — a limitation to which this chapter returns when the rival-dyad
+record is set beside a wider one.
 
 From that record they drew four propositions.
 
@@ -137,18 +136,18 @@ contact with a systematic count.
 
 ::: {.definition}
 [**Cyber restraint**]{.term} — the empirical pattern, and the theoretical argument, that states with
-offensive cyber capabilities use them sparingly and at low severity against their rivals, holding back
-the most destructive options. Restraint is a claim about *strategic* severity, not about frequency of
-nuisance or about commercial cost.
+offensive cyber capabilities use them sparingly and at low severity against their rivals, holding
+back the most destructive options. Restraint is a claim about *strategic* severity, not about
+frequency of nuisance or about commercial cost.
 :::
 
 The second is that cyber conflict follows **regional rivalries**. The dyads that account for most of
 the incidents are those that were already hostile before anyone had a network: the United States and
 China, Russia and its neighbours and the West, Israel and Iran, India and Pakistan, the two Koreas.
 Cyber operations do not create new conflicts; they are a tool in old ones. That finding matters for
-anyone who expected the low cost of entry to cyber operations to flatten the international hierarchy.
-The states that are most active in cyberspace are, by and large, the states that were already
-contending.
+anyone who expected the low cost of entry to cyber operations to flatten the international
+hierarchy. The states that are most active in cyberspace are, by and large, the states that were
+already contending.
 
 The third proposition explains the first: **why** states hold back. The fourth is that cyber
 operations have **limited coercive effect**. They rarely change the target's behaviour. They are
@@ -203,8 +202,20 @@ intensified around the full-scale invasion of February 2022. The best systematic
 earlier period found that cyber operations had little discernible effect on events on the
 battlefield [@kostyuk2019], which is consistent with the fourth proposition: cyber operations are
 weak instruments of compulsion even in war. Whether the restraint thesis holds *as of today* is an
-open question, and it is the right question to ask of the replication. A pattern measured to 2020 is
-evidence about 2000–2020; extending it requires data the dataset does not contain.
+open question. A pattern measured to 2020 is evidence about 2000–2020, and the war has supplied
+episodes that sit awkwardly within it.
+
+One of them began in the first hours of the invasion. On 24 February 2022 an operation against the
+KA-SAT satellite network operated by the American company Viasat disabled large numbers of the
+modems its customers used in Ukraine and elsewhere in Europe. The apparent target was Ukrainian
+military and government communications. Among the collateral casualties was the remote monitoring
+and control of wind farms in central Europe, whose operators used the same service. In May
+2022 the European Union, the United Kingdom and the United States attributed the operation to
+Russia [@ukgov2022]. The episode is consistent with restraint in the narrow sense — it was an adjunct to a
+conventional invasion, not a substitute for one — and it is a warning about everything the restraint
+thesis does not cover. A commercial satellite network was a target because the Ukrainian state
+relied on it, and the firms that suffered had no connection to the war except that they were
+customers of the same hub.
 
 The most famous exception proves the rule in an instructive way. The operation later known as
 Stuxnet, discovered in 2010, sabotaged centrifuges at Iran's uranium-enrichment plant at Natanz by
@@ -220,10 +231,10 @@ the machinery of plants, pipelines and utilities — were now a target class, an
 designed to attack one of them could end up on their own networks.
 
 ::: {.warn}
-**Low strategic severity is not low commercial cost.** An operation that barely registers on a scale of
-harm between states — a wiper that destroys no infrastructure and kills no one — can halt a company's
-production for weeks. The restraint thesis is about what states do to each other. The firm's question
-is what happens to the firms that happen to be in the way.
+**Low strategic severity is not low commercial cost.** An operation that barely registers on a scale
+of harm between states — a wiper that destroys no infrastructure and kills no one — can halt a
+company's production for weeks. The restraint thesis is about what states do to each other. The
+firm's question is what happens to the firms that happen to be in the way.
 :::
 
 ## Weaponised interdependence
@@ -242,15 +253,15 @@ Newman's argument is that the assumption was wrong. A state that has jurisdictio
 it.
 
 ::: {.definition}
-[**Panopticon effect**]{.term} — the use of jurisdiction over a network hub to *see* what flows through
-it: to gather information about the activities of other states, firms and individuals whose traffic
-passes through the hub.
+[**Panopticon effect**]{.term} — the use of jurisdiction over a network hub to *see* what flows
+through it: to gather information about the activities of other states, firms and individuals whose
+traffic passes through the hub.
 :::
 
 ::: {.definition}
-[**Chokepoint effect**]{.term} — the use of jurisdiction over a network hub to *deny* others access to
-it: to cut a bank out of a payment system, a firm out of a software supply, a country out of a market
-for critical components.
+[**Chokepoint effect**]{.term} — the use of jurisdiction over a network hub to *deny* others access
+to it: to cut a bank out of a payment system, a firm out of a software supply, a country out of a
+market for critical components.
 :::
 
 The two effects need each other. The panopticon tells a state where to apply the chokepoint, and the
@@ -273,8 +284,8 @@ payment network, a telecommunications operator, a maker of widely used software 
 infrastructure that its home state can watch through or weaponise, and that rival states therefore
 have reason to treat as a target, to exclude, or to replace with a domestic alternative. A firm in
 that position is not a bystander to geopolitical competition. It is part of the terrain. This is the
-bridge from this session to sanctions in Session 10, where the chokepoint becomes a legal
-instrument, and to space in Session 11, where the hubs are in orbit.
+bridge to sanctions in Chapter 10, where the chokepoint becomes a legal instrument, and to space in
+Chapter 11, where the hubs are in orbit.
 
 ## Attribution: evidence about evidence
 
@@ -304,13 +315,13 @@ therefore less severe than it is for routine intrusions — which is one reason 
 attacks remains possible [@lindsay2015]. Both views lead to the same conclusion about data.
 
 **An event dataset of cyber operations is a record of public attributions, not a record of
-operations.** That sentence is the most important caveat of the practice round. It has predictable
-consequences for what the data show. States that attribute publicly — mostly Western democracies,
-with active security services and a free press — appear more often as victims than states that do
-not. Operations by allies against each other are rarely attributed in public and are therefore
-nearly invisible. Operations that succeeded in remaining undetected are, by definition, absent. A
-dyad with no incidents in the data may be a dyad with no operations, or a dyad in which neither side
-chose to say anything.
+operations.** That sentence is the most important caveat attached to every count in this chapter. It
+has predictable consequences for what the data show. States that attribute publicly — mostly Western
+democracies, with active security services and a free press — appear more often as victims than
+states that do not. Operations by allies against each other are rarely attributed in public and are
+therefore nearly invisible. Operations that succeeded in remaining undetected are, by definition,
+absent. A dyad with no incidents in the data may be a dyad with no operations, or a dyad in which
+neither side chose to say anything.
 
 ## When the firm is collateral
 
@@ -331,12 +342,12 @@ Russian military.
 The apparent target was Ukraine. The victims included some of the largest firms in the world. The
 shipping company Maersk lost the use of systems across its global operations. The pharmaceutical
 company Merck and the food company Mondelez reported very large losses, as did logistics and
-manufacturing firms in many countries. None of them had a quarrel with anyone; they had a subsidiary,
-an office or a supplier in Ukraine, running a program everybody used [@greenberg2019].
+manufacturing firms in many countries. None of them had a quarrel with anyone; they had a
+subsidiary, an office or a supplier in Ukraine, running a program everybody used [@greenberg2019].
 
 The aftermath carried a second lesson. When the companies claimed under their property insurance,
-insurers invoked the **war exclusions** that such policies had carried for generations, arguing that an
-operation by a state's military was an act of war. The litigation lasted years and did not go
+insurers invoked the **war exclusions** that such policies had carried for generations, arguing that
+an operation by a state's military was an act of war. The litigation lasted years and did not go
 uniformly the insurers' way; in Merck's case, New Jersey courts held that the traditional exclusion,
 written with armed conflict in mind, did not cover the attack. The market's response was to write
 explicit exclusions for state-backed cyber operations into its contracts, which the Lloyd's market
@@ -351,9 +362,9 @@ network architecture — what it connects to, what it updates from, what its sub
 as much as on its political profile.
 
 The second is that **insurance is not a backstop**. A risk transfer that excludes the scenario the
-board is most worried about does not transfer that risk. The question to ask of a cyber policy is not
-whether it covers "cyber attacks" but what it says about operations attributed to states — and who
-decides the attribution.
+board is most worried about does not transfer that risk. The question to ask of a cyber policy is
+not whether it covers "cyber attacks" but what it says about operations attributed to states — and
+who decides the attribution.
 
 The third is that **the board owns it**. Securities regulators increasingly require listed firms to
 disclose material cyber incidents and to describe how their boards oversee cyber risk. In the United
@@ -409,15 +420,15 @@ problem. The **board** sets risk appetite and oversees disclosure; its distincti
 *which state actors would want our data or our downtime, and why?* The **chief information security
 officer** turns threat intelligence into controls and owns incident response, but typically reports
 through a technology function with limited geopolitical analysis. The **chief risk officer** is the
-natural integrator of cyber risk with country, sanctions and supply-chain risk — the view the team
-project takes. The **insurer** prices the risk and, increasingly, draws the line at state-backed
-operations. And **regulators** impose disclosure, localisation and vendor rules from outside. A firm
-in which each of these actors holds a piece of the picture and nobody holds the whole has a decision
+natural integrator of cyber risk with country, sanctions and supply-chain risk — the view this book
+takes. The **insurer** prices the risk and, increasingly, draws the line at state-backed operations.
+And **regulators** impose disclosure, localisation and vendor rules from outside. A firm in which
+each of these actors holds a piece of the picture and nobody holds the whole has a decision
 architecture designed for crime and espionage, not for geopolitics.
 
-What changes on Monday, for a firm with a plant in a country that sits in one of the densest cells
-of the rivalry matrix? Not, in the first instance, its technology. The first change is to the map:
-an inventory of which systems at that site connect to which systems elsewhere, which software is
+What should change for a firm with a plant in a country that sits in one of the densest cells of the
+rivalry matrix? Not, in the first instance, its technology. The first change is to the map: an
+inventory of which systems at that site connect to which systems elsewhere, which software is
 updated from which vendors, and which data cross which borders — because it is along those
 connections that an operation aimed at a government travels into a firm. The second is to
 segmentation: a subsidiary in a contested jurisdiction whose network can reach the group's core
@@ -425,27 +436,26 @@ systems is a bridge for anyone who compromises it, and the cheapest geopolitical
 buy is often a wall between the two. The third is to contracts: what the insurance policy says about
 operations attributed to states, what the cloud provider's terms say about government access in each
 jurisdiction, and what suppliers have agreed about notifying the firm when they are compromised. The
-fourth is to governance: who in the firm is responsible for asking, before an investment rather than
-after an incident, which states would want the firm's data or its downtime. None of these is a
-technical fix. All of them follow from treating cyber risk as a geopolitical exposure rather than an
-IT problem.
+fourth is to governance: who in the firm asks, before an investment rather than after an incident,
+which states would want the firm's data or its downtime.
 
-## From concept to data
+## What the record shows, and how it was made
 
-The replication target is the descriptive picture at the heart of Valeriano and Maness's book:
-incidents by year, by method and by severity, and the matrix of who targets whom. Rebuilding it from
-DCID version 2.0 is mostly a matter of reading the codebook carefully, and the codebook repays the
-reading because it is where the concepts of this chapter become columns.
+The descriptive picture at the heart of Valeriano and Maness's book — incidents by year, by method
+and by severity, and the matrix of who targets whom — can be rebuilt from the public release of
+DCID, and the codebook repays reading because it is where the concepts of this chapter become
+columns.
 
 The unit is one incident between an initiating state and a target state within a rival dyad. The
-dyad's two states are recorded as names, ordered by their Correlates of War codes, so that the first
-state of the pair is not the initiator; the initiator is recorded separately, as a code, and the
+dyad's two states are recorded in the order of their Correlates of War codes, so that the first
+state of the pair is not necessarily the initiator; the initiator is recorded separately, and the
 target is whichever state of the dyad did not initiate. The method is coded on a scale that runs
 from vandalism through denial of service and network intrusion to network infiltration, with
 sub-codes for kinds of malicious software. Severity is coded on a scale the codebook defines from 0
-to 10, of which the released file uses only the values 0 to 6 — a discrepancy worth logging and, if
-the codebook's scale applies, consistent with restraint. The type of target distinguishes private
-and non-state targets from governmental ones, civilian and military, and the objective distinguishes
+to 10, of which the released file uses only the values 0 to 6 — a discrepancy that, if the
+codebook's scale applies, is itself consistent with restraint: in two decades of rivalry, nothing in
+the record reaches the upper part of the scale. The type of target distinguishes private and
+non-state targets from governmental ones, civilian and military, and the objective distinguishes
 disruption, short- and long-term espionage and degradation. The September 2022 release contains 433
 incidents with start dates from September 2000 to January 2021.
 
@@ -456,24 +466,29 @@ rivals never enter. The second is that the incidents are public attributions. Th
 therefore a picture of who has been publicly *accused* of operating against whom — itself a
 geopolitical artefact, shaped by which governments attribute and when.
 
-The comparison dataset, the European Repository of Cyber Incidents, makes both properties visible
+A second dataset, the European Repository of Cyber Incidents, makes both properties visible
 [@zettlschabath2025]. It records incidents with state and non-state initiators, including criminal,
-hacktivist and unattributed operations, and in its version 1.3 it contains 3,414 incidents with start
-dates from 2000 to 2024 — several times the size of DCID. Restricting it to incidents attributed to
-state or state-affiliated actors leaves 1,014; restricting it to states alone leaves 329. The gap
-between those numbers, and between all of them and DCID's 433, is a measure of how much the answer to
-"how much cyber conflict is there?" depends on the definition of the population and of attribution.
+hacktivist and unattributed operations, and in its version 1.3 it contains 3,414 incidents with
+start dates from 2000 to 2024 — several times the size of DCID. Restricting it to incidents
+attributed to state or state-affiliated actors leaves 1,014; restricting it to states alone leaves
+329. The gap between those numbers, and between all of them and DCID's 433, is a measure of how much
+the answer to "how much cyber conflict is there?" depends on the definition of the population and of
+attribution. The two datasets do not contradict each other. They answer different questions: how
+rival states use cyber operations against each other, and how much publicly reported cyber activity
+of any origin there has been. A firm that reads the first as if it answered the second will
+underestimate its exposure several times over; one that reads the second as if it measured state
+strategy will see a war where there is mostly crime.
 
 ## A short review of the literature
 
 ::: {.lit}
 The debate over whether cyberspace is a domain of war was framed in the early 2010s. @rid2012 and
 @rid2013 argued that cyber war had not taken place and would not, reclassifying cyber operations as
-sabotage, espionage and subversion; @gartzke2013 argued from the logic of force that cyber operations
-would complement rather than replace conventional power; @kello2013 and @kello2017 argued, against
-both, that the cyber revolution unsettled the conceptual foundations of international relations. The
-legal question of how existing international law applies to cyber operations is set out in
-@schmitt2013.
+sabotage, espionage and subversion; @gartzke2013 argued from the logic of force that cyber
+operations would complement rather than replace conventional power; @kello2013 and @kello2017
+argued, against both, that the cyber revolution unsettled the conceptual foundations of
+international relations. The legal question of how existing international law applies to cyber
+operations is set out in @schmitt2013.
 
 Systematic evidence arrived with @valeriano2015, whose dataset of incidents between rival states
 supported a thesis of restraint and regional rivalry. The dataset has been extended through
@@ -485,21 +500,20 @@ cyber operations in the war in eastern Ukraine against battlefield events and fo
 and threatening in appearance.
 
 On attribution, @rid2015 treat it as a political judgement assembled from technical and strategic
-evidence, and @lindsay2015 argues that its difficulty is overstated for consequential operations. On the
-economic architecture of coercion, @farrell2019 is the foundational statement of weaponised
+evidence, and @lindsay2015 argues that its difficulty is overstated for consequential operations. On
+the economic architecture of coercion, @farrell2019 is the foundational statement of weaponised
 interdependence, with its panopticon and chokepoint effects. Wider datasets that include non-state
-actors, such as @zettlschabath2025, now allow the rival-dyad picture to be set against the full record
-of attributed incidents, and the firm's experience of state operations is documented most vividly in
-@greenberg2019.
+actors, such as @zettlschabath2025, now allow the rival-dyad picture to be set against the full
+record of attributed incidents, and the firm's experience of state operations is documented most
+vividly in @greenberg2019.
 :::
 
-## What the matrix will not tell the firm
+## What the evidence does not license
 
-The practice round rebuilds the incident picture and the initiator × target matrix, and then sets
-them against a wider dataset. The dashboard that results is informative. It shows that cyber
-conflict between rivals concentrates in a few dyads, that most incidents are of low severity, and
-that the methods have shifted over two decades. It is tempting to read it as a map of where a
-multinational's cyber risk lies. It is not, and the reasons are the arguments of this chapter.
+The record of cyber conflict between rivals is informative. It shows that incidents concentrate in a
+few dyads, that most are of low severity, and that the methods have shifted over two decades. It is
+tempting to read the matrix of initiators and targets as a map of where a multinational's cyber risk
+lies. It is not, and the reasons are the arguments of this chapter.
 
 The matrix does not license a firm to conclude that it is safe in a country whose cells are empty.
 An empty cell means no publicly attributed incident between *rivals*; it says nothing about
@@ -509,12 +523,22 @@ dense cell tell a firm that it is a target. The incidents in that cell were aime
 governments, and the firm's exposure to them depends on whether it is technically in the path —
 whether it runs software, holds data or provides infrastructure that an operation against the
 government might traverse. NotPetya would have appeared in the data as one incident in one dyad; its
-cost fell on firms in dozens of countries.
+cost fell on firms in dozens of countries. The attack on the satellite network in 2022 would appear,
+if at all, as an incident between Russia and Ukraine; its casualties included wind farms in Germany.
 
 Nor does the evidence for restraint license complacency. It is a pattern in state behaviour to 2020,
 measured on a scale of harm between states. It does not bound the commercial cost of a low-severity
 operation, and it does not tell a firm what has happened since a large-scale war began in Europe.
-The question to carry into the practice round is the one the dashboard cannot answer by itself:
-given where interstate cyber conflict concentrates, which of the firm's networks, suppliers and hubs
-lie in its path — and what has the firm agreed with its insurer about the operations that its
-government will one day attribute to a state?
+Restraint describes what states have chosen not to do to each other. It is silent about what they
+have done to the networks that happen to connect them, and about the coercion that weaponised
+interdependence allows without a line of malicious code being written.
+
+What the evidence does support is a reordering of the firm's questions. The first is not "are we a
+target?" — for most firms the honest answer is "probably not, deliberately" — but "what are we
+connected to?": which of the firm's networks, suppliers, software vendors and hubs lie in the path
+of the rivalries the record shows to be dense. The second is "whose jurisdiction are we in?": which
+states can see through, or cut off, the services on which the firm depends. The third is "who
+pays?": what the firm has agreed with its insurer about the operations that a government will one
+day attribute to a state. A firm that can answer those three questions has turned cyber risk from a
+line in the information-technology budget into what the evidence says it is — a geopolitical
+exposure, carried mostly by firms that nobody meant to hit.

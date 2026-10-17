@@ -3,7 +3,7 @@
 # The redefinition of economic diplomacy
 
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-09-lecture.html)** — or read the source at [`INTE60019A-S09-Lecture.qmd`](INTE60019A-S09-Lecture.qmd).
-> As a book chapter: [course book, Session 09](https://warint.github.io/geopolitics-geoeconomics/book/session-09.html) · Instructor plan:
+> Read further: [Chapter 9 of the book](https://warint.github.io/geopolitics-geoeconomics/book/session-09.html) · Instructor plan:
 > [`TEACHING-PLAN.md`](TEACHING-PLAN.md)
 
 The session opens with **four Risk Briefs** (20 min). The lecture follows.

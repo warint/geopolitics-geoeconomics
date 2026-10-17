@@ -9,7 +9,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-11-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S11-Lecture.qmd`](01-lecture/INTE60019A-S11-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-11-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-11-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-11.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-11-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-11.html)
 
 | | |
 |---|---|
@@ -41,7 +41,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — infrastructure in orbit; the commons; astropolitics; counterspace; the debris record; one operator; what the firm can do | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 11:** rebuild the debris record, measure the new space race, one dashboard | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
-| **Lecture notes** | [Chapter 11 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-11.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 11 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-11.html) — the argument at length, with its sources | — |
 
 > **The last practice round before the presentations.** Session 11 is the final practice round of
 > the term. The last twenty minutes of Session 10 reviewed each team's dashboard skeleton; today's

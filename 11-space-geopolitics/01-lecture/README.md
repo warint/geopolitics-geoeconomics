@@ -3,7 +3,7 @@
 # Space geopolitics: the orbital commons and the new space race
 
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-11-lecture.html)** — or read the source at [`INTE60019A-S11-Lecture.qmd`](INTE60019A-S11-Lecture.qmd).
-> As a book chapter: [course book, Session 11](https://warint.github.io/geopolitics-geoeconomics/book/session-11.html) · Instructor plan:
+> Read further: [Chapter 11 of the book](https://warint.github.io/geopolitics-geoeconomics/book/session-11.html) · Instructor plan:
 > [`TEACHING-PLAN.md`](TEACHING-PLAN.md)
 
 The session opens with **four Risk Briefs** (20 min). The lecture follows.

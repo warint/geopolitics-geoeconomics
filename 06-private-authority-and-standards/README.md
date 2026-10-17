@@ -8,7 +8,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-06-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S06-Lecture.qmd`](01-lecture/INTE60019A-S06-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-06-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-06-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-06.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-06-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-06.html)
 
 | | |
 |---|---|
@@ -40,7 +40,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — private authority; the governance triangle; standards and power; the California effect; standards as geopolitics | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 06:** map the diffusion of ISO 14001 and test the trade channel | 90 min |
 | **Data** | [`data/`](data/README.md) | — |
-| **Lecture notes** | [Chapter 6 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-06.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 6 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-06.html) — the argument at length, with its sources | — |
 
 ---
 

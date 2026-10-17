@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Rebuild the course book: assemble book/ from the session briefs, then render it
+# Rebuild the book: assemble book/ from the session chapters, then render it
 # (HTML and PDF) into docs/book/, where GitHub Pages serves it.
 # Usage: scripts/render_book.sh [--html-only]
 #
-# Nothing in book/ is authored — scripts/build_book.py regenerates every chapter
-# from the session READMEs, so edit those and run this.
+# Nothing in book/ is authored — scripts/build_book.py regenerates it from each
+# session's chapter.md and chapter.bib, so edit those and run this.
 
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -15,6 +15,7 @@ echo "=== assembling book/ from the sessions"
 python3 scripts/build_book.py
 
 echo "=== rendering to docs/book/"
+rm -rf docs/book   # a removed page must not linger on the site
 if [ "${1:-}" = "--html-only" ]; then
     (cd book && quarto render --to html)
 else

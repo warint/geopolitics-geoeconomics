@@ -8,7 +8,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-10-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S10-Lecture.qmd`](01-lecture/INTE60019A-S10-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-10-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-10-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-10.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-10-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-10.html)
 
 | | |
 |---|---|
@@ -40,7 +40,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — instruments; do they work?; smart sanctions; the firm in the middle | 50 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 10:** rebuild the sanctions record · **team dashboard skeleton review** | 90 min |
 | **Data** | [`data/`](data/README.md) | — |
-| **Lecture notes** | [Chapter 10 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-10.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 10 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-10.html) — the argument at length, with its sources | — |
 
 > **Licence.** The GSDB may not be redistributed. Your workbook goes to **ZoneCours only** — never to
 > Tableau Public with the raw data.

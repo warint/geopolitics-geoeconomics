@@ -1,27 +1,25 @@
 ---
-title: "From Indicators to Decisions"
+title: "From Indicators to Decisions: What a Multinational Can Know About Geopolitical Risk"
 ---
 
-## The question the course began with
+## The question this book began with
 
-The course opened with a question: how does a multinational firm know how much geopolitical risk it
-faces — and what should it do about it? Eleven sessions later the honest answer to the first half is
-that it never knows, in the sense of holding a number that settles the matter, and that the course's
-work has been to show why. The answer to the second half is more encouraging. A firm can organise
+This book opened with a question: how does a multinational firm know how much geopolitical risk it
+faces, and what should it do about it? Eleven chapters later the honest answer to the first half is
+that it never knows, in the sense of holding a number that settles the matter, and much of the book
+has been an account of why. The answer to the second half is more encouraging. A firm can organise
 what it does not know so that someone acts on it, at the right moment, for reasons that can be
-stated in advance and checked afterwards. That is what a risk function is for, and it is what the
-team dashboards presented in the final session try to do for one real multinational each.
+stated in advance and checked afterwards. That is what a risk function is for.
 
-This closing chapter draws the threads together. It does not introduce a new big work or a new
-dataset. It takes the two closing readings — Stephen Kobrin's review of political risk, published in
-1979, and Witold Henisz's measure of political constraint, published in 2000 — and uses them to
-frame what the eleven sessions established: that geopolitical risk is a contingency rather than an
-event; that it is measured through families of indicators that disagree; that every famous figure is
-a stack of decisions; that the system a firm operates in moves slowly and then suddenly; that the
-risk reaches the firm through identifiable channels; and that indicators do not decide anything
-until someone attaches a threshold, a decision and an owner to them. It ends with the question every
-team was asked in its defence, which is also the question with which any analyst should end: what
-would change your mind?
+This concluding chapter draws the threads together. It takes two classic contributions — Stephen
+Kobrin's review of political risk, published in 1979, and Witold Henisz's measure of political
+constraint, published in 2000 — and uses them to frame what the preceding chapters established: that
+geopolitical risk is a contingency rather than an event; that it is measured through families of
+indicators that disagree; that every famous figure is a stack of decisions; that the system a firm
+operates in moves slowly and then suddenly; that the risk reaches the firm through identifiable
+channels, increasingly as the instrument or the collateral of state power; and that indicators
+decide nothing until someone attaches a threshold, a decision and an owner to them. It ends with the
+question with which any analyst should end: what would change your mind?
 
 ## The event is not the risk
 
@@ -29,12 +27,12 @@ Frank Knight drew the distinction that every risk analyst still uses, even when 
 [@knight1921]. *Risk*, in his sense, is uncertainty that can be measured: the outcomes are known and
 their probabilities can be estimated from experience, so the uncertainty can be priced, insured or
 diversified. *Uncertainty* proper is the rest: situations unique enough, or new enough, that no
-frequency distribution exists. Most of what the course has called geopolitical risk is Knightian
+frequency distribution exists. Most of what this book has called geopolitical risk is Knightian
 uncertainty in that sense. There is no actuarial table of invasions, no frequency distribution of
 secondary sanctions on a given country, no base rate for a constellation operator's government
-ordering it to switch off a region. The indices the course rebuilt are attempts to make the second
-kind of uncertainty behave a little more like the first — to give it a scale, a history and a
-comparison — and it is important to remember that they do not succeed entirely.
+ordering it to switch off a region. The indices examined in the preceding chapters are attempts to
+make the second kind of uncertainty behave a little more like the first — to give it a scale, a
+history and a comparison — and they do not entirely succeed.
 
 Kobrin's contribution, in a review written as the field of political risk assessment was taking
 shape, was to insist on a second distinction [@kobrin1979]. The literature he surveyed used
@@ -54,9 +52,9 @@ assets and freedom to act. The same event carries different risks for different 
 the event is not a measure of the risk.
 :::
 
-The course widened Kobrin's frame in one direction. His concern was largely with host-country risk:
-what the government of the country in which a firm invests might do to it. Geopolitical risk, as the
-course defined it in Session 01, includes the risk that originates *outside* the host country — in
+This book has widened Kobrin's frame in one direction. His concern was largely with host-country
+risk: what the government of the country in which a firm invests might do to it. Geopolitical risk,
+as Chapter 1 defined it, includes the risk that originates *outside* the host country — in
 Washington, Beijing, Brussels or Moscow — and reaches the firm through its suppliers, customers,
 banks and networks. A sanction imposed by the firm's home state on the country where it has a
 subsidiary, an export control on a component it buys, a jammer operating in a strait its ships use:
@@ -75,38 +73,41 @@ months.
 
 The year ended with a second lesson. After the seizure of the US embassy in Tehran in November 1979,
 President Carter used the International Emergency Economic Powers Act — the statute on which most of
-the sanctions programmes of Session 10 still rest — to freeze Iranian government assets under US
-jurisdiction. Many American firms had claims against Iran. Their recourse came only through the
-Algiers Accords of January 1981, which ended the hostage crisis and created the Iran–United States
-Claims Tribunal in The Hague to arbitrate them. The firms were paid, eventually, out of the frozen
-assets: their risk had been settled by a negotiation between states in which they had no seat.
+the American sanctions programmes discussed in Chapter 10 still rest — to freeze Iranian government
+assets under US jurisdiction. Many American firms had claims against Iran. They obtained redress
+only through the Algiers Accords of January 1981, which ended the hostage crisis and created the
+Iran–United States Claims Tribunal in The Hague to arbitrate them. The firms were paid, eventually,
+out of the frozen assets: their risk had been settled by a negotiation between states in which they
+had no seat.
 
 The episode is commonly cited as a reason so many firms built or expanded formal political risk
 units in the years that followed. Kobrin's own study of how American firms organised political
-assessment appeared three years later [@kobrin1982]. The lesson both drew was the one this course
-has tried to teach: the analysis of a country is the beginning of the assessment of a firm's risk,
+assessment appeared three years later [@kobrin1982]. The lesson both drew is the one this book has
+tried to establish: the analysis of a country is the beginning of the assessment of a firm's risk,
 not the end.
 :::
 
-Every dashboard presented in the final session is a claim about Kobrin's contingency. The footprint
-— where the firm's revenue, assets, suppliers and people are — is where that claim starts. A
-dashboard that begins with a map of the world coloured by a country index has not yet begun to
-assess the firm's risk; one that begins with the firm's own disclosures, and asks which of its
-countries, suppliers and channels the index bears on, has.
+Every serious assessment of geopolitical risk is therefore a claim about Kobrin's contingency, and
+it starts from the firm's footprint — where its revenue, assets, suppliers and people are. A risk
+report that begins with a map of the world coloured by a country index has not yet begun to assess
+the firm's risk; one that begins with the firm's own disclosures, and asks which of its countries,
+suppliers and channels the index bears on, has. The finding of Chapter 7, that most of the variation
+in political risk measured from earnings calls is specific to the firm rather than common to its
+country or sector [@hassan2019], is the quantitative form of the same point.
 
 ## Six families that disagree
 
-Session 01 sorted the indicators of geopolitical risk into six families, and the sorting has carried
-the course. *Event-based* indicators count things that happened, coded from reports: conflicts,
-cyber incidents, sanctions episodes. *Text-based* indicators measure how much the press or firms
-talk about a risk. *Expert-based* indicators are scores assigned by analysts or by surveys.
-*Structural* indicators describe slow-moving features of the system: the distribution of material
-capabilities, the pattern of trade dependence. *Market-based* indicators are prices that embed risk,
-such as sovereign credit-default swap spreads. *Firm-level* indicators capture risk as firms
-themselves perceive and disclose it.
+Chapter 1 sorted the indicators of geopolitical risk into six families, and the sorting has carried
+the book. *Event-based* indicators count things that happened, coded from reports: conflicts, cyber
+incidents, sanctions episodes. *Text-based* indicators measure how much the press or firms talk
+about a risk. *Expert-based* indicators are scores assigned by analysts or by surveys, such as the
+Worldwide Governance Indicators [@kaufmann2011]. *Structural* indicators describe slow-moving
+features of the system: the distribution of material capabilities, the pattern of trade dependence.
+*Market-based* indicators are prices that embed risk, such as sovereign credit-default swap spreads.
+*Firm-level* indicators capture risk as firms themselves perceive and disclose it.
 
 ::: {.definition}
-[**Family of indicators**]{.term} — a class of measures of geopolitical risk that share a source of
+[**Family of indicators**]{.term} — a set of measures of geopolitical risk that share a source of
 information and therefore a characteristic strength and blind spot: event-based (concrete, but only
 what was reported and coded), text-based (timely, but measures attention rather than exposure),
 expert-based (covers latent concepts, but opaque and sticky), structural (explains why, rarely
@@ -114,77 +115,112 @@ when), market-based (forward-looking, but mixes risk with risk appetite), firm-l
 decision, but self-reported).
 :::
 
-The most cited text-based measure is the one Session 01 rebuilt. Dario Caldara and Matteo Iacoviello
-count the share of articles in leading newspapers that mention geopolitical tensions, wars and
-terrorism, and show that their index rises with the events that history books record and that high
-values are followed by lower investment and employment [@caldara2022]. Its sibling, the economic
-policy uncertainty index of Scott Baker, Nicholas Bloom and Steven Davis, applies the same logic to
-economic policy [@baker2016]. Session 07 went down to the level of the firm with the measure of
-Tarek Hassan and his colleagues, built from the share of conversation in firms' earnings calls
-devoted to political topics and risk, which shows that political risk is largely firm-specific
-rather than aggregate [@hassan2019]. Each of these is ingenious, carefully validated and limited by
-its source: newspapers in a few countries, in one language, attending to what their readers care
-about; earnings calls of listed firms, speaking to investors.
+The most cited text-based measure is the one Chapter 1 took apart. Dario Caldara and Matteo
+Iacoviello count the share of articles in leading newspapers that mention geopolitical tensions,
+wars and terrorism, and show that their index rises with the events that history books record and
+that high values are followed by lower investment and employment [@caldara2022]. Its sibling, the
+economic policy uncertainty index of Scott Baker, Nicholas Bloom and Steven Davis, applies the same
+logic to economic policy [@baker2016]. Chapter 7 went down to the level of the firm with the measure
+of Tarek Hassan and his colleagues, built from the share of conversation in firms' earnings calls
+devoted to political topics and risk [@hassan2019]. Each is ingenious, carefully validated and
+limited by its source: newspapers in a few countries and one language; earnings calls of listed
+firms, speaking to investors.
 
 The families disagree, and the disagreement is information. When the text-based indices are calm and
 the market-based ones signal danger, someone with money at stake knows or fears something the press
 has not yet written about. When an expert rating stays unchanged through a crisis that the event
 data record in detail, the rating is sticky or the raters see a resilience the events do not. When a
 structural indicator shows a power transition under way and every short-run indicator is quiet, the
-structural one is telling you *why* something may happen and the others are telling you, correctly,
-that it has not happened yet. A risk assessment that relies on one family inherits that family's
-blind spot. This is why the team brief required at least four datasets from at least three families:
-not because more is better, but because triangulation is the only defence against a blind spot one
-cannot see from inside one family.
+structural one is saying *why* something may happen and the others are saying, correctly, that it
+has not happened yet. An assessment that relies on one family inherits that family's blind spot.
+Triangulation across several families is not a matter of more being better; it is the only defence
+against a blind spot that cannot be seen from inside one family.
 
 ## Every figure is a stack of decisions
 
-The design of the course rested on a claim: that a chart in a famous work is a set of decisions, and
-that one sees the decisions only by remaking them. Eleven practice rounds put the claim to the test,
-and each one found the decisions where the claim said they would be.
+The method of this book rested on a claim: that a chart in a famous work is a set of decisions, and
+that the decisions become visible only when the chart is taken apart and rebuilt from its sources.
+Each chapter applied the claim to one figure, and each found the decisions where the claim said they
+would be.
 
-A share of world GDP depends on whether output is valued at market exchange rates or at
-purchasing-power parity, and on which deflator and base year are used. A share of world capabilities
-depends on which components enter the index and how they are weighted. Trade "within" and "between"
-blocs depends on where the line between blocs is drawn, which is itself an estimate from voting
-data. A count of sanctions cases per year depends on how a case with no end is ended and how a case
-of several types is counted. A count of objects in orbit depends on whether debris is dated by the
-event that created it or by the launch of its parent. None of these decisions is wrong. Each is
-defensible, and each is a choice someone made, usually for reasons stated in a codebook that few
-readers open.
+A share of world output, in Chapter 2, depends on whether output is valued at market exchange rates
+or at purchasing-power parity, and the date at which the G7 ceased to dominate the world economy
+moves by decades with the choice. A share of world capabilities, in Chapter 3, depends on which
+components enter the index and how they are weighted, and the composite index of national material
+capabilities rewards population and heavy industry because it was designed for the wars of the
+nineteenth and twentieth centuries [@singer1972]. Trade "within" and "between" blocs, in Chapter 4,
+depends on where the line between blocs is drawn, which is itself an inference from voting in the UN
+General Assembly [@gopinath2024]. A map of certified management systems, in Chapter 6, counts
+certificates, not performance. A count of cyber incidents, in Chapter 8, counts what was attributed,
+between states coded as rivals [@valeriano2015]. A count of sanctions cases per year, in Chapter 10,
+depends on how a case with no end is ended and how a case of several types is counted. A count of
+objects in orbit, in Chapter 11, depends on whether debris is dated by the event that created it or
+by the launch of its parent. None of these decisions is wrong. Each is defensible, and each is a
+choice someone made, usually for reasons stated in a codebook that few readers open.
 
-The one rule of every practice round — that each deliverable must document at least one place where
-the data disagreed with the paper — was a way of making the decisions visible. Series are revised;
-countries are recoded; a release adds cases the paper did not have; a variable's meaning changes
-between the codebook and the distributed file. A replication that matches the original perfectly is
-less informative than one that does not, if the difference is understood and explained. The analyst
-who notices and records the disagreement has learned something about the instrument that the analyst
-who reproduces the chart has not.
-
-The same holds for the dashboards themselves. A dashboard is not a window onto the firm's risk; it
-is an argument about it, assembled from decisions of exactly the kind the practice rounds exposed.
-Which countries enter the footprint, and on what measure of exposure — revenue, assets, employees,
-suppliers? Which indicator stands for which risk, and from which release? How are missing values
-treated, and how are countries named so that the joins work? A board shown a dashboard sees none of
-this unless the analyst shows it. The appendices the memo required — a provenance log for every
-dataset, a list of data decisions — are where the dashboard's argument is made inspectable, and an
-analyst who cannot produce them is asking the board to trust the picture rather than the reasoning
-behind it.
+The places where the data disagree with the published account are where the decisions become
+visible. Series are revised; countries are recoded; a release adds cases the original paper did not
+have; a variable's meaning changes between the codebook and the distributed file. A reconstruction
+that matches the original perfectly is less informative than one that does not, if the difference is
+understood and explained. The analyst who notices and records the disagreement has learned something
+about the instrument that the analyst who merely reproduces the chart has not.
 
 ::: {.step}
-**The catch slides, read together.** Each practice round ended with one slide: original, ours, and
-the catch — what the figure does *not* license a multinational to conclude. Read in sequence, the
-eleven catches form the course's list of what each indicator cannot tell a firm: that attention is
-not exposure, that shares are not levels, that capabilities are not intentions, that votes are not
-trade, that counts are not intensity, that a catalogue is not the environment. That list is the most
-useful thing to take from the course into the take-home examination, and into a risk function.
+**What each indicator cannot tell a firm.** Read in sequence, the closing sections of the eleven
+preceding chapters form a list: attention is not exposure; a share is not a level; capabilities are
+not intentions; votes are not trade; a certificate is not performance; a composite is a choice of
+weights; an empty cell in an incident matrix is not safety; a correlation between embassies and
+exports is not a cause; a count of sanctions cases is not intensity; a catalogue of objects is not
+the environment. That list is the most useful thing a risk function can carry from the evidence
+reviewed in this book.
 :::
+
+The same holds for any risk report a firm produces: it is an argument about the firm's risk,
+assembled from decisions of exactly this kind. Which countries enter the footprint, and on what
+measure of exposure — revenue, assets, employees, suppliers? Which indicator stands for which risk,
+and from which release? How are missing values treated, and how are countries named so that sources
+can be joined? An analyst who cannot list the data decisions behind a number is asking the board to
+trust the picture rather than the reasoning.
+
+## The system moves slowly, then suddenly
+
+Chapters 2 to 6 described the system in which multinationals operate: an international economic
+order resting on a distribution of power among states that have no government above them, partly
+governed by public institutions and partly by private authority. The structural indicators of those
+chapters — shares of world output, shares of material capabilities, the alignment of states in UN
+votes, voting power inside the institutions, the diffusion of standards — share a characteristic.
+They move slowly. A power transition takes decades; the reorganisation of trade into blocs shows up
+in data over years; the authority of an institution erodes before anyone announces its collapse.
+
+Slow-moving indicators are easy to ignore, because nothing in them demands a decision this quarter.
+Yet slow structural change is released in sudden events: the system bends for years and then breaks
+in a week. The collective-security order of the League of Nations, whose failure over Ethiopia
+opened Chapter 10, looked intact until it was tested; the integration of Russia into European energy
+and financial markets looked like interdependence until February 2022 revealed it as exposure. The
+structural indicator does not tell the firm *when*. It tells the firm *where* the break, when it
+comes, will be most costly — where interdependence has become dependence, where a bloc boundary runs
+through its supply chain, where an institution it relies on has lost the support of the states that
+made it.
+
+Two findings from the middle of the book make the point concrete. Chapter 5 argued that an
+institution is a risk mitigator when the coalition that sustains it is stable and a risk source when
+it is not: a guarantee, a co-financing agreement or an investment treaty is a promise by a coalition
+of states, and should be read as such. Chapter 6 showed that the rules a firm meets in its markets
+are increasingly written by private bodies and by large markets whose regulation travels — the
+Brussels effect [@bradford2020] — so that a firm's future requirements are visible in what its
+customers' home markets adopt today. Both are slow variables. Both decide, when they shift, what a
+firm may sell, to whom, and on what terms.
+
+This is why a sound assessment combines families. The structural indicators locate the fault lines;
+the event-based and text-based ones signal movement along them; the market-based ones show whether
+anyone with money at stake has noticed. None of them alone is a warning system. Together, with
+thresholds, they can be.
 
 ## Structure as well as events: Henisz on constraint
 
-Most of the indicators the course rebuilt measure what is happening: events, attention, prices,
-perceptions. Henisz's measure of political constraint, the second closing reading, measures
-something different: how easily what is happening could change [@henisz2000].
+Most of the indicators reviewed in this book measure what is happening: events, attention, prices,
+perceptions. Henisz's measure of political constraint measures something different: how easily what
+is happening could change [@henisz2000].
 
 The idea comes from the theory of veto players, which George Tsebelis later developed into a general
 account of policy stability [@tsebelis2002]. A government that wants to change a policy — a tax, a
@@ -205,78 +241,58 @@ preferences. Low constraint means a government can change policy quickly, in eit
 constraint means change is slow, which protects existing commitments and delays new ones.
 :::
 
-The measure matters for the closing argument in three ways. First, it is the structural complement
-to every event- and text-based indicator of the course. An index of attention tells a firm that
-tension is rising; a measure of constraint tells it how fast that tension could become a change in
-the rules. Second, constraint cuts both ways, and a firm must ask which way it cuts *for it*. Low
+The measure matters for the argument of this book in three ways. First, it is the structural
+complement to every event- and text-based indicator. An index of attention tells a firm that tension
+is rising; a measure of constraint tells it how fast that tension could become a change in the
+rules. Second, constraint cuts both ways, and a firm must ask which way it cuts *for it*. Low
 constraint means a government can expropriate quickly, but also that it can grant a licence, settle
 a dispute or lift a restriction quickly; high constraint protects an existing investment and slows
-the policy change a new entrant needs. Third, constraint connects the closing readings to Session
-08's account of weaponised interdependence. The second condition for a network hub to become a
+the policy change a new entrant needs. Third, constraint connects the domestic politics of states to
+the weaponised interdependence of Chapter 8. The second condition for a network hub to become a
 chokepoint is that a state can direct the firms that run it [@farrell2019]. Whether a government can
 in practice order a bank, a cloud provider or a satellite operator to cut off a customer — quickly,
 without a court or a legislature stopping it — is a question about political constraint. The same
 measure that tells an investor how exposed it is to its host government tells a customer how exposed
 it is to its supplier's.
 
-Henisz's work also carries a lesson Kobrin would recognise. Constraint is a property of a country;
-its effect on a firm depends on the firm's position. A firm whose contract was negotiated with the
-current coalition is protected by constraint; a firm that needs the next coalition to change the law
-is obstructed by it. The indicator is structural, but the risk it measures is still a contingency.
-
-The bargain between a firm and its host government also changes over time, and in a direction that
-Raymond Vernon identified half a century ago [@vernon1971]. Before a multinational invests, the host
-government needs its capital, technology and market access, and the firm can extract favourable
-terms. Once the plant is built or the mine is sunk, the balance shifts: the firm's assets are
-hostage, its technology has been transferred or copied, and the government can revise the terms with
-less to lose. Vernon called this the obsolescing bargain, and the wave of expropriations of the
-1960s and 1970s that Kobrin documented [@kobrin1980] gave it its evidence. Constraint slows the
-obsolescence; it does not stop it. For a risk function the implication is that the assets-and-people
-channel is not a fixed exposure measured once at the time of investment. It grows as the firm's
+The bargain between a firm and its host government also changes over time, in a direction that
+Raymond Vernon identified half a century ago and Chapter 9 examined [@vernon1971]. Before a
+multinational invests, the host government needs its capital, technology and market access, and the
+firm can extract favourable terms. Once the plant is built or the mine is sunk, the balance shifts:
+the firm's assets are hostage, its technology has been transferred or copied, and the government can
+revise the terms with less to lose. The wave of expropriations of the 1960s and 1970s that Kobrin
+documented [@kobrin1980] gave the obsolescing bargain its evidence, and the forced, discounted exits
+from Russia after 2022 gave it a geopolitical form: when the home state sanctions the host, the host
+loses its reason to keep the investor content. Constraint slows the obsolescence; it does not stop
+it. The exposure of assets and people is not fixed at the time of investment. It grows as the firm's
 bargaining power declines, and the analysis that justified the investment must be redone as the
-bargain ages — which is one more reason a watchlist must be revisited rather than filed.
+bargain ages.
 
-## The system moves slowly, then suddenly
+## Instruments: where the risk meets the profit and loss account
 
-Sessions 02 to 06 built the system in which multinationals operate: an international economic order
-resting on a distribution of power among states that has no government above them, partly governed
-by public institutions and by private authority. The structural indicators of those sessions —
-shares of world output, shares of material capabilities, the alignment of states in UN votes, the
-diffusion of standards — share a characteristic. They move slowly. A power transition takes decades;
-the reorganisation of trade into blocs shows up in data over years; the authority of an institution
-erodes before anyone announces its collapse.
+Chapters 8 to 11 took four instruments through which geopolitical risk now reaches the firm most
+directly: cyber operations, economic diplomacy, sanctions and space. Read together, they share a
+pattern that the older political risk literature, focused on what host governments do to foreign
+investors, could not see. In each, the firm is not only the object of state action but part of its
+machinery. Firms run the networks that cyber operations traverse and the hubs that states weaponise.
+They are, in the two-level games of economic diplomacy [@putnam1988], at once their home state's
+clients, its instruments and, abroad, its hostages. They execute sanctions, and set their effective
+scope through their own compliance departments. They operate the constellations whose service a
+government can switch off. Geopolitical risk, in this sense, is increasingly risk that the firm
+carries *on behalf of* states — including its own.
 
-The danger for a risk function is that slow-moving indicators are easy to ignore, because nothing in
-them demands a decision this quarter. The history of the twentieth century and of the last decade
-suggests that slow structural change is released in sudden events: the system bends for years and
-then breaks in a week. The interwar order of the League, examined in Session 10's archive, looked
-intact until it was tested; the integration of Russia into European energy and financial markets
-looked like interdependence until February 2022 revealed it as exposure. The structural indicator
-does not tell the firm *when*. It tells the firm *where* the break, when it comes, will be most
-costly — where interdependence has become dependence, where a bloc boundary runs through its supply
-chain, where an institution it relies on has lost the support of the states that made it.
-
-This is why the team dashboards combine families. The structural indicators locate the fault lines;
-the event-based and text-based ones signal movement along them; the market-based ones show whether
-anyone with money at stake has noticed. None of them alone is a warning system. Together, with
-thresholds, they can be.
-
-## Channels: where the risk meets the profit and loss account
-
-Sessions 08 to 11 took four instruments through which geopolitical risk now reaches the firm most
-directly: cyber operations, economic diplomacy, sanctions and space. Across them the course used
-five channels to trace how a risk becomes a cost.
-
-**Market access** is the firm's ability to sell: closed by sanctions, export controls, licensing
-decisions, boycotts and the loss of a diplomatic relationship, opened by commercial diplomacy and
-trade agreements. **Inputs** are what the firm buys: components and raw materials whose supply is
-concentrated in one country, services — connectivity, timing, cloud computing — supplied by one
-operator under one state's jurisdiction. **Finance and payments** are the plumbing: correspondent
-banks, payment networks, insurance, the currency of settlement — the channel through which financial
-sanctions and overcompliance operate. **Assets and people** are what the firm has in place: plants,
-mines, ships, inventories and employees exposed to expropriation, temporary management, conflict or
-interference. **Data and operations** are the systems the firm runs on: networks open to
-cyberattack, software and services that can be withdrawn, imagery and signals that can be denied.
+Chapter 1 proposed five channels to trace how such a risk becomes a cost, and the instruments run
+through all of them. **Market access** is the firm's ability to sell: closed by sanctions, export
+controls, licensing decisions, boycotts and the loss of a diplomatic relationship, opened by
+commercial diplomacy and trade agreements. **Inputs** are what the firm buys: components and raw
+materials whose supply is concentrated in one country, services — connectivity, timing, cloud
+computing — supplied by one operator under one state's jurisdiction. **Finance and payments** are
+the plumbing: correspondent banks, payment networks, insurance, the currency of settlement — the
+channel through which financial sanctions and overcompliance operate. **Assets and people** are what
+the firm has in place: plants, mines, ships, inventories and employees exposed to expropriation,
+temporary management, conflict or interference. **Data and operations** are the systems the firm
+runs on: networks open to cyberattack, software and services that can be withdrawn, imagery and
+signals that can be denied.
 
 ::: {.definition}
 [**Risk channel**]{.term} — the route by which a geopolitical development reaches a firm's revenues,
@@ -285,19 +301,25 @@ data and operations. Naming the channel converts a statement about the world int
 the firm, and points to the decision that could reduce the exposure.
 :::
 
-The channels matter because they turn Kobrin's contingency into something a firm can analyse. A
-statement that "tension between the United States and China is rising" is about the world. A
-statement that "forty percent of our revenue is in a market exposed to bloc realignment, our key
-component comes from a single supplier in a country subject to export controls, and our payments in
-that market clear through banks that would be cut off by a financial sanction" is about the firm —
-and each clause points to a decision.
+The channels turn Kobrin's contingency into something a firm can analyse. A statement that "tension
+between the United States and China is rising" is about the world. A statement that "a large share
+of our revenue is in a market exposed to bloc realignment, our key component comes from a single
+supplier in a country subject to export controls, and our payments in that market clear through
+banks that a financial sanction would cut off" is about the firm — and each clause points to a
+decision.
+
+The instruments also share an evidentiary problem. The most consequential uses of state power
+against firms are the least likely to appear in the data. A sanction that works at the threat stage
+is never imposed [@drezner2003]; a cyber operation never attributed is never coded; a jammed
+navigation signal leaves no trace in a catalogue of objects in orbit; a firm quietly told by its
+home government not to bid for a contract appears in no dataset at all. The datasets on which this
+book has relied are records of the coercion that failed to deter or that was made public. A firm
+that reads them as the full distribution of what states do will underestimate the risk it carries.
 
 ### When risks compound
 
-The most demanding element of the team brief was the analysis of interactions: how two risks
-compound or offset for *this* firm. It is demanding because indicators are built one at a time, and
-dashboards display them side by side, which invites the reader to add them up. Risks do not add.
-They interact.
+Indicators are built one at a time, and risk reports display them side by side, which invites the
+reader to add them up. Risks do not add. They interact.
 
 They compound when one risk removes the remedy for another. A firm that depends on a single supplier
 in a country that is drifting out of its home state's bloc faces an input risk and an alignment
@@ -311,15 +333,15 @@ other, and a firm whose suppliers are spread across states with different alignm
 sourcing as the boundary moves.
 
 Interactions are where the analyst's knowledge of the firm, rather than of the world, does the work.
-No index can be built for them in advance, because they depend on the particular combination of the
-firm's footprint and the system's fault lines. That is why the presentations reserved two of their
-twelve minutes for them, and why the defence returned to them most often.
+No index can be built for them in advance. They are also where the most expensive surprises lie,
+because a risk function organised by risk type — cyber, sanctions, country risk — has no one whose
+job is to see them.
 
 ## The composite index, and who chooses the weights
 
-Every team built a composite exposure index for its firm's main countries, with the method of
-Session 07: select indicators, normalise them to a common scale, weight them, and aggregate. The
-handbook the session relied on sets out each step and the choices it involves [@oecd2008].
+Most practical risk scores, commercial or internal, are composites: select indicators, normalise
+them to a common scale, weight them, and aggregate. The handbook examined in Chapter 7 sets out each
+step and the choices it involves [@oecd2008].
 
 ::: {.definition}
 [**Composite index**]{.term} — a single measure built by combining several indicators after
@@ -328,27 +350,26 @@ are normalised and how they are weighted — and the weights are not technical p
 statements of what matters, and how much.
 :::
 
-The lesson of building one is that the composite is the least neutral number on the dashboard.
-Normalisation decides whether a country's score is relative to the best and worst in the sample or
-to a fixed benchmark, and therefore whether adding a country changes everyone else's score.
-Weighting decides how much a conflict risk counts against a sanctions risk or a dependence risk, and
-no data can settle that, because the answer depends on the firm's exposure through each channel and
-on how much loss of each kind it can bear. Equal weights are a choice too: the choice to treat every
-indicator as equally important, which is rarely what anyone believes.
+The composite is the least neutral number in any risk report. Normalisation decides whether a
+country's score is relative to the best and worst in the sample or to a fixed benchmark, and
+therefore whether adding a country changes everyone else's score. Weighting decides how much a
+conflict risk counts against a sanctions risk or a dependence risk, and no data can settle that,
+because the answer depends on the firm's exposure through each channel and on how much loss of each
+kind it can bear. Equal weights are a choice too: the choice to treat every indicator as equally
+important, which is rarely what anyone believes.
 
-This is why the team dashboards exposed the weights as parameters the board could move, and why the
-presentations required one live move of a weight. A ranking that does not change when the weights
-move within a plausible range is robust, and the board can rely on it. A ranking that reverses when
-the weight on one indicator moves from a third to a half is telling the board that the decision
-depends on a judgement about priorities, not on the data — and that judgement belongs to the board,
-not to the analyst. Showing the sensitivity is not a confession of weakness. It is the analyst
-handing the decision to the person who must own it.
+The remedy is not to abandon composites but to expose their weights. A ranking that does not change
+when the weights move within a plausible range is robust, and a board can rely on it. A ranking that
+reverses when the weight on one indicator moves from a third to a half is telling the board that the
+decision depends on a judgement about priorities, not on the data — and that judgement belongs to
+the board, not to the analyst. Showing the sensitivity is not a confession of weakness. It is the
+analyst handing the decision to the person who must own it.
 
 ## Indicators do not decide
 
-The third point of the closing address was the bluntest. An indicator without a threshold and an
-owner is decoration. A dashboard can display every indicator the course built, beautifully, and
-change nothing in the firm, because nothing on it tells anyone what to do or when.
+An indicator without a threshold and an owner is decoration. A risk report can display every
+indicator in this book, beautifully, and change nothing in the firm, because nothing in it tells
+anyone what to do or when.
 
 ::: {.definition}
 [**Watchlist**]{.term} — a short list of indicators, each paired with a threshold that triggers a
@@ -357,15 +378,14 @@ the decision is made in advance, conditionally, so that when the threshold is cr
 is no longer whether to act but whether the threshold was right.
 :::
 
-The format the teams were asked to use has four columns: the indicator one watches, the number that
-triggers, the decision that follows — what happens on Monday — and the person who signs. Each column
-does work. The indicator must be one the firm can actually observe, at the frequency it needs, from
-a source it has logged. The threshold must be a number, set before the event, so that it cannot be
-rationalised away when the moment comes; it may be revised, but revising it should be a decision
-with a record. The decision must be specific — contract a second operator, cap new commitments in a
-market, pre-position inventory, start the approval process for a sale — not "monitor the situation"
-or "review our exposure". And the owner must be a person with the authority to take the decision,
-because a threshold crossed without an owner is crossed in silence.
+A watchlist has four parts, and each does work. The indicator must be one the firm can actually
+observe, at the frequency it needs, from a source whose version it has recorded. The threshold must
+be a number, set before the event, so that it cannot be rationalised away when the moment comes; it
+may be revised, but revising it should be a decision with a record. The decision must be specific —
+contract a second operator, cap new commitments in a market, pre-position inventory, start the
+approval process for a sale — not "monitor the situation" or "review our exposure". And the owner
+must be a person with the authority to take the decision, because a threshold crossed without an
+owner is crossed in silence.
 
 ::: {.archive}
 [From the archive · Shell's scenarios, 1972–1973]{.archive-label}
@@ -384,75 +404,78 @@ business, and to make them identify in advance what they would do in each world.
 embargo and the price rises of 1973 arrived, Shell's managers had, in Wack's telling, already
 thought through what such a world would require of them [@wack1985].
 
-The lesson the course takes from the episode is not that scenarios predict. It is that a risk
-analysis changes behaviour only when it is tied, in advance, to the signals that would reveal which
-world is arriving and to the decisions each world calls for. A scenario without signposts and a
-dashboard without thresholds fail in the same way.
+The lesson is not that scenarios predict. It is that a risk analysis changes behaviour only when it
+is tied, in advance, to the signals that would reveal which world is arriving and to the decisions
+each world calls for. A scenario without signposts and a risk report without thresholds fail in the
+same way.
 :::
 
-The best dashboards in the final session were the ones that would make someone do something on a
-given Monday. They did not have the most indicators or the most elaborate composite. They had three
-indicators the firm could observe, three thresholds set in advance, and three decisions with names
-attached.
+The most useful risk report is therefore not the one with the most indicators but the one that would
+make someone act on a given Monday.
 
 ### Why firms wait, and when they should not
 
-There is a rational reason firms delay decisions in the face of geopolitical risk, and it deserves
-to be stated, because a watchlist must be designed against it. Nicholas Bloom showed that a rise in
-uncertainty leads firms to pause investment and hiring: when the future is less predictable, the
-option to wait and see becomes more valuable, and the economy slows as many firms exercise it at
-once [@bloom2009]. Waiting is often right. But the sanctions and space sessions both showed cases
-where waiting destroyed options rather than preserving them — the firms that delayed their exit from
-Russia until the target's countermeasures had closed the door on a sale at their own terms; the firm
-with one connectivity provider that waits until the service is switched off to contract a second.
-The value of waiting depends on whether the options remain open while one waits. A good threshold is
-set at the point where they begin to close.
+There is a rational reason firms delay decisions in the face of geopolitical risk, and a watchlist
+must be designed against it. Nicholas Bloom showed that a rise in uncertainty leads firms to pause
+investment and hiring: when the future is less predictable, the option to wait and see becomes more
+valuable, and the economy slows as many firms exercise it at once [@bloom2009]. Waiting is often
+right. But Chapters 10 and 11 described cases where waiting destroyed options rather than preserving
+them — the firms that delayed their exit from Russia until the target's countermeasures had closed
+the door on a sale on their own terms; the firm with one connectivity provider that waits until the
+service is switched off to contract a second. The value of waiting depends on whether the options
+remain open while one waits. A good threshold is set at the point where they begin to close.
 
 ## Where the risk function sits
 
-A dashboard is an instrument; a risk function is an organisation that uses one. The course has said
-little about organisation, but the closing argument implies three things about it.
+A risk report is an instrument; a risk function is an organisation that uses one. The argument of
+this book implies three things about how it should be organised.
 
-The first is that geopolitical risk assessment cannot live only in a central team. Kobrin's
+The first is that geopolitical risk assessment cannot live only in a central unit. Kobrin's
 contingency is discovered in the firm's operations — in procurement, which knows where the inputs
-come from; in treasury, which knows which banks clear the payments; in the country managers, who
+come from; in treasury, which knows which banks clear the payments; in the information-security
+function, which knows which networks and providers the firm runs on; in the country managers, who
 know what the host government is likely to do. A central function can build the indicators and the
-method; the exposure must be mapped with the people who run the business. The footprint slide of
-every presentation was, in effect, an argument that the team had done this mapping, from the firm's
-own disclosures, before reaching for any index.
+method; the exposure must be mapped with the people who run the business, from the firm's own
+records, before reaching for any index.
 
 The second is that the function must report to people who can decide. Ian Bremmer and Preston Keat
 argued that the most damaging political risks are in the "fat tail" — rare, high-impact events that
 standard models underweight — and that firms need political knowledge integrated into strategic
-decisions, not appended to them [@bremmer2009]. The memo to the board, with its three risks and what
-to do about them, was the course's version of that integration: a document addressed to the people
-who own the decisions, written so that they can act on it.
+decisions, not appended to them [@bremmer2009]. A brief to the board that names a small number of
+risks, the channels through which they would reach the firm and what to do about each is that
+integration in its simplest form: a document addressed to the people who own the decisions, written
+so that they can act on it.
 
-The third is that the function must keep a record. The provenance log, which every practice round
-required, is not an academic formality. It is what allows a firm, a year later, to know which
-version of which dataset produced the number on which it acted, and therefore to learn whether the
-number, the threshold or the decision was wrong. A risk function that cannot reconstruct its own
-past judgements cannot improve them.
+The third is that the function must keep a record. It must be able to say, a year later, which
+version of which dataset produced the number on which the firm acted, which decisions were taken in
+building it, and what the threshold was at the time. Without that record a firm cannot learn whether
+the number, the threshold or the decision was wrong, because it cannot reconstruct what it knew. A
+risk function that cannot reconstruct its own past judgements cannot improve them.
 
 ## What would change your mind?
 
-The defence that followed each presentation asked questions of many kinds, but the one that mattered
-most was the last: what would change your recommendation? It is the question that separates an
-assessment from an opinion.
+Of all the questions that can be asked of a risk assessment, the most revealing is the last: what
+would change your recommendation? It is the question that separates an assessment from an opinion.
 
-An assessment that nothing could change is not an assessment. A team that recommends reducing
-exposure to a market should be able to say which indicator, moving by how much, would make it
-recommend the opposite — and should be able to say it before the indicator moves. This is the same
+An assessment that nothing could change is not an assessment. An analyst who recommends reducing
+exposure to a market should be able to say which indicator, moving by how much, would lead to the
+opposite recommendation — and should be able to say it before the indicator moves. This is the same
 discipline as the threshold, applied to the analyst rather than to the firm. It protects against the
 most common failure of risk analysis, which is not ignorance but commitment: the analyst who has
 argued for a view reads every new piece of evidence as confirmation, and the firm that has invested
 on a view finds reasons to stay.
 
-It also returns the course to its method. Every practice round asked what a famous figure did not
-license a multinational to conclude. The defence asked the same question of the team's own work. The
-rubric rewarded answers that conceded what the data could not show and said what would change the
-recommendation, because those are the answers that tell a board how much weight to put on the
-recommendation in the first place.
+The evidence on expert forecasting supports the discipline. Philip Tetlock's long study of political
+forecasts found that experts' predictions were, on average, barely better than simple baselines, and
+that the forecasters who did better were those who held their views provisionally, drew on many
+sources and revised when the evidence moved, rather than those who explained events through one big
+idea [@tetlock2005]. Geopolitical risk is a field that rewards the single big idea — the coming war,
+the end of globalisation, the inevitable transition — with attention. A risk function should reward
+the opposite habit.
+
+Every chapter of this book ended by asking what a famous figure did not license a multinational to
+conclude. The same question, asked of a firm's own analysis, tells a board how much weight to put on
+its recommendation, and tells the reader where to look for the next surprise.
 
 ## A short review of the literature
 
@@ -463,41 +486,46 @@ argued that risk lies in the contingency between political events and a firm's o
 the events themselves; @fitzpatrick1983 surveyed the same field and found its definitions of risk
 equally unsettled; and @kobrin1982 studied how firms actually organised the assessment. The
 distinction between measurable risk and unmeasurable uncertainty on which the field rests is
-@knight1921's.
+@knight1921's, and @vernon1971 supplied the dynamic of the obsolescing bargain.
 
 The institutional strand begins from veto players [@tsebelis2002]. @henisz2000 turned the idea into
 the POLCON index of political constraint and related it to growth, and @henisz2002 to investment in
-infrastructure, the asset class most exposed to policy reversal. The measurement strand is more
+infrastructure, the kind of asset most exposed to policy reversal. The measurement strand is more
 recent and largely text-based: @baker2016 on economic policy uncertainty, @caldara2022 on
-geopolitical risk, and @hassan2019 on political risk as firms themselves discuss it. @bloom2009
-established the mechanism by which uncertainty, once measured, depresses investment, and @oecd2008
-codified the construction of composite indicators that most practical risk scores rely on.
+geopolitical risk, and @hassan2019 on political risk as firms themselves discuss it, alongside
+expert-based aggregates such as @kaufmann2011. @bloom2009 established the mechanism by which
+uncertainty, once measured, depresses investment, and @oecd2008 codified the construction of the
+composite indicators on which most practical risk scores rely.
 
 The geopolitical turn of the last decade reframed the field around networks and dependence:
 @farrell2019 explain how states weaponise the hubs of global networks, which turns a firm's
-suppliers and service providers into channels of state power. On the practice of deciding under such
-uncertainty, @wack1985 remains the classic account of scenarios tied to decisions, and @bremmer2009
-the practitioner's case for integrating political knowledge into strategy.
+suppliers and service providers into channels of state power, and @drezner2003 shows why the
+coercion that works is the coercion least likely to be observed. On deciding under such uncertainty,
+@wack1985 remains the classic account of scenarios tied to decisions, @bremmer2009 the
+practitioner's case for integrating political knowledge into strategy, and @tetlock2005 the evidence
+on which habits of judgement forecast better.
 :::
 
-## After the last session
+## Conclusion: decisions inside uncertainty
 
-The course ends where a risk function begins. Each team leaves with a dashboard for one
-multinational, a memo to its board, and a method it has defended in public. Each student leaves with
-eleven replications behind them, each documenting at least one place where the data disagreed with
-the paper, and eleven catch slides that together list what each indicator cannot tell a firm.
+Geopolitical risk will never be known with the confidence of a price or the regularity of an
+actuarial table. The world in which multinationals now operate makes that truer, not less true. The
+order that allowed firms to treat geopolitics as background — a single dominant power, institutions
+that refereed disputes, networks that nobody used as weapons — has given way to one in which power
+is contested, institutions compete, standards and supply chains divide along political lines, and
+the infrastructure firms depend on, from payment systems to satellites, is an instrument of state
+policy. In that world the question a firm faces is not whether it is exposed but how, through which
+channels, and to whose decisions.
 
-The take-home examination tests the whole of this under the conditions in which the work is actually
-done: an unseen scenario, a source from which to collect the data, a firm, a time limit, and one's
-own notes. It will ask for the same moves the course has practised. Find the data at source and
-record where it came from. Notice where it disagrees with what one expected. Build the view that
-answers the question. Say which family of indicators it belongs to, and what that family cannot see.
-Name the channel through which the risk reaches the firm. And end, as every practice round ended,
-with what the figure does not license the firm to conclude, and what the firm should do anyway.
+The evidence reviewed in this book does not answer that question for any particular firm, and it
+cannot. What it offers is a discipline for answering it. Begin with the firm, not the country. Use
+indicators from several families, and treat their disagreement as information. Know the decisions
+inside every number, and record where the data depart from the published account. Name the channel
+through which each risk would reach the firm. Watch the slow structural variables as well as the
+fast ones, because the slow ones say where the break will be costly. Attach to each indicator a
+threshold, a decision and an owner. And say in advance what would change your mind.
 
-That last clause is the course in miniature. Geopolitical risk will never be known with the
-confidence of a price or the regularity of an actuarial table. The analyst's job is not to remove
-that uncertainty but to make the decisions inside it visible — the decisions in the data, the
-decisions in the method, and the decisions the firm will take when a threshold is crossed — to the
-person who must act. A dashboard that does that is finished. One that does not is a picture of the
-world.
+The analyst's job is not to remove uncertainty but to make the decisions inside it visible — the
+decisions in the data, the decisions in the method, and the decisions the firm will take when a
+threshold is crossed — to the person who must act. An assessment that does that has done what an
+assessment can. One that does not, however rich its indicators, is only a picture of the world.

@@ -8,7 +8,7 @@
 > **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-04-lecture.html)** — or read the source at
 > [`01-lecture/INTE60019A-S04-Lecture.qmd`](01-lecture/INTE60019A-S04-Lecture.qmd).
 > Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-04-pre-session.html) ·
-> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-04-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-04.html)
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-04-practice.html) · [the companion chapter in the book](https://warint.github.io/geopolitics-geoeconomics/book/session-04.html)
 
 | | |
 |---|---|
@@ -39,7 +39,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — commercial peace, its critics, fragmentation | 50 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 04:** rebuild trade within and between blocs | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
-| **Lecture notes** | [Chapter 4 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-04.html) — pre-session, lecture and practice as one readable, searchable page | — |
+| **Read further** | [Chapter 4 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-04.html) — the argument at length, with its sources | — |
 
 **Team milestone:** your firm's five most important countries, with sources, on ZoneCours.
 

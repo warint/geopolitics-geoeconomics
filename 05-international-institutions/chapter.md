@@ -5,23 +5,21 @@ title: "International Institutions: Who Finances, Insures and Referees the Firm"
 ## A hotel in New Hampshire, and what it still decides
 
 Ask a manager which international institutions matter to her firm and the first answer is usually
-the United Nations. Ask instead who lent the money for the port her goods leave
-from, who insured the plant her company built in a country whose currency may not be convertible
-next
-year, who will hear the case if that country's government takes the plant, and who decided which
-firms were allowed to bid for the contract to build the port in the first place — and the list
-becomes long, specific and almost entirely economic. The World Bank, its private-sector arm, its
-insurer, its arbitration centre; a regional development bank in Manila, Abidjan or London; and,
-increasingly, a bank in Beijing or Shanghai that did not exist when today's graduate students were
-in primary school.
+the United Nations. Ask instead who lent the money for the port her goods leave from, who insured
+the plant her company built in a country whose currency may not be convertible next year, who will
+hear the case if that country's government takes the plant, and who decided which firms were allowed
+to bid for the contract to build the port in the first place — and the list becomes long, specific
+and almost entirely economic. The World Bank, its private-sector arm, its insurer, its arbitration
+centre; a regional development bank in Manila, Abidjan or London; and, increasingly, a bank in
+Beijing or Shanghai that did not exist a little over a decade ago.
 
 This chapter is about those institutions. It treats them in two ways at once, because a
 multinational has to. They are **business infrastructure**: sources of long-term finance,
 guarantees, political risk insurance, contracts and dispute settlement in exactly the markets where
 private finance is scarcest and political risk highest. And they are **arenas of power**: bodies
 governed by states, whose votes are unequally distributed, whose rules are bargained, and whose
-decisions — as the session's big work shows — can be bought. A firm that relies on such an
-institution to manage its geopolitical risk is relying on a rule; it is also relying on the
+decisions — as the evidence later in this chapter shows — can be bought. A firm that relies on such
+an institution to manage its geopolitical risk is relying on a rule; it is also relying on the
 coalition of states that keeps the rule in force. The question that runs through the chapter is
 which of the two it is really relying on, institution by institution and issue by issue.
 
@@ -43,16 +41,15 @@ those of the International Bank for Reconstruction and Development, and entered 
 December 1945. The design choice that matters most for this chapter was made then and has never been
 reversed: each member's **quota** — its subscription to the Fund — determines both how much it can
 borrow and how many votes it has. Money and voice were tied together from the first day. Eighty
-years
-later the argument about whether the new institutions of Asia and the BRICS complement or contest
-the Bretton Woods order is, at bottom, an argument about that tie.
+years later the argument about whether the new institutions of Asia and the BRICS complement or
+contest the Bretton Woods order is, at bottom, an argument about that tie.
 :::
 
 ## Why would states under anarchy build institutions at all?
 
-Session 03 left us with a system that has no government above states, and Session 04 with trade
-reorganising itself along geopolitical lines. Yet the same system is thick with institutions. Two
-traditions explain why, and they make opposite predictions for a firm.
+Chapter 3 described a system that has no government above states, and Chapter 4 a world in which
+trade is reorganising itself along geopolitical lines. Yet the same system is thick with
+institutions. Two traditions explain why, and they make opposite predictions for a firm.
 
 The liberal institutionalist answer, given its canonical form by @keohane1984, is functional. States
 that would gain from cooperation often fail to achieve it because they cannot observe each other's
@@ -107,9 +104,9 @@ written in Washington.
 
 The Fund now has 191 members. Its governance follows the 1944 design: quotas determine votes. As of
 30 April 2026 the United States held 16.49% of total voting power, Japan 6.14% and China 6.08%; the
-other founding BRICS each held less than 3% [@imf2026ar]. Article III of the Articles requires an 85%
-majority of total voting power for any change in quotas, so a member holding more than 15% can block
-a quota reform alone — and only one member does.
+other founding BRICS each held less than 3% [@imf2026ar]. Article III of the Articles requires an
+85% majority of total voting power for any change in quotas, so a member holding more than 15% can
+block a quota reform alone — and only one member does.
 
 ::: {.definition}
 [**Voting power and capital**]{.term} — in a shareholder-governed institution, a member's votes
@@ -119,16 +116,15 @@ members agree to reallocate capital, and those whose share would fall can often 
 reallocation.
 :::
 
-The lag is the hinge of the session. China's economy is far larger relative to the American
-economy than a vote of 6.08% against 16.49% suggests, and reform has been slow. The Sixteenth
-General
-Review of Quotas, approved in December 2023, raises total quotas by half but does so
+The lag is the hinge of this chapter. China's economy is far larger relative to the American economy
+than a vote of 6.08% against 16.49% suggests, and reform has been slow. The Sixteenth General Review
+of Quotas, approved in December 2023, raises total quotas by half but does so
 **equiproportionally**: every member's share stays where it was. Even that increase had not taken
-effect by October 2026 — the IMF had extended the deadline for members' consents to 15 November
-2026 — and the realignment of shares was left to a Seventeenth Review for which, at the time of
-writing, guiding principles had been endorsed but no formula agreed. The same pattern holds at the
-World Bank: in the IBRD the United States held 15.98% of votes, Japan 6.88% and China 5.75% as of
-30 June 2026 [@worldbank2026].
+effect by October 2026 — the IMF had extended the deadline for members' consents to 15 November 2026
+— and the realignment of shares was left to a Seventeenth Review for which, at the time of writing,
+guiding principles had been endorsed but no formula agreed. The same pattern holds at the World
+Bank: in the IBRD the United States held 15.98% of votes, Japan 6.88% and China 5.75% as of 30 June
+2026 [@worldbank2026].
 
 Two other institutions shape the conditions of business without lending a cent. The World Trade
 Organization, founded in 1995 with 166 members today, holds the tariff bindings and
@@ -138,10 +134,7 @@ withheld it; a subset of members now appeal through an interim arbitration arran
 rule still exists; whether it binds depends on which members have opted in. The OECD's relevance is
 quieter. Its Arrangement on Officially Supported Export Credits, in force since 1978, limits the
 terms that participating governments' export-credit agencies may offer, so that exporters compete
-on price and quality rather than on subsidised finance — and China is not a participant. Its
-Guidelines for Multinational Enterprises give anyone a route to complain about a firm's conduct
-through National Contact Points. And its Inclusive Framework negotiated the global minimum tax that
-now shapes where multinationals book profits.
+on price and quality rather than on subsidised finance — and China is not a participant.
 
 ## The World Bank Group as the firm's toolkit
 
@@ -154,9 +147,9 @@ Development Association** (1960) gives grants and concessional credits to the po
 to firms. Both matter to firms because the money they lend is spent buying goods, works and
 services, and the World Bank's Procurement Framework, in force since July 2016, requires that much
 of that buying be done through open international competition, with notices published on United
-Nations Development Business and the Bank's own site. Procurement is the least glamorous and most
-overlooked business channel of the multilateral system; for an engineering, construction or
-equipment firm it is often the largest.
+Nations Development Business and the Bank's own site. Procurement is the least glamorous business
+channel of the multilateral system; for an engineering, construction or equipment firm it is often
+the largest.
 
 Procurement has a disciplinary side. Firms found to have engaged in fraud, corruption, collusion or
 coercion in Bank-financed contracts are **debarred**, and their names published. Since the
@@ -174,12 +167,10 @@ co-investor whose presence lowers the cost of other finance and signals to the h
 the project has a powerful friend.
 
 The **Multilateral Investment Guarantee Agency** (1988) is the institution in this chapter most
-directly in the business of geopolitical risk. It insures cross-border investors and lenders
-against five political perils, and in fiscal year 2026 it issued a record US$10.6 billion of
-guarantees for sixty projects, bringing its gross exposure to US$41.4 billion [@miga2026]. Since
-July
-2024 the Group's guarantee products have been brought together in a single platform housed at
-MIGA.
+directly in the business of geopolitical risk. It insures cross-border investors and lenders against
+five political perils, and in fiscal year 2026 it issued a record US$10.6 billion of guarantees for
+sixty projects, bringing its gross exposure to US$41.4 billion [@miga2026]. Since July 2024 the
+Group's guarantee products have been brought together in a single platform housed at MIGA.
 
 ::: {.definition}
 [**Political risk insurance**]{.term} — cover for a cross-border investor or lender against losses
@@ -195,15 +186,15 @@ with an agency of which it is itself a member, which will pay the claim and then
 it, and whose other members include the governments that decide its access to World Bank lending.
 The insurance works, in part, because the coalition behind it is large. It also means that the
 insurer is governed by states: in MIGA the United States held 14.81% of votes as of 30 June 2026
-[@worldbank2026], and the cover a firm can buy reflects what that coalition is willing to underwrite.
+[@worldbank2026], and the cover a firm can buy reflects what that coalition is willing to
+underwrite.
 
 The **International Centre for Settlement of Investment Disputes** (Convention in force 1966)
-provides
-the forum. A firm whose host state has consented — usually through a bilateral investment treaty —
-can bring a claim against the state before an arbitral tribunal rather than the state's own courts.
-ICSID had registered 1,118 cases by mid-2026, and of the cases registered in fiscal year 2026 a
-quarter concerned oil and gas and almost a fifth mining; more than three in five were brought under
-bilateral investment treaties [@icsid2026].
+provides the forum. A firm whose host state has consented — usually through a bilateral investment
+treaty — can bring a claim against the state before an arbitral tribunal rather than the state's own
+courts. ICSID had registered 1,118 cases by mid-2026, and of the cases registered in fiscal year
+2026 a quarter concerned oil and gas and almost a fifth mining; more than three in five were brought
+under bilateral investment treaties [@icsid2026].
 
 ::: {.definition}
 [**Investor–state arbitration**]{.term} — a procedure in which a foreign investor brings a claim
@@ -222,8 +213,8 @@ politics of host states.
 
 Everything so far assumes that the institutions apply their rules to all comers. The realist
 suspicion is that they do not — that the votes in the tables above are used, and that influence is
-traded. The session's big work offers the sharpest test of that suspicion, and it does so in the
-institution whose decisions bind every firm in the world.
+traded. The sharpest test of that suspicion comes from the institution whose decisions bind every
+firm in the world.
 
 The UN Security Council has fifteen members: five permanent, with a veto, and ten elected by the
 General Assembly for two-year terms by regional group, five each year, without immediate
@@ -233,8 +224,8 @@ embargoes, authorisations of force — bind every member state, and therefore ev
 one. The arithmetic gives the elected members leverage: the permanent five cannot pass anything
 without at least four of them.
 
-@kuziemko2006 asked whether that leverage is paid for. Their identification idea is the reason the
-paper is the session's big work. Rotation onto the Council follows regional queues and informal
+@kuziemko2006 asked whether that leverage is paid for. Their identification idea is what makes the
+paper so persuasive. Rotation onto the Council follows regional queues and informal
 norms, not a country's need for aid in a particular year. So instead of comparing members with
 non-members — who differ in a hundred ways — they compare a country **with itself**, in the years
 before, during and after its term. If aid rises during the term and falls back afterwards, the seat
@@ -255,9 +246,10 @@ result turns a pattern into a mechanism: if aid followed membership regardless o
 was doing, rotation might proxy for something else; that it tracks the **salience** of Council
 business is what makes vote buying the most plausible reading.
 
-The distinction between finding and interpretation matters for the practice round: the paper shows
-that aid moves with membership and with salience; *bribery* is the authors' word for the most
-plausible mechanism, not something the data observe.
+The distinction between finding and interpretation matters: the paper shows that aid moves with
+membership and with salience; *bribery* is the authors' word for the most plausible mechanism, not
+something the data observe. No transfer in the data is labelled as payment for a vote, and the
+paper does not claim to have seen one.
 
 For this chapter the decisive step is what came next. The same research programme looked inside the
 economic institutions. Temporary Council members receive more World Bank projects [@dreher2009a] and
@@ -273,14 +265,11 @@ money decides where the contracts, the co-investment and the insurance are.
 
 The World Bank model was copied, region by region, with a different balance of shareholders each
 time. The **Inter-American Development Bank** (1959) was the first; its private-sector arm, now IDB
-Invest, has operated since 1986, and in 2024 its governors approved a capital increase of US$3.5
-billion tied to an "originate-to-share" model in which the bank originates loans and sells much of
-them on to private investors. The **African Development Bank** followed in 1964, the **Asian
+Invest, has operated since 1986. The **African Development Bank** followed in 1964, the **Asian
 Development Bank** in 1966, the **European Bank for Reconstruction and Development** in 1991, to
 finance the transition of the former Soviet bloc. The **European Investment Bank** (1958) is the
 EU's own bank, owned by its member states, and the **Islamic Development Bank** (operations from
-1975) serves the members of the Organisation of Islamic Cooperation, with separate arms for private
-investment, trade finance and export-credit and political risk insurance. Sub-regional banks fill in
+1975) serves the members of the Organisation of Islamic Cooperation. Sub-regional banks fill in
 the map — CAF in Latin America, owned mainly by its borrowers; the Eurasian Development Bank in the
 post-Soviet space, founded by Russia and Kazakhstan.
 
@@ -296,23 +285,19 @@ The first is that **procurement eligibility is foreign policy**. The Asian and I
 restrict contracts to firms and goods from member countries; the EBRD's are open to firms from any
 country; the African Development Bank opens contracts financed by its concessional fund to all while
 restricting those financed by the bank itself to members. Whether a Canadian, Chinese or Turkish
-firm
-may bid on a road in Bangladesh or Bolivia depends on whether its home state paid in.
+firm may bid on a road in Bangladesh or Bolivia depends on whether its home state paid in.
 
 The second is that a development bank can become an **instrument of sanctions**. On 4 April 2022 the
 EBRD's Board of Governors suspended Russia's and Belarus's access to the bank's resources and
-decided
-to close its offices in Moscow and Minsk [@ebrd2022]. Both remain shareholders. A firm that had
-counted on EBRD co-finance in either country lost it overnight, through a decision taken by votes in
-which the host state took part and lost.
+decided to close its offices in Moscow and Minsk [@ebrd2022]. Both remain shareholders. A firm that
+had counted on EBRD co-finance in either country lost it overnight, through a decision taken by
+votes in which the host state took part and lost.
 
 The third is that **shareholding moves**, slowly. The EBRD has expanded into sub-Saharan Africa,
-with
-Benin, Côte d'Ivoire and Nigeria becoming countries of operation in 2025; the Asian Development Bank
-amended its charter for the first time, with effect from March 2026, to lend more against the same
-capital; the Eurasian Development Bank cut Russia's share below half at the end of 2022. Each move
-redraws the map of
-where a firm finds support, and on whose terms.
+with Benin, Côte d'Ivoire and Nigeria becoming countries of operation in 2025; the Asian Development
+Bank amended its charter for the first time, with effect from March 2026, to lend more against the
+same capital; the Eurasian Development Bank cut Russia's share below half at the end of 2022. Each
+move redraws the map of where a firm finds support, and on whose terms.
 
 ::: {.definition}
 [**Multilateral development bank**]{.term} — a bank owned by several states that borrows on capital
@@ -337,28 +322,24 @@ Agreement were signed in Beijing by fifty countries; they entered into force on 
 and the bank opened on 16 January 2016 with fifty-seven founding members.
 
 For this chapter the episode is a demonstration of Morse and Keohane's mechanism. China had sought a
-larger
-voice in the IMF and the World Bank for a decade, without a realignment of shares. It then built an
-institution in which it held the largest share by design — and invited the Europeans in. Once they
-were in, the new bank could not easily be dismissed as a Chinese instrument, and the old ones lost
-their monopoly on legitimacy in infrastructure finance. Competitive regime creation does not need to
-replace the incumbent to change the bargaining inside it.
+larger voice in the IMF and the World Bank for a decade, without a realignment of shares. It then
+built an institution in which it held the largest share by design — and invited the Europeans in.
+Once they were in, the new bank could not easily be dismissed as a Chinese instrument, and the old
+ones lost their monopoly on legitimacy in infrastructure finance. Competitive regime creation does
+not need to replace the incumbent to change the bargaining inside it.
 :::
 
 The **Asian Infrastructure Investment Bank** has an authorised capital of US$100 billion. Its
 membership had reached 111 approved members by October 2026, 106 of them full members [@aiib2026].
 China holds 30.5% of subscriptions and 26.37% of votes; India, the second-largest member, holds
-7.53%
-and Russia 5.92%. The Articles require a "super majority" — two-thirds of governors representing at
-least three-quarters of total voting power — for the most important decisions, among them capital
-increases and the election of the president. China's quarter of the votes is therefore a veto, as
-the
-United States' sixth of the IMF's is. The board is non-resident, a deliberate contrast with the
-full-time resident boards of the Bretton Woods institutions. The bank signed co-financing frameworks
-with the World Bank and the Asian Development Bank in its first months and co-financed many of its
-early projects with them; it lends to private as well as sovereign borrowers, and offers
-non-sovereign
-loans in a range of local currencies.
+7.53% and Russia 5.92%. The Articles require a "super majority" — two-thirds of governors
+representing at least three-quarters of total voting power — for the most important decisions, among
+them capital increases and the election of the president. China's quarter of the votes is therefore
+a veto, as the United States' sixth of the IMF's is. The board is non-resident, a deliberate
+contrast with the full-time resident boards of the Bretton Woods institutions. The bank signed
+co-financing frameworks with the World Bank and the Asian Development Bank in its first months and
+co-financed many of its early projects with them; it lends to private as well as sovereign
+borrowers, and offers non-sovereign loans in a range of local currencies.
 
 The **New Development Bank** was created by the five original BRICS under an agreement signed at
 Fortaleza on 15 July 2014 and is headquartered in Shanghai. Its initial subscribed capital of US$50
@@ -367,14 +348,12 @@ founders' combined votes may not fall below 55%, and non-borrowing members' comb
 exceed 20% [@ndb2014]. Bangladesh, the United Arab Emirates, Egypt, Algeria and, in 2026, Uzbekistan
 have since joined; several other countries have been admitted but have not yet completed accession.
 Its 2022–2026 strategy set a target of 30% of financing in local currencies. The equal-shares rule
-is
-the most interesting design choice in the new architecture: it prevents China from dominating the
+is the most interesting design choice in the new architecture: it prevents China from dominating the
 bank by capital, at the price of limiting how much capital the bank can raise.
 
 The reserve pools are less visible to firms but matter to the country risk they face. The **BRICS
 Contingent Reserve Arrangement**, signed on the same day in Fortaleza, commits US$100 billion —
-China
-41, Brazil, India and Russia 18 each, South Africa 5 — to members facing balance-of-payments
+China 41, Brazil, India and Russia 18 each, South Africa 5 — to members facing balance-of-payments
 pressure; but only 30% of a member's maximum access is available without an IMF programme in place.
 The **Chiang Mai Initiative Multilateralisation** among the ASEAN members, China, Japan and Korea,
 in force since 2010, is a US$240 billion network of currency-swap commitments, 40% of which has been
@@ -397,19 +376,26 @@ established in December 2014, are the financial core of the Belt and Road Initia
 those of the multilateral banks in ways that matter: @horn2021 show that a large part of China's
 overseas lending has gone unreported to the international debt statistics, much of it on commercial
 rather than concessional terms and often collateralised; @dreher2022 trace its aims and effects
-project by project. For a non-Chinese firm the opportunities are case by case. Contracts on
-Chinese-financed projects have often gone to Chinese contractors, and the standards that govern them
-are set bilaterally rather than by the published policies of a multilateral board.
+project by project. @gelpern2023, analysing a hundred contracts between Chinese state-owned lenders
+and governments in twenty-four developing countries, found three features that set them apart from
+other creditors' contracts: unusual confidentiality clauses that bar the borrower from revealing the
+terms or even the existence of the debt; arrangements that seek advantage over other creditors, such
+as lender-controlled revenue accounts and promises to keep the debt out of collective restructuring;
+and cancellation, acceleration and stabilisation clauses that could allow the lender to influence
+the borrower's domestic and foreign policies. For a firm, a host government that has borrowed on
+such terms has a debt position — and a creditor to placate in a crisis — that no public statistic
+shows. For a non-Chinese firm the opportunities are case by case. Contracts on Chinese-financed
+projects have often gone to Chinese contractors, and the standards that govern them are set
+bilaterally.
 
 BRICS itself, finally, is not an institution: it has no charter and no secretariat, and its two
 treaty bodies are the NDB and the CRA. Its expansion matters to a firm as a map of alignment. Egypt,
 Ethiopia, Iran and the United Arab Emirates became members on 1 January 2024 and Indonesia in
-January
-2025; Saudi Arabia is listed by the BRICS chairs but has never formally confirmed its membership,
-and its status is best described as ambiguous. A category of partner countries, created at the Kazan
-summit in October 2024, numbered ten by mid-2025. The New Delhi summit of September 2026 added no
-members or partners and asked for continued work on cross-border payments in local currencies —
-work, not a launched system.
+January 2025; Saudi Arabia is listed by the BRICS chairs but has never formally confirmed its
+membership, and its status is best described as ambiguous. A category of partner countries, created
+at the Kazan summit in October 2024, numbered ten by mid-2025. The New Delhi summit of September
+2026 added no members or partners and asked for continued work on cross-border payments in local
+currencies — work, not a launched system.
 
 ## Complement or counter-hegemony?
 
@@ -418,32 +404,28 @@ order or contest it. Put that way, it has no answer; split into four tests, it d
 
 On **votes**, the new banks give emerging economies the voice that quota reform at the Fund has not
 — and reproduce its structure. China's veto in the AIIB mirrors the American veto in the IMF; the
-NDB
-avoids a dominant shareholder only by fixing equal shares among the founders. A realist reading
-these tables would not be surprised.
+NDB avoids a dominant shareholder only by fixing equal shares among the founders.
 
 On **standards**, the evidence leans towards complement. The AIIB adopted its own environmental and
-social
-framework and co-financed many of its first projects with the established banks; @wang2017 and
-@humphrey2022 both stress how much of the older banks' operating model the new ones borrowed. The
-contest is sharper outside the multilateral
-banks, in bilateral Chinese lending that sits outside the OECD export-credit rules and the
-cross-debarment agreement, on terms that are often confidential.
+social framework and co-financed many of its first projects with the established banks; @wang2017
+and @humphrey2022 both stress how much of the older banks' operating model the new ones borrowed.
+The contest is sharper outside the multilateral banks, in bilateral Chinese lending that sits
+outside the OECD export-credit rules and the cross-debarment agreement, on terms that are often
+confidential.
 
 On **currency**, local-currency lending by the AIIB and the NDB reduces the currency mismatch that
-has
-ruined many infrastructure borrowers, which any development economist would call a complement. The
-BRICS work on local-currency settlement is something else: an effort to reduce members' dependence
-on the dollar and the payment chokepoints through which sanctions are enforced (Session 10).
+has ruined many infrastructure borrowers, which any development economist would call a complement.
+The BRICS work on local-currency settlement is something else: an effort to reduce members'
+dependence on the dollar and the payment chokepoints through which sanctions are enforced (Chapter
+10).
 
 On **sanctions**, the test came in March 2022. Within a week of Russia's full-scale invasion of
 Ukraine, the AIIB announced that all activities relating to Russia and Belarus were on hold and
-under
-review, and the NDB put new transactions in Russia on hold — Russia being one of its five founders.
-Both banks depend on dollar funding markets. When the choice was between a founding member and
-access
-to the market that funds them, they chose the market. That is the strongest single piece of evidence
-that the new multilateral banks are, for now, inside the system they were thought to contest.
+under review, and the NDB put new transactions in Russia on hold — Russia being one of its five
+founders. Both banks depend on dollar funding markets. When the choice was between a founding member
+and access to the market that funds them, they chose the market. That is the strongest single piece
+of evidence that the new multilateral banks are, for now, inside the system they were thought to
+contest.
 
 The verdict, then, is **both**, and the reason is structural. The new institutions do not need to
 replace the old ones to change the bargaining inside them; they need only to exist as an **outside
@@ -455,7 +437,7 @@ any one of them attaches bind less.
 
 ## What the firm should do with all this
 
-Across the course, geopolitical risk reaches a firm through five channels: market access, inputs,
+Throughout this book, geopolitical risk reaches a firm through five channels: market access, inputs,
 finance, assets and people, and data and operations. The economic institutions of this chapter touch
 all five, but they open four specific **business channels** — procurement, finance, insurance and
 dispute settlement — and each comes with its own geopolitical risk.
@@ -470,9 +452,8 @@ misconduct in one country closes the channel everywhere.
 private-sector windows of the Asian and African banks lend and invest alongside firms, increasingly
 in local currency and increasingly by mobilising institutional investors. A development bank in the
 capital structure lowers the cost of other finance and raises the political cost to a host
-government of interfering. The risk is conditionality and its politics: the institution's own
-standards bind the project, and its decisions respond, as the previous sections showed, to the
-preferences of its largest shareholders.
+government of interfering. The risk is conditionality, and decisions that respond to the largest
+shareholders.
 
 **Insurance and guarantees** protect assets and people. MIGA, the World Bank Group's guarantee
 platform, the Islamic Development Bank's insurer and the trade-finance programmes of the regional
@@ -481,113 +462,95 @@ multilateral insurer will underwrite, and in which countries, reflects its share
 those countries.
 
 **Dispute settlement** — ICSID and the treaty network behind it — protects assets against the host
-state. The new institutions have built nothing comparable. The risk here is exit: states denounce
-the Convention, terminate treaties, or decline to pay awards, and the protection is only as strong
-as the regime's membership.
+state. The new institutions have built nothing comparable. The risk is exit: states denounce the
+Convention or terminate treaties.
 
-Three further risks cut across the channels. **Sanctions exposure** runs through the institutions
-as well as around them: suspension at the EBRD, freezes at the AIIB and the NDB. **Alignment** is
-signalled by membership — BRICS status,
-AIIB or EBRD shareholding, a Belt and Road memorandum, a vote at the Council — and an analyst can
-read it. **Competing standards** mean that a project bankable by one lender may not be bankable by
-another.
+Three further risks cut across the channels. **Sanctions exposure** runs through the institutions as
+well as around them: suspension at the EBRD, freezes at the AIIB and the NDB. **Alignment** is
+signalled by membership — BRICS status, AIIB or EBRD shareholding, a Belt and Road memorandum.
+**Competing standards** mean that a project bankable by one lender may not be bankable by another.
 
 An institution is a risk **mitigator** when the coalition that sustains it is stable, and a risk
 **source** when it is not. A firm's dashboard should track the coalition, not only the rule: who
-holds
-the votes, who sits on the Council, who has been suspended, who has joined which club.
+holds the votes, who sits on the Council, who has been suspended, who has joined which club.
 
 ::: {.warn}
 A guarantee, a co-financing agreement or a treaty is a promise by a coalition of states. Read the
 coalition before the contract.
 :::
 
-## How the concept becomes data
+## How influence becomes evidence
 
-Institutions leave good data: they publish their rules, members and votes. Voting power is the
-simplest series: the IMF publishes each member's quota and votes, the
-World Bank Group publishes country voting tables for each of its institutions, and the AIIB
-publishes
-each member's subscription and voting power [@imf2026ar; @worldbank2026; @aiib2026]. A comparison of
-China's and the United States' shares across the IMF, the IBRD and the AIIB, dated and sourced, is a
-one-sheet summary of the session's argument. Activity is the second series: MIGA's annual issuance
-and exposure, ICSID's caseload by sector and legal basis, the regional banks' commitments, AidData's
-project-level record of Chinese official finance. Membership and its changes — accessions,
-suspensions, denunciations — are the third, and the easiest to turn into events.
+Institutions leave good data: they publish their rules, members and votes. The IMF publishes each
+member's quota and votes, the World Bank Group publishes voting tables for each of its institutions,
+and the AIIB publishes each member's subscription and voting power [@imf2026ar; @worldbank2026;
+@aiib2026]. Set side by side, China's and the United States' shares across the three summarise this
+chapter: a creditor's veto in the old house, a challenger's veto in the new one. Activity — MIGA's
+issuance, ICSID's caseload, AidData's record of Chinese official finance — is a second series;
+membership and its changes, a third.
 
-The fourth kind of data is the one the practice round uses: an institution's own rules, turned into
-a
-natural experiment. The rotation of elected Council members is set by the UN Charter and by regional
-custom. The UN publishes the list of elected members; the United States publishes its aid by country
-and year. Neither file contains the quantity Kuziemko and Werker study. It has to be built by
-joining
-the two on a country code, re-indexing every country-year to the start of a term, and expressing aid
-relative to the country's own pre-term level — which is where the session's Tableau skill comes in.
+The subtler evidence is an institution's own rules turned into a natural experiment. The UN
+publishes the list of elected Council members by year; the United States publishes its aid by
+country and year. Neither source contains the quantity Kuziemko and Werker study. It exists only
+once the two are joined, every country-year is re-indexed to the start of a term, and aid is
+expressed relative to the country's own pre-term level. That last step carries the design: each
+country serves as its own control, and large and small recipients are put on the same footing.
 
-::: {.step}
-The level-of-detail expression in the practice computes each country's pre-term baseline once per
-term, whatever else is in the view. That is the event-study idea in one calculation: every country
-is
-its own control, and the comparison is made **within** each term before it is averaged **across**
-terms.
-:::
+This is also why re-estimates do not reproduce the published numbers exactly.
+Aid statistics are revised and re-expressed in different constant dollars; country codes change;
+some countries serve several terms, so that the years after one term are the years before the next.
+A re-estimate on current data that finds the same shape corroborates the finding; one that finds a
+different magnitude may simply be recording a disagreement between data vintages.
 
 ## A short review of the literature
 
 ::: {.lit}
 The theoretical frame is the exchange between @keohane1984, for whom institutions persist because
 they reduce the costs of cooperation, and @mearsheimer1994, for whom they reflect the distribution
-of
-power and constrain it little. @ikenberry2011 reads the post-war order as an American project that
-bound its creator as well as others, which is why its institutions outlived the moment of American
-dominance. @morse2014 supply the concept that organises the last decade — contested multilateralism,
-through regime shifting and competitive regime creation.
+of power and constrain it little. @ikenberry2011 reads the post-war order as an American project
+that bound its creator as well as others, which is why its institutions outlived the moment of
+American dominance. @morse2014 supply the concept that organises the last decade — contested
+multilateralism, through regime shifting and competitive regime creation.
 
 On the politics inside the Bretton Woods institutions, @woods2006 examines how the IMF and the World
 Bank's relations with their borrowers are shaped by their largest shareholders, and @stone2011
-models
-the informal influence of the dominant shareholder alongside the formal rules. The empirical
+models the informal influence of the dominant shareholder alongside the formal rules. The empirical
 programme on the price of influence starts with @kuziemko2006 on US and UN aid to elected Security
 Council members, and extends to World Bank projects [@dreher2009a], IMF conditionality
-[@dreher2009b]
-and World Bank disbursements [@kilby2009]; @vreeland2014 synthesise it. @humphrey2013 show that
-shareholder composition shapes borrowers' choices among development banks.
+[@dreher2009b] and World Bank disbursements [@kilby2009]; @vreeland2014 synthesise it. @humphrey2013
+show that shareholder composition shapes borrowers' choices among development banks.
 
 On investment protection, @buthe2008 find that international trade agreements raise FDI into
 developing countries by making policy commitments more credible, and @simmons2014 shows that
-developing
-countries signed bilateral investment treaties, and tied their hands most tightly, when their
-bargaining position was weak — after which investors sued governments with surprising regularity. On
-the new institutions, @wang2017 gives an early assessment of the AIIB and
-the NDB as complements to and potential competitors of the established banks; @ikenberry2017 read
-the AIIB as Chinese institutional statecraft; @humphrey2022 places both in a broader account of
-multilateral development banks under geopolitical change. On Chinese official finance, @dreher2021
-build the project-level dataset and estimate its growth effects, @dreher2022 extend the analysis of
-its aims and impacts, and @horn2021 document the scale of lending absent from official debt
-statistics.
+developing countries signed bilateral investment treaties, and tied their hands most tightly, when
+their bargaining position was weak — after which investors sued governments with surprising
+regularity. On the new institutions, @wang2017 gives an early assessment of the AIIB and the NDB as
+complements to and potential competitors of the established banks; @ikenberry2017 read the AIIB as
+Chinese institutional statecraft; @humphrey2022 places both in a broader account of multilateral
+development banks under geopolitical change. On Chinese official finance, @dreher2021 build the
+project-level dataset and estimate its growth effects, @dreher2022 extend the analysis of its aims
+and impacts, @gelpern2023 open its contracts, and @horn2021 document the scale of lending absent
+from official debt statistics.
 :::
 
-## Into the practice round
+## What the evidence does not license
 
-The practice round rebuilds Kuziemko and Werker's evidence in event time: US aid to developing
-countries in the three years before, the two years of, and the two years after a Security Council
-term, each country measured against its own pre-term level. If the paper's pattern survives your
-data — flat before, higher during the term, back down afterwards — you will have seen, in a chart
-you
-built yourself, influence being priced inside an international institution.
+Suppose the pattern holds in current data: aid flat before a term, higher during it, back down
+afterwards. That shows, about as cleanly as observational data can, influence being priced inside
+an international institution. It shows less than it seems to.
 
-Read the chart with the discipline of the earlier sections. It is evidence about **one**
-institution,
-**one** donor, and the decades the data cover. It does not show that the World Bank, MIGA, the AIIB
-or the NDB sell their decisions; the follow-up literature makes a case for some of them, with its
-own
-designs and its own limits. It does not tell a firm how a particular host government on the Council
-will vote, or whether a sanctions resolution will survive the next change of government in a
-permanent member. And because the aid series you will download is a later release than the one the
-authors used, in different constant dollars, your figure will not match theirs exactly; the log you
-keep is where that disagreement is recorded.
+It is evidence about **one** institution, **one** donor, and the decades the data cover. It does not
+show that the World Bank, MIGA, the AIIB or the NDB sell their decisions; the follow-up literature
+makes a case for some of them, with its own designs and its own limits. It does not tell a firm how
+a particular host government on the Council will vote, or whether a sanctions resolution will
+survive the next change of government in a permanent member. Nor does it show that the rules a firm
+relies on are hollow — only that they rest on a coalition.
 
-The question to ask at the end — what does this figure not license a multinational to conclude? — is
-the institutional version of the session's opening question. The chart shows that the coalition
-behind a rule can be bought. A firm that relies on the rule should therefore know who is in the
-coalition, what they are being offered, and how long the offer lasts.
+What the evidence licenses is a change in where the analyst looks. This chapter opened by asking
+whether a firm that relies on an international institution is relying on a rule or on the coalition
+of states that keeps the rule in force. The evidence says it always relies on both, and that the
+coalition is the part that moves: quotas lag, seats rotate, members join new clubs and leave old
+forums, and the largest shareholders exercise informal influence when their interests are engaged. A
+firm cannot know in advance whether it will meet Keohane's institution or Mearsheimer's. It can know
+who is in the coalition behind each guarantee, loan and treaty it holds, what that coalition is
+being offered elsewhere, and how long the offer is likely to last.

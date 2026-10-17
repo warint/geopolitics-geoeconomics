@@ -17,7 +17,7 @@
 
 There is no pre-session reading beyond your own work, no practice round and no Risk Brief.
 
-**Lecture notes:** this session is also [Chapter 12 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-12.html).
+**Read further:** [Chapter 12 of the book *Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/session-12.html).
 
 ---
 
