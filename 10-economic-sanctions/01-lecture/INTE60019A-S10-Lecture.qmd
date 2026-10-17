@@ -74,6 +74,10 @@ format:
 Sanctions are aimed at states but implemented by firms. Today asks whether they work — and what they cost the companies that must carry them out.
 :::
 
+::: {.get}
+A firm does not need to know whether sanctions will achieve their political goal. It needs to know whether they will cut it off from a customer, a supplier, a bank or an asset — and what the target can do to it in return.
+:::
+
 # Quiz 3 · Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
 
 ::: {style="margin-top: 1.0em; color:#F7F4ED"}
@@ -84,7 +88,7 @@ Sanctions are aimed at states but implemented by firms. Today asks whether they 
 
 ## Four dimensions {.scrollable}
 
-Economic sanctions are restrictions on economic relations imposed by one or more **senders** on a **target** — a state, a government, a firm or an individual — to change its behaviour, weaken it, or signal disapproval. Their use has grown markedly since the end of the Cold War.
+Economic sanctions are restrictions on economic relations imposed by one or more **senders** on a **target** — a state, a government, a firm or an individual — to change its behaviour, weaken it, constrain what it can do, or signal disapproval. **The instrument is the restriction; the objective is political.** Their use has grown markedly since the end of the Cold War.
 
 | Dimension | Categories |
 |---|---|
@@ -93,8 +97,15 @@ Economic sanctions are restrictions on economic relations imposed by one or more
 | **Scope** | **comprehensive** (a whole economy) vs **targeted** ("smart": named persons, firms, sectors) |
 | **Objective** | policy change · regime destabilisation · war and territory · terrorism · human rights · democracy |
 
+- **Sender:** the EU, the most important plurilateral sender, adopts measures by **unanimity** in the Council; UN Security Council decisions under **Article 41** of the Charter bind every member
+- **Scope:** the comprehensive/targeted distinction is about **who is meant to bear the cost**
+
+::: {.archive}
+**The League and Italy, 1935.** Italy invaded Ethiopia in October; from November the League imposed an arms embargo, a ban on loans, a ban on Italian imports and an embargo on some raw materials. **Oil, coal and steel were left off; the Suez Canal stayed open.** Addis Ababa fell in May 1936; sanctions were lifted in July. The gap between announced objective and instrument was visible to everyone — including the target.
+:::
+
 ::: {.muted}
-The sender tells a firm how many jurisdictions it must satisfy. One case can be of several types at once, and the objective is what the sender *said* it wanted — not always what it wanted.
+The sender tells a firm how many jurisdictions it must satisfy. One case can be of several types at once, and the objective is what the sender *said* it wanted — not always what it wanted. During the Cold War the veto kept Article 41 almost idle: mandatory sanctions on Southern Rhodesia (1965) and an arms embargo on South Africa (1977), little else.
 :::
 
 ::: {.get}
@@ -110,12 +121,15 @@ Classify the 2022 measures on Russia on all four.
 :::
 
 - Each episode scored on both components; success is a joint judgement about an **outcome** and a **cause**
+- Each component scored **1 to 4**; the two are **multiplied**; a case counts as a success when the product is **9 or more** — goal at least partly achieved *and* sanctions at least a modest contributor
 - **Roughly a third** of cases judged at least partly successful
 - More likely when goals are **modest**, the target **small, weak, friendly**, the imposition **quick and decisive** — less likely against an adversary that can turn to other suppliers and buyers
 
+**Sanctions busting** (Early, 2015): third-country firms step into the forbidden trade and make resistance affordable — one reason multilateral sanctions are not straightforwardly better.
+
 ::: {.muted}
 The "about a third" is not a fact about the world: it is one team's coding of one set of cases. Change the cases, the scales or the judgements and the number moves.
-*Economic Sanctions Reconsidered*, 3rd ed. (2007), PIIE
+*Economic Sanctions Reconsidered*, 3rd ed. (2007), PIIE · Early (2015), *Busted Sanctions*
 :::
 
 ## Pape: most "successes" are not {.scrollable}
@@ -126,16 +140,24 @@ Pape went back through the cases counted as successes and asked whether each sur
 - Outcome **not really conceded**
 - Outcome **not attributable** to sanctions
 
+By his reckoning only **five of the forty** claimed successes in the second edition held up.
+
 ::: {.warn}
 Sanctions rarely achieve **major** political goals. Elliott (1998): *the glass is half full*. The quarrel is about **coding**.
 :::
 
+- **Elliott:** judged against modest goals they did better — and improved when used **in concert** after the Cold War
+- **Baldwin (1985):** effectiveness is always **comparative** and **relative to cost** — if the alternative was war, a cheap sanction that achieved nothing may still have been the better choice
+- **Galtung (1967), Rhodesia:** pain did not bring compliance but a **rally round the government** and domestic winners — smugglers, import substitutes — with an interest in sanctions continuing
+
 ::: {.muted}
 What counts as a concession, how large a contribution must be, what the alternative was: each choice moves the success rate. Every number in this debate is a coding decision.
-Pape (1997), *International Security* 22(2): 90–136
+Pape (1997), *International Security* 22(2): 90–136 · Elliott (1998) · Baldwin (1985) · Galtung (1967)
 :::
 
 ## The selection effect {.scrollable}
+
+**Drezner's puzzle** (1999): states sanction their **adversaries** most often — yet adversaries are least likely to concede, because they expect future conflict and fear any concession will be exploited. Allies concede more readily but are sanctioned less often.
 
 ::::: columns
 
@@ -163,9 +185,12 @@ A dataset of impositions alone selects its cases on a variable correlated with t
 Imposed sanctions **look** ineffective even if the instrument works. Hence **TIES** records threats too.
 :::
 
+- **TIES** (Threat and Imposition of Economic Sanctions; Morgan, Bapat and colleagues): first **1971–2000**, then extended to **1945–2005**
+- A case begins with a **threat or an imposition**, whichever comes first; the dataset records whether sanctions were in fact imposed
+
 ::: {.muted}
 For a firm, the cases that matter most may be those not yet imposed: the threat is the warning.
-Drezner (2003), *International Organization* 57(3)
+Drezner (2003), *International Organization* 57(3) · Drezner (1999) · Morgan, Bapat & Krustev (2009); Morgan, Bapat & Kobayashi (2014)
 :::
 
 # From comprehensive to smart {background-color="#E3120B" style="color:#F7F4ED"}
@@ -175,10 +200,23 @@ Drezner (2003), *International Organization* 57(3)
 - Humanitarian cost of the 1990s Iraq sanctions → **asset freezes, travel bans, sectoral measures** aimed at those responsible rather than a whole population
 - **Financial** sanctions: dollar clearing and messaging networks are **chokepoints** under the jurisdiction of a few senders (Farrell & Newman, Session 08)
 
+::: {.archive}
+**Iraq, 1990–2003.** Four days after the invasion of Kuwait (August 1990), **Resolution 661** banned all trade except medical supplies and, in humanitarian circumstances, food. The sanctions outlasted the 1991 war by more than a decade. **Oil-for-Food** (Resolution 986, 1995) relieved the humanitarian shortages — and was corrupted through surcharges and kickbacks. The regime survived intact.
+:::
+
+- **Lists are litigated:** in *Kadi* (2008) the European Court of Justice annulled the EU's implementation of a UN listing; a UN Ombudsperson followed
+- **Results:** UN targeted sanctions do better at **constraining** and **signalling** than at **coercing** (Biersteker et al., 2016); sanctions are associated with worse physical-integrity rights in the target, more so when comprehensive (Peksen, 2009)
+
 A financial sanction names a few banks, but every firm that pays or is paid through them is affected — and third-country banks, which need the dollar system more than any one client, cut off a sanctioned client early.
+
+**Russia 2022:** central-bank reserves frozen; major banks cut from **SWIFT**; from December 2022 a **price cap** on seaborne crude, initially **US$60 a barrel**, enforced through Western insurers and shippers. The answer — an opaque older tanker fleet — showed a chokepoint sanction lasts only as long as the chokepoint.
 
 ::: {.warn}
 Sanctions on banks, insurers and shippers propagate to every firm that depends on them.
+:::
+
+::: {.muted}
+Biersteker, Eckert & Tourinho (2016) · Peksen (2009) · Farrell & Newman (2019)
 :::
 
 # The firm in the middle {background-color="#E3120B" style="color:#F7F4ED"}
@@ -193,8 +231,18 @@ Sanctions are aimed at governments but executed by firms: banks, exporters, ship
 | **Secondary sanctions** | penalties on **third-country** firms dealing with the target: a sender's foreign policy made binding on non-nationals |
 | **Overcompliance** | banks and firms exit what the law does not close, because penalties are severe and rules complex |
 
+- **Legal bases:** US programmes rest mostly on *IEEPA* (1977), run by OFAC, whose **SDN list** is the most consulted in global commerce. The lists overlap but do not coincide.
+- **Ownership:** under the US **50 percent rule**, an entity owned 50% or more in aggregate by listed persons is blocked whether listed or not; the EU extends restrictions to entities *owned or controlled*
+- **Diversion:** after 2022 the US, EU, UK and Japan published common **high-priority item** lists (mostly electronics found in Russian weapons); the EU's **12th package** (December 2023) required a **no-re-export-to-Russia clause** in contracts with third-country buyers
+- **Secondary reach:** the EU **Blocking Statute** (1996, updated 2018) did not stop European firms leaving Iran; **BNP Paribas** (guilty plea, 2014) showed dollar transactions with sanctioned parties anywhere fall within US reach
+- **Friendly fire** (Crozet & Hinz, 2020): after 2014, the sending countries' trade losses on Russia fell largely on products **not embargoed at all** — mainly through financial measures and uncertainty
+
 ::: {.get}
 The *effective* scope of sanctions is set by compliance departments as much as by governments.
+:::
+
+::: {.muted}
+Crozet & Hinz (2020), *Economic Policy* · the compliance question is no longer only "is my customer listed?" but "where do my goods end up?"
 :::
 
 ## Russia 2022: the exit decision {.scrollable}
@@ -208,6 +256,11 @@ After the full-scale invasion of Ukraine, sanctions and public pressure led many
 | **Sell** | forced discount, approval delays | buyer sanctioned; buy-back clauses |
 | **Walk away** | full write-off | — |
 
+- **The rules of exit:** sale of a foreign-owned business subject to a **government commission**; a **steep discount** on valuation; a **payment to the state budget**; buyers often local managers or firms close to the state
+- **2023 decree:** temporary state management of foreign-owned assets — the Russian subsidiaries of **Danone** and **Carlsberg** placed under it within weeks
+- **McDonald's** sold its restaurants to a local licensee, who reopened them under a new name
+- **Renault** sold its controlling stake in **AvtoVAZ** to a state entity for a **symbolic rouble**, with an option to buy it back **within six years**
+
 > Choose for a consumer-goods firm. Then for an energy firm. **Why do the answers differ?**
 
 ::: {.muted}
@@ -218,6 +271,8 @@ Country exposure tells a firm that a decision must be taken, not which one: bran
 
 > Compliance says the law does not require you to exit. Your bank says it will no longer process your payments there.
 > **Who just set your sanctions policy?**
+
+The cost of a mistake is asymmetric: a bank that refuses a lawful payment **loses a fee**; a bank that processes an unlawful one **may lose its licence**. The rational response is to go further than the law.
 
 ::: {.muted}
 This is overcompliance seen from the firm: a lawful business can still be unable to get paid, insured or shipped, so its bank's risk appetite becomes its own policy.
@@ -232,6 +287,8 @@ This is overcompliance seen from the firm: a lawful business can still be unable
 3. **Propagation** — banks, insurers, logistics providers whose own exposure could cut you off
 4. **Counter-measures** — what the target can do to foreign firms on its soil: what an exit will cost
 
+Sanctions run through all five channels — down to **data and operations**, where software licences, cloud services and technical support can be restricted services in themselves.
+
 ::: {.muted}
 Each line maps one part of today's argument onto the firm. A dashboard that shows only current sanctions on current markets misses three of the four.
 :::
@@ -241,6 +298,9 @@ Each line maps one part of today's argument onto the firm. A dashboard that show
 ## Episodes into years {.scrollable}
 
 The GSDB records each case as an episode with a start and an end. To count how many were in force each year, every episode must be spread across the years it covers.
+
+- **Release 5** codes **1,794 cases** whose first years run from **1949 to 2025**; each objective of each case gets an outcome (total success, partial success, negotiated settlement, failure, ongoing)
+- Distributed **on request, for non-commercial use only** — the most complete public record cannot be built into a commercial product
 
 1. `years.csv` on the canvas, GSDB beside it — a **year scaffold**
 2. Join clause: `Year >= begin_year` **and** `Year <= IFNULL(end_year, 2025)` — a **join calculation** on a range
@@ -252,6 +312,7 @@ Then a **Gantt bar**: `begin_year` on Columns, `case_id` on Rows, duration on Si
 
 ::: {.muted}
 Active cases measure how often the instrument is used, not how hard it bites: a single listing and a comprehensive embargo each count as one case.
+Source: Felbermayr et al. (2020); Syropoulos et al. (2024); GSDB Release 5.
 :::
 
 ## Over to the practice round

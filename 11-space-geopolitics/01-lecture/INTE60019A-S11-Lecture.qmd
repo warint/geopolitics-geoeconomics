@@ -76,6 +76,10 @@ format:
 Space is treated here as infrastructure the firm relies on without owning: who runs it, how it can fail, and what a firm can do about it.
 :::
 
+::: {.get}
+The argument of the day: the firm holds more space risk than it thinks; most of it arrives through **reversible, unspectacular** threats; and dependence on a satellite service is, by the construction of space law, dependence on a **state**.
+:::
+
 # Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Four briefs · five-minute slots (four minutes + one question)
@@ -107,6 +111,10 @@ Three services carry most of a firm's dependence on space. Read the last column 
 | **Connectivity** | ships, aircraft, mines, remote sites, back-up links | geostationary operators · **constellations** of thousands of satellites in low orbit since 2019 |
 | **Earth observation** | crop forecasts, claims, site and supply-chain monitoring, due diligence | agencies · commercial imaging firms |
 
+- **Who depends:** a container line tracks its ships and talks to crews beyond land range; a miner runs remote sites over satellite links; an insurer settles flood claims from imagery; a commodity buyer checks suppliers' stockpiles from orbit
+- **Time above all:** GNSS signals carry time from **atomic clocks in orbit** to any receiver, cheaply and everywhere — the reason grids, data centres and exchanges depend on them
+- **Two altitudes:** geostationary operators sit **36,000 km** up; the new constellations a **few hundred km** up
+
 ::: {.get}
 Sessions 08 and 10: networks become instruments of power. Today's network is **above** the firm.
 :::
@@ -129,6 +137,15 @@ The Treaty is the constitution of the domain — written for two superpowers, no
 | **VII** | launching state liable for damage | debris has a legal owner |
 | **IX** | "due regard"; consult before harmful interference | traffic rules without an enforcer |
 
+- **Before the Treaty, a fact:** Sputnik (October 1957) overflew every country and no state protested — **overflight** became the domain's foundation. The Treaty opened for signature in **January 1967**, in force by **October 1967**.
+- **Liability Convention (1972):** the launching state is **absolutely** liable for damage on Earth or to aircraft in flight, liable for **fault** in space. **Registration Convention (1975):** every object registered with the UN — a state answers for it long after it stops working.
+- **Debris rules get teeth through licences:** in 2022 the US **FCC** required low-orbit satellites it licenses, or that serve the US market, to be disposed of within **five years** of mission end — replacing a 25-year guideline.
+- **Article II and resources:** US *Commercial Space Launch Competitiveness Act* (2015) recognises citizens' rights in extracted resources; Luxembourg followed (2017); the **Artemis Accords** (2020, the US and seven partners) vs a China–Russia lunar station (2021). Where treaty-making stalls, **coalitions** write the rules.
+
+::: {.archive}
+**Cosmos 954, 1978.** On 24 January a Soviet nuclear-powered satellite re-entered over the Northwest Territories, scattering radioactive debris. Canada claimed under the Liability Convention; the claim was settled in **1981** for **C$3 million — about half** the amount claimed. It remains the **only claim ever** brought under the Convention. A firm hit by another state's debris has no standing: it must persuade its own state to claim.
+:::
+
 ::: {.muted}
 Plus the **ITU**: frequencies and orbital positions coordinated in order of filing — an incentive to file early and large, sometimes for "paper satellites" that never fly. And **national licensing** (launch, spectrum, remote sensing, exports) turns Article VI into a permit the firm must hold.
 :::
@@ -143,12 +160,26 @@ Density passes a threshold → collisions → fragments → **more collisions**:
 - The belt can grow **even if no one launches again**
 - Low orbit cleans itself slowly as the atmosphere drags debris down — years at a few hundred km, **decades to centuries** above
 
+- Debris **above about 800 km** can remain for decades or centuries; already two decades ago NASA simulations suggested low-orbit debris would keep growing through collisions **even if all launches stopped** (Liou & Johnson, 2006)
+
+| The commons literature | What it says about orbit |
+|---|---|
+| **Hardin (1968)** | each user captures the whole gain, bears a share of the cost → overuse |
+| **Ostrom (1990)** | communities escape the tragedy with boundaries, monitoring, graduated sanctions |
+| **Weeden & Chow (2012)** | applied to orbit: most of Ostrom's design principles **missing** |
+| **Adilov et al. (2015)** | operators ignore the collision risk they impose → too many launches, too much debris |
+| **Rao et al. (2020)** | a harmonised **orbital-use fee** would greatly raise the industry's long-run value — no such fee exists |
+
+::: {.archive}
+**Starfish Prime, 1962.** On 9 July the US detonated a ~**1.4-megaton** warhead some **400 km** above Johnston Island. It created an artificial radiation belt that lasted years. **Telstar 1**, the first commercial communications satellite, launched the day after, failed within months; Britain's **Ariel 1** was damaged. One state's test degraded an orbit shared by all — the Partial Test Ban Treaty (1963) followed.
+:::
+
 ::: {.warn}
 An orbit's quality is set by the **least careful** actor in it. One test raises every operator's risk — and premium.
 :::
 
 ::: {.muted}
-Kessler & Cour-Palais (1978), *Journal of Geophysical Research* 83(A6): 2637–2646
+Kessler & Cour-Palais (1978), *Journal of Geophysical Research* 83(A6): 2637–2646 · Liou & Johnson (2006), *Science* · mitigation guidelines (UN, space agencies) are voluntary and unevenly followed
 :::
 
 # Astropolitics {background-color="#E3120B" style="color:#F7F4ED"}
@@ -163,8 +194,12 @@ Three authors, three answers to the question "what is space?". Each implies a di
 | **Pekkanen (2019)** *AJIL Unbound* | a **market** | democratisation · commercialisation · militarisation; **~95% of space technology is dual-use**; treaty-making in decline, so national law and contracts govern |
 | **Bowen (2020)** *War in Space* | **infrastructure** for power on Earth | orbit as a "cosmic coastline" — a target when power on Earth is contested |
 
+- **Dolman:** realist prescription — the United States should **seize and hold** control of low orbit while it can
+- **Pekkanen's three trends:** *democratisation* (many more states and non-state actors), *commercialisation* (firms with their own capital and customers), *militarisation* (space as a warfighting domain)
+- **Bowen:** satellites matter because they make terrestrial forces **see, communicate and navigate** — which is why they are targets when power on Earth is contested
+
 ::: {.get}
-One constellation can be a broadband business, a military network and a foreign-policy instrument — at once.
+One constellation can be a broadband business, a military network and a foreign-policy instrument — at once. Under all three readings, **a commercial satellite service is never only commercial**.
 :::
 
 ::: {.muted}
@@ -185,6 +220,10 @@ What states can do to deceive, disrupt, deny, degrade or destroy space systems. 
 | **Directed energy** — lasers, microwaves | partly | imaging satellites |
 | **Cyber** — satellites, ground stations, terminals | mostly | **customers** |
 
+- **Electronic warfare** jams or spoofs the uplink, the downlink to users or navigation signals on the ground — its effects **end when the jamming stops**
+- **Cyber** can disable a service **without touching a satellite**
+- **Direct-ascent** effects are irreversible and, at most altitudes, create debris that threatens **every operator in the shell**
+
 ::: {.muted}
 Note the pattern: the reversible threats land on the ground, on users and customers rather than on the satellite itself.
 Samson & Brett (Eds., 2026), *Global Counterspace Capabilities* · 13 countries assessed
@@ -198,7 +237,7 @@ Samson & Brett (Eds., 2026), *Global Counterspace Capabilities* · 13 countries 
 
 ### Destructive tests from the ground
 
-- United States 1985, 2008
+- United States 1985 — and 2008, intercepting a failing satellite at low altitude
 - **China 2007**
 - India 2019
 - **Russia 2021**
@@ -210,8 +249,8 @@ Samson & Brett (Eds., 2026), *Global Counterspace Capabilities* · 13 countries 
 
 ### What is used in war
 
-- **KA-SAT**, 24 Feb 2022: a cyberattack on the ground segment disabled modems in Ukraine and across Europe — wind turbines in Germany lost monitoring
-- **GNSS jamming**: Finnair suspends Tartu flights, 2024, as satellite-based approaches become unusable
+- **KA-SAT**, 24 Feb 2022 — the first day of the full-scale invasion: a cyberattack on Viasat's ground segment disabled **thousands of user modems** in Ukraine and across Europe — remote monitoring of **wind farms in central Europe** was lost. Attributed to Russia by the EU, the UK and the US. **The satellite was untouched**; the service failed for customers far from the war.
+- **GNSS jamming and spoofing** around conflict zones has become routine: Finnair suspended its Tartu (Estonia) flights **for several weeks** in 2024, as satellite-based approaches became unusable
 
 ::::
 
@@ -221,8 +260,11 @@ Samson & Brett (Eds., 2026), *Global Counterspace Capabilities* · 13 countries 
 SWF: only **non-destructive** capabilities are used against satellites in current operations. They fall on the **customers**.
 :::
 
+Four states have destroyed one of their own satellites from the ground. Many have researched and tested destructive means; none uses them against satellites in current operations.
+
 ::: {.muted}
-Destructive tests make headlines and debris; jamming, spoofing and cyberattacks make the **losses**. A firm's risk register should weight the right-hand column more heavily.
+Destructive tests make headlines and debris; jamming, spoofing and cyberattacks make the **losses**. A firm's risk register should weight the right-hand column more heavily: its counterspace exposure is measured **on the ground**, where its ships, aircraft and sites depend on signals from orbit.
+Samson & Brett (Eds., 2026), Secure World Foundation
 :::
 
 # The debris record {background-color="#E3120B" style="color:#F7F4ED"}
@@ -233,7 +275,9 @@ Read the method before the figures: what is counted, and from which catalogues, 
 
 - **Method:** catalogued (US public catalogue, Russian Vimpel, UK RAE tables) + **asserted** objects known to exist by design, in DISCOS; objects too small to track are out of scope
 - **End of 2025:** **44,964** objects in Earth orbit · **16,946** payloads · 25,060 in LEO — more debris than operational satellites since the start of the space age
-- **Dominant source:** fragmentations **other than collisions** — mostly old rocket stages and batteries; 9.8 non-deliberate a year on average
+- **Dominant source:** fragmentations **other than collisions** — mostly old rocket stages and batteries; 9.8 non-deliberate a year on average over the last two decades
+- **2024 alone** added more than **3,000 catalogued fragments**, mostly from propulsion-related break-ups — the debris problem is not mainly the weapons tests
+- *Asserted* means known by design — a satellite released from a dispenser, a component separated as planned — even if not yet catalogued; ESA has published the report every year **since 2017**
 
 ::: {.get}
 **The target — Figure 2.1:** objects in geocentric orbit by object class, since 1957.
@@ -253,6 +297,10 @@ Three events stand out on Figure 2.1. Altitude matters: the higher the event, th
 | **10 Feb 2009** | **Iridium 33** and **Cosmos 2251** collide — first accidental collision of two intact satellites: Kessler, observed | ~780 km |
 | **15 Nov 2021** | Russia destroys **Cosmos 1408** — almost all re-entered within three years | ~470–490 km |
 
+- **Fengyun-1C:** most of its fragments are **still in orbit**
+- **Cosmos 1408:** ESA attributes the **2022 spike in re-entering debris** to the test
+- **The lesson in altitude:** both were deliberate destructions of a satellite by its own state; one polluted a high orbit for **decades**, the other a low orbit for **a few years**. A count of objects treats them alike.
+
 > **Put it to the room:** where will Fengyun's debris show on a chart built from the public catalogue?
 
 ::: {.fragment}
@@ -266,7 +314,9 @@ A 10-cm fragment and a 5-tonne stage each count **once**. What is too small to c
 :::
 
 - Better sensors raise the count with **nothing new in orbit**
-- Objects, not **risk** — and not who bears it
+- What is too small to catalogue is **the majority of the fragments able to disable a satellite**
+- Objects, not **risk** — and not who bears it: risk depends on object size, the **shells** a provider uses and its satellites' **manoeuvring** capability
+- **No spike ≠ no threat:** jamming, spoofing and cyberattacks on ground segments — the effects firms have actually suffered — leave **no trace** in a catalogue of objects
 - A third limit lies in how the public catalogue **dates** debris: you will meet it in the practice round
 
 ::: {.muted}
@@ -277,8 +327,9 @@ Before an object count goes on a dashboard, ask what it stands for. Here it meas
 
 ## The new space race is a one-firm race {.scrollable}
 
-- **Starlink**, first launched May 2019 → the **majority** of the world's operating satellites — with a firm, not a superpower, at the top
-- **Ukraine, 2022:** a backbone of military and civil communications — and the operator's decisions on coverage became **war policy**; governments moved to contract for the service directly
+- **Starlink**, first launched May 2019 → in **six years** the **majority** of the world's operating satellites — with a firm, not a superpower, at the top
+- **Ukraine, 2022:** within days, a backbone of military and civil communications — and the operator's decisions on coverage became **war policy** (by its owner's account, including a refusal to enable service for an attack near Crimea in 2022); governments moved to contract for the service directly
+- In the first years of the space age concentration was extreme because **only two states** could launch; it fell as Europe, Japan, China, India and commercial operators arrived. The new race adds a **firm** to the top.
 
 ::::: columns
 
@@ -301,7 +352,7 @@ The operator can **switch off** a user, a region, a country
 :::::
 
 ::: {.get}
-Farrell & Newman (S08): concentration + a state that can direct the firm. **Article VI** supplies the state.
+Farrell & Newman (S08): weaponisation needs two conditions — a **concentrated** network and a **state that can direct the firm** running the hub. **Article VI** supplies the state.
 :::
 
 ::: {.muted}
@@ -314,10 +365,14 @@ Session 03's logic: states that depend on one American firm respond by building 
 
 - **IRIS²** — EU secure connectivity, Regulation (EU) 2023/588
 - **Qianfan**, **Guowang** — China's constellations
-- **Export controls:** ITAR Category XV · EAR "9x515" since 2014 — a US component means US permission to sell to some customers
+- **Export controls:** ITAR Category XV (US Munitions List) · EAR "9x515" for **most commercial satellites since 2014** — a non-US manufacturer whose satellite contains a controlled US component needs **US permission** to sell to some customers. The balance of power reaches into the **bill of materials**.
+
+::: {.archive}
+**GPS, the older case.** Built by the US military. After the Soviet Union shot down **Korean Air Lines Flight 007** (September 1983), the US announced GPS would be opened to civilians. The civil signal was deliberately degraded — **Selective Availability** — until it was switched off in **May 2000**. A gift one state chose to give, and could in principle withdraw or degrade. **Galileo** and **BeiDou** were in large part refusals of that dependence.
+:::
 
 ::: {.warn}
-A second operator licensed by the **same state** is not diversification.
+A second operator licensed by the **same state** is not diversification. Four GNSS systems are genuine diversification — only if receivers use more than one, and only against a system's failure or withdrawal, not against a jammer in the next port.
 :::
 
 ::: {.muted}
@@ -333,10 +388,10 @@ The course's five channels, applied to space: each row is a route by which an ev
 | Channel | How space risk arrives |
 |---|---|
 | **Market access** | export controls, spectrum and landing rights — a terminal that cannot be sold or switched on |
-| **Inputs** | a service from one operator, or one state's GNSS |
-| **Finance and payments** | GNSS-timed trading and payments; insurance capacity and premiums |
-| **Assets and people** | ships and aircraft in jammed or spoofed areas: rerouted flights, misreported positions |
-| **Data and operations** | attacks on ground segments and terminals (the KA-SAT modems); lost imagery |
+| **Inputs** | a service from one operator, or one state's GNSS — a single point of failure **with a sovereign behind it** |
+| **Finance and payments** | trading venues and payment systems **time-stamp transactions** from GNSS; insurance for space assets is a thin market whose capacity shrinks after large losses |
+| **Assets and people** | ships and aircraft in jammed or spoofed areas: rerouted flights, misreported positions — a **safety** and a **sanctions-compliance** problem at once |
+| **Data and operations** | attacks on ground segments and terminals (the KA-SAT modems); a lost imagery feed leaves a crop forecast or supply-chain monitor **blind** |
 
 ::: {.muted}
 Most of these routes run through a supplier, not through the firm's own assets: the exposure sits in contracts for connectivity, timing, imagery and insurance, which is where the dashboard and the strategies that follow must look.
@@ -351,6 +406,10 @@ Each line pairs an indicator with a threshold that triggers a named decision —
 3. **Environment** — destructive tests and fragmentations in the providers' orbital shells; ESA's yearly indicators
 4. **Rules** — export-control lists, licences, ITU filings affecting suppliers or markets
 
+::: {.archive}
+**A case to test the lines.** A shipping subsidiary's only broadband at sea is one low-orbit constellation. An ally asks the operator's government to switch the service off over a strait the firm's ships use. The options turn on **dependence on a service** vs **dependence on a state**: a second operator under the same licensing state diversifies the first, not the second; one under another state diversifies both — at the price of a second set of export controls and a second government's discretion.
+:::
+
 ::: {.get}
 **Which line would your team's firm put on its dashboard — with which threshold?**
 :::
@@ -363,9 +422,13 @@ No strategy removes space risk; each moves it at a cost. Read the last column as
 |---|---|---|
 | **Multi-orbit, multi-operator** — geostationary + low orbit, two providers | price, integration | same licensing state? |
 | **Multi-constellation receivers** — GPS + Galileo (+ others) | small | one jammer blinds them all locally |
-| **Terrestrial back-up** — clocks, fibre, cellular | capital | not at sea, not in remote sites |
+| **Terrestrial back-up** — holdover clocks, time over fibre and cellular | capital | not at sea, not in remote sites |
 | **Insurance** — in-orbit and third-party liability | premium | thin market; capacity leaves after losses |
 | **Compliance by design** — classify every space component | staff, delays | rules move with the balance of power |
+
+::: {.muted}
+The exposure begins not with the sky but with a list the firm rarely keeps: the satellite services it buys, the operators and states behind each, and the regions where its ships, aircraft and sites depend on signals someone else can switch off. A firm may buy from a small operator and still depend on one state's GNSS for time — or buy from the dominant operator through a reseller and not know it.
+:::
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
@@ -384,8 +447,13 @@ Owner share =  {FIXED [Launch year], [OWNER] : COUNT([NORAD_CAT_ID])}
 2. **HHI** of who launches, year by year
 3. **Action:** click a year → see who launched that year (*Dashboard → Actions → Filter*, `Year` mapped to `Launch year`)
 
+- **The source:** the public catalogue, maintained from **US Space Force** data and redistributed by **CelesTrak** — one row per object over its whole life; there is **no "year"** in the file, and operational status describes **today only**
+- **The HHI:** sum of squared shares (in percent), from near 0 to **10,000**; a participant with 75% contributes **5,625** on its own. US merger guidelines call a market highly concentrated above **2,500** (2010) or **1,800** (2023 revision)
+- **Its origin is geopolitics:** Hirschman (1945) built it to show how Nazi Germany used the structure of trade to make smaller partners dependent; Herfindahl reinvented it for industry
+
 ::: {.muted}
 The HHI is built so that it adds up correctly over rows; a value near its maximum means one owner launches almost everything.
+Hirschman (1945), *National Power and the Structure of Foreign Trade* · US DOJ & FTC, *Horizontal Merger Guidelines* (2010; 2023)
 :::
 
 ::: {.check}

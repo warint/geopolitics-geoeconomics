@@ -89,33 +89,50 @@ One question runs through the hour: is the world now trading along geopolitical 
 
 ## The liberal answer {.scrollable}
 
-> *"Peace is the natural effect of trade."* — Montesquieu
+> *"Peace is the natural effect of trade."* — Montesquieu, 1748
 
-The **commercial peace** is one of the oldest ideas in international political economy: states that gain from exchange lose those gains if they fight. Modern versions add four mechanisms.
+The **commercial peace** is one of the oldest ideas in international political economy: states that gain from exchange lose those gains if they fight. Richard Cobden sold the repeal of the Corn Laws (1846) and the Anglo-French commercial treaty of 1860 partly as instruments of peace. Modern versions add four mechanisms.
+
+::: {.check}
+**Commercial peace** — the proposition that economic interdependence between two states lowers the probability that they come into militarised conflict. It is a claim about *dyads* — pairs of states — and it is probabilistic: it predicts fewer disputes, not none.
+:::
 
 | Mechanism | |
 |---|---|
-| **Opportunity cost** | the more a dyad trades, the more war costs — conflict disrupts the trade both sides gain from |
-| **Signalling** | interdependent states can threaten economic ties short of force — a costly signal that reduces miscalculation |
-| **Domestic coalitions** | exporters and importers have a stake in peaceful relations and lobby their governments |
-| **Institutions** | trade agreements create forums and dispute-settlement procedures |
+| **Opportunity cost** | the more a dyad trades, the more war costs — conflict disrupts the trade both sides gain from. Formalised by Polachek (1980): conflict is an activity whose price rises with the gains from trade it puts at risk |
+| **Signalling** | interdependent states can threaten economic ties short of force — a costly signal that reduces miscalculation. Trade matters because it makes communication possible |
+| **Domestic coalitions** | exporters, importers, port operators and banks have a stake in peaceful relations and lobby their governments — the multinational is frequently the constituency |
+| **Institutions** | trade agreements create forums and dispute-settlement procedures — and repeated interaction among officials who come to know each other |
+
+The statistical support: Oneal & Russett (1997), using dyads from **1950 to 1985**, concluded that *the classical liberals were right*; Russett & Oneal (2001) made interdependence one leg of a "Kantian" peace, beside democracy and international organisations. The correlation is real; what it means is a different question.
 
 ::: {.muted}
-The statistical support: studies of dyads (pairs of countries) from the 1990s found that pairs trading more relative to GDP have fewer militarised disputes. Angell, *The Great Illusion* (1910) · Russett & Oneal, *Triangulating Peace* (2001)
+**From the archive · Angell, 1910.** *The Great Illusion* claimed not that war was impossible but that **conquest no longer pays** in an economy of credit and contracts. Four years later Britain and Germany were at war. Angell was right that war would be ruinous; what failed was the inference from *war does not pay* to *states will not make war*.
+:::
+
+::: {.muted}
+Angell, *The Great Illusion* (1910) · Polachek (1980) · Oneal & Russett (1997) · Russett & Oneal, *Triangulating Peace* (2001)
 :::
 
 # The realist critique {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Interdependence can cause conflict {.scrollable}
 
-Realists turn the liberal argument round: what the liberal calls a gain from trade, the realist reads as a **dependence** — and dependence on a rival is a weakness to be limited.
+Realists turn the liberal argument round: what the liberal calls a gain from trade, the realist reads as a **dependence** — and dependence on a rival is a weakness to be limited. The relationship that liberals see as a bond, realists see as a hostage.
 
 | Argument | |
 |---|---|
 | **Vulnerability** | dependence on a rival for essential goods is a security risk — states limit it, or fight to secure supplies (Waltz 1979) |
+| **Influence effect** | Germany in the 1930s bought south-eastern Europe's farm exports through bilateral clearing: each small country came to depend on one partner, while each was a trivial share of Germany's trade. Leverage comes from **asymmetry and concentration**, not volume (Hirschman 1945) |
 | **Relative gains** | trade that strengthens the rival faster is a threat (Session 03) |
-| **Security externalities** | trade raises the partner's economic capacity, so states trade with allies, not adversaries (Gowa 1994) |
+| **Security externalities** | trade raises the partner's economic capacity, so states trade with allies, not adversaries (Gowa 1994). Gowa & Mansfield (1993) found alliances do raise trade among members — more so in bipolar than in multipolar systems |
 | **Expectations** | what matters is whether trade is expected to **continue**: leaders who expect to be cut off may act before the window closes (Copeland 2015) |
+
+Hirschman's concentration index, later rediscovered by Herfindahl, is the ancestor of every dependency dashboard. Gowa's prediction is, word for word, the hypothesis the fragmentation literature now tests.
+
+::: {.muted}
+**From the archive · Washington and Tokyo, 1941.** Japan depended on the United States for much of its oil. In summer 1941 Washington froze Japanese assets, in practice cutting off American oil; Britain and the Netherlands followed. In December Japan attacked Pearl Harbor and moved on the oil of the Dutch East Indies. The danger peaks not when trade is high, but when one side believes it is about to end.
+:::
 
 ::: {.warn}
 Britain and Germany were heavily interdependent in 1914. High trade did not prevent the war — the realists' favourite counter-example.
@@ -125,15 +142,17 @@ Britain and Germany were heavily interdependent in 1914. High trade did not prev
 
 ## Mansfield (2021) — four points {.scrollable}
 
+By the end of the 1990s the two camps pointed in opposite directions. Oneal & Russett found interdependence pacifying; Barbieri (1996), using dyads from **1870 to 1938**, found extensive interdependence associated with *more* militarised disputes. Much of the disagreement was about measurement.
+
 Mansfield's handbook review sets out the debate and the main empirical findings. Neither side wins outright; the four points below are what to retain.
 
-1. **Both directions.** Conflict reduces trade — so a negative correlation between trade and conflict does not by itself show that trade causes peace
-2. **Institutions.** Preferential trade arrangements are associated with fewer disputes among their members (Mansfield & Pevehouse 2000)
-3. **Context.** The effect differs with regime type, level of development and the distribution of power between the partners
+1. **Both directions.** Conflict reduces trade — so a negative correlation between trade and conflict does not by itself show that trade causes peace. The same correlation appears if peace causes trade, or if both are driven by a shared alliance, regime type or distance
+2. **Institutions.** Preferential trade arrangements are associated with fewer disputes among their members, and the effect strengthens as trade between them grows (Mansfield & Pevehouse 2000) — the most robust strand of the liberal argument
+3. **Context.** The effect differs with regime type, level of development and the distribution of power between the partners. A finding pooled across all dyads in all decades is an average that may describe none of them well
 4. **The question has changed:** from *does trade pacify?* to *how is trade used as a weapon?* — the questions of Sessions 08, 10 and 11
 
 ::: {.muted}
-Mansfield, E. D. (2021). International trade and conflict. *Oxford Handbook of IPE*, 660–671.
+Mansfield, E. D. (2021). International trade and conflict. *Oxford Handbook of IPE*, 660–671 · Barbieri (1996; 2002)
 :::
 
 # Bilateral vs multilateral openness {background-color="#E3120B" style="color:#F7F4ED"}
@@ -141,6 +160,10 @@ Mansfield, E. D. (2021). International trade and conflict. *Oxford Handbook of I
 ## Make trade not war? {.scrollable}
 
 Martin, Mayer & Thoenig separate two kinds of trade that the commercial-peace debate had lumped together. Before the answer appears, decide for each row whether it raises or lowers the risk that A and B fight.
+
+::: {.check}
+**Bilateral openness** is how much two states trade with each other. **Multilateral openness** is how much each trades with the rest of the world.
+:::
 
 | | Effect on bilateral conflict risk |
 |---|---|
@@ -153,54 +176,80 @@ Martin, Mayer & Thoenig separate two kinds of trade that the commercial-peace de
 | **Bilateral** | **lowers** it — A and B have more to lose from fighting each other |
 | **Multilateral** | **raises** it — if A can trade with everyone else, losing B costs less |
 
-Their empirical work finds support for both effects.
+Their empirical work finds support for both effects. If A also trades with fifty other countries, losing B is costly but survivable.
 :::
 
 ::: {.muted}
 Martin, Mayer & Thoenig (2008), *Review of Economic Studies*, 75(3), 865–900
 :::
 
-## The uncomfortable implication
+## The uncomfortable implication {.scrollable}
 
 ::: {.get}
 **Globalisation lowers the cost of bilateral conflict.** A world of many alternative suppliers makes it cheaper for a state to break with any one of them.
 :::
 
-The liberal view assumed that more trade everywhere means more peace everywhere. Martin, Mayer & Thoenig show the opposite can hold for a given pair: openness to the rest of the world provides **substitutes**, and substitutes make a break with one partner affordable.
+The liberal view assumed that more trade everywhere means more peace everywhere. Martin, Mayer & Thoenig show the opposite can hold for a given pair: openness to the rest of the world provides **substitutes**, and substitutes make a break with one partner affordable. The very process that multiplied trading relationships after 1990 made each one less essential.
+
+The corollary for the firm: the model describes switching costs *for states*. The firm whose tooling and certifications name a plant in the rival does not get the aggregate substitution elasticity — it gets its own contracts. **Geopolitical decisions are taken at the level where switching is cheapest and paid for at the level where it is dearest.**
 
 # Fragmentation {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Three words, three policies
+## Three words, three policies {.scrollable}
 
 | | |
 |---|---|
-| **Friend-shoring** | move supply chains towards trusted partners — popularised in US policy debate in 2022 |
-| **De-risking** | cut dependence on rivals in critical goods — not trade overall; the European Commission's term (2023) |
-| **De-coupling** | separate economic blocs — the end point |
+| **Friend-shoring** | move supply chains towards trusted partners — popularised in US policy debate in 2022, most prominently by the US Treasury Secretary |
+| **De-risking** | cut dependence on rivals in critical goods — not trade overall; the European Commission's term (2023), adopted to describe its approach to China |
+| **De-coupling** | separate economic blocs — the end point both of the others say they are trying to avoid |
 
 The three are often used interchangeably; they should not be. They differ in **scope**: which partners, which goods, how far. A firm reading a government speech should ask which of the three is actually being proposed.
 
+::: {.check}
+**Geoeconomic fragmentation** — a policy-driven reversal of global economic integration, in which states redirect trade, investment, technology and payments according to geopolitical alignment rather than cost (Aiyar et al. 2023, IMF Staff Discussion Note).
+:::
+
+The cause is hard to test: a fall in trade may come from a tariff, a sanction, comparative advantage or exchange rates. The data show only **whether** trade changes along geopolitical lines, not **why**.
+
 ## Gopinath et al. (2025) — the design {.scrollable}
 
-The question is empirical: do the data show the fragmentation that policy talks about? The design has three steps.
+The question is empirical: do the data show the fragmentation that policy talks about? The design has three steps, and each embeds a choice a reader should know about.
 
-1. **Define blocs** — US-leaning, China-leaning, non-aligned — from foreign-policy alignment as revealed by **UN General Assembly voting**
-2. **Compare** trade within vs between blocs, before and after Russia's invasion of Ukraine in **February 2022**, controlling for the usual determinants of bilateral trade
-3. **Look for connectors** — non-aligned countries trading more with both, through which some between-bloc trade may be rerouted
+1. **Define blocs** — US-leaning, China-leaning, non-aligned — from foreign-policy alignment as revealed by **UN General Assembly voting**. Alliances are too sparse to classify most countries; trade cannot be used because it is the outcome; Assembly votes are cast by nearly every state on hundreds of resolutions a year
+2. **Compare** trade within vs between blocs, before and after Russia's invasion of Ukraine in **February 2022**, controlling for the usual determinants of bilateral trade — a **gravity** framework, in which trade is explained by the partners' economic size, distance and other frictions
+3. **Look for connectors** — non-aligned countries trading more with both, through which some between-bloc trade may be rerouted, sometimes after processing, sometimes after very little
 
 ::: {.get}
 **Finding:** between-bloc trade fell relative to within-bloc trade — find the exact magnitude in the paper. Foreign direct investment shows a similar pattern. Small next to the Cold War, concentrated in strategic sectors, but real.
 :::
 
+Independent evidence on US imports sharpens what "connector" means. Freund et al. (2024), at the ten-digit tariff line for 2017–2022:
+
+| | |
+|---|---|
+| China's share of US imports | fell from **22 to 16 per cent**, attributed to the tariffs from 2018 |
+| Who replaced it | large developing countries deeply integrated into **China's own supply chains**, whose imports from China grew faster |
+| Pattern | "China plus one", not broad diversification; no consistent evidence of reshoring |
+| China's rank in 2022 | still the **largest** supplier of goods to the United States |
+
+Alfaro & Chor (2023) concur: Vietnam and Mexico gained share, and it is unclear whether dependence on China-linked supply chains fell at all. The bilateral line has moved; the network beneath it much less.
+
 ::: {.muted}
-*Journal of International Economics*, 153, 104042 · IMF WP/24/76
+*Journal of International Economics*, 153, 104042 · IMF WP/24/76 · Freund et al. (2024) · Alfaro & Chor (2023)
 :::
 
-## Who wrote down the bloc definition?
+## Who wrote down the bloc definition? {.scrollable}
 
 > **Which vote or measure? Which year? Which threshold?**
 
 Every bloc chart rests on these three choices, and each one can move countries from one bloc to another. Section 2 of the paper says which vote or measure, and which year, the authors use.
+
+::: {.check}
+**Ideal point** — a state's estimated position on a single underlying dimension of UN General Assembly voting, derived from all its roll-call votes and designed to be comparable over time. Higher values are closer to the United States. It measures revealed alignment in the Assembly — not trade, alliances or friendship (Bailey, Strezhnev & Voeten 2017).
+:::
+
+- Ideal points anchor the scale on resolutions **repeated in identical form** across years; simple agreement scores do not (Signorino & Ritter 1999)
+- **Version 39 (July 2026)** estimates by **calendar year**, not Assembly session (year = session + 1945); in 2021 it covers **193 countries**
 
 ::: {.warn}
 Ours, in the practice round, will be a simplification — ideal points with thresholds you choose. Your slide must say how it differs.
@@ -214,10 +263,14 @@ The research is about states; the firm has to translate it into decisions about 
 
 | | |
 |---|---|
-| **Classify your markets** | your five countries (the team milestone) — which bloc, which drifting? |
-| **Connectors** | Mexico, Vietnam and others gain between-bloc trade — and attract transshipment and rules-of-origin scrutiny |
+| **Classify your markets** | your five countries (the team milestone) — which bloc, which drifting? Divergent tariffs, export controls, procurement preferences and standards follow the bloc lines |
+| **Connectors** | Mexico, Vietnam and others gain between-bloc trade — and attract transshipment and rules-of-origin scrutiny. A plant built to serve both blocs is a bet that its location stays non-aligned |
 | **Switching is cheaper for states, not for you** | multilateral openness makes it cheaper for *states* to break with a partner; your supply contracts do not get cheaper to break |
-| **De-risking is sectoral** | fragmentation is concentrated in strategic goods: consumer goods vs semiconductors are two different worlds |
+| **De-risking is sectoral** | fragmentation is concentrated in strategic goods — semiconductors, critical minerals, advanced machinery, energy. A consumer-goods maker may see only rising transport and compliance costs; a semiconductor-equipment maker may find suppliers, customers and licences reorganised by law |
+
+::: {.get}
+If the data show **de-risking** — selective cuts in strategic sectors, overall trade preserved — a blanket exit overreacts; if they show **de-coupling**, waiting overreacts. The evidence so far is closer to the former: respond by sector.
+:::
 
 ## Put it to the room
 
@@ -230,18 +283,26 @@ Use the connector finding: non-aligned countries gained trade with both blocs af
 ::: {.check}
 Both: connectors grow — and become targets of secondary sanctions and rules-of-origin enforcement.
 :::
+
+Non-alignment is a position in a contest, not an exemption from it.
 :::
 
 # What the figure does not license {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Four limits {.scrollable}
 
-A fall in between-bloc trade is consistent with geopolitical fragmentation; it does not prove it. Name these limits on any slide that shows the figure.
+A fall in between-bloc trade is consistent with geopolitical fragmentation; it does not prove it. It is a finding about a classification, a currency and a date. Name these limits on any slide that shows the figure.
 
-1. **Correlation with a date** — sanctions on Russia, the post-COVID rebound and price changes all move trade values in 2022
-2. **Blocs are a modelling choice** — move the threshold or the base year, countries move between blocs, and the figure moves with them
-3. **Values, not volumes** — trade in US dollars rises with commodity prices, and 2022 had very high energy and food prices
+1. **Correlation with a date** — sanctions on Russia, the post-COVID rebound and price changes all move trade values in 2022; a gravity specification separates only some of them
+2. **Blocs are a modelling choice** — move the threshold or the base year, countries move between blocs, and the figure moves with them. A result that survives a range of margins is evidence of fragmentation; one that appears at one margin and vanishes at another is evidence of the margin
+3. **Values, not volumes** — trade in US dollars rises with commodity prices, and 2022 had very high energy and food prices. Trade within a bloc that includes large energy exporters can rise for reasons unrelated to alignment
 4. **Aggregate** — your firm's sector may show far stronger fragmentation, or none
+
+Two further traps: the **mirror problem** — A's reported exports to B ≠ B's reported imports from A (free on board vs cost, insurance and freight; re-exports), diverging most where trade is rerouted — and the **base year**: index to 2021 and the post-COVID rebound sits in the denominator.
+
+::: {.muted}
+Source: IMF, International Trade in Goods by partner country (formerly Direction of Trade Statistics), 2026.
+:::
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 

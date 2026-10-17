@@ -70,6 +70,8 @@ format:
 
 :::::
 
+Susan Strange (*The Retreat of the State*, 1996) argued that markets and firms had come to exercise authority over prices, investment, technology and credit once reserved to governments — and that the field had to follow power wherever it lay.
+
 ::: {.muted}
 Session 05 looked at intergovernmental institutions. This session turns to the rules written by private and hybrid bodies — and made compulsory by buyers, investors and export markets.
 :::
@@ -98,10 +100,16 @@ Walk through one product's supply chain and ask who wrote each rule it obeys. Re
 | The charging port | a private consortium — then made mandatory by the EU |
 | The factory's quality and environmental systems | ISO 9001, ISO 14001 |
 | The supplier's minerals due diligence | OECD guidance, industry schemes, buyer codes |
+| The data centre's information security | ISO/IEC 27001 |
+| The seller's emissions report | the Greenhouse Gas Protocol — a research institute and a business council |
+
+Some of these have since been made compulsory or referenced in procurement and trade law, but they were drafted and revised by engineers, auditors, industry associations and NGOs. The multinational that sells the phone spends far more compliance effort on them than on any treaty.
 
 ::: {.get}
 **Private authority:** non-state actors making rules others treat as binding. For a firm, a **risk** — a standard written elsewhere becomes a condition of market access — and a **lever**: shape the standard, shape the market.
 :::
+
+What makes it *authority* rather than market power? **Legitimacy combined with consequences** — and the consequences come through markets, not courts. The uncertified supplier loses the contract; uncertified timber loses the retailers; an emissions report off the recognised protocol loses the investors (Cutler et al. 1999; Hall & Biersteker 2002).
 
 # The governance triangle {background-color="#E3120B" style="color:#F7F4ED"}
 
@@ -122,12 +130,19 @@ Abbott and Snidal map rule-setting schemes in a triangle whose corners are the t
 - Near a **corner**: one actor type — industry code (firms), activist label (NGOs), treaty (states)
 - In the **middle**: hybrids — multi-stakeholder certification (firms and NGOs); the UN Global Compact (all three)
 - **The shadow of the state**: private schemes are shaped by the threat — or promise — of public regulation, and by states choosing to endorse, require or ignore them
+- **ISO is hard to place**: its members are national standards bodies, some government agencies, many private associations whose committees are staffed largely by industry experts
+
+Firms write codes of conduct partly to pre-empt legislation; NGOs create certification schemes partly because they have despaired of getting it. When a state gives a private standard legal force, the scheme **moves across the triangle without a word of its text changing**.
+
+::: {.muted}
+**From the archive · Brussels, 2022.** A voluntary 2009 memorandum among phone makers never fully converged the market. In 2022 the EU amended its Radio Equipment Directive: from the end of 2024 new phones must charge through USB Type-C — a specification written by the USB Implementers Forum — laptops from 2026. An industry specification became a condition of access to a market of several hundred million consumers.
+:::
 
 ::: {.muted}
 In W. Mattli & N. Woods (Eds.), *The Politics of Global Regulation*, Princeton UP, pp. 44–88.
 :::
 
-## Put it to the room
+## Put it to the room {.scrollable}
 
 > Place these in the triangle: **FSC**, **UN Global Compact**, **ISO 14001**, **an industry code of conduct**, **the EU's common charger rule**.
 
@@ -135,6 +150,10 @@ Ask of each: who wrote it, who can change it, and who would enforce it if a firm
 
 ::: {.warn}
 The placement predicts the behaviour: who can change the scheme, who finds it legitimate, whether a state may make it mandatory.
+:::
+
+::: {.muted}
+FSC (founded 1993) brings environmental and social organisations and firms together in a multi-stakeholder structure. The UN Global Compact was launched in 2000 by the UN Secretary-General as principles to which firms commit. A scheme near the firm corner is easier for firms to change and less trusted by NGOs and regulators; a scheme a state has begun to reference in law may become mandatory.
 :::
 
 # Standards and power {background-color="#E3120B" style="color:#F7F4ED"}
@@ -155,11 +174,19 @@ Their evidence favours **institutional complementarity**: coordinated European n
 :::
 :::
 
+ISO, founded in **1947**, has one national standards body per country; its technical committees are staffed by experts the national bodies nominate — overwhelmingly engineers employed by firms. Who sits at the table decides whose existing practice becomes the standard.
+
+::: {.check}
+**Institutional complementarity** — the fit between a country's domestic standard-setting institutions and those of the international body. A hierarchical, coordinated national system that speaks with one voice matches ISO and the IEC, and wins more influence than a fragmented one, **regardless of market size**.
+:::
+
+The result cut against the realist expectation: the country with the largest market was not the most effective at shaping international product standards. Büthe & Mattli (2011) extend the logic to the private bodies that write accounting standards.
+
 ::: {.muted}
 *World Politics*, 56(1), 1–42. [doi:10.1353/wp.2004.0006](https://doi.org/10.1353/wp.2004.0006)
 :::
 
-## Technical standards are geopolitics
+## Technical standards are geopolitics {.scrollable}
 
 Each of these is a competition between blocs, each trying to make its domestic rules the world's. The firm that builds to the losing standard rebuilds.
 
@@ -167,19 +194,30 @@ Each of these is a competition between blocs, each trying to make its domestic r
 - **Batteries and charging** — whose formats become the default?
 - **AI and data** — whose rules does a global firm adopt everywhere?
 
+Standards outlast the meeting: patents in a standard earn licence revenue for as long as it is used, and early influence compounds.
+
 ::: {.step}
 **The Brussels effect** (Bradford, 2020): it is often cheaper for a firm to adopt the strictest rule everywhere than to run two product lines — which is how EU rules become global.
 :::
 
+Bradford's conditions: a **large market**, **regulatory capacity**, a **preference for strict rules**, targets that **cannot easily leave** (consumers, not mobile capital), and **non-divisible production**.
+
+- **Digital Empires** (Bradford 2023): three models compete — American (markets and firms), Chinese (the state directs technology), European (regulation in the name of individual rights)
+- The **European Commission's 2022 standardisation strategy**: the geopolitical landscape "has significantly shifted in recent years", and other actors "follow a much more assertive approach to international standardisation than the EU and have gained influence in international standardisation committees"
+
+::: {.muted}
+Source: Bradford (2020; 2023); European Commission (2022).
+:::
+
 # Three perspectives; delegated or entrepreneurial {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Brunsson, Rasche & Seidl (2012)
+## Brunsson, Rasche & Seidl (2012) {.scrollable}
 
 Three ways to look at the same standard: what it does to the firm that adopts it, who writes it, and how it orders a whole market.
 
 | Standardization… | Example |
 |---|---|
-| ***of*** organizations | ISO 14001 tells a firm how to organise environmental management |
+| ***of*** organizations | ISO 14001 tells a firm how to organise environmental management — not what the product must be, nor how much a plant may emit: documented procedures, objectives, internal audits, management reviews, continual improvement |
 | ***by*** organizations | the bodies that write standards, and how they work |
 | ***as*** organization | standards ordering markets and fields without formal hierarchy |
 
@@ -187,7 +225,18 @@ Three ways to look at the same standard: what it does to the firm that adopts it
 Standards are **dynamic**: revised, contested, translated locally — and **decoupled**. A certificate is not a practice: a firm certified to ISO 14001 may run its plants exactly as before.
 :::
 
-## Green (2013)
+**Decoupling** — the separation between the formal structures an organisation adopts to signal conformity and the practices it actually follows. Meyer & Rowan (1977): organisations adopt structures because they are regarded as legitimate, not necessarily because they are efficient. A certificate can be a ceremony. The evidence is mixed in an informative way:
+
+| Study | Finding |
+|---|---|
+| **Potoski & Prakash (2005)** | US facilities certified to ISO 14001 cut pollutant emissions somewhat more than comparable uncertified ones — a "weak sword" that could still cut, thanks to third-party audits |
+| **Christmann & Taylor (2006)** | in China, substantive vs symbolic implementation depended on whether **customers monitored** what the firm actually did |
+
+::: {.muted}
+A supplier's certificate is worth what someone — the multinational included — checks behind it.
+:::
+
+## Green (2013) {.scrollable}
 
 Private authority has two sources, and they fail in different ways. Ask where a rule's authority comes from before deciding how durable it is.
 
@@ -201,9 +250,13 @@ Private authority has two sources, and they fail in different ways. Ask where a 
 Green's field is carbon governance. For a firm, a delegated rule is a political risk — it moves with the state that delegated it; an entrepreneurial rule is a market risk — it moves with the number of firms and investors that use it.
 :::
 
+- **Delegated**: under the Kyoto Protocol's Clean Development Mechanism, accredited private bodies validated and verified emission-reduction projects within rules states had written. When the Kyoto mechanisms gave way to new arrangements under the **Paris Agreement**, their authority changed with them
+- **Entrepreneurial**: the GHG Protocol had no state mandate, and became the dominant framework for corporate carbon accounting because firms, investors and eventually regulators adopted it. It can be displaced by a rival with more adopters — or captured by a state that writes it into law
+- **Won, not given** (Cashore 2002): forest certification is *non-state market-driven governance*. The FSC, created by environmental groups with stricter rules, was soon met by industry-backed schemes with laxer ones; the contest was over which buyers would accept as legitimate
+
 # Race to the bottom, or trading up? {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Two scenarios
+## Two scenarios {.scrollable}
 
 Both start from the same fact — trade intensifies competition — and predict opposite directions for standards. Which one holds is an empirical question.
 
@@ -227,6 +280,10 @@ Exporters to strict markets adopt strict standards → trade spreads them (Vogel
 
 :::::
 
+**California** set vehicle-emission standards stricter than federal ones; makers built to them and other states followed. **Delaware** won the race to the bottom in corporate chartering. Not contradictory: a rule on a **product** that must cross a border spreads upward; a rule on a **process** or **legal form** that can relocate invites competition downward.
+
+ISO 14001 sits in the middle: it governs a process, so no importing government can require it at the border — **but buyers can**.
+
 ::: {.muted}
 The difference lies in who sets the bar. In the first, the exporter's own government competes for investment; in the second, the customer's market decides what an exporter must meet.
 :::
@@ -239,9 +296,15 @@ ISO 14001 makes a clean test: it is voluntary, so no law forces adoption, and an
 - **Panel**: 108 countries, seven years
 - **Key variable**: adoption in a country's **export markets**
 
+::: {.muted}
+**From the archive · Rio and Geneva, 1992–1996.** ISO 14001 (1996; revised 2004, 2015) grew out of Britain's BS 7750 (1992) and the EU's Eco-Management and Audit Scheme (1993), on the management-system model of ISO 9000 (1987). It sets no emission limit of its own. Mattli and Büthe in miniature: a European model became the international standard.
+:::
+
 ::: {.get}
 **Finding:** trade linkages **encourage** ISO 14001 adoption when a country's major export markets have adopted it. Standards travel towards the customer's — trading up, not racing to the bottom.
 :::
+
+A California effect operating through **private** rather than public regulation, with buyers rather than governments doing the imposing. The same authors treat voluntary programmes as **"green clubs"** whose value depends on the credibility of the standard and the visibility of membership (Prakash & Potoski 2006b). In China, self-regulation was likelier among firms with multinational owners or developed-country customers (Christmann & Taylor 2001).
 
 ::: {.muted}
 *AJPS*, 50(2), 350–364. [doi:10.1111/j.1540-5907.2006.00188.x](https://doi.org/10.1111/j.1540-5907.2006.00188.x)
@@ -257,7 +320,9 @@ ISO 14001 makes a clean test: it is voluntary, so no law forces adoption, and an
 - Decide: **adopt** early, **shape** in the committee, or **resist** — each has a cost
 - Remember the decoupling point: a buyer may accept the certificate, but an NGO or a regulator may look at the practice
 
-Mattli and Büthe's lesson applies to firms as well as countries: influence goes to those organised to take part, and taking part is expensive.
+Mattli and Büthe's lesson applies to firms as well as countries: influence goes to those organised to take part, and taking part is expensive. If a competitor's national body is better organised and its engineers are in the room, the standard will reflect their technology. **In standards, absence is a decision.**
+
+On inputs the firm becomes the imposer: requiring suppliers to certify is itself an exercise of private authority.
 
 > **Put it to the room:** two engineers, a quarter of their time, three years on an ISO committee. Worth it?
 
@@ -272,6 +337,8 @@ The practice maps how ISO 14001 spread. Raw certificate counts mostly measure ec
 3. **Filled map** of certificates per billion US$ of GDP — sequential palette, never a rainbow
 4. `Year` → **Pages** shelf → press play to animate the diffusion
 5. **Small multiples**: `Region` × `Year`, line of the median country — the same story, without animation, on one page
+
+The **ISO Survey** counts *certificates*, not firms or sites, and its coverage changes across editions — a jump may be reporting, not adoption. From **2025** it is compiled from **IAF CertSearch**, a break in comparability.
 
 ::: {.check}
 Never join or geocode on names. Hong Kong, Taiwan, Korea and Türkiye will tell you why.

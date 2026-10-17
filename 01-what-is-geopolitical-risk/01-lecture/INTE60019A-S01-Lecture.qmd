@@ -134,9 +134,9 @@ The reading arrives with its central figure; the lecture explains the idea behin
 
 ### Risk
 
-Outcomes whose **probabilities can be estimated** from experience.
+Outcomes whose **probabilities can be estimated** from experience — a priori, as with dice, or statistically, from many similar cases, as with fire insurance. The exposure can be priced, pooled or insured.
 
-A shipping insurer pricing piracy in the Gulf of Aden: there are enough past incidents to put a price on the next one.
+A shipping insurer pricing piracy in the Gulf of Aden: thousands of transits, hundreds of incidents, and a market for war-risk premiums that updates as incidents accumulate.
 
 ::::
 
@@ -144,9 +144,9 @@ A shipping insurer pricing piracy in the Gulf of Aden: there are enough past inc
 
 ### Uncertainty
 
-Outcomes whose probabilities **cannot** be estimated.
+Outcomes whose probabilities **cannot** be estimated: the case is too unlike any class of past cases. It cannot be insured away; it can only be judged.
 
-A board asking whether Taiwan will be blockaded within five years: there is no record of similar cases from which to compute a frequency.
+A board asking whether Taiwan will be blockaded within five years: there have been blockades, but never this one, by this state, against this coalition, with these weapons.
 
 ::::
 
@@ -156,10 +156,15 @@ A board asking whether Taiwan will be blockaded within five years: there is no r
 Geopolitics lives between the two. Wars and coups recur, but each is unlike the last. This course moves questions from the right column towards the left — and is honest about how far they move.
 :::
 
-The distinction matters for the firm because risk can be priced, insured and hedged; uncertainty can only be prepared for — by keeping decisions reversible and options open.
+Knight's puzzle was profit: under perfect competition it should fall to zero, yet it exists. His answer: risk, being insurable, becomes a cost like any other; profit rewards the bearing of *uncertainty* — committing resources on a judgement no one can verify in advance.
+
+The distinction matters for the firm because risk can be priced, insured and hedged — political-risk insurance, war-risk cover on cargo, credit insurance on receivables are markets for it. Uncertainty can only be prepared for — by keeping decisions reversible and options open. Much of what firms call "resilience" is a premium paid in redundancy because there is no one to pay it to.
+
+- **Every index groups unlike events into classes** so that something can be counted. Grouping is never neutral: GPR counts a nuclear test and a terrorist bombing as two instances of the same thing.
+- **Shell, late 1960s–early 1970s:** a planning group stopped forecasting the oil price and wrote *scenarios* instead. An index tells the firm which story the world is writing; a scenario tells it what it would do if the story came true.
 
 ::: {.muted}
-Knight, F. H. (1921). *Risk, Uncertainty and Profit*.
+Knight, F. H. (1921). *Risk, Uncertainty and Profit* (from a Cornell doctoral dissertation) · Wack (1985) on scenarios at Shell.
 :::
 
 ## Three kinds of risk {.scrollable}
@@ -172,12 +177,23 @@ Knight, F. H. (1921). *Risk, Uncertainty and Profit*.
 
 The three differ in *who* acts and *where*: the host government, the host country's finances, or the relations between states. The unit column tells you what the data must be organised by.
 
+- **Political risk** has dramatic archetypes: Mexico nationalised the foreign oil companies in 1938; Iran nationalised the Anglo-Iranian Oil Company in 1951. The threat came from the host government and fell on identifiable foreign firms.
+- **Country risk** grew from a different root: the bank lending of the 1970s to developing-country governments and the debt crisis that followed. Its instruments are sovereign ratings, debt-sustainability analysis, bond and CDS spreads.
+
 ::: {.step}
-**Kobrin (1979):** *macro* risk hits every foreign firm in a country; *micro* risk hits one sector or firm.
+**Kobrin (1979):** *macro* risk hits every foreign firm in a country; *micro* risk hits one sector or firm. Risk is a property of the *relationship* between an environment and a particular firm: a coup that leaves the mining code untouched may be irrelevant to the miner; a quiet amendment to a tax treaty may be decisive. His count of forced divestment in developing countries (1980) bore it out — expropriation in the 1960s and 1970s was **selective**, aimed at particular industries rather than foreign capital as such.
+:::
+
+::: {.step}
+**Vernon (1971), the obsolescing bargain:** before investing, the firm holds the cards — capital, technology, the choice of where to go. Once the mine is dug, the capital is sunk and the host's ability to capture the rent rises. The insight outlives nationalisation: it describes any relationship in which one party's commitment is irreversible and the other's is not.
 :::
 
 ::: {.get}
-Geopolitical risk adds a **third layer**: risk that originates *outside* the host country — in Washington, Beijing, Brussels or Moscow — and reaches the firm through suppliers, customers, banks and networks. The host government may be perfectly stable and still the firm is hit.
+Geopolitical risk adds a **third layer**: risk that originates *outside* the host country — in Washington, Beijing, Brussels or Moscow — and reaches the firm through suppliers, customers, banks and networks. A Canadian firm in Vietnam can be hurt by a Washington decision on Chinese inputs, a Beijing decision on rare-earth exports, or a naval incident in a sea lane neither Canada nor Vietnam controls. The host government may be perfectly stable and still the firm is hit.
+:::
+
+::: {.muted}
+Kobrin (1979, 1980) · Vernon (1971).
 :::
 
 ## Put it to the room
@@ -211,7 +227,14 @@ The categories are not exclusive. Each calls for a different response — a writ
 Sort any indicator by *what it counts*, because that determines what it cannot see. A threat never carried out leaves no event; a spread can widen because danger rose or because investors grew more fearful of the same danger. The last column is the one to read first.
 :::
 
-## Triangulate
+- **Text-based** has three landmark measures: the GPR index (Caldara & Iacoviello, 2022), the Economic Policy Uncertainty index (Baker, Bloom & Davis, 2016), and the firm-level political-risk measure built from earnings calls (Hassan et al., 2019).
+- **Expert-based**: the Worldwide Governance Indicators (Kaufmann, Kraay & Mastruzzi, 2011) reach latent concepts such as "rule of law" at the price of opacity and shared perceptions.
+
+::: {.muted}
+Sources: Caldara & Iacoviello (2022); Baker et al. (2016); Hassan et al. (2019); Kaufmann et al. (2011).
+:::
+
+## Triangulate {.scrollable}
 
 ::: {.get}
 **No single family is enough.** The team project must combine at least three.
@@ -225,9 +248,15 @@ The reason is not that more is better: the families fail in different ways, so w
 
 Three indicators that quarrel force the analyst to say which one to believe, and why.
 
+A single index can only tell its own story. Every index also embeds a grouping choice: when the Correlates of War project averages steel output and population into one number for "power" (Session 03), it has decided what is homogeneous, just as GPR has. The discipline is not to avoid these choices but to see them, state them, and ask what they do to the conclusion.
+
+::: {.muted}
+The team dashboard (Session 12) must combine at least three families; see `assessments/README.md`.
+:::
+
 # The GPR index: how it is built {background-color="#E3120B" style="color:#F7F4ED"}
 
-## The definition
+## The definition {.scrollable}
 
 > *"The threat, realization, and escalation of adverse events associated with wars, terrorism, and any tensions among states and political actors that affect the peaceful course of international relations."*
 
@@ -242,6 +271,19 @@ Note what is **out**: domestic politics, elections, regulation.
 
 A definition decides what the index can rise on. Because threats are in, the index can move before anything happens; because domestic politics is out, an election or a new regulation in the host country will not show up here.
 
+- **Threats as well as realisations:** the index is meant to rise when war becomes *more likely*, not only when it starts.
+- **"Political actors", not only states:** that is how terrorism enters.
+- **Economic policy is out too** — it belongs to other indices, such as EPU (Session 07).
+- The definition is about relations *between* actors, not about what a host government does to a firm: political risk in Kobrin's sense is not in it.
+
+::: {.get}
+**In one line.** The GPR index is a monthly text-based index equal to the share of articles in a fixed set of major newspapers that discuss adverse geopolitical events and threats, rescaled so that its average over a base period equals 100.
+:::
+
+::: {.muted}
+Published in the *AER* in 2022 after circulating for several years as a working paper. That ubiquity is the reason to understand its construction exactly.
+:::
+
 ## Four steps {.scrollable}
 
 | Step | What happens |
@@ -253,11 +295,31 @@ A definition decides what the index can rise on. Because threats are in, the ind
 
 An article counts if it contains words from these categories, usually combined with words that tie it to geopolitics. A reading of 300 therefore means that the share of articles about geopolitical adversity was three times its base-period average — a statement about attention, not about danger.
 
+- **The corpus** is the anglophone press of three allied countries; the historical series, the American press alone.
+- **The dictionary** pairs a threat word with a word that anchors the article to geopolitics, so that an article about a "price war" does not qualify — a trade-off between **precision** (only relevant articles) and **recall** (all relevant articles).
+- **The normalisation** differs by series: the historical index is rescaled to its own **1900–2019** average.
+
 ::: {.get}
 **Why divide by all articles?** Newspapers grow and shrink. The share does not care.
 :::
 
-## Threats and acts
+| Month | Articles in the ten recent newspapers |
+|---|---|
+| January 1985 | about 11,600 |
+| January 2000 | about 33,400 |
+| September 2026 | under 14,000 |
+
+A raw count would have tripled and then halved with no change in the world.
+
+::: {.warn}
+**The misconception to drop now.** A high reading does not mean risk is high *for a particular firm*. It means the anglophone press wrote a great deal about geopolitical tension that month.
+:::
+
+::: {.muted}
+Source: Caldara & Iacoviello (2022); article counts from the authors' monthly file, September 2026 release.
+:::
+
+## Threats and acts {.scrollable}
 
 ::::: columns
 
@@ -281,17 +343,49 @@ beginning of war · escalation of war · terror acts
 
 The first five categories form the Threats sub-index, the last three the Acts sub-index. The two need not move together: threats can build for months before anything happens, or never turn into acts at all. The Cuban missile crisis of October 1962 is the classic case: no war began, and in the categories of the dictionary the crisis is almost entirely nuclear threats, military build-ups and war threats.
 
+| Date, 1962 | Cuban missile crisis |
+|---|---|
+| mid-October | U-2 photographs show Soviet medium-range missile sites under construction in Cuba |
+| 22 October | Kennedy announces the discovery and a naval "quarantine" of the island |
+| 28 October | Khrushchev announces the missiles will be dismantled; the US pledges not to invade and, privately, to withdraw its Jupiter missiles from Turkey |
+
+- In the historical series, **October 1962 stands at well over twice the 1900–2019 average** — the index registering the threat, not a realisation.
+- The limit of the clock: the crisis lasted **thirteen days**. A monthly index records it as one high observation; a firm deciding whether to load a ship that week needed a finer clock.
+- The split is the most useful thing in the paper for a firm: threats can build and subside with nothing happening; acts can arrive with almost no prior threat.
+
 ::: {.warn}
-For the firm, the distinction matters: **threats alone** depress investment. You do not need the war to pay its cost.
+For the firm, the distinction matters: **threats alone** depress investment. You do not need the war to pay its cost — it is borne in the months of tension, by firms that delay, hedge and wait, whether or not the feared event occurs.
 :::
 
-## Does it measure something real?
+::: {.muted}
+Source: Caldara & Iacoviello (2022); GPRH from the authors' monthly file.
+:::
 
-- **Narrative.** It spikes when it should: the World Wars, Korea, Cuba 1962, the Gulf War, 9/11, Iraq 2003, Ukraine 2022
-- **Audit.** Samples of flagged articles are read by hand, to check that what is counted is mostly about the right things
+## Does it measure something real? {.scrollable}
+
+- **Narrative.** It spikes when it should: the World Wars, Korea, Cuba 1962, the Gulf War, 9/11, Iraq 2003, Ukraine 2022. A necessary test, and a weak one
+- **Audit.** Samples of flagged articles are read by hand, to estimate how often the algorithm counts an article a human would not, and misses one a human would. A text measure whose false-positive rate is unknown cannot be interpreted
+- **Economic content.** Higher GPR predicts lower investment and employment, more so in exposed industries
 - **Country indices.** The same count, restricted to articles naming the country — how much the *anglophone press* links that country to geopolitical tension
 
+| Alternative version in the file | Monthly correlation with the headline index |
+|---|---|
+| Narrower search | above 0.9 |
+| Broader search (words need only share an article, not sit close together) | about 0.64 |
+
+"The" geopolitical risk index is one point in a space of defensible choices.
+
+::: {.step}
+**Country series, `GPRC_` + ISO code, 44 countries.** A *percentage of articles*, not an index to 100. A country can be the source, the victim, the mediator or merely the location of tension. In March 2022 Russia and Ukraine both stood close to **nine per cent** of all articles: to the index, the invader and the invaded were two equally tense places.
+:::
+
+The list is informative too: Ukraine, Israel, Taiwan and Venezuela are in; Iran, Iraq, Pakistan and North Korea are not, and Africa is Egypt, Tunisia and South Africa alone. It follows where economic data are rich, not where risk is greatest.
+
 What validation establishes is that the index measures *attention to geopolitical adversity*, concentrated in the right months — not that it measures the probability of a war.
+
+::: {.muted}
+Source: Caldara & Iacoviello (2022); alternative indices and country series from the authors' monthly file.
+:::
 
 ::: {.muted}
 Today's practice round rebuilds the first of these: the monthly index with its spikes labelled.
@@ -299,11 +393,16 @@ Today's practice round rebuilds the first of these: the monthly index with its s
 
 # Why a firm should care {background-color="#E3120B" style="color:#F7F4ED"}
 
-## The value of waiting
+## The value of waiting {.scrollable}
 
 ::: {.step}
 Investment is **costly to reverse** + the future is **uncertain** → **waiting has value**
 :::
+
+- **Bernanke (1983):** a firm that waits for news gives up some return but avoids sinking capital into a project the news would have shown to be a mistake. A plant cannot be un-built at its cost, so bad outcomes weigh more than good ones
+- **Dixit & Pindyck (1994):** an unexercised investment opportunity is like a call option; exercising it early destroys its time value
+- **Bloom (2009):** an uncertainty spike produces a rapid drop in hiring and investment, then a rebound as it resolves — the *pause-and-rebound* fingerprint
+- **Julio & Yook (2012):** corporate investment falls before national elections and recovers after them
 
 - A GPR spike raises the value of waiting
 - Firms postpone capital expenditure, hiring and entry — and invest again once the uncertainty resolves
@@ -311,35 +410,53 @@ Investment is **costly to reverse** + the future is **uncertain** → **waiting 
 
 This is the real-options channel. The decisions most exposed are large, lumpy and hard to reverse — a greenfield plant, an acquisition, a take-or-pay contract. A firm that keeps investing through tension does so by making decisions reversible: leasing rather than building, dual-sourcing, staging in tranches.
 
+A geopolitical threat raises uncertainty about future states of the world without yet changing the present one — the purest form of the shock the model describes. Caldara and Iacoviello's finding that threats depress investment is Bernanke's 1983 argument applied to a new source of uncertainty.
+
 ::: {.muted}
-Bernanke (1983), *QJE* · Bloom (2009), *Econometrica*
+Bernanke (1983), *QJE* · Dixit & Pindyck (1994) · Bloom (2009), *Econometrica* · Julio & Yook (2012)
 :::
 
-## Five channels, all term
+## Five channels, all term {.scrollable}
 
-| Channel | Example | Session |
-|---|---|---|
-| **Market access** | bloc-based trade diversion | 04 |
-| **Inputs** | a critical service from one satellite operator | 11 |
-| **Finance and payments** | sanctioned banks, frozen assets | 10 |
-| **Assets and people** | conflict, expropriation, evacuation | 03, 05 |
-| **Data and operations** | state-sponsored cyber operations | 08 |
+| Channel | Example | Where the evidence sits in the firm | Session |
+|---|---|---|---|
+| **Market access** | bloc-based trade diversion, procurement bans | geographic breakdown of revenue | 04 |
+| **Inputs** | a critical service from one satellite operator | the supply-chain map | 11 |
+| **Finance and payments** | sanctioned banks, frozen assets, a correspondent bank exits | treasury's list of banks, currencies, payment routes | 10 |
+| **Assets and people** | conflict, expropriation, evacuation, detention | fixed-asset register, staff posted abroad | 03, 05 |
+| **Data and operations** | state-sponsored cyber operations, data-localisation demands | the chief information security officer | 08 |
 
 An aggregate index says that the world is tenser; a channel says where a change in relations between states lands in *this* firm's costs, revenues and assets. Each later session takes one channel in depth, and the team dashboard must trace its multinational's exposure through them.
 
+::: {.get}
+One war in a grain-exporting region: a food processor is hit through *inputs*, a shipping line through *assets and people*, a bank through *finance and payments*, a software firm through *data and operations* when the conflict spills into cyberspace. **A firm's exposure is a vector; the index is a scalar.**
+:::
+
+::: {.muted}
+An assessment that does not ask each of these offices a question is an assessment written from the newspaper.
+:::
+
 # What GPR does not tell you {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four limits
+## Four limits {.scrollable}
 
-1. It measures **attention in the anglophone press** — not the risk to a subsidiary in Abidjan or a supplier in Shenzhen
-2. It is **global**; the country indices exist only where newspapers write
-3. **Attention fades** while risk persists — a frozen conflict can be a constant risk and a falling index
-4. It is **not a forecast** — it rises with events and threats; it does not tell you the next one
+1. It measures **attention in the anglophone press** — not the risk to a subsidiary in Abidjan or a supplier in Shenzhen. A violent dispute that dominates the regional press of West Africa can leave the index untouched; a crisis involving the United States can dominate it
+2. It is **global**; one number per month cannot tell the Baltic from the Taiwan Strait. The country series cover only **44 countries**, and only in the sense of "mentioned together with tension"
+3. **Attention fades** while risk persists — a ceasefire line, a sanctions regime in its tenth year, can be a constant risk and a falling index
+4. It is **not a forecast** — it rises with events and threats as reported. Its predictive content for investment arises because firms *respond* to the same reported threats: a statement about behaviour, not about the probability of war
 
 Firms often hold assets for longer than editors hold attention. None of these limits makes the index useless; each tells you what it may not be used to claim.
 
+::: {.step}
+**Scales differ too.** The recent index is normalised to 1985–2019 and built from ten newspapers; the historical index to 1900–2019 and built from three. In March 2022 the first stood at more than three times its mean, the second at well under twice its own. Neither is wrong: they measure how unusual a month was against different pasts and different readerships.
+:::
+
+::: {.muted}
+Source: Caldara & Iacoviello (2022); GPR and GPRH, authors' monthly file.
+:::
+
 ::: {.get}
-**Add a fifth.** This list is the template for *the catch*, the last step of every practice round.
+**Add a fifth.** This list is the template for *the catch*, the last step of every practice round. A hint from the construction: the denominator is all articles, and the numerator a fixed vocabulary — what happens to the share in a month dominated by an election or a pandemic, or to a satellite jammed in orbit that no journalist calls an act of war?
 :::
 
 ## Put it to the room
@@ -351,7 +468,11 @@ Firms often hold assets for longer than editors hold attention. None of these li
 "Monitor the situation" is not an answer. Name a decision — hedge, delay, reroute, diversify — and the threshold that triggers it.
 :::
 
-Some decisions are worth taking *because* of the uncertainty — a longer contract with a customer who has lost a Russian or Belarusian supplier. Others are worth postponing — an irreversible warehouse in Europe. The index can feed the threshold; it cannot be the threshold, because it says nothing about this exporter.
+Some decisions are worth taking *because* of the uncertainty — a longer contract with a customer who has lost a Russian or Belarusian supplier converts a volatile opportunity into committed revenue. Others are worth postponing — an irreversible warehouse in Europe, whose value depends on how the war ends. The index can feed the threshold; it cannot be the threshold, because it says nothing about this exporter.
+
+::: {.muted}
+Three candidate decisions from the chapter: hedge the currency · delay the warehouse in Europe · sign longer contracts with stranded customers. Which channel does each one act on?
+:::
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
@@ -363,6 +484,10 @@ Some decisions are worth taking *because* of the uncertainty — a longer contra
 4. `GPR` → Rows
 5. **Analytics** pane → *Reference Line* → constant **100**, the base-period average
 6. Right-click a peak → **Annotate → Point**, and name the event
+
+::: {.muted}
+One row per month: `GPR`, `GPRT`, `GPRA`, `GPRH` (normalised to 1900–2019), the `GPRC_` country series, article counts and alternative dictionaries.
+:::
 
 ::: {.check}
 That is the practice round's first fifteen minutes. The rest is making it match Figure 1 — and finding where it cannot.

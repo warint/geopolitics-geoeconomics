@@ -73,6 +73,8 @@ format:
 
 ::: {.muted}
 Every risk number a firm sees was built by someone, through choices. Today is about seeing those choices — so you can audit a score you are sold and defend one you build.
+
+A consultancy reports that a country's risk has "risen to 71"; a bank's dashboard turns a cell from amber to red; a central-bank index spikes in the week an invasion begins. Each is the last link of a chain that began with a concept nobody can observe directly — the probability that politics will damage a firm's business.
 :::
 
 # Quiz 2 {background-color="#E3120B" style="color:#F7F4ED"}
@@ -98,6 +100,11 @@ On paper, closed book. Then four Risk Briefs.
 | "geopolitical risk" | share of articles… | ten newspapers | eight categories | monthly share, base 1985–2019 | a line, spikes labelled |
 
 Read the row from left to right: the GPR index starts from a concept nobody can observe and ends as a line on a chart. **Every link is a choice** — and a place where the number can part company with the concept.
+
+- **Concept.** "Political risk" has meant expropriation, contract repudiation, currency inconvertibility, civil unrest, regulatory change — and now sanctions and export controls. Different causes, probabilities, remedies.
+- **Source.** The ten newspapers behind GPR are American, British and Canadian: a war in a country with no correspondents may barely register.
+- **Coding.** A rule that counts "war" cannot tell a war from a price war or a trade war.
+- **Presentation.** Spikes labelled "9/11" and "Iraq invasion" tell the reader what to see; unlabelled troughs tell them what not to.
 
 ::::: columns
 
@@ -129,9 +136,11 @@ Perfectly reliable and invalid: a thermometer everyone reads identically — in 
 
 Content analysis: a technique for making **replicable and valid inferences** from texts to the contexts of their use. The texts are evidence; the context — the world the texts describe — is the object.
 
+Berelson's 1952 definition was narrower: "the objective, systematic, and quantitative *description* of the manifest content of communication". The shift from description to **inference** matters: nobody builds a risk index to learn how often "missile" appears in newspapers.
+
 | Step | GPR index | Your coding today |
 |---|---|---|
-| **Unitising** — what is one unit? | an article | a headline |
+| **Unitising** — what is one unit? | an article (PRisk: a transcript) | a headline |
 | **Sampling** — which units? | ten newspapers, all articles | 40 GDELT headlines, at random |
 | **Coding** — which category? | a dictionary | two humans and a protocol |
 | **Reducing** — how are codes summarised? | monthly share | counts by category |
@@ -139,6 +148,12 @@ Content analysis: a technique for making **replicable and valid inferences** fro
 
 ::: {.get}
 **Manifest** content: the words — dictionaries see it, perfectly reliably. **Latent** content: what it is *about* — humans see it, less reliably. Best practice: a dictionary **audited by humans**. The quality of the audit is the best single guide to the quality of an index.
+:::
+
+::: {.muted}
+**From the archive, 1941–1945.** Analysts at the FCC's foreign broadcast monitoring service read German radio propaganda for what its *saying* implied: if the ministry prepared the public for a kind of news, what did the regime expect? Reconstructing the work against the German archives, George (1959) found the useful inferences were rarely about word frequency — they needed a model of the speaker — and the analysts were most often wrong when they forgot the text was written *for* an audience, by an actor with reasons to mislead it. Newspapers and earnings calls are also texts written by people with purposes.
+
+Source: Berelson (1952); George (1959); Krippendorff (2018).
 :::
 
 # Three dictionary methods {background-color="#E3120B" style="color:#F7F4ED"}
@@ -149,23 +164,39 @@ Content analysis: a technique for making **replicable and valid inferences** fro
 |---|---|---|---|
 | **Text** | newspapers | newspapers | earnings calls |
 | **Counted** | articles with GPR words | articles with **E** and **P** and **U** terms | political bigrams near "risk"/"uncertainty" |
-| **Dictionary** | authors' categories | authors' terms, audited | **learned** from political vs non-political texts |
-| **Level** | world, 44 countries | country | **firm × quarter** |
+| **Dictionary** | authors' eight categories | authors' terms, audited | **learned** from political vs non-political texts |
+| **Scaled by** | all articles | all articles | transcript length |
+| **Level** | world, 44 countries | country; global aggregate | **firm × quarter** |
 | **Validated by** | narrative, audit | large human audit | EPU; lobbying; investment and hiring |
 
 Each dictionary is a **theory of what risk looks like in language**. GPR: what newspaper readers are told to worry about, split into threats and acts. EPU: the three-way conjunction filters out weather, sport and routine legislation. PRisk: political language must sit *near* the language of risk — turning political attention into political risk.
 
+- **GPR's eight categories:** war threats, peace threats, military build-ups, nuclear threats, terror threats (the five *threats*); beginning of war, escalation of war, terror acts (the three *acts*). Base period averages 100; a country index requires the article to mention the country. A headline reporting both? **Acts beat threats.**
+- **GPR's validation:** the archive takes the series back to 1900, and it spikes where a historian would want — both world wars, the start of the Korean War, the Cuban Missile Crisis, 11 September 2001. Higher readings foreshadow lower investment and employment, from threats as well as acts.
+- **EPU's audit** does not make the index perfect; it makes its error rates *known*. The global index comes in two GDP weightings — current prices and PPP — and the PPP version gives large emerging economies more voice in "global" uncertainty.
+- **Dictionaries are domain-bound.** Loughran & McDonald (2011) showed general word lists read "liability", "tax" and "cost" in corporate filings as negative, and built a finance-specific list.
+
 ::: {.muted}
-Caldara & Iacoviello (2022) · Baker, Bloom & Davis (2016) · Hassan, Hollander, van Lent & Tahoun (2019)
+Caldara & Iacoviello (2022) · Baker, Bloom & Davis (2016) · Hassan, Hollander, van Lent & Tahoun (2019) · Loughran & McDonald (2011)
 :::
 
-## Hassan et al.'s striking finding
+## Hassan et al.'s striking finding {.scrollable}
 
 ::: {.get}
 Most variation in political risk is **across firms at the same time** — not common to all firms.
 :::
 
-Two firms in the same industry, in the same quarter, can face very different political risk: they sell to different governments, depend on different regulations, source from different countries. An aggregate index such as EPU measures what is common — and misses most of what reaches one firm.
+Two firms in the same industry, in the same quarter, can face very different political risk: they sell to different governments, depend on different regulations, source from different countries, hold different licences. An aggregate index such as EPU measures what is common — and misses most of what reaches one firm.
+
+- **Behaviour validates the measure.** Firms with high PRisk cut investment and hiring, and lobby and donate to politicians more — what theory says firms facing political risk should do.
+- **Dispersion widens when aggregate risk is high.** The moments a national index rises are precisely those when it says least about any one firm.
+- **Topics matter.** Firms that talk more about the risks of one political topic increase their lobbying *on that topic*, and not on others, the next quarter.
+
+A board tracking a national index as its own exposure is watching the regional weather report while the risk is in the plumbing of its own building.
+
+::: {.muted}
+Source: Hassan, Hollander, van Lent & Tahoun (2019).
+:::
 
 > **Put it to the room:** what does that mean for a firm that buys a *country*-risk score?
 
@@ -181,10 +212,14 @@ p_o = \frac{\text{agreements}}{N}
 p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 $$
 
-$p_o$ is the share of items both coders put in the same category; $p_e$ is the agreement expected if each coded independently at their own rates ($n_{A,k}$: items coder A put in category $k$). Kappa = 1 is perfect agreement; 0 is no better than chance.
+$p_o$ is the share of items both coders put in the same category; $p_e$ is the agreement expected if each coded independently at their own rates ($n_{A,k}$: items coder A put in category $k$). Kappa = 1 is perfect agreement; 0 is no better than chance; negative values are worse than chance.
 
 ::: {.warn}
-Percent agreement flatters: two coders guessing will agree often, especially when one category dominates.
+Percent agreement flatters: two coders guessing will agree often, especially when one category dominates. Where four headlines in five are not about geopolitics, two coders who write "not geopolitical" for every item agree on most of them — having measured nothing.
+:::
+
+::: {.muted}
+Source: Cohen (1960), the chance-corrected coefficient for two coders on a nominal scale.
 :::
 
 ## A worked example — 40 headlines {.scrollable}
@@ -199,16 +234,21 @@ Three collapsed categories: not geopolitical (0), threat, act. Coder A in the ro
 | **B total** | 22 | 12 | 6 | 40 |
 
 ::: {.fragment}
-$p_o = 33/40 = 0.825$ · $p_e = (24\cdot22 + 10\cdot12 + 6\cdot6)/1600 = 0.4275$ · $\kappa \approx 0.69$
+$p_o = (20+8+5)/40 = 33/40 = 0.825$ · $p_e = (24\cdot22 + 10\cdot12 + 6\cdot6)/1600 = 684/1600 = 0.4275$ · $\kappa = (0.825-0.4275)/(1-0.4275) \approx 0.69$
 
-An 82.5% agreement shrinks once chance is removed: both coders put more than half the headlines in the dominant category, where much of their agreement was to be expected.
+An 82.5% agreement — better than four in five — shrinks by almost a fifth once chance is removed: both coders put more than half the headlines in the dominant category, where much of their agreement was to be expected.
 :::
+
+| Convention | Threshold | This example |
+|---|---|---|
+| Landis & Koch (1977) | 0.61–0.80 "substantial" | respectable |
+| Krippendorff's alpha | ≥ 0.800 to rely on data; 0.667–0.800 tentative only | a tentative claim |
 
 ::: {.muted}
-Landis & Koch: 0.61–0.80 "substantial". Krippendorff's alpha: ≥ 0.800 for firm conclusions, ≥ 0.667 for tentative ones. Respectable by the first convention; only tentative by the second.
+Alpha generalises kappa to more than two coders, missing data and ordinal or interval scales (Krippendorff 2018; Hayes & Krippendorff 2007). What counts as "good enough" is a convention — and the conventions differ.
 :::
 
-## Disagreement is information
+## Disagreement is information {.scrollable}
 
 1. Read every disagreement
 2. Unclear protocol, or coder error?
@@ -217,8 +257,15 @@ Landis & Koch: 0.61–0.80 "substantial". Krippendorff's alpha: ≥ 0.800 for fi
 
 Some disagreements are slips. The valuable ones reveal a case the protocol did not anticipate — a sanctions headline, a cyber operation, a military exercise that may or may not be a build-up.
 
+- **A gap built into GPR-style protocols.** Sanctions, export controls and trade wars are not among Caldara and Iacoviello's eight categories: a faithful protocol must code them "not geopolitical", at best with a flag. Yet export controls on semiconductors may matter more to a firm's inputs than a distant military exercise.
+- **Machines as coders.** A trained classifier or a language model given the protocol reads latent content better than any dictionary — but it is a *third coder*, and its agreement with humans is measured with the same coefficient. One that agrees on election headlines may disagree on export controls; only a fresh human-coded sample will say.
+
 ::: {.step}
 Never average disagreement away. It shows where the concept is fuzzy.
+:::
+
+::: {.muted}
+Automated methods are "no substitute for careful thought and close reading" and need problem-specific validation — Grimmer & Stewart (2013).
 :::
 
 # Big data {background-color="#E3120B" style="color:#F7F4ED"}
@@ -233,6 +280,10 @@ GDELT turns news in many languages into searchable records: every country, every
 | **Duplication** | one wire story, hundreds of articles |
 | **Machine coding** | irony, quotation and history misread |
 | **"N = all"** | a huge biased sample is confidently wrong |
+
+- **Meng (2018):** the error of a large non-random sample depends on the correlation between being in the sample and the quantity measured; even a tiny correlation can make millions of records worth less than a small random sample.
+- **Lazer et al. (2014):** a search-based flu model, after an initial success, substantially overestimated prevalence for long stretches — the behaviour generating the data changed; the model did not.
+- Forty headlines drawn at random from a defined query, coded by two people with a written protocol, can be more *valid* for a specific question — not because forty beats millions, but because the analyst knows what the forty are.
 
 ::: {.get}
 **Big data for detection** — something is happening, here, now. **Small, coded data for measurement** — how much, compared with what. A spike that flags a supplier country is detection done well; "risk there has doubled" from the same spike is measurement done badly.
@@ -254,6 +305,9 @@ A composite indicator combines several indicators into one number — country-ri
 
 For a firm's exposure index, the natural framework is the five channels: each indicator must be defended as exposure through a named channel, or it does not belong.
 
+- **A framework, illustrated.** Sanctions exposure: share of revenue in sanctioned or sanctioning jurisdictions (market access), share of critical inputs sourced there (inputs), the banks the firm settles through there (finance) — three routes by which one event reaches the accounts.
+- **Missing data, in numbers.** Country GPR covers 44 countries; country EPU about twenty. Drop every country missing an indicator and only large, well-documented economies remain. Imputing is a claim about a country nobody measured; flagging is honest and less tidy.
+
 ::: {.muted}
 OECD/JRC (2008), *Handbook on Constructing Composite Indicators*. [doi:10.1787/9789264043466-en](https://doi.org/10.1787/9789264043466-en)
 :::
@@ -270,25 +324,45 @@ $$
 
 Min–max puts every indicator on 0–1 with one direction: higher = more risk. Invert indicators where higher is safer — a political-stability score left uninverted makes a stable country look risky.
 
+- The **WGI** political-stability measure is scored higher = *more* stable. Its 2025 edition moved to a 0–100 score and recalculated its history: values from different editions cannot be mixed. The WGI are themselves composites, reporting a margin of error for every estimate — a discipline most commercial scores skip.
+- Min–max is sensitive to extremes: one country with an extraordinary value compresses everyone else into a narrow band. z-scores, ranks or distance to a reference country give different rankings from the same data.
+
 $$
 CI = \frac{\sum_j w_j\, x^{*}_j}{\sum_j w_j}
 $$
 
-The composite is a weighted average. Equal, statistical or expert weights are each defensible; none is neutral.
+The composite is a weighted average. Equal, statistical or expert weights are each defensible; none is neutral. Equal weights say every dimension matters equally — rarely what anyone believes. Statistical weights (principal components, say) reward indicators that move together, which may simply be the redundant ones. Expert weights encode the expert.
 
 ::: {.warn}
-**Compensability:** excellent governance + an active war → "medium risk". Is that what the board should read? A firm does not experience the average of a country's risks, but the worst one that touches its operations.
+**Compensability:** excellent governance + an active war → "medium risk". Is that what the board should read? A firm does not experience the average of a country's risks, but the worst one that touches its operations. Additive aggregation is fully compensatory; geometric is partially so, penalising unbalanced profiles; non-compensatory rules allow no trade-off at all.
 :::
 
-## The point for the board
+::: {.muted}
+Source: Kaufmann, Kraay & Mastruzzi (2011); WGI 2025 edition; OECD/JRC (2008).
+:::
+
+## The point for the board {.scrollable}
 
 ::: {.get}
 Weights are value judgements. **Show them, let the reader move them, report whether the ranking survives.**
 :::
 
-A composite that hides its weights is an opinion dressed as a measurement. A country whose rank swings with one weight is not "fifth" — it is a country about which the index has no firm opinion.
+A composite that hides its weights is an opinion dressed as a measurement. A country whose rank swings from fifth to twenty-fifth with one weight is not "fifth" — it is a country about which the index has no firm opinion.
+
+- **Sensitivity, the simple version** (Saisana, Saltelli & Tarantola 2005): rank under equal weights; then under each indicator alone; count the countries that move more than a few places.
+- A board that sees a supplier country fall from first to ninth when one weight is halved has learnt the decision rests on a judgement about that indicator — not on the index.
+
+::: {.muted}
+**From the archive · the Human Development Index.** UNDP's 1990 report, under Mahbub ul Haq, averaged three min–max-normalised dimensions — a long and healthy life, knowledge, a decent standard of living — with equal weights. In 2010 it switched to a geometric mean, citing compensability, and countries were re-ranked. Ravallion (2012) did the algebra: the new formula implied valuations of an extra year of life that varied enormously with income and were very low in the poorest countries. A firm's exposure index embeds trade-offs of the same kind.
+
+Source: UNDP (1990, 2010); Ravallion (2012).
+:::
 
 > **Put it to the room:** a consultancy sells you a 0–100 country-risk score. Which five questions before it enters a decision?
+
+::: {.fragment}
+The five-part audit: **what concept · from which sources · coded by whom or what · normalised and weighted how · how sensitive to each choice.** A score that cannot answer them is somebody's opinion, with decimals.
+:::
 
 ## Over to the practice round
 

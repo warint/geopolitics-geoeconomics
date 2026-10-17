@@ -85,7 +85,7 @@ format:
 
 # Anarchy {background-color="#E3120B" style="color:#F7F4ED"}
 
-## No government above states
+## No government above states {.scrollable}
 
 ::::: columns
 
@@ -117,7 +117,14 @@ In international relations, *anarchy* is a technical term: the absence of a gove
 What follows: **self-help** — each state ensures its own survival · **uncertainty about intentions** — no one knows what another will do with its power tomorrow · **relative gains** — states ask how much *more* the other gains (Grieco 1988)
 :::
 
-## Relative gains, applied
+- **Self-help:** alliances are arrangements of convenience; a state that relies entirely on an ally has placed its survival in someone else's hands
+- **Intentions:** capabilities — army, industry, population — can be observed; intentions cannot, and they change faster. Because misjudging a hostile state is so costly, states plan for capabilities, not stated intentions
+
+::: {.muted}
+Anarchy describes the *structure* of the system, not the level of violence within it.
+:::
+
+## Relative gains, applied {.scrollable}
 
 > A deal that makes both sides richer — but the rival richer **faster** — may be refused, restricted or reversed.
 
@@ -127,9 +134,16 @@ Because today's partner may be tomorrow's adversary, a state judges cooperation 
 That is the logic of export controls on advanced semiconductors. Commerce becomes security.
 :::
 
+- **Grieco (1988)** made this the dividing line with liberal institutionalists such as Keohane (Session 02): institutions can solve *cheating*, but not the problem that cooperation may help a rival more than oneself
+- **Powell (1991):** the weight on relative gains is not fixed — it depends on whether force is a live possibility. Between Canada and the United States, relative gains matter little and cooperation is easy; where force is conceivable, they matter a great deal
+
+::: {.muted}
+Grieco (1988), *International Organization* · Powell (1991), *APSR*.
+:::
+
 # Two realisms {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Waltz — defensive realism
+## Waltz — defensive realism {.scrollable}
 
 - **Structure** — anarchy + the **distribution of capabilities** — shapes behaviour
 - States seek **enough** power for security; too much provokes balancing, so expansion is usually self-defeating
@@ -138,11 +152,15 @@ That is the logic of export controls on advanced semiconductors. Commerce become
 Waltz explains behaviour by the shape of the system, not by the character of leaders or regimes: change the distribution of capabilities and you change what states do.
 
 ::: {.step}
-**The security dilemma** (Jervis 1978): what makes me secure makes you insecure — and you respond. Both end up worse off without anyone intending aggression.
+**The security dilemma** (Jervis 1978): what makes me secure makes you insecure — and you respond. Both end up worse off without anyone intending aggression. Named by Herz (1950); Jervis asked *when* it is most severe — when offensive and defensive postures **cannot be told apart** and **offence has the advantage**. Then every precaution looks like preparation for attack.
+:::
+
+::: {.warn}
+Escalation without intent: an export control to protect a technological lead → read as containment → restrictions on a critical mineral → read as coercion → the control tightens. Each step is defensive in the mind of the state that takes it. The firm loses a market or a supplier anyway.
 :::
 
 ::: {.muted}
-Waltz, K. N. (1979). *Theory of International Politics*.
+Waltz, K. N. (1979). *Theory of International Politics* · Herz (1950) · Jervis (1978), *World Politics*.
 :::
 
 ## Mearsheimer — offensive realism {.scrollable}
@@ -161,7 +179,14 @@ None of the five is extreme on its own. Together they imply that no great power 
 → Great powers **maximise relative power**; the ideal is **regional hegemony**, and preventing any other region from having one. For China: it will try to dominate Asia as the United States dominates the Western Hemisphere, and the United States will try to stop it. *"China cannot rise peacefully."*
 :::
 
-## Side by side
+- **Why not global hegemony?** "The stopping power of water": large bodies of water make it extremely difficult to project land power across oceans
+- **The only regional hegemon in modern history** is the United States, dominant in the Western Hemisphere since the nineteenth century; its twentieth-century foreign policy reads as a series of efforts to prevent a hegemon in Europe or North-East Asia
+
+::: {.muted}
+Mearsheimer, J. J. (2001). *The Tragedy of Great Power Politics*.
+:::
+
+## Side by side {.scrollable}
 
 | | Defensive (Waltz) | Offensive (Mearsheimer) |
 |---|---|---|
@@ -175,9 +200,11 @@ The two share the starting point — anarchy — and differ on how much power is
 Neither predicts **war**. Both predict **competition**.
 :::
 
+In Waltz's version realism often predicts *restraint*, since overexpansion provokes balancing; in Mearsheimer's, war is one possible outcome of security competition among several. An analyst who reads realism as a forecast of war has misread it; one who reads it as a forecast that **the economic relationship will be subordinated to the strategic one** has read it correctly.
+
 # Power transition and the Thucydides's Trap {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Power transition theory
+## Power transition theory {.scrollable}
 
 - **Hierarchy**, not balance, keeps the peace — the reverse of Waltz's emphasis
 - A **dominant power** writes the order
@@ -185,11 +212,19 @@ Neither predicts **war**. Both predict **competition**.
 
 Both conditions matter: a challenger content with the existing rules is not dangerous, and a dissatisfied one far behind cannot act. Risk peaks when dissatisfaction meets near-parity — which is why the measure of power, later in the hour, matters so much.
 
-::: {.muted}
-Organski (1958) · Organski & Kugler (1980)
+- **Organski, *World Politics* (1958):** a hierarchy, not a balance. At the top, a dominant power that built the order and benefits from it; below, great powers satisfied or not. Industrialisation drives uneven growth
+- Near parity, the dissatisfied challenger has the motive *and* the means to revise the order — and the dominant power has reason to act before its lead disappears
+- **Gilpin (1981):** the order grows misaligned with the distribution of power until a hegemonic war redistributes both. **Kennedy (1987):** dominant powers overextend relative to their economic base
+
+::: {.get}
+The link to Session 02: a rising power that did not write the rules is likely to be dissatisfied with them, and as its capabilities approach the rule-writer's, its ability to revise them grows.
 :::
 
-## Allison's Thucydides's Trap
+::: {.muted}
+Organski (1958) · Organski & Kugler (1980), *The War Ledger* · Kugler & Lake (1996) · Gilpin (1981) · Kennedy (1987)
+:::
+
+## Allison's Thucydides's Trap {.scrollable}
 
 > *"It was the rise of Athens and the fear that this instilled in Sparta that made war inevitable."*
 
@@ -197,7 +232,11 @@ Organski (1958) · Organski & Kugler (1980)
 **16 cases** in 500 years of a rising power challenging a ruling one · **12 ended in war**
 :::
 
-Allison and the Harvard Thucydides's Trap project apply the power-transition logic across history. The ratio is striking, and it is the most quoted number in debates on US–China relations.
+Allison and the Harvard Thucydides's Trap project apply the power-transition logic across history. The ratio is striking, and it is the most quoted number in debates on US–China relations. The four without war include the US overtaking Britain in the early twentieth century and the Cold War — presented as proof that war is avoidable, at the price of deliberate and painful adjustment by both sides.
+
+::: {.muted}
+**Thucydides** (the Peloponnesian War, 431–404 BCE) separated the grievances both sides cited — Corcyra, Potidaea, alliances, trade — from the "truest cause, least spoken of": the growth of Athenian power and the alarm it caused in Sparta. He did not say rising powers always fight ruling ones; the law of history is Allison's generalisation. Allison, G. (2017). *Destined for War*.
+:::
 
 ::: {.fragment}
 **What is wrong with this ratio?** Ask how the sixteen cases were chosen, and what would count as a case that did not end in war.
@@ -211,6 +250,14 @@ Allison and the Harvard Thucydides's Trap project apply the power-transition log
 | **Nuclear weapons** | no pre-1945 case prices them |
 | **Interdependence** | US–China ties are deeper — though 1914 Britain and Germany traded heavily too |
 | **Measuring "rise"** | gross indicators overstate China (Beckley 2018) |
+
+- **Case selection:** a ratio of twelve to sixteen is only as informative as the rule that produced the sixteen
+- **Nuclear weapons:** the Cold War, the one transition-like rivalry between nuclear powers in the dataset, did not end in war between the principals
+- **Interdependence:** Copeland (2015) — what restrains is not the level of trade but leaders' *expectations* of its future
+
+::: {.step}
+**The peaceful case, 1895–1903.** Venezuela boundary crisis, 1895 → Britain accepts arbitration (award 1899). Hay–Pauncefote Treaty, 1901 → the way cleared for an American canal at Panama. Alaska boundary tribunal, 1903 → largely in the American favour, the British member siding with the Americans against the Canadian members. The ruling power gave way — partly at the expense of **Canada**. A peaceful transition is not costless for everyone else.
+:::
 
 ::: {.muted}
 Beckley's point leads into the next section: GDP, population and CINC ignore the costs of governing, feeding and protecting a population, so a large country can look more powerful than it is. Interdependence returns in Session 04.
@@ -231,11 +278,19 @@ Beckley's point leads into the next section: GDP, population and CINC ignore the
 
 A state's CINC is therefore its average share of the system's capabilities across the six components. The system sums to about 1 — not exactly, because a state missing a component is averaged over the ones it has.
 
-::: {.muted}
-Singer, Bremer & Stuckey (1972) · Correlates of War NMC v7.0, 1816–2022
+- **Origins:** devised in the 1960s at the University of Michigan by J. David Singer and the Correlates of War project
+- **Virtues:** transparent; **two centuries** of comparable data — what lets Organski's and Mearsheimer's arguments meet evidence at all; and shares of the system total sidestep comparing nineteenth-century pounds with twenty-first-century dollars — each year is compared only with itself
+- **Coverage:** one row per state-year, some **17,000** state-years; China and Japan enter in **1860**
+
+::: {.step}
+**Two centuries in one chart.** Britain leads from 1816 until the 1890s; the US passes it briefly in 1892 and for good in 1897. The American share peaks in **1945 at nearly 40%** — the highest any state reaches in two centuries. On this index the Soviet Union *leads* the US from 1971 to 1988. Where China stands against the US today is what the practice round finds.
 :::
 
-## What it rewards — and misses
+::: {.muted}
+Source: Singer, Bremer & Stuckey (1972); Correlates of War, National Material Capabilities v7.0, 1816–2022.
+:::
+
+## What it rewards — and misses {.scrollable}
 
 ::::: columns
 
@@ -260,10 +315,20 @@ Singer, Bremer & Stuckey (1972) · Correlates of War NMC v7.0, 1816–2022
 
 :::::
 
-What CINC misses is what Sessions 08 and 11 show to be the instruments of coercion that reach firms most directly. Because it rewards size and heavy industry, it shows China passing the United States much earlier than military spending or GDP at market exchange rates do: one reality, three measures, three dates.
+The design embodies a theory of power — a theory of the 1960s. A large, populous, industrialising country that produces much steel and burns much energy scores highly even if its technology is behind, its productivity low and its military poorly equipped.
+
+::: {.step}
+**Qing China, 1860s–1880s.** In decades when China was losing wars to European powers and ceding territory and treaty ports, its CINC *exceeded* that of the United States — a vastly larger population, American industry not yet at scale. No historian would call Qing China the more powerful. The index does, for a quarter of a century.
+:::
+
+What CINC misses is what Sessions 08 and 11 show to be the instruments of coercion that reach firms most directly — the payment systems, cloud platforms and communications infrastructure that Farrell & Newman (2019) identify as hubs of coercion. Because it rewards size and heavy industry, it shows China passing the United States much earlier than military spending or GDP at market exchange rates do: one reality, three measures, three dates.
 
 ::: {.get}
 **Predict:** in which decade does CINC show China passing the US? The practice round answers it — and then asks the same of military spending and GDP.
+:::
+
+::: {.muted}
+Beckley (2018): on net measures that subtract the costs of governing, feeding, policing and protecting a population, the US–China gap looks larger and the transition further off. Each measure is defensible. None is neutral. Source: COW NMC v7.0; Beckley (2018), *International Security*.
 :::
 
 # What it means for the multinational {background-color="#E3120B" style="color:#F7F4ED"}
@@ -282,7 +347,12 @@ What CINC misses is what Sessions 08 and 11 show to be the instruments of coerci
 Each row links a concept from the hour to a firm decision: relative gains to product lines, power transition to compliance, the security dilemma to suppliers.
 :::
 
-## Put it to the room
+- **Two compliance regimes, in law:** since China adopted its own counter-sanction instruments in **2020 and 2021**, complying with one jurisdiction's rules can be penalised in the other. "Is this transaction legal?" has a second clause: *legal where, and under whose law?*
+- **The earliest signal** of a shifting balance is not war but economic statecraft — export controls, investment screening, sanctions and counter-sanctions, data restrictions, sourcing rules — observable in official gazettes and company disclosures. *The most reliable signal is a change in which rules the firm is asked to follow*
+- **Polarity matters for location:** a bipolar system makes the firm choose a side; a multipolar one produces hedging states that trade with both — room for operations in "connector" economies (Session 04)
+
+
+## Put it to the room {.scrollable}
 
 > 30% of your revenue is in China. A board member says *"China has already overtaken America."*
 > **What do you ask before you answer?**
@@ -297,7 +367,7 @@ The answer differs by measure — CINC, military spending or GDP each give a dif
 
 # What the figure does not license {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four limits
+## Four limits {.scrollable}
 
 1. Capabilities, not **influence, intentions or war** — a crossover on the chart is not a prediction of conflict
 2. **Overweights size** — blind to chips, alliances, finance
@@ -305,6 +375,14 @@ The answer differs by measure — CINC, military spending or GDP each give a dif
 4. Describes **states**, not your firm's revenue and suppliers
 
 A firm's exposure depends on where its revenue and suppliers sit, not on the system's distribution of power. Use these limits to write today's catch.
+
+::: {.step}
+**Read the seams before the story.** The chart is not a fixed set of countries: Germany (`GMY`) disappears in 1945 and returns in 1991, with `GFR` and `GDR` between; Japan is absent 1946–1951; Russia and the USSR are one series (`RUS`). Missing components are coded `-9`, not blank. And sources are joined over time, so a jump in one component can be a revision rather than a shift in power.
+:::
+
+::: {.muted}
+Dissatisfaction — the variable power transition theory needs — is not on the chart. Source: COW NMC v7.0 codebook.
+:::
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 

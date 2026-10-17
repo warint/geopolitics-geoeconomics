@@ -74,6 +74,8 @@ format:
 
 ::: {.muted}
 The question for the firm: through which channels does inter-state rivalry in cyberspace reach its operations — and how should its decision architecture absorb it?
+
+The answer argued today: the firm is rarely the intended target of strategic cyber operations, frequently their collateral, and increasingly a piece of the infrastructure over which states compete.
 :::
 
 # Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
@@ -84,7 +86,7 @@ The question for the firm: through which channels does inter-state rivalry in cy
 
 # Is cyberspace a domain of geopolitics? {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Two caricatures
+## Two caricatures {.scrollable}
 
 ::::: columns
 
@@ -112,6 +114,10 @@ Public debate swings between these two pictures. Neither is a matter of opinion:
 Both are claims about **evidence**. Today we put them to data.
 :::
 
+::: {.muted}
+**From the archive · Estonia, 2007.** After the Bronze Soldier, a Soviet-era memorial, was moved out of central Tallinn, denial-of-service attacks hit government websites, banks, newspapers and parties for weeks. Estonia pointed to Russia; Russia denied it. An existing rivalry, low sophistication, limited harm, contested attribution. Called "the first cyber war" — in hindsight, the first clear case of restraint. Legacy: NATO's cyber defence centre in Tallinn and the *Tallinn Manual* (Schmitt 2013).
+:::
+
 ## Three activities, easily confused {.scrollable}
 
 | | Purpose | Typical actor |
@@ -122,8 +128,16 @@ Both are claims about **evidence**. Today we put them to data.
 
 Of the type: an intrusion into a defence supplier's network (espionage); denial of service against a ministry, or wiper malware (disruption); ransomware against a hospital or a pipeline operator (crime). The same firm can meet all three — for different reasons, from different actors.
 
+**Cyber operation:** the use of code or network access by an organised actor to obtain information from, disrupt, degrade or manipulate a target's systems. The three differ in purpose and actor, not technique — the same intrusion may serve any of them, and espionage leaves access that can later be used for disruption.
+
 ::: {.warn}
-The boundaries blur. States tolerate, hire and shelter criminal groups — and that blur is itself a geopolitical fact.
+The boundaries blur. States tolerate, hire and shelter criminal groups — and that blur is itself a geopolitical fact. **Colonial Pipeline, May 2021:** ransomware by a criminal group believed to operate from Russia shut a US pipeline — crime in motive, geopolitics in consequence, as what the Russian state knew or tolerated became a matter between governments.
+:::
+
+Different defences: espionage → technical controls; disruption → resilience; crime → law enforcement, insurers, willingness to pay. A register with "cyber" as one line has not begun the analysis.
+
+::: {.muted}
+Source: CISA (2023) on Colonial Pipeline.
 :::
 
 # Cyber war versus cyber realities {background-color="#E3120B" style="color:#F7F4ED"}
@@ -139,17 +153,33 @@ Their dataset covers cyber incidents and campaigns between **rival states** — 
 | **3 · Why restraint** | escalation risk · revealing the capability · blowback · keeping access to spy |
 | **4 · Limited coercion** | Better at signalling and spying than at compelling |
 
+- **Why rivals?** A few pairs of states account for a large share of militarised disputes. If cyber is a new tool of old conflicts, it appears in rivalries; if it lets any state hurt any other cheaply, it appears outside them too. The design makes the first hypothesis testable — and the second invisible.
+- **A DCID incident:** one operation by one state against another within a rival dyad, with a start date, method, target type, objective and severity; incidents group into **campaigns**. The September 2022 release: 433 incidents, start dates September 2000 to January 2021.
+- **The early-2010s debate it brought data to:** Rid — sabotage, espionage, subversion, not war; Gartzke — an adjunct to force; Kello — a permanent, sub-threshold "unpeace". The data came down closer to Rid and Gartzke.
+
 ::: {.muted}
-Valeriano & Maness (2015), OUP · data extended in DCID v2.0, 2000–2020 — today's replication data
+Valeriano & Maness (2015), OUP · data extended in DCID v2.0, 2000–2020 (Maness et al. 2022) — today's replication data · Rid (2012, 2013) · Gartzke (2013) · Kello (2013, 2017)
 :::
 
-## What restraint does not mean
+## What restraint does not mean {.scrollable}
 
 ::: {.get}
 Low **strategic** severity ≠ low **commercial** cost.
 :::
 
 An operation that barely registers on a scale of interstate harm can stop a company's production for weeks. The restraint thesis is about states and their wars; the firm's question is about its own downtime, data and contracts. Read severity scores with that gap in mind.
+
+| Episode | What it shows |
+|---|---|
+| **Stuxnet**, discovered 2010 | Sabotaged centrifuges at Natanz; widely attributed to the US and Israel. Narrow, disguised as malfunction — restraint. But the code escaped and spread worldwide: **blowback**. |
+| **Ukraine since 2014** | Kostyuk & Zhukov (2019): cyber operations had little discernible effect on the battlefield — weak instruments of compulsion even in war. |
+| **KA-SAT, 24 February 2022** | An operation against Viasat's satellite network disabled many customers' modems in Ukraine and beyond; remote control of wind farms in central Europe went with it. Attributed to Russia by the EU, UK and US in May 2022. |
+
+A pattern measured to 2020 is evidence about 2000–2020. Whether restraint holds *as of today* is open.
+
+::: {.muted}
+Source: Kostyuk & Zhukov (2019); UK Government (2022).
+:::
 
 > Back to the opening vote. What would the book say about the grid?
 
@@ -166,17 +196,25 @@ The networks globalisation built — finance, communications, the internet's inf
 
 Interdependence, in this view, is not only mutual benefit: it is a map of who can watch and who can cut off whom.
 
+- **Why hubs?** Network economics: hubs are efficient, efficiency attracts traffic, traffic makes the hub more central. The 1990s assumed this centralisation was technical, with no political content. That assumption was wrong.
+- **Panopticon, 2013:** the Snowden disclosures showed US agencies using the concentration of internet traffic and storage in American firms and territory to collect at scale.
+- **Chokepoint, 2012:** sanctioned Iranian banks were disconnected from SWIFT once the EU adopted the legal measures — a hub in one jurisdiction denied a whole banking system its connection to the world.
+- The two need each other: the panopticon says where to squeeze; the chokepoint gives it teeth.
+
 ::: {.muted}
 Farrell & Newman (2019), *International Security* 44(1): 42–79
 :::
 
-## The firm can be the hub
+## The firm can be the hub {.scrollable}
 
 ::: {.warn}
 Its cloud, its payment rails, its software updates are infrastructure its **home state** can watch or weaponise — and **rival states** therefore treat as a target.
 :::
 
 This is the uncomfortable implication for a multinational: it is not only exposed *to* the network but is *part* of it. Its nationality, and where its infrastructure sits, shape who sees it as a tool and who sees it as a target.
+
+- **Exposure through others' hubs.** Payments clearing in one jurisdiction, data stored in a second, software updates from a third: exposure to the coercive choices of three states.
+- **The firm as hub.** A cloud provider, payment network, telecoms operator or widely used software maker: rivals have reason to target it, exclude it, or replace it with a domestic alternative. It is part of the terrain.
 
 ::: {.step}
 The bridge to **Session 10** (sanctions: chokepoints in finance) and **Session 11** (space: chokepoints in orbit).
@@ -195,6 +233,11 @@ Every cyber dataset rests on **attribution**. Unlike a border clash, an intrusio
 | **political** | governments choose when, and whom, to name |
 | **selective** | what is attributed is what someone wanted known |
 
+Attribution works at three levels: the **machines**, the **operators**, and the **state**, if any, behind them. Public attribution is the decision to announce the third. Indicators — code, infrastructure, working hours, language settings — can be borrowed or planted.
+
+- **Rid & Buchanan (2015):** attribution is what states make of it — a judgement assembled from technical, operational and strategic evidence, communicated for a purpose.
+- **Lindsay (2015):** for the most consequential operations few actors are capable, so the problem is less severe — one reason deterrence of major attacks remains possible.
+
 ::: {.get}
 Event data on cyber operations is **a record of public attributions**, not a record of operations. States that attribute publicly appear more often as victims; operations between allies, and those never detected, are nearly invisible. That is the catch of today's practice round.
 :::
@@ -203,33 +246,41 @@ Event data on cyber operations is **a record of public attributions**, not a rec
 
 ## NotPetya, June 2017 {.scrollable}
 
-- Spread through a **Ukrainian accounting-software update**; widely attributed by Western governments to Russian military intelligence
-- It spread far beyond its apparent target: shipping, pharmaceutical, food and logistics multinationals reported very large losses — Maersk, Merck, Mondelez among them
+- **27 June 2017**, the eve of a Ukrainian public holiday: spread through a **Ukrainian accounting-software update**; publicly attributed to the Russian military by the US and UK, among others, in **February 2018**
+- It looked like ransomware, but its encryption could not be reversed: **a wiper dressed as a ransom note**. Within hours it crossed borders through the internal networks of any company running the software at a Ukrainian site
+- It spread far beyond its apparent target: shipping, pharmaceutical, food and logistics multinationals reported very large losses — Maersk lost the use of systems across its global operations; Merck and Mondelez among the others. None had a quarrel with anyone
 
 | Lesson | |
 |---|---|
 | **Proximity is technical** | hit for running a piece of software in Ukraine, not for being chosen |
-| **Insurance is no backstop** | insurers invoked **war exclusions**; the market now writes explicit exclusions for state-backed attacks (Lloyd's, from 2023) |
-| **The board owns it** | regulators increasingly require disclosure of material incidents and of board oversight |
+| **Insurance is no backstop** | insurers invoked **war exclusions**; in Merck's case New Jersey courts held the traditional exclusion, written for armed conflict, did not cover the attack. The market now writes explicit exclusions for state-backed attacks (Lloyd's, from 2023) |
+| **The board owns it** | US rules adopted in 2023 require listed companies to report material incidents promptly and describe cyber risk governance in annual reports |
 
 ::: {.muted}
 The firm's cyber cover may end exactly where geopolitics begins. Exposure is set by the software and networks a firm shares with a target country, not only by whom it does business with.
+
+Source: Greenberg (2019); SEC (2023).
 :::
 
 # Digital sovereignty {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Where data sits, and who may see it {.scrollable}
 
-States regulate data localisation, cross-border transfers, foreign cloud and telecoms vendors.
+States regulate data localisation, cross-border transfers, foreign cloud and telecoms vendors. This is weaponised interdependence's **defensive mirror**: states that fear others' panopticon and chokepoint assert control over networks in their own jurisdiction.
 
 The network is splintering along jurisdictional lines. For a multinational this is geopolitical risk built into its IT architecture: each new rule changes where it may store, move and process data, and which vendors it may use.
 
+| Instrument | Case |
+|---|---|
+| **Localisation and transfer rules** | 2020: the Court of Justice of the EU invalidated the framework for EU–US personal-data transfers — a legal basis for a data architecture gone overnight |
+| **Security reviews, vendor bans** | from 2019: US and allied restrictions on Huawei equipment forced operators to redesign, some to strip out networks already built |
+| **Access laws** | the US CLOUD Act (2018) compels firms to hand over data, including data stored abroad — awkward beside European data-protection law |
+
 | For the multinational | |
 |---|---|
-| **Duplication** | separate data centres or cloud regions per jurisdiction |
-| **Conflicting law** | one state requires disclosure another forbids |
+| **Duplication** | separate data centres or cloud regions per jurisdiction; separate equipment supply chains and compliance regimes |
+| **Conflicting law** | one state requires disclosure another forbids — the firm must choose which to break |
 | **Vendor risk** | a supplier banned in one market, mandatory in another |
-
 # The firm's decision architecture {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Who owns geopolitical cyber risk? {.scrollable}
@@ -244,13 +295,28 @@ Cyber risk is often left to IT. Its geopolitical part cuts across roles — and 
 | **Insurer** | prices it — and stops at state-backed operations |
 | **Regulators** | disclosure, localisation, vendor rules |
 
-## Put it to the room
+Cyber risk runs through all five channels: **data and operations** (a halted line, a forced redesign), **assets and people** (stolen IP, staff compelled to give access), **finance** (insurers' exclusions, payment hubs as chokepoints), **inputs** (a banned vendor, a compromised update — NotPetya's route) and **market access** (excluded as a security risk).
+
+::: {.warn}
+A firm where each actor holds a piece and nobody holds the whole has a decision architecture built for crime and espionage, not for geopolitics. The CISO typically reports through a technology function with limited geopolitical analysis.
+:::
+
+## Put it to the room {.scrollable}
 
 > Your firm runs a plant in a country that sits in one of the densest cells of the initiator × target matrix.
 > **What do you change on Monday — and what do you tell the insurer?**
 
 ::: {.muted}
 Think through the roles on the previous slide: who decides, who acts, who pays. And remember the matrix records public attributions — a dense cell is where states have named each other, not necessarily where operations are.
+:::
+
+::: {.fragment}
+Not, first, the technology. Four changes, in order:
+
+1. **The map** — which systems at the site connect to which elsewhere, which software updates from which vendors, which data cross which borders
+2. **Segmentation** — a subsidiary network that can reach group core systems is a bridge; a wall is often the cheapest geopolitical control
+3. **Contracts** — the policy on state-attributed operations; the cloud terms on government access; suppliers' duty to notify
+4. **Governance** — who asks, *before* an investment, which states would want our data or our downtime
 :::
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
@@ -266,6 +332,12 @@ A **highlight table** (rows × columns, colour = count) turns a list of incident
 
 ::: {.check}
 Click a cell, and the time series shows that dyad's history.
+:::
+
+::: {.muted}
+Read the codebook first: the dyad's two states are stored in **Correlates of War code order**, so the first is not necessarily the initiator. The wider EuRepoC record (v1.3, 2000–2024) adds criminal, hacktivist and unattributed incidents: read DCID as total exposure and you underestimate it; read EuRepoC as state strategy and you see a war where there is mostly crime.
+
+Source: Maness et al. (2022), DCID v2.0 codebook; Zettl-Schabath et al. (2025), EuRepoC v1.3.
 :::
 
 ## Over to the practice round

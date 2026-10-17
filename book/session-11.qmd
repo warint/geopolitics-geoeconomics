@@ -273,8 +273,8 @@ and in December 2022 the UN General Assembly called on all states to make the sa
 What firms have actually suffered is the reversible kind. On 24 February 2022, the day Russia's
 full-scale invasion of Ukraine began, a cyberattack on the ground segment of Viasat's KA-SAT network
 disabled thousands of user modems in Ukraine and across Europe, including those used for the remote
-monitoring of thousands of wind turbines in Germany. The European Union, the United Kingdom and the
-United States attributed the attack to Russia. The satellite was untouched; the service failed for
+monitoring of wind farms in central Europe. The European Union, the United Kingdom and the
+United States attributed the attack to Russia [@ukgov2022]. The satellite was untouched; the service failed for
 its customers, many of them nowhere near the war. Since then, the jamming and spoofing of navigation
 signals around conflict zones has become routine. In 2024 Finnair suspended its flights to Tartu, in
 Estonia, for several weeks because interference made the airport's satellite-based approach
