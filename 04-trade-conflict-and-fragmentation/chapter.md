@@ -124,6 +124,35 @@ Herfindahl, became the standard measure of market concentration in competition p
 intellectual ancestor of every modern dependency dashboard was designed to measure geopolitical
 leverage.
 
+The index is the square root of the sum of the squared shares of each partner in a country's
+exports, times a hundred: 100 if everything goes to one partner, close to zero if exports are
+spread evenly across many. @tbl-ch04-hirschman computes it from the exporter-reported goods exports
+in the IMF's partner-country trade statistics [@imf2026].
+
+| Exporter | Index 2021 | Index 2024 | Largest partner, 2024 | Its share, 2024 (%) |
+|---|---:|---:|---|---:|
+| Mongolia | 83.2 | 92.0 | China | 91.9 |
+| Mexico | 80.9 | 83.3 | United States | 83.2 |
+| Canada | 76.0 | 76.7 | United States | 76.5 |
+| Vietnam | 35.8 | 36.3 | United States | 30.4 |
+| Russia | 21.9 | 33.5 | China | 25.6 |
+| South Korea | 32.4 | 30.4 | China | 19.5 |
+| United States | 27.4 | 26.8 | Canada | 16.9 |
+| China | 23.6 | 21.1 | United States | 14.7 |
+
+: Hirschman's index of export-partner concentration (100 = all exports to one partner) and the largest partner's share of goods exports. Source: IMF, International Trade in Goods by partner country (exporter-reported); author's calculations. {#tbl-ch04-hirschman}
+
+The table sorts itself into Hirschman's two kinds of country. Mongolia sent 92 per cent of its
+recorded exports to China in 2024; Mexico and Canada sell three-quarters or more of theirs to the
+United States. For them the largest partner is a matter of national survival, while for China and
+the United States no single partner takes more than 17 per cent of exports. That asymmetry, not
+the volume of trade, is what the influence effect is made of. The striking movement is Russia's:
+China's share of its exports rose from 13.9 per cent in 2021 to 25.6 per cent in 2024, and the
+index from 21.9 to 33.5. Russia stopped publishing detailed customs data in 2022, so its later
+figures rest partly on estimates, but the direction is clear — the turn away from Europe handed its
+new principal customer the leverage Hirschman described. South Korea moved the other way, China's
+share of its exports falling from 25.3 to 19.5 per cent.
+
 Two further realist arguments sharpen the point. The first concerns **relative gains**. Chapter 3
 showed why a state in an anarchic system may reject a deal that makes it better off if the deal
 makes its rival better off by more. Trade usually benefits both partners, but rarely equally, and a
@@ -257,6 +286,20 @@ contracts, which do not become cheaper to break because the national economy has
 Geopolitical decisions are taken at the level where switching is cheapest and paid for at the level
 where it is dearest.
 
+The rise of multilateral openness is a single series. @fig-ch04-world-trade-gdp plots world exports
+plus imports as a share of world GDP [@worldbank_wdi]: 25.8 per cent in 1970, 38.1 per cent in 1990,
+a peak of 60.3 per cent in 2008. Then the rise stopped. The 2022 value of 62.1 per cent is the
+arithmetic of energy and food prices rather than of integration, and by 2024 the ratio was back at
+56.7 per cent.
+
+![World trade rose from about a quarter of world GDP in 1970 to 60 per cent in 2008 and has moved sideways since; the 2022 high reflects commodity prices. Source: World Bank, World Development Indicators, NE.TRD.GNFS.ZS (world); the preliminary 2025 aggregate is omitted.](figures/ch04-world-trade-gdp.png){#fig-ch04-world-trade-gdp fig-alt="Line chart of world trade as a percentage of world GDP, 1970 to 2024: 26 per cent in 1970, 38 in 1990, 60 in 2008, 52 in 2009 and 2020, 62 in 2022 and 57 in 2024."}
+
+On the argument of @martin2008, four decades of rising openness made any single bilateral rupture
+cheaper. On a fragmentation reading, the plateau since 2008 shows the expansion reaching its
+political limits a decade before the tariffs of 2018. No aggregate ratio can choose between the two:
+flat openness is compatible with trade reorganising along political lines beneath an unchanged
+total, which is what the second half of this chapter looks for.
+
 ## From "does trade pacify?" to "how is trade used?"
 
 The fourth of Mansfield's points has a theoretical counterpart that has become central to the study
@@ -350,6 +393,17 @@ longer view of US sourcing: direct imports from China have fallen while Vietnam 
 gained share, and it is unclear whether the reallocation reduces dependence on supply chains linked
 to China at all. The bilateral line has moved; the network beneath it has moved much less.
 
+@fig-ch04-us-import-shares shows the same movement in US-reported imports. China's share rose from
+8.6 per cent in 2000 to 21.6 per cent in 2017, fell to 16.5 per cent in 2022 — the fall @freund2024
+measure at the tariff line — and to 13.4 per cent in 2024; the provisional figure for 2025, a year
+of much higher tariffs, is 9.0 per cent. Mexico has been the largest source since 2023, and Vietnam
+rose from 2.0 to 5.7 per cent. The cost was not borne by Chinese exporters alone: the 2018 tariffs
+were passed almost entirely into the prices paid by American buyers [@amiti2019; @fajgelbaum2020].
+
+![China's share of US goods imports fell from 21.6 per cent in 2017 to 9.0 per cent in 2025 (provisional), while Mexico and Vietnam gained. Source: IMF, International Trade in Goods by partner country, US-reported imports (CIF).](figures/ch04-us-import-shares.png){#fig-ch04-us-import-shares fig-alt="Line chart, 1990 to 2025, of shares of US goods imports. China rises from 3 to 22 per cent by 2017, then falls to 9 per cent in 2025. Mexico rises to 16 per cent, overtaking China in 2023. Canada declines from 19 to 11 per cent. Vietnam reaches 5.7 per cent."}
+
+The red line records where goods crossed the border from, not where their value was added.
+
 The main finding of @gopinath2025 is that after the invasion trade *between* the two blocs fell
 relative to trade *within* them, by a margin the paper estimates with care and which no summary,
 including this one, should be trusted to round; foreign direct investment shows a similar
@@ -405,13 +459,24 @@ older file and a figure built on the newer one can disagree for reasons that hav
 with geopolitics. In 2021, the last full year before the invasion, the file covers 193 countries,
 with the United States at 2.41 and China at −0.41 on the scale.
 
+@fig-ch04-ideal-points traces five states on the scale. The Soviet Union sits near the bottom for
+most of the Cold War, swings to 1.30 in 1995 and has hovered around zero since, with a dip to
+−0.59 in 2022–2024. Germany has drifted from 1.86 in 1985 to 0.97 in 2025. The United States is
+alone at the top: in 2021 only Israel, the United Kingdom and Micronesia were within a point of it.
+
+![On the General Assembly scale the United States sits at one end, alone; Russia swung towards it after 1991 and back to the middle. Source: Bailey, Strezhnev and Voeten, UN General Assembly ideal points, Harvard Dataverse, version 39 (2026).](figures/ch04-ideal-points.png){#fig-ch04-ideal-points fig-alt="Line chart, 1950 to 2025, of ideal points for the United States (highest throughout, 2.9 in 2025), Germany (falling from about 2 to 1), Russia or the USSR (from minus 3.6 to 1.3 in the mid-1990s, then near zero), and India and China (between minus 1.7 and 0.2)."}
+
+That isolation means the midpoint between the United States and China lies at 1.00 — above Japan
+(0.67), South Korea (0.83) and Italy (0.99).
+
 An ideal point is a continuous variable. A bloc is a category. Getting from one to the other
 requires a rule, and the rule is a modelling choice. The simplest serviceable rule runs: a country
 is US-leaning if it is closer to the United States than to China by more than a chosen margin,
 China-leaning if the reverse holds, and non-aligned otherwise. The margin is a parameter, which
 means it can be moved — and when it moves, countries change bloc and the result changes with them. A
 result that survives a range of reasonable margins is evidence of fragmentation. A result that
-appears at one margin and vanishes at another is evidence of the margin.
+appears at one margin and vanishes at another is evidence of the margin. On this scale the rule puts, at a margin of zero, 170 of 193 states on China's side and 23 on
+America's; fixed cut-offs on the scale serve better, as the section after next shows.
 
 The trade side of the comparison has its own decisions. The source is the IMF's International Trade
 in Goods by partner country, the dataset formerly known as the Direction of Trade Statistics
@@ -434,6 +499,69 @@ also hands enormous weight to the base year. Index to 2021 and the post-COVID re
 built into the denominator; index to 2019 and it is not. Two honest analyses of the same data can
 therefore disagree about the size of the break simply because they chose different base years, and
 the base year belongs in the caption of any such figure, not in a footnote.
+
+## What the public data show
+
+The exercise below uses 2021 ideal points and
+exporter-reported goods exports for 2015–2024, the last year with near-complete reporting; the 193
+countries with an ideal point account for 94.6 per cent of world exports (Taiwan and Hong Kong drop
+out). The main rule uses fixed cut-offs: US-leaning at 0.5 or above, in a natural gap below the
+Western cluster; China-leaning at −0.2 or below; non-aligned in between. It yields 52 US-leaning
+states (North America, Europe, Japan, South Korea, Australia, Turkey, Ukraine), 109 China-leaning
+(including Vietnam, Indonesia, Saudi Arabia and South Africa) and 32 non-aligned, among them India,
+Brazil, Mexico — and Russia, at −0.06 in 2021. Drawn on 2022 votes, Russia would have been
+China-leaning. The Assembly measures voting, not alliances, and the reference year is a choice.
+
+![Between 2021 and 2024 goods trade between the blocs grew by 4 per cent in current dollars, against 10 per cent within the US-leaning bloc and 21 per cent within the China-leaning bloc; with 2019 as the base the gap is smaller. Source: IMF, International Trade in Goods by partner country (exporter-reported exports, FOB); blocs from 2021 UN General Assembly ideal points; author's calculations.](figures/ch04-bloc-trade.png){#fig-ch04-bloc-trade fig-alt="Two line charts of goods trade, 2015 to 2024, indexed to 2019 and to 2021, for trade within each bloc, involving the non-aligned, and between blocs. With 2021 as the base the 2024 values are 121 within the China-leaning bloc, 111 involving the non-aligned, 110 within the US-leaning bloc and 104 between blocs."}
+
+@fig-ch04-bloc-trade shows the result. Indexed to 2021, trade between the blocs was 4 per cent
+higher in 2024; pooled trade within them was 12.5 per cent higher, a gap of 8.5 percentage points.
+Indexed to 2019 the gap narrows to 4.9 points, and the panel shows where most of it comes from: not
+a separation of the US-leaning bloc from the rest, but fast growth of trade among China-leaning
+countries, many of them commodity exporters whose earnings rose with prices. Values are not
+volumes, and part of what looks like alignment is the price of oil.
+
+| Rule | US-leaning | China-leaning | Non-aligned | Between-bloc share of trade, 2021 (%) | Between-bloc growth (%) | Within-bloc growth (%) | Gap (pp) |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Closer to Washington or Beijing, margin 0 | 23 | 170 | 0 | 44.3 | 6.2 | 12.9 | −6.7 |
+| Closer to Washington or Beijing, margin 0.5 | 6 | 155 | 32 | 20.1 | 9.0 | 17.6 | −8.6 |
+| Cut-offs +0.3 / −0.3 | 54 | 94 | 45 | 25.0 | 2.8 | 12.3 | −9.5 |
+| **Cut-offs +0.5 / −0.2 (main)** | 52 | 109 | 32 | 26.3 | 4.0 | 12.5 | −8.5 |
+| Cut-offs +0.5 / −0.4 | 52 | 77 | 64 | 21.1 | 1.6 | 12.1 | −10.5 |
+| Cut-offs +0.7 / −0.1 | 40 | 119 | 34 | 23.5 | 5.0 | 12.5 | −7.5 |
+| Main, Russia moved to China-leaning | 52 | 110 | 31 | 28.6 | −1.7 | 13.3 | −15.0 |
+
+: How the bloc rule changes the result: states per bloc (2021 ideal points) and growth of goods trade in current dollars, 2021–2024. Source: IMF, International Trade in Goods by partner country; UN General Assembly ideal points, version 39; author's calculations. {#tbl-ch04-rules}
+
+![Between-bloc trade lagged within-bloc trade under every rule tried, by 7 to 15 percentage points over 2021–2024; moving Russia alone nearly doubles the gap. Source: IMF, International Trade in Goods by partner country; UN General Assembly ideal points; author's calculations.](figures/ch04-rule-sensitivity.png){#fig-ch04-rule-sensitivity fig-alt="Horizontal bar chart of the between-bloc minus within-bloc growth gap, 2021 to 2024, under seven rules: minus 7, minus 9, minus 9, minus 9 for the main rule, minus 10, minus 8, and minus 15 with Russia in the China-leaning bloc."}
+
+@tbl-ch04-rules and @fig-ch04-rule-sensitivity move the lines. Under every rule, between-bloc
+trade grew more slowly than within-bloc trade; when the scale alone decides, the gap runs from 6.7
+to 10.5 points. Its size is not a fixed property of the world: it nearly doubles, to 15.0 points,
+when Russia alone moves to the China-leaning bloc, because between-bloc trade then includes the
+collapse of Russia's trade with Europe. These are descriptive ratios without gravity controls, not
+estimates of the effect of geopolitics; they show only that the separation reported by
+@gopinath2025 is visible in raw public data and that its size depends on where the lines are drawn.
+
+| Non-aligned economy | Trade with both blocs, 2024 (US$ bn) | With US-leaning bloc, change 2019–24 (%) | With China-leaning bloc, change 2019–24 (%) |
+|---|---:|---:|---:|
+| Mexico | 1,142 | +34 | +80 |
+| India | 950 | +40 | +35 |
+| Russia | 540 | −63 | +85 |
+| Brazil | 509 | +33 | +70 |
+| Chile | 149 | +22 | +47 |
+| Pakistan | 89 | +13 | +32 |
+| Argentina | 88 | +19 | +15 |
+| Colombia | 84 | +21 | +21 |
+
+: The largest non-aligned traders: goods exports plus imports with each bloc, as reported by the exporting country, current US dollars; blocs from 2021 ideal points under the main rule. Source: IMF, International Trade in Goods by partner country; author's calculations. {#tbl-ch04-connectors}
+
+@tbl-ch04-connectors looks for connectors. All but Russia traded more with both blocs in 2024 than
+in 2019, and trade with the China-leaning bloc generally grew faster — Mexico's by 80 per cent —
+which is the pattern @freund2024 found at the product level. Russia is not a connector but a country
+that changed sides in trade while staying in the middle of the Assembly. Country totals cannot show
+the link at the heart of the connector story, inputs from one bloc becoming exports to the other;
+that needs product-level and input–output data. What the table shows a firm is where to look.
 
 ## What fragmentation does to a multinational, channel by channel
 
@@ -531,11 +659,10 @@ Suppose the lines separate after 2022 exactly as @gopinath2025 report. The tempt
 separation as a finding about geopolitics. It is a finding about a classification, a currency and a
 date, and each carries part of the result.
 
-It is a **correlation with a date**: sanctions on Russia, the post-pandemic rebound and the surge in
-commodity prices all moved trade in 2022, and a gravity specification separates only some of them.
-**Bloc membership is a modelling choice**: move the margin and countries move between blocs, and a
-gap that moves with them is partly an artefact of where the lines were drawn. **Values are not
-volumes**, as the energy exporters' 2022 figures show. And the result is **aggregate**: a firm's
+It is a **correlation with a date**: sanctions on Russia, the post-pandemic rebound and dearer
+commodities all moved trade in 2022, and a gravity model separates only some of them.
+**Bloc membership is a modelling choice**: in @tbl-ch04-rules one country's placement nearly
+doubles the gap. **Values are not volumes**, as the commodity exporters' 2022 figures show. And the result is **aggregate**: a firm's
 products may sit in a sector where fragmentation is far stronger than the average, or in one where
 it is absent.
 

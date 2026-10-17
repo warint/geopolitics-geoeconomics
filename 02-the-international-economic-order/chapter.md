@@ -109,6 +109,40 @@ to extend to all members any tariff concession it gave to one; **national treatm
 imported goods, once across the border, be treated no worse than domestic ones. On that basis,
 successive negotiating rounds cut tariffs on manufactured goods among the industrial countries.
 
+The record of those rounds, which @tbl-ch02-gatt-rounds reproduces from the WTO's own history of
+the GATT years, is worth reading row by row, because it shows the order growing in two directions at
+once. It grew in *membership*: twenty-three countries negotiated in Geneva in 1947, sixty-two in the
+Kennedy Round of the 1960s, one hundred and twenty-three in the Uruguay Round. And it grew in
+*scope*: the first five rounds dealt with tariffs alone; the Kennedy Round added anti-dumping; the
+Tokyo Round reached non-tariff measures and a set of plurilateral "codes" that only some members
+signed; the Uruguay Round took in services, intellectual property, agriculture, textiles and dispute
+settlement, and created a new organisation to administer the result.
+
+: The GATT negotiating rounds, 1947–1994: more countries, and more of the economy, at each round.
+Source: World Trade Organization, *Understanding the WTO: The GATT years* [@wto_gattyears].
+{#tbl-ch02-gatt-rounds}
+
+| Years | Place / name | Subjects covered | Countries |
+|---|---|---|--:|
+| 1947 | Geneva | Tariffs | 23 |
+| 1949 | Annecy | Tariffs | 13 |
+| 1951 | Torquay | Tariffs | 38 |
+| 1956 | Geneva | Tariffs | 26 |
+| 1960–61 | Geneva (Dillon Round) | Tariffs | 26 |
+| 1964–67 | Geneva (Kennedy Round) | Tariffs, anti-dumping | 62 |
+| 1973–79 | Geneva (Tokyo Round) | Tariffs, non-tariff measures, "framework" agreements | 102 |
+| 1986–94 | Geneva (Uruguay Round) | Tariffs, non-tariff measures, rules, services, intellectual property, dispute settlement, textiles, agriculture, creation of the WTO | 123 |
+
+Two features of the table matter for what follows. The first is that the countries that joined
+late joined an agenda already set. A developing economy that acceded in the 1980s or 1990s did not
+negotiate the most-favoured-nation principle, the treatment of anti-dumping duties, or the
+structure of tariff bindings; it accepted them as the price of entry, and bargained over its own
+schedule. The second is that the last round moved the order behind the border, into the domestic
+regulation of services, patents and investment, where political resistance is strongest. Even before then, the WTO's own history records,
+the rule-writers had turned in the recessions of the 1970s and early 1980s to bilateral
+market-sharing arrangements and agricultural subsidies the GATT could not discipline
+[@wto_gattyears].
+
 The third layer is not an institution but a bargain, and the political scientist John Ruggie gave it
 its name.
 
@@ -303,7 +337,27 @@ its turning point precisely. In the release of October 2026, the G7 produced abo
 world output in 1970. The share dipped in the 1970s, recovered through the 1980s, and peaked at
 about 67.5 per cent in 1993. It then fell almost without interruption: below 60 per cent by 2005,
 below 50 by 2010, and about 44 per cent in 2024 and 2025. In a single generation the economies that
-wrote the rules went from two-thirds of world output to well under half.
+wrote the rules went from two-thirds of world output to well under half. @fig-ch02-g7-share draws
+the series.
+
+![The G7's share of world GDP at market exchange rates peaked in 1993 at 67.5 per cent and has
+fallen to about 44 per cent; the Industrialising Six rose from about 5 to about 24 per cent, two-thirds
+of it China. Source: World Bank, World Development Indicators (NY.GDP.MKTP.CD); aggregates summed by
+the author.](figures/ch02-g7-share.png){#fig-ch02-g7-share fig-alt="Line chart, 1970 to 2025: the G7 share of world GDP peaks at 67.5 per cent in 1993 and falls to about 44; the Industrialising Six rise from about 5 to 24 per cent; China alone to about 17."}
+
+Three things are easy to miss. The first is how flat the G7 line is for two decades
+before the fall. The 1970s dip — from 66 per cent in 1972 to about 60 per cent in 1981 — is the oil
+shock and the dollar's depreciation after the end of convertibility, not convergence: oil exporters'
+incomes rose in dollar terms, and the dollar value of everything outside the United States moved
+with the currency. The recovery to the 1993 peak is in large part the yen and the European
+currencies appreciating against the dollar after the Plaza Accord of 1985. None of this is the
+great convergence; it is exchange-rate noise around a stable distribution. The second is the
+timing of the fall. Baldwin dates the second unbundling to about 1990, but the G7 share at market
+rates did not fall decisively until the early 2000s — it was still 65 per cent in 2001 and below 60
+only in 2005. The lag is the time it took supply-chain industrialisation to show up in national
+output measured in dollars, and it coincides with China's accession to the WTO. The third is that
+the fall has stopped. Since 2013 the G7 share has moved between about 44 and 47 per cent, and the
+Industrialising Six peaked at 26 per cent in 2021. At market rates the convergence has, for now, paused.
 
 The Industrialising Six account for most of the difference. Their combined share was about 6 per
 cent in 1970 and a little over 5 per cent in 1990; it reached about 16 per cent in 2010 and about a
@@ -311,6 +365,38 @@ quarter of world output by the early 2020s. Within the six, China dominates. Its
 exchange rates was about 6 per cent of the United States' in 1990 and 41 per cent in 2010; it
 reached a high of about 77 per cent in 2021 and has since fallen back, to about 64 per cent in 2024,
 partly because the dollar strengthened. The convergence is real, and it is not a straight line.
+
+### Whose decline?
+
+A G7 total hides who is in it. @fig-ch02-g7-members takes the aggregate apart, and the result
+disagrees with the way the story is usually told. The usual account is about American decline: the
+hegemon that wrote the rules is losing the weight to enforce them. At market exchange rates, the
+data say something else. The United States produced about 36 per cent of world output in 1970, a
+figure inflated by the dollar's overvaluation under the fixed parity, but about 26 per cent in 1990
+and about 26 per cent in 2025. Over the period of the great convergence, the American share is
+essentially unchanged. The share the G7 lost was lost by the other six. Japan's fall is the most
+dramatic in the panel: from 7 per cent of world output in 1970 to a peak of about 18 per cent in
+1994, at the height of the yen, and down to under 4 per cent in 2025, the combined effect of three
+decades of slow growth, deflation and a weaker currency. The four large European economies together
+produced about 23 per cent of world output in 1990 and about 13 per cent in 2025; Germany's share
+roughly halved, France's halved, and Italy's more than halved. In 1990 the G7 outside the United States
+produced about 40 per cent of world output; in 2025, about 18 per cent.
+
+![At market exchange rates the United States' share of world GDP is about where it was in 1990;
+the G7's lost share was lost by Japan and the four large European economies. Source: World Bank,
+World Development Indicators (NY.GDP.MKTP.CD).](figures/ch02-g7-members.png){#fig-ch02-g7-members fig-alt="Small multiples of each G7 member's share of world GDP, 1970 to 2025: the US near 26 per cent since 1990; Japan from a peak of 18 to under 4; the four large European economies from 23 to 13."}
+
+The decomposition matters for the argument of this chapter in two ways. For hegemonic stability
+theory, the relevant quantity is the hegemon's share, not the club's; on that measure, at market
+rates, the stabiliser of the post-1945 order has not shrunk since the end of the Cold War, while its
+allies have. The order's problem is less that its leading author is weaker than that the coalition
+which shared the costs of running it — the Europeans and Japan, who financed the institutions,
+matched American tariff cuts and carried a large part of the votes in the Fund and the Bank — now
+carries much less weight. That changes the politics of burden-sharing, which is a recurring theme of
+the 2020s. For a multinational, the decomposition means that "the G7 market" is not a single
+market whose relative size is declining; it is one market, the American, that has held its weight,
+and several that have not. A European firm whose home market has halved as a share of world demand
+faces a different problem from an American one.
 
 The second decision is the **unit of account**. Market exchange rates are the natural measure if the
 question is purchasing power on world markets — what an economy's output can buy abroad, how large
@@ -338,6 +424,44 @@ for its *exported* product sits — how many dollars or euros a market can pay �
 are the relevant measure. If it is deciding where real production capacity and local markets for
 locally made goods are, PPP is closer. A firm that shows its board only one of the two has made a
 strategic choice without stating it.
+
+![At purchasing-power parity, the G7's share of world output was already 46 per cent in 1990 and
+is 28 per cent in 2025; China's output passed that of the United States in 2014, while at market
+rates it peaked at 77 per cent of US output in 2021. Source: World Bank, World Development Indicators
+(NY.GDP.MKTP.CD and NY.GDP.MKTP.PP.CD).](figures/ch02-ppp-vs-market.png){#fig-ch02-ppp-vs-market fig-alt="Two panels, 1990 to 2025: the G7 share at market rates falls from 66 to 44 per cent and at PPP from 46 to 28; China's GDP relative to the US crosses 100 at PPP in 2014 and peaks at 77 at market rates in 2021."}
+
+@fig-ch02-ppp-vs-market sets the two measures side by side, and @tbl-ch02-shares gives the
+benchmark years. The two measures agree on the direction and disagree on almost everything else. At
+PPP the G7 was never a two-thirds club in the period the data cover; it was already below half when
+the convergence began, and the Industrialising Six overtook it in 2020 — something that has not
+happened, and on current trends will not soon happen, at market rates. The China–United States
+comparison is the sharpest case. At PPP the crossing came in 2014 and the gap has widened every year
+since, to a Chinese economy about 134 per cent of the American in 2025; at market rates China rose to
+77 per cent of US output in 2021 and has fallen back to 63. Two respectable measures tell one story
+of a power transition already completed and another of a transition that stalled. The realist
+argument of Chapter 3, about whether a rising state's power is approaching that of the established
+one, depends on which is used.
+
+: Shares of world GDP at benchmark years, at market exchange rates and at purchasing-power parity
+(per cent). Source: World Bank, World Development Indicators (NY.GDP.MKTP.CD, NY.GDP.MKTP.PP.CD),
+October 2026 release; G7 and Industrialising Six summed by the author; the PPP series begins in 1990.
+{#tbl-ch02-shares}
+
+| Year | G7, market | G7, PPP | Industrialising Six, market | Industrialising Six, PPP | United States, market | United States, PPP | China, market | China, PPP |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|
+| 1970 | 66.2 | — | 6.0 | — | 35.7 | — | 3.1 | — |
+| 1990 | 65.8 | 45.7 | 5.4 | 11.9 | 25.9 | 20.1 | 1.6 | 3.8 |
+| 2010 | 49.7 | 34.2 | 15.9 | 25.4 | 22.5 | 16.6 | 9.3 | 13.9 |
+| 2024 | 44.5 | 28.6 | 24.4 | 32.7 | 26.2 | 14.7 | 16.8 | 19.1 |
+
+The table also shows why the two measures should not be averaged or blended. They answer different
+questions, and the gap between them is itself information: it is a rough index of how cheap
+non-traded goods and services are in an economy relative to the reference. As economies converge in
+income, their price levels tend to rise towards those of richer economies and the gap narrows — so
+part of what the market-rate series records as convergence over a long period is the closing of the
+price gap, not only growth in volume. The PPP numbers are also revised whenever the International
+Comparison Program publishes a new round of price surveys, so an analyst who quotes "China passed the United States in 2014" is quoting a particular vintage of
+price data, and should say so [@worldbank_wdi].
 
 The third decision is about **who is in the denominator**. The world total is a World Bank aggregate
 that includes economies for which data are sparse or estimated, particularly in the early decades,
@@ -386,19 +510,36 @@ a bargain.
 
 ### Slowbalisation
 
-The phenomenon that the press calls *slowbalisation* is visible in a single series: world trade as a
-percentage of world GDP. In the World Bank's data it was about 26 per cent in 1970, about 38 per
-cent in 1990, and peaked at about 60 per cent in 2008; it fell to 52 per cent in 2009 and has
-oscillated since between the low fifties and about 62 per cent, the latter reached in 2022, a year
-of high commodity prices. The latest year in the release jumps to well above any earlier value, but
-it rests on reports from only about 140 of more than 200 economies, against about 180 for 2022, and
-should be read as provisional until the gaps are filled. Whether the flattening is a retreat from
-globalisation or a change in its form is contested. A retreat would show up as firms reshoring and
-supply chains shortening. A change of form would show up as trade in goods stagnating while trade in
-services and cross-border data flows — much of which is poorly measured in trade statistics —
-continue to grow. The honest answer is that the series alone cannot settle the question, because its
-denominator, GDP, has shifted towards services, which are traded less, in exactly the period in
-question.
+The phenomenon that the press calls *slowbalisation* is visible in a single series, world trade as
+a percentage of world GDP, drawn in the left panel of @fig-ch02-trade-fdi. It was about 26 per cent
+in 1970 and 38 per cent in 1990, and peaked at about 60 per cent in 2008; it fell to 52 per cent in
+2009 and has oscillated since between the low fifties and 62 per cent, reached in 2022, a year of
+high commodity prices. The last year in the release jumps to well above any earlier value, but it
+rests on reports from 138 economies, against 183 for 2022, and should be read as provisional. Whether
+the flattening is a retreat from globalisation or a change in its form is contested. A retreat would
+show up as firms reshoring and supply chains shortening; a change of form, as trade in goods
+stagnating while poorly measured trade in services and data continues to grow. The series alone
+cannot settle the question, because its denominator, GDP, has shifted towards services, which are
+traded less, in exactly the period in question.
+
+![World trade rose from 26 per cent of world GDP in 1970 to 60 per cent in 2008 and has moved
+sideways since; net inflows of foreign direct investment peaked at 5.3 per cent of world GDP in 2007
+and were near 1 per cent in 2023–2025. Source: World Bank, World Development Indicators
+(NE.TRD.GNFS.ZS, BX.KLT.DINV.WD.GD.ZS), world aggregates; the last trade observation is
+provisional.](figures/ch02-trade-fdi.png){#fig-ch02-trade-fdi fig-alt="Two panels, 1970 to 2025: world trade rises from 26 to 60 per cent of GDP in 2008 and then moves sideways; FDI inflows peak at 5.3 per cent of GDP in 2007 and fall to about 1 per cent."}
+
+The right panel tells a starker story, and it is the one closer to the multinational's own
+decisions. Net inflows of foreign direct investment — the money firms commit to owning and
+controlling operations abroad — were under 1 per cent of world GDP until the late 1980s, rose to
+4.6 per cent in 2000 and 5.3 per cent in 2007, waves of cross-border mergers riding the second
+unbundling, and have since fallen back. They averaged 3.3 per cent of world GDP in 2000–2007 and 1.6
+per cent from 2018, with a low of 0.9 per cent in 2023: the level of the early 1990s. The series is
+noisy, because it records financial flows rather than factories — the 2018 trough reflects American
+multinationals repatriating foreign earnings after the 2017 US tax reform [@unctad2019], and much FDI
+passes through holding companies in low-tax jurisdictions [@damgaard2024] — but the direction is not in doubt. Trade has
+plateaued; the investment that builds supply chains has retreated. If slowbalisation is a change of
+form, it is one in which firms keep trading through the networks they built while becoming much
+more reluctant to build new ones abroad.
 
 ### The dispute mechanism
 
@@ -462,8 +603,9 @@ with a history of trade remedies, for example — face disputes settled more oft
 retaliation. The firm's government's bargaining power has become part of the firm's risk profile.
 
 **Measurement choices are strategy choices.** At market exchange rates the G7 still produces
-nearly half of world output; at PPP, little more than a quarter. A risk analyst's first duty is to
-show both and say which question each answers.
+nearly half of world output; at PPP, little more than a quarter; and within the G7 the American
+share has held while Japan's and Europe's have shrunk. A risk analyst's first duty is to show both
+measures, and the members, and say which question each answers.
 
 Mapped onto the five channels of this book, the order's transformation runs mainly through **market
 access** — the tariffs, trade remedies and bloc-based diversion of Chapter 4 — and through

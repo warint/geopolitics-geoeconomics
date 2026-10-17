@@ -190,6 +190,28 @@ an asset shared by every operator in it. Two decades ago, simulations by NASA's 
 already suggested that the low-orbit debris population would keep growing through collisions even if
 all launches stopped [@liou2006].
 
+The public catalogue shows where the objects are today (@fig-ch11-altitude). Of the 35,036
+catalogued objects in Earth orbit in the October 2026 vintage used here, 29,200 have a mean altitude
+between 200 and 2,000 kilometres. Below 600 kilometres there are 14,568, and 95 percent of them are
+payloads — 11,153 of them Starlink satellites, stacked in a few narrow shells around 350, 480 and 550 kilometres. Between 700 and 900 kilometres the picture inverts: of 5,665 objects, only 12
+percent are payloads, and the rest are debris and spent rocket stages, many of them left by the
+events described below. The two populations sit in different places for the reason Kessler gave.
+Operators of large constellations fly low so that a failed satellite re-enters within a few years;
+the fragments of explosions and tests above 700 kilometres stay where they were made.
+
+![Satellites crowd below 600 km; debris lingers higher, where drag is weak. Catalogued objects in
+Earth orbit by mean altitude, in 25-kilometre bands. Source: CelesTrak SATCAT, October 2026
+vintage.](figures/ch11-altitude.png){#fig-ch11-altitude
+fig-alt="Histogram of objects by mean altitude from 200 to 2,000 km. A tall red spike of Starlink
+satellites near 450 to 500 km; a broad band of debris between 700 and 1,000 km."}
+
+For a firm the chart says that "orbit" is not one asset but several. The low shells, where the new
+broadband constellations fly, are crowded with working satellites that manoeuvre and are cleaned
+by drag; the risk there is congestion and the conduct of a few large operators. The shells near 800
+kilometres, used by Earth-observation and weather satellites, carry the legacy of the twentieth
+century's tests and explosions, and that legacy will be there for decades whatever anyone does
+next.
+
 Economists have since modelled the incentives. Nodir Adilov, Peter Alexander and Brendan Cunningham
 show that, because each operator ignores the collision risk its satellites and debris impose on
 others, open access leads to more launches and more debris than would be efficient [@adilov2015].
@@ -325,6 +347,38 @@ The contrast between the first and third events is a lesson in altitude. Both we
 destructions of a satellite by its own state; one polluted a high orbit for decades, the other a low
 orbit for a few years. A count of objects treats them alike.
 
+The public catalogue lets the lesson be put in numbers, because every fragment is named after its
+parent. @tbl-ch11-events counts the catalogued fragments of the main destructive tests and of
+three accidental break-ups, and how many of them are still in orbit. Of the 3,531 catalogued
+fragments of Fengyun-1C, 2,311 — almost two in three — are still in orbit nearly two decades later,
+at a median altitude of about 830 kilometres. Of the 1,806 fragments of Cosmos 1408, four remain.
+The American intercept of 2008 and India's test of 2019, both conducted at low altitude, have left
+nothing in the catalogue. The 2009 collision sits between the two: a third of the Cosmos 2251
+fragments and a fifth of the Iridium 33 fragments are still up.
+
+| Event | Fragments catalogued | Still in orbit | Share | Median altitude of survivors |
+|:---|---:|---:|---:|---:|
+| Fengyun-1C, Chinese ASAT test, January 2007 | 3,531 | 2,311 | 65% | 832 km |
+| Cosmos 2251, collision, February 2009 | 1,714 | 608 | 35% | 728 km |
+| Iridium 33, collision, February 2009 | 656 | 115 | 18% | 720 km |
+| USA 193, US intercept, February 2008 | 174 | 0 | 0% | — |
+| Microsat-R, Indian ASAT test, March 2019 | 129 | 0 | 0% | — |
+| Cosmos 1408, Russian ASAT test, November 2021 | 1,806 | 4 | 0% | 376 km |
+| NOAA 16, break-up, November 2015 | 458 | 353 | 77% | 776 km |
+| DMSP 5D-2 F13, break-up, February 2015 | 241 | 122 | 51% | 779 km |
+| NOAA 17, break-up, March 2021 | 115 | 51 | 44% | 691 km |
+
+: Fragments of selected destructive events and how many remain in orbit. Fragments are objects
+named "DEB" after the parent; altitude is the mean of apogee and perigee. Source: CelesTrak SATCAT,
+October 2026 vintage; computed by the author. {#tbl-ch11-events}
+
+The last three rows support ESA's finding that accidental fragmentations, not weapons, are the
+larger source of debris. Two ageing American weather satellites and one military weather satellite,
+each of which broke up years after its mission ended — the DMSP satellite through a battery failure
+— together left 526 fragments still in orbit between 700 and 800 kilometres, not far short of the 723
+left by the 2009 collision. None of these break-ups made headlines; each degraded a shell that other operators
+use.
+
 ::: {.warn}
 **What the count does not measure.** It counts objects, not risk: a ten-centimetre fragment and a
 five-tonne rocket stage each count once, and the objects too small to catalogue — the majority of
@@ -357,6 +411,53 @@ any past year. And the public catalogue is not the environment: it omits classif
 everything too small to track, which is one reason ESA's totals, drawn from more catalogues and
 asserted objects, are higher.
 
+The dating decision can be measured, because a second public catalogue records what the first does
+not. Jonathan McDowell's General Catalog of Artificial Space Objects gives each fragment the date
+on which it separated from its parent as well as the parent's launch date [@mcdowell2026].
+@fig-ch11-objects-in-orbit rebuilds the stock of objects in Earth orbit at the end of each year
+from that catalogue, with debris dated by the event that created it, and sets beside it the total
+obtained from CelesTrak's copy of the public catalogue [@kelso2026] with debris dated by its
+parent's launch. The two agree on payloads and rocket bodies and disagree, sometimes by a factor of
+two, on debris. Dated by launch, the debris in orbit at the end of 2000 numbers 16,843 objects,
+because every fragment ever created from a satellite launched by then — including those of the 2007
+test, the 2009 collision and every later break-up — is counted as if it already existed. Dated by
+the event, it numbers 6,530. The launch-dated series barely moves in 2007 (it rises by 39 objects)
+because the Fengyun-1C fragments were already in it from 1999; the event-dated series jumps by
+3,765. The two series converge only after 2021, once most backdated fragments have either been
+created or re-entered.
+
+![Debris built the orbital population; payloads overtook it in 2024. Catalogued objects in Earth
+orbit at the end of each year, with debris dated by the event that created it; the dashed line
+dates debris by its parent's launch. Source: GCAT (J. C. McDowell); CelesTrak
+SATCAT.](figures/ch11-objects-in-orbit.png){#fig-ch11-objects-in-orbit
+fig-alt="Stacked area chart, 1957–2025, of payloads, rocket bodies and debris in orbit, with steps
+in debris in 2007 and 2009 and a steep rise in payloads after 2019; a dashed line dating debris by
+launch runs far above the areas from the 1980s to 2020 and meets them after 2021."}
+
+The event-dated series also shows the turn of the last few years. Debris outnumbered payloads in
+the catalogue from the 1960s onwards, as ESA notes. At the end of 2025 the reconstruction counts
+16,899 payloads, 2,015 rocket bodies and 12,812 pieces of debris; payloads first outnumbered debris
+in 2024. The crossing is not a sign that the debris problem is solving itself. It is the arrival of
+the large constellations, whose satellites are counted as payloads while they work and after they
+fail, and the slow re-entry of the low fragments of the 2021 test.
+
+| Count of objects in Earth orbit, end of 2025 | Total | Payloads |
+|:---|---:|---:|
+| ESA Space Environment Report 2026 (catalogued and asserted objects) | 44,964 | 16,946 |
+| Public catalogue (CelesTrak SATCAT), debris dated by parent launch | 32,460 | 17,414 |
+| GCAT, debris dated by fragmentation | 31,726 | 16,899 |
+
+: Three counts of the same orbital environment. The two public-catalogue counts use the vintages of
+October 2026 and the rule "launched by, and not decayed by, 31 December 2025". Sources:
+@esa2026; CelesTrak SATCAT; GCAT; computed by the author. {#tbl-ch11-counts}
+
+@tbl-ch11-counts sets the three counts side by side. The two reconstructions from public catalogues
+agree within a few hundred objects on the total. ESA's is more than 12,000 higher, because it
+merges several catalogues and adds objects known to exist but not yet tracked. Its count of
+payloads is close to the reconstructions', so the difference is almost entirely debris: the
+environment a firm's satellite provider actually faces is more crowded than any public download
+shows.
+
 ## One operator
 
 The new space race has a feature the Cold War one did not. In the first years of the space age,
@@ -387,6 +488,40 @@ Concentration by *state* hides the fact that one company dominates the American 
 by *operator* must be reconstructed from object names. Each choice yields a different index, and
 each answers a different question — about the balance of power among states, or about the dependence
 of customers on firms.
+
+@fig-ch11-payloads-launched shows where the concentration comes from. In 2018, 448 payloads were
+launched, two of them SpaceX's. In 2020 the total was 1,242 and 833 were SpaceX's; in 2025 it was
+4,495, of which 3,169 — 71 percent — were SpaceX's. China launched 368 payloads in 2025, Russia
+88, and every other American operator together 530. The rest of the world, Europe, Japan and India
+included, launched 340.
+
+![One company now launches most of the world's satellites. Payloads by launch year, grouped by
+operator (SpaceX) and owner state. Source: GCAT (J. C. McDowell).](figures/ch11-payloads-launched.png){#fig-ch11-payloads-launched
+fig-alt="Stacked bars of payloads launched per year, 1990–2025: under 500 a year until 2019, then
+rising to about 4,500 in 2025, of which about 3,200 are SpaceX's Starlink satellites."}
+
+@fig-ch11-concentration computes the index on payloads launched each year, by owner state and by
+operator, from the GCAT codes. By state, the index stood at 7,450 in 1960 and 7,898 in 1980, when
+the Soviet Union launched most of the world's satellites; it fell to 2,559 in 2000 and a low of
+1,312 in 2008, as Europe, China, India, Japan and many smaller states entered. Since 2019 it has
+risen again, to 6,845 in 2025 — Cold War levels — because the American share has grown with one
+firm. By operator, the index was below 1,000 for most of the space age, and as low as 142 in 2013,
+because even the Soviet programme was spread across many agencies and design bureaus; it reached
+4,589 in 2020 and 5,007 in 2025. The two lines tell different stories about the past and the same
+one about the present. The balance among states looks like the 1980s; the balance among operators
+has no precedent.
+
+![Concentration of new satellites is back at Cold War levels, with a firm on top.
+Herfindahl–Hirschman index of payloads launched each year, by owner state and by operator. Source:
+GCAT (J. C. McDowell).](figures/ch11-concentration.png){#fig-ch11-concentration
+fig-alt="Two lines from 1957 to 2025. By owner state the index is between 4,500 and 8,000 until
+1990, falls to about 1,300 in 2008 and rises to about 6,800 by 2025. By operator it stays below
+2,500, mostly below 1,000, until 2019 and then jumps to about 5,000."}
+
+Flows are not stocks, and launches overstate the weight of a constellation whose satellites last
+five years against geostationary satellites that last fifteen. On the stock, the conclusion is the
+same. Of the 17,247 catalogued objects marked as operational in the October 2026 vintage of the
+public catalogue, 11,151 — 65 percent — are Starlink satellites.
 
 Concentration matters to a firm because of what it implies about dependence, and Starlink in Ukraine
 shows what that dependence means. Within days of the 2022 invasion, Starlink terminals became a
@@ -486,9 +621,10 @@ population would grow even without new launches. The economics of the externalit
 The strategic literature divides along the lines of this chapter's three readings. @dolman2002
 carries classical geopolitics into orbit; @bowen2020 argues that spacepower matters for its
 terrestrial effects; @pekkanen2019 describes the democratisation, commercialisation and
-militarisation of a domain in which most technology is dual-use and treaty-making has stalled. The
-empirical record of threats is the Secure World Foundation's annual assessment [@samson2026], and
-that of the environment ESA's annual report [@esa2026].
+militarisation of a domain in which most technology is dual-use and treaty-making has stalled. The empirical record of threats is the Secure World Foundation's annual assessment [@samson2026], and
+that of the environment ESA's annual report [@esa2026]; the public catalogue redistributed by
+CelesTrak [@kelso2026] and McDowell's GCAT [@mcdowell2026], which dates each fragment by the event
+that created it, allow the record to be rebuilt and its dating decisions tested.
 
 For the firm, the bridge is @farrell2019: a concentrated constellation under a state's jurisdiction
 meets both conditions for weaponised interdependence. The measure of concentration is
@@ -502,7 +638,9 @@ The public record of the orbital environment is unusually good. ESA's count of o
 catalogue from which it can be approximated, and the concentration of who launches payloads from
 Sputnik to today together show the steady accumulation of debris, the steps that the 2007 test, the
 2009 collision and the 2021 test cut into the record, the explosion of payloads since the large
-constellations began, and a concentration index that falls for decades and then climbs back. They
+constellations began, and a concentration index that falls for decades and then climbs back — by owner state to 6,845
+in 2025, by operator to 5,007, with two-thirds of the operational satellites in the catalogue
+belonging to one firm. They
 also show the decisions underneath: the dating of debris, the filtering of objects that do not
 orbit the Earth, the reading of owner codes, the definition of an active satellite.
 

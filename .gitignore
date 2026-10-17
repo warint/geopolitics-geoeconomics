@@ -28,3 +28,13 @@ assessments/**/LIVE/
 
 # Stray web pages saved while checking sources
 /*.htm
+
+# Python environment and the download cache for the book's figures (raw data is never committed;
+# the figures derived from it, in assets/figures/, are).
+.venv/
+.data-cache/
+__pycache__/
+
+# Generated copies inside book/ (the sources are assets/figures/; the site copy is docs/book/figures/).
+book/figures/
+book/*.log

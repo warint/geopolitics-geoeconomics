@@ -6,8 +6,10 @@
 The book is a *derived* artefact: nothing in book/ is authored. Each chapter is written in its
 session folder, as NN-slug/chapter.md (front matter `title:`, narrative `##` sections, and the
 book's fenced divs: .definition, .archive, .lit, .step, .check, .warn), with its sources in
-NN-slug/chapter.bib. This script copies the chapters in, merges the bibliographies, writes the
-preface and the reference list, and arranges the chapters into parts.
+NN-slug/chapter.bib. Figures are drawn from public data by scripts/figures/chNN.py into
+assets/figures/, and a chapter embeds them as `![caption](figures/name.png)`. This script copies the
+chapters and figures in, merges the bibliographies, writes the preface and the reference list, and
+arranges the chapters into parts.
 
 The book stands on its own. It carries no course scaffolding — no slide links, no session facts,
 no practice briefs — so a chapter reads the same whether or not the reader is taking the course.
@@ -194,6 +196,8 @@ format:
     toc: true
     toc-depth: 3
     link-external-newwindow: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
   pdf:
     documentclass: scrbook
     classoption: [10pt, twoside, openright, numbers=noenddot, chapterprefix=true]
@@ -219,6 +223,20 @@ def clean():
     for pattern in GENERATED:
         for stale in BOOK.glob(pattern):
             stale.unlink()
+    if (BOOK / "figures").exists():
+        shutil.rmtree(BOOK / "figures")
+
+
+def copy_figures():
+    src = ROOT / "assets" / "figures"
+    if not src.exists():
+        return 0
+    dst = BOOK / "figures"
+    dst.mkdir(exist_ok=True)
+    pngs = sorted(src.glob("*.png"))
+    for png in pngs:
+        shutil.copy2(png, dst / png.name)
+    return len(pngs)
 
 
 def main():
@@ -231,7 +249,9 @@ def main():
         (BOOK / f"session-{n}.qmd").write_text(chapter(folder), encoding="utf-8")
     (BOOK / "references.qmd").write_text(REFERENCES, encoding="utf-8")
     refs = merge_bibliographies(list(chapters.values()))
-    print(f"book/: {len(chapters)} chapters in {sum(1 for p, _ in PARTS if p)} parts, {refs} references")
+    figs = copy_figures()
+    print(f"book/: {len(chapters)} chapters in {sum(1 for p, _ in PARTS if p)} parts, "
+          f"{refs} references, {figs} figures")
 
 
 if __name__ == "__main__":

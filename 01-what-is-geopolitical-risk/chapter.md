@@ -189,23 +189,42 @@ determines what it cannot see.
 | **Market-based** | prices that embed risk | sovereign CDS spreads, implied volatility | forward-looking, daily | mixes risk with risk appetite |
 | **Firm-level** | risk as perceived by firms themselves | earnings-call text (Ch. 7), disclosures | speaks to the decision | self-reported, listed firms only |
 
-*Event-based* indicators record occurrences coded from reports; they are concrete but
-backward-looking, and a threat never carried out leaves no event. *Text-based* indicators count
-words: the Geopolitical Risk index, the Economic Policy Uncertainty index of @baker2016, the
-firm-level political-risk measure of @hassan2019. Text is abundant and timely, but it measures
-*attention* — related to, but not the same as, the risk any particular reader faces. *Expert-based*
-indicators, such as the Worldwide Governance Indicators [@kaufmann2011], reach latent concepts at
-the price of opacity and shared perceptions. *Structural* indicators explain *why* a situation is
-fragile but rarely *when* the fragility will matter. *Market-based* indicators are prices, but a
-spread can widen because danger rose or because investors grew more fearful of the same danger.
-*Firm-level* indicators record what the people who allocate capital say worries them, shaped by
-liability and investor relations.
+A threat never carried out leaves no *event*. *Text-based* indicators — the Geopolitical Risk
+index, the Economic Policy Uncertainty index of @baker2016, the firm-level political-risk measure
+of @hassan2019 — measure *attention*, related to but not the same as the risk any reader faces.
+*Expert-based* indicators, such as the Worldwide Governance Indicators [@kaufmann2011], pay for
+their reach in opacity. A *market* spread can widen because danger rose or because investors grew
+more fearful of the same danger.
 
 No family is enough on its own, and the argument for **triangulating** across several is not that
 more is better. It is that the families fail in different ways, so their disagreements carry
 information. When the text is calm and the market is not, someone may be pricing something the
 press has not yet seen. A single index can only tell its own story; three indices that
 quarrel force the analyst to say which one to believe, and why.
+
+Even two instruments from the *same* family quarrel. @fig-ch01-gpr-epu sets the Geopolitical Risk
+index beside the global Economic Policy Uncertainty index of @davis2016, a GDP-weighted average of
+national policy-uncertainty indices built, like GPR, by counting newspaper articles. Over the 355 months from January 1997 to July 2026 their
+correlation is 0.26; averaged by year it rises only to 0.39. The months that define each series
+barely overlap. In October 2001 geopolitical risk stood at 513 and policy uncertainty at 170. In May
+2020, in the first pandemic spring, the order was reversed: policy uncertainty at 410, geopolitical
+risk at 69. In April 2025, when the United States announced sweeping
+tariffs, policy uncertainty reached 621, the
+highest value in its history, while geopolitical risk stood at 141. Only in March 2022 and March
+2026, with wars that were also economic-policy events, did both indices spike together.
+
+![Two text indices, two different worlds: global economic policy uncertainty (EPU) and geopolitical
+risk (GPR), monthly, 1997–2026; monthly correlation 0.26. Source: Caldara and Iacoviello,
+Geopolitical Risk index; Davis (2016), Global Economic Policy Uncertainty index.](figures/ch01-gpr-epu.png){#fig-ch01-gpr-epu
+fig-alt="Line chart, 1997–2026: geopolitical risk spikes in 2001, 2003, 2022 and 2026; policy uncertainty peaks in 2020 and April 2025."}
+
+The lesson is not that one index is right. It is that "uncertainty" in the newspapers comes in
+kinds, and a firm's exposure to each is different. A tariff shock reaches a manufacturer through
+market access and inputs within weeks; a terrorist attack in New York reached airlines, insurers
+and tourism through assets and people, and most manufacturers hardly at all. The upward drift of
+policy uncertainty since 2016 is also a reminder that much of what firms now experience as
+"geopolitics" — tariffs, export controls, investment screening — arrives through economic policy,
+and is counted by the instrument that does not carry the word.
 
 ## How a newspaper archive becomes an index
 
@@ -272,6 +291,53 @@ tension that month. The second statement is what the index measures; the first i
 that requires everything else in this book.
 :::
 
+### Forty years at a glance
+
+@fig-ch01-gpr-recent draws the recent index month by month from January 1985 to September 2026, the
+latest month in the file. It rarely strays far from its average. The median month stands at 93; only 3.4 per cent of months
+exceed 200; eight months exceed 300, and they belong to five episodes — the Gulf War of 1990–91,
+the attacks of September 2001 and the war in Afghanistan that followed, the invasion of Iraq in
+2003, the Russian invasion of Ukraine in 2022, and the war with Iran in 2026. Geopolitical risk, as
+the press records it, is a series of spikes separated by long stretches of near-normality, and the
+longest calm in the series — the late 1990s, when the annual average fell to 51 in 1997 and 57 in
+2000, about half the base — sits just before its highest peak.
+
+![Geopolitical risk is measured in spikes. The recent Geopolitical Risk index, monthly, January
+1985–September 2026 (1985–2019 average = 100); shading marks months above the average. Source:
+Caldara and Iacoviello, Geopolitical Risk index.](figures/ch01-gpr-recent.png){#fig-ch01-gpr-recent
+fig-alt="Monthly index 1985–2026 near 100 with spikes in 1991, 2001, 2003, 2022 and 2026, and mostly above 100 since 2022."}
+
+The second feature is less visible in any single month and more important for a firm: since 2022
+the index has not come back down. Its annual average was 77 in 2020 and 82 in 2021; it was 158 in
+2022, 122 in 2023, 134 in 2024, 145 in 2025 and 188 in the first nine months of 2026. After the
+invasion of Iraq the index was back at its base by 2005 (annual average 102) and stayed near it for
+fifteen years; since 2022 each new spike has started from a higher floor. That is a change in
+level, and it matters because the real-options argument below turns on whether uncertainty is
+expected to *resolve*. A firm can
+wait out a spike; it cannot wait out a plateau.
+
+@tbl-ch01-peaks lists the ten highest months, with the two sub-indices introduced below.
+Eight of the ten belong to the two wars against Iraq and to 2001; two belong to the 2020s. The headline
+blends threats and acts: March 2022 and March 2026 stand at almost the same level, 319 and 330, but
+one was mostly threat and the other mostly act.
+
+| Month | GPR | Threats | Acts | Episode |
+|---|---:|---:|---:|---|
+| October 2001 | 513 | 261 | 854 | War in Afghanistan begins |
+| September 2001 | 499 | 260 | 841 | Attacks of 11 September |
+| January 1991 | 379 | 360 | 480 | Gulf War air campaign |
+| March 2003 | 359 | 362 | 429 | Invasion of Iraq |
+| February 1991 | 339 | 254 | 490 | Gulf War ground campaign |
+| March 2026 | 330 | 319 | 450 | War with Iran |
+| March 2022 | 319 | 404 | 251 | Russian invasion of Ukraine |
+| November 2001 | 307 | 150 | 510 | War in Afghanistan |
+| April 2003 | 256 | 213 | 332 | Iraq: fall of Baghdad |
+| August 1990 | 250 | 354 | 128 | Iraq invades Kuwait |
+
+: The ten highest months of the recent Geopolitical Risk index, 1985–2026, with the Threats and
+Acts sub-indices (each 1985–2019 average = 100). Source: Caldara and Iacoviello, Geopolitical Risk
+index, monthly file, vintage of October 2026; episodes added by the author. {#tbl-ch01-peaks}
+
 ### Threats and acts
 
 The first five categories form the **GPR Threats** sub-index; the last three — the beginning of
@@ -279,13 +345,28 @@ war, the escalation of war, terror acts — form **GPR Acts**. The split is the 
 the paper for a firm, because the two need not move together. Threats can build for months and
 subside without anything happening; acts can arrive with almost no prior threat.
 
-The published series show both patterns clearly. In September and October 2001 the Acts sub-index
-stood at roughly eight and a half times its base-period average, while Threats were at about two
-and a half: an attack with almost no public prelude. In February 2022, the month in which Russia's
-invasion of Ukraine began, the pattern was reversed — Threats above three times their average, Acts
-barely above theirs — and Threats peaked the following month at the highest reading in the recent
-series. Two spikes in the headline index; two quite different shocks, one unannounced and one
-debated in public for weeks.
+@fig-ch01-threats-acts shows two patterns, and a third. In the autumn of 2001 acts leap from 75
+in August to 841 in September and 854 in October, while threats rise only to 261: an attack with
+almost no public prelude. Over the winter of 2021–22 the order is reversed: threats climb from 122
+in November to 321 in February and 404 in March — the highest threat reading in the recent series,
+debated in public for weeks — while acts stay below their average until the invasion and peak at
+251. The third panel is the war of the United States and Israel against Iran, which began at the
+end of February 2026. Here the two moved together: in March acts jumped to 450, their highest since
+2001, and threats to 319. Across the recent series the two sub-indices correlate at only 0.59.
+
+![Threats and acts: three spikes, three different shocks. GPR Threats and GPR Acts sub-indices,
+monthly, around the attacks of September 2001, the Russian invasion of Ukraine in February 2022 and
+the war with Iran from February 2026; dashed line: 1985–2019 average = 100. Source: Caldara and
+Iacoviello, Geopolitical Risk index.](figures/ch01-threats-acts.png){#fig-ch01-threats-acts
+fig-alt="Three panels of threats and acts: acts lead in 2001, threats lead in 2022, both jump together in March 2026."}
+
+The three shapes call for different preparation. A shock of the 2001 kind cannot be anticipated
+from the index; the only defence is a plan that already exists — insurance in force, a second
+supplier qualified — when the act arrives. A shock of the 2022 kind offers weeks in which threats
+accumulate in public, and a firm that has decided in advance what it will do at a given level of
+threat can use them. A shock of the 2026 kind, preceded by months of elevated but inconclusive
+threat, is the hardest to act on, because an index that has been high for a while teaches its
+readers to discount it.
 
 The authors report that threats, and not only realised acts, depress economic activity. The
 implication for a firm is blunt: it does not need the war to pay its cost. If what moves investment
@@ -329,6 +410,31 @@ economies; it does not include Iran, Iraq, Pakistan or North Korea, and Africa i
 Egypt, Tunisia and South Africa alone. The selection reflects where economic and financial data are
 rich enough for the comparisons the series were built for, not where geopolitical risk is greatest.
 
+@fig-ch01-gpr-countries ranks the twenty countries with the highest readings over the twelve months
+to September 2026, against their own average over 1985–2019. Three features stand out. The first is
+the weight of the newspapers' home country. The United States heads the ranking at 4.5 per cent of
+all articles, almost double its long-run average of 2.3 and more than twice the next country,
+because American newspapers write about American wars and threats; the United Kingdom comes
+third. The country series measure geopolitical risk *as seen from* Washington, London and Toronto.
+
+![Country series: the press's own country and its wars lead the ranking. Share of all articles that
+discuss geopolitical risk and mention the country, October 2025–September 2026 (bars) and
+1985–2019 (ticks); twenty of 44 countries. Source: Caldara and Iacoviello, Geopolitical Risk index.](figures/ch01-gpr-countries.png){#fig-ch01-gpr-countries
+fig-alt="Bar chart of twenty countries led by the United States, Israel, the United Kingdom and Russia, with lower 1985–2019 averages marked."}
+
+The second is the size of the departures from the past. Measured against its 1985–2019 average,
+Venezuela's reading over the last twelve months is almost fourteen times higher, Ukraine's nearly
+thirteen, Taiwan's almost six, Israel's five and Denmark's almost five. These ratios, which compare a
+country with itself, are the most useful thing the country series offer a firm: a subsidiary in
+Copenhagen does not need to know that Denmark ranks twenty-sixth, but it may need to know that its
+host is being written about in the language of threat at five times the usual rate.
+
+The third is what the ranking cannot show. In March 2026 the series that jumped most were those of
+the United States (8.7 per cent of all articles), Israel (6.4), the United Kingdom, Russia and Saudi
+Arabia. Iran, the country at the centre of that month's war, has no series at all: it is not among
+the 44. A firm relying on the country series would have seen that war only through Iran's
+neighbours and adversaries.
+
 ## Does it measure something real?
 
 A text-based index is a hypothesis about the world: that the frequency of certain words in certain
@@ -340,6 +446,45 @@ geopolitical tension spiked: the two World Wars, Korea, the Cuban missile crisis
 September 2001, Iraq in 2003, Ukraine in 2022. It does. In the historical series the highest month
 is September 1939, followed closely by June 1944 and August 1914; in the recent series it is October
 2001, followed by September 2001 and January 1991. This is a necessary test and a weak one.
+
+@fig-ch01-gpr-historical shows the narrative test at the scale of the century. The two world wars
+dominate everything: the historical index reached 472 in August 1914, 484 in September 1939 and 473
+in June 1944, and averaged 213 across the whole of the 1940s. Measured on this scale, the events
+that dominate the recent series shrink. October 2001 stands at 304, March 2026 at 252 and March 2022
+at 167, below the Cuban missile crisis at 228. The average since 2020 is about 100. Against total
+war the present looks ordinary; against 1985–2019 it looks exceptional. The base period is a choice
+of what to compare the present with.
+
+![A century of attention: the world wars still dwarf everything since. The historical Geopolitical
+Risk index, monthly (light) and 12-month centred average (dark), 1900–2026 (1900–2019 average =
+100). Source: Caldara and Iacoviello, Geopolitical Risk index, historical series from three
+American newspapers.](figures/ch01-gpr-historical.png){#fig-ch01-gpr-historical
+fig-alt="Monthly index 1900–2026: world-war peaks near 480, later peaks between about 170 and 300."}
+
+The historical file also reports the share of articles in each of the eight dictionary categories,
+and the composition tells a story the headline hides (@tbl-ch01-categories). In the decade of the First World War, articles about the beginning and the
+escalation of war made up almost five per cent of everything the three newspapers printed; terror
+was all but absent. By the 2000s, terror acts were the largest single category, at 1.2 per cent of
+all articles, up from almost nothing in the 1910s, while articles about wars
+beginning had fallen to 0.4 per cent. Nuclear threats appear in the 1940s, peak in the 1960s and
+recede. In the 2020s so far, military build-ups are the largest category at 1.8 per cent — higher
+than in either world-war decade — and war threats have doubled from their 2000s level. The same
+reading meant a war in Europe in one decade, bombings in another, and rearmament in a third.
+
+| Decade | War threats | Peace threats | Military build-ups | Nuclear threats | Terror threats | Beginning of war | Escalation of war | Terror acts | Any category |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1910s | 0.91 | 0.14 | 1.13 | 0.00 | 0.01 | 2.38 | 2.23 | 0.01 | 6.17 |
+| 1940s | 0.95 | 0.22 | 1.25 | 0.27 | 0.02 | 2.13 | 3.47 | 0.10 | 7.68 |
+| 1960s | 0.61 | 0.20 | 1.04 | 0.94 | 0.04 | 0.49 | 0.78 | 0.31 | 3.78 |
+| 1980s | 0.35 | 0.09 | 1.05 | 0.81 | 0.27 | 0.41 | 0.56 | 0.63 | 3.40 |
+| 2000s | 0.26 | 0.06 | 0.72 | 0.50 | 0.39 | 0.40 | 0.56 | 1.23 | 3.28 |
+| 2020s (to Sept. 2026) | 0.56 | 0.04 | 1.79 | 0.44 | 0.14 | 1.08 | 0.44 | 0.42 | 3.60 |
+
+: What the index counts has changed: share of all articles in the three historical newspapers
+in each dictionary category, per cent, decade averages of monthly shares; an article can fall into
+several categories.
+Source: Caldara and Iacoviello, Geopolitical Risk index, historical category shares
+(SHAREH_CAT_1–8). {#tbl-ch01-categories}
 
 The second is **audit**. The authors had samples of flagged articles read by people, to estimate how
 often the algorithm counted an article a human would not consider to be about geopolitical risk,
@@ -353,6 +498,25 @@ out false positives. The narrow version moves almost in lockstep with the headli
 monthly correlation above 0.9; the broad one much less, at about 0.64, and its highest month is
 March 2022 rather than the autumn of 2001. "The" geopolitical risk index is one point in a space of
 defensible choices.
+
+@tbl-ch01-variants sets the four versions side by side. The disagreement is not only about levels
+but about *rankings* of the episodes that matter. On the narrow version, March 2022 (406) stands
+higher than March 2026 (350); on the version without excluded words it stands higher still, at 390
+against 265; on the headline index the order is reversed, 319 against 330. A board told that the
+spring of 2026 was "the most dangerous month since the invasion of Iraq" has been told something
+true of one of four published series and false of the other three. The narrow version
+exaggerates the 2001 peak, at 889; the broad one flattens the peaks and lifts the background.
+
+| Version | Correlation with headline | Highest month (value) | March 2022 | March 2026 |
+|---|---:|---|---:|---:|
+| Headline (GPR) | 1.00 | October 2001 (513) | 319 | 330 |
+| Basic (narrow search) | 0.93 | September 2001 (889) | 406 | 350 |
+| Excluded words kept | 0.84 | September 2001 (511) | 390 | 265 |
+| Broad (AND search) | 0.64 | March 2022 (284) | 284 | 176 |
+
+: One concept, four published indices: alternative versions of the recent Geopolitical Risk index,
+monthly, January 1985–September 2026 (each 1985–2019 average = 100). Source: Caldara and Iacoviello,
+Geopolitical Risk index, columns GPR, GPR_BASIC, GPR_NOEW and GPR_AND. {#tbl-ch01-variants}
 
 The third is **economic content**. If the index measures something real, it should be related to
 economic outcomes in the ways theory predicts. The paper finds that higher geopolitical risk
@@ -485,12 +649,6 @@ figure, choices of frequency and smoothing change what the eye sees. The recent 
 500 in October 2001; its average over the whole of 2001 is about 170. A geopolitical shock is a
 monthly phenomenon, and a yearly average buries it. And between figure and argument, the slide's
 title replaces the paper's caveats.
-
-The two published series also sit on different scales. The recent index is normalised to its
-1985–2019 average and built from ten newspapers; the historical index to its 1900–2019 average and
-built from three. In March 2022 the first stood at more than three times its mean and the second
-at well under twice its own. Neither is wrong; they measure how unusual a month was against
-different pasts and different readerships.
 
 ## A short review of the literature
 

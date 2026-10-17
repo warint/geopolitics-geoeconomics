@@ -22,6 +22,25 @@ and revised by engineers, auditors, industry associations and non-governmental o
 multinational that sells the phone spends far more of its compliance effort on these rules than on
 any treaty.
 
+The quantity of such rules can be counted, at least for the largest body that writes them. ISO
+publishes its catalogue as open data: every document, with its type, edition and date
+[@iso2026opendata]. From 1972, the first year the catalogue records International Standards as
+such, to 1979, ISO published about 436 a year; between 2020 and 2025 it published about 1,190 —
+nearly three times as many (@fig-ch06-iso-output). Some 21,500 are in force, before counting ISO's
+other documents or the output of the IEC, the ITU and the industry consortia.
+
+![ISO publishes nearly three times as many International Standards a year as in the 1970s, and
+since 2020 more than half have been revisions. International Standards by year of publication,
+1972–2025; amendments and corrigenda excluded. Source: ISO Open Data, deliverables
+metadata.](figures/ch06-iso-output.png){#fig-ch06-iso-output
+fig-alt="Stacked bars, 1972–2025: standards published per year rise from about 400 to about 1,200; the share of revised editions grows from a third to more than half."}
+
+The composition has changed as much as the volume. In the 1990s a third of the standards ISO
+published (32 per cent) were new editions of existing ones; since 2020, 53 per cent. Both
+management-system standards discussed below were revised again in 2026. Compliance is a
+subscription, not a state, and whoever sits on the committee doing the rewriting holds the rules
+continuously — which is why the question of who sits there matters.
+
 Chapter 5 looked at intergovernmental institutions — the organisations states build and in which
 states vote. This chapter is about the other half of global governance, the rules that come from
 somewhere other than states, and about why that half is increasingly geopolitical.
@@ -185,6 +204,79 @@ body is better organised than one's own, and that competitor's engineers are in 
 standard will reflect their technology, and the firm that stayed away will pay to comply with it. In
 standards, absence is a decision.
 
+## Counting the rule-writers
+
+Influence in a standards committee is hard to observe, but one part of it is visible. Every ISO
+technical committee and subcommittee is administered by a **secretariat**: a national member body
+that volunteers to run it, supplies the committee manager, circulates drafts and organises ballots.
+It gains no extra vote — ISO's rule is one member, one vote — but it holds the pen, the calendar and
+often the first draft. And it pays: a body that holds many secretariats has shown that it, or the
+industry behind it, will fund staff and meetings year after year, which is exactly the capacity the
+institutional-complementarity argument says wins influence.
+
+ISO's open data list, for each of its 787 active committees and subcommittees, the secretariat, the
+date of creation and the **participating members** — those committed to vote on every draft, as
+distinct from observers [@iso2026opendata]. Secretariats are strikingly concentrated
+(@fig-ch06-iso-secretariats). Six bodies — Germany's DIN, China's SAC, the American ANSI, France's
+AFNOR, Japan's JISC and the British BSI — hold 71 per cent. Germany alone holds 127. European
+members, counting the EU, EFTA and the United Kingdom, hold 51 per cent, from about 22 per cent of
+world GDP: the institutional-complementarity argument in a single comparison.
+
+![Germany still administers more ISO committees than any other country, but China is now second;
+European member bodies hold half of all secretariats. Active ISO technical committees and
+subcommittees by secretariat, October 2026. Source: ISO Open Data, technical
+committees.](figures/ch06-iso-secretariats.png){#fig-ch06-iso-secretariats
+fig-alt="Bar chart: Germany 127 secretariats, China 101, United States 89, France 83, Japan 83, United Kingdom 74, others 28 or fewer."}
+
+@tbl-ch06-participation separates participation, which is cheap, from administration, which is not.
+Korea, India and Russia take part in almost as many committees as Germany but hold 7 to 27
+secretariats. The United States, with a quarter of world GDP, holds fewer than Germany, whose
+economy is a sixth of its size — the pattern Mattli and Büthe described, still intact: America's
+many competing standards developers convert economic weight into ISO leadership less efficiently
+than Europe's centralised bodies.
+
+| Member body | Country | Secretariats | Share of secretariats (%) | Participating memberships | Share of world GDP, 2024 (%) |
+|:--|:--|--:|--:|--:|--:|
+| DIN | Germany | 127 | 16.1 | 714 | 4.2 |
+| SAC | China | 101 | 12.8 | 777 | 16.9 |
+| ANSI | United States | 89 | 11.3 | 564 | 26.5 |
+| AFNOR | France | 83 | 10.5 | 652 | 2.9 |
+| JISC | Japan | 83 | 10.5 | 666 | 3.8 |
+| BSI | United Kingdom | 74 | 9.4 | 692 | 3.3 |
+| KATS | Korea | 27 | 3.4 | 612 | 1.7 |
+| BIS | India | 14 | 1.8 | 593 | 3.4 |
+| GOST R | Russia | 7 | 0.9 | 643 | 2.0 |
+| ABNT | Brazil | 3 | 0.4 | 261 | 2.0 |
+
+: Who runs ISO's 787 active committees and subcommittees, who takes part, and how large their economies are, October 2026; GDP share of the economies reporting to the World Bank. Source: ISO Open Data; World Bank, World Development Indicators. {#tbl-ch06-participation}
+
+The member whose position has changed is China. SAC is a participating member of 777 committees,
+more than any other body, and holds 101 secretariats, more than the United States. The data record
+only today's holder, not the history of transfers, but they record when each committee was
+created, and holders by vintage tell the story almost as well (@fig-ch06-iso-vintage). Of the
+committees created between 1970 and 2009, China holds 7 per cent; of the 195 created since 2010, 26
+per cent — more than the United States and Japan together.
+
+![Of the ISO committees created since 2010, China holds more secretariats than the United States and
+Japan together. Share of active committees, by period of creation, whose secretariat each holds
+today. Source: ISO Open Data, technical committees.](figures/ch06-iso-vintage.png){#fig-ch06-iso-vintage
+fig-alt="Line chart over four creation periods: China's share rises from about 7 per cent to 26 per cent for committees created since 2010; the United States falls to 7 per cent; Europe stays largest at 44 per cent."}
+
+The committees themselves are more revealing. China holds the new committees on
+rare earths (created in 2015) and lithium (2020), the raw materials at the centre of the geopolitics
+of magnets and batteries, as well as biogas, coalbed methane and e-commerce. It also holds 17 of
+ISO's oldest committees, created between 1947 and 1969 — screw threads, ships, textiles, plastics,
+cranes — taken over as earlier holders withdrew. One pattern stakes out fields where Chinese
+industry is strong and the rules are unwritten; the other takes over the administration of mature
+industrial standards. Both are what institutional capacity looks like when a government funds it.
+
+Three cautions apply. ISO is one body among several: secretariats there say nothing about the IEC,
+the ITU or 3GPP, where the strategic stakes in telecommunications are highest. A subcommittee on
+chains and sprockets counts the same as one on information security. And administering a committee
+is not winning its arguments: @ruhlig2023 argues that counts of secretariats and proposals overstate
+Chinese influence, which depends on the quality of contributions and the bodies' rules, and that
+the visible hand of the state in Chinese delegations breeds suspicion as well as strength.
+
 ## Standards as geopolitics
 
 For most of the post-war period, the politics of standards was the politics of firms and of national
@@ -235,6 +327,17 @@ assertive approach to international standardisation than the EU and have gained 
 international standardisation committees" [@europeancommission2022]. For a firm, the change is that
 the technical committee where its engineers sit has become a place where its home state's interests
 are being pursued, whether or not the firm shares them.
+
+The three jurisdictions have each written the contest into policy. The Chinese Communist Party's Central
+Committee and the State Council issued a National Standardization Development Outline in October
+2021 [@china2021standardization], with targets for Chinese participation in the
+leadership of international bodies. The European Union amended its standardisation regulation in
+2022 so that decisions on European standards supporting EU law are taken only by the national
+standards bodies of the EU and the European Economic Area, removing the votes that non-European
+firms held in ETSI, the telecommunications standards institute [@europeanunion2022b]. The United
+States published its first national standards strategy for critical and emerging technology in
+2023 [@whitehouse2023]. None of these writes a technical standard. All are about who will be in the room — the
+variable Mattli and Büthe identified, now pursued deliberately by states.
 
 ## Of, by, as: what standards do to organisations
 
@@ -409,6 +512,10 @@ more likely where firms were linked to multinational owners or exported to devel
 customers. Across these studies the picture is consistent: private standards travel along supply
 chains, from buyer to supplier, and the supply chains themselves determine where they go.
 
+@gereffi2005 explain why: where buyer and supplier exchange complex information that is hard to
+codify, value chains become relational or captive, and lead firms specify not only the product but
+how it is made — exactly the chains through which process standards such as ISO 14001 travel.
+
 For the firm, the conclusion is one of the most practical in this book. A private standard can
 become a de facto condition of access to a market without a single law changing. Monitoring
 "regulatory" risk therefore means monitoring not only what governments legislate but what one's
@@ -416,51 +523,107 @@ customers' home markets adopt.
 
 ## How a certificate becomes evidence
 
-The evidence for the California effect in private standards rests on two constructed quantities: how
-far a standard has diffused across countries, and how each country's adoption compares with that of
-the markets it sells to.
+The classic source on certification is **the ISO Survey of Management System Standard
+Certifications**, which counts valid certificates by country and year. It counts *certificates*,
+not firms or sites; its coverage of certification bodies has changed across editions, so that a
+jump in one country in one year may reflect reporting rather than adoption; and from 2025 it is
+compiled from the IAF CertSearch database, a change of method that breaks the series where a reader
+would most like to extend it. A count is also not an adoption rate: a large economy has more
+certificates because it has more firms. Adoption must be **normalised** — by GDP, by the number of
+firms or by exports — and a finding that holds under only one denominator is a finding about the
+denominator.
 
-The data on certification come from **the ISO Survey of Management System Standard Certifications**,
-which counts valid certificates by country and year for the main management-system standards. Two
-features of the survey should temper any reading of it. It counts *certificates* issued by
-certification bodies, not firms or sites, and its coverage of certification bodies has changed
-across editions, so that a sudden jump in one country in one year may reflect a change in reporting
-rather than a wave of adoption. And from 2025 it is compiled from the IAF CertSearch database, a
-change of method that breaks the comparability of the series at exactly the point where a reader
-would most like to extend it. The 2015 revision of ISO 14001 adds a further wrinkle: as
-certificates to the old version expired and were reissued, transition years can show dips that have
-nothing to do with firms abandoning the standard.
+The trade side requires a measure of **export-market adoption**: a weighted average of partners'
+adoption rates, each partner weighted by its share of the country's exports, built from bilateral
+trade data such as the IMF's International Trade in Goods by partner country [@imf2026]. The
+weighting is the substance of the argument. The California effect predicts that what matters is
+adoption among the markets a country actually sells to, in proportion to how much it sells to them;
+an unweighted average would give a country's smallest customers as much influence as its largest.
 
-A count of certificates is not an adoption rate. A large economy has more certificates because it
-has more firms, and a map of raw counts is mostly a map of economic size. Adoption must therefore be
-**normalised** — by GDP, by the number of firms, by manufacturing output or by exports — and each
-denominator tells a somewhat different story. Certificates per firm depend on business registers
-whose quality varies enormously across countries. No denominator is neutral, and a finding that
-holds under only one of them is a finding about the denominator.
+The most instructive check is a **placebo**. ISO 9001 is demanded by buyers everywhere and has no
+environmental content. If its adoption tracks export-market adoption just as closely as ISO 14001
+does, the pull may have little to do with environmental governance and much to do with supply
+chains demanding certificates in general. The finding of @guler2002, that ISO 9000 certificates
+spread along trade ties, suggests the placebo would not come back empty. That would change what the
+finding means — from "trade spreads environmental governance" to "trade spreads certification".
 
-The trade side requires a measure of **export-market adoption** for each country: how much adoption
-there is, on average, among the countries it sells to. The natural measure is a weighted average of
-partners' adoption rates, each partner weighted by its share of the country's exports, built from
-bilateral trade data such as the IMF's International Trade in Goods by partner country [@imf2026],
-the source used for the fragmentation evidence of Chapter 4. The weighting is the substance of the
-argument, not a technical detail. The California effect predicts that what matters is adoption
-among the markets a country actually sells to, in proportion to how much it sells to them. An
-unweighted average of all partners would give a country's smallest customers as much influence as
-its largest and would test a different, much weaker hypothesis.
+## A newer club: science-based climate targets
 
-A scatter of own adoption against export-market adoption shows whether the two move together, not
-why; Prakash and Potoski's panel model, with its controls, is what carries the causal claim.
+The trading-up argument can be checked with a younger private standard whose register is public
+firm by firm, and which is the kind of rule multinationals now ask their suppliers to meet. The
+Science Based Targets initiative was launched in 2015 by CDP, the UN Global Compact, the World
+Resources Institute and WWF to assess whether companies' emission-reduction targets are consistent
+with the goals of the Paris Agreement. A company submits a target and the initiative validates it,
+or does not, against criteria it writes itself. In Green's terms its authority is purely
+entrepreneurial; like ISO 14001 it governs a process rather than a product; unlike the ISO Survey,
+its register lists every company, its country and the date of each target [@sbti2026dashboard].
 
-The most instructive check is a **placebo**. ISO 9001, the quality-management standard, is demanded
-by buyers everywhere and has no environmental content at all. If adoption of ISO 9001 tracks
-export-market adoption of ISO 9001 just as closely as ISO 14001 tracks its own, then the
-export-market pull may have little to do with environmental governance and a great deal to do with
-the general practice of supply chains demanding certificates of their suppliers. The earlier
-finding of @guler2002, that ISO 9000 certificates themselves spread along trade ties, suggests that
-the placebo would not come back empty. That would not overturn the finding that trade spreads
-private standards upward. It would change what the finding means — from "trade spreads
-environmental governance" to "trade spreads certification", which is a different and less
-encouraging claim.
+The register shows a private standard's diffusion with unusual clarity (@fig-ch06-sbti-diffusion).
+By October 2026, 12,162 companies had validated near-term targets; only 14 of them have a current
+target published before 2019. The take-off came in 2021–2023, and Europe led it, with 47 per cent of
+validated companies. But the largest national group is Japanese — 2,582 companies, more than the
+United Kingdom (1,569) or the United States (1,170) — and East Asia accounts for 31 per cent against
+North America's 11. More than half the validated companies (55 per cent) are small and medium-sized
+enterprises, many of them suppliers whose targets were requested by their customers: the California
+effect in its private form.
+
+![A private climate standard written in 2015 spread first through Europe, then, from 2021, through
+Japan and the rest of East Asia. Companies with a validated near-term emissions target, cumulative
+by the year of the earliest near-term target currently listed, by UN region; 2026 is to October.
+Source: Science Based Targets initiative, Target Dashboard.](figures/ch06-sbti-diffusion.png){#fig-ch06-sbti-diffusion
+fig-alt="Line chart 2015–2026: validated companies reach 5,756 in Europe, 3,783 in East Asia, 1,326 in North America, 1,297 elsewhere."}
+
+The test is Prakash and Potoski's. A country's own adoption is its number of validated companies
+per US\$100 billion of GDP; its export-market adoption is the same quantity for its trading partners,
+weighted by their shares of its 2024 merchandise exports [@imf2026; @worldbank_wdi]. The sample is
+the 91 economies with GDP of at least US\$50 billion.
+
+![Economies whose export markets have adopted science-based targets adopt more themselves. Own and
+export-market adoption as validated companies per US\$100 billion of GDP, log scales; economies with
+GDP of US\$50 billion or more, bubble size proportional to GDP. Source: SBTi Target Dashboard; IMF,
+International Trade in Goods; World Bank, World Development
+Indicators.](figures/ch06-sbti-export-pull.png){#fig-ch06-sbti-export-pull
+fig-alt="Log-log scatter of 91 economies with an upward-sloping line; Japan far above it, Russia and Saudi Arabia far below."}
+
+The pattern is the one the trading-up argument predicts (@fig-ch06-sbti-export-pull); the
+correlation in logarithms is 0.53. Denmark, with 77 validated companies per US\$100 billion of GDP,
+sells to markets averaging 23; Russia, whose exports go mainly to markets with below-average
+adoption, has none. @tbl-ch06-export-pull confronts the relationship with its most obvious rival,
+income. Taken alone, a doubling of export-market adoption is associated with own adoption about
+five times higher (an elasticity of 2.3), and income per head alone explains slightly more of the
+variation. With both in the regression the export-market coefficient falls to 1.6 but remains more
+than four standard errors from zero.
+
+| | (1) Export markets | (2) Income | (3) Both |
+|:--|--:|--:|--:|
+| Log export-market adoption | 2.30 (0.39) | | 1.64 (0.36) |
+| Log GDP per head, 2024 | | 0.83 (0.13) | 0.64 (0.12) |
+| R² | 0.28 | 0.33 | 0.45 |
+| Economies | 91 | 91 | 91 |
+
+: Export-market adoption and own adoption of science-based targets, OLS. Dependent variable: log of (validated companies per US\$100 billion of GDP + 0.1); standard errors in parentheses. Source: SBTi Target Dashboard; IMF; World Bank; author's calculations. {#tbl-ch06-export-pull}
+
+The departures from the line are as instructive as its slope. Japan has 62 validated companies per
+US\$100 billion of GDP while its export markets average 8: large manufacturers asked their supplier
+networks to set targets, and government programmes helped smaller firms do so. A coordinated
+domestic system carried the standard further than trade would have — Mattli and Büthe's
+institutional argument appearing, unbidden, in a diffusion study. The United States and China sit
+together at about 4, with export markets averaging about 12: the two largest economies lag their
+customers, for reasons the data cannot separate. Saudi Arabia, whose customers adopt about as much
+as America's, has almost none, and sixteen economies in the sample have no validated company at
+all, most of them exporters of oil, gas, metals or farm commodities. A barrel of oil carries no
+supplier code of conduct; the California effect needs a buyer who cares how a good was made.
+
+The limits are those set out above, and some are sharper. A cross-section shows association, not
+cause. The measure counts companies, not emissions. And a validated target is a promise, not a
+reduction: @bjorn2023 argue that validation is not transparent enough for outsiders to judge how
+demanding targets are — decoupling again, at the level of the standard rather than the firm. The
+initiative's authority has itself been contested: in 2024 a board statement that it would consider
+letting carbon credits count towards reductions [@sbti2024] drew public objections, including from
+within the initiative, a
+reminder that an entrepreneurial standard's legitimacy rests on its adopters' trust. What the
+pattern shows is that buyers transmit the requirements they have accepted. A supplier's regulatory
+future is being written in its customers' markets.
 
 ## What private authority means for the multinational, channel by channel
 
@@ -537,7 +700,8 @@ effect. @prakash2006 provided the cross-national test at the centre of this chap
 trade spreads ISO 14001 from export markets to exporters, and @prakash2006b developed the theory of
 voluntary programmes as clubs. The diffusion mechanism is corroborated for quality standards by
 @guler2002, for Chinese firms by @christmann2001, and for the differing paths of Europe and the
-United States by @delmas2002. The through-line is that private rules travel along supply chains, and
+United States by @delmas2002, and explained by the value-chain governance of @gereffi2005.
+@ruhlig2023 weighs China's rise in standardisation; @bjorn2023 raise decoupling for climate targets. The through-line is that private rules travel along supply chains, and
 that the power to write them lies with those organised to take part.
 :::
 

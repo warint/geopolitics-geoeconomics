@@ -136,6 +136,73 @@ has not happened yet. An assessment that relies on one family inherits that fami
 Triangulation across several families is not a matter of more being better; it is the only defence
 against a blind spot that cannot be seen from inside one family.
 
+### Five series, one quarter at a time
+
+The claim can be tested with the series this book has used. @fig-ch12-families sets five of them
+side by side, quarter by quarter, from 2002 to mid-2026: the geopolitical risk index built from
+newspapers [@caldara2022]; the global index of economic policy uncertainty, also built from
+newspapers [@baker2016]; the average political risk that listed firms express in their earnings
+calls, available until the first quarter of 2022 [@hassan2019]; the VIX, the volatility of the US
+stock market implied by option prices, the most watched market-based measure of fear [@whaley2009];
+and the New York Fed's index of global supply-chain pressure, which combines shipping and airfreight
+costs with the delivery times and backlogs reported in manufacturing surveys [@benigno2022]. Each
+is expressed in standard deviations from its own mean over the 81 quarters that all five cover, so
+that their peaks can be compared.
+
+![Five measures of risk, five different crises at the top. Quarterly means of each series,
+standardised on 2002–2022Q1; dots mark each series' highest quarter. Sources: Caldara and
+Iacoviello; Baker, Bloom and Davis; Hassan et al.; Cboe; Federal Reserve Bank of New
+York.](figures/ch12-families.png){#fig-ch12-families
+fig-alt="Five stacked line panels from 2002 to 2026. Geopolitical risk peaks in 2003 and again in
+2022; policy uncertainty peaks in 2025; firm-level political risk in 2020; the VIX in 2008; supply-
+chain pressure at the end of 2021."}
+
+Each series has a different worst quarter. For the geopolitical risk index it is the first quarter
+of 2003, the invasion of Iraq, followed by the first quarter of 2022. For policy uncertainty it is
+the second quarter of 2025, the quarter of the American tariff announcements. For the political
+risk firms discuss with their investors it is the second quarter of 2020, the pandemic. For the VIX
+it is the last quarter of 2008, the financial crisis. For supply-chain pressure it is the last
+quarter of 2021, when ports were congested and container rates at their height. Five measures of
+risk, five crises at the top.
+
+The disagreement is sharper than a list of peaks suggests. Ranked against the other 80 quarters of
+the common period, the second quarter of 2020 is the riskiest for policy uncertainty and for firms'
+political risk, the fourth for the VIX — and the least risky of all 81 for the geopolitical risk
+index, whose newspapers had stopped writing about war and terrorism to write about the virus. The
+last quarter of 2008 is the riskiest for the VIX and the third for firms, but the 71st for
+geopolitical risk and the 79th for supply-chain pressure, which collapsed with world trade. The
+first quarter of 2022, when Russia invaded Ukraine, is second for geopolitical risk and third for
+supply-chain pressure, but only 16th for the VIX and 34th for firms' political risk: equity markets
+and earnings calls, dominated by American firms, treated a war in Europe as a smaller event than
+Lehman or the pandemic.
+
+| | Geopolitical risk | Policy uncertainty | Firms' political risk | VIX |
+|:---|---:|---:|---:|---:|
+| Policy uncertainty (newspapers) | −0.19 | | | |
+| Political risk (earnings calls) | −0.19 | 0.72 | | |
+| Market volatility (VIX) | 0.03 | 0.27 | 0.54 | |
+| Supply-chain pressure (GSCPI) | −0.07 | 0.58 | 0.30 | 0.10 |
+
+: Correlations between five risk indicators, quarterly levels, 2002Q1–2022Q1 (81 quarters).
+Sources: as for @fig-ch12-families; computed by the author. {#tbl-ch12-correlations}
+
+@tbl-ch12-correlations puts the same point in numbers. Policy uncertainty and firms' political risk
+move together closely (a correlation of 0.72), and both move with the VIX: they are, in different
+ways, measures of the uncertainty that matters to investors in listed firms. The geopolitical risk
+index is correlated with none of the other four — its correlations range from −0.19 to 0.03 — and
+supply-chain pressure is correlated with policy uncertainty, through the pandemic and the tariffs,
+but barely with markets. Changes tell the same story as levels: from one quarter to the next, the
+geopolitical risk index moves independently of policy uncertainty (a correlation of 0.00) and
+almost independently of everything else. A firm that watched only the VIX would have seen nothing
+unusual in the quarter Russia invaded Ukraine; one that watched only the geopolitical risk index
+would have seen nothing at all in the pandemic, which closed its plants and its customers' shops.
+
+None of this means that four of the five measures are wrong. They measure different things —
+attention to war, attention to policy, the concerns of managers, the price of insurance against a
+fall in equities, the strain on logistics — and each was right about its own object. It means that
+"geopolitical risk is high" is never a complete statement until one says which family says so, and
+that an indicator chosen because it rose in the last crisis is likely to miss the next.
+
 ## Every figure is a stack of decisions
 
 The method of this book rested on a claim: that a chart in a famous work is a set of decisions, and
@@ -255,6 +322,38 @@ without a court or a legislature stopping it — is a question about political c
 measure that tells an investor how exposed it is to its host government tells a customer how exposed
 it is to its supplier's.
 
+The structural measure behaves very differently from the event and expert measures, and a firm
+reading them together must know why. @fig-ch12-countries follows three countries at war — Russia,
+Ukraine and Israel — on three indicators from three families: the share of articles in the
+geopolitical risk index's newspapers that mention the country together with geopolitical risk,
+the World Bank's expert-based score of political stability and absence of violence
+[@kaufmann2011], and Henisz's political constraint. The press reacted at once and by a large
+factor. Russia's share of articles rose from 0.82 percent in 2021 to 3.69 percent in 2022 and
+Ukraine's from 0.35 to 3.61; Israel's quadrupled in 2023. The expert score moved less, and not
+always in the expected direction. Russia's political stability score fell from 57.2 to 53.2 in the
+year of the invasion and to 50.5 by 2024 — about where it had been in 2013. Ukraine's fell
+sharply in 2014, with the annexation of Crimea and the war in the Donbas, but in the years of
+full-scale war it *rose*, from 47.9 in 2022 to 58.5 in 2024, a reminder that the sources behind the score
+judge the state and its government, not only the fighting on its territory. Political constraint did
+not register the wars at all: Russia's rose slightly in 2022, from 0.23 to 0.30; Israel's has stayed between 0.54 and 0.60 for two decades.
+
+![Three families, three verdicts on the same wars. Country geopolitical risk (share of articles,
+annual mean), WGI political stability (score 0–100) and POLCON III, 2002–2025. Sources: Caldara
+and Iacoviello; World Bank, WGI 2025 edition; Henisz, POLCON 2025.](figures/ch12-countries.png){#fig-ch12-countries
+fig-alt="Grid of nine small line charts: rows are press attention, expert political stability and
+political constraint; columns are Russia, Ukraine and Israel. Press attention spikes in 2022 for
+Russia and Ukraine and in 2023 for Israel; stability scores move modestly; constraint barely
+changes."}
+
+None of the three is wrong. The press measures attention, and attention jumps. The expert score
+measures a latent property — the likelihood of political instability or violence — through
+surveys and ratings that update slowly and that judge a state at war on the cohesion of its
+government as well as on the fighting. The structural index measures the institutional feasibility
+of policy change, which a war need not alter. For a firm the useful reading combines them: the
+press says that something has happened, the expert score says how far informed observers have
+revised their view of the state, and the constraint index says how quickly the state could now
+change the rules the firm operates under.
+
 The bargain between a firm and its host government also changes over time, in a direction that
 Raymond Vernon identified half a century ago and Chapter 9 examined [@vernon1971]. Before a
 multinational invests, the host government needs its capital, technology and market access, and the
@@ -364,6 +463,50 @@ reverses when the weight on one indicator moves from a third to a half is tellin
 decision depends on a judgement about priorities, not on the data — and that judgement belongs to
 the board, not to the analyst. Showing the sensitivity is not a confession of weakness. It is the
 analyst handing the decision to the person who must own it.
+
+@fig-ch12-composite shows how much the weights matter with three indicators already discussed:
+the press-based country geopolitical risk index, the expert-based political stability score and
+the structural political constraint index, for the 39 countries covered by all three in 2024. Each
+is rescaled from 0 to 1 across these countries, with 1 for the most risk — most press attention,
+least stability, least constraint — and combined with four sets of weights: equal, or 60 percent on
+one indicator and 20 on each of the others. Seven countries are among the ten riskiest whatever
+the weights: China, Egypt, the Philippines, Russia, Ukraine, the United States and Venezuela. Below
+them the ranking is fluid. The median country moves seven places between the most and least
+favourable weighting, and sixteen of the 39 move ten places or more.
+
+![Who is riskiest depends on whose weights. Rank of 39 countries on a composite of press
+attention, political stability and political constraint, 2024, under four weightings; grey bars
+show the range. Sources: Caldara and Iacoviello; World Bank, WGI; Henisz, POLCON; computed by the
+author.](figures/ch12-composite.png){#fig-ch12-composite
+fig-alt="Dot plot of 39 countries ranked from riskiest to safest under four weighting schemes,
+with bars showing each country's range of ranks; ranges are narrow for the Nordic countries and
+for Venezuela and Egypt, and wide for Israel, Brazil, Mexico, Peru and Indonesia."}
+
+| Country | Equal weights | Press-heavy | Expert-heavy | Constraint-heavy |
+|:---|---:|---:|---:|---:|
+| Venezuela | 1 | 8 | 1 | 1 |
+| United States | 3 | 1 | 6 | 10 |
+| Russia | 4 | 2 | 3 | 7 |
+| Israel | 7 | 3 | 4 | 16 |
+| United Kingdom | 11 | 7 | 20 | 13 |
+| Mexico | 24 | 24 | 14 | 33 |
+| Germany | 27 | 16 | 25 | 31 |
+| Brazil | 31 | 31 | 21 | 39 |
+
+: Rank of selected countries on the composite under four weightings (1 = riskiest of 39).
+Sources: Caldara and Iacoviello; World Bank, WGI 2025 edition; Henisz, POLCON 2025; computed by the
+author. {#tbl-ch12-composite}
+
+The table shows where the fluidity comes from, and it is not noise. The United States is the
+riskiest of the 39 countries when the press is given most weight, because the newspapers behind
+the index are American and British and write about American wars, alliances and threats more than
+about anyone else's; it falls to tenth when constraint is given most weight, because the American
+system of checks and balances places it among the more constrained countries in the sample. Israel moves from third
+to sixteenth for the same reason. Brazil and Mexico, rarely mentioned in Anglo-American newspapers'
+war coverage, rise sharply when the expert score dominates. Each weighting embodies a view of what
+geopolitical risk is — the attention of a particular press, the judgement of a particular set of
+experts, the institutional ease of changing the rules — and the ranking a board sees is that view,
+not the world.
 
 ## Indicators do not decide
 
@@ -493,7 +636,9 @@ the POLCON index of political constraint and related it to growth, and @henisz20
 infrastructure, the kind of asset most exposed to policy reversal. The measurement strand is more
 recent and largely text-based: @baker2016 on economic policy uncertainty, @caldara2022 on
 geopolitical risk, and @hassan2019 on political risk as firms themselves discuss it, alongside
-expert-based aggregates such as @kaufmann2011. @bloom2009 established the mechanism by which
+expert-based aggregates such as @kaufmann2011, the market-based VIX [@whaley2009] and composite
+measures of supply-chain strain such as @benigno2022 — series which, set side by side, peak in
+different crises and are barely correlated with one another. @bloom2009 established the mechanism by which
 uncertainty, once measured, depresses investment, and @oecd2008 codified the construction of the
 composite indicators on which most practical risk scores rely.
 

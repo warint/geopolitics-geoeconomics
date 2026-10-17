@@ -348,16 +348,41 @@ productivity low and its military poorly equipped.
 
 The consequence is visible in the data. In version 7.0 of the National Material Capabilities
 dataset, China's CINC first exceeds that of the United States in 1995; the order reverses for a
-single year in 2002, and China has led in every year since 2003. By 2022 its score was nearly
-twice the American one. Other measures tell a different story. At purchasing-power parity, China's
-GDP passed that of the United States in 2014, according to the World Bank's data. At market
-exchange rates it has never passed it: the ratio peaked at about 77 per cent in 2021 and stood at
-about 64 per cent in 2024. On military expenditure the gap is wider still. The Correlates of War
-series itself puts China's spending in 2022 at about a quarter of the American figure, and the
-Stockholm International Peace Research Institute's database, in constant 2024 dollars, puts it at
-about a third in 2025 — with the Chinese figures marked as SIPRI's own estimates. One underlying
-reality, four measures, four answers: 1995, 2014, not yet, and not close. The date of the
-"transition" is a property of the measure, not only of the world.
+single year in 2002, and China has led in every year since 2003. Other measures tell a different
+story. At purchasing-power parity, China's GDP passed that of the United States in 2014, according
+to the World Bank's data; at market exchange rates it never has. On military expenditure the gap is
+wider still: about a quarter of the American figure in 2022 in the Correlates of War series, about
+a third in 2025 in the Stockholm International Peace Research Institute's (SIPRI) database, whose
+Chinese figures are its own estimates. One underlying reality, four answers: 1995, 2014, not yet,
+and not close.
+
+![China relative to the United States: past parity on the capability index since 1995 and at purchasing-power parity since 2014, but at 63 per cent of US GDP at market exchange rates and 36 per cent of US military spending in 2025. Source: COW NMC v7.0; World Bank WDI; SIPRI (constant 2024 US dollars).](figures/ch03-four-measures.png){#fig-ch03-four-measures fig-alt="Line chart, 1950 to 2025, of China as a percentage of the United States on four measures. The capability index passes parity in 1995, GDP at purchasing-power parity in 2014; GDP at market exchange rates peaks at 77 per cent; military spending reaches 36 per cent."}
+
+@fig-ch03-four-measures puts the four series on one scale, with lines at parity and at the 80 per
+cent threshold, and @tbl-ch03-measures dates the crossings. The measures disagree not only about the
+level but about the *shape* of the transition. On the capability index China was already at 79 per
+cent of the United States in 1990, before its take-off showed in any output statistic, and entered
+the danger zone in 1975, in the last years of the Cultural Revolution. At purchasing-power parity it
+stood at 19 per cent in 1990 and reached parity in 2014. At market exchange rates it rose from 6 per
+cent to 77 and fell back as the renminbi weakened and American nominal growth outpaced China's. On
+military money it went from under 3 per cent to just over a third. Four histories: a transition
+long completed, one recently completed, one stalled, one not begun.
+
+| Measure | Source | China as % of US, first year ≥ 80% | First year ≥ 100% | Latest value |
+|---|---|---|---|---|
+| Composite Index of National Capability | COW NMC v7.0 | 1975 | 1995 | 189% (2022) |
+| GDP at purchasing-power parity | World Bank WDI | 2010 | 2014 | 134% (2025) |
+| GDP at market exchange rates | World Bank WDI | not reached (peak 77%, 2021) | not reached | 63% (2025) |
+| Military expenditure, constant 2024 US$ | SIPRI | not reached | not reached | 36% (2025) |
+
+: When did China approach parity with the United States? Source: Correlates of War, National Material Capabilities v7.0; World Bank, World Development Indicators (NY.GDP.MKTP.PP.CD, NY.GDP.MKTP.CD); SIPRI Military Expenditure Database, 2026 release. {#tbl-ch03-measures}
+
+The measures sort themselves by what they weigh. The two that put China ahead count physical
+volumes — tonnes of steel, the domestic price of a haircut; the two that put the United States ahead
+count things priced in world markets. Purchasing-power parity is the better guide to what a
+government can buy at home; market exchange rates to what it can buy abroad, and to the market a
+foreign firm earns revenue in. A multinational that reports its Chinese sales in dollars lives in
+the market-exchange-rate world, whatever the capability index says.
 
 The size bias is visible even earlier in the series. In the 1860s, 1870s and most of the 1880s —
 decades in which China was losing wars to European powers and ceding territory and treaty ports
@@ -365,6 +390,22 @@ decades in which China was losing wars to European powers and ceding territory a
 American industry had not yet grown to its later scale. No historian of the period would call
 Qing China the more powerful of the two. The index does, for a quarter of a century, and for the
 same reason that it dates the modern transition early.
+
+Because the index is a simple average, the size bias can be taken apart component by component
+(@fig-ch03-cinc-components). In 2022 China produced 54 per cent of the system's recorded iron and
+steel and consumed 30 per cent of its primary energy, against 4 and 14 per cent for the United
+States; it held 18 per cent of world and of urban population, against about 4 and 3. Only on
+military expenditure does the United States lead — 42 per cent against 11.
+
+![China's capability lead in 2022 rests on iron and steel (54 per cent of the system total against 4 per cent for the United States), energy and population; the United States leads only on military expenditure (42 per cent against 11). Source: Correlates of War, National Material Capabilities v7.0.](figures/ch03-cinc-components.png){#fig-ch03-cinc-components fig-alt="Paired bars of the Chinese and American shares of the system total on six components in 2022: population 18 and 4 per cent; urban population 18 and 3; iron and steel 54 and 4; energy 30 and 14; military personnel 10 and 7; military expenditure 11 and 42."}
+
+Steel alone contributes nine of China's 23 points. Without it, China still leads on the other five
+components, by 17 points to 14; on the two military components alone the order reverses, 10 against
+24. In 1995, the crossover year, the two countries each produced about 13 per cent of the system's
+steel, and nearly all of China's subsequent gain came from the steel and energy columns — the
+construction boom of the 2000s and 2010s and the coal-fired power that drove it. That capacity
+could in principle be turned to shipbuilding and munitions. But a measure of national power whose
+largest driver is a sector Chinese policy has spent a decade trying to shrink needs careful reading.
 
 ### What it misses
 
@@ -378,10 +419,9 @@ platforms and communications infrastructure that @farrell2019 identify as instru
 (Chapter 2). These are precisely the forms of power that reach firms most directly, and Chapters 8,
 10 and 11 return to them.
 
-The choice of measure is not a technicality, and Beckley's critique shows why. If power is gross
-resources, China caught up long ago. If it is net resources after the costs of a large population,
-or military capability weighted by quality, or control of the networks through which the world
-economy runs, the picture changes. Each measure is defensible. None is neutral.
+The choice of measure is not a technicality, as Beckley's critique shows: on gross resources China
+caught up long ago; on net resources, quality-weighted military capability or control of networks,
+the picture changes. Each measure is defensible. None is neutral.
 
 ## Reading two centuries in one chart
 
@@ -414,15 +454,30 @@ components, it removes nearly a tenth of the United States' CINC score — from 
 overnight. China's urban population jumps in the same year in the opposite direction. A reader who
 saw the gap between the two powers widen in 2017 would be reading a revision, not a shift in power.
 
-The fourth thing is the substantive story, and read with these cautions it is clear. Britain holds
-the largest share from 1816 until the 1890s; the United States passes it briefly in 1892 and for
-good in 1897, in the years when, as the archive above recounts, Britain chose to accommodate it. The
-two World Wars violently rearrange the distribution: the American share peaks in 1945 at nearly 40
-per cent of the system's capabilities, the highest any state reaches in two centuries. The Cold War
-appears as Waltz's bipolarity made visible — two powers far above the rest — and on this index the
-Soviet Union actually leads from 1971 to 1988, a reminder of how much weight the measure gives to
-steel, energy and soldiers and how little to technology. From the 1990s, China's share rises past
-both, to about 23 per cent in 2022 against about 12 per cent for the United States.
+The fourth thing is the substantive story, and read with these cautions it is clear
+(@fig-ch03-cinc-shares). Britain holds the largest share from 1816 until the 1890s — a third of the
+system's capabilities at the start of the series, and still more than a quarter in 1860; the United
+States passes it briefly in 1892 and for good in 1897, in the years when, as the archive above
+recounts, Britain chose to accommodate it. The two World Wars violently rearrange the distribution:
+the American share spikes to 38 per cent in 1919, as wartime spending is counted against a
+devastated Europe, and peaks in 1945 at 38.4 per cent of the system's capabilities, the highest any
+state reaches in two centuries. The Cold War appears as Waltz's bipolarity made visible — two powers
+far above the rest — and on this index the Soviet Union actually leads from 1971 to 1988, a reminder
+of how much weight the measure gives to steel, energy and soldiers and how little to technology.
+From the 1990s, China's share rises past both, to about 23 per cent in 2022 against about 12 per
+cent for the United States.
+
+![Britain leads until the 1890s, the United States from 1897 (peaking at 38 per cent in 1945), the Soviet Union on this index from 1971 to 1988, and China since 1995. Source: Correlates of War, National Material Capabilities v7.0.](figures/ch03-cinc-shares.png){#fig-ch03-cinc-shares fig-alt="Line chart of CINC shares, 1816 to 2022, for six powers. Britain declines from 34 per cent; the United States spikes to 38 per cent in 1919 and 1945 and declines to 12; the USSR leads in the 1970s and 1980s and collapses after 1991; China rises from the 1990s to 23 per cent."}
+
+Two features of the chart deserve more attention. The first is the shape of American dominance: the
+1945 peak reflects the destruction of every other industrial power, and it decays fast — 28 per cent
+in 1950, 14 per cent by 1990. A present-day share of 12 per cent is not a collapse; what changed
+after 1990 was which line sat above the American one. The second is that for the period in which
+most Western managers formed their picture of the world, the index shows a Soviet Union at or above
+the United States — wrong for the reason the Chinese figures need caution today: the index counts
+inputs, not how efficiently they are used. The Soviet line falls from about 18 per cent in 1985 to
+under 7 in 1992, partly because post-1991 Russia is a smaller state than the Soviet Union it
+continues in the data.
 
 ### Bipolar, multipolar, or something else?
 
@@ -433,6 +488,38 @@ other states would balance against a power with no counterweight. Whether the pr
 returning to bipolarity — the United States and China — or moving to a multipolar one with several
 significant powers is contested, and the answer depends, once again, on the measure.
 
+Polarity has its own measurement tradition: @ray1973 proposed an index of the *concentration* of
+capabilities among the major powers. A simpler reading takes the shares of the three largest states
+each year. A system is bipolar when the gap between the second and the third is wide, multipolar
+when it is narrow.
+
+![On the capability index, the gap between the second- and third-largest states, wide in the Cold War and after 1991, had narrowed to about two and a half points by 2022. Source: Correlates of War, National Material Capabilities v7.0.](figures/ch03-concentration.png){#fig-ch03-concentration fig-alt="Line chart, 1816 to 2022, of the CINC shares of the three largest states each year, with the gap between second and third shaded. The gap is widest in the 1950s and after 1991, when the third share falls below 7 per cent, and narrows by 2022."}
+
+In 1950 the largest state held 28 per cent of the system's capabilities, the second 18 and the
+third 12 (@fig-ch03-concentration). The gap was wider still in the mid-1990s, but the index names the
+top two in 1995 as the United States and China, at 14.3 and 14.1 per cent. On CINC there was no
+"unipolar moment" — the opposite of the reading of @wohlforth1999, who argued that the post-Cold War
+system was unipolar and, because unipolar, durable, on measures that weight quality: defence
+spending, research and development, output at market prices.
+
+By 2022 the band has narrowed to about two and a half points: China 23 per cent, the United States
+12, India nearly 10. India's share reached 80 per cent of the American one in 2017 — the year of the
+American urban-population revision — and stood there in 2022. A mechanical reader would say the
+United States is "approaching parity" from below with India, whose military spending in 2025 was
+about a tenth of the American figure. Yet India's population, steel and energy are large and
+growing; if latent power is what they measure, the data point to a three-cornered distribution.
+
+The debate over the present configuration is a debate about weights. @brooks2016 argued that
+technology-intensive military power makes it harder for a rising state to convert economic size into
+superpower capabilities, and treated China as, at most, an emerging potential superpower. Others see
+a return to bipolarity, or a world of several centres. Each answer is a choice of yardstick.
+
+Nor is balancing always military. @pape2005 argued that states facing an American lead too large to
+balance by arms would turn to *soft balancing* — denying territory, entangling diplomacy in
+institutions, economic strengthening — to raise the costs of American action. Its instruments are
+commercial, which makes it the form that reaches firms: the refused port call becomes a refused
+licence, and the coalition becomes a payment system built to work around the dominant power's.
+
 The question matters to firms because the two configurations imply different environments.
 A bipolar system tends to produce two blocs with clear membership, so that the firm's problem is
 being made to choose a side. A multipolar system produces more hedging states — governments that
@@ -440,6 +527,49 @@ trade with both sides and bargain between them — and therefore more room for f
 operations in third countries open to both. The geography of
 "connector" economies, which Chapter 4 examines with trade data, is a direct consequence of which
 of the two worlds firms are in.
+
+### The military money
+
+If the capability index flatters size, military expenditure flatters quality, and it is the
+measure on which the unipolar reading rests. @fig-ch03-milex-shares divides each country's spending
+in the SIPRI database, in constant 2024 dollars, by the world total, which SIPRI reports from 1988.
+
+![The American share of world military spending fell from 53 per cent in 2010 to 34 per cent in 2025; China's rose to 12 per cent and Russia's recovered to 6. Source: SIPRI Military Expenditure Database, 2026 release, constant 2024 US dollars.](figures/ch03-milex-shares.png){#fig-ch03-milex-shares fig-alt="Line chart, 1988 to 2025, of shares of world military expenditure. The United States stays between 45 and 53 per cent until 2011, then falls to 34. China rises from about 1 to 12 per cent. Russia, continuing the USSR, falls from 16 to about 2 per cent and recovers to 6."}
+
+The United States spent 47 per cent of the world's military budget in 1988 and 53 per cent at the
+peak in 2010, during the wars in Iraq and Afghanistan. Its share fell to 34 per cent in 2025, as much
+through others' growth as through restraint: world spending rose from about 1,961 billion dollars in
+2015 to 2,771 billion in 2025, in constant 2024 prices, while American spending fell in 2025 from
+1,005 to 929 billion. China's rise has been steady rather than spectacular — from 196 to 335 billion
+dollars over the decade, 12 per cent of the world total. The United States still spent 2.8 times as
+much.
+
+| Rank | Country | Spending, 2025 (US$ bn, constant 2024) | Share of world (%) | Change since 2015 (%) |
+|---|---|---|---|---|
+| 1 | United States | 929.2 | 33.5 | +11 |
+| 2 | China | 335.0 | 12.1 | +71 |
+| 3 | Russia | 158.2 | 5.7 | +111 |
+| 4 | Germany | 106.7 | 3.9 | +128 |
+| 5 | India | 93.3 | 3.4 | +53 |
+| 6 | United Kingdom | 88.0 | 3.2 | +32 |
+| 7 | Saudi Arabia | 81.5 | 2.9 | −20 |
+| 8 | Ukraine | 77.6 | 2.8 | +1,507 |
+| 9 | France | 64.5 | 2.3 | +21 |
+| 10 | Japan | 59.5 | 2.1 | +60 |
+
+: The ten largest military spenders in 2025, which together account for 72 per cent of the world total. Figures for China, Russia and Saudi Arabia are, in whole or part, SIPRI estimates. Source: SIPRI Military Expenditure Database, 2026 release (constant 2024 US dollars). {#tbl-ch03-milex}
+
+@tbl-ch03-milex is a portrait of a system rearming. Russia's spending more than doubled in a decade
+and Ukraine's rose sixteen-fold; Germany's more than doubled; Japan's rose by 60 per cent. Each
+increase is defensive in the mind of the state that makes it, and read by others as a reason for
+their own — the security dilemma in a table.
+
+Spending has its own measurement problems. Market exchange rates understate what a lower-cost economy
+buys, since Chinese soldiers and shipyard workers are paid less than American ones; purchasing-power
+parity raises China's figure but overstates what it can buy of weapons priced in world markets.
+China's official budget excludes items SIPRI adds back, which is why SIPRI's figure is higher and
+marked as an estimate. And much of the American budget goes on personnel, health care and global
+bases that a power concentrating on its own region does not need.
 
 ## How a firm would know the balance is shifting
 

@@ -134,6 +134,32 @@ of websites, denial-of-service attacks, espionage. Operations that destroy physi
 lives are rare. The image of cyberspace as a domain of constant, escalating attack does not survive
 contact with a systematic count.
 
+The public release of the data lets the claim be checked directly (@fig-ch08-dcid-severity). Of the
+433 incidents in the September 2022 release of DCID, 393 — nine in ten — are coded 2, 3 or 4 on the
+severity scale: harassment and disruption, the theft of information from one network, or widespread
+intrusion into several. Eighteen are coded 5, for intrusions that attempted damage, and five are
+coded 6, the level the codebook reserves for widespread destruction in a network critical to national
+security. Those five are the canonical cases: the two Stuxnet entries against Iran, starting in 2009
+and attributed one to the United States and one to Israel; the Shamoon wiper and the attack on the
+gas producer RasGas, both attributed to Iran and directed at Saudi Arabia in 2012; and the reported
+American effort to sabotage North Korean missile launches, coded for 2015. Nothing in two decades is
+coded 7 or above — the levels at which the codebook places deaths, the disruption of a national
+economy and the destruction of critical infrastructure.
+
+![Nine in ten publicly attributed cyber incidents between rival states sit at 2–4 on a ten-point
+severity scale, and none above 6. Incidents beginning 2000–2020 by severity, with the codebook's
+labels. Source: Dyadic Cyber Incident and Campaign Data, version 2.0 (September 2022 release), and
+its Codebook 2.0.](figures/ch08-dcid-severity.png){#fig-ch08-dcid-severity fig-alt="Bar chart of DCID incidents by severity from 0 to 10: 116 at level 2, 159 at 3, 118 at 4, 18 at 5, 5 at 6 and none from 7 to 10."}
+
+The scale is worth reading for what it ranks low. The operation that cost firms more than any other
+in the record, NotPetya, appears twice: once against Ukraine, coded 5, and once against the United
+States, coded 4 — below Stuxnet and Shamoon. The WannaCry ransomware of 2017, attributed to North
+Korea, is coded 4 in both its American and its British entries, although it shut down hospital
+services in Britain. The scale measures harm as a state experiences it, against networks critical to
+national security, and that is the right scale for testing a theory of how states fight. It is not a
+scale of cost to the firms that are in the way, and an analyst who sorted incidents by it to rank
+commercial exposure would have the order wrong.
+
 ::: {.definition}
 [**Cyber restraint**]{.term} — the empirical pattern, and the theoretical argument, that states with
 offensive cyber capabilities use them sparingly and at low severity against their rivals, holding
@@ -148,6 +174,22 @@ Cyber operations do not create new conflicts; they are a tool in old ones. That 
 anyone who expected the low cost of entry to cyber operations to flatten the international
 hierarchy. The states that are most active in cyberspace are, by and large, the states that were
 already contending.
+
+The concentration is easy to state in numbers (@fig-ch08-dcid-dyads). The 433 incidents fall into 52
+directed pairs of initiator and target, and the five largest — China against the United States (59
+incidents), Russia against the United States (40), North Korea against South Korea (37), Russia
+against Ukraine (28) and Iran against the United States (21) — account for 43 per cent of the total;
+the ten largest for 61 per cent. Four initiators, China (115 incidents), Russia (113), Iran (63) and
+North Korea (59), account for 81 per cent of the record, and the United States is the target of 32
+per cent of it. The United States appears as initiator in 24 incidents, and Israel in ten. Those
+numbers carry the warning set out below about attribution: they are the operations that someone
+chose to make public and that the coders could attribute, and the states with the most capable
+intelligence services and the most active public attribution are, unsurprisingly, more often found
+as victims than as perpetrators.
+
+![The record of cyber conflict between rivals is dominated by a few old rivalries: the five largest
+directed pairs account for 43 per cent of all incidents. The twelve largest pairs, 2000–2020, by
+initiator. Source: Dyadic Cyber Incident and Campaign Data, version 2.0.](figures/ch08-dcid-dyads.png){#fig-ch08-dcid-dyads fig-alt="Horizontal bars of incidents by initiator and target: China to United States 59, Russia to United States 40, North Korea to South Korea 37, Russia to Ukraine 28, Iran to United States 21, Iran to Israel 20, Pakistan to India 19."}
 
 The third proposition explains the first: **why** states hold back. The fourth is that cyber
 operations have **limited coercive effect**. They rarely change the target's behaviour. They are
@@ -466,14 +508,91 @@ rivals never enter. The second is that the incidents are public attributions. Th
 therefore a picture of who has been publicly *accused* of operating against whom — itself a
 geopolitical artefact, shaped by which governments attribute and when.
 
+The record does say something about what the operations were *for* and *whom* they hit, and both
+answers matter to a firm (@tbl-ch08-targets). Espionage, short- or long-term, is the objective of 263
+incidents, three in five; disruption of 120; and degradation — the deliberate damage of a target's
+systems — of 50. And 175 of the 433 incidents, 40 per cent, are coded as directed at private or
+non-state targets rather than at governments or militaries. Even in a dataset built to study conflict
+between states, the target was a company or another non-state body in two incidents in five.
+
+| Target | Disruption | Short-term espionage | Long-term espionage | Degradation | Total |
+|---|---:|---:|---:|---:|---:|
+| Private or non-state | 47 | 50 | 57 | 21 | 175 |
+| Government, non-military | 59 | 64 | 37 | 18 | 178 |
+| Government, military | 14 | 18 | 37 | 11 | 80 |
+| **Total** | 120 | 132 | 131 | 50 | 433 |
+
+: Cyber incidents between rival states by type of target and objective, 2000–2020. Source: Dyadic Cyber Incident and Campaign Data, version 2.0. {#tbl-ch08-targets}
+
+The methods have shifted too (@tbl-ch08-methods). In the first decade of the record, vandalism and
+denial-of-service attacks — the defacements and floods of the Estonian kind — made up a third of the
+incidents. From 2015 they made up a fifteenth, and network intrusions, the quiet entry that serves
+espionage and prepares disruption, rose from 40 of 97 incidents to 157 of 216. The change is
+consistent with Buchanan's account of a world of constant, mutual intrusion, and it matters to a firm
+because an intrusion, unlike a defacement, may not be noticed at all.
+
+| Method | 2000–2009 | 2010–2014 | 2015–2021 | Total |
+|---|---:|---:|---:|---:|
+| Vandalism | 13 | 14 | 2 | 29 |
+| Denial of service | 20 | 18 | 13 | 51 |
+| Network intrusion | 40 | 70 | 157 | 267 |
+| Network infiltration (malware) | 24 | 18 | 44 | 86 |
+| **Total** | 97 | 120 | 216 | 433 |
+
+: Cyber incidents between rival states by method and period of start (the last period includes one incident begun in January 2021). Source: Dyadic Cyber Incident and Campaign Data, version 2.0. {#tbl-ch08-methods}
+
 A second dataset, the European Repository of Cyber Incidents, makes both properties visible
 [@zettlschabath2025]. It records incidents with state and non-state initiators, including criminal,
 hacktivist and unattributed operations, and in its version 1.3 it contains 3,414 incidents with
-start dates from 2000 to 2024 — several times the size of DCID. Restricting it to incidents
+start dates from 2000 to 2024 — several times the size of DCID (@tbl-ch08-records). Restricting it to incidents
 attributed to state or state-affiliated actors leaves 1,014; restricting it to states alone leaves
 329. The gap between those numbers, and between all of them and DCID's 433, is a measure of how much
 the answer to "how much cyber conflict is there?" depends on the definition of the population and of
-attribution. The two datasets do not contradict each other. They answer different questions: how
+attribution (@fig-ch08-records-by-year).
+
+![How much cyber conflict there is depends on who is counted as an attacker. Incidents by year of
+start in the European Repository of Cyber Incidents, by type of initiator, against the incidents
+between rival states in DCID. Source: EuRepoC Global Dataset of Cyber Incidents, version 1.3 (92
+incidents without a start date omitted); Dyadic Cyber Incident and Campaign Data, version
+2.0.](figures/ch08-records-by-year.png){#fig-ch08-records-by-year fig-alt="Stacked bars of EuRepoC incidents per year, 2000–2024, split into state-attributed, non-state and unattributed, rising to about 700 a year in 2023 and 2024, with a line for DCID incidents that never exceeds 44 a year."}
+
+The wider record shows the restraint thesis in a different light. In DCID's peak year, 2014, it
+records 44 incidents between rivals. EuRepoC records 71 incidents of all kinds beginning in 2020, 354
+in 2022, 723 in 2023 and 700 in 2024. Part of that growth is real — the war in Ukraine and the
+hacktivist campaigns around it — and part is the repository's own expanding coverage of sources,
+the selection problem that every event count built from reports carries. What changes most is the
+composition. Of the incidents EuRepoC dates to 2000–2010, 58 per cent are attributed to a state or a
+state-affiliated actor; of those dated 2011–2020, 41 per cent; of those dated 2021–2024, 20 per
+cent. The growth is overwhelmingly in incidents attributed to non-state groups or to nobody, and
+half of all incidents in the repository name critical infrastructure or a corporate target among
+their receivers — a share no lower, 51 per cent, among those attributed to states.
+
+Where the two datasets overlap, they agree about the principal initiators (@fig-ch08-initiators).
+China is named in 27 per cent of DCID's incidents and in 26 per cent of EuRepoC's state-attributed
+ones; Russia in 26 and 20 per cent; Iran in 15 and 13; North Korea in 14 and 14; the United States in
+6 and 4. Nearly three-quarters of EuRepoC's state-attributed incidents name at least one of the four.
+Two independent projects, with different populations, coders and sources, converge on the same short
+list — which is either evidence that the list is right or evidence that both rely on the same
+attributions by the same governments and security firms, and the honest answer is that it is some of
+each.
+
+![Two datasets with different populations converge on the same four principal initiators. Share of
+incidents naming each state as initiator, in DCID and in the EuRepoC incidents attributed to a state
+or state-affiliated actor. Source: Dyadic Cyber Incident and Campaign Data, version 2.0; EuRepoC
+Global Dataset of Cyber Incidents, version 1.3.](figures/ch08-initiators.png){#fig-ch08-initiators fig-alt="Paired bars of initiator shares: China 27 and 26 per cent, Russia 26 and 20, Iran 15 and 13, North Korea 14 and 14, United States 6 and 4."}
+
+| Record | Who can be an initiator | Start dates | Incidents |
+|---|---|---|---:|
+| DCID v2.0 | rival states | 2000–2020 (one in January 2021) | 433 |
+| EuRepoC v1.3, all incidents | anyone, including unknown | 2000–2024 | 3,414 |
+| … attributed to a state or state-affiliated actor | | | 1,014 |
+| … of which to a state alone | | | 329 |
+| … attributed to non-state groups or individual hackers | | | 1,230 |
+| … not attributed, or initiator unknown | | | 1,170 |
+
+: Two records of cyber conflict and the populations behind them. Source: Dyadic Cyber Incident and Campaign Data, version 2.0; EuRepoC Global Dataset of Cyber Incidents, version 1.3. {#tbl-ch08-records}
+
+The two datasets do not contradict each other. They answer different questions: how
 rival states use cyber operations against each other, and how much publicly reported cyber activity
 of any origin there has been. A firm that reads the first as if it answered the second will
 underestimate its exposure several times over; one that reads the second as if it measured state
@@ -522,8 +641,9 @@ or about criminal groups, which account for much of the cyber harm firms actuall
 dense cell tell a firm that it is a target. The incidents in that cell were aimed mostly at
 governments, and the firm's exposure to them depends on whether it is technically in the path —
 whether it runs software, holds data or provides infrastructure that an operation against the
-government might traverse. NotPetya would have appeared in the data as one incident in one dyad; its
-cost fell on firms in dozens of countries. The attack on the satellite network in 2022 would appear,
+government might traverse. NotPetya appears in the data as two incidents in two dyads, Russia
+against Ukraine and Russia against the United States; its cost fell on firms in dozens of
+countries. The attack on the satellite network in 2022 would appear,
 if at all, as an incident between Russia and Ukraine; its casualties included wind farms in Germany.
 
 Nor does the evidence for restraint license complacency. It is a pattern in state behaviour to 2020,

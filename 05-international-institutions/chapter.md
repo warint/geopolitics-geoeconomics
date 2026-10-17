@@ -126,6 +126,41 @@ guiding principles had been endorsed but no formula agreed. The same pattern hol
 Bank: in the IBRD the United States held 15.98% of votes, Japan 6.88% and China 5.75% as of 30 June
 2026 [@worldbank2026].
 
+![Votes lag weight: IBRD voting power on 30 June 2026 (blue) against share of world GDP in 2025 at market rates (red) and at PPP (hollow). Source: World Bank Group, IBRD country voting table; World Bank, World Development Indicators.](figures/ch05-votes-vs-weight.png){#fig-ch05-votes-vs-weight fig-alt="Dot plot of fifteen economies comparing IBRD vote shares with shares of world GDP. China's vote, below 6 per cent, sits far left of its 16 to 20 per cent of output; Japan's vote is above its output share."}
+
+@fig-ch05-votes-vs-weight puts the voting table beside the economic weight it is supposed to lag.
+Two members stand far from where votes and output would coincide, and
+they are the two that matter most. China produced 16.5% of world output at market rates in 2025 and 19.5%
+at purchasing-power parity, yet holds 5.75% of the votes — about a third of its weight on the first
+measure. The United States holds 15.98% of the votes against 26.0% of output at market rates, which
+looks like under-representation too, until one notices that at purchasing-power parity its share of
+output is 14.6%, below its vote. The measure of weight is not neutral: market exchange rates favour
+rich economies with strong currencies, purchasing-power parity favours large emerging ones, and the IMF's
+quota formula blends the two with openness, variability and reserves because each member prefers the
+measure that flatters it. Choosing the yardstick is the first round of the bargain.
+
+Japan holds 6.88% of IBRD votes against 3.75% of world output, Saudi Arabia 2.67% against 1.08%,
+France and the United Kingdom 3.75% each, above their output shares; India's 2.95% is far below its
+8.1% of output at purchasing-power parity. A realignment requires the over-represented — Saudi Arabia
+apart, the United States' closest allies — to give up votes.
+
+| Institution | United States | Japan | China | India | Russia |
+|:------------|-------------:|------:|------:|------:|-------:|
+| IBRD (lends to governments) | 15.98 | 6.88 | 5.75 | 2.95 | 2.74 |
+| IDA (concessional lending) | 9.52 | 8.43 | 2.55 | 2.95 | 0.29 |
+| IFC (private sector) | 16.91 | 7.03 | 2.90 | 3.95 | 3.08 |
+| MIGA (political risk insurance) | 14.81 | 4.16 | 2.61 | 2.53 | 2.61 |
+
+: Voting power in the four World Bank Group institutions with capital-based votes, per cent of the total, 30 June 2026. Source: World Bank Group country voting tables, parsed by the book's figure script. {#tbl-ch05-wbg-votes}
+
+@tbl-ch05-wbg-votes reads the same tables across the Group, and the pattern runs against
+intuition: China's voice is weakest in the institutions that deal with firms. It holds 5.75% of the
+votes in the IBRD, which lends to governments, but 2.90% in the IFC, which invests in companies —
+less than India — and 2.61% in MIGA, which insures them. The United States holds about a sixth of
+both. The institutions most directly in the business of a firm's political risk are those in which
+the challenger's weight is smallest. (IDA's votes follow contributions to a fund replenished every
+three years; there Japan nearly matches the United States.)
+
 Two other institutions shape the conditions of business without lending a cent. The World Trade
 Organization, founded in 1995 with 166 members today, holds the tariff bindings and
 non-discrimination rules on which a firm's market access rests. Its Appellate Body has had no
@@ -195,6 +230,54 @@ treaty — can bring a claim against the state before an arbitral tribunal rathe
 courts. ICSID had registered 1,118 cases by mid-2026, and of the cases registered in fiscal year
 2026 a quarter concerned oil and gas and almost a fifth mining; more than three in five were brought
 under bilateral investment treaties [@icsid2026].
+
+![Investor–state arbitration became a mass procedure after 1997: ICSID cases registered per year, 1972 to mid-October 2026 (last bar partial). Source: ICSID online case database.](figures/ch05-icsid-cases.png){#fig-ch05-icsid-cases fig-alt="Bar chart of ICSID cases registered per year: a handful a year until 1996, then a climb to between 40 and 66 a year from 2012."}
+
+The case database ICSID publishes online shows how recent this is (@fig-ch05-icsid-cases). Counting
+cases under the Convention and the Additional Facility, it lists 1,115 by mid-October 2026 (the
+Centre's own statistics are compiled slightly differently). For its first quarter-century the forum was nearly idle: 35 cases between 1972 and 1996,
+fewer than one and a half a year. The caseload then rose in steps — 18 a year on average in
+1997–2006, 37 a year in 2007–2016, 54 a year in 2017–2025, with a peak of 66 in 2021 — and two-thirds
+of all the cases registered by the end of 2025 were registered after 2011. The timing is the
+signature of the treaty network: most of the investment treaties that give investors standing were
+signed in the 1990s.
+
+The spikes have names. In 2003, 17 of the 30 cases registered were against Argentina, brought by
+investors in utilities and energy whose tariffs had been frozen and converted into devalued pesos
+during the crisis of 2001–2002. In 2011 and 2012, 19 of 85 were against Venezuela, as
+its expropriations reached the forum before its denunciation took effect. In 2015, 15 of the 52 cases were against Spain, brought
+by investors in renewable energy after the government cut the subsidies that had attracted them —
+claims made under the Energy Charter Treaty, by European investors against a European state. The
+last episode is the corrective: the forum protects whoever holds a treaty against whichever state
+signed one, rich states included. Several European Union members, and then the Union itself, have
+since left the Energy Charter Treaty — states leaving a rule when it began to bind them.
+
+| Respondent state | Cases | First registered | Latest registered | Pending |
+|:-----------------|------:|-----------------:|------------------:|--------:|
+| Argentina | 61 | 1997 | 2026 | 8 |
+| Venezuela | 56 | 2000 | 2025 | 7 |
+| Mexico | 51 | 1997 | 2026 | 18 |
+| Peru | 46 | 1998 | 2026 | 21 |
+| Spain | 44 | 1997 | 2024 | 10 |
+| Egypt | 38 | 1984 | 2026 | 3 |
+| Colombia | 29 | 2016 | 2026 | 19 |
+| Ukraine | 26 | 1998 | 2026 | 9 |
+| Romania | 25 | 2001 | 2026 | 9 |
+| Panama | 24 | 2006 | 2026 | 10 |
+
+: The ten states most often named as respondents in ICSID cases (Convention and Additional Facility), by mid-October 2026. Source: ICSID online case database, counted by the book's figure script. {#tbl-ch05-icsid-respondents}
+
+@tbl-ch05-icsid-respondents lists the states most often sued. Ten states account for 36% of all
+cases. Six are in Latin America, which combines dense treaty networks with large mining and energy
+sectors. The "pending" column is the one a manager should read: Peru has 21 cases open, Colombia —
+whose first case came only in 2016 — 19, and Mexico 18.
+
+Two findings temper what a firm should expect of the forum. Investors lose more often than the
+publicity suggests: @pelc2017 shows that their success rate is low and that much of the litigation
+challenges general, non-discriminatory regulation, which tribunals are reluctant to condemn. And the
+forum disciplines states through reputation as well as law: @allee2011 find that countries named as
+respondents at ICSID receive less foreign direct investment afterwards, and less still when they
+lose.
 
 ::: {.definition}
 [**Investor–state arbitration**]{.term} — a procedure in which a foreign investor brings a claim
@@ -397,6 +480,24 @@ at the Kazan summit in October 2024, numbered ten by mid-2025. The New Delhi sum
 2026 added no members or partners and asked for continued work on cross-border payments in local
 currencies — work, not a launched system.
 
+How much alignment does membership actually signal? @fig-ch05-brics-alignment places the members of
+the club, its partner countries and the G7 on the scale estimated by @bailey2017 from votes in the UN
+General Assembly, for the 2025 session. The G7 sit to the right, from Japan at 0.66 to the United
+States, alone at 2.89. The BRICS founders have a median of −0.37, the five
+members admitted in 2024 and 2025 a median of −0.70, and the ten partner countries −0.56 — all close
+to the median of the whole Assembly, −0.31. Between them the members and partners span the range from
+Cuba (−1.47) to Russia (0.08), and 68% of the Assembly's 191 members fall inside that range. Saudi
+Arabia, whose membership is ambiguous, sits at −0.51, in the thick of it.
+
+![BRICS and its partners sit in the Assembly's crowded middle, not at a pole: UN General Assembly ideal points, 2025 (grey: all 191 members). Source: Bailey, Strezhnev and Voeten, UN General Assembly ideal points (Harvard Dataverse).](figures/ch05-brics-alignment.png){#fig-ch05-brics-alignment fig-alt="Dot plot of UN ideal points in 2025: G7 members to the right, the United States alone at the far end; BRICS members and partners clustered in the dense middle of all members."}
+
+BRICS, then, is not a bloc in the sense an alliance is: its members vote as the Assembly's large
+majority votes, and the expansion of 2024–2025 widened rather than sharpened the club. What sets it
+apart is distance from the G7 — every member and partner sits to the left of every G7 member — not
+internal cohesion. Membership signals a preference for an order with more than one centre, not a
+commitment to a rival one. (The scale is re-estimated each session, and a few salient resolutions can
+move a country: Russia's place near the middle in 2025 is not a settled alignment.)
+
 ## Complement or counter-hegemony?
 
 The question every analyst asks of the new institutions is whether they complement the Bretton Woods
@@ -502,6 +603,41 @@ some countries serve several terms, so that the years after one term are the yea
 A re-estimate on current data that finds the same shape corroborates the finding; one that finds a
 different magnitude may simply be recording a disagreement between data vintages.
 
+### A re-estimate on current data
+
+That warning is not hypothetical. @fig-ch05-unsc-aid applies the simplest version of the design to
+the data available in 2026. The Council's page lists 204 elected terms beginning between 1970 and
+2010. Dropping countries that were OECD members by 1973 and keeping the terms in which the United
+States obligated aid to the country in each of the seven years around the term leaves 129. US aid is
+taken in logs, net of the average across all recipients that year (removing swings in the whole
+aid budget), and relative to the country's own average
+over the three pre-term years. If the seat were bought, the line would jump in the shaded years.
+
+![On current data, a simple event-time comparison does not reproduce the jump: US aid around 129 Council terms starting 1970–2010, relative to each country's pre-term average, net of year effects, with a 95% interval. Source: ForeignAssistance.gov Country Summary (obligations, constant dollars); United Nations, elected members of the Security Council.](figures/ch05-unsc-aid.png){#fig-ch05-unsc-aid fig-alt="Event-time line chart: the mean stays within 5 per cent of the pre-term level in every year, its 95 per cent band well below a dotted line marking the published 59 per cent."}
+
+It does not. In the two term years aid is on average 1.5% above the pre-term level (95% interval:
+−13% to +18%), and in 57% of terms it is no higher. Splitting the period or dropping the year
+adjustment changes little (@tbl-ch05-unsc-aid); the published 59% lies outside every interval.
+
+| Specification | Terms | Term years vs pre-term average | 95% interval | Terms above baseline |
+|:--------------|------:|-------------------------------:|:-------------|---------------------:|
+| 1970–2010, net of year effects | 129 | +1.5% | −13% to +18% | 43% |
+| 1970–2010, raw logs | 129 | +2.2% | −12% to +19% | 49% |
+| 1970–1989, net of year effects | 55 | +4.3% | −17% to +31% | 45% |
+| 1990–2010, net of year effects | 74 | −0.5% | −19% to +22% | 41% |
+
+: US aid during a Security Council term relative to the country's own three pre-term years, under four specifications. "Term years" averages event years 0 and +1. Source: ForeignAssistance.gov Country Summary (US obligations, constant dollars, 2026 release); United Nations; computed by the book's figure script. {#tbl-ch05-unsc-aid}
+
+This is a disagreement, not a refutation. The published estimate comes from regressions with
+country and year fixed effects on 1946–2001 and the aid data of the early 2000s; the series here is
+the 2026 release, in fiscal years and re-based constant dollars. The balanced window drops every term
+in which a country received no US aid in some year — and a country that goes from nothing to
+something on joining the Council is exactly what a vote buyer would produce. Averaging all terms also
+dilutes an effect the paper finds concentrated in salient years. What the exercise establishes is
+narrower: the effect is not visible in the simplest picture on current data, so whoever relies on it
+relies on the paper's design, not on a pattern anyone can see by joining two public tables — which is
+why the follow-up studies, with other institutions and other designs, matter as much as the original.
+
 ## A short review of the literature
 
 ::: {.lit}
@@ -524,7 +660,8 @@ On investment protection, @buthe2008 find that international trade agreements ra
 developing countries by making policy commitments more credible, and @simmons2014 shows that
 developing countries signed bilateral investment treaties, and tied their hands most tightly, when
 their bargaining position was weak — after which investors sued governments with surprising
-regularity. On the new institutions, @wang2017 gives an early assessment of the AIIB and the NDB as
+regularity. @pelc2017 explains why investors nonetheless lose so often, and @allee2011
+show that being sued, and losing, costs a host state investment. On the new institutions, @wang2017 gives an early assessment of the AIIB and the NDB as
 complements to and potential competitors of the established banks; @ikenberry2017 read the AIIB as
 Chinese institutional statecraft; @humphrey2022 places both in a broader account of multilateral
 development banks under geopolitical change. On Chinese official finance, @dreher2021 build the
@@ -535,9 +672,10 @@ from official debt statistics.
 
 ## What the evidence does not license
 
-Suppose the pattern holds in current data: aid flat before a term, higher during it, back down
-afterwards. That shows, about as cleanly as observational data can, influence being priced inside
-an international institution. It shows less than it seems to.
+Suppose the pattern the published research reports is right, whatever the simple re-estimate above
+fails to show: aid flat before a term, higher during it, back down afterwards. That shows, about as
+cleanly as observational data can, influence being priced inside an international institution. It
+shows less than it seems to.
 
 It is evidence about **one** institution, **one** donor, and the decades the data cover. It does not
 show that the World Bank, MIGA, the AIIB or the NDB sell their decisions; the follow-up literature

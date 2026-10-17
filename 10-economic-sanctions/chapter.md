@@ -229,8 +229,71 @@ case begins with a threat or an imposition, whichever comes first, and the datas
 sanctions were in fact imposed. A substantial share of its cases never were.
 
 The selection argument also cuts the other way: imposition is a costly signal of the sender's
-seriousness, and some of its effects may come from the signal rather than the pain. None of this can
-be read off a count of cases; it can only be argued, episode by episode.
+seriousness, and some of its effects may come from the signal rather than the pain. Neither effect
+can be read off a count of imposed cases. A dataset that records threats can at least show where
+the cases go.
+
+### What the record of threats shows
+
+TIES contains 1,412 cases that began between 1945 and 2005. In 845 of them sanctions were
+eventually imposed; in the other 567 — two cases in five — the episode ended without any measure
+taking effect. @fig-ch10-ties-cases shows when the cases began. The post-Cold War surge is there,
+as in every count of sanctions: 547 cases began in the 1990s, against 226 in the 1980s, and the
+single busiest year was 1993, with 87. The share that never got past a threat moves more than the
+total: a third in the 1950s and 1960s, more than half in the 1980s, a third again in the 1990s and
+almost half between 2000 and 2005. Counted by impositions alone, the 1980s look quiet. They were a
+decade of threats.
+
+![Sanctions cases multiplied after the Cold War, and two in five never got past a threat. Cases
+in TIES by the year they began, divided by whether sanctions were eventually imposed. Source:
+Morgan, Bapat and Kobayashi, TIES v4.0.](figures/ch10-ties-cases.png){#fig-ch10-ties-cases
+fig-alt="Stacked bars of sanctions cases beginning each year, 1945–2005, imposed versus threat
+only; below 30 a year until the late 1980s, peaking at 87 in 1993."}
+
+The more telling evidence is in how cases end. TIES codes a final outcome on a single scale that
+distinguishes the stage at which the episode closed: the target may acquiesce completely or
+partially, the two sides may negotiate a settlement, the episode may end in stalemate, or the
+sender may back down — each either at the threat stage or after imposition [@morgan2014].
+@tbl-ch10-outcomes counts the 1,024 cases with a coded outcome; the remaining 388, most of them
+imposed sanctions still in force when coding stopped, have none.
+
+| Final outcome | Ended at the threat stage | Ended after imposition |
+|:---|---:|---:|
+| Complete acquiescence by the target | 146 (31%) | 121 (22%) |
+| Partial acquiescence by the target | 56 (12%) | 61 (11%) |
+| Negotiated settlement | 60 (13%) | 132 (24%) |
+| Stalemate | 23 (5%) | 71 (13%) |
+| Sender backs down | 188 (40%) | 166 (30%) |
+| **Cases with a coded outcome** | **473** | **551** |
+
+: How sanctions episodes end, by stage. Stage is read from the outcome code (1–5 at the threat
+stage, 6–10 after imposition). Source: Morgan, Bapat and Kobayashi, TIES v4.0; computed by the
+author. {#tbl-ch10-outcomes}
+
+Two findings stand out. The first is Drezner's prediction in its plainest form: complete
+acquiescence is more common at the threat stage (31 percent of cases that ended there) than after
+imposition (22 percent). Targets that will give in tend to do so before the measures bite. The second is less often
+noticed: threats are frequently bluffs. In 40 percent of the cases that ended at the threat stage
+the sender backed down without imposing anything, and a sender that backs down after imposition —
+lifting measures the target has not complied with — is almost as common, at 30 percent. A
+"success rate" that counts only targets that comply hides the fact that senders often quit first.
+
+@fig-ch10-ties-outcomes splits the same outcomes by the issue at stake, and the selection effect
+turns out to be concentrated where Drezner said it would be. Half of the TIES cases concern trade
+practices or economic reform alone — many of them disputes between the United States and its
+allies over market access. In those economic disputes, 31
+percent of the cases settled at the threat stage ended with the target's complete acquiescence,
+against 11 percent of those that went on to imposition, where negotiated settlements and
+stalemates dominate. In political and security disputes, the difference between the stages almost
+disappears (30 against 27 percent), and what changes instead is the sender's resolve: half of the
+political threats ended with the sender backing down. Allies concede to threats over trade; adversaries
+facing threats over security mostly wait to see whether the sender means it.
+
+![Targets give in fully at the threat stage far more often in economic disputes. Final outcomes
+of TIES cases by stage and by issue; economic disputes are cases whose every coded issue is trade
+practices or economic reform. Source: Morgan, Bapat and Kobayashi, TIES v4.0.](figures/ch10-ties-outcomes.png){#fig-ch10-ties-outcomes
+fig-alt="Stacked bars of outcome shares. Complete acquiescence: 31 percent at the threat stage
+and 11 percent after imposition in economic disputes; 30 and 27 percent in political disputes."}
 
 ## From comprehensive to smart
 
@@ -358,6 +421,45 @@ December 2023, obliged exporters of the most sensitive goods to write into their
 third-country buyers a clause prohibiting re-export to Russia, and in the same month the United
 States extended its secondary reach to foreign banks serving Russia's military-industrial base.
 
+The trade statistics show the leak plainly. @fig-ch10-diversion indexes the exports of the 27
+member states of the European Union to five of Russia's neighbours against their 2021 level, as
+reported by the exporting countries to the IMF [@imf2026]. EU exports to Russia fell from 105 billion US
+dollars in 2021 to 41 billion in 2023. Over the same two years EU exports to Kyrgyzstan rose almost
+tenfold, from 0.31 to 2.95 billion dollars; exports to Armenia and Kazakhstan more than doubled, and
+those to Georgia and Uzbekistan rose by more than half (@tbl-ch10-diversion). German exports to
+Kyrgyzstan, a country of seven million people with no large manufacturing base, went from 59
+million dollars to 772 million. Nothing in these economies explains such growth; their position
+between the European Union and Russia — inside a customs union with Russia, for three of them —
+does. Maxim Chupilkin, Beata Javorcik and Alexander
+Plekhanov trace the same "Eurasian roundabout" at the level of products: the surge is concentrated
+in the goods the European Union stopped sending to Russia directly, and the neighbours' exports to
+Russia rose in the same goods [@chupilkin2026].
+
+![EU exports to Russia's neighbours jumped as exports to Russia collapsed. Exports of the 27 EU
+member states to five neighbours of Russia and to Russia itself, index 2021 = 100. Source: IMF,
+International Trade in Goods by partner country (IMTS).](figures/ch10-diversion.png){#fig-ch10-diversion
+fig-alt="Indexed lines, 2015–2025: EU exports to Russia fall to a third of their 2021 level;
+exports to Kyrgyzstan rise almost tenfold, to four other neighbours roughly double."}
+
+| EU exports to | 2021 | 2022 | 2023 | 2025 | 2023 / 2021 |
+|:---|---:|---:|---:|---:|---:|
+| Russia | 105.4 | 58.4 | 41.4 | 34.2 | 0.4 |
+| Kazakhstan | 6.48 | 10.77 | 13.14 | 11.91 | 2.0 |
+| Uzbekistan | 2.71 | 3.96 | 4.71 | 5.11 | 1.7 |
+| Georgia | 2.41 | 3.38 | 3.92 | 4.87 | 1.6 |
+| Armenia | 0.89 | 1.95 | 2.34 | 2.21 | 2.6 |
+| Kyrgyzstan | 0.31 | 1.20 | 2.95 | 2.44 | 9.5 |
+
+: EU exports to Russia and five of its neighbours, billions of US dollars. EU = the 27 current
+member states, as reported by each exporter. Source: IMF, International Trade in Goods by partner
+country (IMTS); computed by the author. {#tbl-ch10-diversion}
+
+The numbers also put the leak in proportion. EU exports to the five neighbours rose by 14 billion
+dollars between 2021 and 2023, while exports to Russia fell by 64 billion: even if every additional
+dollar had been re-exported, the roundabout replaced about a fifth of the lost trade. The sanctions
+worked on volume and leaked at the margin — and the margin is where enforcement, and the exporter's
+exposure, now sit.
+
 The compliance question is therefore no longer only "is my customer listed?" but "where do my goods
 end up?". A manufacturer's exposure runs through its *downstream* channels — distributors,
 resellers, freight forwarders — as well as through its own counterparties.
@@ -436,6 +538,27 @@ it back within six years — a sale designed to preserve an option on a return. 
 operations and paid for idle assets; others stayed, citing obligations to employees or the essential
 nature of their products, and accepted the reputational cost and the risk of seizure.
 
+The firms that left did not leave a vacuum. @fig-ch10-russia-suppliers follows Russia's imports
+from its main suppliers, as reported by the exporters. EU exports to Russia, 152 billion dollars in 2013,
+fell after Crimea, recovered to 105 billion by 2021, and after the invasion fell to 34 billion by
+2025. China's exports to Russia went the other way: from 68
+billion dollars in 2021 to 111 billion in 2023 and 116 billion in 2024. Türkiye's almost doubled,
+from 5.8 to 10.9 billion, before falling back as Turkish banks, wary of US secondary sanctions,
+balked at Russian payments. This is Early's sanctions busting at the scale of a great power:
+the target found a supplier large enough, and indifferent enough to the senders' displeasure, to
+make the measures a cost rather than a constraint [@early2015].
+
+![After 2022, China replaced Europe as Russia's supplier. Exports to Russia by exporter, billions
+of US dollars. Source: IMF, International Trade in Goods by partner country (IMTS), as reported by
+the exporter.](figures/ch10-russia-suppliers.png){#fig-ch10-russia-suppliers
+fig-alt="Line chart of exports to Russia, 2012–2025: EU exports fall from about 150 billion
+dollars to 34 billion; China's rise to about 116 billion in 2024 and overtake them in 2022."}
+
+For a firm weighing exit, the implication is uncomfortable: its market share was not held in
+trust. Competitors from non-sending states took it within two years, so a return after sanctions
+would be a new entry against established rivals — which makes an option to buy back, like
+Renault's, worth less than it looks.
+
 ::: {.warn}
 **The right answer depends on the firm, not on the country.** Put the same choice to a
 consumer-goods firm and to an energy firm, and the answers diverge: the first has brands, local
@@ -498,6 +621,44 @@ two differ in unit, period, coding of senders and targets and definition of outc
 be merged case by case. What they can do is be compared, year by year, to give an order of magnitude
 to the selection effect: how much of economic coercion happens before any measure is imposed.
 
+The end-year decision is not peculiar to the GSDB, and TIES shows how much it weighs. Of the 845
+TIES cases in which sanctions were imposed, 337 have no end year. Some were still in force when
+coding stopped; others faded from the news unrecorded. With the date of the last news story the
+coders found, an analyst has three defensible rules: the case was still in force at the end of the
+data, it ended at the last news report, or — the implicit choice of anyone who drops missing values
+— it lasted only the year it began.
+@fig-ch10-ties-active draws the number of imposed sanctions in force each year under each rule.
+Until the late 1980s the three series barely differ. After 1990 they part company: in 2000 the
+count is 369 under the first rule, 91 under the second and 59 under the third; under the first it
+rises to a peak of 412 in 2003, under the other two it peaks in 1993 and then declines. Whether
+sanctions kept multiplying after the sanctions decade depends on a line of code the reader of the
+chart never sees.
+
+![How many sanctions were in force? It depends on how open cases are closed. Imposed TIES cases in
+force each year, under three rules for the 337 cases without an end year. Source: Morgan, Bapat and
+Kobayashi, TIES v4.0.](figures/ch10-ties-active.png){#fig-ch10-ties-active
+fig-alt="Three lines of imposed cases in force, 1945–2005, identical until 1990; then one rises
+to about 400 while the other two peak near 130 and 110 in 1993 and decline."}
+
+The record also says who uses the instrument (@tbl-ch10-senders). The United States is the
+primary sender in 681 of the 1,412 cases — 48 percent, about half in every decade but the 1970s.
+Less often noticed is the list of targets: the United States itself comes first, followed by
+Japan, South Korea, China, the European Community and Canada. In this record, economic coercion is
+largely a tool used among trading partners, many of them allies, over trade.
+
+| Primary sender | Cases | Share | Imposed | | Most frequent targets | Cases |
+|:---|---:|---:|---:|---|:---|---:|
+| United States | 681 | 48.2% | 57% | | United States | 103 |
+| Canada | 112 | 7.9% | 80% | | Japan | 80 |
+| Russia / Soviet Union | 38 | 2.7% | 68% | | South Korea | 58 |
+| United Kingdom | 38 | 2.7% | 34% | | China | 45 |
+| India | 34 | 2.4% | 94% | | European Community / Union | 44 |
+| Mexico | 25 | 1.8% | 92% | | Canada | 41 |
+
+: Who sanctions whom: the most frequent primary senders and targets of economic sanctions,
+1945–2005. "Imposed" is the share of the sender's cases in which sanctions took effect. Source:
+Morgan, Bapat and Kobayashi, TIES v4.0; computed by the author. {#tbl-ch10-senders}
+
 ## A short review of the literature
 
 ::: {.lit}
@@ -513,7 +674,8 @@ within the target.
 The strategic turn came with @drezner1999, who explained why sanctions are imposed most on the
 adversaries least likely to concede, and @drezner2003, who identified the selection effect of
 threats. The data response was TIES, which records threats as well as impositions [@morgan2009;
-@morgan2014]. @early2015 showed how third-country sanctions busters sustain targets, which helps
+@morgan2014]; its outcome codes show complete acquiescence more often at the threat stage than
+after imposition, above all in economic disputes. @early2015 showed how third-country sanctions busters sustain targets, which helps
 explain why multilateral sanctions do not always outperform unilateral ones.
 
 On design, @biersteker2016 evaluate UN targeted sanctions against the purposes of coercing,
@@ -522,7 +684,8 @@ populations of target states. @farrell2019 explain the rise of financial sanctio
 chokepoints of global networks. The GSDB [@felbermayr2020] and its later releases [@syropoulos2024]
 made it possible to study sanctions at the scale of trade data, and @crozet2020 used that kind of
 data to show that much of the trade cost of the Russia sanctions after 2014 fell on products that
-were not sanctioned at all — the quantitative trace of overcompliance.
+were not sanctioned at all — the quantitative trace of overcompliance. @chupilkin2026 trace the
+opposite leak after 2022: goods rerouted to Russia through the Caucasus and Central Asia.
 :::
 
 ## What the case count does not license

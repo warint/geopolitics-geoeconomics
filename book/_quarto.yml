@@ -53,6 +53,8 @@ format:
     toc: true
     toc-depth: 3
     link-external-newwindow: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
   pdf:
     documentclass: scrbook
     classoption: [10pt, twoside, openright, numbers=noenddot, chapterprefix=true]

@@ -1,0 +1,7 @@
+# The book's figures: python3 -m venv .venv && .venv/bin/pip install -r requirements-figures.txt
+matplotlib>=3.9
+pandas>=2.2
+openpyxl>=3.1
+xlrd>=2.0
+requests>=2.32
+pypdf>=5.0          # ch05: World Bank Group voting tables are published as PDF

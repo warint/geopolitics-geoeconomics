@@ -133,7 +133,7 @@ the audit is the best single guide to the quality of the index.
 
 ## Three dictionaries, three theories of risk
 
-The three measures on the table share a family resemblance and differ in ways that matter.
+The three measures compared in @tbl-ch07-indices share a family resemblance and differ in ways that matter.
 
 | | **GPR** | **EPU** | **PRisk** |
 |---|---|---|---|
@@ -142,6 +142,8 @@ The three measures on the table share a family resemblance and differ in ways th
 | Dictionary | authors' eight categories | authors' term sets, audited by hand | learned from political vs non-political texts |
 | Scaled by | all articles | all articles | transcript length |
 | Level | world; 44 countries | country; global aggregate | firm × quarter |
+
+: Three text-based measures of risk, link by link. Source: @caldara2022; @baker2016; @hassan2019. {#tbl-ch07-indices}
 
 ### Geopolitical risk as newspaper attention
 
@@ -171,6 +173,31 @@ threats as well as from acts. They also build industry- and firm-level versions,
 investment falls more in industries exposed to aggregate geopolitical risk [@caldara2022]. The first
 test is of face validity; the second, of predictive validity, is the more demanding.
 
+The published series makes the split concrete (@fig-ch07-gpr-threats-acts).
+The two sub-indices are correlated — 0.59, month by month, since 1985 — but the episodes that
+dominate them are different. The attacks of 11 September 2001 were an act before they were anything
+else: in September 2001 the acts sub-index stood at 841, more than eight times its 1985–2019
+average, while the threats sub-index stood at 260. The run-up to the invasion of Iraq was the
+opposite kind of episode. From December 2002 to February 2003, months of ultimatums and inspections,
+threats climbed from 183 to 297 while acts stayed below about 215; only in March 2003, the month of
+the invasion, did acts overtake threats, at 429 against 362. The war in Ukraine, too, began in the
+newspapers as a threat. From October 2021 to January 2022, while Russian forces massed on the
+border, the threats sub-index averaged 143 and the acts sub-index 53. In February 2022, the month of
+the invasion, threats stood at 321 and acts at 105; acts reached 251 only in March.
+
+![Threats and acts are different series: 2001 registered as acts; before the invasions of 2003 and
+2022, threats rose first. Monthly sub-indices, 1985–2019 average = 100, three-month centred average.
+Source: Caldara and Iacoviello, Geopolitical Risk index.](figures/ch07-gpr-threats-acts.png){#fig-ch07-gpr-threats-acts fig-alt="Threats and acts sub-indices, 1985–2026; acts spike after 9/11, threats lead before 2003 and 2022."}
+
+Two lessons follow. The headline GPR, which combines the two, can rise for very different reasons,
+so a reader who sees a spike should ask which sub-index produced it. And the threats sub-index is
+the one with a claim to foresight: it rose in the autumn of 2021, when the decisions open to a firm —
+to build inventory, to move staff, to hedge a currency — could still be taken. The scale deserves a
+word too. "100" is the average of 1985–2019, so a reading of 146, the
+value for September 2026, says that the share of articles about geopolitical tension was nearly
+half as high again as its long-run norm. It does not say that the world was 46 per cent more
+dangerous.
+
 ### Policy uncertainty as a three-way conjunction
 
 Baker, Bloom and Davis built the Economic Policy Uncertainty index on a different logic
@@ -189,6 +216,29 @@ in two versions — weighted by current-price GDP and by purchasing-power-parity
 between them is a small instance of the aggregation decisions discussed below: the second gives
 large emerging economies more weight, and therefore gives their politics more voice in what is
 called "global" uncertainty.
+
+Set beside each other, the two newspaper indices tell different histories (@fig-ch07-gpr-epu). Over
+the 355 months from January 1997 to July 2026 that both cover, their correlation is 0.26 in levels
+and 0.19 in monthly changes — positive, but low enough to say that they measure different things.
+Their largest episodes barely overlap. Taking the five highest months of each, at least six months
+apart, the geopolitical risk index peaks in October 2001, March 2003, March 2026, March 2022 and June
+2025; the global policy uncertainty index in April 2025, March 2026, May 2020, November 2020 and June
+2019. Only March 2026 — the war of the United States and Israel with Iran (Chapter 1) — appears in both lists. The attacks of 2001 and the invasion of Iraq barely
+moved economic policy uncertainty; the pandemic and the American tariff announcements of April 2025
+barely moved geopolitical risk.
+
+![The two best-known newspaper indices record different crises: wars and terrorism for one; the
+pandemic, elections and tariffs for the other. Both rescaled to their 1997–2019 means, three-month
+centred average.
+Source: Caldara and Iacoviello; Baker, Bloom and Davis, global EPU weighted by current-price
+GDP.](figures/ch07-gpr-epu.png){#fig-ch07-gpr-epu fig-alt="GPR and global EPU, 1997–2026, peaking in different months."}
+
+This is what the definitions predict. A firm exposed through tariffs and export controls will find
+its risk in the EPU series and little of it in the GPR series, whose eight categories exclude trade
+conflict; a firm with plants near a contested border will find the reverse. The weighting of the global EPU index, by contrast, matters much less than the
+definitions: the versions weighted by current-price and by purchasing-power-parity GDP correlate at
+0.997 over the same months. The choice of weights changes whose newspapers count for how much; the
+choice of concept changes which crises exist.
 
 ### Political risk as what managers discuss
 
@@ -242,6 +292,25 @@ politicians. A measure that predicted nothing about behaviour would be a curiosi
 predicts the behaviour the concept implies has passed a test of validity that no amount of
 reliability could substitute for.
 
+The public release of the data lets anyone see the first of these tests again. The 2022 vintage of
+the file contains 225,954 firm-quarters for firms headquartered in the United States — 7,073 firms
+between the first quarter of 2002 and the first quarter of 2022, a median of 2,932 in each quarter.
+Averaged across firms each quarter, and expressed in standard deviations of the firm-level measure,
+PRisk tracks the American EPU index closely: the correlation between the two quarterly series is
+0.80 (@fig-ch07-prisk-dispersion). Newspapers and earnings calls agree about when political uncertainty was high for
+listed American firms: at the end of 2008, in the dispute over the "fiscal cliff" at the end of 2012, and
+above all in the second quarter of 2020, when average PRisk reached 1.02 standard deviations, its
+highest in the series. They also disagree in instructive places. The confrontation over the federal
+debt ceiling in the summer of 2011 doubled the quarterly EPU index, from 116 to 235, but moved
+average PRisk only from 0.56 to 0.64 standard deviations: newspapers wrote a great deal about a
+crisis that most managers, on their calls, did not treat as a risk to their own business.
+
+![Political risk in earnings calls moves with newspaper-based policy uncertainty, and firms spread
+apart when the average rises. Quarterly mean PRisk of US-headquartered listed firms, in standard
+deviations, with the 10th–90th percentile range; US EPU on the right axis.
+Source: Hassan, Hollander, van Lent and Tahoun, firm-level political risk (2022q1 vintage); Baker,
+Bloom and Davis.](figures/ch07-prisk-dispersion.png){#fig-ch07-prisk-dispersion fig-alt="Average PRisk with a 10th–90th percentile band and US EPU, 2002–2022."}
+
 The finding that matters most for a multinational concerns where the variation lies. Most of the
 variation in political risk is not common to all firms at a given time, nor common to all firms in a
 sector; it is *specific to the firm*. Two companies in the same industry, in the same quarter, can
@@ -253,6 +322,33 @@ least about any one firm. And when the measure is broken down by topic, firms th
 the risks of a given political topic increase their lobbying on that topic, and not on others, in
 the following quarter [@hassan2019]. Managers do not merely worry in general; they worry about
 something, and act on it.
+
+The band in @fig-ch07-prisk-dispersion shows the second of those results in the public data. Its
+edges are the 10th and 90th percentiles of firms in each quarter, and it widens precisely when the
+average rises: the correlation between the quarterly average and the distance between the two
+percentiles is 0.95. A quarter of high political risk for the average firm is a quarter in which
+firms differ from each other more than usual.
+
+How much of the variation is common and how much belongs to the firm can be measured directly, by
+asking how much of the variance of PRisk the quarter explains on its own, and how much more the
+identity of the firm adds (@fig-ch07-prisk-variance). The quarter — everything that all American
+listed firms shared in a given three months, from elections to wars to pandemics — explains about 1
+per cent. Permanent differences between firms, the fact that a defence contractor always talks more
+about politics than a maker of software, explain another 21 per cent. The remaining 78 per cent is
+variation within the firm from one quarter to the next that other firms did not share. The authors'
+own decomposition, which uses sectors rather than individual firms, reaches the same conclusion: the
+common component is a small fraction of the whole [@hassan2019].
+
+![Most variation in firm-level political risk is neither common to all firms nor a permanent trait
+of the firm. Shares of the variance of PRisk across US firm-quarters, 2002–2022. Source: Hassan, Hollander, van Lent and Tahoun,
+firm-level political risk (2022q1 vintage); decomposition by the
+author.](figures/ch07-prisk-variance.png){#fig-ch07-prisk-variance fig-alt="Stacked bar: 1% quarter, 21% firm, 78% residual."}
+
+Part of the residual is noise — a chief executive's words on one call are partly accidental — so
+the 78 per cent is an upper bound on the firm-specific risk that matters, not an estimate of it. But
+the behavioural tests in the paper show that much of it is real, because noise does not make firms
+lobby on the very topic they talk about. Most of the political risk a firm faces is its own; the
+part it shares with every other firm is the smallest part.
 
 The implication is uncomfortable for anyone who buys a country-risk score. An aggregate index
 measures what is common; the political risk that reaches a particular firm is mostly what is not. A
@@ -297,7 +393,7 @@ p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}.
 $$
 
 Take forty headlines, collapsed into three categories — not geopolitical, threat, act — with coder
-A's codes in the rows and coder B's in the columns:
+A's codes in the rows and coder B's in the columns, as in @tbl-ch07-kappa:
 
 | | **B: 0** | **B: threat** | **B: act** | **A total** |
 |---|---:|---:|---:|---:|
@@ -305,6 +401,8 @@ A's codes in the rows and coder B's in the columns:
 | **A: threat** | 2 | **8** | 0 | 10 |
 | **A: act** | 0 | 1 | **5** | 6 |
 | **B total** | 22 | 12 | 6 | 40 |
+
+: Two coders, forty headlines: an illustrative agreement table (hypothetical counts). {#tbl-ch07-kappa}
 
 The coders agree on the diagonal, $20 + 8 + 5 = 33$ items, so $p_o = 33/40 = 0.825$. Chance
 agreement is $(24 \cdot 22 + 10 \cdot 12 + 6 \cdot 6)/40^2 = 684/1600 = 0.4275$. Kappa is therefore
@@ -511,6 +609,63 @@ interactivity for its own sake. It is that a composite which hides its weights i
 as a measurement, and a composite whose weights are visible and adjustable is an argument the reader
 can test. A board that sees a supplier country fall from first to ninth when one weight is halved
 has learnt that the decision rests on a judgement about that indicator, not on the index.
+
+### Two indicators, forty-four countries
+
+A small composite shows how quickly these choices bite. Take the 44 countries for which Caldara and
+Iacoviello publish a country index, and combine two indicators: the average country GPR for 2025,
+which measures the share of newspaper articles that discuss geopolitical tension and mention the
+country, and the political stability score of the Worldwide Governance Indicators for 2024, from the
+2025 edition, inverted so that a higher value means less stability. Normalise each by min–max, and
+average them with a weight $w$ on GPR and $1-w$ on instability. Nothing could be simpler, and
+almost nothing about the result is stable (@fig-ch07-composite-ranks and @tbl-ch07-composite).
+
+The two indicators barely agree to begin with: across the 44 countries, the correlation between the
+GPR ranking and the instability ranking is 0.09. Under GPR alone the United States is the riskiest
+country in the set; under instability alone it is twentieth. Venezuela is first on instability and
+nineteenth on GPR; Tunisia sixth on instability and last on GPR. With equal weights, the United
+States comes first, Israel second and Russia third. Move the weight on GPR from a quarter to three
+quarters and 13 of the 44 countries move by more than five places; the United Kingdom moves from
+twentieth to fourth, China from nineteenth to sixth, Germany from twenty-third to twelfth.
+
+![In a two-indicator ranking of 44 countries the top is robust and the middle is decided by the
+weight. Rank with 25 per cent (blue), 50 per cent (tick) and 75 per cent (red) of the weight on
+country GPR, the rest on inverted political stability. Source: Caldara and Iacoviello, country GPR, 2025 average; World Bank, Worldwide
+Governance Indicators, 2025 edition, political stability score for 2024; min–max normalisation and
+weighting by the author.](figures/ch07-composite-ranks.png){#fig-ch07-composite-ranks fig-alt="Ranks of 44 countries under three weights; the middle of the ranking moves most."}
+
+| Country | Instability only | 25% GPR | Equal weights | 75% GPR | GPR only |
+|---|---:|---:|---:|---:|---:|
+| United States | 20 | 6 | 1 | 1 | 1 |
+| Israel | 2 | 2 | 2 | 3 | 4 |
+| Russia | 7 | 3 | 3 | 2 | 3 |
+| Venezuela | 1 | 1 | 4 | 7 | 19 |
+| Ukraine | 16 | 10 | 5 | 5 | 5 |
+| Türkiye | 5 | 4 | 6 | 9 | 10 |
+| Egypt | 3 | 5 | 7 | 10 | 13 |
+| United Kingdom | 27 | 20 | 8 | 4 | 2 |
+| India | 8 | 9 | 9 | 11 | 12 |
+| Colombia | 4 | 7 | 10 | 14 | 30 |
+| China | 19 | 19 | 11 | 6 | 6 |
+| Tunisia | 6 | 8 | 12 | 15 | 44 |
+
+: Rank (1 = riskiest of 44) as the weight on country GPR changes; the twelve highest under equal weights. Source: author's calculation from country GPR (2025 average) and WGI political stability (2025 edition, 2024). {#tbl-ch07-composite}
+
+The cause of the movements is the lesson. The country GPR measures how often the
+newspapers write about a country in a geopolitical context, and the newspapers write about the
+United States, the United Kingdom, China, France and Germany as *actors* — the states that send
+forces, impose sanctions and convene summits — as well as about the places where conflict happens. A
+validity problem at the indicator link has become a ranking problem at the aggregation link.
+Min–max normalisation then amplifies it. In 2025 the United States' country index averaged 3.61 and
+the median of the 44 was 0.16, so that 38 of the 44 countries sit in the bottom quarter of the GPR
+range once it is scaled from 0 to 1. The GPR component separates a few heavily reported countries
+from everyone else and says almost nothing about the differences among the rest; a z-score or a
+rank would produce another ranking again.
+
+The top is robust: Israel and Russia are in the first three under every weight from a quarter to
+three quarters. The middle is not. Whether China ranks above Colombia, or the United Kingdom above
+India, is decided by a weight nobody could defend to the first decimal. A board shown only the
+equal-weight column has been shown an opinion about the weight.
 
 ## A short review of the literature
 

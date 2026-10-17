@@ -224,8 +224,8 @@ argued that his evidence was consistent with posts having an effect, but a cross
 settle the question. The networks themselves do change, and the changes offer a first, rough test:
 between 2017 and 2023 the major diplomatic services opened some posts and closed others, and a
 relationship that holds in the cross-section should leave a trace in the trade of the pairs whose
-posts changed. A trace, however, is not proof, for the reason just given — a post opened in
-anticipation of growth will appear to cause it.
+posts changed (@fig-ch09-network-change). A trace, however, is not proof, for the reason just
+given — a post opened in anticipation of growth will appear to cause it.
 
 ### Omitted variables
 
@@ -457,6 +457,54 @@ revealed preference: it shows where a foreign ministry has chosen to spend scarc
 shift at the top is a shift in where two great powers expect their commercial and political
 interests to lie.
 
+![China passed the United States as the largest diplomatic network between 2017 and 2023, while
+France, Russia, Brazil and Spain shrank theirs. Posts abroad of the fifteen largest networks in 2023,
+against the same senders in 2017. Source: Lowy Institute, Global Diplomacy Index, post-level
+data.](figures/ch09-networks.png){#fig-ch09-networks fig-alt="Dot plot of posts abroad in 2017 and 2023 for fifteen countries: China 271 to 274, United States 274 to 271, Türkiye 228 to 252, Japan 240 to 251, France 266 to 249."}
+
+The post-level data show how the reversal happened, and the story is less dramatic than the
+headline (@fig-ch09-networks and @tbl-ch09-networks). China gained three posts in six years and the
+United States lost three. China added nine embassies, from 164 to 173, and closed four consulates;
+the United States kept its embassies almost unchanged, at 168, and closed seven consulates, from 90 to
+83. The more striking movements are further down. Türkiye added 24 posts and now has the most
+consulates of any country in the index, 93; the United Kingdom added 18. France lost 17 posts,
+mostly consulates, and Russia 13 — twelve of them consulates, over a period that includes the
+expulsions and closures that followed the invasion of Ukraine.
+
+| Sender | Embassies and high commissions | Consulates | Permanent missions | Other | Total 2023 | Total 2017 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| China | 173 | 91 | 8 | 2 | 274 | 271 | +3 |
+| United States | 168 | 83 | 12 | 8 | 271 | 274 | −3 |
+| Türkiye | 145 | 93 | 12 | 2 | 252 | 228 | +24 |
+| Japan | 152 | 66 | 10 | 23 | 251 | 240 | +11 |
+| France | 158 | 72 | 18 | 1 | 249 | 266 | −17 |
+| Russia | 143 | 74 | 10 | 3 | 230 | 243 | −13 |
+| United Kingdom | 156 | 51 | 11 | 7 | 225 | 207 | +18 |
+| Germany | 148 | 56 | 11 | 2 | 217 | 225 | −8 |
+| Italy | 124 | 74 | 8 | 0 | 206 | 207 | −1 |
+| Brazil | 133 | 58 | 12 | 2 | 205 | 221 | −16 |
+
+: The ten largest diplomatic networks in 2023, by type of post, and their size in 2017. Source: Lowy Institute, Global Diplomacy Index, post-level data (2023 and 2017 sheets). {#tbl-ch09-networks}
+
+![China's lead over the United States rests on embassies and consulates; the United States keeps
+more permanent missions and other offices. Posts of the ten largest networks by type, 2023. Source:
+Lowy Institute, Global Diplomacy Index, post-level data.](figures/ch09-composition.png){#fig-ch09-composition fig-alt="Stacked horizontal bars of posts by type for ten countries; embassies dominate every network, and Türkiye, China and the United States have the most consulates."}
+
+Across all the senders the index covers in both years, the networks grew rather than shrank: the 60
+foreign services present in 2017 kept 85 more posts in 2023, and 33 of them grew while 21 shrank
+(@fig-ch09-network-change). That pattern sits awkwardly with any simple story of diplomatic
+retrenchment, and it is the raw material for the dynamic test of Rose's result: if posts promote
+exports, the pairs in which Türkiye, Ireland or the United Kingdom opened posts after 2017 should
+show faster export growth than comparable pairs in which they did not, and those in which Spain or
+France closed posts slower growth. Six years and a pandemic are a short and noisy window, and the
+selection problem applies to closures as much as to openings: a ministry closes a consulate where it
+expects little.
+
+![Most foreign services grew their networks between 2017 and 2023; a few cut them sharply. The
+eight largest falls and rises in the number of posts among the 60 senders in the index in both
+years. Source: Lowy Institute, Global Diplomacy Index, post-level
+data.](figures/ch09-network-change.png){#fig-ch09-network-change fig-alt="Horizontal bars of net change in posts: Türkiye +24, Ireland +19, United Kingdom +18, Saudi Arabia +16, Hungary +16; Spain −25, France −17, Brazil −16, Russia −13."}
+
 Three features of the data carry the arguments of this chapter into any test of Rose's result. The
 first is that the record is at the wrong level: the gravity question is about pairs of countries,
 and the record is about posts. Turning posts into a count per pair is a reduction in Krippendorff's
@@ -483,6 +531,64 @@ A humbler feature matters as much: the index identifies countries by name only, 
 spellings, while trade statistics use codes, so every link between the two depends on a concordance
 built by hand — and an error there changes the slope more than any substantive objection.
 
+### Six diplomatic services, one test
+
+The choices can be made concrete for one exporter and then repeated for others. Take Canada's
+embassies and consulates in 2023, leaving aside permanent missions and other offices; count them for
+every partner; and set them against Canada's exports of goods to that partner in 2023, as reported
+by Canada to the IMF, and the partner's GDP. Of the 188 partners with both trade and GDP data, 93
+have no Canadian embassy or consulate at all — half the sample that a logarithmic axis would drop
+without comment. Together they take 1.2 per cent of Canada's exports to the 188.
+
+The raw relationship is as steep as anyone could want (@fig-ch09-canada-posts-exports). The median
+partner with no Canadian post buys about \$11 million of Canadian goods a year; with one post, \$187
+million; with two, \$906 million; with three, \$5.2 billion; and the three partners with four or
+more, \$22.6 billion — the United States alone hosts sixteen Canadian posts. Scale exports by the
+partner's GDP and the staircase almost disappears. The median share of the partner's GDP that it
+spends on Canadian goods is 0.085 per cent where Canada has no post, and between 0.12 and 0.14 per
+cent wherever it has one, two, three, or four and more. Most of the slope in the left panel is the
+size of the partner.
+
+![Canada's exports rise steeply with the number of its posts in a partner; scaled by the partner's
+GDP, they barely rise after the first post. Each dot is a partner, 2023; red bars are medians.
+Source: Lowy Institute, Global Diplomacy Index; IMF, International Merchandise Trade Statistics,
+exports of goods FOB; World Bank, World Development
+Indicators.](figures/ch09-canada-posts-exports.png){#fig-ch09-canada-posts-exports fig-alt="Two strip charts of Canada's 188 partners by number of Canadian posts: exports rise from a median of 11 million to 22.6 billion dollars; exports as a share of partner GDP stay around 0.1 per cent."}
+
+The same exercise for six foreign services gives @tbl-ch09-elasticities. Each column is a choice
+that an analyst might make without comment. The first is the naive regression of log exports on log
+posts, among partners with at least one post: the elasticity is between 2.6 and 3.6 for all six, with
+an R² between 0.29 and 0.44 — the respectable fit this chapter warned about. Taken literally,
+Canada's 2.62 would mean that doubling the posts in a market multiplies exports by six. Adding the
+partner's GDP cuts the coefficient to between a fifth and a third of its naive value for four of the
+six senders; for Germany it disappears, and only Australia's keeps two-thirds of its size. Scaling
+exports by GDP instead leaves an R² of 0.04 or less everywhere. The last two columns keep every
+partner, including those with no post, using the logarithm of one plus the number of posts. Ordinary
+least squares gives positive coefficients for all six; Santos Silva and Tenreyro's Poisson
+estimator [@santossilva2006], which keeps the scale of trade and therefore gives large partners great weight, gives
+large positive coefficients for Canada and the United States and coefficients near zero or negative
+for China, Japan and Germany. Canada's is driven by a single partner that takes 78 per cent of its
+exports.
+
+| Sender | Partners | Without a post | Naive elasticity (R²) | Controlling for GDP | Exports ÷ GDP (R²) | All partners, OLS | All partners, Poisson |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Canada | 188 | 93 | 2.62 (0.35) | 0.68 | 0.45 (0.04) | 0.86 | 1.79 |
+| United States | 194 | 30 | 3.07 (0.39) | 0.71 | 0.31 (0.01) | 0.82 | 1.70 |
+| China | 193 | 24 | 2.79 (0.44) | 0.55 | −0.04 (0.00) | 0.85 | −0.23 |
+| Japan | 190 | 41 | 3.21 (0.40) | 1.10 | 0.48 (0.02) | 1.38 | −0.21 |
+| Germany | 190 | 48 | 2.85 (0.29) | −0.06 | 0.23 (0.01) | 0.59 | −0.07 |
+| Australia | 184 | 100 | 3.58 (0.34) | 2.28 | 0.54 (0.01) | 3.54 | 0.60 |
+
+: Coefficient on posts (embassies and consulates) in regressions of a sender's exports of goods on its posts in each partner, 2023, under five specifications. The first three use partners with at least one post and log posts; the last two use all partners and the log of one plus posts, controlling for log GDP. No distance or other gravity controls: an illustration of fragility, not an estimate of an effect. Source: calculation by the author from the Lowy Institute's Global Diplomacy Index, IMF IMTS and World Bank WDI data. {#tbl-ch09-elasticities}
+
+None of these regressions includes distance, a common language, a shared border or the
+multilateral-resistance terms that @anderson2003 showed to be necessary, and none addresses reverse
+causality. They are not estimates of the effect of a post, and they are not meant to be. What they
+show is that the sign and the size of the association depend on choices about the sample, the
+scaling and the estimator that a chart on logarithmic axes does not display — and that across six
+of the world's largest diplomatic services, the only robust feature of the numbers is how much they
+move.
+
 ## A short review of the literature
 
 ::: {.lit}
@@ -507,8 +613,9 @@ promotion of firms abroad to the management of political risk.
 ## What the evidence does not license
 
 Set a country's exports to each partner against the number of posts it keeps there, on logarithmic
-axes, and the cloud of points will almost certainly slope upwards, with a respectable fit. The
-temptation is to read it as Rose's finding confirmed: posts promote exports.
+axes, and the cloud of points slopes upwards with a respectable fit — for each of the six services
+in @tbl-ch09-elasticities. The temptation is to read it as Rose's finding confirmed: posts promote
+exports.
 
 The association does not license that conclusion, for a multinational or for a foreign ministry. It
 does not show that opening a post in a market will raise exports there, because posts are opened
