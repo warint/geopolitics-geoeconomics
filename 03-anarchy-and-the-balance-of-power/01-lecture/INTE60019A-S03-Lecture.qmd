@@ -111,13 +111,17 @@ format:
 
 :::::
 
+In international relations, *anarchy* is a technical term: the absence of a government above states. Most of the time, most states are at peace and trade under rules — but nothing above them guarantees that they will keep doing so.
+
 ::: {.step}
-What follows: **self-help** · **uncertainty about intentions** · **relative gains** (Grieco 1988)
+What follows: **self-help** — each state ensures its own survival · **uncertainty about intentions** — no one knows what another will do with its power tomorrow · **relative gains** — states ask how much *more* the other gains (Grieco 1988)
 :::
 
 ## Relative gains, applied
 
 > A deal that makes both sides richer — but the rival richer **faster** — may be refused, restricted or reversed.
+
+Because today's partner may be tomorrow's adversary, a state judges cooperation not only by what it gains but by how the gains are shared. For a firm, this is the point at which a profitable sale becomes a political decision.
 
 ::: {.get}
 That is the logic of export controls on advanced semiconductors. Commerce becomes security.
@@ -128,18 +132,20 @@ That is the logic of export controls on advanced semiconductors. Commerce become
 ## Waltz — defensive realism
 
 - **Structure** — anarchy + the **distribution of capabilities** — shapes behaviour
-- States seek **enough** power for security; too much provokes balancing
-- **Bipolarity** is more stable than multipolarity
+- States seek **enough** power for security; too much provokes balancing, so expansion is usually self-defeating
+- **Bipolarity** is more stable than multipolarity: fewer actors, fewer miscalculations
+
+Waltz explains behaviour by the shape of the system, not by the character of leaders or regimes: change the distribution of capabilities and you change what states do.
 
 ::: {.step}
-**The security dilemma** (Jervis 1978): what makes me secure makes you insecure — and you respond.
+**The security dilemma** (Jervis 1978): what makes me secure makes you insecure — and you respond. Both end up worse off without anyone intending aggression.
 :::
 
 ::: {.muted}
 Waltz, K. N. (1979). *Theory of International Politics*.
 :::
 
-## Mearsheimer — offensive realism
+## Mearsheimer — offensive realism {.scrollable}
 
 | | Five bedrock assumptions |
 |---|---|
@@ -149,17 +155,21 @@ Waltz, K. N. (1979). *Theory of International Politics*.
 | **4** | **Survival** is the primary goal |
 | **5** | Great powers are **rational** |
 
+None of the five is extreme on its own. Together they imply that no great power can be sure it has enough power, so each seeks more — not out of aggression but out of insecurity.
+
 ::: {.get}
-→ Great powers **maximise relative power**; the ideal is **regional hegemony**. *"China cannot rise peacefully."*
+→ Great powers **maximise relative power**; the ideal is **regional hegemony**, and preventing any other region from having one. For China: it will try to dominate Asia as the United States dominates the Western Hemisphere, and the United States will try to stop it. *"China cannot rise peacefully."*
 :::
 
 ## Side by side
 
 | | Defensive (Waltz) | Offensive (Mearsheimer) |
 |---|---|---|
-| Power wanted | enough for security | as much as possible |
+| Power wanted | enough for security | as much as possible, relative to others |
 | Restraint | balancing by others | only capability limits |
 | US–China | managed competition | intense security competition |
+
+The two share the starting point — anarchy — and differ on how much power is enough. That difference decides whether the US–China rivalry can be managed or must intensify.
 
 ::: {.warn}
 Neither predicts **war**. Both predict **competition**.
@@ -169,9 +179,11 @@ Neither predicts **war**. Both predict **competition**.
 
 ## Power transition theory
 
-- **Hierarchy**, not balance, keeps the peace
+- **Hierarchy**, not balance, keeps the peace — the reverse of Waltz's emphasis
 - A **dominant power** writes the order
 - Danger: a **dissatisfied challenger** approaching **parity** — often operationalised as ~80% of the leader
+
+Both conditions matter: a challenger content with the existing rules is not dangerous, and a dissatisfied one far behind cannot act. Risk peaks when dissatisfaction meets near-parity — which is why the measure of power, later in the hour, matters so much.
 
 ::: {.muted}
 Organski (1958) · Organski & Kugler (1980)
@@ -185,22 +197,28 @@ Organski (1958) · Organski & Kugler (1980)
 **16 cases** in 500 years of a rising power challenging a ruling one · **12 ended in war**
 :::
 
+Allison and the Harvard Thucydides's Trap project apply the power-transition logic across history. The ratio is striking, and it is the most quoted number in debates on US–China relations.
+
 ::: {.fragment}
-**What is wrong with this ratio?**
+**What is wrong with this ratio?** Ask how the sixteen cases were chosen, and what would count as a case that did not end in war.
 :::
 
-## The critics
+## The critics {.scrollable}
 
 | Objection | |
 |---|---|
-| **Case selection** | chosen on the outcome; peaceful transitions under-counted |
+| **Case selection** | chosen on the outcome; peaceful transitions — the UK to the US — under-counted; "rising" and "ruling" are elastic |
 | **Nuclear weapons** | no pre-1945 case prices them |
 | **Interdependence** | US–China ties are deeper — though 1914 Britain and Germany traded heavily too |
 | **Measuring "rise"** | gross indicators overstate China (Beckley 2018) |
 
+::: {.muted}
+Beckley's point leads into the next section: GDP, population and CINC ignore the costs of governing, feeding and protecting a population, so a large country can look more powerful than it is. Interdependence returns in Session 04.
+:::
+
 # Measuring power: the CINC {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Six components, one average
+## Six components, one average {.scrollable}
 
 | Dimension | Components |
 |---|---|
@@ -210,6 +228,8 @@ Organski (1958) · Organski & Kugler (1980)
 
 1. Each state's **share of the system total**, per component, per year
 2. **Average** the six shares → CINC between 0 and 1
+
+A state's CINC is therefore its average share of the system's capabilities across the six components. The system sums to about 1 — not exactly, because a state missing a component is averaged over the ones it has.
 
 ::: {.muted}
 Singer, Bremer & Stuckey (1972) · Correlates of War NMC v7.0, 1816–2022
@@ -240,21 +260,27 @@ Singer, Bremer & Stuckey (1972) · Correlates of War NMC v7.0, 1816–2022
 
 :::::
 
+What CINC misses is what Sessions 08 and 11 show to be the instruments of coercion that reach firms most directly. Because it rewards size and heavy industry, it shows China passing the United States much earlier than military spending or GDP at market exchange rates do: one reality, three measures, three dates.
+
 ::: {.get}
 **Predict:** in which decade does CINC show China passing the US? The practice round answers it — and then asks the same of military spending and GDP.
 :::
 
 # What it means for the multinational {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Five implications
+## Five implications {.scrollable}
 
 | | |
 |---|---|
-| **Power sets the rules of trade** | sanctions, export controls, market-access conditions |
-| **Transition → two compliance regimes** | following one can violate the other |
-| **Relative gains → security goods** | chips, AI, batteries, aerospace |
+| **Power sets the rules of trade** | sanctions, export controls, market-access conditions — imposed by whoever holds capabilities others need |
+| **Transition → two compliance regimes** | a firm in both the US and China: following one can violate the other |
+| **Relative gains → security goods** | chips, AI, batteries, aerospace move from the trade ministry to the security council |
 | **"Overtaken" depends on the measure** | say on **what** |
-| **Security dilemmas escalate without intent** | and reach your supply chain |
+| **Security dilemmas escalate without intent** | an export control or military exercise read as offensive — and the response reaches your supply chain |
+
+::: {.muted}
+Each row links a concept from the hour to a firm decision: relative gains to product lines, power transition to compliance, the security dilemma to suppliers.
+:::
 
 ## Put it to the room
 
@@ -265,20 +291,26 @@ Singer, Bremer & Stuckey (1972) · Correlates of War NMC v7.0, 1816–2022
 ::: {.check}
 Overtaken **on what**? **When**? And **which of our decisions** depends on it?
 :::
+
+The answer differs by measure — CINC, military spending or GDP each give a different date — and a crossover on any of them is not a forecast. The useful question is which decision would change if the claim were true.
 :::
 
 # What the figure does not license {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Four limits
 
-1. Capabilities, not **influence, intentions or war**
+1. Capabilities, not **influence, intentions or war** — a crossover on the chart is not a prediction of conflict
 2. **Overweights size** — blind to chips, alliances, finance
-3. Ends in **2022**
+3. Ends in **2022** — the most recent shifts are not in it
 4. Describes **states**, not your firm's revenue and suppliers
+
+A firm's exposure depends on where its revenue and suppliers sit, not on the system's distribution of power. Use these limits to write today's catch.
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Parameters and ratios
+## Parameters and ratios {.scrollable}
+
+A **parameter** lets the viewer choose the challenger; **calculated fields** turn two series into one ratio; **reference lines** mark the thresholds that power transition theory cares about.
 
 1. **Create → Parameter** `Challenger` · list · add values from `stateabb`
 2. `Challenger CINC` = `IF [stateabb] = [Challenger] THEN [cinc] END`
@@ -286,6 +318,8 @@ Overtaken **on what**? **When**? And **which of our decisions** depends on it?
 4. `Power ratio` = `SUM([Challenger CINC]) / SUM([US CINC])`
 5. Reference lines at **1.0** (parity) and **0.8**
 6. Right-click the parameter → **Show Parameter**
+
+A ratio above 1.0 means the challenger's CINC exceeds that of the United States.
 
 ::: {.check}
 Over to the practice round.

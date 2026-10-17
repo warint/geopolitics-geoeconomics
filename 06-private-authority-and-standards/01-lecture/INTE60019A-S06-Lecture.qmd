@@ -70,6 +70,10 @@ format:
 
 :::::
 
+::: {.muted}
+Session 05 looked at intergovernmental institutions. This session turns to the rules written by private and hybrid bodies — and made compulsory by buyers, investors and export markets.
+:::
+
 # Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Four briefs, five-minute slots (four minutes + one question)
@@ -83,7 +87,9 @@ format:
 
 # The rules a firm actually follows {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Count the rules in a phone
+## Count the rules in a phone {.scrollable}
+
+Walk through one product's supply chain and ask who wrote each rule it obeys. Read the right-hand column: **most were not written by a government**.
 
 | Rule | Written by |
 |---|---|
@@ -94,12 +100,14 @@ format:
 | The supplier's minerals due diligence | OECD guidance, industry schemes, buyer codes |
 
 ::: {.get}
-**Private authority:** non-state actors making rules others treat as binding. For a firm, a **risk** — and a **lever**.
+**Private authority:** non-state actors making rules others treat as binding. For a firm, a **risk** — a standard written elsewhere becomes a condition of market access — and a **lever**: shape the standard, shape the market.
 :::
 
 # The governance triangle {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Abbott & Snidal (2009)
+## Abbott & Snidal (2009) {.scrollable}
+
+Abbott and Snidal map rule-setting schemes in a triangle whose corners are the three types of actor that can write rules. A scheme's position shows who runs it.
 
 ```
                        STATE
@@ -111,9 +119,9 @@ format:
                 FIRM          NGO
 ```
 
-- Near a **corner**: one actor type — industry code, activist label, treaty
-- In the **middle**: hybrids — multi-stakeholder certification; the UN Global Compact
-- **The shadow of the state**: private schemes are shaped by the threat — or promise — of public regulation
+- Near a **corner**: one actor type — industry code (firms), activist label (NGOs), treaty (states)
+- In the **middle**: hybrids — multi-stakeholder certification (firms and NGOs); the UN Global Compact (all three)
+- **The shadow of the state**: private schemes are shaped by the threat — or promise — of public regulation, and by states choosing to endorse, require or ignore them
 
 ::: {.muted}
 In W. Mattli & N. Woods (Eds.), *The Politics of Global Regulation*, Princeton UP, pp. 44–88.
@@ -123,23 +131,27 @@ In W. Mattli & N. Woods (Eds.), *The Politics of Global Regulation*, Princeton U
 
 > Place these in the triangle: **FSC**, **UN Global Compact**, **ISO 14001**, **an industry code of conduct**, **the EU's common charger rule**.
 
+Ask of each: who wrote it, who can change it, and who would enforce it if a firm ignored it.
+
 ::: {.warn}
 The placement predicts the behaviour: who can change the scheme, who finds it legitimate, whether a state may make it mandatory.
 :::
 
 # Standards and power {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Who wins at ISO and the IEC? Mattli & Büthe (2003)
+## Who wins at ISO and the IEC? Mattli & Büthe (2003) {.scrollable}
+
+When an *international* product standard is written, whose version wins? Mattli and Büthe test three explanations against each other. Decide which you expect before the answer appears.
 
 | Explanation | Prediction |
 |---|---|
-| **Technological rationality** | the best technology wins |
+| **Technological rationality** | the best technology wins, whoever proposes it |
 | **Primacy of power** | the largest markets win |
 | **Institutional complementarity** | those whose **domestic** standard-setting matches the international structure win |
 
 ::: {.fragment}
 ::: {.get}
-Their evidence favours **institutional complementarity**: coordinated European national bodies were better placed than the fragmented US system.
+Their evidence favours **institutional complementarity**: coordinated European national bodies were better placed than the fragmented US system. Influence over "technical" rules depends on how a country — and its firms — are organised to take part.
 :::
 :::
 
@@ -149,29 +161,35 @@ Their evidence favours **institutional complementarity**: coordinated European n
 
 ## Technical standards are geopolitics
 
+Each of these is a competition between blocs, each trying to make its domestic rules the world's. The firm that builds to the losing standard rebuilds.
+
 - **Telecoms** — whose patents and specifications are in the next generation?
 - **Batteries and charging** — whose formats become the default?
 - **AI and data** — whose rules does a global firm adopt everywhere?
 
 ::: {.step}
-**The Brussels effect** (Bradford, 2020): it is often cheaper for a firm to adopt the strictest rule everywhere than to run two product lines.
+**The Brussels effect** (Bradford, 2020): it is often cheaper for a firm to adopt the strictest rule everywhere than to run two product lines — which is how EU rules become global.
 :::
 
 # Three perspectives; delegated or entrepreneurial {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Brunsson, Rasche & Seidl (2012)
 
+Three ways to look at the same standard: what it does to the firm that adopts it, who writes it, and how it orders a whole market.
+
 | Standardization… | Example |
 |---|---|
 | ***of*** organizations | ISO 14001 tells a firm how to organise environmental management |
-| ***by*** organizations | the bodies that write standards, and how |
-| ***as*** organization | standards ordering markets without hierarchy |
+| ***by*** organizations | the bodies that write standards, and how they work |
+| ***as*** organization | standards ordering markets and fields without formal hierarchy |
 
 ::: {.warn}
-Standards are **dynamic**: revised, contested, translated — and **decoupled**. A certificate is not a practice.
+Standards are **dynamic**: revised, contested, translated locally — and **decoupled**. A certificate is not a practice: a firm certified to ISO 14001 may run its plants exactly as before.
 :::
 
 ## Green (2013)
+
+Private authority has two sources, and they fail in different ways. Ask where a rule's authority comes from before deciding how durable it is.
 
 | | **Delegated** | **Entrepreneurial** |
 |---|---|---|
@@ -179,9 +197,15 @@ Standards are **dynamic**: revised, contested, translated — and **decoupled**.
 | **Illustration** | verification under the Clean Development Mechanism | voluntary carbon accounting, e.g. the GHG Protocol |
 | **Watch** | the state can take it back | adoption — the rule is as strong as its users |
 
+::: {.muted}
+Green's field is carbon governance. For a firm, a delegated rule is a political risk — it moves with the state that delegated it; an entrepreneurial rule is a market risk — it moves with the number of firms and investors that use it.
+:::
+
 # Race to the bottom, or trading up? {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Two scenarios
+
+Both start from the same fact — trade intensifies competition — and predict opposite directions for standards. Which one holds is an empirical question.
 
 ::::: columns
 
@@ -189,7 +213,7 @@ Standards are **dynamic**: revised, contested, translated — and **decoupled**.
 
 ### Race to the bottom
 
-Trade intensifies competition → governments and firms cut environmental standards to win exports.
+Trade intensifies competition → governments and firms cut environmental standards to attract investment and win exports.
 
 ::::
 
@@ -203,40 +227,51 @@ Exporters to strict markets adopt strict standards → trade spreads them (Vogel
 
 :::::
 
-## Prakash & Potoski (2006)
+::: {.muted}
+The difference lies in who sets the bar. In the first, the exporter's own government competes for investment; in the second, the customer's market decides what an exporter must meet.
+:::
+
+## Prakash & Potoski (2006) {.scrollable}
+
+ISO 14001 makes a clean test: it is voluntary, so no law forces adoption, and any pull from export markets shows up directly in the data.
 
 - **ISO 14001**: voluntary, beyond what many domestic laws require
 - **Panel**: 108 countries, seven years
 - **Key variable**: adoption in a country's **export markets**
 
 ::: {.get}
-**Finding:** trade linkages **encourage** ISO 14001 adoption when a country's major export markets have adopted it. Standards travel towards the customer's.
+**Finding:** trade linkages **encourage** ISO 14001 adoption when a country's major export markets have adopted it. Standards travel towards the customer's — trading up, not racing to the bottom.
 :::
 
 ::: {.muted}
 *AJPS*, 50(2), 350–364. [doi:10.1111/j.1540-5907.2006.00188.x](https://doi.org/10.1111/j.1540-5907.2006.00188.x)
 :::
 
-## For the firm
+## For the firm {.scrollable}
 
 ::: {.warn}
-"Voluntary" is not "optional". A standard your buyers require is as binding as a law.
+"Voluntary" is not "optional". A standard your buyers require is as binding as a law — and it can become a condition of market access without a single law changing.
 :::
 
 - Monitor what your **customers' home markets** adopt, not only what your host government legislates
 - Decide: **adopt** early, **shape** in the committee, or **resist** — each has a cost
+- Remember the decoupling point: a buyer may accept the certificate, but an NGO or a regulator may look at the practice
+
+Mattli and Büthe's lesson applies to firms as well as countries: influence goes to those organised to take part, and taking part is expensive.
 
 > **Put it to the room:** two engineers, a quarter of their time, three years on an ISO committee. Worth it?
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Maps and Pages
+## Maps and Pages {.scrollable}
 
-1. `iso3` → *Geographic Role* → **Country/Region**
-2. Check the **unknown** indicator → *Map → Edit Locations*
-3. **Filled map** of certificates per billion US$ of GDP — sequential palette
-4. `Year` → **Pages** shelf → press play
-5. **Small multiples**: `Region` × `Year`, line of the median country
+The practice maps how ISO 14001 spread. Raw certificate counts mostly measure economic size, so the map shows certificates per billion US$ of GDP.
+
+1. `iso3` → *Geographic Role* → **Country/Region** — Tableau recognises ISO 3166 codes
+2. Check the **unknown** indicator at the bottom right → *Map → Edit Locations* to fix what it could not place
+3. **Filled map** of certificates per billion US$ of GDP — sequential palette, never a rainbow
+4. `Year` → **Pages** shelf → press play to animate the diffusion
+5. **Small multiples**: `Region` × `Year`, line of the median country — the same story, without animation, on one page
 
 ::: {.check}
 Never join or geocode on names. Hong Kong, Taiwan, Korea and Türkiye will tell you why.

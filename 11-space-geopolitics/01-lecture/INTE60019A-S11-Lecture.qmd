@@ -72,6 +72,10 @@ format:
 
 :::::
 
+::: {.muted}
+Space is treated here as infrastructure the firm relies on without owning: who runs it, how it can fail, and what a firm can do about it.
+:::
+
 # Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Four briefs · five-minute slots (four minutes + one question)
@@ -93,21 +97,29 @@ Four minutes, one question. Stopped at five.
 
 # Infrastructure in orbit {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Few firms own a satellite. Almost all depend on one.
+## Few firms own a satellite. Almost all depend on one. {.scrollable}
+
+Three services carry most of a firm's dependence on space. Read the last column first: each service is supplied by a handful of states or companies.
 
 | Service | The firm uses it for | Who provides it |
 |---|---|---|
-| **Positioning, navigation, timing** | tracking, shipping, aviation — and **time**: telecoms, grids, trading venues | **GPS** (US) · **Galileo** (EU) · **BeiDou** (China) · **GLONASS** (Russia) |
-| **Connectivity** | ships, aircraft, mines, remote sites, back-up links | geostationary operators · **constellations** in low orbit since 2019 |
-| **Earth observation** | crop forecasts, claims, site and supply-chain monitoring | agencies · commercial imaging firms |
+| **Positioning, navigation, timing** | tracking, shipping, aviation — and **time**: telecoms, grids, trading venues synchronise their clocks to GNSS | **GPS** (US) · **Galileo** (EU) · **BeiDou** (China) · **GLONASS** (Russia) — each run by a state |
+| **Connectivity** | ships, aircraft, mines, remote sites, back-up links | geostationary operators · **constellations** of thousands of satellites in low orbit since 2019 |
+| **Earth observation** | crop forecasts, claims, site and supply-chain monitoring, due diligence | agencies · commercial imaging firms |
 
 ::: {.get}
 Sessions 08 and 10: networks become instruments of power. Today's network is **above** the firm.
 :::
 
+::: {.muted}
+The change is recent: ESA reports that the number of new payloads kept growing exponentially in 2025, driven by more launches, rideshares and commercial constellations.
+:::
+
 # The orbital commons {background-color="#E3120B" style="color:#F7F4ED"}
 
-## The Outer Space Treaty (1967)
+## The Outer Space Treaty (1967) {.scrollable}
+
+The Treaty is the constitution of the domain — written for two superpowers, not for a market. Read each article through the right-hand column: what it means for a commercial operator or its customers.
 
 | Article | Rule | For the firm |
 |---|---|---|
@@ -118,17 +130,18 @@ Sessions 08 and 10: networks become instruments of power. Today's network is **a
 | **IX** | "due regard"; consult before harmful interference | traffic rules without an enforcer |
 
 ::: {.muted}
-Plus the **ITU**: frequencies and orbital positions coordinated in order of filing — an incentive to file early and large.
+Plus the **ITU**: frequencies and orbital positions coordinated in order of filing — an incentive to file early and large, sometimes for "paper satellites" that never fly. And **national licensing** (launch, spectrum, remote sensing, exports) turns Article VI into a permit the firm must hold.
 :::
 
-## Kessler: the physics of a commons
+## Kessler: the physics of a commons {.scrollable}
 
 ::: {.step}
 Density passes a threshold → collisions → fragments → **more collisions**: a debris belt that grows on its own
 :::
 
-- No one can be excluded; every use depletes it for others
-- Low orbit cleans itself slowly — years at a few hundred km, **decades to centuries** above
+- No one can be excluded; every use depletes it for others — a commons in the strict sense, with physics in place of an economy
+- The belt can grow **even if no one launches again**
+- Low orbit cleans itself slowly as the atmosphere drags debris down — years at a few hundred km, **decades to centuries** above
 
 ::: {.warn}
 An orbit's quality is set by the **least careful** actor in it. One test raises every operator's risk — and premium.
@@ -140,35 +153,44 @@ Kessler & Cour-Palais (1978), *Journal of Geophysical Research* 83(A6): 2637–2
 
 # Astropolitics {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Three readings of the new space race
+## Three readings of the new space race {.scrollable}
+
+Three authors, three answers to the question "what is space?". Each implies a different risk for a firm that depends on it.
 
 | | Space is… | The argument |
 |---|---|---|
-| **Dolman (2002)** *Astropolitik* | a **territory** | Mackinder in orbit: control low Earth orbit, control access to space — and the Earth |
-| **Pekkanen (2019)** *AJIL Unbound* | a **market** | democratisation · commercialisation · militarisation; **~95% of space technology is dual-use** |
+| **Dolman (2002)** *Astropolitik* | a **territory** | Mackinder in orbit: control low Earth orbit, control access to space — and the Earth. Session 03's anarchy, with orbits as chokepoints |
+| **Pekkanen (2019)** *AJIL Unbound* | a **market** | democratisation · commercialisation · militarisation; **~95% of space technology is dual-use**; treaty-making in decline, so national law and contracts govern |
 | **Bowen (2020)** *War in Space* | **infrastructure** for power on Earth | orbit as a "cosmic coastline" — a target when power on Earth is contested |
 
 ::: {.get}
 One constellation can be a broadband business, a military network and a foreign-policy instrument — at once.
 :::
 
+::: {.muted}
+The readings do not exclude one another: Pekkanen's dual use explains how a commercial firm ends up carrying the strategic stakes Dolman and Bowen describe.
+:::
+
 # Counterspace {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Five categories (SWF, 2026)
+## Five categories (SWF, 2026) {.scrollable}
+
+What states can do to deceive, disrupt, deny, degrade or destroy space systems. The two right-hand columns matter most to a firm: whether the damage can be undone, and on whom it falls first.
 
 | Category | Reversible? | Hits first |
 |---|---|---|
-| **Direct-ascent** missile | no — and it makes debris | the target, then the whole shell |
-| **Co-orbital** | depends | the target |
-| **Electronic warfare** — jamming, spoofing | yes | **users** on the ground |
-| **Directed energy** | partly | imaging satellites |
+| **Direct-ascent** missile, launched from Earth | no — and it makes debris | the target, then the whole shell |
+| **Co-orbital** — a satellite that approaches, inspects or attacks another | depends | the target |
+| **Electronic warfare** — jamming, spoofing | yes | **users** on the ground: ships, aircraft, networks |
+| **Directed energy** — lasers, microwaves | partly | imaging satellites |
 | **Cyber** — satellites, ground stations, terminals | mostly | **customers** |
 
 ::: {.muted}
+Note the pattern: the reversible threats land on the ground, on users and customers rather than on the satellite itself.
 Samson & Brett (Eds., 2026), *Global Counterspace Capabilities* · 13 countries assessed
 :::
 
-## Destroyed vs disrupted
+## Destroyed vs disrupted {.scrollable}
 
 ::::: columns
 
@@ -188,8 +210,8 @@ Samson & Brett (Eds., 2026), *Global Counterspace Capabilities* · 13 countries 
 
 ### What is used in war
 
-- **KA-SAT**, 24 Feb 2022: modems disabled across Europe — wind turbines in Germany lost monitoring
-- **GNSS jamming**: Finnair suspends Tartu flights, 2024
+- **KA-SAT**, 24 Feb 2022: a cyberattack on the ground segment disabled modems in Ukraine and across Europe — wind turbines in Germany lost monitoring
+- **GNSS jamming**: Finnair suspends Tartu flights, 2024, as satellite-based approaches become unusable
 
 ::::
 
@@ -199,13 +221,19 @@ Samson & Brett (Eds., 2026), *Global Counterspace Capabilities* · 13 countries 
 SWF: only **non-destructive** capabilities are used against satellites in current operations. They fall on the **customers**.
 :::
 
+::: {.muted}
+Destructive tests make headlines and debris; jamming, spoofing and cyberattacks make the **losses**. A firm's risk register should weight the right-hand column more heavily.
+:::
+
 # The debris record {background-color="#E3120B" style="color:#F7F4ED"}
 
-## ESA, *Space Environment Report 2026*
+## ESA, *Space Environment Report 2026* {.scrollable}
 
-- **Method:** catalogued (US public catalogue, Russian Vimpel, UK RAE tables) + **asserted** objects, in DISCOS
-- **End of 2025:** **44,964** objects in Earth orbit · **16,946** payloads · 25,060 in LEO
-- **Dominant source:** fragmentations **other than collisions** — 9.8 non-deliberate a year on average
+Read the method before the figures: what is counted, and from which catalogues, decides what the numbers can tell you.
+
+- **Method:** catalogued (US public catalogue, Russian Vimpel, UK RAE tables) + **asserted** objects known to exist by design, in DISCOS; objects too small to track are out of scope
+- **End of 2025:** **44,964** objects in Earth orbit · **16,946** payloads · 25,060 in LEO — more debris than operational satellites since the start of the space age
+- **Dominant source:** fragmentations **other than collisions** — mostly old rocket stages and batteries; 9.8 non-deliberate a year on average
 
 ::: {.get}
 **The target — Figure 2.1:** objects in geocentric orbit by object class, since 1957.
@@ -215,12 +243,14 @@ SWF: only **non-destructive** capabilities are used against satellites in curren
 ESA Space Debris Office, Issue 10.0, 1 May 2026
 :::
 
-## Three events to annotate
+## Three events to annotate {.scrollable}
+
+Three events stand out on Figure 2.1. Altitude matters: the higher the event, the longer its fragments stay in orbit.
 
 | Date | Event | Altitude |
 |---|---|---|
-| **11 Jan 2007** | China destroys **Fengyun-1C** | ~850 km |
-| **10 Feb 2009** | **Iridium 33** and **Cosmos 2251** collide — Kessler, observed | ~780 km |
+| **11 Jan 2007** | China destroys **Fengyun-1C** — the largest single source of catalogued debris | ~850 km |
+| **10 Feb 2009** | **Iridium 33** and **Cosmos 2251** collide — first accidental collision of two intact satellites: Kessler, observed | ~780 km |
 | **15 Nov 2021** | Russia destroys **Cosmos 1408** — almost all re-entered within three years | ~470–490 km |
 
 > **Put it to the room:** where will Fengyun's debris show on a chart built from the public catalogue?
@@ -229,7 +259,7 @@ ESA Space Debris Office, Issue 10.0, 1 May 2026
 Find out in the practice round.
 :::
 
-## What the figure does not measure
+## What the figure does not measure {.scrollable}
 
 ::: {.warn}
 A 10-cm fragment and a 5-tonne stage each count **once**. What is too small to catalogue does not count at all.
@@ -237,13 +267,18 @@ A 10-cm fragment and a 5-tonne stage each count **once**. What is too small to c
 
 - Better sensors raise the count with **nothing new in orbit**
 - Objects, not **risk** — and not who bears it
+- A third limit lies in how the public catalogue **dates** debris: you will meet it in the practice round
+
+::: {.muted}
+Before an object count goes on a dashboard, ask what it stands for. Here it measures the catalogue as much as the orbit, and says nothing about which operator — or which customer — carries the exposure.
+:::
 
 # One operator {background-color="#E3120B" style="color:#F7F4ED"}
 
-## The new space race is a one-firm race
+## The new space race is a one-firm race {.scrollable}
 
-- **Starlink**, first launched May 2019 → the **majority** of the world's operating satellites
-- **Ukraine, 2022:** a backbone of military and civil communications — and the operator's decisions on coverage became **war policy**
+- **Starlink**, first launched May 2019 → the **majority** of the world's operating satellites — with a firm, not a superpower, at the top
+- **Ukraine, 2022:** a backbone of military and civil communications — and the operator's decisions on coverage became **war policy**; governments moved to contract for the service directly
 
 ::::: columns
 
@@ -269,52 +304,74 @@ The operator can **switch off** a user, a region, a country
 Farrell & Newman (S08): concentration + a state that can direct the firm. **Article VI** supplies the state.
 :::
 
-## States build their own
+::: {.muted}
+A firm that depends on one operator therefore depends on that operator's licensing state as well.
+:::
+
+## States build their own {.scrollable}
+
+Session 03's logic: states that depend on one American firm respond by building their own capacity — and the licensing state draws the line from the other side.
 
 - **IRIS²** — EU secure connectivity, Regulation (EU) 2023/588
 - **Qianfan**, **Guowang** — China's constellations
-- **Export controls:** ITAR Category XV · EAR "9x515" since 2014 — a US component means US permission
+- **Export controls:** ITAR Category XV · EAR "9x515" since 2014 — a US component means US permission to sell to some customers
 
 ::: {.warn}
 A second operator licensed by the **same state** is not diversification.
 :::
 
+::: {.muted}
+Diversification in orbit is measured by licensing state, not by brand: the question for a firm is which governments could direct, restrict or switch off every provider it uses.
+:::
+
 # What can the firm do? {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Five channels
+## Five channels {.scrollable}
+
+The course's five channels, applied to space: each row is a route by which an event in orbit, or a rule about orbit, reaches the P&L.
 
 | Channel | How space risk arrives |
 |---|---|
-| **Market access** | export controls, spectrum and landing rights |
+| **Market access** | export controls, spectrum and landing rights — a terminal that cannot be sold or switched on |
 | **Inputs** | a service from one operator, or one state's GNSS |
-| **Finance and payments** | GNSS-timed trading and payments; insurance capacity |
-| **Assets and people** | ships and aircraft in jammed or spoofed areas |
-| **Data and operations** | attacks on ground segments and terminals; lost imagery |
+| **Finance and payments** | GNSS-timed trading and payments; insurance capacity and premiums |
+| **Assets and people** | ships and aircraft in jammed or spoofed areas: rerouted flights, misreported positions |
+| **Data and operations** | attacks on ground segments and terminals (the KA-SAT modems); lost imagery |
 
-## Four lines for the dashboard
+::: {.muted}
+Most of these routes run through a supplier, not through the firm's own assets: the exposure sits in contracts for connectivity, timing, imagery and insurance, which is where the dashboard and the strategies that follow must look.
+:::
 
-1. **Dependence** — share of a critical service from one operator · *> 50% → contract a second*
-2. **Interference** — official GNSS-interference warnings where the firm's ships, aircraft, sites operate
-3. **Environment** — destructive tests and fragmentations in the providers' orbital shells
-4. **Rules** — export-control lists, licences, ITU filings
+## Four lines for the dashboard {.scrollable}
+
+Each line pairs an indicator with a threshold that triggers a named decision — the format your team dashboard should follow.
+
+1. **Dependence** — share of a critical service (connectivity, imagery, timing) from one operator or one state's system · *> 50% → contract a second*
+2. **Interference** — official GNSS-interference warnings (aviation authorities publish them) where the firm's ships, aircraft, sites operate
+3. **Environment** — destructive tests and fragmentations in the providers' orbital shells; ESA's yearly indicators
+4. **Rules** — export-control lists, licences, ITU filings affecting suppliers or markets
 
 ::: {.get}
 **Which line would your team's firm put on its dashboard — with which threshold?**
 :::
 
-## Strategies
+## Strategies {.scrollable}
+
+No strategy removes space risk; each moves it at a cost. Read the last column as the question to ask before relying on it.
 
 | Strategy | Cost | Limit |
 |---|---|---|
-| **Multi-orbit, multi-operator** | price, integration | same licensing state? |
-| **Multi-constellation receivers** | small | one jammer blinds them all locally |
+| **Multi-orbit, multi-operator** — geostationary + low orbit, two providers | price, integration | same licensing state? |
+| **Multi-constellation receivers** — GPS + Galileo (+ others) | small | one jammer blinds them all locally |
 | **Terrestrial back-up** — clocks, fibre, cellular | capital | not at sea, not in remote sites |
-| **Insurance** | premium | thin market; capacity leaves after losses |
-| **Compliance by design** | staff, delays | rules move with the balance of power |
+| **Insurance** — in-orbit and third-party liability | premium | thin market; capacity leaves after losses |
+| **Compliance by design** — classify every space component | staff, delays | rules move with the balance of power |
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
-## A stock from flows · HHI · an action
+## A stock from flows · HHI · an action {.scrollable}
+
+The catalogue records flows — a launch date and, for objects that have re-entered, a decay date. The number in orbit is a stock: launches minus decays, accumulated year by year. Concentration is measured with the HHI, the sum of squared owner shares.
 
 ```text
 Change      =  IF [Event] = "LAUNCH_DATE" THEN 1 ELSE -1 END     // after pivoting the two dates
@@ -325,7 +382,11 @@ Owner share =  {FIXED [Launch year], [OWNER] : COUNT([NORAD_CAT_ID])}
 
 1. **Running total** by year, `OBJECT_TYPE` → Colour: the target figure
 2. **HHI** of who launches, year by year
-3. **Action:** click a year → see who launched that year
+3. **Action:** click a year → see who launched that year (*Dashboard → Actions → Filter*, `Year` mapped to `Launch year`)
+
+::: {.muted}
+The HHI is built so that it adds up correctly over rows; a value near its maximum means one owner launches almost everything.
+:::
 
 ::: {.check}
 Click a year; the owners chart follows. That is the interaction your team dashboard needs.

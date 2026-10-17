@@ -71,6 +71,10 @@ format:
 
 :::::
 
+::: {.muted}
+Every risk number a firm sees was built by someone, through choices. Today is about seeing those choices — so you can audit a score you are sold and defend one you build.
+:::
+
 # Quiz 2 {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Twenty minutes
@@ -87,11 +91,13 @@ On paper, closed book. Then four Risk Briefs.
 
 # The measurement chain {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Every number is the end of a chain
+## Every number is the end of a chain {.scrollable}
 
 | Concept | Indicator | Source | Coding rule | Aggregation | Presentation |
 |---|---|---|---|---|---|
 | "geopolitical risk" | share of articles… | ten newspapers | eight categories | monthly share, base 1985–2019 | a line, spikes labelled |
+
+Read the row from left to right: the GPR index starts from a concept nobody can observe and ends as a line on a chart. **Every link is a choice** — and a place where the number can part company with the concept.
 
 ::::: columns
 
@@ -99,7 +105,7 @@ On paper, closed book. Then four Risk Briefs.
 
 ### Validity
 
-Does the indicator measure the concept?
+Does the indicator measure the concept? Is newspaper attention *geopolitical risk* — or editors' interest in geopolitics?
 
 ::::
 
@@ -107,35 +113,37 @@ Does the indicator measure the concept?
 
 ### Reliability
 
-Would someone else, with the same rules, get the same number?
+Would someone else, with the same rules, get the same number? Would a second coder put the same article in the same category?
 
 ::::
 
 :::::
 
 ::: {.warn}
-Perfectly reliable and invalid: a thermometer everyone reads identically — in the wrong room.
+Perfectly reliable and invalid: a thermometer everyone reads identically — in the wrong room. The reverse does not hold: a measure that gives different numbers for the same object cannot be valid.
 :::
 
 # Content analysis {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Krippendorff's steps
+## Krippendorff's steps {.scrollable}
+
+Content analysis: a technique for making **replicable and valid inferences** from texts to the contexts of their use. The texts are evidence; the context — the world the texts describe — is the object.
 
 | Step | GPR index | Your coding today |
 |---|---|---|
-| **Unitising** | an article | a headline |
-| **Sampling** | ten newspapers, all articles | 40 GDELT headlines, at random |
-| **Coding** | a dictionary | two humans and a protocol |
-| **Reducing** | monthly share | counts by category |
-| **Inferring** | risk is high | your firm's countries are in the news for … |
+| **Unitising** — what is one unit? | an article | a headline |
+| **Sampling** — which units? | ten newspapers, all articles | 40 GDELT headlines, at random |
+| **Coding** — which category? | a dictionary | two humans and a protocol |
+| **Reducing** — how are codes summarised? | monthly share | counts by category |
+| **Inferring** — what do we conclude? | risk is high | your firm's countries are in the news for … |
 
 ::: {.get}
-**Manifest** content: the words — dictionaries see it, perfectly reliably. **Latent** content: what it is *about* — humans see it, less reliably. Best practice: a dictionary **audited by humans**.
+**Manifest** content: the words — dictionaries see it, perfectly reliably. **Latent** content: what it is *about* — humans see it, less reliably. Best practice: a dictionary **audited by humans**. The quality of the audit is the best single guide to the quality of an index.
 :::
 
 # Three dictionary methods {background-color="#E3120B" style="color:#F7F4ED"}
 
-## GPR · EPU · PRisk
+## GPR · EPU · PRisk {.scrollable}
 
 | | **GPR** | **EPU** | **PRisk** |
 |---|---|---|---|
@@ -144,6 +152,8 @@ Perfectly reliable and invalid: a thermometer everyone reads identically — in 
 | **Dictionary** | authors' categories | authors' terms, audited | **learned** from political vs non-political texts |
 | **Level** | world, 44 countries | country | **firm × quarter** |
 | **Validated by** | narrative, audit | large human audit | EPU; lobbying; investment and hiring |
+
+Each dictionary is a **theory of what risk looks like in language**. GPR: what newspaper readers are told to worry about, split into threats and acts. EPU: the three-way conjunction filters out weather, sport and routine legislation. PRisk: political language must sit *near* the language of risk — turning political attention into political risk.
 
 ::: {.muted}
 Caldara & Iacoviello (2022) · Baker, Bloom & Davis (2016) · Hassan, Hollander, van Lent & Tahoun (2019)
@@ -154,6 +164,8 @@ Caldara & Iacoviello (2022) · Baker, Bloom & Davis (2016) · Hassan, Hollander,
 ::: {.get}
 Most variation in political risk is **across firms at the same time** — not common to all firms.
 :::
+
+Two firms in the same industry, in the same quarter, can face very different political risk: they sell to different governments, depend on different regulations, source from different countries. An aggregate index such as EPU measures what is common — and misses most of what reaches one firm.
 
 > **Put it to the room:** what does that mean for a firm that buys a *country*-risk score?
 
@@ -169,11 +181,15 @@ p_o = \frac{\text{agreements}}{N}
 p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 $$
 
+$p_o$ is the share of items both coders put in the same category; $p_e$ is the agreement expected if each coded independently at their own rates ($n_{A,k}$: items coder A put in category $k$). Kappa = 1 is perfect agreement; 0 is no better than chance.
+
 ::: {.warn}
 Percent agreement flatters: two coders guessing will agree often, especially when one category dominates.
 :::
 
-## A worked example — 40 headlines
+## A worked example — 40 headlines {.scrollable}
+
+Three collapsed categories: not geopolitical (0), threat, act. Coder A in the rows, coder B in the columns; agreements sit on the diagonal.
 
 | | **B: 0** | **B: threat** | **B: act** | **A total** |
 |---|---:|---:|---:|---:|
@@ -184,18 +200,22 @@ Percent agreement flatters: two coders guessing will agree often, especially whe
 
 ::: {.fragment}
 $p_o = 33/40 = 0.825$ · $p_e = (24\cdot22 + 10\cdot12 + 6\cdot6)/1600 = 0.4275$ · $\kappa \approx 0.69$
+
+An 82.5% agreement shrinks once chance is removed: both coders put more than half the headlines in the dominant category, where much of their agreement was to be expected.
 :::
 
 ::: {.muted}
-Landis & Koch: 0.61–0.80 "substantial". Krippendorff's alpha: ≥ 0.800 for firm conclusions, ≥ 0.667 for tentative ones.
+Landis & Koch: 0.61–0.80 "substantial". Krippendorff's alpha: ≥ 0.800 for firm conclusions, ≥ 0.667 for tentative ones. Respectable by the first convention; only tentative by the second.
 :::
 
 ## Disagreement is information
 
 1. Read every disagreement
 2. Unclear protocol, or coder error?
-3. **Revise the protocol**
+3. **Revise the protocol** — write down the new rule
 4. Adjudicate
+
+Some disagreements are slips. The valuable ones reveal a case the protocol did not anticipate — a sanctions headline, a cyber operation, a military exercise that may or may not be a build-up.
 
 ::: {.step}
 Never average disagreement away. It shows where the concept is fuzzy.
@@ -203,22 +223,26 @@ Never average disagreement away. It shows where the concept is fuzzy.
 
 # Big data {background-color="#E3120B" style="color:#F7F4ED"}
 
-## GDELT: coverage and speed — and four traps
+## GDELT: coverage and speed — and four traps {.scrollable}
+
+GDELT turns news in many languages into searchable records: every country, every day, without anyone reading. The promise is real; so are the traps.
 
 | Trap | What happens |
 |---|---|
-| **Selection** | only reported events, from monitored sources; coverage grows over time |
+| **Selection** | only reported events, from monitored sources; coverage grows over time — a rising count may be more sources, not more events |
 | **Duplication** | one wire story, hundreds of articles |
 | **Machine coding** | irony, quotation and history misread |
 | **"N = all"** | a huge biased sample is confidently wrong |
 
 ::: {.get}
-**Big data for detection** — something is happening, here, now. **Small, coded data for measurement** — how much, compared with what.
+**Big data for detection** — something is happening, here, now. **Small, coded data for measurement** — how much, compared with what. A spike that flags a supplier country is detection done well; "risk there has doubled" from the same spike is measurement done badly.
 :::
 
 # Composite indicators {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Five decisions that decide the result
+## Five decisions that decide the result {.scrollable}
+
+A composite indicator combines several indicators into one number — country-risk ratings, governance indices, your team's exposure index. The OECD/JRC *Handbook* sets out ten steps; these five decide most of the outcome.
 
 | Step | Choice | Risk |
 |---|---|---|
@@ -228,11 +252,13 @@ Never average disagreement away. It shows where the concept is fuzzy.
 | **Weighting and aggregation** | equal, statistical, expert; additive or geometric | **compensability** |
 | **Sensitivity** | how much do results move? | a ranking one weight would overturn |
 
+For a firm's exposure index, the natural framework is the five channels: each indicator must be defended as exposure through a named channel, or it does not belong.
+
 ::: {.muted}
 OECD/JRC (2008), *Handbook on Constructing Composite Indicators*. [doi:10.1787/9789264043466-en](https://doi.org/10.1787/9789264043466-en)
 :::
 
-## Normalise, then weight
+## Normalise, then weight {.scrollable}
 
 $$
 x^{*} = \frac{x - \min x}{\max x - \min x}
@@ -242,12 +268,16 @@ x^{*} = \frac{\max x - x}{\max x - \min x}
 \quad\text{(higher = safer)}
 $$
 
+Min–max puts every indicator on 0–1 with one direction: higher = more risk. Invert indicators where higher is safer — a political-stability score left uninverted makes a stable country look risky.
+
 $$
 CI = \frac{\sum_j w_j\, x^{*}_j}{\sum_j w_j}
 $$
 
+The composite is a weighted average. Equal, statistical or expert weights are each defensible; none is neutral.
+
 ::: {.warn}
-**Compensability:** excellent governance + an active war → "medium risk". Is that what the board should read?
+**Compensability:** excellent governance + an active war → "medium risk". Is that what the board should read? A firm does not experience the average of a country's risks, but the worst one that touches its operations.
 :::
 
 ## The point for the board
@@ -255,6 +285,8 @@ $$
 ::: {.get}
 Weights are value judgements. **Show them, let the reader move them, report whether the ranking survives.**
 :::
+
+A composite that hides its weights is an opinion dressed as a measurement. A country whose rank swings with one weight is not "fifth" — it is a country about which the index has no firm opinion.
 
 > **Put it to the room:** a consultancy sells you a 0–100 country-risk score. Which five questions before it enters a decision?
 

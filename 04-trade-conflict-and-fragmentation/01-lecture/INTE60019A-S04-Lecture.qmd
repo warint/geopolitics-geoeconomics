@@ -72,6 +72,10 @@ format:
 
 :::::
 
+::: {.muted}
+One question runs through the hour: is the world now trading along geopolitical lines — and if so, what should a firm do about the countries it sells to and buys from?
+:::
+
 # Quiz 1 · Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Twenty minutes, then four briefs
@@ -83,44 +87,50 @@ format:
 
 # Does trade keep the peace? {background-color="#E3120B" style="color:#F7F4ED"}
 
-## The liberal answer
+## The liberal answer {.scrollable}
 
 > *"Peace is the natural effect of trade."* — Montesquieu
 
+The **commercial peace** is one of the oldest ideas in international political economy: states that gain from exchange lose those gains if they fight. Modern versions add four mechanisms.
+
 | Mechanism | |
 |---|---|
-| **Opportunity cost** | the more a dyad trades, the more war costs |
-| **Signalling** | economic threats short of force reduce miscalculation |
-| **Domestic coalitions** | exporters and importers lobby for peace |
-| **Institutions** | trade agreements create forums and dispute settlement |
+| **Opportunity cost** | the more a dyad trades, the more war costs — conflict disrupts the trade both sides gain from |
+| **Signalling** | interdependent states can threaten economic ties short of force — a costly signal that reduces miscalculation |
+| **Domestic coalitions** | exporters and importers have a stake in peaceful relations and lobby their governments |
+| **Institutions** | trade agreements create forums and dispute-settlement procedures |
 
 ::: {.muted}
-Angell, *The Great Illusion* (1910) · Russett & Oneal, *Triangulating Peace* (2001)
+The statistical support: studies of dyads (pairs of countries) from the 1990s found that pairs trading more relative to GDP have fewer militarised disputes. Angell, *The Great Illusion* (1910) · Russett & Oneal, *Triangulating Peace* (2001)
 :::
 
 # The realist critique {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Interdependence can cause conflict
+## Interdependence can cause conflict {.scrollable}
+
+Realists turn the liberal argument round: what the liberal calls a gain from trade, the realist reads as a **dependence** — and dependence on a rival is a weakness to be limited.
 
 | Argument | |
 |---|---|
-| **Vulnerability** | dependence on a rival is a security risk (Waltz 1979) |
-| **Relative gains** | trade that strengthens the rival faster is a threat |
-| **Security externalities** | trade with allies, not adversaries (Gowa 1994) |
-| **Expectations** | what matters is whether trade is expected to **continue** (Copeland 2015) |
+| **Vulnerability** | dependence on a rival for essential goods is a security risk — states limit it, or fight to secure supplies (Waltz 1979) |
+| **Relative gains** | trade that strengthens the rival faster is a threat (Session 03) |
+| **Security externalities** | trade raises the partner's economic capacity, so states trade with allies, not adversaries (Gowa 1994) |
+| **Expectations** | what matters is whether trade is expected to **continue**: leaders who expect to be cut off may act before the window closes (Copeland 2015) |
 
 ::: {.warn}
-Britain and Germany were heavily interdependent in 1914.
+Britain and Germany were heavily interdependent in 1914. High trade did not prevent the war — the realists' favourite counter-example.
 :::
 
 # What the evidence says {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Mansfield (2021) — four points
+## Mansfield (2021) — four points {.scrollable}
 
-1. **Both directions.** Conflict reduces trade — a correlation is not a cause
-2. **Institutions.** Preferential trade arrangements → fewer disputes (Mansfield & Pevehouse 2000)
-3. **Context.** Regime type, development, distribution of power
-4. **The question has changed:** from *does trade pacify?* to *how is trade used as a weapon?*
+Mansfield's handbook review sets out the debate and the main empirical findings. Neither side wins outright; the four points below are what to retain.
+
+1. **Both directions.** Conflict reduces trade — so a negative correlation between trade and conflict does not by itself show that trade causes peace
+2. **Institutions.** Preferential trade arrangements are associated with fewer disputes among their members (Mansfield & Pevehouse 2000)
+3. **Context.** The effect differs with regime type, level of development and the distribution of power between the partners
+4. **The question has changed:** from *does trade pacify?* to *how is trade used as a weapon?* — the questions of Sessions 08, 10 and 11
 
 ::: {.muted}
 Mansfield, E. D. (2021). International trade and conflict. *Oxford Handbook of IPE*, 660–671.
@@ -128,7 +138,9 @@ Mansfield, E. D. (2021). International trade and conflict. *Oxford Handbook of I
 
 # Bilateral vs multilateral openness {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Make trade not war?
+## Make trade not war? {.scrollable}
+
+Martin, Mayer & Thoenig separate two kinds of trade that the commercial-peace debate had lumped together. Before the answer appears, decide for each row whether it raises or lowers the risk that A and B fight.
 
 | | Effect on bilateral conflict risk |
 |---|---|
@@ -138,8 +150,10 @@ Mansfield, E. D. (2021). International trade and conflict. *Oxford Handbook of I
 ::: {.fragment}
 | | |
 |---|---|
-| **Bilateral** | **lowers** it — more to lose from each other |
-| **Multilateral** | **raises** it — substitutes make losing B cheaper |
+| **Bilateral** | **lowers** it — A and B have more to lose from fighting each other |
+| **Multilateral** | **raises** it — if A can trade with everyone else, losing B costs less |
+
+Their empirical work finds support for both effects.
 :::
 
 ::: {.muted}
@@ -152,24 +166,30 @@ Martin, Mayer & Thoenig (2008), *Review of Economic Studies*, 75(3), 865–900
 **Globalisation lowers the cost of bilateral conflict.** A world of many alternative suppliers makes it cheaper for a state to break with any one of them.
 :::
 
+The liberal view assumed that more trade everywhere means more peace everywhere. Martin, Mayer & Thoenig show the opposite can hold for a given pair: openness to the rest of the world provides **substitutes**, and substitutes make a break with one partner affordable.
+
 # Fragmentation {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Three words, three policies
 
 | | |
 |---|---|
-| **Friend-shoring** | move supply chains towards trusted partners |
-| **De-risking** | cut dependence on rivals in critical goods — not trade overall |
-| **De-coupling** | separate economic blocs |
+| **Friend-shoring** | move supply chains towards trusted partners — popularised in US policy debate in 2022 |
+| **De-risking** | cut dependence on rivals in critical goods — not trade overall; the European Commission's term (2023) |
+| **De-coupling** | separate economic blocs — the end point |
 
-## Gopinath et al. (2025) — the design
+The three are often used interchangeably; they should not be. They differ in **scope**: which partners, which goods, how far. A firm reading a government speech should ask which of the three is actually being proposed.
 
-1. **Define blocs** — US-leaning, China-leaning, non-aligned — from **UN General Assembly voting**
-2. **Compare** trade within vs between blocs, before and after **February 2022**
-3. **Look for connectors** — non-aligned countries trading more with both
+## Gopinath et al. (2025) — the design {.scrollable}
+
+The question is empirical: do the data show the fragmentation that policy talks about? The design has three steps.
+
+1. **Define blocs** — US-leaning, China-leaning, non-aligned — from foreign-policy alignment as revealed by **UN General Assembly voting**
+2. **Compare** trade within vs between blocs, before and after Russia's invasion of Ukraine in **February 2022**, controlling for the usual determinants of bilateral trade
+3. **Look for connectors** — non-aligned countries trading more with both, through which some between-bloc trade may be rerouted
 
 ::: {.get}
-**Finding:** between-bloc trade fell relative to within-bloc trade — find the exact magnitude in the paper. Small next to the Cold War, concentrated in strategic sectors, but real.
+**Finding:** between-bloc trade fell relative to within-bloc trade — find the exact magnitude in the paper. Foreign direct investment shows a similar pattern. Small next to the Cold War, concentrated in strategic sectors, but real.
 :::
 
 ::: {.muted}
@@ -180,25 +200,31 @@ Martin, Mayer & Thoenig (2008), *Review of Economic Studies*, 75(3), 865–900
 
 > **Which vote or measure? Which year? Which threshold?**
 
+Every bloc chart rests on these three choices, and each one can move countries from one bloc to another. Section 2 of the paper says which vote or measure, and which year, the authors use.
+
 ::: {.warn}
 Ours, in the practice round, will be a simplification — ideal points with thresholds you choose. Your slide must say how it differs.
 :::
 
 # What it means for the multinational {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four implications
+## Four implications {.scrollable}
+
+The research is about states; the firm has to translate it into decisions about its own markets, suppliers and contracts.
 
 | | |
 |---|---|
-| **Classify your markets** | your five countries — which bloc, which drifting? |
-| **Connectors** | gain between-bloc trade — and transshipment scrutiny |
-| **Switching is cheaper for states, not for you** | contracts do not get cheaper to break |
-| **De-risking is sectoral** | consumer goods vs semiconductors: two different worlds |
+| **Classify your markets** | your five countries (the team milestone) — which bloc, which drifting? |
+| **Connectors** | Mexico, Vietnam and others gain between-bloc trade — and attract transshipment and rules-of-origin scrutiny |
+| **Switching is cheaper for states, not for you** | multilateral openness makes it cheaper for *states* to break with a partner; your supply contracts do not get cheaper to break |
+| **De-risking is sectoral** | fragmentation is concentrated in strategic goods: consumer goods vs semiconductors are two different worlds |
 
 ## Put it to the room
 
 > You sell industrial equipment. Three of your five main markets are **non-aligned**.
 > **Risk or opportunity?**
+
+Use the connector finding: non-aligned countries gained trade with both blocs after 2022. Ask what that growth attracts as well as what it offers.
 
 ::: {.fragment}
 ::: {.check}
@@ -208,23 +234,27 @@ Both: connectors grow — and become targets of secondary sanctions and rules-of
 
 # What the figure does not license {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four limits
+## Four limits {.scrollable}
 
-1. **Correlation with a date** — sanctions, the post-COVID cycle and prices all move in 2022
-2. **Blocs are a modelling choice** — move the threshold, countries move
-3. **Values, not volumes** — 2022 commodity prices inflate dollar trade
-4. **Aggregate** — your sector may be very different
+A fall in between-bloc trade is consistent with geopolitical fragmentation; it does not prove it. Name these limits on any slide that shows the figure.
+
+1. **Correlation with a date** — sanctions on Russia, the post-COVID rebound and price changes all move trade values in 2022
+2. **Blocs are a modelling choice** — move the threshold or the base year, countries move between blocs, and the figure moves with them
+3. **Values, not volumes** — trade in US dollars rises with commodity prices, and 2022 had very high energy and food prices
+4. **Aggregate** — your firm's sector may show far stronger fragmentation, or none
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
-## One country table, used twice
+## One country table, used twice {.scrollable}
+
+A dyadic table has two countries per row, so it needs **two** copies of the bloc table: one for the exporter's bloc, one for the partner's. Without the second copy you cannot tell within-bloc from between-bloc trade.
 
 1. Data model: **trade** (exporter × partner × year)
 2. Add **blocs**, relate on `exporter` = `iso3`
 3. Add **blocs** again → rename "Partner blocs", relate on `partner` = `iso3`
-4. Blocs = **sets** by condition, thresholds = **parameters**
+4. Blocs = **sets** by condition on the ideal point, thresholds = **parameters** — so you can move them and watch countries move
 5. `Pair type` = within / between / involves non-aligned
-6. Index to a base year: **Quick Table Calculation → Percent Difference From → First**
+6. Index to a base year: **Quick Table Calculation → Percent Difference From → First** — every series starts at zero, so you compare change, not size
 
 ::: {.check}
 Over to the practice round.

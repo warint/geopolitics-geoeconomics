@@ -72,6 +72,10 @@ format:
 
 :::::
 
+::: {.muted}
+The question for the firm: through which channels does inter-state rivalry in cyberspace reach its operations — and how should its decision architecture absorb it?
+:::
+
 # Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
 
 ::: {style="margin-top: 1.0em; color:#F7F4ED"}
@@ -88,7 +92,7 @@ format:
 
 ### The revolution
 
-A "cyber Pearl Harbor" switches off a grid. Small states humble great powers.
+A "cyber Pearl Harbor" switches off a grid. Small states and non-state actors humble great powers.
 
 ::::
 
@@ -102,11 +106,13 @@ Crime and espionage with better tools. Strategically irrelevant.
 
 :::::
 
+Public debate swings between these two pictures. Neither is a matter of opinion: each predicts what a record of cyber operations between states should look like — how frequent, how severe, between whom.
+
 ::: {.get}
 Both are claims about **evidence**. Today we put them to data.
 :::
 
-## Three activities, easily confused
+## Three activities, easily confused {.scrollable}
 
 | | Purpose | Typical actor |
 |---|---|---|
@@ -114,23 +120,27 @@ Both are claims about **evidence**. Today we put them to data.
 | **Disruption** | interrupt or damage systems | military units, proxies |
 | **Crime** | extract money | criminal groups — sometimes tolerated by states |
 
+Of the type: an intrusion into a defence supplier's network (espionage); denial of service against a ministry, or wiper malware (disruption); ransomware against a hospital or a pipeline operator (crime). The same firm can meet all three — for different reasons, from different actors.
+
 ::: {.warn}
 The boundaries blur. States tolerate, hire and shelter criminal groups — and that blur is itself a geopolitical fact.
 :::
 
 # Cyber war versus cyber realities {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Valeriano and Maness, in four propositions
+## Valeriano and Maness, in four propositions {.scrollable}
+
+Their dataset covers cyber incidents and campaigns between **rival states** — pairs with a history of enduring hostility — and asks what the record actually shows.
 
 | | |
 |---|---|
-| **1 · Restraint** | States use cyber operations less, and less destructively, than the narrative predicts |
-| **2 · Regional rivals** | Cyber conflict follows **existing** rivalries — US–China, Russia–neighbours, Israel–Iran, India–Pakistan, the Koreas |
+| **1 · Restraint** | States use cyber operations less, and less destructively, than the narrative predicts — mostly defacements, denial of service, espionage; rarely physical destruction |
+| **2 · Regional rivals** | Cyber conflict follows **existing** rivalries — US–China, Russia–neighbours, Israel–Iran, India–Pakistan, the Koreas. Cyber does not create new conflicts; it is a tool in old ones |
 | **3 · Why restraint** | escalation risk · revealing the capability · blowback · keeping access to spy |
 | **4 · Limited coercion** | Better at signalling and spying than at compelling |
 
 ::: {.muted}
-Valeriano & Maness (2015), OUP · data extended in DCID v2.0, 2000–2020
+Valeriano & Maness (2015), OUP · data extended in DCID v2.0, 2000–2020 — today's replication data
 :::
 
 ## What restraint does not mean
@@ -139,18 +149,22 @@ Valeriano & Maness (2015), OUP · data extended in DCID v2.0, 2000–2020
 Low **strategic** severity ≠ low **commercial** cost.
 :::
 
-An operation that barely registers on a scale of interstate harm can stop a company's production for weeks.
+An operation that barely registers on a scale of interstate harm can stop a company's production for weeks. The restraint thesis is about states and their wars; the firm's question is about its own downtime, data and contracts. Read severity scores with that gap in mind.
 
 > Back to the opening vote. What would the book say about the grid?
 
 # Weaponised interdependence {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Networks have hubs
+## Networks have hubs {.scrollable}
+
+The networks globalisation built — finance, communications, the internet's infrastructure — are **not flat**. Traffic concentrates in a few hubs, and a state with jurisdiction over a hub can use it in two ways.
 
 | Effect | Mechanism | Of the type |
 |---|---|---|
 | **Panopticon** | use access to the hub to **see** | intelligence access to data in cables, data centres, clouds under one's jurisdiction |
 | **Chokepoint** | use control of the hub to **deny** | cutting banks out of messaging networks; denying chips, software, cloud |
+
+Interdependence, in this view, is not only mutual benefit: it is a map of who can watch and who can cut off whom.
 
 ::: {.muted}
 Farrell & Newman (2019), *International Security* 44(1): 42–79
@@ -162,13 +176,17 @@ Farrell & Newman (2019), *International Security* 44(1): 42–79
 Its cloud, its payment rails, its software updates are infrastructure its **home state** can watch or weaponise — and **rival states** therefore treat as a target.
 :::
 
+This is the uncomfortable implication for a multinational: it is not only exposed *to* the network but is *part* of it. Its nationality, and where its infrastructure sits, shape who sees it as a tool and who sees it as a target.
+
 ::: {.step}
 The bridge to **Session 10** (sanctions: chokepoints in finance) and **Session 11** (space: chokepoints in orbit).
 :::
 
 # The attribution problem {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Someone has to say who did it
+## Someone has to say who did it {.scrollable}
+
+Every cyber dataset rests on **attribution**. Unlike a border clash, an intrusion does not announce its author: someone — a government, a security firm — must investigate and then decide to name a culprit.
 
 | Attribution is | Because |
 |---|---|
@@ -178,15 +196,15 @@ The bridge to **Session 10** (sanctions: chokepoints in finance) and **Session 1
 | **selective** | what is attributed is what someone wanted known |
 
 ::: {.get}
-Event data on cyber operations is **a record of public attributions**, not a record of operations.
+Event data on cyber operations is **a record of public attributions**, not a record of operations. States that attribute publicly appear more often as victims; operations between allies, and those never detected, are nearly invisible. That is the catch of today's practice round.
 :::
 
 # When the firm is collateral {background-color="#E3120B" style="color:#F7F4ED"}
 
-## NotPetya, June 2017
+## NotPetya, June 2017 {.scrollable}
 
 - Spread through a **Ukrainian accounting-software update**; widely attributed by Western governments to Russian military intelligence
-- Shipping, pharmaceutical, food and logistics multinationals reported very large losses — Maersk, Merck, Mondelez among them
+- It spread far beyond its apparent target: shipping, pharmaceutical, food and logistics multinationals reported very large losses — Maersk, Merck, Mondelez among them
 
 | Lesson | |
 |---|---|
@@ -194,11 +212,17 @@ Event data on cyber operations is **a record of public attributions**, not a rec
 | **Insurance is no backstop** | insurers invoked **war exclusions**; the market now writes explicit exclusions for state-backed attacks (Lloyd's, from 2023) |
 | **The board owns it** | regulators increasingly require disclosure of material incidents and of board oversight |
 
+::: {.muted}
+The firm's cyber cover may end exactly where geopolitics begins. Exposure is set by the software and networks a firm shares with a target country, not only by whom it does business with.
+:::
+
 # Digital sovereignty {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Where data sits, and who may see it
+## Where data sits, and who may see it {.scrollable}
 
 States regulate data localisation, cross-border transfers, foreign cloud and telecoms vendors.
+
+The network is splintering along jurisdictional lines. For a multinational this is geopolitical risk built into its IT architecture: each new rule changes where it may store, move and process data, and which vendors it may use.
 
 | For the multinational | |
 |---|---|
@@ -208,13 +232,15 @@ States regulate data localisation, cross-border transfers, foreign cloud and tel
 
 # The firm's decision architecture {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Who owns geopolitical cyber risk?
+## Who owns geopolitical cyber risk? {.scrollable}
+
+Cyber risk is often left to IT. Its geopolitical part cuts across roles — and the gaps between them are where it falls through.
 
 | Who | Role |
 |---|---|
 | **Board** | risk appetite, disclosure — *which state would want our data or our downtime?* |
 | **CISO** | threat intelligence → controls; incident response |
-| **Chief risk officer** | integrates cyber with country, sanctions and supply-chain risk |
+| **Chief risk officer** | integrates cyber with country, sanctions and supply-chain risk — the team-project view |
 | **Insurer** | prices it — and stops at state-backed operations |
 | **Regulators** | disclosure, localisation, vendor rules |
 
@@ -223,9 +249,15 @@ States regulate data localisation, cross-border transfers, foreign cloud and tel
 > Your firm runs a plant in a country that sits in one of the densest cells of the initiator × target matrix.
 > **What do you change on Monday — and what do you tell the insurer?**
 
+::: {.muted}
+Think through the roles on the previous slide: who decides, who acts, who pays. And remember the matrix records public attributions — a dense cell is where states have named each other, not necessarily where operations are.
+:::
+
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
-## From incident list to matrix
+## From incident list to matrix {.scrollable}
+
+A **highlight table** (rows × columns, colour = count) turns a list of incidents into an **initiator × target matrix**: the dense cells show which rivalries carry most of the recorded cyber conflict. An empty cell means no rivalry in the data, not no cyber conflict: pairs not coded as rivals never enter. A **filter action** then links that matrix to the time series.
 
 1. Initiator → **Rows**, target → **Columns**
 2. `Count` of incidents → **Colour** → *Show Me* → **highlight table**

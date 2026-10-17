@@ -1039,6 +1039,9 @@ Thierry Warin, PhD
 <li>Draft your team’s composite index</li>
 </ul>
 </div></div>
+<div class="muted">
+<p>Every risk number a firm sees was built by someone, through choices. Today is about seeing those choices — so you can audit a score you are sold and defend one you build.</p>
+</div>
 </section>
 <section>
 <section id="quiz-2" class="title-slide slide level1 center" data-background-color="#E3120B" style="color:#F7F4ED">
@@ -1082,7 +1085,7 @@ Thierry Warin, PhD
 <h1>The measurement chain</h1>
 
 </section>
-<section id="every-number-is-the-end-of-a-chain" class="slide level2">
+<section id="every-number-is-the-end-of-a-chain" class="slide level2 scrollable">
 <h2>Every number is the end of a chain</h2>
 <table class="caption-top" style="width:100%;">
 <colgroup>
@@ -1114,16 +1117,17 @@ Thierry Warin, PhD
 </tr>
 </tbody>
 </table>
+<p>Read the row from left to right: the GPR index starts from a concept nobody can observe and ends as a line on a chart. <strong>Every link is a choice</strong> — and a place where the number can part company with the concept.</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <h3 id="validity">Validity</h3>
-<p>Does the indicator measure the concept?</p>
+<p>Does the indicator measure the concept? Is newspaper attention <em>geopolitical risk</em> — or editors’ interest in geopolitics?</p>
 </div><div class="column" style="width:50%;">
 <h3 id="reliability">Reliability</h3>
-<p>Would someone else, with the same rules, get the same number?</p>
+<p>Would someone else, with the same rules, get the same number? Would a second coder put the same article in the same category?</p>
 </div></div>
 <div class="warn">
-<p>Perfectly reliable and invalid: a thermometer everyone reads identically — in the wrong room.</p>
+<p>Perfectly reliable and invalid: a thermometer everyone reads identically — in the wrong room. The reverse does not hold: a measure that gives different numbers for the same object cannot be valid.</p>
 </div>
 </section></section>
 <section>
@@ -1131,8 +1135,9 @@ Thierry Warin, PhD
 <h1>Content analysis</h1>
 
 </section>
-<section id="krippendorffs-steps" class="slide level2">
+<section id="krippendorffs-steps" class="slide level2 scrollable">
 <h2>Krippendorff’s steps</h2>
+<p>Content analysis: a technique for making <strong>replicable and valid inferences</strong> from texts to the contexts of their use. The texts are evidence; the context — the world the texts describe — is the object.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 33%">
@@ -1148,34 +1153,34 @@ Thierry Warin, PhD
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Unitising</strong></td>
+<td><strong>Unitising</strong> — what is one unit?</td>
 <td>an article</td>
 <td>a headline</td>
 </tr>
 <tr class="even">
-<td><strong>Sampling</strong></td>
+<td><strong>Sampling</strong> — which units?</td>
 <td>ten newspapers, all articles</td>
 <td>40 GDELT headlines, at random</td>
 </tr>
 <tr class="odd">
-<td><strong>Coding</strong></td>
+<td><strong>Coding</strong> — which category?</td>
 <td>a dictionary</td>
 <td>two humans and a protocol</td>
 </tr>
 <tr class="even">
-<td><strong>Reducing</strong></td>
+<td><strong>Reducing</strong> — how are codes summarised?</td>
 <td>monthly share</td>
 <td>counts by category</td>
 </tr>
 <tr class="odd">
-<td><strong>Inferring</strong></td>
+<td><strong>Inferring</strong> — what do we conclude?</td>
 <td>risk is high</td>
 <td>your firm’s countries are in the news for …</td>
 </tr>
 </tbody>
 </table>
 <div class="get">
-<p><strong>Manifest</strong> content: the words — dictionaries see it, perfectly reliably. <strong>Latent</strong> content: what it is <em>about</em> — humans see it, less reliably. Best practice: a dictionary <strong>audited by humans</strong>.</p>
+<p><strong>Manifest</strong> content: the words — dictionaries see it, perfectly reliably. <strong>Latent</strong> content: what it is <em>about</em> — humans see it, less reliably. Best practice: a dictionary <strong>audited by humans</strong>. The quality of the audit is the best single guide to the quality of an index.</p>
 </div>
 </section></section>
 <section>
@@ -1183,7 +1188,7 @@ Thierry Warin, PhD
 <h1>Three dictionary methods</h1>
 
 </section>
-<section id="gpr-epu-prisk" class="slide level2">
+<section id="gpr-epu-prisk" class="slide level2 scrollable">
 <h2>GPR · EPU · PRisk</h2>
 <table class="caption-top">
 <colgroup>
@@ -1233,6 +1238,7 @@ Thierry Warin, PhD
 </tr>
 </tbody>
 </table>
+<p>Each dictionary is a <strong>theory of what risk looks like in language</strong>. GPR: what newspaper readers are told to worry about, split into threats and acts. EPU: the three-way conjunction filters out weather, sport and routine legislation. PRisk: political language must sit <em>near</em> the language of risk — turning political attention into political risk.</p>
 <div class="muted">
 <p>Caldara &amp; Iacoviello (2022) · Baker, Bloom &amp; Davis (2016) · Hassan, Hollander, van Lent &amp; Tahoun (2019)</p>
 </div>
@@ -1242,6 +1248,7 @@ Thierry Warin, PhD
 <div class="get">
 <p>Most variation in political risk is <strong>across firms at the same time</strong> — not common to all firms.</p>
 </div>
+<p>Two firms in the same industry, in the same quarter, can face very different political risk: they sell to different governments, depend on different regulations, source from different countries. An aggregate index such as EPU measures what is common — and misses most of what reaches one firm.</p>
 <blockquote>
 <p><strong>Put it to the room:</strong> what does that mean for a firm that buys a <em>country</em>-risk score?</p>
 </blockquote>
@@ -1260,12 +1267,14 @@ p_o = \frac{\text{agreements}}{N}
 \qquad
 p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 \]</span></p>
+<p><span class="math inline">\(p_o\)</span> is the share of items both coders put in the same category; <span class="math inline">\(p_e\)</span> is the agreement expected if each coded independently at their own rates (<span class="math inline">\(n_{A,k}\)</span>: items coder A put in category <span class="math inline">\(k\)</span>). Kappa = 1 is perfect agreement; 0 is no better than chance.</p>
 <div class="warn">
 <p>Percent agreement flatters: two coders guessing will agree often, especially when one category dominates.</p>
 </div>
 </section>
-<section id="a-worked-example-40-headlines" class="slide level2">
+<section id="a-worked-example-40-headlines" class="slide level2 scrollable">
 <h2>A worked example — 40 headlines</h2>
+<p>Three collapsed categories: not geopolitical (0), threat, act. Coder A in the rows, coder B in the columns; agreements sit on the diagonal.</p>
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -1309,9 +1318,10 @@ p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 </table>
 <div class="fragment">
 <p><span class="math inline">\(p_o = 33/40 = 0.825\)</span> · <span class="math inline">\(p_e = (24\cdot22 + 10\cdot12 + 6\cdot6)/1600 = 0.4275\)</span> · <span class="math inline">\(\kappa \approx 0.69\)</span></p>
+<p>An 82.5% agreement shrinks once chance is removed: both coders put more than half the headlines in the dominant category, where much of their agreement was to be expected.</p>
 </div>
 <div class="muted">
-<p>Landis &amp; Koch: 0.61–0.80 “substantial”. Krippendorff’s alpha: ≥ 0.800 for firm conclusions, ≥ 0.667 for tentative ones.</p>
+<p>Landis &amp; Koch: 0.61–0.80 “substantial”. Krippendorff’s alpha: ≥ 0.800 for firm conclusions, ≥ 0.667 for tentative ones. Respectable by the first convention; only tentative by the second.</p>
 </div>
 </section>
 <section id="disagreement-is-information" class="slide level2">
@@ -1319,9 +1329,10 @@ p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 <ol type="1">
 <li>Read every disagreement</li>
 <li>Unclear protocol, or coder error?</li>
-<li><strong>Revise the protocol</strong></li>
+<li><strong>Revise the protocol</strong> — write down the new rule</li>
 <li>Adjudicate</li>
 </ol>
+<p>Some disagreements are slips. The valuable ones reveal a case the protocol did not anticipate — a sanctions headline, a cyber operation, a military exercise that may or may not be a build-up.</p>
 <div class="step">
 <p>Never average disagreement away. It shows where the concept is fuzzy.</p>
 </div>
@@ -1331,8 +1342,9 @@ p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 <h1>Big data</h1>
 
 </section>
-<section id="gdelt-coverage-and-speed-and-four-traps" class="slide level2">
+<section id="gdelt-coverage-and-speed-and-four-traps" class="slide level2 scrollable">
 <h2>GDELT: coverage and speed — and four traps</h2>
+<p>GDELT turns news in many languages into searchable records: every country, every day, without anyone reading. The promise is real; so are the traps.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 50%">
@@ -1347,7 +1359,7 @@ p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 <tbody>
 <tr class="odd">
 <td><strong>Selection</strong></td>
-<td>only reported events, from monitored sources; coverage grows over time</td>
+<td>only reported events, from monitored sources; coverage grows over time — a rising count may be more sources, not more events</td>
 </tr>
 <tr class="even">
 <td><strong>Duplication</strong></td>
@@ -1364,7 +1376,7 @@ p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 </tbody>
 </table>
 <div class="get">
-<p><strong>Big data for detection</strong> — something is happening, here, now. <strong>Small, coded data for measurement</strong> — how much, compared with what.</p>
+<p><strong>Big data for detection</strong> — something is happening, here, now. <strong>Small, coded data for measurement</strong> — how much, compared with what. A spike that flags a supplier country is detection done well; “risk there has doubled” from the same spike is measurement done badly.</p>
 </div>
 </section></section>
 <section>
@@ -1372,8 +1384,9 @@ p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 <h1>Composite indicators</h1>
 
 </section>
-<section id="five-decisions-that-decide-the-result" class="slide level2">
+<section id="five-decisions-that-decide-the-result" class="slide level2 scrollable">
 <h2>Five decisions that decide the result</h2>
+<p>A composite indicator combines several indicators into one number — country-risk ratings, governance indices, your team’s exposure index. The OECD/JRC <em>Handbook</em> sets out ten steps; these five decide most of the outcome.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 33%">
@@ -1415,11 +1428,12 @@ p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
 </tr>
 </tbody>
 </table>
+<p>For a firm’s exposure index, the natural framework is the five channels: each indicator must be defended as exposure through a named channel, or it does not belong.</p>
 <div class="muted">
 <p>OECD/JRC (2008), <em>Handbook on Constructing Composite Indicators</em>. <a href="https://doi.org/10.1787/9789264043466-en">doi:10.1787/9789264043466-en</a></p>
 </div>
 </section>
-<section id="normalise-then-weight" class="slide level2">
+<section id="normalise-then-weight" class="slide level2 scrollable">
 <h2>Normalise, then weight</h2>
 <p><span class="math display">\[
 x^{*} = \frac{x - \min x}{\max x - \min x}
@@ -1428,11 +1442,13 @@ x^{*} = \frac{x - \min x}{\max x - \min x}
 x^{*} = \frac{\max x - x}{\max x - \min x}
 \quad\text{(higher = safer)}
 \]</span></p>
+<p>Min–max puts every indicator on 0–1 with one direction: higher = more risk. Invert indicators where higher is safer — a political-stability score left uninverted makes a stable country look risky.</p>
 <p><span class="math display">\[
 CI = \frac{\sum_j w_j\, x^{*}_j}{\sum_j w_j}
 \]</span></p>
+<p>The composite is a weighted average. Equal, statistical or expert weights are each defensible; none is neutral.</p>
 <div class="warn">
-<p><strong>Compensability:</strong> excellent governance + an active war → “medium risk”. Is that what the board should read?</p>
+<p><strong>Compensability:</strong> excellent governance + an active war → “medium risk”. Is that what the board should read? A firm does not experience the average of a country’s risks, but the worst one that touches its operations.</p>
 </div>
 </section>
 <section id="the-point-for-the-board" class="slide level2">
@@ -1440,6 +1456,7 @@ CI = \frac{\sum_j w_j\, x^{*}_j}{\sum_j w_j}
 <div class="get">
 <p>Weights are value judgements. <strong>Show them, let the reader move them, report whether the ranking survives.</strong></p>
 </div>
+<p>A composite that hides its weights is an opinion dressed as a measurement. A country whose rank swings with one weight is not “fifth” — it is a country about which the index has no firm opinion.</p>
 <blockquote>
 <p><strong>Put it to the room:</strong> a consultancy sells you a 0–100 country-risk score. Which five questions before it enters a decision?</p>
 </blockquote>

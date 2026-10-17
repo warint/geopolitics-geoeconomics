@@ -70,6 +70,10 @@ format:
 
 :::::
 
+::: {.muted}
+Sanctions are aimed at states but implemented by firms. Today asks whether they work — and what they cost the companies that must carry them out.
+:::
+
 # Quiz 3 · Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
 
 ::: {style="margin-top: 1.0em; color:#F7F4ED"}
@@ -78,14 +82,20 @@ format:
 
 # The instrument of first resort {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four dimensions
+## Four dimensions {.scrollable}
+
+Economic sanctions are restrictions on economic relations imposed by one or more **senders** on a **target** — a state, a government, a firm or an individual — to change its behaviour, weaken it, or signal disapproval. Their use has grown markedly since the end of the Cold War.
 
 | Dimension | Categories |
 |---|---|
-| **Sender** | unilateral · plurilateral (EU, coalition) · multilateral (UN Security Council) |
+| **Sender** | unilateral (one state) · plurilateral (EU, coalition) · multilateral (UN Security Council) |
 | **Type** | trade · financial · travel · arms · military assistance · other |
-| **Scope** | **comprehensive** vs **targeted** ("smart") |
+| **Scope** | **comprehensive** (a whole economy) vs **targeted** ("smart": named persons, firms, sectors) |
 | **Objective** | policy change · regime destabilisation · war and territory · terrorism · human rights · democracy |
+
+::: {.muted}
+The sender tells a firm how many jurisdictions it must satisfy. One case can be of several types at once, and the objective is what the sender *said* it wanted — not always what it wanted.
+:::
 
 ::: {.get}
 Classify the 2022 measures on Russia on all four.
@@ -93,20 +103,24 @@ Classify the 2022 measures on Russia on all four.
 
 # Do they work? {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Hufbauer, Schott, Elliott and Oegg
+## Hufbauer, Schott, Elliott and Oegg {.scrollable}
 
 ::: {.step}
 **Success** = how far the **policy outcome** was achieved × how far **sanctions contributed**
 :::
 
+- Each episode scored on both components; success is a joint judgement about an **outcome** and a **cause**
 - **Roughly a third** of cases judged at least partly successful
-- More likely when goals are **modest**, the target **small, weak, friendly**, the imposition **quick and decisive**
+- More likely when goals are **modest**, the target **small, weak, friendly**, the imposition **quick and decisive** — less likely against an adversary that can turn to other suppliers and buyers
 
 ::: {.muted}
+The "about a third" is not a fact about the world: it is one team's coding of one set of cases. Change the cases, the scales or the judgements and the number moves.
 *Economic Sanctions Reconsidered*, 3rd ed. (2007), PIIE
 :::
 
-## Pape: most "successes" are not
+## Pape: most "successes" are not {.scrollable}
+
+Pape went back through the cases counted as successes and asked whether each survived scrutiny. In many, he argued, the claimed success fails one of three tests:
 
 - Outcome achieved by **force**
 - Outcome **not really conceded**
@@ -117,10 +131,11 @@ Sanctions rarely achieve **major** political goals. Elliott (1998): *the glass i
 :::
 
 ::: {.muted}
+What counts as a concession, how large a contribution must be, what the alternative was: each choice moves the success rate. Every number in this debate is a coding decision.
 Pape (1997), *International Security* 22(2): 90–136
 :::
 
-## The selection effect
+## The selection effect {.scrollable}
 
 ::::: columns
 
@@ -136,26 +151,31 @@ Targets that would concede **concede here** — the sanction is never imposed
 
 ### Imposed
 
-What remains: the **hard cases**
+What remains: the **hard cases** — targets that had decided to resist
 
 ::::
 
 :::::
+
+A dataset of impositions alone selects its cases on a variable correlated with the outcome, so it cannot measure how well the instrument works.
 
 ::: {.get}
 Imposed sanctions **look** ineffective even if the instrument works. Hence **TIES** records threats too.
 :::
 
 ::: {.muted}
+For a firm, the cases that matter most may be those not yet imposed: the threat is the warning.
 Drezner (2003), *International Organization* 57(3)
 :::
 
 # From comprehensive to smart {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Targeted — and still contagious
+## Targeted — and still contagious {.scrollable}
 
-- Humanitarian cost of the 1990s Iraq sanctions → **asset freezes, travel bans, sectoral measures**
-- **Financial** sanctions: dollar clearing and messaging networks are **chokepoints** (Farrell & Newman)
+- Humanitarian cost of the 1990s Iraq sanctions → **asset freezes, travel bans, sectoral measures** aimed at those responsible rather than a whole population
+- **Financial** sanctions: dollar clearing and messaging networks are **chokepoints** under the jurisdiction of a few senders (Farrell & Newman, Session 08)
+
+A financial sanction names a few banks, but every firm that pays or is paid through them is affected — and third-country banks, which need the dollar system more than any one client, cut off a sanctioned client early.
 
 ::: {.warn}
 Sanctions on banks, insurers and shippers propagate to every firm that depends on them.
@@ -163,19 +183,23 @@ Sanctions on banks, insurers and shippers propagate to every firm that depends o
 
 # The firm in the middle {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Three mechanisms
+## Three mechanisms {.scrollable}
+
+Sanctions are aimed at governments but executed by firms: banks, exporters, shippers and insurers decide, transaction by transaction, what falls within the rules — and pay if they decide wrongly.
 
 | | |
 |---|---|
-| **Compliance perimeter** | screen against OFAC (US), EU regulations, Canada's *Special Economic Measures Act* — and ownership rules widen the list |
-| **Secondary sanctions** | penalties on **third-country** firms dealing with the target |
-| **Overcompliance** | banks and firms exit what the law does not close |
+| **Compliance perimeter** | screen customers, suppliers, banks and vessels against OFAC (US), EU regulations, Canada's *Special Economic Measures Act* — and ownership rules widen the list |
+| **Secondary sanctions** | penalties on **third-country** firms dealing with the target: a sender's foreign policy made binding on non-nationals |
+| **Overcompliance** | banks and firms exit what the law does not close, because penalties are severe and rules complex |
 
 ::: {.get}
 The *effective* scope of sanctions is set by compliance departments as much as by governments.
 :::
 
-## Russia 2022: the exit decision
+## Russia 2022: the exit decision {.scrollable}
+
+After the full-scale invasion of Ukraine, sanctions and public pressure led many multinationals to suspend, scale back or leave. Russia's countermeasures — approval requirements, forced discounts, temporary state management — made exit harder than announcing it.
 
 | Option | Cost | Risk |
 |---|---|---|
@@ -186,30 +210,48 @@ The *effective* scope of sanctions is set by compliance departments as much as b
 
 > Choose for a consumer-goods firm. Then for an energy firm. **Why do the answers differ?**
 
+::: {.muted}
+Country exposure tells a firm that a decision must be taken, not which one: brands and local staff a buyer can run are not immovable assets in a sector the target regards as strategic.
+:::
+
 ## Put it to the room
 
 > Compliance says the law does not require you to exit. Your bank says it will no longer process your payments there.
 > **Who just set your sanctions policy?**
 
+::: {.muted}
+This is overcompliance seen from the firm: a lawful business can still be unable to get paid, insured or shipped, so its bank's risk appetite becomes its own policy.
+:::
+
 # What a dashboard should track {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four lines for the team projects
+## Four lines for the team projects {.scrollable}
 
-1. **Exposure** — revenues, assets, suppliers in sanctioned or at-risk jurisdictions
-2. **Pipeline** — threats and announced measures
-3. **Propagation** — banks, insurers, logistics providers that could cut you off
-4. **Counter-measures** — what the target can do to foreign firms on its soil
+1. **Exposure** — revenues, assets, suppliers in sanctioned or at-risk jurisdictions: the starting point
+2. **Pipeline** — threats and announced measures: the TIES lesson, since what matters most is not yet imposed
+3. **Propagation** — banks, insurers, logistics providers whose own exposure could cut you off
+4. **Counter-measures** — what the target can do to foreign firms on its soil: what an exit will cost
+
+::: {.muted}
+Each line maps one part of today's argument onto the firm. A dashboard that shows only current sanctions on current markets misses three of the four.
+:::
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Episodes into years
+## Episodes into years {.scrollable}
 
-1. `years.csv` on the canvas, GSDB beside it
-2. Join clause: `Year >= begin_year` **and** `Year <= IFNULL(end_year, 2025)` — a **join calculation**
+The GSDB records each case as an episode with a start and an end. To count how many were in force each year, every episode must be spread across the years it covers.
+
+1. `years.csv` on the canvas, GSDB beside it — a **year scaffold**
+2. Join clause: `Year >= begin_year` **and** `Year <= IFNULL(end_year, 2025)` — a **join calculation** on a range
 3. `COUNTD(case_id)` by `Year` → active cases per year
 
 ::: {.check}
 Then a **Gantt bar**: `begin_year` on Columns, `case_id` on Rows, duration on Size.
+:::
+
+::: {.muted}
+Active cases measure how often the instrument is used, not how hard it bites: a single listing and a comprehensive embargo each count as one case.
 :::
 
 ## Over to the practice round

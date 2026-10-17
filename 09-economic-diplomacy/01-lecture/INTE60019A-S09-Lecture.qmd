@@ -70,6 +70,10 @@ format:
 
 :::::
 
+::: {.muted}
+Once, diplomats served firms. Today the firm is still the beneficiary of economic diplomacy — and, increasingly, its object, its instrument, and sometimes a diplomat in its own right.
+:::
+
 # Risk Briefs {background-color="#E3120B" style="color:#F7F4ED"}
 
 ::: {style="margin-top: 1.0em; color:#F7F4ED"}
@@ -86,13 +90,17 @@ format:
 **Economic diplomacy:** foreign-policy instruments for economic ends — and economic instruments for foreign-policy ends.
 :::
 
-## Three shifts
+The first half is the familiar one: trade negotiation, export and investment promotion — the state serving its firms. The second covers sanctions, export controls, aid and investment screening. In the post-1990 order it was mostly the first; the direction of travel has partly reversed.
+
+## Three shifts {.scrollable}
 
 | Shift | What changed | For the firm |
 |---|---|---|
 | **Securitisation** | trade, investment, technology as national security | screening, export controls, "trusted vendors" — from its *own* side |
 | **Promotion → coercion** | the same networks used to deny access | home-state support becomes home-state constraint |
 | **Digitalisation** | diplomacy in public, on social media | firms pulled into public quarrels, boycotts |
+
+Read the right-hand column as the firm's new exposure. The same governments that promote their firms abroad now screen foreign firms at home and restrict what their own may sell, and to whom. The promotion-to-coercion shift links back to Session 08's chokepoints and forward to Session 10's sanctions.
 
 # Putnam: two-level games {background-color="#E3120B" style="color:#F7F4ED"}
 
@@ -118,19 +126,23 @@ Domestic constituencies decide whether to **ratify** it
 
 :::::
 
+The two games are played simultaneously: a deal at the table is worth nothing if parliament, industry or voters at home reject it. Every move at Level I is made with an eye on Level II.
+
 ::: {.get}
 **Win-set:** the Level I agreements that would be ratified at Level II.
 :::
 
-## Three lessons
+## Three lessons {.scrollable}
 
 1. **Larger win-sets** → agreement more likely, but the negotiator can be pushed
-2. **A small win-set is an asset** — "my parliament will never accept that"
-3. Negotiators play **both boards**: their own Level II, and the other side's
+2. **A small win-set is an asset** — "my parliament will never accept that" is credible when it is true
+3. Negotiators play **both boards**: they manage their own Level II and try to shape the other side's
 
 ::: {.warn}
 **Multinationals sit in several Level II circles at once** — lobbyist at home, potential hostage abroad.
 :::
+
+An export industry that lobbies for a trade deal enlarges the win-set at home. A firm exposed abroad can be leverage at the other side's Level II. The same firm may be both, in different capitals.
 
 ::: {.muted}
 Putnam (1988), *International Organization* 42(3): 427–460
@@ -138,15 +150,17 @@ Putnam (1988), *International Organization* 42(3): 427–460
 
 # The game goes digital {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Bjola and Manor: the Iran nuclear deal
+## Bjola and Manor: the Iran nuclear deal {.scrollable}
 
 - **Digital diplomacy**: ministries and leaders speak to publics directly
 - Used to build **domestic** support for ratification — and to reach the **counterpart's** public
 - Win-sets reshaped **during** the negotiation
 
+Bjola and Manor revisit Putnam through the 2015 negotiations: social media gave negotiators a new tool to act on Level II — their own *and* the other side's. Putnam's two boards are now played in public, in real time.
+
 | For the firm | |
 |---|---|
-| **Speed** | domestic opinion moves inside the negotiation, not after it |
+| **Speed** | domestic opinion moves inside the negotiation, not after it — the regulatory outcome a firm plans for can change faster |
 | **Exposure** | a brand can be pulled into either government's campaign |
 
 ::: {.muted}
@@ -161,28 +175,34 @@ Bjola & Manor (2018), *Cambridge Review of International Affairs* 31(1): 3–32
 - Gravity framework: controls for size of and distance between partners
 - **Exports are higher where a country keeps more posts** — and the association survives the controls
 
+The question is whether the foreign service earns its keep. The gravity controls matter: big, close partners trade more and attract more posts anyway, so the result is only interesting if it survives them. Rose finds that an additional consulate is associated with a further rise in exports.
+
 ::: {.muted}
 Rose (2007), *The World Economy* 30(1): 22–38 · read the effect size and the type of post off his tables
 :::
 
-## Three objections — your "break" step today
+## Three objections — your "break" step today {.scrollable}
+
+Each objection is a general one: it applies to any study that links diplomatic presence to trade. Each comes with a probe you can run in Tableau.
 
 | Objection | The worry | Probe |
 |---|---|---|
 | **Reverse causality** | posts open where trade already is | do posts predict *future* trade growth? |
 | **Omitted variables** | big, rich, close partners get both | divide by partner GDP; colour by region |
-| **Measurement** | a post is not a budget | embassies vs consulates |
+| **Measurement** | a post is not a budget; an honorary consulate is not an embassy | embassies vs consulates |
 
 ::: {.warn}
-A cross-section cannot settle the direction of causation. That is the catch of the day.
+A cross-section cannot settle the direction of causation. Rose takes reverse causality seriously and argues the evidence is consistent with an effect — but that is the catch of the day.
 :::
 
 # The firm and the state {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Triangular diplomacy, and the obsolescing bargain
 
-- **Stopford & Strange (1991):** state–state, **state–firm**, firm–firm
+- **Stopford & Strange (1991):** state–state, **state–firm**, firm–firm — governments bargain with multinationals over investment; firms ally with one another
 - **Vernon (1971):** once capital is sunk, the firm's bargaining power falls
+
+Before investing, the firm holds the cards: it can choose among countries, and each host must offer good terms. Once the mine is dug or the plant built, the capital cannot move — and terms agreed at entry become open to renegotiation, higher taxation or, in the limit, expropriation.
 
 ## Screening: economic diplomacy aimed *at* firms
 
@@ -192,35 +212,53 @@ A cross-section cannot settle the direction of causation. That is the catch of t
 | **European Union** | FDI screening framework, Regulation (EU) 2019/452 |
 | **Canada** | national-security review, *Investment Canada Act* |
 
+Here the state is not promoting firms but reviewing them: a foreign acquisition or investment can be blocked or conditioned on national-security grounds. For a firm planning a deal abroad, screening is a political risk at the point of entry.
+
 ::: {.get}
 Scope has widened: defence → data, critical minerals, infrastructure, technology.
 :::
 
-## The commercial-diplomacy toolbox
+## The commercial-diplomacy toolbox {.scrollable}
+
+What the home state can offer a firm abroad — the promotion side of economic diplomacy.
 
 | Instrument | Of the type |
 |---|---|
-| Embassies, consulates | trade commissioners, market intelligence |
+| Embassies, consulates | trade commissioners, market intelligence, introductions |
 | Trade missions, state visits | ministers with business delegations |
-| Export credit and insurance | political-risk cover |
+| Export credit and insurance | export credit agencies covering political risk |
 | Investment promotion | incentives, aftercare |
 | Treaties | investment treaties with dispute settlement |
+
+::: {.muted}
+Several of these instruments are also political-risk management: they raise the cost to a host of mistreating a foreign investor.
+:::
 
 ## Put it to the room
 
 > Your firm negotiates a mining concession abroad. Your ambassador offers to raise it with the president.
 > **Under what conditions do you say no?**
 
+::: {.muted}
+In a commercial dispute, home-state backing helps. In a confrontation between states, being seen as one state's instrument can make the firm a target of the other — and the host will remember the association if relations deteriorate.
+:::
+
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Log scales and trend lines
+## Log scales and trend lines {.scrollable}
+
+Posts and exports span orders of magnitude: on a linear axis, a few large partners crush everyone else into a corner. A log scale spreads them out; a trend line summarises the relationship.
 
 1. Right-click an axis → *Edit Axis* → **Logarithmic**
 2. *Analytics* → **Trend Line** → Linear
 3. Right-click the line → **Describe Trend Model** → R², p-value
 
 ::: {.warn}
-**Zeros cannot be logged.** Partners with no post fall off the chart — unless you decide what to do with them.
+**Zeros cannot be logged.** Partners with no post fall off the chart — unless you decide what to do with them. They are mostly small, distant partners with little trade, so dropping them silently changes the result. Say how many the log scale removed.
+:::
+
+::: {.muted}
+R² measures fit, not cause: neither the trend line nor its p-value tells you whether embassies follow or lead exports.
 :::
 
 ## Over to the practice round

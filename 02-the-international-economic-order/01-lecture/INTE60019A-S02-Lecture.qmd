@@ -76,6 +76,8 @@ format:
 
 ## Four briefs, five-minute slots (four minutes + one question)
 
+Each brief follows the same four steps, so that the room can compare them: what happened, what it means, which channel reaches a firm, and what to do.
+
 | | |
 |---|---|
 | **0–1** | The development |
@@ -91,11 +93,15 @@ One question per brief today. Hard stop at six minutes.
 
 ## Three questions describe any order
 
+An **international order** is a set of rules, institutions and expectations governing relations between states, backed by some distribution of power. The **economic order** is the part that governs trade, money and investment.
+
 | Question | Look at |
 |---|---|
 | **Who wrote the rules?** | Which states designed the institutions, in whose interest |
 | **What do the rules say?** | Openness to trade, capital, investment; dispute settlement |
 | **What holds them in place?** | Hegemonic power · shared interest · institutional momentum |
+
+Use the three questions as a checklist for any order, past or present: today's session applies them to the post-1945 order; Session 03 asks what happens to the third when power shifts.
 
 ::: {.get}
 The multinational lives inside the economic order without noticing — until it changes.
@@ -103,7 +109,7 @@ The multinational lives inside the economic order without noticing — until it 
 
 # The post-1945 order {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four layers
+## Four layers {.scrollable}
 
 | Layer | When | What it did |
 |---|---|---|
@@ -111,6 +117,10 @@ The multinational lives inside the economic order without noticing — until it 
 | **GATT** | 1947 | Tariff-cutting rounds; most-favoured-nation; national treatment |
 | **Embedded liberalism** | 1950s–70s | Openness abroad, protection and autonomy at home (Ruggie 1982) |
 | **Neoliberal turn and WTO** | 1971–2001 | Gold link ends; capital opens; WTO 1995 with binding disputes, TRIPS, TRIMs; China joins 2001 |
+
+::: {.muted}
+Read the layers as a sequence of bargains, not one design. The early order managed openness — capital controls were normal and free trade was managed — so that it stayed politically sustainable at home. The later layers opened capital and reached into services, intellectual property and investment, with rulings that bind.
+:::
 
 ## Easy to join, hard to overturn
 
@@ -120,6 +130,8 @@ The multinational lives inside the economic order without noticing — until it 
 Ikenberry, G. J. (2011). *Liberal Leviathan*. Princeton UP.
 :::
 
+This is the liberal answer to the third question — what holds the rules in place. On this view, institutions have a momentum of their own: a rising power such as China, which joined the WTO in 2001, gains more from the rules than it would from overturning them.
+
 ::: {.step}
 Session 03 sets the realist reply beside it: orders reflect power, and change when power does.
 :::
@@ -128,13 +140,15 @@ Session 03 sets the realist reply beside it: orders reflect power, and change wh
 
 ## Three costs
 
+Baldwin organises globalisation around the cost of moving three things. Each time one of them falls, production can be split from something it used to be tied to.
+
 ::::: columns
 
 :::: {.column width="33%"}
 
 ### Goods
 
-Steam, railways, steamships. Fell from the 19th century.
+Steam, railways, steamships. Fell from the 19th century: things could be made far from where they were bought.
 
 ::::
 
@@ -142,7 +156,7 @@ Steam, railways, steamships. Fell from the 19th century.
 
 ### Ideas
 
-Telecoms, the internet. Fell from about 1990.
+Telecoms, the internet. Fell from about 1990: a factory abroad could be coordinated from headquarters.
 
 ::::
 
@@ -150,7 +164,7 @@ Telecoms, the internet. Fell from about 1990.
 
 ### People
 
-Still expensive. Telepresence may change that.
+Still expensive. Telepresence may change that, by separating the worker from the workplace.
 
 ::::
 
@@ -160,7 +174,7 @@ Still expensive. Telepresence may change that.
 Baldwin, R. (2016). *The Great Convergence*. Belknap / Harvard UP.
 :::
 
-## Divergence, then convergence
+## Divergence, then convergence {.scrollable}
 
 | | Cheap to move | Unbundled | Result |
 |---|---|---|---|
@@ -168,8 +182,10 @@ Baldwin, R. (2016). *The Great Convergence*. Belknap / Harvard UP.
 | **Second unbundling** | ideas | the factory itself | Know-how moves South **inside value chains** → **great convergence** |
 | **Third (prospective)** | people, virtually | worker from workplace | Competition by task and occupation |
 
+In the first unbundling, ideas still moved cheaply only within a region, so industry stayed clustered where it began. In the second, stages of production could be offshored while know-how travelled with them, inside firms.
+
 ::: {.get}
-In the second unbundling, **the multinational is the vehicle of convergence**. Technology, jobs and security dependence now travel together — through the supply chain.
+In the second unbundling, **the multinational is the vehicle of convergence**. Technology, jobs and security dependence now travel together — through the supply chain. That is why geopolitics now reaches firms so directly.
 :::
 
 ## Baldwin's evidence — today's target
@@ -180,6 +196,9 @@ The **G7 share of world GDP**: rising for a century, then falling sharply from a
 
 - Almost all of the gain goes to a few economies — Baldwin's **Industrialising Six**: China, Korea, India, Poland, Indonesia, Thailand
 - Ask of the figure: **which dollars?** Current, constant, PPP?
+- Note also that the **G7 is not in the data**: the World Bank publishes no G7 aggregate, so you build it by summing the seven members
+
+The turning point coincides with the fall in the cost of moving ideas — that is Baldwin's argument in one picture.
 
 ::: {.muted}
 You rebuild it in the practice round — and then rebuild it at PPP.
@@ -187,13 +206,17 @@ You rebuild it in the practice round — and then rebuild it at PPP.
 
 # From convergence to backlash {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Rodrik's trilemma
+## Rodrik's trilemma {.scrollable}
+
+A country can have at most **two** of deep economic integration, national sovereignty and democratic politics. Each row is one way of choosing.
 
 | Keep | Give up | Looks like |
 |---|---|---|
 | integration + sovereignty | democracy | the golden straitjacket |
 | integration + democracy | sovereignty | global federalism |
 | sovereignty + democracy | **deep integration** | Bretton Woods compromise |
+
+The golden straitjacket means policies dictated by markets; global federalism means rules made above the state; the Bretton Woods compromise means shallow, managed openness.
 
 ::: {.get}
 Brexit, tariff wars, industrial policy, export controls, "de-risking": choices of sovereignty and democracy over integration.
@@ -208,6 +231,8 @@ Rodrik, D. (2011). *The Globalization Paradox*. W. W. Norton.
 - World trade in % of GDP climbs from the 1990s to **2008**, then broadly **flattens**
 - Retreat — or a change of form, from goods to services and data?
 
+A retreat would show up as reshoring and shorter supply chains; a change of form would show up as goods trade stagnating while services and data flows — poorly measured in trade statistics — keep growing. The *extend* step of the practice round lets you see the flattening and judge it.
+
 ::: {.step}
 When the writers of the rules produce a much smaller share of the world, two questions follow:
 **will the rules be rewritten?** (Session 03) · **will the world split into blocs?** (Session 04)
@@ -215,7 +240,7 @@ When the writers of the rules produce a much smaller share of the world, two que
 
 # What it means for the multinational {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four implications
+## Four implications {.scrollable}
 
 | | |
 |---|---|
@@ -223,6 +248,10 @@ When the writers of the rules produce a much smaller share of the world, two que
 | **The supply chain is a geopolitical object** | What the second unbundling moved, export controls now try to stop |
 | **Multilateral protection is weaker** | The WTO Appellate Body cannot hear appeals since December 2019 |
 | **Measurement is strategy** | Market rates vs PPP: two different boards, two different plants |
+
+::: {.muted}
+Each row turns a fact about the order into an item for a firm's risk register. The third is the most concrete: a panel ruling can now be appealed "into the void" and never become binding, so a discriminatory measure by a trading partner is more likely to be settled by bargaining or retaliation between governments than by a legal ruling.
+:::
 
 ## Put it to the room
 
@@ -232,16 +261,20 @@ When the writers of the rules produce a much smaller share of the world, two que
 ::: {.check}
 It depends on the decision: **market rates** for purchasing power to buy what you export; **PPP** for the real size of local production and markets.
 :::
+
+At market rates the G7 still looks large; at PPP it looks much smaller, because many goods and services are cheaper in lower-income economies. A firm that shows its board only one of the two has made a strategic choice without stating it.
 :::
 
 # What the figure does not license {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## Four limits
 
-1. A falling share is **relative** — the G7 kept growing
-2. In **current dollars**, part of every move is the exchange rate
-3. Convergence is **concentrated** — above all in China
+1. A falling share is **relative** — the G7 kept growing; its market did not shrink
+2. In **current dollars**, part of every move is the exchange rate — when the dollar strengthens, others shrink in dollar terms without producing less
+3. Convergence is **concentrated** — above all in China; "the South" did not converge
 4. It shows **income**, not **rule-making power**
+
+Each limit is a conclusion a reader might draw from the chart and that the data do not support — the template for today's catch.
 
 ::: {.warn}
 That last one is a question for Session 03, not a reading of this chart.
@@ -251,10 +284,12 @@ That last one is a question for Session 03, not a reading of this chart.
 
 ## Pivot, then share
 
+DataBank gives you **years as columns**; Tableau wants **one row per country-year**. Pivoting turns the wide table into a long one.
+
 1. Data source pane → select all year columns → right-click → **Pivot**
 2. Rename: `Pivot Field Names` → `Year`, `Pivot Field Values` → `Value`
 3. `Value` → *Number (decimal)*: DataBank's `..` become nulls
-4. Calculated field: G7 GDP ÷ World GDP
+4. Calculated field: G7 GDP ÷ World GDP — filter the members on ISO codes, never on names, which are spelt differently from one source to the next ("Korea, Rep.")
 5. Check it with **Quick Table Calculation → Percent of Total**
 
 ::: {.check}
