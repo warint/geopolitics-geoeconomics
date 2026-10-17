@@ -5,6 +5,11 @@
 > **When states compete for markets, investment and technology, is the multinational the object of
 > diplomacy, its instrument — or a diplomat in its own right?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-09-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S09-Lecture.qmd`](01-lecture/INTE60019A-S09-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-09-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-09-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-09.html)
+
 | | |
 |---|---|
 | **Big work** | Rose, A. K. (2007). The foreign service and foreign trade: Embassies as export promotion. *The World Economy*, 30(1), 22–38. [doi:10.1111/j.1467-9701.2007.00870.x](https://doi.org/10.1111/j.1467-9701.2007.00870.x) |

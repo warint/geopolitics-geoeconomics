@@ -1,21 +1,23 @@
 # Session 05 — Pre-session preparation
 
-> **When a multinational relies on an international institution to manage its risk, is it relying on
-> a rule — or on the states that buy and sell influence inside it?**
+> **When a multinational relies on an international institution to finance, insure or protect its
+> business, is it relying on a rule — or on the states that buy and sell influence inside it?**
 
-Slides: [`INTE60019A-S05-Pre-Session.qmd`](INTE60019A-S05-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-05-pre-session.html)** — or read the source at [`INTE60019A-S05-Pre-Session.qmd`](INTE60019A-S05-Pre-Session.qmd).
 
 Three things to do before class. Budget **about two hours**.
 
 | | Before class | Used in class for |
 |---|---|---|
-| **1** | Read the paper | the lecture discussion and the replication |
+| **1** | Read the paper, and a short piece on the new development banks | the lecture discussion and the replication |
 | **2** | Collect the data — route A or route B, decided as a team | Practice round 05 |
 | **3** | Self-check | the first ten minutes of the lecture |
 
 ---
 
-## 1. The reading — 60–75 min
+## 1. The readings — 70–80 min
+
+### The paper — 55–60 min
 
 **Kuziemko, I., & Werker, E. (2006). How much is a seat on the Security Council worth? Foreign aid
 and bribery at the United Nations. *Journal of Political Economy*, 114(5), 905–930.**
@@ -34,10 +36,25 @@ Read for the **argument**, not for coverage. Annotate four things:
 during and after a country's term, year by year. Find where the paper shows it — as a figure, and
 in the year-by-year estimates behind it — and write down what is on each axis.
 
+### The new institutions — 15–20 min
+
+**Wang, H. (2017). New multilateral development banks: Opportunities and challenges for global
+governance. *Global Policy*, 8(1), 113–118.**
+[doi:10.1111/1758-5899.12396](https://doi.org/10.1111/1758-5899.12396)
+
+Six pages on the Asian Infrastructure Investment Bank and the BRICS New Development Bank: their
+motivations, scale, structures, rules and first projects. Note two things: **one area** where the
+author sees them complementing the World Bank and the traditional development banks, and **one way**
+they could undermine them — then ask what each would change for a firm that finances, builds or
+insures a project in a developing country.
+
 **Background, optional:** Keohane, R. O. (1984). *After Hegemony: Cooperation and Discord in the
 World Political Economy*. Princeton University Press — chapter 6, on why states build institutions.
 Mearsheimer, J. J. (1994/95). The false promise of international institutions. *International
-Security*, 19(3), 5–49 — the realist reply.
+Security*, 19(3), 5–49 — the realist reply. Morse, J. C., & Keohane, R. O. (2014). Contested
+multilateralism. *The Review of International Organizations*, 9(4), 385–412.
+[doi:10.1007/s11558-014-9188-2](https://doi.org/10.1007/s11558-014-9188-2) — why states build new
+institutions beside old ones.
 
 ---
 
@@ -69,12 +86,15 @@ Answer on paper.
    that never served?
 4. A Security Council resolution under Chapter VII imposes sanctions on a state where your firm has
    a distributor. Who is bound by it — and why should the firm care how the resolution was voted?
+5. Name one thing the Asian Infrastructure Investment Bank or the New Development Bank does
+   differently from the World Bank — and one thing it does the same way.
 
 ---
 
 ## Arrive with
 
 - [ ] The paper read and annotated; the event-time figure understood
+- [ ] Wang (2017) read; your two notes on the new banks
 - [ ] Route A file **or** route B files in `data/raw/`, logged
 - [ ] Your self-check answers, on paper
 - [ ] If you present a Risk Brief today: `.twbx` and log on ZoneCours before class

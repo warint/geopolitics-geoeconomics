@@ -5,6 +5,11 @@
 > **Is cyberspace a new battlefield for great powers — or a new way for old rivals to hurt each
 > other, with multinationals as collateral?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-08-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S08-Lecture.qmd`](01-lecture/INTE60019A-S08-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-08-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-08-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-08.html)
+
 | | |
 |---|---|
 | **Big work** | Valeriano, B., & Maness, R. C. (2015). *Cyber War versus Cyber Realities: Cyber Conflict in the International System*. Oxford University Press. [doi:10.1093/acprof:oso/9780190204792.001.0001](https://doi.org/10.1093/acprof:oso/9780190204792.001.0001) |

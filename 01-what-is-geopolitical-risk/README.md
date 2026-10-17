@@ -4,6 +4,11 @@
 
 > **Before we can manage geopolitical risk, what exactly are we counting?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-01-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S01-Lecture.qmd`](01-lecture/INTE60019A-S01-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-01-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-01-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-01.html)
+
 | | |
 |---|---|
 | **Big work** | Caldara, D., & Iacoviello, M. (2022). Measuring geopolitical risk. *American Economic Review*, 112(4), 1194–1225. [doi:10.1257/aer.20191823](https://doi.org/10.1257/aer.20191823) |

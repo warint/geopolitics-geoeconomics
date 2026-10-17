@@ -2,7 +2,7 @@
 
 # Rebuild the Great Convergence
 
-Slides: [`INTE60019A-S02-Practice.qmd`](INTE60019A-S02-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-02-practice.html)** — or read the source at [`INTE60019A-S02-Practice.qmd`](INTE60019A-S02-Practice.qmd).
 
 > **The target.** Baldwin (2016): the **G7 share of world GDP**, rising for a century and falling
 > sharply after about 1990. You rebuild it from 1970 with World Bank data, then ask what changes

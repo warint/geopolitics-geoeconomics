@@ -2,7 +2,7 @@
 
 # Rebuild trade within and between blocs
 
-Slides: [`INTE60019A-S04-Practice.qmd`](INTE60019A-S04-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-04-practice.html)** — or read the source at [`INTE60019A-S04-Practice.qmd`](INTE60019A-S04-Practice.qmd).
 
 > **The target.** Gopinath, Gourinchas, Presbitero & Topalova (2025): trade **between** geopolitical
 > blocs against trade **within** them, before and after Russia's invasion of Ukraine. You define the

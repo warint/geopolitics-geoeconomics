@@ -3,7 +3,7 @@
 > **Who wrote the rules multinationals play by — and what happens to the rules when the writers'
 > share of the world shrinks?**
 
-Slides: [`INTE60019A-S02-Pre-Session.qmd`](INTE60019A-S02-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-02-pre-session.html)** — or read the source at [`INTE60019A-S02-Pre-Session.qmd`](INTE60019A-S02-Pre-Session.qmd).
 
 Four things to do before class. Budget **about two hours**.
 

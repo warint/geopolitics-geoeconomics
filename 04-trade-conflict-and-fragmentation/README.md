@@ -5,6 +5,11 @@
 > **If states trade more with friends than with rivals, how does a multinational find out which side
 > each of its markets is on — and how fast the lines are hardening?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-04-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S04-Lecture.qmd`](01-lecture/INTE60019A-S04-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-04-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-04-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-04.html)
+
 | | |
 |---|---|
 | **Big works** | Gopinath, G., Gourinchas, P.-O., Presbitero, A. F., & Topalova, P. (2025). Changing global linkages: A new Cold War? *Journal of International Economics*, 153, 104042. [doi:10.1016/j.jinteco.2024.104042](https://doi.org/10.1016/j.jinteco.2024.104042) (IMF Working Paper WP/24/76) · Mansfield, E. D. (2021). International trade and conflict. In *The Oxford handbook of international political economy* (pp. 660–671). [doi:10.1093/oxfordhb/9780198793519.013.27](https://doi.org/10.1093/oxfordhb/9780198793519.013.27) |

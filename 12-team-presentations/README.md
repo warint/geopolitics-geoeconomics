@@ -4,6 +4,9 @@
 
 > **Can you make a board act on your assessment — and say what would change your mind?**
 
+> **[Open the presentation-day slides](https://warint.github.io/geopolitics-geoeconomics/session-12-presentations.html)** — or read the source at
+> [`INTE60019A-S12-Presentations.qmd`](INTE60019A-S12-Presentations.qmd).
+
 | | |
 |---|---|
 | **What happens** | Each team presents and defends its geopolitical risk dashboard for its multinational |

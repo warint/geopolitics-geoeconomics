@@ -5,6 +5,11 @@
 > **Most of the rules that govern a multinational's daily operations were not written by a
 > government. Who wrote them, with whose power — and does trade spread them up or down?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-06-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S06-Lecture.qmd`](01-lecture/INTE60019A-S06-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-06-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-06-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-06.html)
+
 | | |
 |---|---|
 | **Big work** | Prakash, A., & Potoski, M. (2006). Racing to the bottom? Trade, environmental governance, and ISO 14001. *American Journal of Political Science*, 50(2), 350–364. [doi:10.1111/j.1540-5907.2006.00188.x](https://doi.org/10.1111/j.1540-5907.2006.00188.x) |

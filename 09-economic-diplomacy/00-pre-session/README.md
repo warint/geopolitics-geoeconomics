@@ -3,7 +3,7 @@
 > **When states compete for markets, investment and technology, is the multinational the object of
 > diplomacy, its instrument — or a diplomat in its own right?**
 
-Slides: [`INTE60019A-S09-Pre-Session.qmd`](INTE60019A-S09-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-09-pre-session.html)** — or read the source at [`INTE60019A-S09-Pre-Session.qmd`](INTE60019A-S09-Pre-Session.qmd).
 
 Budget **about two hours**.
 

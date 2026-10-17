@@ -2,7 +2,7 @@
 
 # Rebuild the cyber-conflict picture
 
-Slides: [`INTE60019A-S08-Practice.qmd`](INTE60019A-S08-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-08-practice.html)** — or read the source at [`INTE60019A-S08-Practice.qmd`](INTE60019A-S08-Practice.qmd).
 
 > **The target.** Valeriano & Maness's descriptive picture of interstate cyber conflict: incidents
 > **by year and method**, the **distribution of severity**, and the **initiator × target matrix** of

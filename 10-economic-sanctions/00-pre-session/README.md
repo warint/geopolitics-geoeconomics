@@ -3,7 +3,7 @@
 > **Sanctions have become the instrument of first resort. Are they an efficient mechanism for
 > regulating geopolitical risk — or a source of it?**
 
-Slides: [`INTE60019A-S10-Pre-Session.qmd`](INTE60019A-S10-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-10-pre-session.html)** — or read the source at [`INTE60019A-S10-Pre-Session.qmd`](INTE60019A-S10-Pre-Session.qmd).
 
 Budget **about two hours**, plus revision for **Quiz 3**, which opens the session.
 

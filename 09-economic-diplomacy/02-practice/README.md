@@ -2,7 +2,7 @@
 
 # Do embassies follow, or lead, exports?
 
-Slides: [`INTE60019A-S09-Practice.qmd`](INTE60019A-S09-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-09-practice.html)** — or read the source at [`INTE60019A-S09-Practice.qmd`](INTE60019A-S09-Practice.qmd).
 
 > **The target.** Rose (2007)'s central relationship: for each exporter–partner pair, **exports**
 > against the **number of diplomatic posts** the exporter keeps in the partner — on log scales, with

@@ -97,11 +97,24 @@ https://doi.org/10.1016/j.jinteco.2024.104042 (IMF Working Paper WP/24/76, free)
 
 ## Session 05 — International institutions
 
-**Required.** Kuziemko & Werker (2006), above.
+**Required.** Kuziemko & Werker (2006), above. And: Wang, H. (2017). New multilateral development
+banks: Opportunities and challenges for global governance. *Global Policy*, 8(1), 113–118.
+https://doi.org/10.1111/1758-5899.12396
 
 **Further.**
 - Vreeland, J. R., & Dreher, A. (2014). *The political economy of the United Nations Security
-  Council: Money and influence*. Cambridge University Press.
+  Council: Money and influence*. Cambridge University Press. https://doi.org/10.1017/CBO9781139027755
+- Morse, J. C., & Keohane, R. O. (2014). Contested multilateralism. *The Review of International
+  Organizations*, 9(4), 385–412. https://doi.org/10.1007/s11558-014-9188-2
+- Dreher, A., Sturm, J.-E., & Vreeland, J. R. (2009). Development aid and international politics:
+  Does membership on the UN Security Council influence World Bank decisions? *Journal of Development
+  Economics*, 88(1), 1–18. https://doi.org/10.1016/j.jdeveco.2008.02.003
+- Humphrey, C. (2022). *Financing the future: Multilateral development banks in the changing world
+  order of the 21st century*. Oxford University Press. https://doi.org/10.1093/oso/9780192871503.001.0001
+- Horn, S., Reinhart, C. M., & Trebesch, C. (2021). China's overseas lending. *Journal of
+  International Economics*, 133, 103539. https://doi.org/10.1016/j.jinteco.2021.103539
+- Ikenberry, G. J., & Lim, D. J. (2017). *China's emerging institutional statecraft: The Asian
+  Infrastructure Investment Bank and the prospects for counter-hegemony*. Brookings Institution.
 - Keohane (1984), above (Session 02).
 - Abbott & Snidal (2009), above — as the bridge to Session 06.
 

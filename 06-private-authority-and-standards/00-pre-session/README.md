@@ -3,7 +3,7 @@
 > **Most of the rules that govern a multinational's daily operations were not written by a
 > government. Who wrote them, with whose power — and does trade spread them up or down?**
 
-Slides: [`INTE60019A-S06-Pre-Session.qmd`](INTE60019A-S06-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-06-pre-session.html)** — or read the source at [`INTE60019A-S06-Pre-Session.qmd`](INTE60019A-S06-Pre-Session.qmd).
 
 Three things to do before class. Budget **about two and a half hours**, and **start the ISO Survey
 download at least two days ahead**: it needs a free IAF CertSearch account.

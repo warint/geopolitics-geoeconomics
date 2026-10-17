@@ -34,7 +34,7 @@ practice round ends on: *what does this figure not license a multinational to co
 | [02](02-the-international-economic-order/README.md) | The international economic order | Baldwin (2016) — the G7 share of world GDP | pivot, percent of total |
 | [03](03-anarchy-and-the-balance-of-power/README.md) | Anarchy and the balance of the major powers | Mearsheimer (2001), Allison (2017) — shares of world capabilities | calculated fields, parameters |
 | [04](04-trade-conflict-and-fragmentation/README.md) | Trade, conflict and geoeconomic fragmentation · *Quiz 1* | Gopinath et al. (2025) — trade within and between blocs | dyadic joins, groups and sets |
-| [05](05-international-institutions/README.md) | International institutions | Kuziemko & Werker (2006) — aid and the Security Council | LOD expressions, event time |
+| [05](05-international-institutions/README.md) | International institutions, old and new: from Bretton Woods to the AIIB and the BRICS bank | Kuziemko & Werker (2006) — aid and the Security Council | LOD expressions, event time |
 | [06](06-private-authority-and-standards/README.md) | Private authority, standards and global regulation | Prakash & Potoski (2006) — the diffusion of ISO 14001 | maps, pages |
 | [07](07-measuring-risk-text-and-indices/README.md) | Measuring risk: content analysis, coding, big data, indices · *Quiz 2* | Hassan et al. (2019) — firm-level political risk; your own coded index | Tableau Prep, normalisation, weights |
 | [08](08-cyber-geopolitics/README.md) | Cyber geopolitics and digital threats | Valeriano & Maness (2015) — cyber incidents between rivals | highlight tables, actions |
@@ -45,6 +45,21 @@ practice round ends on: *what does this figure not license a multinational to co
 
 **The arc.** The system (01–04) → who governs it (05–06) → how risk becomes a number (07) → the four
 channels through which it reaches the firm (08–11) → the firm's own assessment (12).
+
+---
+
+## Lecture slides, in your browser
+
+**[https://warint.github.io/geopolitics-geoeconomics/](https://warint.github.io/geopolitics-geoeconomics/)**
+
+Every deck — pre-session, lecture and practice round, for all twelve sessions — renders as a
+slideshow you can open directly: no download, no PowerPoint. Press **F** for full screen, **S** for
+speaker notes, **Esc** for the slide overview. Each session's README opens with a link to its
+lecture slides, and each `00-pre-session/`, `01-lecture/` and `02-practice/` README with a link to
+its own deck.
+
+The sources are the `INTE60019A-S*-*.qmd` files in each session's folders; rebuild the site with
+`scripts/render_slides.sh` and `python3 scripts/build_docs.py`.
 
 ---
 

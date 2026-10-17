@@ -1,0 +1,553 @@
+---
+title: "Economic Sanctions: Do They Work, and Whom Do They Hit?"
+---
+
+## The instrument of first resort
+
+When a government wants to do something about a foreign state's behaviour and is not prepared to go
+to war over it, the menu is short. It can protest, which costs nothing and changes nothing. It can
+withdraw an ambassador, which is visible and mostly symbolic. Or it can impose economic sanctions:
+restrict what its firms and banks may sell to, buy from, lend to or invest in the offending state,
+its government, its companies or its leading citizens. Over the last three decades the third option
+has moved from the end of the menu to the top. Sanctions are now what governments reach for first,
+in response to invasions and coups, nuclear programmes and election interference, human-rights
+abuses and cyberattacks. The Global Sanctions Data Base, whose descriptive picture the practice
+round rebuilds, documents both the rise in the number of active cases since the end of the Cold War
+and the change in what those cases are made of [@felbermayr2020].
+
+The session's question is whether this instrument is an efficient mechanism for *regulating*
+geopolitical risk — a way of raising the cost of aggression without the cost of war — or a *source*
+of it. The two are not mutually exclusive, and the chapter argues that, for a multinational, the
+second matters more than the first. A firm does not need to know whether the sanctions on a given
+state will achieve their political goal. It needs to know whether they will cut it off from a
+customer, a supplier, a bank or an asset; how far the effective perimeter of the measures extends
+beyond their legal text; and what the target can do to it in return.
+
+::: {.definition}
+[**Economic sanctions**]{.term} — restrictions on economic relations imposed by one or more
+*senders* on a *target* — a state, a government, a firm or an individual — in order to change its
+behaviour, weaken it, constrain what it can do, or signal disapproval. The instrument is the
+restriction; the objective is political.
+:::
+
+That definition contains the whole debate in compressed form. Its last clause lists four objectives,
+and the answer to "do sanctions work?" depends on which of them you hold the instrument to. A
+measure that fails to change a regime's policy may still succeed in making its weapons programme
+slower and more expensive, or in telling allies and voters at home that something has been done. A
+large part of the disagreement in the literature, as we shall see, comes from asking the same
+question of cases that were never trying to do the same thing.
+
+## A very old weapon
+
+Economic coercion is older than the states that now practise it. Thucydides records the Megarian
+decree, by which Athens barred the merchants of Megara from the harbours of its empire, among the
+grievances that preceded the Peloponnesian War; Napoleon's Continental System tried to defeat
+Britain by closing the continent to British trade, and was undone by smuggling and by the costs it
+imposed on France's own allies. Both episodes contain, in miniature, the problems this chapter
+returns to: sanctions hurt the sender's own merchants, they invite evasion through third parties,
+and their effect on the target's political decisions is uncertain at best.
+
+The modern idea — sanctions as an organised, collective alternative to war — dates from the League
+of Nations. Article 16 of its Covenant obliged members to sever trade and financial relations with
+any member that resorted to war in breach of its commitments. The idea was tested once, and the test
+is the founding case of the literature.
+
+::: {.archive}
+[From the archive · The League of Nations and Italy, 1935]{.archive-label}
+
+Italy invaded Ethiopia in October 1935. Within days the League's Council found that Italy had
+resorted to war in breach of the Covenant, and the members agreed a package of measures that came
+into force in November: an arms embargo, a ban on loans and credits to the Italian government, a ban
+on imports of Italian goods, and an embargo on the export to Italy of a list of raw materials.
+
+What was left off the list mattered more than what was on it. Oil was not embargoed; nor were coal
+and steel, and the Suez Canal, through which Italy supplied its army in East Africa, stayed open.
+The great powers that would have had to enforce a wider embargo feared driving Italy into Germany's
+arms, and the United States, not a member, was outside the system. Italian forces took Addis Ababa
+in May 1936, and the League lifted the sanctions in July.
+
+The lesson drawn at the time was that collective sanctions had failed. The lesson worth drawing now
+is subtler. The measures were designed by senders who wanted to be seen to act while protecting
+their own interests, and the gap between the announced objective — to stop a war — and the
+instrument actually deployed was visible to everyone, including the target. Every later debate about
+whether sanctions "work" is, in part, a debate about whether the measures studied were ever designed
+to.
+:::
+
+The United Nations Charter, drafted a decade later, put the idea on a firmer legal footing: Article
+41 allows the Security Council to decide on "measures not involving the use of armed force",
+including the "complete or partial interruption of economic relations", and makes them binding on
+all members. For most of the Cold War the veto kept the provision almost idle. The Council imposed
+mandatory sanctions on Southern Rhodesia after its unilateral declaration of independence in 1965
+and an arms embargo on South Africa in 1977, and little else. Sanctions in this period were
+overwhelmingly unilateral, and overwhelmingly American. The end of the Cold War unblocked the
+Council, and the 1990s were later called the "sanctions decade". The instrument has not looked back.
+
+## Four ways to describe a sanction
+
+Before anything can be counted it must be classified, and the classification already embeds a theory
+of what sanctions are for. The lecture uses four dimensions, and the GSDB codes three of them
+directly.
+
+The **sender** may be one state acting alone, a group of states acting together — the European Union
+is the most important plurilateral sender, its measures adopted by unanimity in the Council — or the
+United Nations Security Council, whose decisions bind every member. The distinction matters to a
+firm because it determines how many jurisdictions it must satisfy and how much room there is for a
+competitor from a non-sending state to take its place.
+
+The **type** describes the instrument: restrictions on trade (exports, imports, or both, partial or
+complete), on finance (loans, investment, payments, asset freezes), on travel, on arms, on military
+assistance, and a residual category. The GSDB records each as a separate indicator, so a single case
+can be of several types at once — which is why, in the practice round, the stacked count of cases by
+type exceeds the number of cases.
+
+The **scope** distinguishes measures aimed at a whole economy from measures aimed at named persons,
+entities or sectors.
+
+::: {.definition}
+[**Comprehensive versus targeted sanctions**]{.term} — *comprehensive* sanctions restrict all, or
+nearly all, economic relations with a target country; *targeted* or "smart" sanctions restrict
+relations only with named individuals and entities (asset freezes, travel bans), with specific
+sectors (energy, finance, defence), or in specific goods (arms, dual-use items, luxury goods). The
+distinction is about who is meant to bear the cost.
+:::
+
+The **objective** is what the sender says it wants. The GSDB distinguishes changing a policy,
+destabilising a regime, resolving a territorial conflict, preventing a war, ending one, fighting
+terrorism, protecting human rights and restoring or defending democracy. Many cases have more than
+one, and the stated objective is not always the real one. A sender that announces "policy change"
+may be content with "punishment", and one that announces "democracy" may care more about signalling
+to its own electorate. Coders work from the public record, so the objective variable is a record of
+what senders said, not of what they wanted.
+
+## Do they work? Coding success
+
+The modern empirical literature begins with one book in three editions. Gary Clyde Hufbauer and
+Jeffrey Schott, later joined by Kimberly Ann Elliott and Barbara Oegg, assembled every sanctions
+episode of the twentieth century they could document and asked of each a question that sounds
+simple: did it succeed [@hufbauer2007]?
+
+Their answer to the problem of defining success has become the field's reference point, so it is
+worth stating precisely. Each episode is scored on two components. The first is the **policy
+result**: how far the outcome the sender sought was actually achieved, on a scale from failure to
+success. The second is the **contribution of sanctions**: how far the sanctions, as opposed to other
+factors — military force, a change of government for unrelated reasons, a negotiation that would
+have happened anyway — contributed to that outcome. Each component is scored from 1 to 4, and the
+two are multiplied into a success score. A case counts as a success when the product reaches 9 or
+more: that is, when the outcome was at least partly achieved *and* sanctions made at least a modest
+contribution to it.
+
+::: {.definition}
+[**Sanctions success (Hufbauer et al.)**]{.term} — an episode in which the sender's policy goal was
+at least partly achieved and sanctions made at least a modest contribution to that achievement,
+operationalised as a product of the two scores, each from 1 to 4, of 9 or more. Success is a joint
+judgement about an outcome and a cause.
+:::
+
+On this definition, roughly a third of the episodes in the study count as at least partial
+successes. The rate varies systematically with the circumstances. Sanctions succeed more often when
+the goal is modest — the release of a prisoner rather than the overthrow of a regime — when the
+target is economically small and weak relative to the sender, when target and sender were previously
+on friendly terms and trade heavily, and when the measures are imposed quickly and decisively rather
+than ratcheted up slowly, giving the target time to adapt. They succeed less often when the goal is
+major, when the target is an adversary, and when the target can turn to other suppliers and buyers.
+
+That last condition was formalised by Bryan Early as *sanctions busting*: third countries whose
+firms step into the trade the sanctions forbid, for profit or for strategic reasons, and so supply
+the target with the alternatives that make resistance affordable [@early2015]. It is the reason
+multilateral sanctions are not straightforwardly more effective than unilateral ones. The more
+senders there are, the fewer alternatives remain for the target, but the harder it is to agree on
+anything strong, and the more likely the package resembles the League's of 1935.
+
+The "about a third" figure has had a long public life. It appears in policy debates as a fact about
+the world: sanctions work a third of the time. It is nothing of the kind. It is a fact about one
+coding of one set of cases, produced by one team's judgements on two four-point scales, and changing
+any of those three elements changes the number.
+
+## Pape's audit, and why the debate never closed
+
+The most consequential demonstration of this came from Robert Pape, who in 1997 went back through
+the cases Hufbauer and his colleagues had counted as successes in their second edition and asked
+whether each one survived scrutiny [@pape1997]. His conclusion was that most did not. In many of the
+claimed successes, he argued, the outcome had been achieved by the use or threat of military force
+rather than by economic pressure; in others the target had made no real concession, or the
+concession could not be attributed to sanctions at all. By his reckoning only five of the forty
+claimed successes held up, and he concluded that economic sanctions rarely achieve major political
+goals and should not be expected to.
+
+Elliott replied that the glass was half full rather than empty [@elliott1998]. Sanctions, she
+argued, had never been claimed to be a substitute for force in pursuit of major goals, and judged
+against the modest goals for which they are typically used they did better than Pape allowed;
+moreover, their record had improved as they were used more often in concert, after the Cold War.
+Pape answered that sanctions still did not work [@pape1998]. The exchange has been taught ever since
+as a debate about effectiveness. It is better understood as a debate about coding: about what counts
+as a concession, how much a contribution must be, and what the counterfactual is.
+
+The counterfactual problem is the deep one, and David Baldwin had set it out a decade earlier
+[@baldwin1985]. To say that sanctions failed is to say that some other instrument would have done
+better. If the alternative was war, a sanction that achieved nothing at little cost may still have
+been the better choice; if the alternative was diplomacy, a sanction that achieved a little at great
+cost may have been the worse one. Effectiveness, on Baldwin's account, is always comparative and
+always relative to cost, and a success rate computed without reference to the alternatives answers a
+question no policymaker faces.
+
+A second line of argument asks *how* sanctions are supposed to work, and finds the naive answer
+wanting. Johan Galtung, studying the sanctions on Rhodesia, described what he called the naive
+theory: economic pain causes political disintegration, which forces the government to comply
+[@galtung1967]. The Rhodesian evidence suggested the opposite. Pressure from outside produced a
+rally around the government, a reorganisation of the economy towards self-sufficiency, and a set of
+domestic winners — smugglers, import substitutes, those who controlled scarce foreign exchange —
+with an interest in the sanctions continuing. Jonathan Kirshner later generalised the point:
+sanctions work, when they work, by changing the relative power of groups within the target, and
+their effect therefore depends on who inside the target bears the cost and who profits from it
+[@kirshner1997].
+
+::: {.step}
+**The lesson for an analyst.** "Do sanctions work?" has no answer independent of how a case, an
+objective and a success are coded, and of what the comparison is. Every number in this debate is a
+coding decision. The practice round makes several of them — which objective counts when a case has
+several, whether ongoing cases enter the denominator — and each one moves the share judged
+successful.
+:::
+
+## The cases we never see
+
+There is a deeper problem with any success rate computed from imposed sanctions, and it was put most
+clearly by Daniel Drezner. His first book began from a puzzle: states impose sanctions most often on
+their adversaries, yet adversaries are the targets least likely to concede, because they expect
+future conflict and fear that any concession will be exploited; allies concede more readily, but are
+sanctioned less often [@drezner1999]. The second step of the argument concerns the threat
+[@drezner2003]. If a target that would concede does so as soon as sanctions are threatened, the
+episode ends before any measure is imposed. The cases that reach imposition are disproportionately
+those in which the target had decided to resist.
+
+::: {.definition}
+[**Selection effect of threats**]{.term} — the bias that arises when sanctions most likely to
+succeed do so at the threat stage and are therefore never imposed. Samples of imposed sanctions
+over-represent hard cases, so imposed sanctions look less effective than the instrument is. The most
+significant effects of economic coercion may be the ones that never appear in a list of sanctions.
+:::
+
+The implication for measurement is direct. A dataset that records only impositions cannot estimate
+the effectiveness of the instrument, because it has selected its cases on a variable correlated with
+the outcome. This is the reason the Threat and Imposition of Economic Sanctions dataset exists. T.
+Clifton Morgan, Navin Bapat and their colleagues recorded threats as well as impositions, first for
+1971–2000 [@morgan2009] and then, in the version used in the practice round, for 1945–2005
+[@morgan2014]. In TIES a case begins with a threat or an imposition, whichever comes first, and the
+dataset records whether sanctions were in fact imposed. A substantial share of its cases never were.
+
+The selection argument also cuts the other way, and an honest analyst should say so. Imposition is a
+costly signal of the sender's seriousness, and some of its effects may come from the signal rather
+than from the economic pain. None of this can be read off a count of cases. It can only be argued,
+with evidence about each episode.
+
+## From comprehensive to smart
+
+The sanctions decade of the 1990s produced the instrument's most damaging case, and that case
+changed how sanctions are designed.
+
+::: {.archive}
+[From the archive · Iraq, 1990–2003]{.archive-label}
+
+Four days after Iraq invaded Kuwait in August 1990, the Security Council adopted Resolution 661,
+imposing comprehensive sanctions: a ban on all trade with Iraq except medical supplies and, in
+humanitarian circumstances, foodstuffs. The war of 1991 expelled Iraq from Kuwait; the sanctions
+stayed, tied now to the disarmament of Iraq's weapons programmes.
+
+They stayed for more than a decade, and their humanitarian consequences became the central fact of
+the debate about them. Malnutrition, the collapse of water and health services, and a sharp rise in
+mortality were documented by UN agencies and independent researchers, although the size of the
+excess mortality and how much of it to attribute to sanctions rather than to war damage and the
+regime's own choices were — and remain — contested. In 1995 the Council created the Oil-for-Food
+Programme (Resolution 986), allowing Iraq to sell oil under UN supervision to pay for food and
+medicine. The programme relieved the shortages and was in turn corrupted: the regime used surcharges
+and kickbacks from the firms that bought its oil and sold it goods, and the subsequent inquiry named
+companies from many countries.
+
+The regime survived the sanctions intact. Those who bore their cost were the population and, through
+the programme's scandals, the firms that had traded with the regime under UN licence.
+:::
+
+The Iraqi experience made it difficult for senders to defend comprehensive sanctions on a whole
+population, and the response was the turn to *targeted* measures. In a series of intergovernmental
+processes around the turn of the century — at Interlaken on financial sanctions, at Bonn and Berlin
+on arms embargoes and travel bans, at Stockholm on implementation — governments, the UN Secretariat
+and experts worked out how to aim sanctions at those responsible: freeze the assets and ban the
+travel of named leaders and their financiers, embargo arms and the specific goods that sustain a war
+or a weapons programme, restrict specific sectors.
+
+Targeted sanctions created problems of their own. Listing a person under UN or EU measures is an
+executive act with severe consequences for the person listed, and in the *Kadi* judgment of 2008 the
+European Court of Justice annulled the EU's implementation of a UN listing because it did not
+respect the listed person's rights of defence. Listing procedures, review mechanisms and an
+Ombudsperson for one of the UN regimes followed. For firms the lesson was that lists change, are
+litigated, and may be annulled — and that a listing in one jurisdiction may not exist in another.
+
+Whether targeting works better is an empirical question with a mixed answer. The most comprehensive
+study of UN targeted sanctions distinguishes three purposes — to coerce a change in behaviour, to
+constrain the target's ability to act, and to signal a norm — and finds that the measures do better
+at constraining and signalling than at coercing [@biersteker2016]. On humanitarian cost the evidence
+is clearer for the comprehensive kind: Dursun Peksen finds that sanctions are associated with a
+deterioration of the target government's respect for physical-integrity rights, and that the effect
+is stronger for comprehensive measures [@peksen2009]. The targets of sanctions, in other words, tend
+to pass the cost down.
+
+## The financial turn
+
+The second change in the design of sanctions since 2000 has been the rise of financial measures, and
+it is the change that matters most to a multinational.
+
+Henry Farrell and Abraham Newman explained it in a framework the course met in Session 08
+[@farrell2019]. Global economic networks — payment systems, financial messaging, correspondent
+banking, the internet's infrastructure — are not flat. They have hubs, and the hubs are
+disproportionately under the jurisdiction of a few states, above all the United States. A state with
+jurisdiction over a hub can exploit it in two ways: as a *panopticon*, using the information flowing
+through the hub to see what others are doing, and as a *chokepoint*, denying others access to the
+hub and therefore to the network. International dollar payments clear, in the end, through banks
+with access to the US financial system; banks around the world communicate payment instructions
+through SWIFT, a Belgian cooperative subject to European law. Cutting a bank off from either is a
+sanction of a different order from an embargo on its country's exports.
+
+This is why targeted does not mean contained. A financial sanction is aimed at named banks, but
+every firm that pays or is paid through those banks is affected, and the banks of third countries —
+which need access to the dollar system more than they need any single customer — will cut off a
+sanctioned client long before the law requires them to. Sanctions on banks, insurers and shippers
+propagate down every supply chain that depends on them. The measures of 2022 against Russia showed
+the reach of the instrument: the freezing of a large part of the Russian central bank's foreign
+reserves, the disconnection of major Russian banks from SWIFT, and a price cap on Russian oil
+enforced not by blockade but through the Western insurers and shipping services the oil trade relied
+on.
+
+## The firm in the middle
+
+Sanctions are aimed at states, governments and the people who run them. They are implemented by
+firms. Governments write the rules; banks, exporters, shippers and insurers decide, transaction by
+transaction, whether a given payment, shipment or contract falls within them, and bear severe
+penalties if they decide wrongly. The firm is therefore not a bystander to sanctions policy. It is
+its executor, and its executor of last resort.
+
+### Lists, ownership and the perimeter
+
+Each sending jurisdiction maintains its own legal architecture. In the United States, sanctions
+programmes rest mostly on the International Emergency Economic Powers Act of 1977 and are
+administered by the Treasury's Office of Foreign Assets Control, whose Specially Designated
+Nationals list is the most consulted list in global commerce. In the European Union, restrictive
+measures are adopted by Council decision under the Common Foreign and Security Policy and given
+effect by Council regulations that bind every person and firm in the Union. In Canada, they rest on
+the *Special Economic Measures Act*, the *United Nations Act* and the *Justice for Victims of
+Corrupt Foreign Officials Act*. The lists overlap but do not coincide, and a firm operating across
+jurisdictions must satisfy all of them.
+
+The list is only the beginning of the perimeter. Under the US "50 percent rule", an entity owned,
+directly or indirectly, 50 percent or more in aggregate by listed persons is itself treated as
+blocked, whether or not it appears on any list; EU guidance extends the restrictions to entities
+*owned or controlled* by listed persons, with control judged on a range of indicators. A firm must
+therefore screen not only its counterparties but their owners, and their owners' owners, through
+chains of holding companies that may be designed to obscure them.
+
+::: {.definition}
+[**Compliance perimeter**]{.term} — the set of counterparties, transactions, goods and jurisdictions
+a firm must treat as restricted in order to comply with every sanctions regime that applies to it.
+It is wider than any list: it includes entities owned or controlled by listed persons, goods
+restricted by end use, and the jurisdictions whose rules reach the firm through its nationality, its
+currency, its banks or its inputs.
+:::
+
+### Secondary sanctions and blocking statutes
+
+Primary sanctions bind the sender's own nationals and transactions on its territory. Secondary
+sanctions go further: they threaten third-country firms with penalties — exclusion from the sender's
+market, its financial system, or its government contracts — if they deal with the target, even where
+no person or transaction of the sender is involved.
+
+::: {.definition}
+[**Secondary sanctions**]{.term} — measures that penalise third-country persons for dealing with a
+sanctioned target, by restricting their own access to the sender's market or financial system. They
+make a sender's foreign policy binding on firms that are not its nationals, by forcing them to
+choose between the sender and the target.
+:::
+
+The tension this creates between allies is old. When the United States legislated against foreign
+firms investing in Cuba, Iran and Libya in 1996, the European Union adopted a *Blocking Statute*
+forbidding EU firms to comply with the US measures. When the United States withdrew from the Iran
+nuclear agreement in 2018 and reimposed secondary sanctions, the EU updated the Statute. European
+firms nevertheless left Iran in large numbers. The choice a secondary sanction forces is not a legal
+one but a commercial one: the US market and the dollar are worth more to almost any multinational
+than the target's market is, and no blocking statute changes that arithmetic. The case of BNP
+Paribas, which pleaded guilty in the United States in 2014 to processing transactions for sanctioned
+parties and paid a penalty without precedent at the time, settled the question for many compliance
+departments: dollar transactions with sanctioned parties anywhere in the world fall within US reach.
+
+### Overcompliance and de-risking
+
+Penalties are severe, rules are complex, lists change without notice, and the cost of a mistake is
+asymmetric: a bank that refuses a lawful payment loses a fee, a bank that processes an unlawful one
+may lose its licence. The rational response is to go further than the law.
+
+::: {.definition}
+[**Overcompliance and de-risking**]{.term} — the withdrawal of firms, and above all banks, from
+whole countries, sectors or categories of client that the law does not close, because the expected
+cost of an error exceeds the revenue at stake. The effective scope of sanctions is set by compliance
+departments as much as by governments.
+:::
+
+The evidence that this matters is now substantial. Matthieu Crozet and Julian Hinz, studying the
+sanctions on Russia after 2014 and the Russian counter-sanctions, find that the trade losses borne
+by the sending countries fell largely on products that were not embargoed at all — "friendly fire"
+that they attribute mainly to the financial measures and the uncertainty they created [@crozet2020].
+A firm selling unrestricted goods to an unrestricted customer may still be unable to get paid,
+insured or shipped. The question the lecture puts to the room captures it: if your compliance team
+tells you the new measures do not legally require you to exit, and your bank tells you it will no
+longer process your payments to that country, who has just set your sanctions policy?
+
+## Russia 2022: the exit decision
+
+The full-scale invasion of Ukraine in February 2022 produced the largest and fastest expansion of
+sanctions against a major economy since the Second World War, and it confronted hundreds of Western
+multinationals with a decision most had never modelled: whether to leave a large market that the
+law, for many of them, did not require them to leave. Public pressure, employee pressure, the
+practical impossibility of making payments and moving goods, and the expectation of further measures
+pushed many to suspend, scale back or exit.
+
+Exit turned out to be harder than announcing it. Russia's countermeasures made the sale of a
+foreign-owned business subject to approval by a government commission, required sellers to accept a
+steep discount on the valuation, and added a payment to the state budget; buyers were frequently
+local managers or firms close to the state. In 2023 a presidential decree allowed the temporary
+state management of foreign-owned assets, and the Russian subsidiaries of Danone and Carlsberg were
+placed under it within weeks. The firms that waited lost the option of selling on their own terms.
+
+The four options — stay, suspend, sell, walk away — each have a cost and a residual risk. McDonald's
+sold its Russian restaurants to a local licensee, which reopened them under a new name. Renault sold
+its controlling stake in AvtoVAZ to a state entity for a symbolic rouble, keeping an option to buy
+it back within six years — a sale designed to preserve an option on a return. Others suspended
+operations and paid for idle assets while hoping the situation would change. Others stayed, citing
+obligations to employees and customers or the essential nature of their products, and accepted the
+reputational cost and the risk of further sanctions or of seizure.
+
+::: {.warn}
+**The right answer depends on the firm, not on the country.** Ask the room to choose for a
+consumer-goods firm and then for an energy firm, and the answers diverge: the first has brands,
+local staff and a domestic supply chain that a buyer can run; the second has assets that cannot be
+moved, partners that may be sanctioned, and a product the target state regards as strategic.
+Country-level exposure tells you that a decision must be taken. It does not tell you which one.
+:::
+
+## Through which channels sanctions reach the firm
+
+The course organises the ways geopolitical risk reaches a multinational's profit and loss account
+into five channels, and sanctions run through all of them.
+
+**Market access.** Export bans and import bans close markets, either directly — the goods may not be
+sold — or indirectly, when customers are listed or owned by listed persons. Dual-use export
+controls, which increasingly operate alongside sanctions, close specific product lines to specific
+end users.
+
+**Inputs.** A supplier that is sanctioned, or that sits in a sanctioned jurisdiction, can no longer
+be paid. Counter-sanctions and export restrictions imposed by the target close supply from the other
+side. The firm's exposure here is often deeper in the supply chain than it can see.
+
+**Finance and payments.** This is where financial sanctions bite first: the correspondent bank that
+will not process a payment, the letter of credit that cannot be confirmed, the insurer that will not
+cover a cargo. It is also the channel through which overcompliance operates.
+
+**Assets and people.** Assets in a target country can be frozen by the sender if they are linked to
+listed persons, or seized, placed under temporary management, or sold only at a forced discount by
+the target in retaliation. Employees in the target country, and the firm's obligations to them, are
+part of the exit calculation and part of its cost.
+
+**Data and operations.** Software licences, cloud services, maintenance contracts and technical
+support may be restricted services in themselves; screening a customer base against changing lists
+is an operational burden; and a sanctioned partner on a shared platform can force the firm to cut
+off its access.
+
+The lecture's list of what a risk dashboard should track maps onto these channels. The firm's own
+**exposure** — revenues, assets and suppliers in sanctioned or at-risk jurisdictions — is the
+starting point. The **pipeline** of threats and announced measures is the TIES lesson applied: the
+cases that matter most to a firm are the ones that have not yet been imposed. The **propagation**
+risk sits in the banks, insurers and logistics providers whose own exposure could cut the firm off.
+And the **counter-measures** the target can take against foreign firms on its soil are, as Russia
+showed, the risk that determines what an exit costs.
+
+## From episodes to a dataset
+
+The Global Sanctions Data Base was built to answer, at scale, questions that case studies cannot:
+how the use of sanctions has changed over time, what types and objectives dominate, and — joined to
+trade data — what sanctions do to trade flows [@felbermayr2020]. Its unit is the *case*: a sanctions
+episode defined by its senders, its target, its start and end, its types and its objectives, with an
+outcome coded for each objective. Its producers have released it repeatedly, extending the period
+and revising earlier cases; the third release added the measures following the pandemic and the
+escalating sanctions on Russia [@syropoulos2024], and the practice round works with the fifth.
+
+Turning episodes into a time series of "active cases" requires a decision about what being active
+means. An episode with a start year and an end year is active in every year in between, so the
+practice round expands each case into one row per active year, with a year scaffold and a range
+join. Three decisions are buried in that construction. Cases that have not ended must be given an
+end — and the distributed file gives ongoing cases an end year that is the last year of the data,
+which is not what its codebook says. A case of several types appears once in each type, so a stacked
+chart of types overstates the number of cases. And a case is a case whether it consists of a single
+listing or of a comprehensive embargo, so the number of active cases measures the frequency of the
+instrument's use, not its intensity.
+
+The outcome coding carries the success debate into the data. Each objective of each case receives an
+outcome — total success, partial success, a negotiated settlement, failure, or ongoing — and the
+share judged successful depends on which objective a multi-objective case is counted under and on
+whether the ongoing cases, which by definition have not succeeded yet, enter the denominator. These
+are not technical details. They are Hufbauer's and Pape's disagreement reproduced in two calculated
+fields.
+
+TIES, set beside the GSDB, supplies what the GSDB cannot: the threats that were never imposed. The
+two datasets differ in their unit of observation, their period, their coding of senders and targets
+and their definition of an outcome, so they cannot be merged case by case. What they can do is be
+compared, year by year, to give an order of magnitude to the selection effect: how much of economic
+coercion happens before any measure is imposed.
+
+## A short review of the literature
+
+::: {.lit}
+The empirical study of sanctions begins with @hufbauer2007, whose three editions established the
+case list, the two-component coding of success and the "about a third" finding; @pape1997 audited
+the claimed successes and found few that survived, @elliott1998 replied, and @pape1998 rejoined.
+@baldwin1985 had already argued that effectiveness must be judged relative to the alternatives and
+their costs, which reframes the whole exchange. The mechanism literature runs from @galtung1967,
+whose study of Rhodesia dismantled the "naive theory" that pain produces compliance, to
+@kirshner1997, who located the effect of sanctions in the redistribution of power among groups
+within the target.
+
+The strategic turn came with @drezner1999, who explained why sanctions are imposed most on the
+adversaries least likely to concede, and @drezner2003, who identified the selection effect of
+threats. The data response was TIES, which records threats as well as impositions [@morgan2009;
+@morgan2014]. @early2015 showed how third-country sanctions busters sustain targets, which helps
+explain why multilateral sanctions do not always outperform unilateral ones.
+
+On design, @biersteker2016 evaluate UN targeted sanctions against the purposes of coercing,
+constraining and signalling, and @peksen2009 documents the human-rights cost of sanctions to the
+populations of target states. @farrell2019 explain the rise of financial sanctions through the
+chokepoints of global networks. The GSDB [@felbermayr2020] and its later releases [@syropoulos2024]
+made it possible to study sanctions at the scale of trade data, and @crozet2020 used that kind of
+data to show that much of the trade cost of the Russia sanctions after 2014 fell on products that
+were not sanctioned at all — the quantitative trace of overcompliance.
+:::
+
+## What the figure will not tell the firm
+
+The practice round rebuilds the GSDB's descriptive picture: the number of active sanctions cases per
+year by type, and the distribution of outcomes by objective. It will show the rise of the instrument
+since the end of the Cold War and the changing mix of its types. It will also show the
+decisions underneath: the end year given to ongoing cases, the double counting of multi-type cases,
+the first-objective rule, the denominator of the success share.
+
+The question to carry into the round is the one every round ends on: what does this figure not
+license a multinational to conclude? It does not license a conclusion about the firm's *exposure*. A
+count of cases naming a country says how often senders have used the instrument against it, not how
+much of the firm's revenue, supply or payments the measures touch; a single financial sanction on a
+country's largest banks can matter more to a firm than a dozen travel bans. It does not license a
+conclusion about the *perimeter*, which is drawn by ownership rules, secondary sanctions and the
+firm's own banks rather than by the list of cases. It does not license a conclusion about the
+*pipeline*, because the cases that would matter most next year are threats today, and the GSDB does
+not record threats. And the share of cases judged successful says nothing about whether a sanction
+will be lifted soon enough to make waiting the cheaper option.
+
+The figure is the right place to start a sanctions view on a team dashboard, because it shows where
+the instrument has been used and how its use has changed. It is the wrong place to stop. The firm's
+own sanctions risk lives in its footprint, its counterparties' owners, its banks, and the
+countermeasures of the states it operates in — and none of those is in the case list.

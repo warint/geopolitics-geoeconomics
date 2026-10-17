@@ -1,10 +1,10 @@
 ---
-title: "The redefinition of economic diplomacy"
+title: "Economic Diplomacy Redefined: Two-Level Games, Embassies and the Firm"
 ---
 
 ::: {.chapter-meta}
 Session 9 · Two-level games, digital diplomacy, and embassies as export promotion<br>
-[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-09-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-09-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-09-practice.html) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/09-economic-diplomacy) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/09-economic-diplomacy/data/README.md)
+[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-09-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-09-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-09-practice.html) · [Pre-session page](https://github.com/warint/geopolitics-geoeconomics/blob/main/09-economic-diplomacy/00-pre-session/README.md) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/09-economic-diplomacy) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/09-economic-diplomacy/data/README.md)
 :::
 
 > **When states compete for markets, investment and technology, is the multinational the object of
@@ -19,214 +19,514 @@ Session 9 · Two-level games, digital diplomacy, and embassies as export promoti
 | **Tableau skill** | Log scales · trend lines, and what their R² and p-value do and do not say · building the zeros a post-level file omits |
 | **Course themes** | The redefinition of economic diplomacy and the implications for multinational firms |
 
-## Before the session
+## From serving firms to screening them
 
-Budget **about two hours**.
+For most of the period covered by Session 02 — the decades in which the liberal economic order was
+built out and then globalised — economic diplomacy had a settled meaning and a settled direction.
+Diplomats negotiated trade agreements, opened markets, promoted exports and courted investors. Trade
+commissioners in embassies found distributors for small exporters; ministers led delegations of
+chief executives on state visits; export credit agencies insured contracts that private insurers
+would not touch. The state served the firm, and the firm's success abroad was counted as the state's
+success.
 
-| | Before class | Used in class for |
-|---|---|---|
-| **1** | Read Rose (2007); Putnam (1988); Bjola & Manor (2018) | the lecture and the replication |
-| **2** | Download the Lowy file, IMF exports and WDI GDP | Practice round 09 |
-| **3** | Self-check | the lecture |
+That meaning has not disappeared, but it has been joined by others, and the direction of travel has
+partly reversed. The same governments that promote their firms abroad now screen foreign firms at
+home, restrict what their own firms may sell and to whom, and draw companies into public quarrels
+conducted on social media. A multinational today is still the beneficiary of economic diplomacy. It
+is also, increasingly, its object and its instrument — and sometimes a diplomat in its own right.
 
----
+::: {.definition}
+[**Economic diplomacy**]{.term} — the use of the instruments of foreign policy for economic ends, and
+of economic instruments for foreign-policy ends. The first covers trade negotiation, export and
+investment promotion; the second covers sanctions, export controls, aid and investment screening used
+to pursue security or political goals.
+:::
 
-### 1. The reading — 80 min
+::: {.definition}
+[**Commercial diplomacy**]{.term} — the part of economic diplomacy that serves particular firms and
+sectors: trade commissioners, market intelligence, introductions, advocacy in disputes, trade
+missions, export credit and investment promotion. Its unit of account is the firm, not the economy.
+:::
 
-**Rose, A. K. (2007). The foreign service and foreign trade: Embassies as export promotion. *The
-World Economy*, 30(1), 22–38.** [doi:10.1111/j.1467-9701.2007.00870.x](https://doi.org/10.1111/j.1467-9701.2007.00870.x)
-— read in full; a free working-paper version (NBER) circulates under the same title. **Its central
-relationship — exports against foreign posts — is today's target.**
+Three shifts have redefined the field. The first is **securitisation**: trade, investment and
+technology are now treated as matters of national security, so that a firm faces screening, export
+controls and "trusted vendor" rules not only from rival states but from its own side. The second is
+the move **from promotion to coercion**: the networks that were built to promote exports — financial
+messaging, payment systems, technology supply chains — are the same networks that states now use to
+deny access, as Session 08's chokepoints showed and Session 10's sanctions will show in detail.
+Home- state support can become home-state constraint overnight. The third is **digitalisation**:
+diplomacy is increasingly conducted in public, on social media, addressed to domestic and foreign
+audiences at once, and firms are pulled into it — through boycotts, hashtags and official
+denunciations — without having chosen to be.
 
-**Putnam, R. D. (1988). Diplomacy and domestic politics: The logic of two-level games. *International
-Organization*, 42(3), 427–460.** [doi:10.1017/S0020818300027697](https://doi.org/10.1017/S0020818300027697)
-— read the first half carefully: Level I, Level II, the **win-set**.
+This chapter takes the redefinition in three steps. It begins with the theory that best captures how
+international bargaining is shaped by domestic politics, Robert Putnam's two-level game, and with
+the argument of Corneliu Bjola and Ilan Manor that digital diplomacy has changed how that game is
+played. It then turns to the empirical question at the heart of the replication: whether the most
+traditional instrument of commercial diplomacy, the embassy, actually promotes exports, as Andrew
+Rose found. Finally it turns to the relationship between states and firms directly — bargaining,
+screening and the choice a firm faces about when to lean on its home state.
 
-**Bjola, C., & Manor, I. (2018). Revisiting Putnam's two-level game theory in the digital age:
-Domestic digital diplomacy and the Iran nuclear deal. *Cambridge Review of International Affairs*,
-31(1), 3–32.** [doi:10.1080/09557571.2018.1476836](https://doi.org/10.1080/09557571.2018.1476836)
+## Two boards at once
 
-Annotate four things:
+Putnam's article begins from a frustration with theories of international relations that treated the
+state as a unitary actor, and with theories of domestic politics that ignored the international
+environment [@putnam1988]. His alternative is to model an international negotiation as two games
+played simultaneously.
 
-| | What to look for |
-|---|---|
-| **1** | Rose's **claim**, his **data** (which exporters, which posts, which years) and the **size** of the effect he reports |
-| **2** | The **reverse-causality** objection to Rose — and how he answers it |
-| **3** | Putnam's **win-set**: what enlarges it, what shrinks it |
-| **4** | What Bjola & Manor say **digital** tools change at Level II |
+At **Level I**, negotiators representing their governments bargain with each other to reach a
+tentative agreement. At **Level II**, each negotiator's domestic constituencies — legislatures,
+parties, interest groups, bureaucracies, public opinion — decide whether to ratify it. Ratification
+need not be formal; any domestic process that can kill an agreement counts. An agreement survives
+only if it is acceptable at both levels, on both sides.
 
----
+::: {.definition}
+[**Win-set**]{.term} — for a given Level II constituency, the set of possible Level I agreements that
+it would ratify. An agreement is possible only where the two sides' win-sets overlap. The size of each
+win-set depends on the distribution of power and preferences at home, on the domestic institutions
+that govern ratification, and on the strategies of the negotiators themselves.
+:::
 
-### 2. The data — 20 min
+Three lessons follow, and each has a direct application to firms.
 
-Into `09-economic-diplomacy/data/raw/`. Details: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/09-economic-diplomacy/data/README.md).
+The first is that **larger win-sets make agreement more likely**. If many possible deals would be
+ratified at home, the negotiators have more room to find one that the other side can also accept.
+But a large win-set also leaves a negotiator open to being pushed: the other side knows that
+concessions can be extracted without endangering ratification.
 
-- **Lowy Global Diplomacy Index** — `DataDownload.xlsx` from
-  [globaldiplomacyindex.lowyinstitute.org](https://globaldiplomacyindex.lowyinstitute.org/). Open the
-  2023 sheet and find the columns for sending country, host country and type of post.
-- **IMF IMTS** — [data.imf.org](https://data.imf.org/en/datasets/IMF.STA:IMTS): goods exports, FOB,
-  US$, 2023, for **Canada and at least four other** Lowy countries × all partners.
-- **WDI GDP** — `NY.GDP.MKTP.CD`.
+The second, and the most counter-intuitive, is that **a small win-set can be a bargaining asset**. A
+negotiator who can say, credibly, "my parliament will never accept that" has a reason to refuse that
+the other side cannot argue away. Thomas Schelling had made a version of this point about the power
+of binding oneself; Putnam located the binding in domestic politics. The credibility matters. A
+constraint that is invented for bargaining purposes is a bluff, and bluffs can be called.
 
----
+The third is that **negotiators play both boards at once**. A skilled negotiator does not simply
+report the constraints of Level II; he or she works to shape them — building support at home for a
+deal that is coming, and reaching across to the other side's Level II to make its ratification
+easier. Putnam called the latter "reverberation": a move at Level I that changes the balance of
+opinion in the other country's domestic politics.
 
-### 3. Self-check — 15 min
+Putnam's framework also explains two features of international agreements that otherwise look
+irrational. The first is **involuntary defection**: an agreement that a negotiator sincerely
+accepted fails at Level II because the domestic coalition behind it collapses. The second is the
+role of **side-payments and issue linkage**: a negotiator who cannot win ratification on the merits
+of a deal can enlarge the win-set by compensating the losers at home, or by linking the deal to a
+concession on another issue that brings a new constituency into the coalition. Both have a direct
+bearing on firms. The firms and sectors that stand to lose from an agreement are the ones a
+government must compensate or overrule; the firms that stand to gain are the ones it mobilises. And
+the domestic institutions that govern ratification — a legislature's voting rules, the role of
+sub-national governments, the timing of elections — determine how large the win-set can be, which is
+why a firm's analysis of a negotiation that affects it should begin with the other side's
+ratification process rather than with the negotiators' public statements.
 
-1. In Putnam's terms, why can a negotiator with a **small** win-set sometimes obtain a better deal?
-2. Rose finds that countries export more to partners where they keep more posts. Give **two**
-   explanations other than "embassies promote exports".
-3. Name one instrument of **commercial diplomacy** other than an embassy, and one firm that has used it.
-4. Investment screening (CFIUS in the US, the EU screening regulation, the *Investment Canada Act*
-   national-security review) is economic diplomacy aimed **at firms**. Name one case you know.
+### Where the multinational sits
 
----
+Draw the two-level game on a board — two negotiators facing each other at Level I, each standing on
+a circle of domestic constituencies at Level II — and ask where a multinational belongs. The answer
+is that it belongs in *several* circles at once. At home, an export-oriented firm or industry is one
+of the constituencies whose support enlarges the win-set for a trade agreement; firms lobby, testify
+and fund campaigns, and governments count their support before signing. Abroad, the same firm's
+subsidiaries, plants and employees are part of the *other* country's Level II, where they may be
+assets (a large employer can argue for an agreement locally) or hostages (a visible foreign firm is
+a convenient target for retaliation if negotiations go badly).
 
-### Arrive with
+The double position changes what a firm should expect from negotiations that concern it. A firm
+whose home government is negotiating with a host government on its behalf is not a spectator. It is
+part of the domestic politics that determine what its own negotiator can accept, and part of the
+foreign domestic politics that determine what the other side can accept. The question it must ask is
+which of its positions — lobbyist at home, employer abroad, symbol of its home country — the
+negotiators will use, and whether it can control that use.
 
-- [ ] Three readings annotated
-- [ ] `DataDownload.xlsx`, an IMF export file and WDI GDP in `data/raw/`
-- [ ] Your self-check answers, on paper
-- [ ] **The GSDB file received** (for Session 10) — if not, write to the database team today
+The renegotiation of the North American Free Trade Agreement between 2017 and 2018 shows the game at
+work, with firms on every board. The United States imposed tariffs on Canadian and Mexican steel and
+aluminium in June 2018, on national-security grounds, while the negotiation was under way — a Level
+I move aimed squarely at the other sides' Level II, where steel and aluminium producers and their
+workers would press their governments to settle. Canada's system of supply management in dairy was a
+constraint at its own Level II, defended by a well-organised domestic constituency, and the eventual
+agreement opened only a limited part of the dairy market. Automobile manufacturers, whose supply
+chains crossed all three borders many times, were Level II actors in all three countries at once,
+and the new rules of origin for vehicles were written with their production networks in view. For
+each firm involved, the question was not only what the agreement would say but which domestic
+coalition in which country would decide whether there was an agreement at all.
 
----
+## The two-level game goes digital
 
-[Session 09 overview](session-09.qmd) · [The lecture](#the-lecture) ·
-[The practice](#in-the-practice)
+Putnam wrote in 1988, about a world in which Level II was reached mainly through legislatures, interest
+groups and the press. Bjola and Manor revisit his model three decades later through the negotiations
+over Iran's nuclear programme, which culminated in the Joint Comprehensive Plan of Action of July 2015
+[@bjola2018]. Their argument is that **digital diplomacy** — ministries, embassies and leaders
+communicating directly with publics on social media — gives negotiators a new instrument for acting on
+Level II, both their own and the other side's.
 
-## The lecture
+The mechanics are straightforward. Before social media, a negotiator who wanted to build domestic
+support for a deal worked through intermediaries: parliamentary allies, friendly editors, interest
+groups. A negotiator who wanted to reach the other side's public had few channels at all. Digital
+platforms remove the intermediaries. Foreign ministers and their staff can address their own public
+directly, framing the negotiation as it happens, and can address the other side's public in its own
+language, bypassing its government. In the Iran negotiations, Bjola and Manor show, governments used
+these channels to shape how the negotiation was perceived at home and abroad, attempting to widen
+the win-sets on which ratification depended while the bargaining was still going on.
 
-The session opens with **four Risk Briefs** (20 min). The lecture follows.
+Two implications matter for multinationals. The first is **speed**. Domestic opinion now moves
+within the negotiation rather than after it, so that the outcome a firm plans around can change
+faster, and for reasons visible to anyone who follows the right accounts. The second is
+**exposure**. A firm's brand can be pulled into a digital campaign by either government — praised as
+a model of cooperation, denounced as a symbol of the other side, or made the subject of a boycott
+that a ministry amplifies. Neither role is chosen by the firm.
 
----
+The Iran agreement also illustrates the fragility of win-sets over time, which is the deeper lesson
+for planning. The agreement was concluded and ratified in the sense Putnam meant; it then lost its
+domestic support in one of the countries that had made it. The United States withdrew in 2018 and
+reimposed sanctions, including sanctions aimed at foreign firms that continued to do business with
+Iran. European companies that had re-entered the Iranian market after 2015 found that the domestic
+politics of a third country — the United States — determined whether they could stay. The two-level
+game, for a multinational, is played on more boards than two.
 
-### 1. What economic diplomacy was, and what it has become
+## Do embassies sell?
 
-**Economic diplomacy** is the use of the instruments of foreign policy for economic ends — and of
-economic instruments for foreign-policy ends. In the post-1990 order (Session 02) it was mostly the
-first: negotiate trade agreements, open markets, promote exports, attract investment. Diplomats
-served firms.
+The most traditional instrument of commercial diplomacy is the diplomatic post itself: the embassy,
+high commission or consulate, with its commercial section, its trade commissioners and its network
+of contacts. Governments spend substantial sums maintaining these networks and justify part of the
+cost by their contribution to trade. Rose asked whether the justification holds [@rose2007].
 
-Three shifts have redefined it:
+His design combined, in a single recent cross-section, data on the embassies and consulates that 22
+large exporting countries maintain in some 200 destinations with their bilateral exports, using the
+framework that economists have used to explain bilateral trade since Jan Tinbergen first applied it in the
+1960s [@tinbergen1962].
 
-| Shift | What changed | Consequence for the firm |
-|---|---|---|
-| **Securitisation** | Trade, investment and technology are now treated as matters of national security | Firms face screening, export controls and "trusted vendor" rules from their *own* side |
-| **From promotion to coercion** | The same networks used to promote exports are used to deny access (Session 08's chokepoints; Session 10's sanctions) | Home-state support can become home-state constraint overnight |
-| **Digitalisation** | Diplomacy is conducted in public, on social media, aimed at domestic and foreign publics at once | Firms are drawn into public diplomatic quarrels — boycotts, hashtags, official denunciations |
+::: {.definition}
+[**Gravity model**]{.term} — the empirical relationship in which bilateral trade between two countries
+rises with their economic size and falls with the distance between them, by analogy with Newton's law
+of gravitation. Modern versions add measures of trade costs — common language, shared borders, colonial
+ties, trade agreements — and controls for each country's overall openness to trade with all partners.
+:::
 
----
+The model's empirical success is remarkable — few relationships in economics fit cross-country data
+as well — and its theoretical foundations were put on a firm footing by Anderson and van Wincoop,
+who showed that what matters is not only the trade cost between two partners but each partner's
+trade costs with everyone else, which they called multilateral resistance [@anderson2003]. Head and
+Mayer's survey is the practical guide to estimating it [@head2014]. For Rose's purposes the gravity
+model is a way of asking a precise question: *holding constant the size of the partners and the
+distance between them, and the other standard determinants of trade, do countries export more to
+places where they keep more diplomatic posts?*
 
-### 2. Putnam: two-level games
+His answer was yes. Exports are higher where a country keeps more posts, and the association
+survives the standard gravity controls. Bilateral exports rise by approximately six to ten per cent
+for each additional consulate abroad, and the effect varies by exporter and is non-linear:
+consulates have smaller effects than the creation of an embassy [@rose2007]. The size should be read
+off his tables, by exporter and type of post, rather than remembered from a summary.
 
-Putnam (1988) models international negotiation as two simultaneous games:
+## Three objections
 
-- **Level I** — negotiators bargain with each other to reach a tentative agreement;
-- **Level II** — each negotiator's domestic constituencies decide whether to **ratify** it.
+The replication tests the result against three objections. Each is a general problem in inferring
+the effect of a policy from a cross-section, and each will recur in the evaluation of sanctions in
+Session 10.
 
-The **win-set** is the set of Level I agreements that would be ratified at Level II. Three lessons:
+### Reverse causality
 
-1. **Larger win-sets make agreement more likely** — but leave a negotiator open to being pushed.
-2. **A small win-set is a bargaining asset**: "my parliament will never accept that" is credible
-   when it is true.
-3. Negotiators play **both boards at once**: they try to shape the other side's Level II and to
-   manage their own.
+Countries open posts where they already trade. A foreign ministry deciding where to open a new
+consulate looks, among other things, at where its exporters are active and where its nationals
+travel and invest. If posts follow trade, then a cross-section in which posts and trade go together
+tells us that ministries are sensible, not that embassies generate exports. The two explanations
+predict the same snapshot.
 
-**For the firm.** Multinationals are Level II actors in *several* countries at once. An export
-industry that lobbies for a trade deal enlarges the win-set at home; a firm exposed abroad may be a
-hostage at the other side's Level II.
+They predict different *dynamics*. If posts promote exports, then pairs of countries in which a post
+is opened should see faster subsequent growth in exports than comparable pairs in which it is not.
+If posts follow exports, then export growth should come first and the post should follow. Telling
+the two apart requires data over time, and even then requires that the timing of openings not be
+driven by anticipated growth — a ministry that opens a consulate because it expects a market to boom
+will produce a post that "precedes" growth without causing it. Rose took the objection seriously and
+argued that his evidence was consistent with posts having an effect, but a cross-section cannot
+settle the question. That is the catch of the replication, and its extension step is a first, rough
+attempt at the dynamic comparison.
 
----
+### Omitted variables
 
-### 3. Bjola and Manor: the two-level game goes digital
+Large, rich and nearby partners receive more posts *and* more trade, for reasons that have nothing
+to do with each other. The gravity controls are designed to absorb exactly this, but a raw scatter
+of exports against posts does not include them. The replication's simplest correction — dividing
+exports by the partner's GDP — removes the most obvious confounder and shows how much of the raw
+relationship was simply size. Other confounders are harder: a shared language, a large diaspora, a
+history of colonial ties or a security alliance may raise both the number of posts and the volume of
+trade.
 
-Bjola and Manor (2018) revisit Putnam through the negotiations over the Iran nuclear agreement
-(2015). Their argument: **digital diplomacy** — ministries and leaders communicating directly with
-publics on social media — gives negotiators a new tool to act on Level II, **their own and the other
-side's**. Governments used digital channels to build domestic support for ratification and to
-reach the counterpart's public, reshaping win-sets during the negotiation itself.
+### Measurement
 
-Two implications for multinationals:
+A post is not a budget. A small consulate with two staff and a large embassy with a commercial
+section of fifty count the same in a tally of posts, and an honorary consulate run by a local
+businessman may count too. The type of post matters, which is why the replication separates
+embassies from consulates. The direction of the measurement problem is not obvious. Consulates are
+often placed in commercial cities precisely to serve trade; yet Rose found the creation of an
+embassy to matter more than an additional consulate, which may say as much about what an embassy
+signals as about what it does.
 
-- **Speed.** Domestic opinion now moves within the negotiation, not after it — so the regulatory
-  outcome a firm plans for can change faster.
-- **Exposure.** A firm's brand can be pulled into a digital campaign by either government.
+### The zeros
 
----
+There is a fourth problem, which the data file makes unavoidable. The Lowy Institute's file lists
+posts that exist. A country with no post in a partner does not appear — the zero is missing, not
+zero — and must be constructed. Once constructed, the zeros create a second difficulty: the
+logarithm of zero is undefined, so on a chart with logarithmic axes the partners with no posts fall
+off the plot. Dropping them silently changes the sample in a way that is correlated with the
+outcome, because the partners with no posts are disproportionately the small and distant ones with
+little trade. The same problem in the trade variable — pairs of countries that do not trade at all —
+led Santos Silva and Tenreyro to argue that the standard practice of estimating gravity equations in
+logarithms is biased, and to propose an estimator that keeps the zeros in [@santossilva2006]. The
+lesson for a chart is simpler: say how many observations a log scale has removed, and show what the
+relationship looks like with and without them.
 
-### 4. Rose: embassies as export promotion
+::: {.warn}
+**A trend line with a high R² and a tiny p-value does not show that embassies cause exports.** It shows
+a strong association in a cross-section. The R² measures how closely the points cluster around the
+line; the p-value measures how surprising the slope would be if there were no association at all.
+Neither says anything about which way the causation runs, or whether a third variable drives both.
+:::
 
-Rose (2007) asks whether the foreign service earns its keep. He combines the number of embassies
-and consulates that a set of exporting countries keep abroad with their bilateral exports, in a
-gravity framework that controls for the size of and distance between partners. His finding: exports
-are **higher where a country keeps more posts**, and the association survives the standard gravity
-controls. He reports that an additional **consulate** is associated with a further rise in exports of
-several percent — read the size off his tables, and note which kind of post matters most.
+## The rest of the toolbox, and what the evidence says
 
-**Three objections**, which the practice round tests:
+Embassies are one instrument among several. The literature on the others is useful both for what it
+finds and for how it finds it, because each study faces the same objections as Rose.
 
-| Objection | The worry | How to probe it |
-|---|---|---|
-| **Reverse causality** | Countries open posts *where they already trade* | Do posts predict *future* trade growth, or only follow past trade? |
-| **Omitted variables** | Large, rich, close partners get more posts *and* more trade | Divide trade by partner GDP; colour by distance or region |
-| **Measurement** | A post is not a budget; an honorary consulate is not an embassy | Separate embassies from consulates |
+**State visits and trade missions.** Nitsch examined the travel of the heads of state of France,
+Germany and the United States from 1948 to 2003 and found that state and official visits are
+associated with exports higher by about 8 to 10 per cent; when he turned to a
+difference-in-differences design to address reverse causality, the effect on export growth was
+strong but short-lived [@nitsch2007]. Head and Ries studied Canada's trade missions, which during
+the 1990s took the prime minister abroad with large delegations of provincial premiers and business
+leaders. Their conclusion was sobering. Canada does trade more than normal with the countries to
+which it sent missions, but the missions do not seem to have caused the increase: in their preferred
+specification, with country-pair fixed effects, the effects are small, negative and mainly
+insignificant [@head2010].
 
-Rose takes reverse causality seriously and argues that the evidence is consistent with posts having
-an effect, but a cross-section cannot settle it. That is the catch of the day.
+::: {.archive}
+[From the archive · Team Canada, 1994]{.archive-label}
 
----
+In November 1994 the Canadian prime minister, Jean Chrétien, led a delegation to China that included
+most of the provincial premiers and hundreds of business representatives. The mission was branded
+"Team Canada", and it became the model for a series of similar missions over the following years, to
+destinations in Asia, Latin America, Europe and elsewhere. Each mission announced a large total of
+contracts and agreements signed during the visit; according to the Canadian government, the missions
+generated tens of billions of dollars in new business deals [@head2010].
 
-### 5. The firm and the state: bargaining, screening, and diplomacy by firms
+The announced totals were the wrong evidence. Critics pointed out that many of the agreements were
+memoranda of understanding, that some were deals that had been negotiated before the trip and timed
+to be signed during it, and the missions were sent to markets that were already growing. Head and
+Ries's later evaluation used the missions as a natural test of whether high-profile commercial
+diplomacy changes trade flows, and compared Canada's trade with mission destinations before and
+after the missions against the trade it would otherwise have been expected to have. They found that
+the missions had small, negative and mainly insignificant effects.
 
-**Triangular diplomacy.** Stopford and Strange (1991) argued that diplomacy is no longer only
-state–state: it is also **state–firm** (governments bargain with multinationals over investment)
-and **firm–firm** (alliances). Vernon's **obsolescing bargain** (1971) adds the dynamic: once a firm's
-capital is sunk, its bargaining power falls.
+The episode is a clean illustration of the reverse-causality objection to Rose. Governments direct
+their most visible commercial diplomacy at the markets they expect to matter — which are, very often,
+the markets that would have grown anyway. A ministry that evaluates its missions by the deals announced
+during them, or by the subsequent growth of trade with the destinations, will always conclude that the
+missions succeeded.
+:::
 
-**Investment screening** is economic diplomacy aimed *at* firms: the US Committee on Foreign
-Investment (CFIUS), the EU framework regulation on FDI screening (Regulation 2019/452), and the
-national-security review under the *Investment Canada Act*. Screening has widened from defence to
-data, critical minerals, infrastructure and technology.
+**Export promotion agencies.** Lederman, Olarreaga and Payton surveyed national export promotion
+agencies and found that, on average, their budgets are associated with higher exports, with
+diminishing returns as budgets grow and with considerable differences in effectiveness depending on
+how the agencies are organised [@lederman2010]. **The body of evidence as a whole.** Moons and van
+Bergeijk assembled 32 empirical studies published between 1986 and 2011 into a meta-analysis and
+found a positive and significant effect of economic diplomacy on trade and investment — with the
+exception of state visits — and reported effects that are sensitive to the design of the individual
+studies [@moons2017]. The fair summary is that commercial diplomacy probably helps at the margin,
+that the size of its effect is hard to pin down, and that the most visible instruments are the most
+vulnerable to the selection problems that inflate naive estimates.
 
-**Commercial diplomacy — the toolbox**:
+## Triangular diplomacy
 
-| Instrument | Example of the type |
-|---|---|
-| Embassies and consulates | trade commissioners, market intelligence, introductions |
-| Trade missions and state visits | ministers travelling with business delegations |
-| Export credit and insurance | export credit agencies covering political risk |
-| Investment promotion agencies | incentives, aftercare |
-| Treaties | investment treaties with dispute settlement |
+The two-level game puts firms inside the domestic politics of states. A second tradition puts them
+across the table. John Stopford and Susan Strange argued that the changing structure of the world
+economy had turned diplomacy into a triangle [@stopford1991; @strange1992]. Alongside the familiar
+**state–state** diplomacy of governments, there is **state–firm** diplomacy, in which governments
+bargain with multinationals over the terms of investment — where a plant will be built, what share
+of inputs will be sourced locally, what will be exported — and **firm–firm** diplomacy, in which
+companies form alliances, joint ventures and consortia that shape markets as surely as treaties do.
+Governments, on this account, compete for world market shares through the firms they attract, and
+firms compete partly by bargaining with governments.
 
-**When to lean on the home state** — and when that is itself a risk: in a dispute, home-state backing
-helps; in a confrontation between states, being seen as an instrument of one may make the firm a
-target of the other.
+The bargaining has a dynamic, and Raymond Vernon described it before Stopford and Strange formalised
+the triangle [@vernon1971]. Before an investment is made, the firm holds the cards: it can choose
+among countries, and each host must offer terms good enough to win. Once the investment is made —
+once the mine is dug, the plant built, the pipeline laid — the firm's capital is sunk and cannot be
+moved. The host's bargaining power rises and the firm's falls. Terms that were agreed when the firm
+was mobile can be renegotiated when it is not.
 
----
+::: {.definition}
+[**Obsolescing bargain**]{.term} — the tendency for a multinational's bargaining power over a host
+government to decline after its investment is sunk, so that the terms agreed at entry become
+vulnerable to renegotiation, higher taxation or, in the limit, expropriation. The bargain "obsolesces"
+because the conditions that made it acceptable to the host no longer hold.
+:::
 
-### 6. The Tableau skill of the day
+::: {.archive}
+[From the archive · The nationalisation of Chilean copper, 1971]{.archive-label}
 
-A **log scale** (*Edit Axis → Logarithmic*) for variables that span orders of magnitude; a **trend
-line** (*Analytics → Trend Line*) and *Describe Trend Model* for its R² and p-value. Neither tells
-you the direction of causation. Step by step: [`../02-practice/README.md`](#in-the-practice).
+In the 1960s the large copper mines that dominated Chile's exports were owned by two American
+companies, Anaconda and Kennecott. The terms on which they operated had been renegotiated more than
+once during the decade, in each case with the Chilean state taking a larger share — first through
+taxation, then through partial state ownership under the "Chileanisation" policy of President
+Eduardo Frei. In July 1971, under President Salvador Allende, the Chilean Congress unanimously
+approved a constitutional amendment nationalising the large copper mines. The compensation formula
+allowed the government to deduct "excess profits" earned in previous years, and the deductions
+largely eliminated what the companies would otherwise have been owed.
 
----
+The episode is the textbook case of the obsolescing bargain, and it was a geopolitical event as much as
+a commercial one. The companies' home government treated the nationalisation as a matter of foreign
+policy, and the dispute became entangled with the wider hostility of the United States to Allende's
+government in the years before the coup of 1973. Kobrin's study of expropriations across developing
+countries from 1960 to 1979 placed Chile's in a wider wave, in which natural resources — where capital
+is most sunk — were prominent [@kobrin1984]. For a firm, the lesson has two
+halves: sunk capital weakens bargaining power over time, and a dispute over that capital can quickly
+stop being a dispute between a firm and a host and become one between two states.
+:::
 
-### References
+## Screening: diplomacy aimed at firms
 
-Bjola, C., & Manor, I. (2018). Revisiting Putnam's two-level game theory in the digital age:
-Domestic digital diplomacy and the Iran nuclear deal. *Cambridge Review of International Affairs*,
-31(1), 3–32. https://doi.org/10.1080/09557571.2018.1476836
+The newest element of economic diplomacy reverses the direction of the oldest. Commercial diplomacy
+helps a state's firms abroad; **investment screening** examines foreign firms at home, and blocks or
+conditions their acquisitions on grounds of national security.
 
-Putnam, R. D. (1988). Diplomacy and domestic politics: The logic of two-level games. *International
-Organization*, 42(3), 427–460. https://doi.org/10.1017/S0020818300027697
+The United States has had a screening body, the Committee on Foreign Investment in the United States
+(CFIUS), since the 1970s, but its reach and visibility have grown sharply. In 2006 the acquisition
+by Dubai Ports World of a British company that operated terminals at several American ports,
+approved under the existing procedures, provoked a political storm in Congress; the company agreed
+to divest the American operations, and the following year Congress tightened the law. A further
+reform in 2018 widened the committee's jurisdiction to non-controlling investments in businesses
+involving critical technologies, critical infrastructure and sensitive personal data. The European
+Union adopted a framework regulation for the screening of foreign direct investment in 2019
+(Regulation 2019/452), which created a mechanism for member states and the Commission to share
+information and comment on each other's cases. Canada added a national-security review to the
+*Investment Canada Act* in 2009, and has since used it in a widening range of sectors.
 
-Rose, A. K. (2007). The foreign service and foreign trade: Embassies as export promotion. *The World
-Economy*, 30(1), 22–38. https://doi.org/10.1111/j.1467-9701.2007.00870.x
+The widening is the important part. Screening began as a defence matter — who may own a supplier of
+military equipment. It now reaches data, critical minerals, infrastructure, semiconductors and
+artificial intelligence, which is to say much of the modern economy. For a multinational this is
+geopolitical risk through the **market access** and **assets** channels at once: an acquisition can
+be blocked, a completed one unwound, and a firm's ownership structure — who its shareholders are,
+where its parent is incorporated — becomes a determinant of what it may buy. It is also, in Putnam's
+terms, a Level II phenomenon: screening decisions are made by bodies that answer to domestic
+politics, and they are subject to the same reverberation as any other part of a negotiation between
+states.
 
-Stopford, J. M., & Strange, S. (1991). *Rival states, rival firms: Competition for world market
-shares*. Cambridge University Press.
+## When to lean on the home state
 
-Vernon, R. (1971). *Sovereignty at bay: The multinational spread of U.S. enterprises*. Basic Books.
+Commercial diplomacy is not only promotion. When a firm's investment is threatened by a host
+government — an expropriation, a cancelled licence, a discriminatory regulation — its home state's
+embassy is one of the places it turns. Gertz, studying the commercial work of American embassies,
+showed that diplomats routinely intervene on behalf of their firms in disputes with host
+governments, and argued that commercial diplomacy is therefore in part an instrument of
+political-risk management: a way of raising the cost to a host of mistreating a foreign investor
+[@gertz2018].
+
+That protection has a price, and the price has risen with the redefinition this chapter describes.
+In a dispute that remains commercial, home-state backing helps: the host weighs the diplomatic cost
+of mistreatment against the gain. In a confrontation between states, being seen as an instrument of
+one of them can make the firm a target of the other. A firm that accepts its ambassador's offer to
+raise its mining concession with a host president has gained an advocate and has also, in the host's
+eyes, become part of its home state's foreign policy. If relations between the two states
+deteriorate, that association will not be forgotten. Blackwill and Harris describe a world in which
+states use economic instruments systematically for geopolitical ends [@blackwill2016]; in such a
+world, the line between being protected by one's home state and being used by it is thin.
+
+Canada's experience after December 2018 shows how quickly a firm can move from beneficiary to
+hostage. When Canadian authorities arrested a senior executive of Huawei in Vancouver at the request
+of the United States, China detained two Canadian citizens and, in March 2019, suspended the export
+permits of major Canadian canola exporters, citing quality concerns. The exporters had done nothing
+in the dispute; they were simply the most visible Canadian commercial interest in China that could
+be squeezed without large cost to China itself. Their home state could protest, and did, but it
+could not restore their market access without conceding on an issue that was not theirs. In Putnam's
+terms, they had become instruments for acting on Canada's Level II — a constituency whose losses
+were meant to raise the domestic cost of the government's position.
+
+The decision can be framed with the course's five channels. Leaning on the home state may protect
+**market access** and **assets** in a dispute, but it may endanger **market access** in a rival's
+market, **inputs** sourced from a rival, **finance** from banks that fear sanctions, and the safety
+of **people** posted in a country where the firm has become a symbol. And it may draw the firm into
+the **data** demands that come with being seen as part of a state's infrastructure. The question is
+not whether a firm should ever accept help. It is whether the firm has thought about what the help
+will mean if relations between the two states change — and whether it is prepared to be, in the eyes
+of its host, its government's instrument.
+
+## From concept to data
+
+The replication asks whether a country's exports to a partner rise with the number of diplomatic
+posts it keeps there, using the most comprehensive public record of diplomatic networks. The Lowy
+Institute's Global Diplomacy Index records the networks of 66 countries and territories — G20, OECD
+and Asian states, with data collected up to November 2023 — at the level of the individual post.
+Each row of its 2023 sheet is one post, about 7,700 in all, with the sending country, the host
+country, the city and the type of post, which distinguishes embassies and high commissions from
+consulates, permanent missions and other offices. Earlier sheets allow the 2023 networks to be
+compared with those of 2017, which covers 60 senders.
+
+Three features of the data carry the arguments of this chapter into the replication. The first is
+that the file is at the wrong level: the gravity question is about pairs of countries, and the file
+is about posts. Turning posts into a count per pair is a reduction in Krippendorff's sense, and like
+every reduction it discards information — the city, the type of post — that the analysis may later
+need. The second is the missing zeros. The pairs in which a country keeps no post do not appear, and
+must be built from the list of partners in the trade data; without them, the analysis can only
+compare partners with one post against partners with several, which is not Rose's question. The
+third is the exports themselves, taken from the IMF's bilateral trade statistics as reported by the
+exporter, and scaled in one variant by the partner's GDP — the simplest available correction for the
+most obvious omitted variable.
+
+The type of post deserves a moment of its own. Embassies and high commissions are the standard
+bilateral posts; consulates and consulates-general are usually in commercial or populous cities
+other than the capital, and are the posts most directly concerned with trade and with citizens
+abroad. Permanent missions are a different thing altogether: a mission to the United Nations in New
+York or Geneva, or to an international organisation elsewhere, is located in the host country but is
+accredited to the organisation, not to the host. Counting it as a bilateral post would credit
+Switzerland or the United States with diplomatic attention that is really directed at multilateral
+bodies. Deciding which types to count is a measurement decision of exactly the kind Session 07 asked
+to be made explicitly.
+
+Two further features are worth knowing before the first chart is drawn. The Lowy file identifies
+countries by name only, with inconsistent spellings, and the trade and GDP data use codes, so every
+join depends on a concordance built by hand. And a join done carelessly, on country fields that do
+not uniquely identify a pair, can multiply rows and inflate exports without any error message. Both
+are data problems; both, unnoticed, would change the slope of the trend line more than any of the
+substantive objections.
+
+## A short review of the literature
+
+::: {.lit}
+The theory of how domestic politics shapes international bargaining is @putnam1988, whose two-level
+game and win-set remain the standard vocabulary; @bjola2018 extend it to digital diplomacy through the
+Iran nuclear negotiations. On the relationship between states and firms, @vernon1971 introduced the
+dynamic later called the obsolescing bargain, @kobrin1984 documented the wave of expropriations that
+gave it empirical content, and @stopford1991 and @strange1992 recast diplomacy as a triangle of
+state–state, state–firm and firm–firm relations. @blackwill2016 describe the return of geoeconomics —
+the systematic use of economic instruments for geopolitical ends — that has redefined the field.
+
+The empirical evaluation of commercial diplomacy rests on the gravity model, introduced by
+@tinbergen1962 and given its modern theoretical foundation by @anderson2003; @head2014 is the practical
+guide and @santossilva2006 the warning about logarithms and zeros. @rose2007 is the central study of
+diplomatic posts and exports. @nitsch2007 examines state visits, @head2010 Canada's trade missions,
+@lederman2010 export promotion agencies, and @moons2017 synthesises the econometric evidence in a
+meta-analysis. @gertz2018 shows commercial diplomacy at work in investment disputes, connecting the
+promotion of firms abroad to the management of political risk.
+:::
+
+## What the trend line will not tell the firm
+
+The practice round produces a scatter of exports against diplomatic posts, on logarithmic axes, with
+a trend line and a model summary. It will almost certainly slope upwards, and the R² will be
+respectable. The temptation is to read it as Rose's finding confirmed: posts promote exports.
+
+The trend line does not license that conclusion, for a multinational or for a foreign ministry. It
+does not show that opening a post in a market will raise exports there, because posts are opened
+where exports are expected, and the snapshot cannot tell the two directions apart. It does not show
+that the relationship is about diplomacy at all until the size of the partner has been removed, and
+it may show something quite different once embassies and consulates are separated. And if the zeros
+have been dropped — silently, by a logarithmic axis — it does not show the relationship for the
+partners where the question is most interesting: the markets in which a country has no presence yet.
+
+For a firm, the more useful reading is the reverse of the naive one. The density of a home state's
+diplomatic network in a market is a measure of how much that state already cares about the market —
+a measure of the political attention a firm can expect when it needs help, and of the political
+attention it will attract when relations sour. The question to carry into the practice round is the
+one this chapter has framed: in the markets that matter to the team's firm, is the firm the object
+of its home state's diplomacy, its instrument, or its hostage — and what would change that answer?
 
 ## In the practice
 

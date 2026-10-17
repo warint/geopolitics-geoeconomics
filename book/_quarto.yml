@@ -42,6 +42,9 @@ book:
     - readings.qmd
     - assessment.qmd
 
+bibliography: references.bib
+link-citations: true
+
 format:
   html:
     theme: [cosmo, book.scss]

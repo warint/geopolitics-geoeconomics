@@ -3,7 +3,7 @@
 > **In a system with no government above states, who sets the terms of trade — and how would a
 > multinational know that the balance is shifting?**
 
-Slides: [`INTE60019A-S03-Pre-Session.qmd`](INTE60019A-S03-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-03-pre-session.html)** — or read the source at [`INTE60019A-S03-Pre-Session.qmd`](INTE60019A-S03-Pre-Session.qmd).
 
 Three things to do before class. Budget **about two hours**.
 

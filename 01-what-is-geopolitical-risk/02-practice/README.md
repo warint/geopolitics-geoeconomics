@@ -2,7 +2,7 @@
 
 # Rebuild the Geopolitical Risk index
 
-Slides: [`INTE60019A-S01-Practice.qmd`](INTE60019A-S01-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-01-practice.html)** — or read the source at [`INTE60019A-S01-Practice.qmd`](INTE60019A-S01-Practice.qmd).
 
 > **The target.** Caldara & Iacoviello (2022), Figure 1: the monthly GPR index since 1985, its
 > spikes labelled with the events behind them. Then its historical counterpart since 1900.

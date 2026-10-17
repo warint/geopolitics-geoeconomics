@@ -3,7 +3,7 @@
 > **Every geopolitical risk score a multinational buys or builds is a chain of choices: which texts,
 > which words, which coder, which weights. Can you see the chain — and defend each link?**
 
-Slides: [`INTE60019A-S07-Pre-Session.qmd`](INTE60019A-S07-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-07-pre-session.html)** — or read the source at [`INTE60019A-S07-Pre-Session.qmd`](INTE60019A-S07-Pre-Session.qmd).
 
 Four things to do before class. Budget **about two and a half hours**, and **revise Sessions 04–06**:
 Quiz 2 opens the session.

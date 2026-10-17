@@ -2,9 +2,9 @@
 
 # What is geopolitical risk?
 
-Slides: [`INTE60019A-S01-Lecture.qmd`](INTE60019A-S01-Lecture.qmd) · Instructor plan:
-[`TEACHING-PLAN.md`](TEACHING-PLAN.md) ·
-As a book chapter: [course book, Session 01](https://warint.github.io/geopolitics-geoeconomics/book/session-01.html)
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-01-lecture.html)** — or read the source at [`INTE60019A-S01-Lecture.qmd`](INTE60019A-S01-Lecture.qmd).
+> As a book chapter: [course book, Session 01](https://warint.github.io/geopolitics-geoeconomics/book/session-01.html) · Instructor plan:
+> [`TEACHING-PLAN.md`](TEACHING-PLAN.md)
 
 ---
 

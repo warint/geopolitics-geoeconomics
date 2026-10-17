@@ -5,6 +5,11 @@
 > **Every geopolitical risk score a multinational buys or builds is a chain of choices: which texts,
 > which words, which coder, which weights. Can you see the chain — and defend each link?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-07-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S07-Lecture.qmd`](01-lecture/INTE60019A-S07-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-07-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-07-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-07.html)
+
 | | |
 |---|---|
 | **Big work** | Hassan, T. A., Hollander, S., van Lent, L., & Tahoun, A. (2019). Firm-level political risk: Measurement and effects. *Quarterly Journal of Economics*, 134(4), 2135–2202. [doi:10.1093/qje/qjz021](https://doi.org/10.1093/qje/qjz021) |

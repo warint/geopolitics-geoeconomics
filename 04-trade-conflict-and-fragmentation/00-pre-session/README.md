@@ -3,7 +3,7 @@
 > **If states trade more with friends than with rivals, how does a multinational find out which side
 > each of its markets is on — and how fast the lines are hardening?**
 
-Slides: [`INTE60019A-S04-Pre-Session.qmd`](INTE60019A-S04-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-04-pre-session.html)** — or read the source at [`INTE60019A-S04-Pre-Session.qmd`](INTE60019A-S04-Pre-Session.qmd).
 
 Four things to do before class. Budget **about two and a half hours**: today opens with Quiz 1.
 

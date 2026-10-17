@@ -2,9 +2,9 @@
 
 # The international economic order
 
-Slides: [`INTE60019A-S02-Lecture.qmd`](INTE60019A-S02-Lecture.qmd) · Instructor plan:
-[`TEACHING-PLAN.md`](TEACHING-PLAN.md) ·
-As a book chapter: [course book, Session 02](https://warint.github.io/geopolitics-geoeconomics/book/session-02.html)
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-02-lecture.html)** — or read the source at [`INTE60019A-S02-Lecture.qmd`](INTE60019A-S02-Lecture.qmd).
+> As a book chapter: [course book, Session 02](https://warint.github.io/geopolitics-geoeconomics/book/session-02.html) · Instructor plan:
+> [`TEACHING-PLAN.md`](TEACHING-PLAN.md)
 
 The session opens with four Risk Briefs (20 minutes); the lecture takes the next seventy.
 

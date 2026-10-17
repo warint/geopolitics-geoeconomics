@@ -1,9 +1,14 @@
 # Session 05 — International institutions
 
-### Arenas of power, or constraints on it?
+### The economic institutions that finance, insure and arbitrate business — old and new
 
-> **When a multinational relies on an international institution to manage its risk, is it relying on
-> a rule — or on the states that buy and sell influence inside it?**
+> **When a multinational relies on an international institution to finance, insure or protect its
+> business, is it relying on a rule — or on the states that buy and sell influence inside it?**
+
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-05-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S05-Lecture.qmd`](01-lecture/INTE60019A-S05-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-05-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-05-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-05.html)
 
 | | |
 |---|---|
@@ -19,9 +24,9 @@
 
 | Geopolitics | Data & Tableau | International business |
 |---|---|---|
-| Contrast the **realist** and **liberal institutionalist** accounts of why states build and obey institutions | Build a country × term table from an official list, and relate it to a country × year aid file | Say where institutions enter a firm's risk: UN sanctions, investment arbitration, political risk insurance |
-| Describe the **structure of the Security Council**: P5, veto, ten elected members, regional rotation | Compute **years relative to a term** and a **pre-term baseline** with `FIXED` LOD expressions | Explain why a Chapter VII sanctions resolution binds a firm in every UN member state |
-| State Kuziemko and Werker's finding and the identification idea behind it | Draw an event-time chart with a reference band for the term years | Judge when an institution reduces a firm's risk and when it is one more arena where risk is made |
+| Contrast the **realist** and **liberal institutionalist** accounts of why states build institutions — and apply them to the **Bretton Woods** order and to the **new institutions** from Asia and the BRICS (AIIB, NDB, the Contingent Reserve Arrangement, the Chiang Mai Initiative, China's policy banks) | Build a country × term table from an official list, and relate it to a country × year aid file | Map the **business channels** institutions open to a firm: procurement, project and trade finance, political risk insurance (MIGA), investment arbitration (ICSID) — at the World Bank Group, the regional development banks and the new banks |
+| Read **voting power against capital**: IMF quotas, World Bank and regional-bank shareholding, AIIB and NDB voting rules — complement or counter-hegemony? | Compute **years relative to a term** and a **pre-term baseline** with `FIXED` LOD expressions | Name the **geopolitical risks** that come with them: conditionality, sanctions exposure, alignment, competing standards, currency |
+| State Kuziemko and Werker's finding — influence inside an institution has a price — and the identification idea behind it | Draw an event-time chart with a reference band for the term years | Judge when an institution reduces a firm's risk and when it is one more arena where risk is made |
 
 ---
 
@@ -29,9 +34,9 @@
 
 | | Where | Time |
 |---|---|---|
-| **Before class** | [`00-pre-session/`](00-pre-session/README.md) — read the paper, collect the aid data and the list of elected members | 2 h |
+| **Before class** | [`00-pre-session/`](00-pre-session/README.md) — read the paper and a short piece on the new development banks, collect the aid data and the list of elected members | 2 h |
 | **Opening** | Four **Risk Briefs**, five-minute slots (four minutes + one question) | 20 min |
-| **First half** | [`01-lecture/`](01-lecture/README.md) — why institutions exist; the Council; the price of a seat; what it means for firms | 70 min |
+| **First half** | [`01-lecture/`](01-lecture/README.md) — why institutions; the Bretton Woods core and the World Bank Group as a business toolkit; the price of a seat; the regional development banks; the new institutions from Asia and the BRICS; complement or counter-hegemony; what it means for firms | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 05:** rebuild the event-time figure | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
 | **Lecture notes** | [Chapter 5 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-05.html) — pre-session, lecture and practice as one readable, searchable page | — |

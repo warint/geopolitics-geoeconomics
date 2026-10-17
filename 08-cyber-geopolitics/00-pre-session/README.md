@@ -3,7 +3,7 @@
 > **Is cyberspace a new battlefield for great powers — or a new way for old rivals to hurt each
 > other, with multinationals as collateral?**
 
-Slides: [`INTE60019A-S08-Pre-Session.qmd`](INTE60019A-S08-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-08-pre-session.html)** — or read the source at [`INTE60019A-S08-Pre-Session.qmd`](INTE60019A-S08-Pre-Session.qmd).
 
 Four things to do before class. Budget **about two hours**.
 

@@ -2,7 +2,7 @@
 
 # The diffusion of ISO 14001 — and the pull of export markets
 
-Slides: [`INTE60019A-S06-Practice.qmd`](INTE60019A-S06-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-06-practice.html)** — or read the source at [`INTE60019A-S06-Practice.qmd`](INTE60019A-S06-Practice.qmd).
 
 > **The target.** Prakash & Potoski (2006): ISO 14001 spreads across countries, and a country adopts
 > more when its **export markets** have adopted more. Two views: the diffusion (a map and small

@@ -2,7 +2,7 @@
 
 # Three measures: firm-level risk, your coded index, and a composite with moving weights
 
-Slides: [`INTE60019A-S07-Practice.qmd`](INTE60019A-S07-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-07-practice.html)** — or read the source at [`INTE60019A-S07-Practice.qmd`](INTE60019A-S07-Practice.qmd).
 
 > **The targets.** (a) Hassan et al. (2019): **average firm-level political risk over time**, against
 > the EPU index. (b) **Your own coded index** — 40 headlines, two coders, a kappa. (c) A **composite

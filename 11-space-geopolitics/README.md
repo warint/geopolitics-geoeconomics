@@ -6,6 +6,11 @@
 > When orbit is crowded, contested and dominated by one operator, who holds the risk — and what
 > can the firm do about it?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-11-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S11-Lecture.qmd`](01-lecture/INTE60019A-S11-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-11-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-11-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-11.html)
+
 | | |
 |---|---|
 | **Big works** | ESA Space Debris Office. (2026). *ESA's annual space environment report* (Issue 10.0, 1 May 2026; GEN-DB-LOG-00288-OPS-SD). European Space Agency. [PDF](https://www.sdo.esoc.esa.int/publications/Space_Environment_Report_I10R0_20260501.pdf) · Samson, V., & Brett, K. (Eds.). (2026). *Global counterspace capabilities: An open source assessment*. Secure World Foundation. [swfound.org](https://www.swfound.org/publications-and-reports/2026-global-counterspace-capabilities-report) |

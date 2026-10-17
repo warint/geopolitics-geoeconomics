@@ -5,6 +5,11 @@
 > **Who wrote the rules multinationals play by — and what happens to the rules when the writers'
 > share of the world shrinks?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-02-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S02-Lecture.qmd`](01-lecture/INTE60019A-S02-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-02-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-02-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-02.html)
+
 | | |
 |---|---|
 | **Big work** | Baldwin, R. (2016). *The Great Convergence: Information Technology and the New Globalization*. Belknap Press of Harvard University Press. |

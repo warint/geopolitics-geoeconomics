@@ -2,7 +2,7 @@
 
 # Rebuild the sanctions record
 
-Slides: [`INTE60019A-S10-Practice.qmd`](INTE60019A-S10-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-10-practice.html)** — or read the source at [`INTE60019A-S10-Practice.qmd`](INTE60019A-S10-Practice.qmd).
 
 > **The target.** The Global Sanctions Data Base's descriptive picture (Felbermayr et al., 2020):
 > **active sanctions cases per year, by type**, from 1950 to today, and the **distribution of

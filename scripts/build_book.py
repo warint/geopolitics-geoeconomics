@@ -13,9 +13,15 @@ The shape of a chapter
 One session is one chapter, and it holds the whole session:
 
     the session at a glance    question, big work, target figure, data, Tableau skill
-    ## Before the session      the reading and the data (00-pre-session/README.md)
-    ## The lecture             the lecture notes (01-lecture/README.md)
+    the chapter                long-form prose, authored in NN-slug/chapter.md
     ## In the practice         the practice-round brief (02-practice/README.md)
+
+chapter.md is the session's lecture notes written as a book chapter, as in the
+quantitative-methods course: front matter (`title:`), narrative `##` sections,
+and the book's fenced divs (.definition, .archive, .lit, .step, .check, .warn).
+Its citations ([@key]) resolve against NN-slug/chapter.bib; every session's bib
+is merged into book/references.bib. A session without chapter.md falls back to
+its structured notes: Before the session, The lecture, In the practice.
 
 A student who searches "Herfindahl" should land once, on Session 11, and find
 the concept, the reading and the exercise that uses it, in that order.
@@ -148,12 +154,18 @@ def rewrite_links(text, source):
     return re.sub(r"(!?)\[([^\]]*)\]\(([^)\s]+)\)", repl, text)
 
 
+# The "> **[Open the … slides](…)**" block at the top of every README: the chapter
+# header already links the decks, so it is dropped from the book.
+SLIDE_LINKS = re.compile(r"^> \*\*\[Open the .*(?:\n>.*)*\n\n?", re.M)
+
+
 def brief(path, by=1, question=""):
     text = path.read_text(encoding="utf-8")
     if question:
         text = text.replace(question + "\n", "", 1)
     # The "Slides: … · Instructor plan: …" paragraph points at files; the chapter header links the decks.
     text = re.sub(r"^Slides: .*(?:\n.+)*\n", "", text, count=1, flags=re.M)
+    text = SLIDE_LINKS.sub("", text, count=1)
     return rewrite_links(shift_headings(drop_titles(text), by), path)
 
 
@@ -190,20 +202,58 @@ def deck_links(num, folder):
              if list(folder.glob(f"*/INTE60019A-S{num}-{kind}.qmd"))]
     if num == "12":
         links = [f"[Presentation-day slides]({PAGES}session-12-presentations.html)"]
+    if (folder / "00-pre-session/README.md").exists():
+        links.append(f"[Pre-session page]({GH}{folder.name}/00-pre-session/README.md)")
     links.append(f"[Session folder]({GH.replace('/blob/', '/tree/')}{folder.name})")
     links.append(f"[Data instructions]({GH}{folder.name}/data/README.md)"
                  if (folder / "data/README.md").exists() else "")
     return " · ".join(l for l in links if l)
 
 
+def chapter_prose(folder):
+    """(declared front matter, body) of NN-slug/chapter.md, or ({}, None)."""
+    path = folder / "chapter.md"
+    if not path.exists():
+        return {}, None
+    raw = path.read_text(encoding="utf-8")
+    declared = {}
+    m = re.match(r"^---\n(.*?)\n---\n", raw, re.S)
+    if m:
+        for line in m.group(1).splitlines():
+            key, sep, value = line.partition(":")
+            if sep:
+                declared[key.strip()] = value.strip().strip("\"'")
+        raw = raw[m.end():]
+    return declared, rewrite_links(raw.strip(), path)
+
+
 def chapter(folder):
     num = folder.name[:2]
     title, subtitle, question, table = session_facts(folder)
+    declared, prose = chapter_prose(folder)
+    title = declared.get("title") or title
     parts = [f'---\ntitle: "{title}"\n---\n',
              f"::: {{.chapter-meta}}\nSession {int(num)}"
              + (f" · {subtitle}" if subtitle else "") + f"<br>\n{deck_links(num, folder)}\n:::\n"]
     if question:
         parts.append(question + "\n")
+
+    if prose:
+        if table and num != "12":
+            parts.append(table + "\n")
+        parts.append(prose + "\n")
+        if num == "12":
+            body = (folder / "README.md").read_text(encoding="utf-8")
+            body = re.sub(r"^#\s.*\n", "", body, count=1)
+            body = re.sub(r"^###\s.*\n", "", body, count=1)
+            body = re.sub(r"^>.*\n(?:>.*\n)*", "", body.strip() + "\n", count=1, flags=re.M)
+            body = SLIDE_LINKS.sub("", body.lstrip("\n"), count=1)
+            parts.append("## On the day\n\n" + shift_headings(rewrite_links(body.strip(), folder / "README.md")))
+        else:
+            p = folder / "02-practice/README.md"
+            if p.exists():
+                parts.append(f"## In the practice\n\n{brief(p, question=question)}\n")
+        return "\n".join(parts) + "\n"
 
     if num == "12":
         body = (folder / "README.md").read_text(encoding="utf-8")
@@ -276,9 +326,9 @@ conclude?* That is the habit the course is built to leave behind.
 
 | If you want to | Go to |
 |---|---|
-| Prepare for next week | the session's **Before the session** |
-| Re-read the argument after class | the session's **The lecture** |
-| Know exactly what the practice round asks | the session's **In the practice** |
+| Prepare for next week | the session's pre-session page, linked at the top of each chapter |
+| Re-read the argument after class | the chapter itself |
+| Know exactly what the practice round asks | the chapter's last section, **In the practice** |
 | Find where something was covered | the **search box**, top of the sidebar |
 | Find a dataset, its URL and its traps | [Data sources](data-sources.qmd) |
 | Know how you are graded | [Assessment](assessment.qmd) |
@@ -293,7 +343,8 @@ it, with its reading and its exercise.
 ## The slides {{.unnumbered}}
 
 Each chapter links to the decks it was built from. The slides remain the version delivered in class;
-the book is the same material as continuous prose, which is the better form for reading afterwards.
+the book sets the same argument out at length, as continuous prose — about six thousand words a
+session, with the definitions, the history and the literature the slides only point to.
 All decks are also listed on the [course site]({PAGES}).
 
 ## The twelve chapters {{.unnumbered}}
@@ -341,6 +392,9 @@ book:
   appendices:
 {appendices}
 
+bibliography: references.bib
+link-citations: true
+
 format:
   html:
     theme: [cosmo, book.scss]
@@ -363,7 +417,23 @@ format:
 """
 
 
-GENERATED = ("*.qmd", "*.scss", "_quarto.yml")
+GENERATED = ("*.qmd", "*.scss", "_quarto.yml", "references.bib")
+
+
+def merge_bibliographies(folders):
+    """Concatenate every NN-slug/chapter.bib, keeping the first entry for each key."""
+    seen, out = set(), []
+    for f in folders:
+        bib = f / "chapter.bib"
+        if not bib.exists():
+            continue
+        for entry in re.split(r"\n(?=@)", "\n" + bib.read_text(encoding="utf-8")):
+            m = re.match(r"\s*@\w+\s*\{\s*([^,\s]+)\s*,", entry)
+            if m and m.group(1) not in seen:
+                seen.add(m.group(1))
+                out.append(entry.strip())
+    (BOOK / "references.bib").write_text("\n\n".join(out) + "\n", encoding="utf-8")
+    return len(out)
 
 
 def clean():
@@ -380,12 +450,14 @@ def main():
     (BOOK / "_quarto.yml").write_text(quarto_yml(folders), encoding="utf-8")
     shutil.copy2(ROOT / "slides/book.scss", BOOK / "book.scss")
     (BOOK / "index.qmd").write_text(preface(folders), encoding="utf-8")
+    refs = merge_bibliographies(folders)
     for f in folders:
         (BOOK / f"session-{f.name[:2]}.qmd").write_text(chapter(f), encoding="utf-8")
     for qmd, title, src in APPENDICES:
         text = assessment_page() if qmd == "assessment.qmd" else flat_page(title, src)
         (BOOK / qmd).write_text(text, encoding="utf-8")
-    print(f"book/: {len(folders)} chapters, {len(APPENDICES)} appendices")
+    print(f"book/: {len(folders)} chapters ({sum((f / 'chapter.md').exists() for f in folders)} "
+          f"written), {len(APPENDICES)} appendices, {refs} references")
 
 
 if __name__ == "__main__":

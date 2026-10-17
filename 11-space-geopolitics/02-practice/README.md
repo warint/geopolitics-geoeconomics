@@ -2,7 +2,7 @@
 
 # Rebuild the debris record, measure the new space race
 
-Slides: [`INTE60019A-S11-Practice.qmd`](INTE60019A-S11-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-11-practice.html)** — or read the source at [`INTE60019A-S11-Practice.qmd`](INTE60019A-S11-Practice.qmd).
 
 > **The target.** ESA's *Space Environment Report 2026*, Figure 2.1: the **number of objects in
 > geocentric orbit by object class**, from 1957 to the end of 2025, with the 2007 Chinese ASAT test,

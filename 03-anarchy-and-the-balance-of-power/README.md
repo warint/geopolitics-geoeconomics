@@ -5,6 +5,11 @@
 > **In a system with no government above states, who sets the terms of trade — and how would a
 > multinational know that the balance is shifting?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-03-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S03-Lecture.qmd`](01-lecture/INTE60019A-S03-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-03-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-03-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-03.html)
+
 | | |
 |---|---|
 | **Big works** | Mearsheimer, J. J. (2001). *The Tragedy of Great Power Politics*. W. W. Norton. · Allison, G. (2017). *Destined for War: Can America and China Escape Thucydides's Trap?* Houghton Mifflin Harcourt. |

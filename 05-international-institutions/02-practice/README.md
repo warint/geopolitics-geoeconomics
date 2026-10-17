@@ -2,7 +2,7 @@
 
 # The price of a seat, in event time
 
-Slides: [`INTE60019A-S05-Practice.qmd`](INTE60019A-S05-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-05-practice.html)** — or read the source at [`INTE60019A-S05-Practice.qmd`](INTE60019A-S05-Practice.qmd).
 
 > **The target.** Kuziemko & Werker (2006): US aid to developing countries **in the years around a
 > Security Council term** — flat before, higher during the two term years, back down after.

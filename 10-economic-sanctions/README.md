@@ -5,6 +5,11 @@
 > **Sanctions have become the instrument of first resort. Are they an efficient mechanism for
 > regulating geopolitical risk — or a source of it?**
 
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-10-lecture.html)** — or read the source at
+> [`01-lecture/INTE60019A-S10-Lecture.qmd`](01-lecture/INTE60019A-S10-Lecture.qmd).
+> Also in your browser: [pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-10-pre-session.html) ·
+> [practice slides](https://warint.github.io/geopolitics-geoeconomics/session-10-practice.html) · [the chapter in the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-10.html)
+
 | | |
 |---|---|
 | **Big works** | Hufbauer, G. C., Schott, J. J., Elliott, K. A., & Oegg, B. (2007). *Economic Sanctions Reconsidered* (3rd ed.). Peterson Institute for International Economics. · Felbermayr, G., Kirilakha, A., Syropoulos, C., Yalcin, E., & Yotov, Y. V. (2020). The Global Sanctions Data Base. *European Economic Review*, 129, 103561. [doi:10.1016/j.euroecorev.2020.103561](https://doi.org/10.1016/j.euroecorev.2020.103561) |

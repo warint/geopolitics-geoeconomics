@@ -2,7 +2,7 @@
 
 > **Before we can manage geopolitical risk, what exactly are we counting?**
 
-Slides: [`INTE60019A-S01-Pre-Session.qmd`](INTE60019A-S01-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-01-pre-session.html)** — or read the source at [`INTE60019A-S01-Pre-Session.qmd`](INTE60019A-S01-Pre-Session.qmd).
 
 Three things to do before class. Budget **about two hours** — most of it is the reading. Start the
 Tableau licence request **today**: approval can take several days.

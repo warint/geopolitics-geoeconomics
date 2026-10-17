@@ -2,9 +2,9 @@
 
 # Economic sanctions
 
-Slides: [`INTE60019A-S10-Lecture.qmd`](INTE60019A-S10-Lecture.qmd) · Instructor plan:
-[`TEACHING-PLAN.md`](TEACHING-PLAN.md) ·
-As a book chapter: [course book, Session 10](https://warint.github.io/geopolitics-geoeconomics/book/session-10.html)
+> **[Open the lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-10-lecture.html)** — or read the source at [`INTE60019A-S10-Lecture.qmd`](INTE60019A-S10-Lecture.qmd).
+> As a book chapter: [course book, Session 10](https://warint.github.io/geopolitics-geoeconomics/book/session-10.html) · Instructor plan:
+> [`TEACHING-PLAN.md`](TEACHING-PLAN.md)
 
 The session opens with **Quiz 3** (20 min) and **four Risk Briefs** (20 min). The lecture is
 therefore shorter today.

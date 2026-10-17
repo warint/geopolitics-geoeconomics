@@ -2,7 +2,7 @@
 
 # Rebuild the distribution of power
 
-Slides: [`INTE60019A-S03-Practice.qmd`](INTE60019A-S03-Practice.qmd)
+> **[Open the practice slides](https://warint.github.io/geopolitics-geoeconomics/session-03-practice.html)** — or read the source at [`INTE60019A-S03-Practice.qmd`](INTE60019A-S03-Practice.qmd).
 
 > **The target.** The shares of world material capabilities (CINC) of the major powers, 1816–2022 —
 > the picture behind Mearsheimer's and Allison's argument — and the year China passes the United

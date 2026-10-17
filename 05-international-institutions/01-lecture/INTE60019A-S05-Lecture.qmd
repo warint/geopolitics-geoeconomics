@@ -27,11 +27,15 @@ format:
 ## Outline · The hour ahead {.center .scrollable}
 
 1. Risk Briefs
-2. Why would states under anarchy build institutions?
-3. The Security Council in five facts
-4. The price of a seat — Kuziemko & Werker (2006)
-5. What it means for multinational firms
-6. The Tableau skill of the day: LOD expressions
+2. Why institutions — and why a firm should care
+3. The Bretton Woods core: IMF, WTO, OECD
+4. The World Bank Group as a business toolkit
+5. Does influence have a price? Kuziemko & Werker (2006)
+6. The regional development banks
+7. The new institutions — from Asia and the BRICS
+8. Complement or counter-hegemony?
+9. What it means for the firm
+10. The Tableau skill of the day: LOD expressions
 
 ## What session 5 is for {.scrollable}
 
@@ -41,9 +45,9 @@ format:
 
 ### The geopolitics
 
-- Realism vs liberal institutionalism on why institutions exist
-- The structure of the Security Council
-- Kuziemko & Werker's finding, and how it is identified
+- Realism vs liberal institutionalism; contested multilateralism
+- Bretton Woods and the new institutions: votes vs capital
+- Kuziemko & Werker: influence has a price
 
 ::::
 
@@ -61,8 +65,8 @@ format:
 
 ### The international business
 
-- Where institutions enter a firm's risk
-- Why a Chapter VII resolution binds a firm everywhere
+- Procurement, finance, insurance, arbitration
+- MIGA, IFC, ICSID, the regional banks, the AIIB and the NDB
 - Track the coalition, not just the rule
 
 ::::
@@ -84,7 +88,11 @@ format:
 One question from the room per brief.
 :::
 
-# Why would states under anarchy build institutions? {background-color="#E3120B" style="color:#F7F4ED"}
+# Why institutions — and why a firm should care {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Put it to the room
+
+> Your firm bids to build a power plant in Kenya. **Name every international institution that could be involved** — as lender, insurer, co-investor, referee or competitor.
 
 ## Two answers
 
@@ -93,32 +101,130 @@ One question from the room per brief.
 | **Key text** | Keohane (1984), *After Hegemony* | Mearsheimer (1994/95), *The False Promise…* |
 | **Why they exist** | Lower transaction costs; information; a longer shadow of the future | They reflect the distribution of power |
 | **Do they constrain?** | At the margin — reneging becomes costly | Rarely — power wins when interests collide |
-| **For the firm** | Rules are a stable floor | Rules last as long as the coalition behind them |
+| **For the firm** | A loan, a policy, an award behave predictably | Read the shareholders, not the charter |
 
 ::: {.get}
 The firm's question is not *which theory is true* but **which institution, on which issue, behaves like which.**
 :::
 
-## Put it to the room
+## Contested multilateralism
 
-> The WTO Appellate Body has been unable to hear appeals since December 2019.
-> **Which theory explains that better — and what does it predict next?**
+::::: columns
 
-# The Security Council in five facts {background-color="#E3120B" style="color:#F7F4ED"}
+:::: {.column width="50%"}
 
-## Fifteen seats
+### Regime shifting
+
+Move the issue to **another existing** institution
+
+::::
+
+:::: {.column width="50%"}
+
+### Competitive regime creation
+
+Build a **new** one — the AIIB is the textbook case
+
+::::
+
+:::::
+
+::: {.muted}
+Morse, J. C., & Keohane, R. O. (2014). Contested multilateralism. *Review of International Organizations*, 9(4), 385–412. [doi:10.1007/s11558-014-9188-2](https://doi.org/10.1007/s11558-014-9188-2)
+:::
+
+# The Bretton Woods core {background-color="#E3120B" style="color:#F7F4ED"}
+
+## The IMF: who holds the votes {.scrollable}
+
+| | |
+|---|---|
+| **Founded** | Articles adopted at Bretton Woods, 22 July 1944 · **191** members |
+| **Lends to** | Governments — never to firms; its programmes set the firm's conditions |
+| **Voting power** | **US 16.49%** · Japan 6.14% · **China 6.08%** · India ≈2.63% · Russia ≈2.59% · Brazil ≈2.22% · South Africa ≈0.63% |
+| **The 85% rule** | Any quota change needs 85% of votes → **only the US can block alone** |
+| **Reform** | 16th Review: +50%, **equiproportional** — no realignment; still not in force (deadline 15 Nov 2026) |
+
+::: {.warn}
+**Votes lag economic weight.** That gap is why the new institutions exist.
+:::
+
+::: {.muted}
+IMF *Annual Report 2026*, App. IV (votes as of 30 April 2026); India–South Africa shares computed from vote counts. Accessed 16 Oct 2026.
+:::
+
+## WTO and OECD — the rules around the deal
+
+| | What matters to the firm |
+|---|---|
+| **WTO** (1995 · 166 members) | Tariff bindings, non-discrimination. **No Appellate Body members since 30 Nov 2020**; 62 members appeal through the **MPIA** instead |
+| **OECD** (38 members) | **Export-credit Arrangement** (1978): caps the terms ECAs may offer — China is not a participant |
+| | **MNE Guidelines** (1976, updated 2023): complaints go to National Contact Points |
+| | **Pillar Two**: 15% minimum tax on groups ≥ €750 m revenue |
+
+# The World Bank Group as a business toolkit {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Five institutions, five things a firm can use {.scrollable}
+
+| | Founded · members | For the firm |
+|---|---|---|
+| **IBRD / IDA** | 1944 / 1960 · 189 / 175 | **Contracts** — projects buy through international procurement |
+| **IFC** | 1956 · 186 | **Co-investment**: loans in 88 local currencies, equity, guarantees; MCPP co-lending |
+| **MIGA** | 1988 · 182 | **Political risk insurance**: transfer, expropriation, war, breach of contract, sovereign non-honouring |
+| **ICSID** | 1966 · 159 states | **Investor–state arbitration** |
+
+::: {.muted}
+World Bank Group members page; ICSID/3 (16 Aug 2026). Accessed 16 Oct 2026.
+:::
+
+## The scale, FY2026
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Finance and insurance
+
+- **IFC**: US$32.0 bn own account; US$73.6 bn private capital mobilised
+- **MIGA**: record US$10.6 bn issued, 60 projects; gross exposure US$41.4 bn
+- **Guarantee Platform** at MIGA since 1 July 2024 — target US$20 bn a year by 2030
+
+::::
+
+:::: {.column width="50%"}
+
+### Disputes
+
+- **ICSID**: 1,118 cases registered; 363 administered in FY2026
+- New cases: oil & gas 25%, mining 18%; 62% under BITs
+- Denunciations: Bolivia 2007, Ecuador 2009 (back 2021), Venezuela 2012, Honduras 2024 (back 2026)
+
+::::
+
+:::::
+
+## Procurement — and its other side
+
+::: {.step}
+**Procurement Framework** (1 July 2016): notices on UN Development Business and the World Bank site — the largest, least-noticed business channel.
+:::
+
+::: {.warn}
+**Cross-debarment** (9 April 2010): a debarment over one year by the WBG, ADB, AfDB, EBRD or IDB is enforced by **all five**. More than 1,500 firms and individuals so far.
+:::
+
+**Who holds the votes?** IBRD: US 15.98% · Japan 6.88% · China 5.75%. MIGA: US 14.81%.
+*The insurer that protects you against a state is governed by states.*
+
+# Does influence have a price? {background-color="#E3120B" style="color:#F7F4ED"}
+
+## The Security Council in five facts
 
 1. **Five permanent** — China, France, Russia, UK, US — and **ten elected** (six before 1966)
 2. Elected for **two years**, five each year, by regional group, two-thirds of the General Assembly; no immediate re-election
 3. Substantive decisions: **nine votes, no veto**
-4. **Chapter VII** measures bind **every UN member state**
+4. **Chapter VII** measures bind **every UN member state** — and every firm in them
 5. The P5 need nine votes → an elected member's vote **can be pivotal**
-
-::: {.warn}
-Fact 5 is the whole paper.
-:::
-
-# The price of a seat {background-color="#E3120B" style="color:#F7F4ED"}
 
 ## The question
 
@@ -154,7 +260,7 @@ If aid rises in years 0 and +1 and falls back afterwards, the **seat** is the li
 The salience result turns a correlation into a mechanism. Why?
 :::
 
-## Finding vs interpretation
+## From the Council to the banks
 
 ::::: columns
 
@@ -162,44 +268,138 @@ The salience result turns a correlation into a mechanism. Why?
 
 ### The finding
 
-Aid moves with membership — and with the salience of Council business.
+Aid moves with membership — and with the salience of Council business. *Vote buying* is the most plausible reading, not a proof of bribery.
 
 ::::
 
 :::: {.column width="50%"}
 
-### The interpretation
+### The bridge
 
-"Vote buying" — the most plausible reading, not a proof of bribery.
+Council members also get more **World Bank** projects and softer **IMF** conditions (Dreher, Sturm & Vreeland 2009a, 2009b); World Bank disbursements track alignment with the US (Kilby 2009).
+
+::::
+
+:::::
+
+::: {.get}
+**Who holds the votes shapes who gets the money — and so where the contracts are.**
+:::
+
+# The regional development banks {background-color="#E3120B" style="color:#F7F4ED"}
+
+## Same model, different shareholders {.scrollable}
+
+| Bank | Founded · members | Largest shareholders | Firm's window | Who may bid |
+|---|---|---|---|---|
+| **ADB** | 1966 · 69 | Japan 15.6%, US 15.6% | Non-sovereign; Trade & Supply Chain Finance | members |
+| **AfDB** | 1964 · 81 | Nigeria 8.8%, US 6.6% (votes) | Private sector; Trade Finance Program | members (ADF: all) |
+| **IDB / IDB Invest** | 1959 · 48 | US ≈30% (votes) | IDB Invest; "originate-to-share" | members |
+| **EBRD** | 1991 · 77 + EU + EIB | US 10.1% | 75% private sector; Trade Facilitation | **all** |
+| **EIB** | 1958 · EU-27 | DE, FR, IT 18.8% each | Loans, equity, guarantees | all |
+| **IsDB** | 1975 · 57 | Saudi Arabia 22.5% | ICD, ITFC, ICIEC insurance | mainly members |
+
+::: {.muted}
+Plus **CAF** (1968, Latin America) and the **Eurasian Development Bank** (2006, Russia + Kazakhstan + five). Banks' own reports, accessed 16 Oct 2026.
+:::
+
+## Three signals in the table
+
+1. **Procurement eligibility is foreign policy** — your home state's shareholding decides whether you may bid
+2. **The EBRD suspended Russia and Belarus** on 4 April 2022 — still shareholders, no access
+3. **Shareholding moves** — the EBRD into sub-Saharan Africa (2025); the ADB's first Charter amendment (2026)
+
+# The new institutions {background-color="#E3120B" style="color:#F7F4ED"}
+
+## The AIIB and the NDB {.scrollable}
+
+| | **AIIB** | **NDB** |
+|---|---|---|
+| **Founded** | Articles 29 June 2015; opened 16 Jan 2016 · Beijing | Fortaleza, 15 July 2014; in force July 2015 · Shanghai |
+| **Members** | 111 approved (106 full) — **no US, no Japan** | 5 founders + Bangladesh, UAE, Egypt, Algeria, Uzbekistan |
+| **Capital** | US$100 bn authorised | US$100 bn authorised; US$50 bn subscribed **equally** |
+| **Votes** | **China 26.37%** vs ¾ supermajority → **veto**; India 7.53%, Russia 5.92% | Equal among founders; founders ≥ 55% |
+| **For firms** | Non-sovereign loans, local currencies; co-financing with WB and ADB | Target 30% local-currency financing |
+
+::: {.muted}
+AIIB members table; NDB Agreement and members page. Accessed 16 Oct 2026.
+:::
+
+## Reserve pools and policy banks {.scrollable}
+
+| | |
+|---|---|
+| **BRICS CRA** (2014) | US$100 bn: China 41, Brazil/India/Russia 18 each, South Africa 5 · **30%** usable without the IMF |
+| **CMIM** (2010) + **AMRO** | ASEAN+3 · US$240 bn of swaps · **40%** IMF-delinked since 2021 |
+| **China Development Bank, China Exim** (1994) | Bilateral, state-owned; the core of Belt and Road lending |
+| **Silk Road Fund** (Dec 2014) | US$40 bn + RMB 100 bn (2017) |
+| **Belt and Road** (2013) | Cooperation documents with 150+ countries · AidData: **US$1.34 trn**, 2000–2021, 165 countries |
+
+## BRICS: a club, not an institution
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### Members
+
+Brazil, Russia, India, China, South Africa · **Egypt, Ethiopia, Iran, UAE** (2024) · **Indonesia** (2025) · Saudi Arabia: **ambiguous**
+
+::::
+
+:::: {.column width="50%"}
+
+### Partner countries (Kazan, 2024)
+
+Belarus, Bolivia, Kazakhstan, Cuba, Malaysia, Thailand, Uganda, Uzbekistan, Nigeria, Vietnam
 
 ::::
 
 :::::
 
 ::: {.muted}
-Follow-ups extend the pattern to the World Bank and the IMF: Vreeland & Dreher (2014), *The Political Economy of the United Nations Security Council*, Cambridge UP.
+New Delhi summit, 12–13 Sep 2026: no new members or partners; payments work continues — no launched system.
 :::
 
-# What it means for multinational firms {background-color="#E3120B" style="color:#F7F4ED"}
+# Complement or counter-hegemony? {background-color="#E3120B" style="color:#F7F4ED"}
 
-## Four places institutions enter a firm's risk
+## Four tests
 
-| Where | Institution | The firm relies on | The warning |
-|---|---|---|---|
-| **Sanctions** | UNSC Chapter VII | a predictable list | resolutions are bargained; a veto pushes sanctions into diverging national regimes |
-| **Investment protection** | BITs, ICSID | a neutral forum | only as strong as the host's willingness to pay |
-| **Insurance** | MIGA, export-credit agencies | cover against expropriation, war, transfer | the insurer's shareholders are states |
-| **Trade rules** | WTO | bindings, non-discrimination | no functioning appeal since 2019 |
-
-## The lesson
+| | Complement | Counter-hegemony |
+|---|---|---|
+| **Votes** | Voice the IMF did not give | China's AIIB veto mirrors the US IMF veto |
+| **Standards** | AIIB co-financing with WB and ADB from 2016 | Bilateral lending outside OECD rules and cross-debarment |
+| **Currency** | Local-currency loans cut mismatch | Settlement outside the dollar |
+| **Sanctions** | **2022: AIIB and NDB froze Russia** | CRA, CMIM: crisis money outside the IMF |
 
 ::: {.get}
-An institution is a risk **mitigator** when its coalition is stable, and a risk **source** when it is not.
+Both. The new banks are an **outside option** — and the more forums there are, the more a host state can shop among them.
 :::
 
-**Track the coalition, not just the rule:** who sits on the Council, how they vote, what they are being offered.
+# What it means for the firm {background-color="#E3120B" style="color:#F7F4ED"}
 
-> **Put it to the room:** is a UN sanctions resolution more or less durable for a firm than a unilateral US one?
+## Four channels {.scrollable}
+
+| Channel | Old | New | The firm |
+|---|---|---|---|
+| **Procurement** | WB, ADB, AfDB, IDB, EBRD, EIB | AIIB, NDB; Chinese-financed projects | track notices; check eligibility |
+| **Finance** | IFC, IDB Invest, EBRD, MCPP | AIIB, NDB non-sovereign, local currency | a bank in the capital structure |
+| **Insurance** | MIGA, Guarantee Platform, ICIEC | Chinese export-credit insurance | transfer, expropriation, war, contract |
+| **Disputes** | ICSID, BITs | none comparable | a treaty-protected structure |
+
+## Five risks — and the lesson
+
+1. **Conditionality** — programmes change the host's policy mix; lending follows politics
+2. **Sanctions exposure** — suspension (EBRD), freezes (AIIB, NDB), cross-debarment
+3. **Alignment** — BRICS, AIIB, Belt and Road as signals (Session 04)
+4. **Competing standards** — bankable for one lender, not for another
+5. **Exit** — ICSID denunciations; suspended members
+
+::: {.get}
+An institution is a risk **mitigator** when its coalition is stable, and a risk **source** when it is not. **Track the coalition, not just the rule.**
+:::
+
+> **Put it to the room:** AIIB co-finances, MIGA insures; the host is sanctioned next year. Who keeps its commitments?
 
 # The Tableau skill of the day {background-color="#E3120B" style="color:#F7F4ED"}
 
@@ -231,7 +431,7 @@ A country with two terms close together appears twice in some years. Overlapping
 
 ## Over to the practice round
 
-> **Practice round 05:** rebuild aid in event time around a Security Council term, and ask what it means for a firm relying on the Council.
+> **Practice round 05:** rebuild aid in event time around a Security Council term, and ask what it means for a firm relying on the institutions where influence is traded.
 
 ::: {.muted}
 `02-practice/README.md`

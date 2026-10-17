@@ -3,7 +3,7 @@
 > **Satellites now carry the position, timing, connectivity and imagery a multinational runs on.
 > When orbit is crowded, contested and dominated by one operator, who holds the risk?**
 
-Slides: [`INTE60019A-S11-Pre-Session.qmd`](INTE60019A-S11-Pre-Session.qmd)
+> **[Open the pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-11-pre-session.html)** — or read the source at [`INTE60019A-S11-Pre-Session.qmd`](INTE60019A-S11-Pre-Session.qmd).
 
 Four things to do before class. Budget **about two hours**. **The download in step 3 is done once
 per team, not once per student** — CelesTrak blocks addresses that download the same file too often.
