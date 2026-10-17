@@ -107,11 +107,11 @@ format:
 ## 2 · Get the data
 
 ::: {.step}
-**DCID v2.0** — Dataverse [doi:10.7910/DVN/CQOMYV](https://doi.org/10.7910/DVN/CQOMYV) → *Access File → CSV* + codebook
+**DCID v2.0** — Dataverse [doi:10.7910/DVN/CQOMYV](https://doi.org/10.7910/DVN/CQOMYV) → *Access File → CSV (original)* · codebook 2.0 on [ryanmaness.com](https://www.ryanmaness.com/cyber-conflict-dataset)
 :::
 
 ::: {.step}
-**EuRepoC v1.3** — Zenodo [doi:10.5281/zenodo.14965395](https://doi.org/10.5281/zenodo.14965395) → `eurepoc_global_dataset_1_3.csv` + codebook
+**EuRepoC v1.3** — Zenodo [doi:10.5281/zenodo.14965395](https://doi.org/10.5281/zenodo.14965395) → `eurepoc_global_dataset_1_3.csv` + `eurepoc_codebook_1_2.pdf`
 :::
 
 ```text

@@ -1,0 +1,220 @@
+/*-- scss:defaults --*/
+//
+// The book wears the same palette as the slides (slides/economist.scss), so a
+// chapter and the deck it was built from are recognisably one document. What
+// changes is the register: a deck is read from ten metres, a book from forty
+// centimetres, so the type is smaller and the measure is narrower.
+
+$econ-paper:  #F7F4ED;
+$econ-ink:    #222222;
+$econ-muted:  #6B6B67;
+$econ-red:    #E3120B;
+$econ-blue:   #356B8C;
+$econ-teal:   #2A8C82;
+$econ-gold:   #D49A00;
+$econ-grid:   #D8D3C8;
+
+$body-bg:     $econ-paper;
+$body-color:  $econ-ink;
+$link-color:  $econ-blue;
+$font-family-sans-serif: 'Helvetica Neue', Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+$font-family-monospace:  ui-monospace, 'SF Mono', Menlo, 'IBM Plex Mono', monospace;
+$font-size-root: 17px;
+$toc-color: $econ-muted;
+$code-bg: rgba(255, 255, 255, 0.72);
+$code-color: $econ-ink;
+
+/*-- scss:rules --*/
+
+h1, h2, h3, h4 { letter-spacing: -0.017em; font-weight: 700; }
+
+// The signature device from the slides: a short red rule announcing a section.
+main h2::before {
+  content: "";
+  display: block;
+  width: 2.05em;
+  height: 0.19em;
+  background: $econ-red;
+  margin: 0 0 0.42em 0;
+}
+
+main h2 { margin-top: 2.1rem; }
+
+// Rules are hairline and horizontal. No boxes, no shadows.
+hr { border: 0; border-top: 1px solid $econ-grid; }
+
+table { border-collapse: collapse; }
+thead th { border-bottom: 2px solid $econ-ink; text-align: left; }
+tbody td { border-bottom: 1px solid $econ-grid; }
+td, th { font-variant-numeric: tabular-nums; padding: 0.3em 0.75em 0.3em 0; }
+
+blockquote {
+  border-left: 3px solid $econ-red;
+  padding: 0.15em 0 0.15em 0.9em;
+  margin-left: 0;
+  color: $econ-ink;
+  font-style: normal;
+}
+
+pre { border: 1px solid $econ-grid; background: $code-bg; }
+pre code { font-size: 0.86em; }
+
+// The course callout classes, carried over from the decks. The rule down the
+// left edge carries the meaning; there are no tinted boxes.
+.step  { border-left: 3px solid $econ-blue; padding-left: 0.9em; margin: 1em 0; }
+.check { border-left: 3px solid $econ-teal; padding-left: 0.9em; margin: 1em 0; }
+.warn  { border-left: 3px solid $econ-red;  padding-left: 0.9em; margin: 1em 0; }
+.get   { border-left: 3px solid $econ-gold; padding-left: 0.9em; margin: 1em 0; }
+.muted { color: $econ-muted; font-size: 0.92em; }
+.tight li { margin-bottom: 0.15em; }
+
+// The dateline under a chapter title.
+.chapter-meta {
+  color: $econ-muted;
+  font-size: 0.92em;
+  border-bottom: 1px solid $econ-grid;
+  padding-bottom: 0.7em;
+  margin-bottom: 1.2em;
+}
+
+// Imported decks put output in a plain fence; mark it as output, not input.
+.cell-output pre { background: none; border-left: 3px solid $econ-grid; border-width: 0 0 0 3px; }
+
+.sidebar-title { font-weight: 700; letter-spacing: -0.015em; }
+
+/* ---- Chapter plates ---------------------------------------------------- */
+/* The portraits are already framed and toned by the build.
+   All the page adds is the measure, the caption register and the credit. */
+
+.plate {
+  margin: 2.4rem auto;
+  max-width: 24rem;
+  text-align: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 10px rgba(34, 26, 12, 0.22);
+  }
+
+  p { margin: 0.55rem 0 0; }
+
+  strong {
+    font-size: 1.02rem;
+    letter-spacing: 0.01em;
+  }
+
+  /* The 'why this person' line. */
+  p:nth-of-type(2) {
+    color: $econ-muted;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    font-style: italic;
+  }
+}
+
+.plate-credit {
+  display: block;
+  margin-top: 0.5rem;
+  color: $econ-muted;
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
+/* ---- Definitions ------------------------------------------------------- */
+/* A term being defined, not an aside. Marked with a rule in the accent colour
+   so a reader scanning for "what does leverage actually mean" can find it. */
+
+.definition {
+  margin: 1.6rem 0;
+  padding: 0.85rem 1.1rem;
+  border-left: 3px solid $econ-blue;
+  background: rgba(53, 107, 140, 0.05);
+
+  > p:first-child { margin-top: 0; }
+  > p:last-child  { margin-bottom: 0; }
+
+  .term {
+    font-weight: 600;
+    color: $econ-blue;
+  }
+}
+
+/* ---- Literature review ------------------------------------------------- */
+/* Slightly tighter than body text: it is a survey, read faster than argument. */
+
+.lit {
+  margin: 1.6rem 0;
+  padding-left: 1.1rem;
+  border-left: 1px solid $econ-grid;
+  font-size: 0.95rem;
+
+  p { line-height: 1.55; }
+}
+
+/* Citations should be visible as citations without shouting. */
+.citation a {
+  color: $econ-teal;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(42, 140, 130, 0.5);
+}
+
+/* The reference list at the end of the book. */
+#refs {
+  font-size: 0.92rem;
+
+  .csl-entry { margin-bottom: 0.7rem; }
+}
+
+/* ---- From the archive -------------------------------------------------- */
+/* A historical result, and the code that reproduces it on this course's own
+   data. The point is that the history is operational rather than decorative:
+   the reader can run the original finding against fresh data. */
+
+.archive {
+  margin: 2rem 0;
+  padding: 1.1rem 1.3rem 0.9rem;
+  border: 1px solid $econ-grid;
+  border-top: 3px solid $econ-gold;
+  background: rgba(212, 154, 0, 0.04);
+
+  > p:first-child { margin-top: 0; }
+  > p:last-child  { margin-bottom: 0; }
+
+  .archive-label {
+    display: block;
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: $econ-gold;
+    font-weight: 600;
+    margin-bottom: 0.45rem;
+  }
+}
+
+/* The fold affordance should read as an invitation, not as a warning. */
+details.code-fold {
+  > summary {
+    color: $econ-blue;
+    font-size: 0.88rem;
+    padding: 0.15rem 0;
+    cursor: pointer;
+
+    &:hover { color: $econ-teal; }
+  }
+}
+
+/* Two sitters side by side — the priority dispute, shown rather than told. */
+.plates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  justify-content: center;
+  margin: 2.4rem 0;
+
+  .plate {
+    flex: 1 1 15rem;
+    max-width: 19rem;
+    margin: 0;
+  }
+}

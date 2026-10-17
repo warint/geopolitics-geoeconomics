@@ -5,6 +5,11 @@
 **INTE 60019A · HEC Montréal · M. Sc. in International Business · 3 credits · in English**
 Thierry Warin, PhD
 
+> **The lecture notes are a book.** [*Geopolitical Risks and International Business*](https://warint.github.io/geopolitics-geoeconomics/book/) — every
+> session as one chapter (before the session, the lecture, the practice round), searchable, with a
+> [PDF](https://warint.github.io/geopolitics-geoeconomics/book/Geopolitical-Risks-and-International-Business.pdf). The slides are on the
+> [course site](https://warint.github.io/geopolitics-geoeconomics/).
+
 A twelve-session graduate course in which every big idea about geopolitical risk is **read**, then
 **rebuilt from its data**. Each session pairs a landmark article or book — Caldara and Iacoviello's
 geopolitical risk index, Baldwin's *Great Convergence*, Kuziemko and Werker on the price of a
@@ -35,7 +40,7 @@ practice round ends on: *what does this figure not license a multinational to co
 | [08](08-cyber-geopolitics/README.md) | Cyber geopolitics and digital threats | Valeriano & Maness (2015) — cyber incidents between rivals | highlight tables, actions |
 | [09](09-economic-diplomacy/README.md) | The redefinition of economic diplomacy | Rose (2007) — embassies as export promotion | log scales, trend lines |
 | [10](10-economic-sanctions/README.md) | Economic sanctions · *Quiz 3* | Hufbauer et al. (2007); the Global Sanctions Data Base | Gantt charts, stacked shares |
-| [11](11-supply-chains-and-critical-minerals/README.md) | Weaponised interdependence: supply chains and critical minerals | OECD (2023) — export restrictions on critical raw materials | HHI with LOD, dashboard actions |
+| [11](11-space-geopolitics/README.md) | Space geopolitics: the orbital commons and the new space race | ESA (2026), *Space Environment Report*; SWF (2026), *Global Counterspace Capabilities* — objects in orbit, and who launches | running sum, HHI with LOD, dashboard actions |
 | [12](12-team-presentations/README.md) | Team presentations | your dashboard for one multinational | dashboards, stories, Tableau Public |
 
 **The arc.** The system (01–04) → who governs it (05–06) → how risk becomes a number (07) → the four
@@ -89,8 +94,10 @@ cd ~/Desktop
 git clone <this repository> geopolitical-risks-international-business
 ```
 
-**Rendering the decks** (instructors): `scripts/render_slides.sh` renders every `.qmd` to a
-self-contained HTML deck with Quarto. Press **F** for full screen, **S** for speaker view.
+**Rendering the decks and the book** (instructors): `scripts/render_slides.sh` renders every `.qmd`
+to a self-contained HTML deck with Quarto (press **F** for full screen, **S** for speaker view);
+`scripts/render_book.sh` assembles the lecture notes into `book/` and renders them to `docs/book/`;
+`python3 scripts/build_docs.py` publishes the decks to `docs/`.
 
 ---
 
@@ -105,8 +112,10 @@ self-contained HTML deck with Quarto. Press **F** for full screen, **S** for spe
 ├── TABLEAU-TOOLKIT.md            installation, skills ladder, conventions, traps, provenance log
 ├── assessments/                  quizzes · Risk Brief · team project · take-home
 ├── templates/                    provenance-log.csv
-├── slides/                       deck theme (economist.scss) and filter
-├── scripts/render_slides.sh      render all decks
+├── slides/                       deck theme (economist.scss), book theme (book.scss), filter
+├── scripts/                      render_slides.sh · render_book.sh · build_book.py · build_docs.py
+├── book/                         the course book, assembled from the sessions (generated — do not edit)
+├── docs/                         the GitHub Pages site: decks and docs/book/
 ├── NN-session-slug/              sessions 01–11
 │   ├── README.md                 the session at a glance
 │   ├── data/README.md            what to collect, where, and its traps

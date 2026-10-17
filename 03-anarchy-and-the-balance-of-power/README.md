@@ -34,6 +34,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — anarchy, the balance of power, power transition, measuring capabilities | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 03:** rebuild the distribution of power | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
+| **Lecture notes** | [Chapter 3 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-03.html) — pre-session, lecture and practice as one readable, searchable page | — |
 
 **Quiz 1** opens Session 04 and covers Sessions 01–03.
 

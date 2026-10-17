@@ -48,9 +48,11 @@ method and by severity, and who targets whom.
 Download, untouched, into `08-cyber-geopolitics/data/raw/`. Details: [`../data/README.md`](../data/README.md).
 
 - **DCID v2.0** — Harvard Dataverse [doi:10.7910/DVN/CQOMYV](https://doi.org/10.7910/DVN/CQOMYV),
-  file `Master_DCID_2.0_Release_public_Sep2022.tab`, downloaded **as CSV**, plus the codebook.
+  file `Master_DCID_2.0_Release_public_Sep2022.tab`, downloaded **as CSV** (*Access File → Comma
+  Separated Values (Original File Format)*). The codebook is not on Dataverse: download *Codebook 2.0*
+  from the authors' site, [ryanmaness.com/cyber-conflict-dataset](https://www.ryanmaness.com/cyber-conflict-dataset).
 - **EuRepoC v1.3** — Zenodo [doi:10.5281/zenodo.14965395](https://doi.org/10.5281/zenodo.14965395),
-  file `eurepoc_global_dataset_1_3.csv`, plus the codebook.
+  file `eurepoc_global_dataset_1_3.csv`, plus the codebook `eurepoc_codebook_1_2.pdf` (same record).
 
 Open the DCID codebook and find: the unit of observation, the list of methods, and the severity scale.
 

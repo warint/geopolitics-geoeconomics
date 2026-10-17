@@ -3,7 +3,8 @@
 # The redefinition of economic diplomacy
 
 Slides: [`INTE60019A-S09-Lecture.qmd`](INTE60019A-S09-Lecture.qmd) · Instructor plan:
-[`TEACHING-PLAN.md`](TEACHING-PLAN.md)
+[`TEACHING-PLAN.md`](TEACHING-PLAN.md) ·
+As a book chapter: [course book, Session 09](https://warint.github.io/geopolitics-geoeconomics/book/session-09.html)
 
 The session opens with **four Risk Briefs** (20 min). The lecture follows.
 

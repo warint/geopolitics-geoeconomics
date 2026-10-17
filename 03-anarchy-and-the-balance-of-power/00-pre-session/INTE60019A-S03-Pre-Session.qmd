@@ -125,7 +125,7 @@ Find in the codebook:
 
 - the **six components** and their units
 - how **CINC** is computed
-- the codes for China, Russia/USSR, Germany, the UK
+- the codes for China, Russia/USSR, Germany, the UK (state list: `COW-country-codes.csv`)
 - the **last year** covered
 
 ::: {.warn}

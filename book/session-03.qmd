@@ -1,0 +1,398 @@
+---
+title: "Anarchy and the balance of the major powers"
+---
+
+::: {.chapter-meta}
+Session 3 · The geostrategic balance that dictates international trade relations<br>
+[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-03-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-03-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-03-practice.html) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/03-anarchy-and-the-balance-of-power) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/03-anarchy-and-the-balance-of-power/data/README.md)
+:::
+
+> **In a system with no government above states, who sets the terms of trade — and how would a
+> multinational know that the balance is shifting?**
+
+| | |
+|---|---|
+| **Big works** | Mearsheimer, J. J. (2001). *The Tragedy of Great Power Politics*. W. W. Norton. · Allison, G. (2017). *Destined for War: Can America and China Escape Thucydides's Trap?* Houghton Mifflin Harcourt. |
+| **Target figure** | The **shares of world material capabilities** (CINC) of the major powers, 1816–2022, and the US–China crossover |
+| **Data you collect** | Correlates of War, National Material Capabilities v7.0 — [correlatesofwar.org](https://correlatesofwar.org/data-sets/national-material-capabilities/) · SIPRI Military Expenditure Database — [sipri.org/databases/milex](https://www.sipri.org/databases/milex) · WDI GDP (from Session 02) |
+| **Tableau skill** | **Calculated fields** · ratios · **parameters** to choose a country · dual axis |
+| **Course themes** | Inter-state anarchy and the geostrategic balance of the major powers that dictate international trade relations |
+
+## Before the session
+
+Three things to do before class. Budget **about two hours**.
+
+| | Before class | Used in class for |
+|---|---|---|
+| **1** | Read Mearsheimer and Allison | the lecture discussion and the replication |
+| **2** | Collect NMC v7.0 and SIPRI, read the NMC codebook | Practice round 03 |
+| **3** | Self-check | the lecture |
+
+---
+
+### 1. The reading — 60–75 min
+
+**Mearsheimer, J. J. (2001). *The Tragedy of Great Power Politics*. W. W. Norton.** Chapter 1
+(*Introduction*) and Chapter 2 (*Anarchy and the Struggle for Power*). The five bedrock assumptions
+are in Chapter 2: copy them.
+
+**Allison, G. (2017). *Destined for War: Can America and China Escape Thucydides's Trap?* Houghton
+Mifflin Harcourt.** The Introduction and Chapter 2 (*Athens vs. Sparta*), and the appendix listing
+the sixteen cases.
+
+Annotate four things:
+
+| | What to look for |
+|---|---|
+| **1** | Mearsheimer's **five assumptions** — and which one does the most work |
+| **2** | How each author **measures power**: what counts, what is left out |
+| **3** | Allison's **sixteen cases** — how many ended in war, and how a case was chosen |
+| **4** | One claim a **multinational with operations in both the US and China** should take seriously, and one it should doubt |
+
+**The target figure** is the distribution of capabilities among the major powers since 1816 — the
+picture that underlies both books' argument that the balance is shifting.
+
+---
+
+### 2. The data — 20 min
+
+Download and unzip **NMC v7.0**, and download the latest **SIPRI** military expenditure workbook.
+Details and terminal commands: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/03-anarchy-and-the-balance-of-power/data/README.md).
+
+**Read the NMC codebook before opening the data.** Find: the six components and their units; how
+CINC is computed; the last year covered. Then find the codes for China, Russia/USSR, Germany and the
+UK in the COW state list (a separate file — see the data README).
+
+---
+
+### 3. Self-check — 15 min
+
+Answer on paper.
+
+1. "Anarchy" in realist theory means what? What does it *not* mean?
+2. Waltz and Mearsheimer are both realists. On what question about how much power states want do
+   they disagree?
+3. CINC averages six shares. Name the three dimensions they cover. Which dimension do you expect to
+   flatter a large, populous, industrialising country?
+4. Allison counts how many cases of a rising power challenging a ruling one, and how many ended in
+   war? Write the numbers down — then write one reason to doubt the ratio.
+
+---
+
+### Arrive with
+
+- [ ] Mearsheimer ch. 1–2 and Allison's introduction and ch. 2 read, the five assumptions copied
+- [ ] `NMCv7.zip` unzipped and the SIPRI workbook in `data/raw/`, both logged
+- [ ] The NMC codebook read
+- [ ] Your self-check answers, on paper
+
+---
+
+[Session 03 overview](session-03.qmd) · [The lecture](#the-lecture) ·
+[The practice](#in-the-practice)
+
+## The lecture
+
+The session opens with four Risk Briefs (20 minutes); the lecture takes the next seventy.
+
+---
+
+### 1. Anarchy: the starting point
+
+In international relations, **anarchy** means the absence of a government above states — no world
+authority that can make rules binding, enforce contracts or guarantee survival. It does **not** mean
+chaos or constant war: most of the time, most states are at peace and trade under rules.
+
+What follows from anarchy, in the realist tradition:
+
+- **Self-help.** Each state must ultimately ensure its own survival.
+- **Uncertainty about intentions.** A state cannot know what another will do with its power
+  tomorrow.
+- **Relative gains.** Because today's partner may be tomorrow's adversary, states care not only what
+  they gain from cooperation but how much *more* the other gains (Grieco, 1988).
+
+**Why a firm should care.** Relative-gains thinking is why trade becomes a security question: a
+deal that makes both richer but the rival richer *faster* may be refused, restricted or reversed. It
+is the logic behind export controls on advanced semiconductors.
+
+---
+
+### 2. Two realisms
+
+**Defensive realism — Waltz (1979), *Theory of International Politics*.** The structure of the
+system — anarchy plus the **distribution of capabilities** — shapes behaviour. States seek an
+*appropriate* amount of power: enough for security. Too much provokes balancing coalitions, so
+expansion is usually self-defeating. Waltz judged **bipolar** systems more stable than multipolar
+ones: fewer miscalculations.
+
+**The security dilemma** (Jervis, 1978). What one state does to make itself secure — arming,
+alliances — makes others less secure, and they respond. Both end up worse off without anyone
+intending aggression.
+
+**Offensive realism — Mearsheimer (2001).** Five bedrock assumptions:
+
+1. The international system is **anarchic**.
+2. Great powers possess some **offensive military capability**.
+3. States can never be certain of others' **intentions**.
+4. **Survival** is the primary goal of great powers.
+5. Great powers are **rational actors**.
+
+From these, Mearsheimer derives that great powers **maximise relative power**; the ideal is to be the
+**regional hegemon** and to prevent any other region from having one. His prediction for China:
+it will try to dominate Asia as the United States dominates the Western Hemisphere, and the
+United States will try to stop it. *"China cannot rise peacefully."*
+
+| | Defensive (Waltz) | Offensive (Mearsheimer) |
+|---|---|---|
+| How much power do states want? | enough for security | as much as possible, relative to others |
+| What restrains them? | balancing by others | only the limits of their capabilities |
+| Expected US–China outcome | managed competition | intense security competition |
+
+---
+
+### 3. Power transition and the Thucydides's Trap
+
+**Power transition theory** (Organski, 1958; Organski & Kugler, 1980) reverses Waltz's emphasis:
+hierarchy, not balance, keeps the peace. A **dominant power** sets the international order. War is
+most likely when a **dissatisfied challenger** approaches **parity** with the dominant power — a
+threshold often operationalised as the challenger reaching around 80% of the leader's capabilities.
+
+**Allison (2017).** *"It was the rise of Athens and the fear that this instilled in Sparta that made
+war inevitable"* (Thucydides). Allison and the Harvard Thucydides's Trap project identify **sixteen**
+cases in five hundred years in which a rising power challenged a ruling one; **twelve** ended in war.
+
+**The critics.**
+
+- **Case selection.** The cases are chosen on the outcome of interest; peaceful transitions (the
+  UK to the US) may be under-counted; the definition of "rising" and "ruling" is elastic.
+- **Nuclear weapons** change the expected cost of great-power war in a way no pre-1945 case can
+  capture.
+- **Interdependence.** The US and China are bound by trade and finance far more tightly than
+  Athens and Sparta, or Britain and Germany — though Britain and Germany were also major trading
+  partners in 1914 (Session 04 takes this up).
+- **Measuring "rise".** Beckley (2018) argues gross indicators — GDP, population, CINC — overstate
+  China's power because they ignore the costs of governing, feeding and protecting a population.
+
+---
+
+### 4. Measuring power: the CINC
+
+The Correlates of War **Composite Index of National Capability** (Singer, Bremer & Stuckey, 1972):
+
+1. Take **six indicators** for every state in the system each year: total population, urban
+   population, iron and steel production, primary energy consumption, military personnel,
+   military expenditure.
+2. For each indicator, compute the state's **share of the system total** that year.
+3. **Average** the six shares. CINC is a number between 0 and 1; the system sums to about 1 (not exactly: a state missing a
+   component is averaged over the ones it has).
+
+**What it rewards.** Size and heavy industry. Two of six components are population and two are
+smokestack industry. CINC therefore shows China passing the United States **much earlier** than
+military spending or GDP at market exchange rates do. One reality, three measures, three dates:
+the *break* step of the practice round is to see it.
+
+**What it misses.** Technology, quality of forces, alliances, financial power, control of networks
+— the dollar, SWIFT, the cloud — which Session 08 and Session 11 show to be the instruments of
+coercion that reach firms most directly.
+
+---
+
+### 5. What it means for the multinational
+
+| | |
+|---|---|
+| **The balance of power sets the rules of trade** | Who can impose sanctions, export controls and market-access conditions depends on who holds capabilities others need |
+| **A transition changes which rules you follow** | A firm in both the US and China increasingly faces two compliance regimes — and penalties for following one in the other's jurisdiction |
+| **Relative gains turn commerce into security** | Products that make a rival stronger — chips, AI, batteries, aerospace — move from the trade ministry to the security council |
+| **The date of the transition depends on the measure** | Board slides that say "China has overtaken the US" should say on **what** |
+| **Security dilemmas escalate without intent** | A defensive move by one side (an export control, a military exercise) is read as offensive and triggers a response that reaches your supply chain |
+
+---
+
+### 6. What the figure does not license
+
+- CINC is a measure of **material capabilities**, not of influence, intentions or likelihood of
+  war. A crossover on the chart is not a prediction of conflict.
+- It **overweights size**: population and heavy industry. It cannot see semiconductors, alliances or
+  finance.
+- It ends in **2022**: the most recent shifts are not in it.
+- It describes **states**, not markets: a firm's exposure depends on where its revenue and suppliers
+  sit, not on the system's distribution of power.
+
+---
+
+### 7. The Tableau skill of the day
+
+**Calculated fields** to build a ratio (challenger CINC ÷ US CINC), a **parameter** so the viewer
+can choose the challenger, a **reference line** at parity and at the 80% threshold, and a **dual
+axis** to set CINC against military spending. Click-path: [`../02-practice/README.md`](#in-the-practice).
+
+---
+
+### References
+
+Allison, G. (2017). *Destined for war: Can America and China escape Thucydides's trap?* Houghton
+Mifflin Harcourt.
+
+Beckley, M. (2018). The power of nations: Measuring what matters. *International Security*, 43(2),
+7–44.
+
+Grieco, J. M. (1988). Anarchy and the limits of cooperation: A realist critique of the newest liberal
+institutionalism. *International Organization*, 42(3), 485–507.
+
+Jervis, R. (1978). Cooperation under the security dilemma. *World Politics*, 30(2), 167–214.
+
+Mearsheimer, J. J. (2001). *The tragedy of great power politics*. W. W. Norton.
+
+Organski, A. F. K. (1958). *World politics*. Knopf.
+
+Organski, A. F. K., & Kugler, J. (1980). *The war ledger*. University of Chicago Press.
+
+Singer, J. D., Bremer, S., & Stuckey, J. (1972). Capability distribution, uncertainty, and major
+power war, 1820–1965. In B. Russett (Ed.), *Peace, war, and numbers* (pp. 19–48). Sage.
+
+Waltz, K. N. (1979). *Theory of international politics*. Addison-Wesley.
+
+## In the practice
+
+> **The target.** The shares of world material capabilities (CINC) of the major powers, 1816–2022 —
+> the picture behind Mearsheimer's and Allison's argument — and the year China passes the United
+> States. Then: the same transition measured two other ways, dated two other years.
+
+Work in your team. Everyone builds their own workbook; the team hands in one.
+
+---
+
+### 1 · Collect — 15 min
+
+NMC v7.0 and the SIPRI workbook should already be in `data/raw/`; your Session 02 WDI extract
+too. If not: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/03-anarchy-and-the-balance-of-power/data/README.md).
+
+Provenance log: three lines — NMC (version 7.0, and the codebook's date), SIPRI (the file name gives
+the release), WDI (reused; same version as Session 02).
+
+---
+
+### 2 · Prepare — 20 min
+
+#### NMC
+
+1. **Connect → Text file** → `NMC-70-abridged.csv` (from `NMC-v7-abridged.zip`, inside
+   `NMCv7.zip`). Drag it to the canvas.
+2. Check the columns against the **codebook**. In v7.0 they are unchanged from v6.0: `stateabb`
+   (three letters), `ccode` (number), `year`, the six components `milex`, `milper`, `irst`, `pec`,
+   `tpop`, `upop`, then `cinc` and `version`. Missing component values are coded **`-9`**: before you
+   use any component, exclude them (a filter `>= 0`), or every sum is wrong.
+3. `year` should be a **number (whole)**, not a date: keep it that way for now.
+4. Sanity check before you build anything: new sheet, `year` → Columns (continuous), `SUM(cinc)` →
+   Rows, no filter. Every year should sum to **about 1** — in v7.0, between 1.000 and about 1.075.
+   Which years are furthest from 1, and why? (The codebook's CINC section explains it: the average
+   is taken over the components a state *has*.)
+
+#### SIPRI
+
+1. **Connect → Microsoft Excel** → the SIPRI workbook. Use the **`Constant (2024) US$`** sheet
+   (US$ millions, constant 2024 prices).
+2. Tick **Use Data Interpreter**: the sheet has five rows of notes above the header (`Country`, an
+   unnamed column, `Notes`, `1949` … `2025`). Region headings (`Africa`, `North Africa`, …) remain
+   as rows with no values: filter them out.
+3. **Pivot** the year columns (as in Session 02). Rename to `Year` and `Milex`. Make `Year` a whole
+   number with the same name as NMC's year field — it will be the link.
+4. `Milex` arrives as text: SIPRI writes `...` for unavailable data and `xxx` for a country that
+   did not exist (the notes at the top of the sheet; the `Footnotes` sheet explains the † § ¶
+   marks in `Notes`). Change to **Number (decimal)** and check what became null.
+5. SIPRI identifies countries by **name**, not code. Write down the exact strings for China, the
+   United States and Russia. This is a provenance-log entry.
+
+---
+
+### 3 · Replicate — 25 min
+
+#### Sheet 1 · "Shares of world capabilities, 1816–2022"
+
+1. `year` → Columns (continuous); `SUM(cinc)` → Rows.
+2. `stateabb` → Colour. Filter to the major powers: `USA`, `UKG`, `FRN`, `GMY`, `RUS`, `JPN`,
+   `CHN`, `ITA` — **check each code in the COW state list** (`COW-country-codes.csv`; see
+   [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/03-anarchy-and-the-balance-of-power/data/README.md)). Russia/USSR is one continuous series (`RUS`).
+   Germany is not: `GMY` stops in 1945 and returns in 1991, with `GFR` and `GDR` in between.
+   `JPN` also has a gap (1946–1951). Look for them, and decide what your line does there.
+3. Highlight the US and China (strong colours), grey the rest.
+4. Annotate 1945, 1991, and the year China passes the US.
+5. Title with the finding; caption: *Correlates of War, NMC v7.0 (Singer, Bremer & Stuckey 1972),
+   accessed …*.
+
+#### Sheet 2 · "How close is the challenger?"
+
+1. **Create → Parameter** `Challenger`: data type *String*, *List*, **Add values from** `stateabb`.
+   Default `CHN`.
+2. Calculated fields:
+
+   ```text
+   Challenger CINC = IF [stateabb] = [Challenger] THEN [cinc] END
+   US CINC         = IF [stateabb] = "USA" THEN [cinc] END
+   Power ratio     = SUM([Challenger CINC]) / SUM([US CINC])
+   ```
+
+3. `year` → Columns; `Power ratio` → Rows. Right-click the parameter → **Show Parameter**.
+4. **Analytics → Reference Line**: constant **1** ("parity") and constant **0.8** ("power transition
+   zone", Organski & Kugler).
+5. Switch the parameter to `GMY`, `JPN` and `RUS`. When did each enter the transition zone against
+   the US — or against the UK, if you also make the leader a parameter?
+
+---
+
+### 4 · Compare and break — 20 min
+
+1. **Compare.** Put Sheet 1 beside the readings' claims. In which year does China's CINC first exceed
+   the US's in your data? Does that date surprise you, given what you read?
+2. **Break — change the measure of power.** Build two more ratios, China ÷ US:
+   - **military expenditure** from SIPRI (constant dollars), and
+   - **GDP** from your WDI extract (current US$ and PPP).
+
+   Put them on one sheet with the CINC ratio by **blending** on the year: on a sheet that uses NMC,
+   drag a SIPRI field onto the view; check that the link icon is active on the year field (*Data →
+   Edit Blend Relationships* if Tableau did not find it). **Blending links fields only by name and
+   type**: if the year is `year` in NMC, `Year` in SIPRI and `Year (n)` in your Session 02 WDI
+   extract, rename them to the same name (right-click → *Rename*) and make all three whole numbers
+   before you blend, or use *Edit Blend Relationships → Custom* to pair them by hand. Use a **dual axis** (right-click the
+   second axis → *Dual Axis* → *Synchronize Axis*) so both ratios share one scale, with the parity
+   line at 1.
+3. **Read it.** Three measures, three transition dates (or no transition yet). Which date belongs in a
+   board presentation, and for which decision?
+4. **Extend.** Use the NMC components: which of the six drives China's CINC? Build one component's
+   share (e.g. iron and steel) with a percent-of-total table calculation computed across states,
+   restarting every year.
+
+---
+
+### 5 · The catch — 10 min
+
+One slide:
+
+| Original | Ours | The catch |
+|---|---|---|
+| The distribution of power as the readings describe it | Sheet 1, and the three-measure ratio sheet | One sentence: what this figure does **not** license your team's multinational to conclude |
+
+A member drawn at random presents in two minutes.
+
+---
+
+### Hand in
+
+On ZoneCours before leaving, one per team: `.twbx`, provenance log, slide. Formative.
+
+**The one rule:** your log records at least one place where the data disagreed with the readings — or
+with each other.
+
+**Team project milestone (Session 04):** a one-paragraph footprint of your firm — its five most
+important countries, with sources.
+
+---
+
+### What loses credit
+
+- Joining NMC to WDI or SIPRI on names or on COW codes treated as ISO
+- `SUM` of a ratio across years or states
+- "China overtook the US in …" without saying on what measure
+- A catch about the theory rather than about what the firm may conclude
+

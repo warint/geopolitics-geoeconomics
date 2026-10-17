@@ -34,8 +34,8 @@ screen for the GSDB steps and does the TIES steps on their own machine.
 
 ## Run Tableau live
 
-Show the range join: `years.csv` on the left, GSDB on the right, join clause `Year >= begin` and
-`Year <= IFNULL(end, 2025)` (a **join calculation** on the right side). Show the row count before and
+Show the range join: `years.csv` on the left, GSDB on the right, join clause `Year >= begin_year` and
+`Year <= IFNULL(end_year, 2025)` (a **join calculation** on the right side). Show the row count before and
 after: the jump is the point.
 
 ---

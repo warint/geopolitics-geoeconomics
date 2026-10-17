@@ -34,6 +34,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — why institutions exist; the Council; the price of a seat; what it means for firms | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 05:** rebuild the event-time figure | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
+| **Lecture notes** | [Chapter 5 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-05.html) — pre-session, lecture and practice as one readable, searchable page | — |
 
 ---
 

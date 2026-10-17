@@ -60,11 +60,11 @@ Log which side of the flow you used: **exporter-reported exports**.
 
 ## 2 · Prepare — 25 min
 
-1. Lowy, sheet **2023** — drop missions to international organisations
-2. IMF — five exporters, 2023, no aggregate partners
-3. **Concordance** `name → ISO3` for both files
+1. Lowy, sheet **2023** — drop `TYPE OF POST` = `Permanent Mission`
+2. IMF — five exporters, 2023, no aggregate partners (`G…`, `TX…`) · `OBS_VALUE` → `Exports`
+3. **Concordance** `name → ISO3` for Lowy (names only; IMF is already ISO3)
 4. **Relationship** (not join) on exporter = sender **and** partner = host
-5. `Posts` = `ZN(COUNT([Post City]))` — **the zeros**
+5. `Posts` = `ZN(COUNT([POST CITY]))` — **the zeros**
 6. `Posts + 1` — so it can be logged · log the decision
 7. `Exports / partner GDP (‰)`
 

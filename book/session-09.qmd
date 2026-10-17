@@ -1,0 +1,344 @@
+---
+title: "The redefinition of economic diplomacy"
+---
+
+::: {.chapter-meta}
+Session 9 · Two-level games, digital diplomacy, and embassies as export promotion<br>
+[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-09-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-09-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-09-practice.html) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/09-economic-diplomacy) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/09-economic-diplomacy/data/README.md)
+:::
+
+> **When states compete for markets, investment and technology, is the multinational the object of
+> diplomacy, its instrument — or a diplomat in its own right?**
+
+| | |
+|---|---|
+| **Big work** | Rose, A. K. (2007). The foreign service and foreign trade: Embassies as export promotion. *The World Economy*, 30(1), 22–38. [doi:10.1111/j.1467-9701.2007.00870.x](https://doi.org/10.1111/j.1467-9701.2007.00870.x) |
+| **Companions** | Putnam, R. D. (1988). Diplomacy and domestic politics: The logic of two-level games. *International Organization*, 42(3), 427–460. [doi:10.1017/S0020818300027697](https://doi.org/10.1017/S0020818300027697) · Bjola, C., & Manor, I. (2018). Revisiting Putnam's two-level game theory in the digital age: Domestic digital diplomacy and the Iran nuclear deal. *Cambridge Review of International Affairs*, 31(1), 3–32. [doi:10.1080/09557571.2018.1476836](https://doi.org/10.1080/09557571.2018.1476836) |
+| **Target figure** | Bilateral **exports against the number of diplomatic posts** the exporter keeps in the partner, log scale, with a trend line |
+| **Data you collect** | Lowy Institute Global Diplomacy Index (`DataDownload.xlsx`); IMF bilateral goods trade (IMTS); World Bank WDI GDP |
+| **Tableau skill** | Log scales · trend lines, and what their R² and p-value do and do not say · building the zeros a post-level file omits |
+| **Course themes** | The redefinition of economic diplomacy and the implications for multinational firms |
+
+## Before the session
+
+Budget **about two hours**.
+
+| | Before class | Used in class for |
+|---|---|---|
+| **1** | Read Rose (2007); Putnam (1988); Bjola & Manor (2018) | the lecture and the replication |
+| **2** | Download the Lowy file, IMF exports and WDI GDP | Practice round 09 |
+| **3** | Self-check | the lecture |
+
+---
+
+### 1. The reading — 80 min
+
+**Rose, A. K. (2007). The foreign service and foreign trade: Embassies as export promotion. *The
+World Economy*, 30(1), 22–38.** [doi:10.1111/j.1467-9701.2007.00870.x](https://doi.org/10.1111/j.1467-9701.2007.00870.x)
+— read in full; a free working-paper version (NBER) circulates under the same title. **Its central
+relationship — exports against foreign posts — is today's target.**
+
+**Putnam, R. D. (1988). Diplomacy and domestic politics: The logic of two-level games. *International
+Organization*, 42(3), 427–460.** [doi:10.1017/S0020818300027697](https://doi.org/10.1017/S0020818300027697)
+— read the first half carefully: Level I, Level II, the **win-set**.
+
+**Bjola, C., & Manor, I. (2018). Revisiting Putnam's two-level game theory in the digital age:
+Domestic digital diplomacy and the Iran nuclear deal. *Cambridge Review of International Affairs*,
+31(1), 3–32.** [doi:10.1080/09557571.2018.1476836](https://doi.org/10.1080/09557571.2018.1476836)
+
+Annotate four things:
+
+| | What to look for |
+|---|---|
+| **1** | Rose's **claim**, his **data** (which exporters, which posts, which years) and the **size** of the effect he reports |
+| **2** | The **reverse-causality** objection to Rose — and how he answers it |
+| **3** | Putnam's **win-set**: what enlarges it, what shrinks it |
+| **4** | What Bjola & Manor say **digital** tools change at Level II |
+
+---
+
+### 2. The data — 20 min
+
+Into `09-economic-diplomacy/data/raw/`. Details: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/09-economic-diplomacy/data/README.md).
+
+- **Lowy Global Diplomacy Index** — `DataDownload.xlsx` from
+  [globaldiplomacyindex.lowyinstitute.org](https://globaldiplomacyindex.lowyinstitute.org/). Open the
+  2023 sheet and find the columns for sending country, host country and type of post.
+- **IMF IMTS** — [data.imf.org](https://data.imf.org/en/datasets/IMF.STA:IMTS): goods exports, FOB,
+  US$, 2023, for **Canada and at least four other** Lowy countries × all partners.
+- **WDI GDP** — `NY.GDP.MKTP.CD`.
+
+---
+
+### 3. Self-check — 15 min
+
+1. In Putnam's terms, why can a negotiator with a **small** win-set sometimes obtain a better deal?
+2. Rose finds that countries export more to partners where they keep more posts. Give **two**
+   explanations other than "embassies promote exports".
+3. Name one instrument of **commercial diplomacy** other than an embassy, and one firm that has used it.
+4. Investment screening (CFIUS in the US, the EU screening regulation, the *Investment Canada Act*
+   national-security review) is economic diplomacy aimed **at firms**. Name one case you know.
+
+---
+
+### Arrive with
+
+- [ ] Three readings annotated
+- [ ] `DataDownload.xlsx`, an IMF export file and WDI GDP in `data/raw/`
+- [ ] Your self-check answers, on paper
+- [ ] **The GSDB file received** (for Session 10) — if not, write to the database team today
+
+---
+
+[Session 09 overview](session-09.qmd) · [The lecture](#the-lecture) ·
+[The practice](#in-the-practice)
+
+## The lecture
+
+The session opens with **four Risk Briefs** (20 min). The lecture follows.
+
+---
+
+### 1. What economic diplomacy was, and what it has become
+
+**Economic diplomacy** is the use of the instruments of foreign policy for economic ends — and of
+economic instruments for foreign-policy ends. In the post-1990 order (Session 02) it was mostly the
+first: negotiate trade agreements, open markets, promote exports, attract investment. Diplomats
+served firms.
+
+Three shifts have redefined it:
+
+| Shift | What changed | Consequence for the firm |
+|---|---|---|
+| **Securitisation** | Trade, investment and technology are now treated as matters of national security | Firms face screening, export controls and "trusted vendor" rules from their *own* side |
+| **From promotion to coercion** | The same networks used to promote exports are used to deny access (Session 08's chokepoints; Session 10's sanctions) | Home-state support can become home-state constraint overnight |
+| **Digitalisation** | Diplomacy is conducted in public, on social media, aimed at domestic and foreign publics at once | Firms are drawn into public diplomatic quarrels — boycotts, hashtags, official denunciations |
+
+---
+
+### 2. Putnam: two-level games
+
+Putnam (1988) models international negotiation as two simultaneous games:
+
+- **Level I** — negotiators bargain with each other to reach a tentative agreement;
+- **Level II** — each negotiator's domestic constituencies decide whether to **ratify** it.
+
+The **win-set** is the set of Level I agreements that would be ratified at Level II. Three lessons:
+
+1. **Larger win-sets make agreement more likely** — but leave a negotiator open to being pushed.
+2. **A small win-set is a bargaining asset**: "my parliament will never accept that" is credible
+   when it is true.
+3. Negotiators play **both boards at once**: they try to shape the other side's Level II and to
+   manage their own.
+
+**For the firm.** Multinationals are Level II actors in *several* countries at once. An export
+industry that lobbies for a trade deal enlarges the win-set at home; a firm exposed abroad may be a
+hostage at the other side's Level II.
+
+---
+
+### 3. Bjola and Manor: the two-level game goes digital
+
+Bjola and Manor (2018) revisit Putnam through the negotiations over the Iran nuclear agreement
+(2015). Their argument: **digital diplomacy** — ministries and leaders communicating directly with
+publics on social media — gives negotiators a new tool to act on Level II, **their own and the other
+side's**. Governments used digital channels to build domestic support for ratification and to
+reach the counterpart's public, reshaping win-sets during the negotiation itself.
+
+Two implications for multinationals:
+
+- **Speed.** Domestic opinion now moves within the negotiation, not after it — so the regulatory
+  outcome a firm plans for can change faster.
+- **Exposure.** A firm's brand can be pulled into a digital campaign by either government.
+
+---
+
+### 4. Rose: embassies as export promotion
+
+Rose (2007) asks whether the foreign service earns its keep. He combines the number of embassies
+and consulates that a set of exporting countries keep abroad with their bilateral exports, in a
+gravity framework that controls for the size of and distance between partners. His finding: exports
+are **higher where a country keeps more posts**, and the association survives the standard gravity
+controls. He reports that an additional **consulate** is associated with a further rise in exports of
+several percent — read the size off his tables, and note which kind of post matters most.
+
+**Three objections**, which the practice round tests:
+
+| Objection | The worry | How to probe it |
+|---|---|---|
+| **Reverse causality** | Countries open posts *where they already trade* | Do posts predict *future* trade growth, or only follow past trade? |
+| **Omitted variables** | Large, rich, close partners get more posts *and* more trade | Divide trade by partner GDP; colour by distance or region |
+| **Measurement** | A post is not a budget; an honorary consulate is not an embassy | Separate embassies from consulates |
+
+Rose takes reverse causality seriously and argues that the evidence is consistent with posts having
+an effect, but a cross-section cannot settle it. That is the catch of the day.
+
+---
+
+### 5. The firm and the state: bargaining, screening, and diplomacy by firms
+
+**Triangular diplomacy.** Stopford and Strange (1991) argued that diplomacy is no longer only
+state–state: it is also **state–firm** (governments bargain with multinationals over investment)
+and **firm–firm** (alliances). Vernon's **obsolescing bargain** (1971) adds the dynamic: once a firm's
+capital is sunk, its bargaining power falls.
+
+**Investment screening** is economic diplomacy aimed *at* firms: the US Committee on Foreign
+Investment (CFIUS), the EU framework regulation on FDI screening (Regulation 2019/452), and the
+national-security review under the *Investment Canada Act*. Screening has widened from defence to
+data, critical minerals, infrastructure and technology.
+
+**Commercial diplomacy — the toolbox**:
+
+| Instrument | Example of the type |
+|---|---|
+| Embassies and consulates | trade commissioners, market intelligence, introductions |
+| Trade missions and state visits | ministers travelling with business delegations |
+| Export credit and insurance | export credit agencies covering political risk |
+| Investment promotion agencies | incentives, aftercare |
+| Treaties | investment treaties with dispute settlement |
+
+**When to lean on the home state** — and when that is itself a risk: in a dispute, home-state backing
+helps; in a confrontation between states, being seen as an instrument of one may make the firm a
+target of the other.
+
+---
+
+### 6. The Tableau skill of the day
+
+A **log scale** (*Edit Axis → Logarithmic*) for variables that span orders of magnitude; a **trend
+line** (*Analytics → Trend Line*) and *Describe Trend Model* for its R² and p-value. Neither tells
+you the direction of causation. Step by step: [`../02-practice/README.md`](#in-the-practice).
+
+---
+
+### References
+
+Bjola, C., & Manor, I. (2018). Revisiting Putnam's two-level game theory in the digital age:
+Domestic digital diplomacy and the Iran nuclear deal. *Cambridge Review of International Affairs*,
+31(1), 3–32. https://doi.org/10.1080/09557571.2018.1476836
+
+Putnam, R. D. (1988). Diplomacy and domestic politics: The logic of two-level games. *International
+Organization*, 42(3), 427–460. https://doi.org/10.1017/S0020818300027697
+
+Rose, A. K. (2007). The foreign service and foreign trade: Embassies as export promotion. *The World
+Economy*, 30(1), 22–38. https://doi.org/10.1111/j.1467-9701.2007.00870.x
+
+Stopford, J. M., & Strange, S. (1991). *Rival states, rival firms: Competition for world market
+shares*. Cambridge University Press.
+
+Vernon, R. (1971). *Sovereignty at bay: The multinational spread of U.S. enterprises*. Basic Books.
+
+## In the practice
+
+> **The target.** Rose (2007)'s central relationship: for each exporter–partner pair, **exports**
+> against the **number of diplomatic posts** the exporter keeps in the partner — on log scales, with
+> a trend line — rebuilt with the Lowy Global Diplomacy Index (2023 data) and IMF trade.
+
+Work in your project teams. Everyone builds their own workbook; the team hands in one slide.
+
+---
+
+### 1 · Collect — 15 min
+
+In `data/raw/` (see [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/09-economic-diplomacy/data/README.md)):
+
+- `DataDownload.xlsx` — Lowy Global Diplomacy Index;
+- IMF IMTS — **exports of goods, FOB, US$, 2023**, for Canada and at least four other Lowy countries
+  × all partners;
+- WDI `NY.GDP.MKTP.CD` — GDP, current US$.
+
+Provenance log — one line per file, including **which side** of the trade flow you used (exporter-
+reported exports) and the IMF indicator name exactly as shown.
+
+---
+
+### 2 · Prepare — 25 min
+
+This is the hard part today. Take your time.
+
+1. **Lowy.** Connect to `DataDownload.xlsx`, sheet **2023**. The columns for sending country, host
+   country and post type are `COUNTRY`, `POST COUNTRY` and `TYPE OF POST`. Filter out posts that are
+   not bilateral: `TYPE OF POST` = `Permanent Mission` (missions to the UN, EU, OECD…). Look at what
+   `Other` holds (representative and trade offices, e.g. in Taipei) and log your choice.
+2. **IMF.** Add the IMF file as a **second table** on the canvas. Keep only the five exporters and
+   the year 2023; drop aggregate partners ("World", regional totals — codes starting with `G` or
+   `TX`). Rename `OBS_VALUE` → `Exports`.
+3. **Concordance.** Lowy has country names only; the IMF file has ISO3 codes (`COUNTRY`,
+   `COUNTERPART_COUNTRY`). Make a small sheet `name → ISO3` for the Lowy `COUNTRY` and
+   `POST COUNTRY` names (watch the typos listed in the data README) and add ISO3 to Lowy.
+4. **Relate, don't join.** Drag the IMF table first, then the Lowy table, and create a
+   **relationship** on `exporter ISO3 = sending ISO3` **and** `partner ISO3 = host ISO3`.
+   A relationship keeps the export totals at their own grain; a plain join would repeat each
+   export value once per post and inflate it.
+5. **Build the zeros.** Calculated field `Posts`:
+   ```
+   ZN(COUNT([POST CITY]))
+   ```
+   (`POST CITY` is never empty in the 2023 sheet). Partners with exports but no post now get 0.
+6. **Make logging possible.** Calculated field `Posts + 1` = `[Posts] + 1`. Write this decision in the
+   log: it is the same compromise most gravity papers make, and it has consequences.
+7. **Exports per partner GDP.** Add WDI GDP (relationship on partner ISO3, year 2023) and create
+   `Exports / partner GDP (‰)` = `SUM([Exports]) / SUM([GDP]) * 1000`.
+
+---
+
+### 3 · Replicate — 20 min
+
+#### Sheet 1 · "More posts, more exports"
+
+1. `Posts + 1` → **Columns** (as a measure; aggregation `SUM` at the dyad level).
+2. `Exports` → **Rows**.
+3. Exporter ISO3 **and** partner ISO3 → **Detail** — one mark per pair.
+4. Exporter → **Colour**.
+5. Right-click each axis → *Edit Axis* → **Logarithmic**.
+6. *Analytics* → **Trend Line** → *Linear*. Right-click the line → **Describe Trend Model**. Note the
+   slope, R² and p-value (one line per exporter if colour splits them — try both ways).
+7. Title states the finding; caption cites Lowy (2024 edition, 2023 data) and IMF IMTS, with access
+   dates.
+
+---
+
+### 4 · Compare and break — 20 min
+
+1. **Differ.** Rose used an earlier period and a different set of exporters. Is your slope steeper
+   or flatter than the relationship he reports? Name one reason.
+2. **Break: size.** Replace `Exports` by `Exports / partner GDP (‰)`. What happens to the slope and
+   the R²? What did the raw chart owe to the sheer size of partners?
+3. **Break: type of post.** Filter `TYPE OF POST` to **`Embassy / High Commission`** only, then to
+   **`Consulate / Consulate-General`** only. Which
+   carries the relationship? Does that match Rose?
+4. **Break: the zeros.** Exclude partners with `Posts = 0`. How much does the trend line move? Why
+   should a careful analyst never drop them silently?
+5. **Extend — reverse causality** (fast teams). Add the Lowy **2017** sheet and IMF exports for
+   2017. For each pair, compute the change in posts and the growth of exports 2017→2023. Do pairs
+   that **gained** posts show faster export growth — or did posts open where exports had already
+   grown? What would you need to tell the two apart?
+
+---
+
+### 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| Rose's posts–exports relationship | Your Sheet 1 | One sentence: what this trend line does **not** license a multinational — or a foreign ministry — to conclude |
+
+A member drawn at random presents in two minutes.
+
+---
+
+### Hand in
+
+On ZoneCours before leaving: `.twbx` and provenance log, including your concordance fixes.
+Formative; counts towards participation.
+
+**The one rule:** your log records at least one place where the data disagreed with the paper.
+
+---
+
+### What loses credit
+
+- A **join** that inflated exports, unnoticed (check one pair's total against the IMF file)
+- Zeros dropped without saying so
+- "R² = 0.6, so embassies explain 60% of exports" — they explain nothing; they *co-vary*
+- Unmatched countries silently missing from the chart
+

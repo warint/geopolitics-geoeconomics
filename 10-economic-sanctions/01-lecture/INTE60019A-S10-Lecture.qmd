@@ -205,11 +205,11 @@ The *effective* scope of sanctions is set by compliance departments as much as b
 ## Episodes into years
 
 1. `years.csv` on the canvas, GSDB beside it
-2. Join clause: `Year >= begin` **and** `Year <= IFNULL(end, 2025)` — a **join calculation**
-3. `COUNTD(case id)` by `Year` → active cases per year
+2. Join clause: `Year >= begin_year` **and** `Year <= IFNULL(end_year, 2025)` — a **join calculation**
+3. `COUNTD(case_id)` by `Year` → active cases per year
 
 ::: {.check}
-Then a **Gantt bar**: begin on Columns, case on Rows, duration on Size.
+Then a **Gantt bar**: `begin_year` on Columns, `case_id` on Rows, duration on Size.
 :::
 
 ## Over to the practice round

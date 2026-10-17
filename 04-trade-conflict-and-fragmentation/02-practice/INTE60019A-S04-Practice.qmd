@@ -56,7 +56,7 @@ format:
 
 ## 2 · Prepare · A — blocs from ideal points
 
-1. Codebook → columns for `iso3`, `year`, `IdealPoint`
+1. Rename `iso3c` → `iso3` and `IdealPointFP` → `IdealPoint`; keep `year`
 2. Filter `year` = **2021**
 3. Parameters `US ref`, `CHN ref` (read off the data) and `Margin` (start 0.5)
 
@@ -71,13 +71,13 @@ ELSE "Non-aligned" END
 
 ## 2 · Prepare · B — the dyad model
 
-1. IMF extract → `exporter`, `partner`, `year`, `value`
-2. Remove aggregate partners — log which
+1. IMF extract: `COUNTRY`, `COUNTERPART_COUNTRY`, `TIME_PERIOD`, `OBS_VALUE` → `exporter`, `partner`, `year`, `value` · `INDICATOR` = `XG_FOB_USD`
+2. Remove aggregate partners (`G…`, `TX…` codes, e.g. `G001` World) — log which
 3. Add `blocs_2021.csv` → relate `exporter` = `iso3` → field **Exporter bloc**
 4. Add it **again** → relate `partner` = `iso3` → **Partner blocs** → **Partner bloc**
 
 ::: {.warn}
-Not ISO3 in the IMF file? You need a concordance — log it.
+IMTS codes are ISO3 (`KOS` and `WBG` are IMF exceptions). Names instead of codes in your download? You need a concordance — log it.
 :::
 
 ## 3 · Replicate · Sheet 1

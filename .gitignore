@@ -17,6 +17,8 @@ Tableau Repository/
 *.html
 # ...except the GitHub Pages site, which must be committed for Pages to serve it.
 !docs/*.html
+# ...and the course book under docs/book/.
+!docs/book/**
 
 # Live assessments — never commit: the repository is public.
 assessments/**/LIVE/

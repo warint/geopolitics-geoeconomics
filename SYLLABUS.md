@@ -27,8 +27,8 @@ M. Sc. in International Business (thesis and project streams) · elective · 3 c
 
 Multinational firms do not operate in a market. They operate in an **international system** — one
 without a government, shaped by the balance between great powers, partly governed by institutions,
-standards and private authority, and increasingly contested through trade, sanctions, supply chains
-and cyberspace. Geopolitical risk is the name we give to the part of that system that can move a
+standards and private authority, and increasingly contested through trade, sanctions, cyberspace
+and outer space. Geopolitical risk is the name we give to the part of that system that can move a
 firm's costs, revenues and assets without asking.
 
 This course teaches you to **think about that risk as a political scientist, measure it as an
@@ -130,7 +130,7 @@ reaches the firm (08–11), and end with the firm's own assessment (12).
 | [08](08-cyber-geopolitics/README.md) | **Cyber geopolitics and digital threats** | Valeriano & Maness (2015), *Cyber War versus Cyber Realities* | Dyadic Cyber Incident data; EuRepoC | Highlight tables, dyad matrices, filter actions |
 | [09](09-economic-diplomacy/README.md) | **The redefinition of economic diplomacy** | Rose (2007), *Embassies as Export Promotion*; Bjola & Manor (2018) | Lowy Global Diplomacy Index; bilateral exports | Log scales, trend lines, what R² means |
 | [10](10-economic-sanctions/README.md) | **Economic sanctions** as instruments for regulating geopolitical risk · *Quiz 3* | Hufbauer et al. (2007), *Economic Sanctions Reconsidered*; the Global Sanctions Data Base | GSDB; TIES | Gantt charts, stacked shares |
-| [11](11-supply-chains-and-critical-minerals/README.md) | **Weaponised interdependence:** supply chains and critical minerals | OECD (2023), *Raw Materials Critical for the Green Transition*; Le Billon & Shykora (2020) | OECD export-restrictions inventory; GSCPI | Concentration (HHI) with LOD, dashboard actions |
+| [11](11-space-geopolitics/README.md) | **Space geopolitics:** the orbital commons and the new space race | ESA Space Debris Office (2026), *ESA's Annual Space Environment Report*; Samson & Brett (Eds., 2026), *Global Counterspace Capabilities* (SWF) | CelesTrak SATCAT; GCAT (optional) | Running sum, HHI with LOD, dashboard actions |
 | [12](12-team-presentations/README.md) | **Team presentations:** a geopolitical risk assessment for one multinational | *Your own dashboard* | Everything above | Dashboards, stories, Tableau Public |
 
 **The arc.** Session 01 asks what geopolitical risk *is* and shows the most cited attempt to count
@@ -140,7 +140,7 @@ a distribution of power under anarchy (03), now fragmenting along geopolitical l
 within it. Session 07 is the methodological hinge: how text, coding, big data and composite indices
 turn a political judgement into a number, and what is lost on the way. Sessions 08–11 take the four
 channels through which geopolitical risk now reaches the firm most directly — cyberspace (08),
-economic diplomacy (09), sanctions (10) and supply chains (11). Session 12 is where each team stakes
+economic diplomacy (09), sanctions (10) and space (11). Session 12 is where each team stakes
 its own assessment, for one named multinational, in front of the room.
 
 **The course themes**, as set out in the course description, are carried as follows:
@@ -148,11 +148,11 @@ its own assessment, for one named multinational, in front of the room.
 | Theme | Sessions |
 |---|---|
 | The system of international economic order in which multinational firms operate | 02, 04 |
-| Inter-state anarchy and the geostrategic balance of the major powers that dictate international trade relations | 03, 04 |
+| Inter-state anarchy and the geostrategic balance of the major powers that dictate international trade relations | 03, 04, 11 |
 | The impact and role of international institutions in analysing the geopolitical risks on which multinationals base their decisions | 05, 06 |
-| The evolution of cyber geopolitics and digital threats in the decision-making architecture of multinational firms | 08 |
+| The evolution of cyber geopolitics and digital threats in the decision-making architecture of multinational firms | 08, 11 |
 | The redefinition of economic diplomacy and the implications for multinational firms | 09 |
-| The efficiency of economic sanctions as mechanisms for regulating geopolitical risks | 10, 11 |
+| The efficiency of economic sanctions as mechanisms for regulating geopolitical risks | 10 |
 | Methodology: content analysis, coding, big data, statistical treatment | 01, 07, and every practice round |
 
 ---

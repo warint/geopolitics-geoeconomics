@@ -30,9 +30,9 @@ the provenance log:
 1. **ISO table.** If years are columns, **pivot** them (select the year columns → right-click →
    *Pivot*), rename to `Year` and `Certificates`. Add or check `iso3`. Keep 14001 and 9001 as two
    columns, or as a `Standard` dimension — your choice, logged.
-2. **WDI GDP.** Pivot the year columns too. Keep `Country Code` (it is ISO3) and the value; drop the
-   aggregates (World, regions, income groups). From the `Metadata_Country_…` file in the same zip,
-   bring in **Region**.
+2. **WDI GDP.** Pivot the year columns too. Keep `Country Code` (it is ISO3) and the value. From the
+   `Metadata_Country_…` file in the same zip, bring in **Region**, and drop the aggregates (World,
+   regions, income groups): they are the rows with an empty `Region`.
 3. **Join** ISO to GDP on `iso3` **and** `Year` (both join clauses). Check the row count.
 4. Calculated field:
 
@@ -64,9 +64,11 @@ line per region. Which region adopted first? Which caught up?
 This is the core of Prakash and Potoski: does a country's adoption track its **export markets'**
 adoption?
 
-1. New data source. Start from `imf_imts_exports.csv` (reporter × partner × year × exports). Check
-   which country codes it uses for reporter and partner — ISO3, IMF codes or names — and build a
-   concordance if needed.
+1. New data source. Start from `imf_imts_exports.csv` (reporter × partner × year × exports). In the
+   IMF layout reporter and partner are `COUNTRY` and `COUNTERPART_COUNTRY`, in ISO3 codes (rename
+   them `Reporter iso3` and `Partner iso3`; `TIME_PERIOD` → `Year`, `OBS_VALUE` → `Exports`). Drop
+   aggregate partners (codes starting with `G` or `TX`). If your download shows names instead, build
+   a concordance. Kosovo is `KOS` at the IMF but `XKX` at the World Bank.
 2. **Join** the ISO + GDP table to it **twice** (Tableau lets you add the same table again; rename
    the copies):
    - as **Partner**: `Partner iso3 = iso3` and `Year = Year`

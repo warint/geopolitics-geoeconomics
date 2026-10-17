@@ -29,7 +29,7 @@ required or further reading of at least one session (in brackets).
   https://doi.org/10.1086/507155 *[05]*
 - Le Billon, P., & Shykora, L. (2020). Conflicts, commodities and the environmental geopolitics of
   supply chains. In S. O'Lear (Ed.), *A research agenda for environmental geopolitics* (pp. 59–73).
-  Edward Elgar. https://doi.org/10.4337/9781788971249.00012 *[11]*
+  Edward Elgar. https://doi.org/10.4337/9781788971249.00012 *[04]*
 - Mansfield, E. D. (2021). International trade and conflict. In J. C. W. Pevehouse & L. Seabrooke
   (Eds.), *The Oxford handbook of international political economy* (pp. 660–671). Oxford University
   Press. https://doi.org/10.1093/oxfordhb/9780198793519.013.27 *[04]*
@@ -91,6 +91,7 @@ https://doi.org/10.1016/j.jinteco.2024.104042 (IMF Working Paper WP/24/76, free)
 - Martin, P., Mayer, T., & Thoenig, M. (2008). Make trade not war? *Review of Economic Studies*,
   75(3), 865–900. https://doi.org/10.1111/j.1467-937X.2008.00492.x
 - Barbieri, K. (2002). *The liberal illusion: Does trade promote peace?* University of Michigan Press.
+- Le Billon & Shykora (2020), above — how supply chains carry conflict, through commodities.
 
 ## Session 05 — International institutions
 
@@ -172,18 +173,28 @@ International Economics — chapters 1–3.
 - Drezner, D. W. (1999). *The sanctions paradox: Economic statecraft and international relations*.
   Cambridge University Press.
 
-## Session 11 — Weaponised interdependence: supply chains and critical minerals
+## Session 11 — Space geopolitics: the orbital commons and the new space race
 
-**Required.** Kowalski, P., & Legendre, C. (2023). Raw materials critical for the green transition:
-Production, international trade and export restrictions. *OECD Trade Policy Papers*, No. 269. OECD
-Publishing. https://doi.org/10.1787/c6bb598b-en. And: Le Billon & Shykora (2020), above.
+**Required.** ESA Space Debris Office. (2026). *ESA's annual space environment report* (Issue 10.0,
+1 May 2026; GEN-DB-LOG-00288-OPS-SD). European Space Agency.
+https://www.sdo.esoc.esa.int/publications/Space_Environment_Report_I10R0_20260501.pdf — executive
+summary, §1.1–1.2, §2.1, Table 3.1. And: Samson, V., & Brett, K. (Eds.). (2026). *Global counterspace
+capabilities: An open source assessment*. Secure World Foundation — executive summary. And: Pekkanen,
+S. M. (2019). Governing the new space race. *AJIL Unbound*, 113, 92–97.
+https://doi.org/10.1017/aju.2019.16
 
 **Further.**
+- Treaty on Principles Governing the Activities of States in the Exploration and Use of Outer Space,
+  including the Moon and Other Celestial Bodies (1967), 610 U.N.T.S. 205.
+  https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html
+- Dolman, E. C. (2002). *Astropolitik: Classical geopolitics in the space age*. Frank Cass.
+  https://doi.org/10.4324/9780203016640
+- Bowen, B. E. (2020). *War in space: Strategy, spacepower, geopolitics*. Edinburgh University Press.
+  https://doi.org/10.3366/edinburgh/9781474450485.001.0001
+- Kessler, D. J., & Cour-Palais, B. G. (1978). Collision frequency of artificial satellites: The
+  creation of a debris belt. *Journal of Geophysical Research*, 83(A6), 2637–2646.
+  https://doi.org/10.1029/JA083iA06p02637
 - Farrell & Newman (2019), above (Session 08).
-- OECD (2026). *OECD inventory of export restrictions on critical raw materials 2026*. OECD
-  Publishing. https://doi.org/10.1787/d5ca8f62-en
-- Le Billon, P. (2001). The political ecology of war: Natural resources and armed conflicts.
-  *Political Geography*, 20(5), 561–584.
 
 ## Session 12 — Team presentations, and the closing address
 

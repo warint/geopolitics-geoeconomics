@@ -1,0 +1,380 @@
+---
+title: "Private authority, standards and global regulation"
+---
+
+::: {.chapter-meta}
+Session 6 · Who writes the rules a multinational actually follows?<br>
+[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-06-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-06-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-06-practice.html) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/06-private-authority-and-standards) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/06-private-authority-and-standards/data/README.md)
+:::
+
+> **Most of the rules that govern a multinational's daily operations were not written by a
+> government. Who wrote them, with whose power — and does trade spread them up or down?**
+
+| | |
+|---|---|
+| **Big work** | Prakash, A., & Potoski, M. (2006). Racing to the bottom? Trade, environmental governance, and ISO 14001. *American Journal of Political Science*, 50(2), 350–364. [doi:10.1111/j.1540-5907.2006.00188.x](https://doi.org/10.1111/j.1540-5907.2006.00188.x) |
+| **Companion readings** | Abbott & Snidal (2009), *The governance triangle* · Mattli & Büthe (2003), *Setting international standards* · Brunsson, Rasche & Seidl (2012), *The dynamics of standardization* · Green (2013), *Rethinking Private Authority* |
+| **Target figure** | **The diffusion of ISO 14001** across countries — a map and small multiples over time — and each country's adoption against the adoption level of its **export markets** |
+| **Data you collect** | ISO Survey of certifications (ISO 14001, ISO 9001); IMF bilateral exports (IMTS); World Bank GDP (WDI) |
+| **Tableau skill** | **Maps** · geocoding by ISO code · fixing unmatched countries · the **Pages** shelf · small multiples |
+| **Course themes** | The impact and role of international institutions — here private and hybrid ones — in the geopolitical risks on which multinationals base their decisions |
+
+## Before the session
+
+Three things to do before class. Budget **about two and a half hours**, and **start the ISO Survey
+download at least two days ahead**: it needs a free IAF CertSearch account.
+
+| | Before class | Used in class for |
+|---|---|---|
+| **1** | Read the paper; skim the triangle | the lecture and the replication |
+| **2** | Collect three datasets | Practice round 06 |
+| **3** | Self-check | the first ten minutes of the lecture |
+
+---
+
+### 1. The reading — 75–90 min
+
+**The big work.** Prakash, A., & Potoski, M. (2006). Racing to the bottom? Trade, environmental
+governance, and ISO 14001. *American Journal of Political Science*, 50(2), 350–364.
+[doi:10.1111/j.1540-5907.2006.00188.x](https://doi.org/10.1111/j.1540-5907.2006.00188.x)
+
+| | What to look for |
+|---|---|
+| **1** | The **research question**: does trade drive a race to the bottom in environmental governance? |
+| **2** | The **mechanism**: why would a country's adoption depend on adoption in its **export markets**? |
+| **3** | The **strongest evidence** — what is the panel, and what is the key variable? |
+| **4** | One **limitation** — from a referee, or from a firm deciding whether to certify |
+
+**Skim, for the lecture** (30 min in total — the abstract, the introduction and the main figure or
+table of each):
+
+- Abbott, K. W., & Snidal, D. (2009). The governance triangle: Regulatory standards institutions and
+  the shadow of the state. In W. Mattli & N. Woods (Eds.), *The Politics of Global Regulation*
+  (pp. 44–88). Princeton University Press. [doi:10.1515/9781400830732.44](https://doi.org/10.1515/9781400830732.44)
+  — **draw the triangle.**
+- Mattli, W., & Büthe, T. (2003). Setting international standards: Technological rationality or
+  primacy of power? *World Politics*, 56(1), 1–42. [doi:10.1353/wp.2004.0006](https://doi.org/10.1353/wp.2004.0006)
+  — **write down the three explanations they compare.**
+
+---
+
+### 2. The data — 45 min (plus the account wait)
+
+Details and the fallback: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/06-private-authority-and-standards/data/README.md). Split the work in your team.
+
+1. **ISO Survey** — ISO 14001 and ISO 9001 certificates by country and year. If you cannot download
+   the full tables, use the **transcription fallback** (35 countries × 6 years).
+2. **IMF IMTS** — goods exports from your ~35 countries to all partners, same years.
+3. **WDI GDP** — current US$, all countries.
+
+Everything goes, untouched, into `06-private-authority-and-standards/data/raw/`.
+
+---
+
+### 3. Self-check — 15 min
+
+1. Name the three corners of Abbott and Snidal's triangle, and place **one** scheme you know (e.g. the
+   Forest Stewardship Council, the UN Global Compact, ISO 14001) somewhere inside it.
+2. What is a "race to the bottom"? What is a "California effect" (Vogel, 1995)? Which does Prakash and
+   Potoski's evidence support?
+3. Why would a firm in Viet Nam certify to ISO 14001 if no Vietnamese law requires it?
+4. Who sits at the table when an ISO standard is written? Why might that matter for a firm from a
+   country that is not there?
+
+---
+
+### Arrive with
+
+- [ ] The paper read; the triangle drawn; Mattli and Büthe's three explanations written down
+- [ ] ISO (full or transcribed), IMTS and WDI files in `data/raw/`, logged
+- [ ] Your self-check, on paper
+
+---
+
+[Session 06 overview](session-06.qmd) · [The lecture](#the-lecture) ·
+[The practice](#in-the-practice)
+
+## The lecture
+
+---
+
+### 1. The rules a firm actually follows
+
+Session 05 looked at intergovernmental institutions. But walk through a multinational's supply
+chain and count the rules it obeys: quality management (ISO 9001), environmental management (ISO
+14001), information security (ISO/IEC 27001), forest and fisheries certification, labour codes of
+conduct, carbon accounting (the GHG Protocol), sustainability reporting standards, telecom technical
+specifications. **Most were not written by a government.** They are written by private or hybrid
+bodies, adopted voluntarily — and then made compulsory by **buyers, investors and export markets**.
+
+That is **private authority**: the capacity of non-state actors to make rules that others treat as
+binding. For a multinational it is both a **risk** (a standard written elsewhere becomes a condition
+of market access) and a **lever** (a firm that shapes the standard shapes the market).
+
+---
+
+### 2. The governance triangle — Abbott and Snidal (2009)
+
+Abbott and Snidal map **regulatory standards-setting (RSS) schemes** in a triangle whose corners
+are the three types of actor that can write rules:
+
+```
+                       STATE
+                        /\
+                       /  \
+                      /    \
+                     /      \
+                    /        \
+                   /__________\
+                FIRM           NGO
+```
+
+- Schemes near a **corner** are run by one actor type: an industry code of conduct (firms), an
+  activist certification (NGOs), an intergovernmental rule (states).
+- Schemes in the **middle** are hybrids: firms and NGOs together (multi-stakeholder certification);
+  states, firms and NGOs together (the UN Global Compact is often placed here).
+- The **shadow of the state**: even private schemes are shaped by the possibility that states will
+  regulate if private actors do not — and by states choosing to endorse, require or ignore them.
+
+**Why it matters for a firm.** Where a scheme sits predicts how it behaves: who can change it, how
+legitimate NGOs and governments will find it, and whether a state may one day make it mandatory.
+
+---
+
+### 3. Standards and power — Mattli and Büthe (2003)
+
+Who wins when an *international* product standard is written at ISO or the IEC? Mattli and Büthe
+compare three explanations:
+
+| Explanation | Prediction |
+|---|---|
+| **Technological rationality** | The technically best solution wins, whoever proposes it |
+| **Primacy of power** | The standard favours the states with the largest markets |
+| **Institutional complementarity** (their argument) | Countries whose **domestic** standard-setting system is hierarchical and coordinated — matching the structure of ISO/IEC — are more effective at shaping international standards than countries with fragmented domestic systems |
+
+Their evidence points to institutional complementarity: the coordinated European national standards
+bodies were better placed than the fragmented, decentralised US system. **The lesson:** influence over
+"technical" rules depends on how a country — and its firms — are organised to take part.
+
+**Today, that is geopolitics.** The competition over telecommunications standards, over battery and
+charging standards, over AI and data rules, is a competition between blocs, each trying to make its
+domestic rules the world's. Bradford's *Brussels effect* (2020) describes how EU rules become global
+because firms find it cheaper to adopt the strictest rule everywhere than to run two production
+lines.
+
+---
+
+### 4. Three perspectives on standardization — Brunsson, Rasche and Seidl (2012)
+
+Brunsson and colleagues organise research on standards around three aspects:
+
+- **standardization *of* organizations** — standards that tell firms how to be organised (management
+  system standards such as ISO 14001);
+- **standardization *by* organizations** — the bodies that write standards and how they work;
+- **standardization *as* organization** — standards as a way of organising markets and fields without
+  formal hierarchy.
+
+Their key point is that standards, usually associated with stability and sameness, are **dynamic**:
+they are revised, contested, translated locally, decoupled from practice. A firm "certified" to ISO
+14001 may run its plants exactly as before — the certificate and the practice can diverge.
+
+---
+
+### 5. Delegated or entrepreneurial — Green (2013)
+
+Green distinguishes two sources of private authority:
+
+| | **Delegated** | **Entrepreneurial** |
+|---|---|---|
+| **Origin** | States hand rule-making to private actors | Private actors create rules on their own, and others adopt them |
+| **Illustration (carbon governance, Green's field)** | Private bodies accrediting and verifying projects under the Kyoto Protocol's Clean Development Mechanism | Voluntary carbon accounting and offset standards, such as the GHG Protocol |
+| **What a firm should watch** | The state that delegated can take it back | Adoption — the rule is as strong as the number of users |
+
+---
+
+### 6. Race to the bottom, or trading up? — Prakash and Potoski (2006)
+
+**The worry.** Trade intensifies competition; governments lower environmental standards to attract
+investment and win exports — a race to the bottom.
+
+**The alternative.** Vogel's (1995) *California effect*: exporters to strict markets adopt strict
+standards, and trade spreads them — trading up.
+
+**The test.** ISO 14001 is a voluntary environmental management standard that goes beyond what many
+domestic laws require. Prakash and Potoski use a panel of 108 countries over seven years and ask
+whether adoption in a country depends on adoption in its **export markets**.
+
+**The finding.** Trade linkages **encourage** ISO 14001 adoption **when a country's major export
+markets have themselves adopted it**. Trade spreads private standards upward — towards the
+standards of the customers.
+
+**For the firm.** A private standard can become a de facto condition of access to a market without a
+single law changing. Monitoring "regulatory" risk means monitoring what your customers' home markets
+adopt.
+
+---
+
+### 7. The Tableau skill of the day — maps and Pages
+
+- Give `iso3` the geographic role **Country/Region** (right-click → *Geographic Role*). Tableau
+  recognises ISO 3166 codes; check the **"unknown"** indicator at the bottom right of the map and fix
+  what it could not place (*Map → Edit Locations*).
+- **Filled map** of certificates per billion US$ of GDP; colour on a sequential palette, never a
+  rainbow.
+- `Year` on the **Pages** shelf: a play button animates the diffusion.
+- **Small multiples**: `Region` on Rows and `Year` on Columns with a line of the median country —
+  the same story, without animation, on one page.
+
+---
+
+### References
+
+Abbott, K. W., & Snidal, D. (2009). The governance triangle: Regulatory standards institutions and
+the shadow of the state. In W. Mattli & N. Woods (Eds.), *The politics of global regulation*
+(pp. 44–88). Princeton University Press. https://doi.org/10.1515/9781400830732.44
+
+Bradford, A. (2020). *The Brussels effect: How the European Union rules the world*. Oxford
+University Press.
+
+Brunsson, N., Rasche, A., & Seidl, D. (2012). The dynamics of standardization: Three perspectives on
+standards in organization studies. *Organization Studies*, 33(5–6), 613–632.
+https://doi.org/10.1177/0170840612450120
+
+Green, J. F. (2013). *Rethinking private authority: Agents and entrepreneurs in global environmental
+governance*. Princeton University Press.
+
+Mattli, W., & Büthe, T. (2003). Setting international standards: Technological rationality or
+primacy of power? *World Politics*, 56(1), 1–42. https://doi.org/10.1353/wp.2004.0006
+
+Prakash, A., & Potoski, M. (2006). Racing to the bottom? Trade, environmental governance, and ISO
+14001. *American Journal of Political Science*, 50(2), 350–364.
+https://doi.org/10.1111/j.1540-5907.2006.00188.x
+
+Vogel, D. (1995). *Trading up: Consumer and environmental regulation in a global economy*. Harvard
+University Press.
+
+## In the practice
+
+> **The target.** Prakash & Potoski (2006): ISO 14001 spreads across countries, and a country adopts
+> more when its **export markets** have adopted more. Two views: the diffusion (a map and small
+> multiples over time), and the trade channel (own adoption against export-market adoption).
+
+In your teams. One workbook per team; everyone builds at least one sheet.
+
+---
+
+### 1 · Collect — 10 min
+
+Your three files should already be in `data/raw/` ([`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/06-private-authority-and-standards/data/README.md)). Finish
+the provenance log:
+
+| file | source | url | version / release | accessed | licence | notes |
+|---|---|---|---|---|---|---|
+| iso_survey_14001.xlsx *or* iso_survey_transcribed.xlsx | ISO / IAF CertSearch | … | *survey edition* | *date* | *free / account* | *full tables or transcription; coverage changes?* |
+| imf_imts_exports.csv | IMF | data.imf.org — IMTS | *download date* | *date* | free | *exports FOB, US$; partner codes used* |
+| wdi_gdp.csv | World Bank | api.worldbank.org/… | *last updated* | *date* | CC BY 4.0 | |
+
+---
+
+### 2 · Prepare — 20 min
+
+1. **ISO table.** If years are columns, **pivot** them (select the year columns → right-click →
+   *Pivot*), rename to `Year` and `Certificates`. Add or check `iso3`. Keep 14001 and 9001 as two
+   columns, or as a `Standard` dimension — your choice, logged.
+2. **WDI GDP.** Pivot the year columns too. Keep `Country Code` (it is ISO3) and the value. From the
+   `Metadata_Country_…` file in the same zip, bring in **Region**, and drop the aggregates (World,
+   regions, income groups): they are the rows with an empty `Region`.
+3. **Join** ISO to GDP on `iso3` **and** `Year` (both join clauses). Check the row count.
+4. Calculated field:
+
+   ```text
+   [ISO 14001 per $bn GDP] = [Certificates 14001] / ([GDP current US$] / 1e9)
+   ```
+
+5. Log: which countries did not match, and why.
+
+---
+
+### 3 · Replicate — 30 min
+
+#### Sheet 1 · "ISO 14001 spread" — a map
+
+1. `iso3` → *Geographic Role → Country/Region*; double-click it. Check the **unknown** indicator,
+   bottom right; fix with *Map → Edit Locations*.
+2. Mark type **Map**; `[ISO 14001 per $bn GDP]` → Colour, **sequential** palette. Consider a log-like
+   scale: the distribution is very skewed (try *Edit Colors → Stepped* with 5 steps).
+3. `Year` → **Pages**. Press play. Title it with what you see.
+
+#### Sheet 2 · "Diffusion by region" — small multiples
+
+`Year` → Columns (continuous), `Region` → Rows, `MEDIAN([ISO 14001 per $bn GDP])` → Rows. One small
+line per region. Which region adopted first? Which caught up?
+
+#### Sheet 3 · "The pull of export markets" — the trade channel
+
+This is the core of Prakash and Potoski: does a country's adoption track its **export markets'**
+adoption?
+
+1. New data source. Start from `imf_imts_exports.csv` (reporter × partner × year × exports). In the
+   IMF layout reporter and partner are `COUNTRY` and `COUNTERPART_COUNTRY`, in ISO3 codes (rename
+   them `Reporter iso3` and `Partner iso3`; `TIME_PERIOD` → `Year`, `OBS_VALUE` → `Exports`). Drop
+   aggregate partners (codes starting with `G` or `TX`). If your download shows names instead, build
+   a concordance. Kosovo is `KOS` at the IMF but `XKX` at the World Bank.
+2. **Join** the ISO + GDP table to it **twice** (Tableau lets you add the same table again; rename
+   the copies):
+   - as **Partner**: `Partner iso3 = iso3` and `Year = Year`
+   - as **Reporter**: `Reporter iso3 = iso3` and `Year = Year`
+3. Calculated fields:
+
+   ```text
+   [Weighted partner adoption]  = [Exports] * [Partner ISO 14001 per $bn GDP]
+
+   [Export-market adoption]     = SUM([Weighted partner adoption]) / SUM([Exports])
+
+   [Own adoption]               = { FIXED [Reporter iso3], [Year] :
+                                    AVG([Reporter ISO 14001 per $bn GDP]) }
+   ```
+
+   The `FIXED` matters: the reporter's own value is repeated on every partner row, so it must not be
+   summed.
+4. Scatter: `[Export-market adoption]` → Columns, `AVG([Own adoption])` → Rows, `Reporter iso3` →
+   Detail, `Year` → Colour (or filter to one year). **Log scales** on both axes (right-click axis →
+   *Edit Axis → Logarithmic*). Add a trend line (*Analytics → Trend Line → Linear*) — read it as a
+   description, not a test: Session 09 returns to what its R² means.
+
+---
+
+### 4 · Compare and break — 20 min
+
+1. **Differ.** Your scatter versus the paper's argument. The paper estimates a panel with controls;
+   you have drawn a cloud. What can your cloud show, and what can it not?
+2. **The placebo.** Rebuild Sheet 3 with **ISO 9001** — the quality standard, demanded by buyers
+   everywhere, with no environmental content. If the export-market pull is just as strong, what does
+   that say about *why* firms certify to 14001?
+3. **Break the weighting.** Replace the export-weighted average with an **unweighted** average of
+   partners (`AVG` instead of the weighted ratio). Does the relationship survive? Why should weighting
+   matter for the California-effect argument?
+4. **Break the normalisation.** Raw counts instead of per $bn GDP on Sheet 1. Which countries jump to
+   the top — and why is that misleading?
+
+---
+
+### 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| Prakash and Potoski's finding | Your Sheet 3 (and Sheet 1) | What it does **not** license a multinational to conclude — for instance that a certified supplier is environmentally better, or that adoption *caused* export success |
+
+A member drawn at random presents in two minutes.
+
+---
+
+### Hand in
+
+`.twbx` + provenance log on ZoneCours. Formative; counts towards participation.
+
+**The one rule:** your log records at least one place where the data disagreed with the paper.
+
+**Team project.** Which private standards do your firm's buyers or home market require? Which of its
+key countries are below the median adoption of its export markets? Note it for the dashboard.
+

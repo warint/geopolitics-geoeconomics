@@ -1,0 +1,347 @@
+---
+title: "International institutions"
+---
+
+::: {.chapter-meta}
+Session 5 · Arenas of power, or constraints on it?<br>
+[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-05-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-05-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-05-practice.html) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/05-international-institutions) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/05-international-institutions/data/README.md)
+:::
+
+> **When a multinational relies on an international institution to manage its risk, is it relying on
+> a rule — or on the states that buy and sell influence inside it?**
+
+| | |
+|---|---|
+| **Big work** | Kuziemko, I., & Werker, E. (2006). How much is a seat on the Security Council worth? Foreign aid and bribery at the United Nations. *Journal of Political Economy*, 114(5), 905–930. [doi:10.1086/507155](https://doi.org/10.1086/507155) |
+| **Target figure** | US aid to elected Security Council members **in event time** — years −3 to +3 around the start of a two-year term |
+| **Data you collect** | UN Security Council elected members (United Nations); US foreign aid (Greenbook, ForeignAssistance.gov or its mirror) — or the authors' replication file from AidData |
+| **Tableau skill** | **LOD expressions** (`FIXED`) · years relative to an event · event-time charts · reference bands |
+| **Course themes** | The impact and role of international institutions in analysing the geopolitical risks on which multinationals base their decisions |
+
+## Before the session
+
+Three things to do before class. Budget **about two hours**.
+
+| | Before class | Used in class for |
+|---|---|---|
+| **1** | Read the paper | the lecture discussion and the replication |
+| **2** | Collect the data — route A or route B, decided as a team | Practice round 05 |
+| **3** | Self-check | the first ten minutes of the lecture |
+
+---
+
+### 1. The reading — 60–75 min
+
+**Kuziemko, I., & Werker, E. (2006). How much is a seat on the Security Council worth? Foreign aid
+and bribery at the United Nations. *Journal of Political Economy*, 114(5), 905–930.**
+[doi:10.1086/507155](https://doi.org/10.1086/507155)
+
+Read for the **argument**, not for coverage. Annotate four things:
+
+| | What to look for |
+|---|---|
+| **1** | The **research question**, in one sentence |
+| **2** | The **identification idea**: why does the rotation of elected seats let the authors separate the effect of the seat from everything else about a country? |
+| **3** | The **strongest single piece of evidence** — and the evidence that the effect is larger when the Council matters more |
+| **4** | One **limitation** you would raise as a referee — or as a firm relying on a UN resolution |
+
+**The target figure** is the paper's evidence on aid **in event time**: aid in the years before,
+during and after a country's term, year by year. Find where the paper shows it — as a figure, and
+in the year-by-year estimates behind it — and write down what is on each axis.
+
+**Background, optional:** Keohane, R. O. (1984). *After Hegemony: Cooperation and Discord in the
+World Political Economy*. Princeton University Press — chapter 6, on why states build institutions.
+Mearsheimer, J. J. (1994/95). The false promise of international institutions. *International
+Security*, 19(3), 5–49 — the realist reply.
+
+---
+
+### 2. The data — 30–45 min
+
+Decide as a team which route you take: details in [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/05-international-institutions/data/README.md).
+
+- **Route A.** Download the authors' replication file from AidData. Open it; write the variable list
+  and units in your log. The link is a Google Drive file that asked for a sign-in when checked
+  (October 2026): if it will not open, switch to route B.
+- **Route B.** Download the ForeignAssistance.gov Country Summary, `us_foreign_aid_country.csv`
+  (official site or the mirror), and
+  **transcribe** the UN list of elected Council members, 1970–2010, one row per term. Split the
+  alphabet between team members — it takes each of you about twenty minutes.
+
+Everything goes, untouched, into `05-international-institutions/data/raw/`.
+
+---
+
+### 3. Self-check — 15 min
+
+Answer on paper.
+
+1. In one sentence each: why do states build institutions, according to a **liberal
+   institutionalist** and according to a **realist**?
+2. How many members does the Security Council have, how many are permanent, and how long is an
+   elected member's term?
+3. Why does the paper compare a country with **itself** in other years rather than with countries
+   that never served?
+4. A Security Council resolution under Chapter VII imposes sanctions on a state where your firm has
+   a distributor. Who is bound by it — and why should the firm care how the resolution was voted?
+
+---
+
+### Arrive with
+
+- [ ] The paper read and annotated; the event-time figure understood
+- [ ] Route A file **or** route B files in `data/raw/`, logged
+- [ ] Your self-check answers, on paper
+- [ ] If you present a Risk Brief today: `.twbx` and log on ZoneCours before class
+
+---
+
+[Session 05 overview](session-05.qmd) · [The lecture](#the-lecture) ·
+[The practice](#in-the-practice)
+
+## The lecture
+
+---
+
+### 1. Why would states under anarchy build institutions at all?
+
+Session 03 left us with a system without a government above states. Session 04 showed trade
+reorganising itself along geopolitical lines. Yet the same system is dense with institutions — the
+UN, the WTO, the IMF, the World Bank, investment treaties, export-control regimes. Why?
+
+| | **Liberal institutionalism** | **Realism** |
+|---|---|---|
+| **Key text** | Keohane (1984), *After Hegemony* | Mearsheimer (1994/95), *The False Promise of International Institutions* |
+| **Why institutions exist** | They lower the **transaction costs** of cooperation, provide **information**, and lengthen the **shadow of the future** so that states can make credible commitments | They reflect the **distribution of power**; the strong build them to serve their interests |
+| **Do they constrain states?** | Yes, at the margin — states comply because the institution makes reneging costly and cooperation valuable | Rarely — when interests and rules collide, power wins |
+| **What it predicts for a firm** | Rules are a reasonably stable floor: dispute settlement, treaties, sanctions regimes behave predictably | Rules are only as stable as the coalition behind them; read the coalition, not the treaty |
+
+Neither is a strawman. The useful question for a firm is not which theory is "true" but **which
+institution, on which issue, behaves like which**. That is an empirical question — and Kuziemko and
+Werker give one of its sharpest answers.
+
+---
+
+### 2. The Security Council in five facts
+
+1. **Fifteen members**: five permanent (China, France, Russia, the United Kingdom, the United States)
+   and ten elected. Before 1966 there were six elected members.
+2. **Elected members** serve **two-year terms**, five elected each year by the General Assembly, by
+   regional group, with a two-thirds majority; they cannot be immediately re-elected.
+3. **Decisions** on substantive matters need nine votes and **no veto** from a permanent member.
+4. Under **Chapter VII** the Council can impose measures — sanctions, arms embargoes, the use of
+   force — that **bind every UN member state**.
+5. An elected member's vote **can be pivotal**: the P5 need nine votes, so they must court elected
+   members.
+
+---
+
+### 3. The price of a seat — Kuziemko and Werker (2006)
+
+**The question.** Do powerful states pay for the votes of elected Security Council members?
+
+**The identification idea.** Countries do not choose *when* they rotate onto the Council in any way
+that tracks their need for aid — rotation follows regional queues and norms. So the authors compare
+a country **with itself** in the years before, during and after its term. If aid rises during the
+term and falls back afterwards, the seat — not the country's poverty, alliances or politics — is the
+likeliest explanation.
+
+**The findings**, in the paper's own summary:
+
+- US aid to a developing country rises substantially — by about 59% in the abstract's headline
+  estimate — when it rotates onto the Council, and aid through the UN rises too, more modestly.
+- The increase is concentrated in the **term years** and disappears after the term.
+- The effect is **larger in years when the Council matters more** — measured by how much the press
+  covered it.
+
+**Why that last result matters.** It is the difference between a statistical curiosity and a
+mechanism. If aid followed membership whatever the Council was doing, rotation might proxy for
+something else. That aid tracks the **salience** of Council business is what makes "vote buying" the
+most plausible reading.
+
+**The follow-up literature.** Dreher, Sturm and Vreeland extended the question to the World Bank and
+the IMF, and Vreeland and Dreher (2014), *The Political Economy of the United Nations Security
+Council: Money and Influence* (Cambridge University Press), brings the evidence together. The common
+thread: temporary members of the Council receive more favourable treatment in several channels.
+
+---
+
+### 4. What it means for multinational firms
+
+Institutions enter a firm's risk in at least four places:
+
+| Where | Institution | What the firm relies on | What Kuziemko and Werker warn |
+|---|---|---|---|
+| **Sanctions** | UN Security Council (Chapter VII); then national and EU regimes (Session 10) | A predictable list of who is sanctioned and why | Resolutions are bargained; votes have prices; a P5 veto blocks UN sanctions — and pushes them into unilateral national regimes that diverge |
+| **Investment protection** | Bilateral investment treaties; ICSID arbitration | A neutral forum if a host state expropriates | Treaties are only as strong as the host state's willingness to pay awards |
+| **Political risk insurance** | MIGA (World Bank Group), national export-credit agencies | Cover against expropriation, war, transfer restrictions | The insurer's own shareholders are states — cover is a political decision too |
+| **Trade rules** | WTO dispute settlement | Tariff bindings, non-discrimination | The Appellate Body has been unable to function since 2019; "rules" now depend on the coalition |
+
+**The lesson for the firm.** An international institution is a risk **mitigator** when the coalition
+that sustains it is stable, and a risk **source** when it is not. A risk dashboard should therefore
+track not only the rules but the coalition: who sits on the Council, how they vote, what they are
+being offered — which is exactly what today's practice round builds.
+
+---
+
+### 5. The Tableau skill of the day — LOD expressions
+
+The practice needs two numbers for every country-year that do not exist in either file:
+
+**Years relative to a term.** Join the term table (one row per term) to the aid table (one row per
+country-year) on the country code — a **join** in the physical layer, not a relationship, because a
+row-level calculation cannot mix fields from two related tables. Each country-year now appears once
+per term of that country, which is exactly what an event study needs:
+
+```text
+[Event time]   =  [Year] - [Term start]
+```
+
+**The country's own pre-term baseline**, a *Level of Detail* expression that fixes the computation at
+the country × term level whatever is in the view:
+
+```text
+[Baseline aid] = { FIXED [Iso3], [Term start] :
+                   AVG( IF [Event time] >= -3 AND [Event time] <= -1 THEN [Aid] END ) }
+
+[Aid relative to baseline] = [Aid] / [Baseline aid]      // row level: one value per country-year-term
+```
+
+`FIXED` computes before the view's dimension filters (context filters apply first) and ignores what
+is on Rows and Columns: every row of a term carries that term's baseline. The ratio is then computed
+row by row, and averaging it at each event year gives the **average across terms** of a ratio
+computed **within** each term.
+
+---
+
+### References
+
+Keohane, R. O. (1984). *After hegemony: Cooperation and discord in the world political economy*.
+Princeton University Press.
+
+Kuziemko, I., & Werker, E. (2006). How much is a seat on the Security Council worth? Foreign aid and
+bribery at the United Nations. *Journal of Political Economy*, 114(5), 905–930.
+https://doi.org/10.1086/507155
+
+Mearsheimer, J. J. (1994/95). The false promise of international institutions. *International
+Security*, 19(3), 5–49.
+
+Vreeland, J. R., & Dreher, A. (2014). *The political economy of the United Nations Security
+Council: Money and influence*. Cambridge University Press.
+
+## In the practice
+
+> **The target.** Kuziemko & Werker (2006): US aid to developing countries **in the years around a
+> Security Council term** — flat before, higher during the two term years, back down after.
+
+In your teams. One workbook per team; everyone builds at least one sheet.
+
+---
+
+### 1 · Collect — 15 min
+
+You should arrive with route A or route B files in `data/raw/` ([`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/05-international-institutions/data/README.md)).
+Finish what is missing, and fill the provenance log — one line per file.
+
+| file | source | url | version / release | accessed | licence | notes |
+|---|---|---|---|---|---|---|
+| us_foreign_aid_country.csv | US State Dept (ForeignAssistance.gov, Country Summary) | foreignassistance.gov/data *or the mirror* | *release / "frozen 2024-12-19"* | *today* | free | *fiscal years; obligations; constant_amount; economic + military combined* |
+| unsc_elected_members.xlsx | United Nations | main.un.org/securitycouncil/… | *page date* | *today* | free | *your transcription; name changes handled* |
+
+**Route A teams** also need a **term table**. Open the replication file, filter on Security Council
+membership = 1, show country × year as a text table, export it (*Worksheet → Export → Crosstab to
+Excel*), and mark the first year of each two-year run as `term_start`. Ten minutes; it gives you the
+same term table as route B.
+
+---
+
+### 2 · Prepare — 20 min
+
+1. **Connect** to the aid file and to `unsc_elected_members.xlsx`. In the Country Summary, filter
+   `Transaction Type Name` = *Obligations* (a data-source filter), exclude `Fiscal Year` = `1976tq`,
+   then make `Fiscal Year` a **number** and rename it `Year`; rename `constant_amount` to `Aid`.
+2. Drag the aid table to the canvas, then **double-click it** to open the physical layer, and drag the
+   term table next to it: **inner join** on `Country Code` = `Iso3` (or on country name only if you
+   have checked every match — see the trap list in [`TABLEAU-TOOLKIT.md`](tableau-toolkit.qmd)).
+   Route A teams: use the replication file's own country, year and aid fields.
+   > Why a join, not a relationship? The next step is a row-level calculation that uses `Year` from
+   > one table and `Term start` from the other. Relationships do not allow that.
+3. Check the row count before and after the join and write both in your log. The join should
+   multiply rows: each country-year now appears once per term of that country.
+4. Keep only aid **recipients** (drop regional aggregates such as "World", "Africa Region" — every
+   `Country Name` ending in "Region"), and check that aid is in **constant** dollars
+   (`constant_amount`, not `current_amount`). If it is not, say so in the log — the ratio to baseline
+   below limits the damage, but does not remove it.
+
+---
+
+### 3 · Replicate — 25 min
+
+#### Calculated fields
+
+```text
+[Event time]               = [Year] - [Term start]
+
+[Baseline aid]             = { FIXED [Iso3], [Term start] :
+                               AVG( IF [Event time] >= -3 AND [Event time] <= -1
+                                    THEN [Aid] END ) }
+
+[Aid relative to baseline] = [Aid] / [Baseline aid]      // row level: one value per country-year-term
+```
+
+Route A teams: if aid is in logs in the file, use `[Log aid] - [Baseline log aid]` instead of a ratio.
+
+#### Sheet 1 · "Aid in event time"
+
+1. Filter `[Event time]` to **−3 … +3** (make it a dimension, discrete).
+2. `[Event time]` → Columns; `[Aid relative to baseline]` → Rows, then change its aggregation to
+   **AVG** (right-click the pill → *Measure → Average*). Because the ratio is computed row by row —
+   one row per country-year-term — the average at each event year is the average **across terms**.
+3. Mark type **Line**, then add **Circle** marks on a dual axis so each year is visible.
+4. **Analytics → Reference Band** from 0 to 1 on `[Event time]`, shaded, labelled "On the Council".
+5. Constant **reference line at 1.0**, labelled "Pre-term baseline".
+6. Title it with the finding; caption with both sources, versions and access dates.
+
+#### Sheet 2 · "How many terms?"
+
+`[Event time]` → Columns, `COUNTD([Iso3])` → Rows. The number of terms behind each point. Is the
+sample balanced across event years? If not, why?
+
+---
+
+### 4 · Compare and break — 20 min
+
+1. **Differ.** Put your Sheet 1 beside the paper's event-time evidence. Same shape? Same size? Write
+   one difference and its most likely cause (release of the aid data, years covered, the sample of
+   countries, constant vs current dollars, levels vs logs).
+2. **Break one decision.** Replace the **mean** across terms by the **median** (a quick change of
+   aggregation). Does the term-year bump survive? What does that tell you about whether a few large
+   cases drive it?
+3. **Break another.** Restrict to terms starting **after 1990**. Does the pattern survive the end of the
+   Cold War?
+4. **Extend — salience.** The paper finds the effect is larger when the Council matters more. Build a
+   crude proxy: tag the years 1990–91 (Gulf War), 2002–03 (Iraq) as *high salience* with a calculated
+   field, and colour Sheet 1 by it. What do you see — and why is two episodes far too few to conclude?
+
+---
+
+### 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| The paper's event-time evidence | Your Sheet 1 | What it does **not** license a multinational to conclude — for instance about how durable a UN sanctions resolution is, or what a host government on the Council will do |
+
+A member drawn at random presents in two minutes.
+
+---
+
+### Hand in
+
+Upload to ZoneCours before leaving: the `.twbx` and the provenance log. Formative: commented, not
+marked; counts towards participation.
+
+**The one rule:** your log records at least one place where the data disagreed with the paper.
+
+**Team project.** Is any of your firm's five key countries — or its home country — on the Council
+now, or about to be? Add it to your footprint notes.
+

@@ -1,0 +1,415 @@
+---
+title: "Trade, conflict and geoeconomic fragmentation"
+---
+
+::: {.chapter-meta}
+Session 4 · Does trade keep the peace — and is the world now trading along geopolitical lines?<br>
+[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-04-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-04-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-04-practice.html) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/04-trade-conflict-and-fragmentation) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/04-trade-conflict-and-fragmentation/data/README.md)
+:::
+
+> **If states trade more with friends than with rivals, how does a multinational find out which side
+> each of its markets is on — and how fast the lines are hardening?**
+
+| | |
+|---|---|
+| **Big works** | Gopinath, G., Gourinchas, P.-O., Presbitero, A. F., & Topalova, P. (2025). Changing global linkages: A new Cold War? *Journal of International Economics*, 153, 104042. [doi:10.1016/j.jinteco.2024.104042](https://doi.org/10.1016/j.jinteco.2024.104042) (IMF Working Paper WP/24/76) · Mansfield, E. D. (2021). International trade and conflict. In *The Oxford handbook of international political economy* (pp. 660–671). [doi:10.1093/oxfordhb/9780198793519.013.27](https://doi.org/10.1093/oxfordhb/9780198793519.013.27) |
+| **Target figure** | **Trade within versus between geopolitical blocs**, indexed to the period before Russia's 2022 invasion of Ukraine |
+| **Data you collect** | UN General Assembly ideal points — Bailey, Strezhnev & Voeten, [Harvard Dataverse doi:10.7910/DVN/LEJUQZ](https://doi.org/10.7910/DVN/LEJUQZ) · IMF, International Trade in Goods by partner country (IMTS, formerly DOTS) — [data.imf.org](https://data.imf.org/en/datasets/IMF.STA:IMTS) |
+| **Tableau skill** | **Joins and relationships** on dyads · **groups** and **sets** for blocs · indexing to a base year |
+| **Course themes** | The system of international economic order; inter-state anarchy and the balance of the major powers that dictate international trade relations |
+
+## Before the session
+
+Four things to do before class. Budget **about two and a half hours**: today opens with Quiz 1.
+
+| | Before class | Used in class for |
+|---|---|---|
+| **1** | Revise Sessions 01–03 | **Quiz 1**, first twenty minutes |
+| **2** | Read Gopinath et al. and Mansfield | the lecture and the replication |
+| **3** | Collect the ideal points and the IMF extract | Practice round 04 |
+| **4** | Self-check | the lecture |
+
+---
+
+### 1. Quiz 1 — revise 30 min
+
+Twenty minutes, on paper, closed book. Covers Sessions 01–03: concepts, the big works and their
+target figures, and reading an unseen chart. Specimen: [`assessments/quizzes/`](assessment.qmd).
+
+---
+
+### 2. The reading — 60–75 min
+
+**Gopinath, G., Gourinchas, P.-O., Presbitero, A. F., & Topalova, P. (2025). Changing global
+linkages: A new Cold War? *Journal of International Economics*, 153, 104042.**
+[doi:10.1016/j.jinteco.2024.104042](https://doi.org/10.1016/j.jinteco.2024.104042) · free as IMF
+Working Paper WP/24/76.
+
+**Mansfield, E. D. (2021). International trade and conflict.** In J. C. W. Pevehouse & L. Seabrooke
+(Eds.), *The Oxford handbook of international political economy* (pp. 660–671). Oxford University
+Press. [doi:10.1093/oxfordhb/9780198793519.013.27](https://doi.org/10.1093/oxfordhb/9780198793519.013.27)
+
+Read Mansfield first — it is short and gives you the debate. Then Gopinath et al.: introduction, the
+section that **defines the blocs**, and the figures on trade and investment between blocs.
+
+Annotate four things:
+
+| | What to look for |
+|---|---|
+| **1** | Mansfield: the **liberal** argument that trade reduces conflict, the **realist** reply, and his own verdict |
+| **2** | Gopinath et al.: **exactly how blocs are defined** — which countries, which vote or measure, which year |
+| **3** | The **target figure**: trade within vs between blocs, before and after the 2022 invasion. Its base period, its frequency, its units |
+| **4** | The role of **connector** countries — and one your team's firm depends on |
+
+---
+
+### 3. The data — 20 min
+
+Download the ideal-point file and codebook from Harvard Dataverse, and build an IMF IMTS extract of
+bilateral goods exports, annual, 2015–latest. Details: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/04-trade-conflict-and-fragmentation/data/README.md).
+
+The IMF extract is the largest download so far: do it before you read, not in class.
+
+---
+
+### 4. Self-check — 15 min
+
+Answer on paper.
+
+1. State the liberal "commercial peace" argument in one sentence, and the realist objection in one.
+2. Martin, Mayer & Thoenig (2008) distinguish bilateral and multilateral openness. Which one makes a
+   bilateral conflict *more* likely, and why?
+3. What does a UN General Assembly ideal point measure? Name one thing it does not.
+4. Why might trade between two blocs fall even if no government imposes a single new barrier?
+
+---
+
+### Arrive with
+
+- [ ] Sessions 01–03 revised for Quiz 1
+- [ ] Mansfield and Gopinath et al. read; the bloc definition written down
+- [ ] Ideal points, codebook and IMF extract in `data/raw/`, logged
+- [ ] Team milestone: your firm's five most important countries, with sources
+- [ ] Your self-check answers, on paper
+
+---
+
+[Session 04 overview](session-04.qmd) · [The lecture](#the-lecture) ·
+[The practice](#in-the-practice)
+
+## The lecture
+
+The session opens with Quiz 1 (20 minutes) and four Risk Briefs (20 minutes); the lecture takes the
+remaining fifty.
+
+---
+
+### 1. Does trade keep the peace? The liberal answer
+
+The **commercial peace** is one of the oldest ideas in international political economy. From
+Montesquieu ("peace is the natural effect of trade") to Norman Angell's *The Great Illusion* (1910),
+the argument is that trade raises the **opportunity cost of war**: states that gain from exchange
+lose those gains if they fight.
+
+Modern versions add mechanisms:
+
+- **Opportunity cost.** Conflict disrupts trade; the more a dyad trades, the more it loses.
+- **Signalling.** Interdependent states can send costly signals — threatening economic ties — short
+  of force, which reduces miscalculation.
+- **Domestic coalitions.** Trade creates exporters and importers with a stake in peaceful relations
+  who lobby their governments.
+- **Institutions.** Trade agreements create forums and dispute-settlement procedures.
+
+Statistical studies of dyads from the 1990s onwards (notably Russett & Oneal's *Triangulating
+Peace*, 2001) found that dyads with more trade relative to GDP experience fewer militarised disputes.
+
+---
+
+### 2. The realist critique
+
+Realists reply that interdependence can **cause** conflict:
+
+- **Vulnerability.** Dependence on a rival for essential goods is a security risk. States therefore
+  limit it — or fight to secure supplies (Waltz, 1979).
+- **Relative gains** (Session 03). If trade makes the rival stronger faster, it is a threat.
+- **Security externalities** (Gowa, 1994). Trade raises the economic capacity of the partner; states
+  therefore trade more with **allies** than with adversaries.
+- **Expectations of future trade** (Copeland, 2015). What matters is not today's trade but whether
+  leaders expect it to continue. When they expect to be cut off, interdependence becomes a reason to
+  act before the window closes.
+
+The history the realists point to: Britain and Germany were heavily interdependent in 1914.
+
+---
+
+### 3. What the evidence says: Mansfield (2021)
+
+Mansfield's review in the *Oxford Handbook of International Political Economy* sets out the
+debate and the main empirical findings. Four points to retain:
+
+1. **The relationship runs both ways.** Conflict reduces trade, so a negative correlation between
+   trade and conflict does not by itself show that trade causes peace.
+2. **Institutions matter.** Preferential trading arrangements are associated with fewer disputes
+   among members (Mansfield & Pevehouse, 2000).
+3. **Context matters.** The effect differs with regime type, the level of development, and the
+   distribution of power between the partners.
+4. **The question has changed.** As geopolitical competition returned, research has turned from
+   "does trade pacify?" to "how do states use trade as an instrument of conflict?" — the questions
+   of Sessions 08, 10 and 11.
+
+---
+
+### 4. Bilateral versus multilateral openness
+
+**Martin, Mayer & Thoenig (2008), *Make Trade Not War?*, *Review of Economic Studies*, 75(3),
+865–900** ([doi:10.1111/j.1467-937X.2008.00492.x](https://doi.org/10.1111/j.1467-937X.2008.00492.x)).
+
+Their argument separates two effects:
+
+| | Effect on the risk of a bilateral conflict |
+|---|---|
+| **Bilateral trade** between A and B | **lowers** it: A and B have more to lose from fighting each other |
+| **Multilateral trade openness** of A and B with the rest of the world | **raises** it: if A can trade with everyone else, losing B costs less |
+
+The implication is uncomfortable for the liberal view: **globalisation lowers the cost of
+bilateral conflict** because it provides substitutes. A world of many alternative suppliers makes
+it cheaper to break with any one of them. Their empirical work finds support for both effects.
+
+---
+
+### 5. Fragmentation: the new question
+
+**Friend-shoring** (a term popularised in US policy debate in 2022) proposes to move supply chains
+towards trusted partners. **De-risking** (the European Commission's term, 2023) proposes to reduce
+dependence on rivals in critical goods without breaking trade overall. **De-coupling** is the end
+point: separate economic blocs.
+
+**Gopinath, Gourinchas, Presbitero & Topalova (2025)** ask whether the data show this happening.
+Their design:
+
+1. **Define blocs.** Countries are grouped into a **US-leaning** bloc, a **China-leaning** bloc and a
+   **non-aligned** group on the basis of their **foreign-policy alignment as revealed by UN General
+   Assembly voting**. Read Section 2 of the paper for exactly which vote or measure, and which year,
+   they use — ours will be a simplification, and you must say how it differs.
+2. **Compare trade within and between blocs** before and after Russia's invasion of Ukraine in
+   February 2022, controlling for the usual determinants of bilateral trade.
+3. **Look for connectors** — non-aligned countries whose trade with both blocs grew, through which
+   some between-bloc trade may be rerouted.
+
+**Their main finding**: after the invasion, trade **between** the two blocs fell relative to trade
+**within** them, by a margin of the order of ten percent or more (find the exact estimate in the
+paper and write it in your notes), and foreign direct investment shows a similar pattern. They are
+careful to say this is a fragmentation still small compared with the Cold War — but it is
+happening, and it is concentrated in strategic sectors.
+
+---
+
+### 6. What it means for the multinational
+
+| | |
+|---|---|
+| **Classify your markets by alignment** | Which of your five most important countries (the team milestone) sit in which bloc — and which are drifting? |
+| **Connectors are opportunities and risks** | Mexico, Vietnam and others gain between-bloc trade — and attract scrutiny for transshipment and rules-of-origin enforcement |
+| **The cost of switching is falling for states, not for you** | Martin, Mayer & Thoenig: multilateral openness makes it cheaper for *states* to break with a partner. Your supply contracts do not get cheaper to break |
+| **De-risking is sectoral** | Fragmentation is concentrated in strategic goods; a firm in consumer goods and one in semiconductors face different worlds |
+
+---
+
+### 7. What the figure does not license
+
+- A fall in between-bloc trade is a **correlation with a date**, not proof that geopolitics caused it:
+  sanctions on Russia, the post-COVID rebound and price changes all move trade values in the same
+  years.
+- **Bloc membership is a modelling choice.** Change the threshold or the base year and countries
+  move between blocs — and the figure moves with them.
+- **Values, not volumes.** Trade in US dollars rises with commodity prices; 2022 was a year of
+  very high energy and food prices.
+- It shows **aggregate** trade. Your firm's products may be in a sector where fragmentation is far
+  stronger — or absent.
+
+---
+
+### 8. The Tableau skill of the day
+
+A dyadic table (exporter × partner × year) needs **two** copies of the country table: one for the
+exporter's bloc, one for the partner's. In Tableau's data model, add the bloc table, relate it on
+`exporter = country`, then add it again and relate the second copy on `partner = country`. Blocs
+are **sets** defined by a condition on the ideal point, with **parameters** as thresholds. The trade
+series is indexed to a base year with a table calculation. Click-path:
+[`../02-practice/README.md`](#in-the-practice).
+
+---
+
+### References
+
+Angell, N. (1910). *The great illusion*. Heinemann.
+
+Bailey, M. A., Strezhnev, A., & Voeten, E. (2017). Estimating dynamic state preferences from United
+Nations voting data. *Journal of Conflict Resolution*, 61(2), 430–456.
+
+Copeland, D. C. (2015). *Economic interdependence and war*. Princeton University Press.
+
+Gopinath, G., Gourinchas, P.-O., Presbitero, A. F., & Topalova, P. (2025). Changing global linkages:
+A new Cold War? *Journal of International Economics*, 153, 104042.
+
+Gowa, J. (1994). *Allies, adversaries, and international trade*. Princeton University Press.
+
+Mansfield, E. D. (2021). International trade and conflict. In J. C. W. Pevehouse & L. Seabrooke
+(Eds.), *The Oxford handbook of international political economy* (pp. 660–671). Oxford University
+Press.
+
+Mansfield, E. D., & Pevehouse, J. C. (2000). Trade blocs, trade flows, and international conflict.
+*International Organization*, 54(4), 775–808.
+
+Martin, P., Mayer, T., & Thoenig, M. (2008). Make trade not war? *Review of Economic Studies*, 75(3),
+865–900.
+
+Russett, B., & Oneal, J. R. (2001). *Triangulating peace: Democracy, interdependence, and
+international organizations*. W. W. Norton.
+
+## In the practice
+
+> **The target.** Gopinath, Gourinchas, Presbitero & Topalova (2025): trade **between** geopolitical
+> blocs against trade **within** them, before and after Russia's invasion of Ukraine. You define the
+> blocs yourself from UN General Assembly ideal points, then watch what happens to the finding when
+> you move the line.
+
+Work in your team. One extract per team; everyone builds their own workbook.
+
+---
+
+### 1 · Collect — 10 min
+
+Ideal points and codebook from Dataverse; your IMF IMTS extract of bilateral goods exports, annual,
+2015–latest. If not done: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/04-trade-conflict-and-fragmentation/data/README.md).
+
+Provenance log: one line per file. For the ideal points, log **version 39** and the change to
+calendar-year estimation. For IMF, log the date of the extract and the exact indicator you chose.
+
+---
+
+### 2 · Prepare — 25 min
+
+#### A · Classify countries into blocs (ideal points)
+
+1. **Connect → Text file** → `IdealpointestimatesFP_2026FP.csv`. The **ISO 3-letter code**, the
+   **year** and the **ideal point** are `iso3c`, `year` and `IdealPointFP` (see the codebook).
+   Rename `iso3c` → `iso3` and `IdealPointFP` → `IdealPoint` (right-click → *Rename*): the steps
+   below use those names.
+2. New sheet. Filter `year` = **2021** — the last full year before the invasion. (Gopinath et al. may
+   use a different reference: check, and log the difference.)
+3. Read the ideal points of the US (`USA`) and China (`CHN`) off the data. Create two parameters,
+   `US ref` and `CHN ref` (*Float*), and type those two values in.
+4. Create a third parameter `Margin` (*Float*, start at **0.5**) and the calculated field:
+
+   ```text
+   Bloc =
+   IF ABS([IdealPoint] - [CHN ref]) - ABS([IdealPoint] - [US ref]) > [Margin] THEN "US-leaning"
+   ELSEIF ABS([IdealPoint] - [US ref]) - ABS([IdealPoint] - [CHN ref]) > [Margin] THEN "China-leaning"
+   ELSE "Non-aligned"
+   END
+   ```
+
+5. `iso3` → Rows, `Bloc` → Rows, `IdealPoint` → Text. Sort by ideal point. Does the classification
+   look right for countries you know? Adjust `Margin` until you can defend it — and write down the
+   value and why.
+6. **Export the classification** as a derived file: *Worksheet → Export → Crosstab to Excel* (or
+   *View Data → Export All* to CSV). Save it as `data/derived/blocs_2021.csv` — **not** in `raw/`.
+   Add a provenance line: derived from the ideal points, `Margin` = …, base year 2021.
+
+#### B · Relate trade to blocs — the dyad model
+
+1. New data source: **Connect → Text file** (or Excel) → your IMF extract. Identify the exporter,
+   partner, year and value columns — in the IMF's SDMX layout `COUNTRY`, `COUNTERPART_COUNTRY`,
+   `TIME_PERIOD`, `OBS_VALUE` — and rename them `exporter`, `partner`, `year`, `value`. Keep only
+   `INDICATOR` = `XG_FOB_USD`.
+2. Remove aggregate partners ("World", "Advanced Economies", regions — codes starting with `G` or
+   `TX`, e.g. `G001` World): filter them out, and log which.
+3. In the data source pane, drag `blocs_2021.csv` onto the canvas: Tableau creates a
+   **relationship**. Click the noodle → relate `exporter` = `iso3`.
+4. Drag `blocs_2021.csv` onto the canvas **a second time**. Relate `partner` = `iso3`. Rename this
+   copy **Partner blocs** and its `Bloc` field **Partner bloc**; rename the first copy's field
+   **Exporter bloc**.
+5. IMTS uses ISO3 codes, so the relationship works directly. If your download shows names instead,
+   you need a concordance table — log it.
+
+---
+
+### 3 · Replicate — 25 min
+
+#### Sheet 1 · "Trade within and between blocs"
+
+1. The pair type:
+
+   ```text
+   Pair type =
+   IF [Exporter bloc] = "Non-aligned" OR [Partner bloc] = "Non-aligned" THEN "Involves non-aligned"
+   ELSEIF [Exporter bloc] = [Partner bloc] THEN "Within bloc"
+   ELSE "Between US- and China-leaning"
+   END
+   ```
+
+2. The index, 2021 = 100:
+
+   ```text
+   Trade index = SUM([value]) / WINDOW_SUM(SUM(IF [year] = 2021 THEN [value] END)) * 100
+   ```
+
+3. `year` → Columns as a **discrete** dimension (blue); `Trade index` → Rows; `Pair type` → Colour.
+   Right-click `Trade index` → **Edit Table Calculation → Compute Using → year**, so each pair type is
+   indexed to its own 2021.
+4. Reference line at 100. Annotate 2022.
+5. Title with the finding. Caption: both sources with versions, and *"Blocs: ideal-point distance to
+   US vs China, 2021, margin = …"*.
+
+#### Sheet 2 · "Who sits where?" — the classification on a map
+
+`iso3` (geographic role *Country/Region*, ISO 3166-1 alpha-3) on the map, coloured by `Bloc`. Mark
+your team firm's five main countries with a **group** (*Create → Group*, "Our markets").
+
+---
+
+### 4 · Compare and break — 20 min
+
+1. **Compare.** Put Sheet 1 beside the paper's figure. Their data are quarterly and their estimate
+   controls for other determinants of trade; ours is annual and raw. Does the direction match? Is the
+   gap between "within" and "between" of a similar order? Write one difference and its likely cause.
+2. **Break the bloc definition.** Move `Margin` (0.25, 1.0), re-export, refresh. Which countries
+   change bloc? Does the gap between the lines survive? This is the most important answer of the round.
+3. **Break the side of the trade.** If your extract has the mirror series (imports reported by the
+   partner), rebuild the index with it. Same picture?
+4. **Extend — connectors.** Create a **set** of non-aligned countries (*Create → Set*, *Top* tab: top
+   10 by growth in exports to *both* blocs, 2021 → latest — or pick by hand from a table). Which are
+   they? Is any of them among your firm's markets?
+
+---
+
+### 5 · The catch — 10 min
+
+One slide:
+
+| Original | Ours | The catch |
+|---|---|---|
+| Gopinath et al.'s within/between figure | Sheet 1, and the same chart with another `Margin` | One sentence: what this figure does **not** license your team's multinational to conclude |
+
+A member drawn at random presents in two minutes.
+
+---
+
+### Hand in
+
+On ZoneCours before leaving, one per team: `.twbx` (including the derived `blocs_2021.csv`),
+provenance log, slide. Formative.
+
+**The one rule:** your log records at least one place where the data disagreed with the paper — and
+your slide says how your blocs differ from theirs.
+
+---
+
+### What loses credit
+
+- Joining on country names (Türkiye, Côte d'Ivoire, Korea…)
+- Leaving "World" or regional aggregates among the partners
+- An index computed across pair types instead of within each one
+- A bloc threshold that is not reported on the slide
+

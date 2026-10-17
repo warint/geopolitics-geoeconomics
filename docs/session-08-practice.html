@@ -1052,10 +1052,10 @@ Thierry Warin, PhD
 <section id="collect-15-min" class="slide level2">
 <h2>1 · Collect — 15 min</h2>
 <div class="step">
-<p><strong>DCID v2.0</strong> — <a href="https://doi.org/10.7910/DVN/CQOMYV">doi:10.7910/DVN/CQOMYV</a> → <em>Access File → CSV</em> + codebook</p>
+<p><strong>DCID v2.0</strong> — <a href="https://doi.org/10.7910/DVN/CQOMYV">doi:10.7910/DVN/CQOMYV</a> → <em>Access File → CSV (original)</em> · codebook 2.0 on <a href="https://www.ryanmaness.com/cyber-conflict-dataset">ryanmaness.com</a></p>
 </div>
 <div class="step">
-<p><strong>EuRepoC v1.3</strong> — <a href="https://doi.org/10.5281/zenodo.14965395">doi:10.5281/zenodo.14965395</a> → <code>eurepoc_global_dataset_1_3.csv</code> + codebook</p>
+<p><strong>EuRepoC v1.3</strong> — <a href="https://doi.org/10.5281/zenodo.14965395">doi:10.5281/zenodo.14965395</a> → <code>eurepoc_global_dataset_1_3.csv</code> + <code>eurepoc_codebook_1_2.pdf</code></p>
 </div>
 <table class="caption-top" style="width:100%;">
 <colgroup>
@@ -1085,8 +1085,8 @@ Thierry Warin, PhD
 <td>doi:…/CQOMYV</td>
 <td>v2.0, 2022</td>
 <td><em>today</em></td>
-<td>free</td>
-<td><em>from .tab</em></td>
+<td>CC0</td>
+<td><em>433 rows</em></td>
 </tr>
 <tr class="even">
 <td>eurepoc_global_dataset_1_3.csv</td>
@@ -1094,8 +1094,8 @@ Thierry Warin, PhD
 <td>doi:…/14965395</td>
 <td>v1.3, 2025</td>
 <td><em>today</em></td>
-<td>free</td>
-<td></td>
+<td>CC BY-NC 4.0</td>
+<td><em>3,414 rows</em></td>
 </tr>
 </tbody>
 </table>
@@ -1104,13 +1104,13 @@ Thierry Warin, PhD
 <h2>2 · Prepare — 15 min</h2>
 <ol type="1">
 <li><strong>Connect → Text file</strong> → DCID CSV</li>
-<li>Codebook → find <strong>initiator, target, start date, method, severity, target type</strong> — log the exact names</li>
-<li>COW codes? → <strong>Aliases</strong> for the states that appear</li>
-<li>Method and target type as codes? → <strong>Aliases</strong> from the codebook</li>
-<li><code>Start Year</code> = <code>YEAR(DATE([start date]))</code> if needed</li>
+<li>Columns: <code>initiator</code> (COW code) · <code>StateA</code>, <code>StateB</code> (the dyad, as names) · <code>Dyadpair</code> · <code>interactionstartdate</code> · <code>method</code> · <code>severity</code> · <code>targettype</code></li>
+<li><strong>No target column</strong> → <code>[Initiator]</code>, <code>[Target]</code> from <code>initiator</code> vs <code>RIGHT(STR([Dyadpair]),3)</code> — formula in the README</li>
+<li><code>method</code> and <code>targettype</code> are codes → <strong>Aliases</strong> from the codebook</li>
+<li><code>Start Year</code> = <code>YEAR(DATEPARSE(&quot;M/d/yyyy&quot;, [interactionstartdate]))</code> if needed</li>
 </ol>
 <div class="warn">
-<p>Check the method list against the codebook — not against the slide.</p>
+<p><code>StateA</code>/<code>StateB</code> are not initiator/target. Check the method list against the codebook — not against the slide.</p>
 </div>
 </section>
 <section id="replicate-three-sheets" class="slide level2">
@@ -1170,9 +1170,9 @@ Thierry Warin, PhD
 <h2>4 · Compare and break — 20 min</h2>
 <ol type="1">
 <li><strong>Differ.</strong> Yours vs the book — one difference, and its cause</li>
-<li><strong>Break the population.</strong> Sheet 1 on EuRepoC: <strong>all</strong> incidents, then <strong>state-attributed</strong> only</li>
+<li><strong>Break the population.</strong> Sheet 1 on EuRepoC: <strong>all</strong> incidents, then <strong>state-attributed</strong> only (<code>initiator_category</code>)</li>
 <li><strong>Restraint, tested.</strong> Share of incidents at low severity — <em>Percent of Total</em></li>
-<li><strong>Extend — the firm.</strong> Private and commercial targets only: which dyads, which sectors?</li>
+<li><strong>Extend — the firm.</strong> <code>targettype</code> = 1 (private / non-state) only: which dyads, which sectors?</li>
 </ol>
 </section>
 <section id="the-catch-15-min" class="slide level2">

@@ -58,7 +58,18 @@ curl -L -o 02-the-international-economic-order/data/raw/gdp_current_usd.zip \
   "https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=csv"
 ```
 
-The zip contains the data file plus metadata files (one of which lists each country's region and
-income group). The data file has a few lines of metadata above the header: use Tableau's **Data
-Interpreter** or tell the connector where the header row is. Check this yourself — it is the kind of
-thing that changes between releases.
+Repeat for `NY.GDP.MKTP.PP.CD` and `NE.TRD.GNFS.ZS` (one zip per series). Each zip holds three
+files (checked October 2026; the number at the end of the name changes between releases):
+
+| File | What it holds |
+|---|---|
+| `API_NY.GDP.MKTP.CD_DS2_en_csv_v2_….csv` | the data: one row per country or aggregate, 1960 to the latest year |
+| `Metadata_Country_API_….csv` | `Country Code`, `Region`, `IncomeGroup`, `SpecialNotes`, `TableName` — aggregates such as `WLD` have an empty `Region` |
+| `Metadata_Indicator_API_….csv` | `INDICATOR_CODE`, `INDICATOR_NAME`, `SOURCE_NOTE`, `SOURCE_ORGANIZATION` — the definition to cite |
+
+The data file has **four lines above the header** (`"Data Source"`, a blank line, `"Last Updated
+Date"` — your version — and another blank line): in Tableau's text connector use **Data
+Interpreter**, or skip four rows elsewhere. The header is `Country Name`, `Country Code`,
+`Indicator Name`, `Indicator Code`, then `1960` … `2025` as plain years, plus an empty last column.
+Two differences from Route A: the code column is **`Indicator Code`**, not `Series Code`, and
+missing values are **empty cells**, not `..`.

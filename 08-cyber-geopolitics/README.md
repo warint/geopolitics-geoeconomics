@@ -35,6 +35,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — cyber as a domain; restraint; weaponised interdependence; attribution; the firm | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 08:** rebuild the cyber-conflict picture | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
+| **Lecture notes** | [Chapter 8 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-08.html) — pre-session, lecture and practice as one readable, searchable page | — |
 
 > **Action today for Session 10.** Submit the request form of the Global Sanctions Data Base
 > ([globalsanctionsdatabase.com](https://globalsanctionsdatabase.com/)) — the data are e-mailed, and

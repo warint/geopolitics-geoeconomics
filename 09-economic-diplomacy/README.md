@@ -35,6 +35,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — what changed in economic diplomacy; two-level games; digital diplomacy; embassies and exports; screening and bargaining | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 09:** do embassies follow, or lead, exports? | 90 min |
 | **Data** | [`data/`](data/README.md) | — |
+| **Lecture notes** | [Chapter 9 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-09.html) — pre-session, lecture and practice as one readable, searchable page | — |
 
 > **Reminder.** Session 10 opens with **Quiz 3** (Sessions 07–09) and needs the **GSDB** file — if
 > it has not arrived, write to the database team today.

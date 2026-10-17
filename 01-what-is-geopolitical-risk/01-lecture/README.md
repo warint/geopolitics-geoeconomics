@@ -3,7 +3,8 @@
 # What is geopolitical risk?
 
 Slides: [`INTE60019A-S01-Lecture.qmd`](INTE60019A-S01-Lecture.qmd) · Instructor plan:
-[`TEACHING-PLAN.md`](TEACHING-PLAN.md)
+[`TEACHING-PLAN.md`](TEACHING-PLAN.md) ·
+As a book chapter: [course book, Session 01](https://warint.github.io/geopolitics-geoeconomics/book/session-01.html)
 
 ---
 
@@ -102,7 +103,7 @@ geopolitical risk.
 | Channel | Example | Session |
 |---|---|---|
 | Market access | tariffs, bloc-based trade diversion | 04 |
-| Inputs | export restrictions on critical minerals | 11 |
+| Inputs | a critical service from one satellite operator | 11 |
 | Finance and payments | sanctions on banks, asset freezes | 10 |
 | Assets and people | conflict, expropriation, evacuation | 03, 05 |
 | Data and operations | state-sponsored cyber operations | 08 |

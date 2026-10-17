@@ -34,6 +34,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — commercial peace, its critics, fragmentation | 50 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 04:** rebuild trade within and between blocs | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
+| **Lecture notes** | [Chapter 4 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-04.html) — pre-session, lecture and practice as one readable, searchable page | — |
 
 **Team milestone:** your firm's five most important countries, with sources, on ZoneCours.
 

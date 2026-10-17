@@ -45,6 +45,9 @@ member says 'China has already overtaken America.' What do you ask before you an
 
 Push for: overtaken **on what** measure, **when**, and **which of our decisions** depends on it.
 
+*For the instructor only (NMC v7.0, checked October 2026):* China's CINC first exceeds the US's in
+**1995**; in 2022 it is 0.234 against 0.124. Let the practice round find it.
+
 ---
 
 ## Misconception to pre-empt

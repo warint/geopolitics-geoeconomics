@@ -1084,11 +1084,11 @@ Thierry Warin, PhD
 <section id="prepare-25-min" class="slide level2">
 <h2>2 · Prepare — 25 min</h2>
 <ol type="1">
-<li>Lowy, sheet <strong>2023</strong> — drop missions to international organisations</li>
-<li>IMF — five exporters, 2023, no aggregate partners</li>
-<li><strong>Concordance</strong> <code>name → ISO3</code> for both files</li>
+<li>Lowy, sheet <strong>2023</strong> — drop <code>TYPE OF POST</code> = <code>Permanent Mission</code></li>
+<li>IMF — five exporters, 2023, no aggregate partners (<code>G…</code>, <code>TX…</code>) · <code>OBS_VALUE</code> → <code>Exports</code></li>
+<li><strong>Concordance</strong> <code>name → ISO3</code> for Lowy (names only; IMF is already ISO3)</li>
 <li><strong>Relationship</strong> (not join) on exporter = sender <strong>and</strong> partner = host</li>
-<li><code>Posts</code> = <code>ZN(COUNT([Post City]))</code> — <strong>the zeros</strong></li>
+<li><code>Posts</code> = <code>ZN(COUNT([POST CITY]))</code> — <strong>the zeros</strong></li>
 <li><code>Posts + 1</code> — so it can be logged · log the decision</li>
 <li><code>Exports / partner GDP (‰)</code></li>
 </ol>

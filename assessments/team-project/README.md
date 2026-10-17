@@ -26,7 +26,7 @@ market-based, firm-level. It must contain:
    disclosures), as a map or a table.
 2. **A composite exposure index** for the firm's main countries, built with the method of Session 07:
    indicators chosen and justified, normalised, weighted by **parameters** the board can move.
-3. **At least two channel views** — e.g. sanctions exposure (S10), critical-input concentration (S11),
+3. **At least two channel views** — e.g. sanctions exposure (S10), dependence on satellite services (S11),
    bloc alignment of key markets (S04), cyber-incident exposure of its sector (S08).
 4. **A watchlist** — three indicators, each with a threshold that triggers a named decision.
 

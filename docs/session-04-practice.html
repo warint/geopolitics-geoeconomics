@@ -1139,7 +1139,7 @@ Thierry Warin, PhD
 <section id="prepare-a-blocs-from-ideal-points" class="slide level2">
 <h2>2 · Prepare · A — blocs from ideal points</h2>
 <ol type="1">
-<li>Codebook → columns for <code>iso3</code>, <code>year</code>, <code>IdealPoint</code></li>
+<li>Rename <code>iso3c</code> → <code>iso3</code> and <code>IdealPointFP</code> → <code>IdealPoint</code>; keep <code>year</code></li>
 <li>Filter <code>year</code> = <strong>2021</strong></li>
 <li>Parameters <code>US ref</code>, <code>CHN ref</code> (read off the data) and <code>Margin</code> (start 0.5)</li>
 </ol>
@@ -1154,13 +1154,13 @@ Thierry Warin, PhD
 <section id="prepare-b-the-dyad-model" class="slide level2">
 <h2>2 · Prepare · B — the dyad model</h2>
 <ol type="1">
-<li>IMF extract → <code>exporter</code>, <code>partner</code>, <code>year</code>, <code>value</code></li>
-<li>Remove aggregate partners — log which</li>
+<li>IMF extract: <code>COUNTRY</code>, <code>COUNTERPART_COUNTRY</code>, <code>TIME_PERIOD</code>, <code>OBS_VALUE</code> → <code>exporter</code>, <code>partner</code>, <code>year</code>, <code>value</code> · <code>INDICATOR</code> = <code>XG_FOB_USD</code></li>
+<li>Remove aggregate partners (<code>G…</code>, <code>TX…</code> codes, e.g. <code>G001</code> World) — log which</li>
 <li>Add <code>blocs_2021.csv</code> → relate <code>exporter</code> = <code>iso3</code> → field <strong>Exporter bloc</strong></li>
 <li>Add it <strong>again</strong> → relate <code>partner</code> = <code>iso3</code> → <strong>Partner blocs</strong> → <strong>Partner bloc</strong></li>
 </ol>
 <div class="warn">
-<p>Not ISO3 in the IMF file? You need a concordance — log it.</p>
+<p>IMTS codes are ISO3 (<code>KOS</code> and <code>WBG</code> are IMF exceptions). Names instead of codes in your download? You need a concordance — log it.</p>
 </div>
 </section>
 <section id="replicate-sheet-1" class="slide level2">

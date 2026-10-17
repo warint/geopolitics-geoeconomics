@@ -37,18 +37,19 @@ The quarter identifier in the firm file is a string such as `2010q1` in the vint
                            1 )
 ```
 
-And for EPU (check the names of its year and month columns):
+And for EPU (`Year` and `Month` in the current file; `Year` may arrive as text because of the
+citation rows at the bottom, hence the `INT`):
 
 ```text
-[Quarter date] = DATETRUNC('quarter', MAKEDATE([Year], [Month], 1))
+[Quarter date] = DATETRUNC('quarter', MAKEDATE(INT([Year]), INT([Month]), 1))
 ```
 
 **Route 1 · Tableau Prep** (if your licence includes it)
 
 1. *Input* `firmquarter_2022q1.csv` → *Clean* step: add `[Quarter date]` → *Aggregate* step: group by
-   `[Quarter date]`; `AVG(PRisk)`, `COUNTD` of the firm identifier.
+   `[Quarter date]`; `AVG(PRisk)`, `COUNTD([gvkey])`.
 2. *Input* the EPU workbook → *Clean*: add `[Quarter date]`, drop rows with no value →
-   *Aggregate*: group by `[Quarter date]`; `AVG` of the global EPU column.
+   *Aggregate*: group by `[Quarter date]`; `AVG([GEPU_current])` (or `GEPU_ppp` — log which).
 3. *Join* the two on `[Quarter date]` (inner) → *Output* as `.hyper`. Open it in Tableau Desktop.
 4. Every step is a visible, saved decision: export the flow (`.tfl`) with your hand-in.
 
@@ -58,7 +59,7 @@ And for EPU (check the names of its year and month columns):
 2. In the relationship dialog, choose **Create Relationship Calculation** on each side and enter the
    two `[Quarter date]` formulas above.
 3. Relationships aggregate each table at its own level: `AVG(PRisk)` is averaged over firms,
-   `AVG(GEPU)` over the months of the quarter — exactly what you want.
+   `AVG(GEPU_current)` over the months of the quarter — exactly what you want.
 
 ### Replicate — Sheet "Firm-level political risk and EPU"
 
@@ -73,7 +74,7 @@ And for EPU (check the names of its year and month columns):
   firm, and which for a country?
 - Add `COUNTD` of firms as a third view. Does the number of firms change over the period? Why does
   that matter for an average?
-- If the file has a headquarters-country column, filter to non-US firms. How many are left?
+- Filter `hqcountrycode` (2-letter codes) to exclude `US`. How many firms are left?
 
 ---
 
@@ -110,9 +111,9 @@ than silently dropped.
 
 | Indicator | Source | Direction | Preparation |
 |---|---|---|---|
-| Country GPR | `GPRC_xxx` columns | higher = riskier | pivot the `GPRC_` columns; extract the code with `RIGHT([Pivot Field Names], 3)`; average the last 12 months |
-| Country EPU | `All_Country_Data.xlsx` | higher = riskier | pivot country columns; add `iso3` (the columns are country names — check); average the last 12 months |
-| Political stability | WGI 2025 | **higher = safer** | latest year |
+| Country GPR | `GPRC_xxx` columns | higher = riskier | pivot the `GPRC_` columns (not `GPRHC_`; values are % of articles); extract the code with `RIGHT([Pivot Field Names], 3)`; average the last 12 months |
+| Country EPU | `All_Country_Data.xlsx` | higher = riskier | pivot country columns; add `iso3` (the columns are country names such as `UK`, `US`, `Korea`, and China appears three times); average the last 12 months |
+| Political stability | WGI 2025, sheet `pv`, `Governance score (0-100)` | **higher = safer** | latest year; join on `Economy (code)` |
 | Distance in UN voting from the firm's home country | Session 04 ideal points | higher = riskier | `ABS([Ideal point] - [Home ideal point])`, latest year |
 
 **Each input must be one row per country before it is joined to the spine** — otherwise the min and

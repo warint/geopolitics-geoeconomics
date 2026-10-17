@@ -27,9 +27,10 @@ calendar-year estimation. For IMF, log the date of the extract and the exact ind
 
 ### A · Classify countries into blocs (ideal points)
 
-1. **Connect → Text file** → `IdealpointestimatesFP_2026FP.csv`. Check in the codebook which columns
-   hold the **ISO 3-letter code**, the **year** and the **ideal point**; the steps below call them
-   `iso3`, `year` and `IdealPoint`.
+1. **Connect → Text file** → `IdealpointestimatesFP_2026FP.csv`. The **ISO 3-letter code**, the
+   **year** and the **ideal point** are `iso3c`, `year` and `IdealPointFP` (see the codebook).
+   Rename `iso3c` → `iso3` and `IdealPointFP` → `IdealPoint` (right-click → *Rename*): the steps
+   below use those names.
 2. New sheet. Filter `year` = **2021** — the last full year before the invasion. (Gopinath et al. may
    use a different reference: check, and log the difference.)
 3. Read the ideal points of the US (`USA`) and China (`CHN`) off the data. Create two parameters,
@@ -54,14 +55,18 @@ calendar-year estimation. For IMF, log the date of the extract and the exact ind
 ### B · Relate trade to blocs — the dyad model
 
 1. New data source: **Connect → Text file** (or Excel) → your IMF extract. Identify the exporter,
-   partner, year and value columns; called `exporter`, `partner`, `year`, `value` below.
-2. Remove aggregate partners ("World", "Advanced Economies", regions): filter them out, and log which.
+   partner, year and value columns — in the IMF's SDMX layout `COUNTRY`, `COUNTERPART_COUNTRY`,
+   `TIME_PERIOD`, `OBS_VALUE` — and rename them `exporter`, `partner`, `year`, `value`. Keep only
+   `INDICATOR` = `XG_FOB_USD`.
+2. Remove aggregate partners ("World", "Advanced Economies", regions — codes starting with `G` or
+   `TX`, e.g. `G001` World): filter them out, and log which.
 3. In the data source pane, drag `blocs_2021.csv` onto the canvas: Tableau creates a
    **relationship**. Click the noodle → relate `exporter` = `iso3`.
 4. Drag `blocs_2021.csv` onto the canvas **a second time**. Relate `partner` = `iso3`. Rename this
    copy **Partner blocs** and its `Bloc` field **Partner bloc**; rename the first copy's field
    **Exporter bloc**.
-5. If the IMF extract does not use ISO3 codes, you need a concordance table between them — log it.
+5. IMTS uses ISO3 codes, so the relationship works directly. If your download shows names instead,
+   you need a concordance table — log it.
 
 ---
 

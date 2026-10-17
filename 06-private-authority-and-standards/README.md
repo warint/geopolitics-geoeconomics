@@ -30,11 +30,12 @@
 
 | | Where | Time |
 |---|---|---|
-| **Before class** | [`00-pre-session/`](00-pre-session/README.md) — read the paper and skim the triangle; collect the ISO Survey **(account may be needed — do it early)**, exports and GDP | 2 h 30 |
+| **Before class** | [`00-pre-session/`](00-pre-session/README.md) — read the paper and skim the triangle; collect the ISO Survey **(free IAF CertSearch account needed — do it early)**, exports and GDP | 2 h 30 |
 | **Opening** | Four **Risk Briefs** | 20 min |
 | **First half** | [`01-lecture/`](01-lecture/README.md) — private authority; the governance triangle; standards and power; the California effect; standards as geopolitics | 70 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 06:** map the diffusion of ISO 14001 and test the trade channel | 90 min |
 | **Data** | [`data/`](data/README.md) | — |
+| **Lecture notes** | [Chapter 6 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-06.html) — pre-session, lecture and practice as one readable, searchable page | — |
 
 ---
 

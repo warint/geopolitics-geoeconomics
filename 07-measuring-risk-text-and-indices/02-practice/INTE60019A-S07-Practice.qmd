@@ -52,7 +52,7 @@ Keep to the clock. Part (c) is your team's draft composite.
 [Quarter date] = MAKEDATE( INT(LEFT([date], 4)),
                            (INT(RIGHT([date], 1)) - 1) * 3 + 1, 1 )     // firm file
 
-[Quarter date] = DATETRUNC('quarter', MAKEDATE([Year], [Month], 1))     // EPU
+[Quarter date] = DATETRUNC('quarter', MAKEDATE(INT([Year]), INT([Month]), 1))   // EPU
 ```
 
 ::::: columns
@@ -76,7 +76,7 @@ Input → Clean (date) → **Aggregate** by quarter → **Join** → Output `.hy
 :::::
 
 ::: {.muted}
-Check the column names in your vintage — they change.
+Check the column names in your vintage — they change. Firm file: tab-separated; `date`, `gvkey`, `hqcountrycode`, `PRisk`. EPU: `GEPU_current`.
 :::
 
 ## (a) · Replicate and compare
@@ -103,9 +103,9 @@ Check the column names in your vintage — they change.
 
 | Indicator | Direction |
 |---|---|
-| Country GPR (`GPRC_`) | higher = riskier |
+| Country GPR (`GPRC_`, % of articles) | higher = riskier |
 | Country EPU | higher = riskier |
-| WGI political stability | **higher = safer** → invert |
+| WGI political stability (`pv`, `Governance score (0-100)`) | **higher = safer** → invert |
 | UN voting distance from home | higher = riskier |
 
 ```text

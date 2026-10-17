@@ -45,7 +45,8 @@ Download and unzip **NMC v7.0**, and download the latest **SIPRI** military expe
 Details and terminal commands: [`../data/README.md`](../data/README.md).
 
 **Read the NMC codebook before opening the data.** Find: the six components and their units; how
-CINC is computed; the code for China, Russia/USSR, Germany and the UK; the last year covered.
+CINC is computed; the last year covered. Then find the codes for China, Russia/USSR, Germany and the
+UK in the COW state list (a separate file — see the data README).
 
 ---
 

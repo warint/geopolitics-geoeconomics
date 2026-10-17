@@ -23,8 +23,8 @@ arrived in `raw/`, and record each in your provenance log.
 | **Producer** | ISO; since recent editions produced and hosted with **IAF CertSearch** |
 | **Landing pages** | [iso.org/the-iso-survey.html](https://www.iso.org/the-iso-survey.html) · [IAF CertSearch — ISO Survey](https://support.iafcertsearch.org/certification-bodies/overview/market-intelligence/iso-survey) |
 | **What you need** | Number of **ISO 14001** certificates by country and year; the same for **ISO 9001** |
-| **Coverage** | 1993 onwards (ISO 14001 from its first certificates in the late 1990s) to 2024 |
-| **Access** | Free. Access through IAF CertSearch **may require a free account** — create it at least two days before class. The exact file format was not verified when this page was written: log what you get |
+| **Coverage** | 1993 onwards (ISO 14001 from its first certificates in the late 1990s) to 2024 — IAF CertSearch states "1993 to the most recent year (2024)". From 2025 the survey is compiled from IAF CertSearch data: a method change to log |
+| **Access** | Free, but **requires a free IAF CertSearch account**: ISO's help page says to log in to IAF CertSearch ([iafcertsearch.org/services/iso-survey](https://www.iafcertsearch.org/services/iso-survey)) to download the dataset. Create the account at least two days before class. The file format could not be checked without an account (October 2026): log what you get |
 
 ### Fallback if you cannot download the full tables
 
@@ -49,10 +49,13 @@ That is about two hundred rows: forty minutes for a team of four. Write "transcr
 |---|---|
 | **Dataset** | International Trade in Goods by partner country (IMTS, formerly DOTS) |
 | **Landing page** | [data.imf.org — IMF.STA:IMTS](https://data.imf.org/en/datasets/IMF.STA:IMTS) |
-| **What you need** | **Goods exports, FOB, US dollars**, annual, for your ~35 reporting countries to **all partner countries**, for the same years as the ISO data |
+| **What you need** | **Exports of goods, Free on board (FOB), US dollar** (`XG_FOB_USD`), annual, for your ~35 reporting countries to **all partner countries**, for the same years as the ISO data |
 | **Access** | Free (Download button) |
 
-If you collected IMTS data in Session 04, reuse that download and add the missing years.
+If you collected IMTS data in Session 04, reuse that download and add the missing years. Reporter and
+partner are `COUNTRY` and `COUNTERPART_COUNTRY`, in **ISO 3-letter codes** (IMF exceptions: `KOS`
+Kosovo, `WBG` West Bank and Gaza); aggregates have codes starting with `G` or `TX` (`G001` World).
+Values are in US dollars. Details: [Session 04 data](../../04-trade-conflict-and-fragmentation/data/README.md).
 
 ---
 
@@ -60,7 +63,10 @@ If you collected IMTS data in Session 04, reuse that download and add the missin
 
 `NY.GDP.MKTP.CD` (GDP, current US$), all countries, 1995–latest:
 `https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=csv` (a zip; the data file
-is the one starting `API_`). You already used it in Session 02.
+is the one starting `API_`). You already used it in Session 02. The `API_` file has four lines of
+preamble above the header (use Tableau's *Data Interpreter*), then `Country Name`, `Country Code`,
+`Indicator Name`, `Indicator Code` and one column per year, 1960–2025. The `Metadata_Country_…` file
+has `Country Code`, `Region`, `IncomeGroup`; **aggregates are the rows with an empty `Region`**.
 
 ---
 

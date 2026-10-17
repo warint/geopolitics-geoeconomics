@@ -83,7 +83,7 @@ format:
 | **01–04** | The system: what risk is · the economic order · anarchy and power · fragmentation |
 | **05–06** | Who governs it: public institutions · private authority and standards |
 | **07** | How risk becomes a number: text, coding, big data, indices |
-| **08–11** | How it reaches the firm: cyber · economic diplomacy · sanctions · supply chains |
+| **08–11** | How it reaches the firm: cyber · economic diplomacy · sanctions · space |
 | **12** | Your assessment, for one named multinational |
 
 ## Every session has the same rhythm
@@ -288,7 +288,7 @@ Bernanke (1983), *QJE* · Bloom (2009), *Econometrica*
 | Channel | Example | Session |
 |---|---|---|
 | **Market access** | bloc-based trade diversion | 04 |
-| **Inputs** | export restrictions on critical minerals | 11 |
+| **Inputs** | a critical service from one satellite operator | 11 |
 | **Finance and payments** | sanctioned banks, frozen assets | 10 |
 | **Assets and people** | conflict, expropriation, evacuation | 03, 05 |
 | **Data and operations** | state-sponsored cyber operations | 08 |

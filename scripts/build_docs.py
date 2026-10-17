@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
-REPO_URL = "https://github.com/warint/geopolical-risks-international-business"
+REPO_URL = "https://github.com/warint/geopolitics-geoeconomics"
 
 KINDS = [("Pre-Session", "pre-session", "Before class"),
          ("Lecture", "lecture", "Lecture"),
@@ -55,6 +55,8 @@ def main() -> None:
             dest = f"session-{num}-{src.stem.split('-')[-1].lower()}.html"
             shutil.copy2(src, DOCS / dest)
             links.append(f'<a href="{dest}">{src.stem.split("-")[-1]}</a>')
+        if (DOCS / "book" / f"session-{num}.html").exists():
+            links.append(f'<a href="book/session-{num}.html">Lecture notes</a>')
         if links:
             rows.append(
                 f"<tr><td class='n'>{num}</td><td>{html.escape(session_title(folder))}</td>"
@@ -82,7 +84,8 @@ PAGE = """<!doctype html>
   main {{ max-width:960px; margin:0 auto; padding:48px 16px; }}
   h1 {{ font-size:2rem; margin:0 0 .3em; }}
   h1::before {{ content:""; display:block; width:56px; height:6px; background:var(--red); margin-bottom:14px; }}
-  .sub {{ color:var(--muted); margin:0 0 2em; }}
+  .sub {{ color:var(--muted); margin:0 0 1.2em; }}
+  .book {{ border-left:3px solid var(--red); padding:.2em 0 .2em .9em; margin:0 0 2em; }}
   table {{ width:100%; border-collapse:collapse; border-top:2px solid var(--ink); }}
   td {{ padding:10px 8px; border-bottom:1px solid var(--rule); vertical-align:top; }}
   td.n {{ font-weight:700; color:var(--red); width:2.5em; font-variant-numeric:tabular-nums; }}
@@ -96,6 +99,9 @@ PAGE = """<!doctype html>
 <h1>Geopolitical Risks and International Business</h1>
 <p class="sub">INTE 60019A · HEC Montréal · Thierry Warin, PhD — every deck of the course, in your browser.
 Press <b>F</b> for full screen, <b>S</b> for speaker notes, <b>Esc</b> for the overview.</p>
+<p class="book"><a href="book/"><b>The lecture notes, as a book</b></a> — every session as one chapter:
+before the session, the lecture, the practice round. Searchable, with a
+<a href="book/Geopolitical-Risks-and-International-Business.pdf">PDF</a>.</p>
 <table>
 {rows}
 </table>

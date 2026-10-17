@@ -70,7 +70,7 @@ No version, no access date → no credit, from Session 02 on.
 ## 2 · Prepare — 15 min
 
 1. **Connect → Microsoft Excel** → the file
-2. Drag the data sheet to the canvas; read the grid
+2. Drag `Sheet1` to the canvas; read the grid
 3. `month` must be a **date** — fix the icon if not
 4. `GPR`, `GPRT`, `GPRA`, `GPRH` must be **numbers**
 5. Log what Tableau got wrong
@@ -103,6 +103,7 @@ Your line should already look like Figure 1. Now make it *say* what Figure 1 say
 - Duplicate Sheet 1
 - `GPR` → `GPRH`
 - Remove the date filter
+- Reference line: base is **1900–2019** = 100
 - Annotate both World Wars, Korea, Cuba 1962
 
 ::::
@@ -124,7 +125,7 @@ Your line should already look like Figure 1. Now make it *say* what Figure 1 say
 1. **Differ.** Yours vs Figure 1: one difference, and why
 2. **Threats vs acts.** One episode where threats led acts. What did an acts-only watcher miss?
 3. **Break.** Monthly → **yearly average**. Which spikes vanish? What frequency should a dashboard run at?
-4. **Extend.** Add one `GPRC_` country. When does it diverge from the world?
+4. **Extend.** Add one `GPRC_` country (% of articles — dual axis). When does it diverge from the world?
 
 ## 5 · The catch — 10 min
 

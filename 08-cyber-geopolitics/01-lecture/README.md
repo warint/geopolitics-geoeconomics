@@ -3,7 +3,8 @@
 # Cyber geopolitics and digital threats
 
 Slides: [`INTE60019A-S08-Lecture.qmd`](INTE60019A-S08-Lecture.qmd) · Instructor plan:
-[`TEACHING-PLAN.md`](TEACHING-PLAN.md)
+[`TEACHING-PLAN.md`](TEACHING-PLAN.md) ·
+As a book chapter: [course book, Session 08](https://warint.github.io/geopolitics-geoeconomics/book/session-08.html)
 
 The session opens with **four Risk Briefs** (20 min). The lecture follows.
 
@@ -74,7 +75,7 @@ have jurisdiction over a hub can use it:
 For a multinational, the implication is uncomfortable: **the firm itself can be the hub**. Its
 cloud, its payment rails, its software updates are infrastructure that its home state can watch or
 weaponise — and that rival states therefore treat as a target. This is the bridge from cyber
-(today) to sanctions (Session 10) and supply chains (Session 11).
+(today) to sanctions (Session 10) and space (Session 11).
 
 ---
 

@@ -18,7 +18,7 @@ Finish what is missing, and fill the provenance log — one line per file.
 
 | file | source | url | version / release | accessed | licence | notes |
 |---|---|---|---|---|---|---|
-| greenbook_country_summary.csv | US State Dept (Greenbook) | foreignassistance.gov/data *or the mirror* | *release / "frozen 2024-12-19"* | *today* | free | *fiscal years; obligations; constant $?* |
+| us_foreign_aid_country.csv | US State Dept (ForeignAssistance.gov, Country Summary) | foreignassistance.gov/data *or the mirror* | *release / "frozen 2024-12-19"* | *today* | free | *fiscal years; obligations; constant_amount; economic + military combined* |
 | unsc_elected_members.xlsx | United Nations | main.un.org/securitycouncil/… | *page date* | *today* | free | *your transcription; name changes handled* |
 
 **Route A teams** also need a **term table**. Open the replication file, filter on Security Council
@@ -30,17 +30,21 @@ same term table as route B.
 
 ## 2 · Prepare — 20 min
 
-1. **Connect** to the aid file and to `unsc_elected_members.xlsx`.
+1. **Connect** to the aid file and to `unsc_elected_members.xlsx`. In the Country Summary, filter
+   `Transaction Type Name` = *Obligations* (a data-source filter), exclude `Fiscal Year` = `1976tq`,
+   then make `Fiscal Year` a **number** and rename it `Year`; rename `constant_amount` to `Aid`.
 2. Drag the aid table to the canvas, then **double-click it** to open the physical layer, and drag the
-   term table next to it: **inner join** on `Iso3` (or on country name only if you have checked every
-   match — see the trap list in [`TABLEAU-TOOLKIT.md`](../../TABLEAU-TOOLKIT.md)).
+   term table next to it: **inner join** on `Country Code` = `Iso3` (or on country name only if you
+   have checked every match — see the trap list in [`TABLEAU-TOOLKIT.md`](../../TABLEAU-TOOLKIT.md)).
+   Route A teams: use the replication file's own country, year and aid fields.
    > Why a join, not a relationship? The next step is a row-level calculation that uses `Year` from
    > one table and `Term start` from the other. Relationships do not allow that.
 3. Check the row count before and after the join and write both in your log. The join should
    multiply rows: each country-year now appears once per term of that country.
-4. Keep only aid **recipients** (drop donors and regional aggregates such as "World", "Africa
-   Regional"), and check that aid is in **constant** dollars. If it is not, say so in the log — the
-   ratio to baseline below limits the damage, but does not remove it.
+4. Keep only aid **recipients** (drop regional aggregates such as "World", "Africa Region" — every
+   `Country Name` ending in "Region"), and check that aid is in **constant** dollars
+   (`constant_amount`, not `current_amount`). If it is not, say so in the log — the ratio to baseline
+   below limits the damage, but does not remove it.
 
 ---
 

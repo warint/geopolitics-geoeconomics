@@ -26,23 +26,30 @@ the release), WDI (reused; same version as Session 02).
 
 ### NMC
 
-1. **Connect → Text file** → the NMC csv. Drag it to the canvas.
-2. Check the columns against the **codebook**. Before v7.0 the CINC column was `cinc`, the year
-   `year`, the state code `ccode` (number) and `stateabb` (three letters). If v7.0 differs, use its
-   names in everything below and log the change.
+1. **Connect → Text file** → `NMC-70-abridged.csv` (from `NMC-v7-abridged.zip`, inside
+   `NMCv7.zip`). Drag it to the canvas.
+2. Check the columns against the **codebook**. In v7.0 they are unchanged from v6.0: `stateabb`
+   (three letters), `ccode` (number), `year`, the six components `milex`, `milper`, `irst`, `pec`,
+   `tpop`, `upop`, then `cinc` and `version`. Missing component values are coded **`-9`**: before you
+   use any component, exclude them (a filter `>= 0`), or every sum is wrong.
 3. `year` should be a **number (whole)**, not a date: keep it that way for now.
 4. Sanity check before you build anything: new sheet, `year` → Columns (continuous), `SUM(cinc)` →
-   Rows, no filter. Every year should sum to (almost exactly) **1**. Does it? Note any year where it
-   does not.
+   Rows, no filter. Every year should sum to **about 1** — in v7.0, between 1.000 and about 1.075.
+   Which years are furthest from 1, and why? (The codebook's CINC section explains it: the average
+   is taken over the components a state *has*.)
 
 ### SIPRI
 
-1. **Connect → Microsoft Excel** → the SIPRI workbook. Use the **constant US dollar** sheet.
-2. Tick **Use Data Interpreter**: the sheet has notes above the table.
+1. **Connect → Microsoft Excel** → the SIPRI workbook. Use the **`Constant (2024) US$`** sheet
+   (US$ millions, constant 2024 prices).
+2. Tick **Use Data Interpreter**: the sheet has five rows of notes above the header (`Country`, an
+   unnamed column, `Notes`, `1949` … `2025`). Region headings (`Africa`, `North Africa`, …) remain
+   as rows with no values: filter them out.
 3. **Pivot** the year columns (as in Session 02). Rename to `Year` and `Milex`. Make `Year` a whole
    number with the same name as NMC's year field — it will be the link.
-4. `Milex` arrives as text: SIPRI uses symbols for missing and uncertain values (read the notes
-   sheet). Change to **Number (decimal)** and check what became null.
+4. `Milex` arrives as text: SIPRI writes `...` for unavailable data and `xxx` for a country that
+   did not exist (the notes at the top of the sheet; the `Footnotes` sheet explains the † § ¶
+   marks in `Notes`). Change to **Number (decimal)** and check what became null.
 5. SIPRI identifies countries by **name**, not code. Write down the exact strings for China, the
    United States and Russia. This is a provenance-log entry.
 
@@ -54,8 +61,10 @@ the release), WDI (reused; same version as Session 02).
 
 1. `year` → Columns (continuous); `SUM(cinc)` → Rows.
 2. `stateabb` → Colour. Filter to the major powers: `USA`, `UKG`, `FRN`, `GMY`, `RUS`, `JPN`,
-   `CHN`, `ITA` — **check each code in the codebook's state list**. Germany and Russia/USSR are
-   continuous series in COW, with gaps where the state left the system: look for them.
+   `CHN`, `ITA` — **check each code in the COW state list** (`COW-country-codes.csv`; see
+   [`../data/README.md`](../data/README.md)). Russia/USSR is one continuous series (`RUS`).
+   Germany is not: `GMY` stops in 1945 and returns in 1991, with `GFR` and `GDR` in between.
+   `JPN` also has a gap (1946–1951). Look for them, and decide what your line does there.
 3. Highlight the US and China (strong colours), grey the rest.
 4. Annotate 1945, 1991, and the year China passes the US.
 5. Title with the finding; caption: *Correlates of War, NMC v7.0 (Singer, Bremer & Stuckey 1972),

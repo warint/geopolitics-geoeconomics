@@ -1254,11 +1254,11 @@ Thierry Warin, PhD
 <h2>Episodes into years</h2>
 <ol type="1">
 <li><code>years.csv</code> on the canvas, GSDB beside it</li>
-<li>Join clause: <code>Year &gt;= begin</code> <strong>and</strong> <code>Year &lt;= IFNULL(end, 2025)</code> — a <strong>join calculation</strong></li>
-<li><code>COUNTD(case id)</code> by <code>Year</code> → active cases per year</li>
+<li>Join clause: <code>Year &gt;= begin_year</code> <strong>and</strong> <code>Year &lt;= IFNULL(end_year, 2025)</code> — a <strong>join calculation</strong></li>
+<li><code>COUNTD(case_id)</code> by <code>Year</code> → active cases per year</li>
 </ol>
 <div class="check">
-<p>Then a <strong>Gantt bar</strong>: begin on Columns, case on Rows, duration on Size.</p>
+<p>Then a <strong>Gantt bar</strong>: <code>begin_year</code> on Columns, <code>case_id</code> on Rows, duration on Size.</p>
 </div>
 </section>
 <section id="over-to-the-practice-round" class="slide level2">

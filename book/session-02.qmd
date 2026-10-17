@@ -1,0 +1,383 @@
+---
+title: "The international economic order"
+---
+
+::: {.chapter-meta}
+Session 2 · The system in which multinational firms operate<br>
+[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-02-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-02-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-02-practice.html) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/02-the-international-economic-order) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/02-the-international-economic-order/data/README.md)
+:::
+
+> **Who wrote the rules multinationals play by — and what happens to the rules when the writers'
+> share of the world shrinks?**
+
+| | |
+|---|---|
+| **Big work** | Baldwin, R. (2016). *The Great Convergence: Information Technology and the New Globalization*. Belknap Press of Harvard University Press. |
+| **Target figure** | The **G7 share of world GDP**, 1970–today — the "great convergence" that begins around 1990 |
+| **Data you collect** | World Bank, World Development Indicators: GDP in current US$ (`NY.GDP.MKTP.CD`), GDP at PPP (`NY.GDP.MKTP.PP.CD`), trade in % of GDP (`NE.TRD.GNFS.ZS`) — [DataBank WDI](https://databank.worldbank.org/source/world-development-indicators) |
+| **Tableau skill** | **Pivot** wide years to long · filter on ISO codes, not names · area chart · **percent of total** |
+| **Course themes** | The system of international economic order in which multinational firms operate |
+
+## Before the session
+
+Four things to do before class. Budget **about two hours**.
+
+| | Before class | Used in class for |
+|---|---|---|
+| **1** | Read Baldwin | the lecture discussion and the replication |
+| **2** | Collect the WDI extract | Practice round 02 |
+| **3** | Shortlist three multinationals | team formation, first ten minutes of the practice |
+| **4** | Self-check | the lecture |
+
+---
+
+### 1. The reading — 60–75 min
+
+**Baldwin, R. (2016). *The Great Convergence: Information Technology and the New Globalization*.
+Belknap Press of Harvard University Press.**
+
+Read the **Introduction** and **Part I** (the long history of globalisation in four phases) and
+**Part II** (the new globalisation and the "three cascading constraints"). Skim Part IV on policy.
+The book is on reserve at the HEC library; the e-book is available through the library catalogue.
+
+Annotate four things:
+
+| | What to look for |
+|---|---|
+| **1** | Baldwin's **three costs** of moving goods, ideas and people — and which one fell in each unbundling |
+| **2** | Why the **first unbundling** produced divergence and the **second** convergence |
+| **3** | The **figure** showing the G7 share of world income — what is on the axis, what is measured |
+| **4** | One claim a **G7 multinational's strategy team** would contest, and why |
+
+**The target figure** is the G7 share of world GDP. Note its units (current US dollars? constant?
+PPP?), its start and end years, and its source. You will need all four.
+
+---
+
+### 2. The data — 15 min
+
+Build a custom extract in World Bank DataBank: the G7, the "Industrialising Six", World; three
+series; 1970 to the latest year. Step-by-step: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/02-the-international-economic-order/data/README.md).
+
+Open it once and find: the year the G7's GDP first appears for every member, how missing values
+are written, and the last year with a value for *World*.
+
+---
+
+### 3. Your team's firm — 15 min
+
+Teams of three or four form in the first ten minutes of the practice round. Arrive with a
+**shortlist of three multinationals** you would want to follow all term. A good candidate:
+
+- publishes an annual report or 10-K with **revenue by country or region**;
+- has operations, suppliers or customers in **at least three of** the US, the EU, China, Russia,
+  the Gulf, India;
+- is exposed to at least one of the course's channels: sanctions, export controls, cyber, standards.
+
+No two teams may adopt the same firm. Registration on ZoneCours is first come, first served.
+
+---
+
+### 4. Self-check — 15 min
+
+Answer on paper.
+
+1. What did the Bretton Woods conference of 1944 create, and what did the GATT add in 1947?
+2. In one sentence each: what was unbundled in Baldwin's first unbundling, and what in the second?
+3. GDP shares can be measured at market exchange rates or at purchasing-power parity. Which will
+   show the G7 with a **larger** share, and why?
+4. Rodrik's trilemma says you can have at most two of three things. Name the three.
+
+---
+
+### Arrive with
+
+- [ ] Baldwin read (Introduction, Parts I–II), the target figure understood
+- [ ] Your WDI extract in `data/raw/`, logged
+- [ ] A shortlist of three multinationals
+- [ ] Your self-check answers, on paper
+- [ ] If you are giving a Risk Brief today: your `.twbx` on ZoneCours before class
+
+---
+
+[Session 02 overview](session-02.qmd) · [The lecture](#the-lecture) ·
+[The practice](#in-the-practice)
+
+## The lecture
+
+The session opens with four Risk Briefs (20 minutes); the lecture takes the next seventy.
+
+---
+
+### 1. What an "economic order" is
+
+An **international order** is a set of rules, institutions and expectations that governs relations
+between states, backed by some distribution of power. An **economic order** is the part of it that
+governs trade, money and investment — the part a multinational lives inside without noticing, until
+it changes.
+
+Three questions describe any economic order:
+
+| Question | What to look at |
+|---|---|
+| **Who wrote the rules?** | Which states designed the institutions, and in whose interest |
+| **What do the rules say?** | Openness to trade, to capital, to investment; how disputes are settled |
+| **What holds them in place?** | Hegemonic power, shared interest, institutions with their own momentum |
+
+---
+
+### 2. The post-1945 order, in four layers
+
+**Bretton Woods (1944).** Forty-four allied states create the **International Monetary Fund**
+(stable exchange rates, balance-of-payments support) and the **International Bank for
+Reconstruction and Development**, the core of the World Bank. Fixed but adjustable exchange rates
+anchored on the dollar, the dollar on gold.
+
+**The GATT (1947).** A provisional agreement — the planned International Trade Organization never
+came into being — that cuts tariffs in successive rounds on the principle of
+**most-favoured-nation** treatment and **national treatment**.
+
+**Embedded liberalism.** Ruggie (1982) named the bargain: openness abroad, made politically
+sustainable by social protection and macroeconomic autonomy at home. Capital controls were normal;
+free trade was managed.
+
+**The neoliberal turn and the WTO (1995).** The dollar's link to gold ends in 1971; capital controls
+are dismantled through the 1980s and 1990s; the Uruguay Round creates the **World Trade
+Organization**, with a binding dispute-settlement mechanism and rules reaching into services,
+intellectual property (TRIPS) and investment measures (TRIMs). China joins in 2001.
+
+**The liberal order as a political project.** Ikenberry (2011, *Liberal Leviathan*) argues the
+order was American-led but **easy to join and hard to overturn**: open, rule-based, institutional
+enough that rising states gain more by joining than by challenging it. Session 03 sets the realist
+reply beside it.
+
+---
+
+### 3. Baldwin's three unbundlings
+
+Baldwin organises globalisation around **three costs**: of moving **goods**, moving **ideas**, and
+moving **people**.
+
+| Phase | What became cheap | What it unbundled | Consequence |
+|---|---|---|---|
+| **First unbundling** (steam, from the 19th century) | moving **goods** | production from consumption: you could make things far from where they were bought | Industry **clustered** in the North, where ideas stayed cheap to move locally. **Great divergence** between North and South |
+| **Second unbundling** (ICT, from about 1990) | moving **ideas** | the factory itself: stages of production could be offshored while coordinated from headquarters | Northern know-how moved South **inside the multinational's value chain**. **Great convergence** |
+| **Third unbundling** (prospective) | moving **people** — virtually: telepresence, telerobotics | the worker from the workplace | Services trade in tasks; competition reaches occupations, not only sectors |
+
+**The key point for this course.** In the second unbundling, *the multinational is the vehicle of
+convergence*. Know-how is transferred through supply chains the firm controls. That is why
+geopolitics now reaches firms so directly: the supply chain is where technology, jobs and security
+dependence travel together.
+
+**Baldwin's evidence** is a picture: the G7's share of world income, rising for over a century, then
+falling sharply after about 1990 — while a handful of developing economies (his "Industrialising
+Six": China, Korea, India, Poland, Indonesia, Thailand) gain almost all of it. That is today's
+target figure.
+
+---
+
+### 4. From convergence to backlash
+
+**Rodrik's trilemma** (Rodrik, 2011, *The Globalization Paradox*): a country can have at most two of
+**deep economic integration**, **national sovereignty** and **democratic politics**.
+
+| Choose | Give up | Looks like |
+|---|---|---|
+| integration + sovereignty | democracy | the "golden straitjacket": policies dictated by markets |
+| integration + democracy | sovereignty | global federalism: rules made above the state |
+| sovereignty + democracy | deep integration | Bretton Woods compromise: shallow, managed openness |
+
+The trilemma reads the 2010s and 2020s: Brexit, tariff wars, industrial policy, export controls, and
+"de-risking" are choices of sovereignty and democracy over integration.
+
+**Slowbalisation.** World trade in percent of GDP rose steeply from the 1990s to 2008 and has broadly
+flattened since. Whether that is a retreat from globalisation or a shift in its form — from goods to
+services and data — is contested. The *extend* step of the practice round lets you see the flattening
+and judge it.
+
+**When the writers' share shrinks.** If the G7 produced around two-thirds of world GDP when it wrote
+the rules, and much less today, two questions follow — and they open Sessions 03 and 04: will the
+rules be rewritten by the new powers (power transition), and will the world split into blocs with
+rules of their own (fragmentation)?
+
+---
+
+### 5. What it means for the multinational
+
+| Implication | Example |
+|---|---|
+| **Your market is no longer where the rules are written.** | A European firm earns a growing share of revenue in markets whose governments did not design the WTO and do not feel bound by its spirit |
+| **Your supply chain is a geopolitical object.** | The know-how the second unbundling moved is what export controls now try to stop |
+| **Multilateral protection is weaker.** | The WTO's Appellate Body has been unable to hear appeals since December 2019; disputes are settled by power more often than by panels |
+| **Measurement choices are strategy choices.** | At market exchange rates, the G7 still looks large; at PPP, it looks much smaller. Which one a board sees shapes where it builds |
+
+---
+
+### 6. What the figure does not license
+
+- A falling G7 share is **relative**: G7 economies kept growing. It does not mean the G7 market
+  shrank.
+- At **current US dollars**, the share moves with the dollar: part of any year-to-year change is the
+  exchange rate, not production.
+- **Convergence is concentrated.** Most of the gain goes to a handful of countries — above all
+  China. "The South" did not converge.
+- It shows **income**, not **rule-making power**. Whether shrinking share means shrinking influence is
+  the question of Session 03, not a reading of this chart.
+
+---
+
+### 7. The Tableau skill of the day
+
+DataBank gives you **years as columns**. Tableau wants **one row per country-year**. Select the year
+columns in the data source pane → right-click → **Pivot**. Rename `Pivot Field Names` to `Year`
+and `Pivot Field Values` to `Value`. Change `Year` to a number or date and `Value` to a number —
+DataBank's `..` become nulls. Then build the G7 share with a calculated field, and check it with a
+**percent of total** table calculation. Full click-path: [`../02-practice/README.md`](#in-the-practice).
+
+---
+
+### References
+
+Baldwin, R. (2016). *The great convergence: Information technology and the new globalization*.
+Belknap Press of Harvard University Press.
+
+Ikenberry, G. J. (2011). *Liberal Leviathan: The origins, crisis, and transformation of the American
+world order*. Princeton University Press.
+
+Rodrik, D. (2011). *The globalization paradox: Democracy and the future of the world economy*.
+W. W. Norton.
+
+Ruggie, J. G. (1982). International regimes, transactions, and change: Embedded liberalism in the
+postwar economic order. *International Organization*, 36(2), 379–415.
+
+## In the practice
+
+> **The target.** Baldwin (2016): the **G7 share of world GDP**, rising for a century and falling
+> sharply after about 1990. You rebuild it from 1970 with World Bank data, then ask what changes
+> when the dollars change.
+
+---
+
+### 0 · Form your team — 10 min
+
+Teams of three or four, for the rest of the term. Agree on **one multinational** from your shortlists
+and register it on ZoneCours (first come, first served). Write the team name and firm at the top
+of your provenance log.
+
+---
+
+### 1 · Collect — 10 min
+
+If you did the pre-session, your DataBank extract is in `data/raw/`. If not, build it now —
+[`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/02-the-international-economic-order/data/README.md). One extract per team is enough; everyone builds their own
+workbook from it.
+
+Copy [`templates/provenance-log.csv`](https://github.com/warint/geopolitics-geoeconomics/blob/main/templates/provenance-log.csv) into `data/` and fill one line
+per file. For WDI, the **version** is the "Last Updated" date DataBank shows for the database.
+
+---
+
+### 2 · Prepare — 20 min
+
+1. **Connect → Microsoft Excel** → your extract. Drag the data sheet to the canvas.
+2. If there are notes rows at the bottom ("Data from database…", "Last Updated…"), tick **Use Data
+   Interpreter**, or filter them out later. Write which you did.
+3. **Pivot the years.** Click the first year column, shift-click the last → right-click →
+   **Pivot**. Two new columns appear.
+4. Rename `Pivot Field Names` → `Year`, `Pivot Field Values` → `Value`.
+5. `Year` is text like `1990 [YR1990]`. Create a calculated field from the data source pane:
+   `Year (n)` = `INT(LEFT([Year], 4))`. (If your extract has plain `1990`, just change the type to
+   *Number (whole)*.)
+6. `Value` is text — DataBank writes missing data as `..`. Change its type to **Number (decimal)**;
+   the dots become nulls. Check the null count: is it plausible?
+7. Look at `Country Code` and `Series Code` (in the Route B CSV the second is `Indicator Code`, the
+   years are plain `1990`, and missing values are blank). **From now on you filter on codes, never
+   on names.**
+
+---
+
+### 3 · Replicate — 25 min
+
+#### Sheet 1 · "The G7 share of world GDP"
+
+1. Filters: `Series Code` = `NY.GDP.MKTP.CD` only.
+2. Create two calculated fields:
+
+   ```text
+   G7 GDP     = IF [Country Code] IN ("CAN","FRA","DEU","ITA","JPN","GBR","USA") THEN [Value] END
+   World GDP  = IF [Country Code] = "WLD" THEN [Value] END
+   ```
+
+3. And the share:
+
+   ```text
+   G7 share   = SUM([G7 GDP]) / SUM([World GDP])
+   ```
+
+   Format it as a percentage (right-click → *Default Properties → Number Format*).
+4. `Year (n)` → Columns as a **continuous dimension** (green); `G7 share` → Rows.
+5. Annotate the peak year and the latest year with their values. Title the sheet with the finding,
+   not the variable. Caption: *World Bank, WDI, NY.GDP.MKTP.CD, last updated …, accessed …*.
+
+#### Sheet 2 · "Who gained?" — a stacked area of world shares
+
+1. Two more calculated fields:
+
+   ```text
+   I6 GDP              = IF [Country Code] IN ("CHN","KOR","IND","POL","IDN","THA") THEN [Value] END
+   Rest of world GDP   = SUM([World GDP]) - SUM([G7 GDP]) - SUM([I6 GDP])
+   ```
+
+2. `Year (n)` → Columns. Drag `G7 GDP`, `I6 GDP` and `Rest of world GDP` onto Rows as **Measure
+   Values** (drop the second and third onto the first axis).
+3. **Marks → Area**. `Measure Names` → Colour.
+4. Right-click `Measure Values` → **Quick Table Calculation → Percent of Total**. Then **Edit Table
+   Calculation → Compute Using → Measure Names**, so that the three shares sum to 100% **within each
+   year** — not across years. Check one year by hand against Sheet 1.
+
+---
+
+### 4 · Compare and break — 15 min
+
+1. **Compare.** Put Sheet 1 beside Baldwin's figure. Where does the curve peak in yours? How far
+   has it fallen by Baldwin's last year, and by the latest year? Write down one difference and its
+   most likely cause (dollars, years, data revision).
+2. **Missing data.** Which I6 members have no GDP value in the 1970s or 1980s? What does that do to
+   the I6 and "rest of world" areas in those years? This is your "the data disagreed" entry.
+3. **Break — change the dollars.** Duplicate Sheet 1 and switch the filter to `NY.GDP.MKTP.PP.CD`.
+   The PPP series starts in 1990. How much smaller is the G7 at PPP? Which board decision would you
+   use each line for?
+4. **Extend — slowbalisation.** New sheet: `NE.TRD.GNFS.ZS` for `WLD` — world trade in % of GDP
+   (an index, so check the aggregation: there is one value per year; `AVG` or `SUM` give the same
+   only because you filtered to one country — say so). Annotate 2008. Is the line after 2008 a retreat?
+
+---
+
+### 5 · The catch — 10 min
+
+One slide (a dashboard exported as an image):
+
+| Original | Ours | The catch |
+|---|---|---|
+| Baldwin's G7 share figure | Your Sheet 1, plus the PPP line | One sentence: what this figure does **not** license your team's multinational to conclude |
+
+A member drawn at random presents in two minutes.
+
+---
+
+### Hand in
+
+On ZoneCours before leaving, one per team: the `.twbx` (*File → Export Packaged Workbook*), the
+provenance log, and the slide. Formative: commented, not marked; counts towards participation.
+
+**The one rule:** your log records at least one place where the data disagreed with the book.
+
+---
+
+### What loses credit
+
+- Filtering on country *names* ("Korea, Rep." will bite you in Session 04)
+- A percent of total that sums to 100% across years instead of within each year
+- A share chart in current dollars with no mention of exchange rates
+- A catch about Baldwin's book rather than about what your firm may conclude
+

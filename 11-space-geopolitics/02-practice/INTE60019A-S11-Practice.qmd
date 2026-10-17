@@ -1,0 +1,183 @@
+---
+title: "Session 11: Practice round 11"
+subtitle: "Rebuild the debris record, measure the new space race"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "11"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 11 practice · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Ninety minutes {.center .scrollable}
+
+1. The target
+2. Collect — check, 15 min
+3. Prepare — 15 min
+4. Replicate — 35 min
+5. Compare and break — 15 min
+6. The catch — 10 min
+7. Hand in — and into the team dashboard
+
+## The target
+
+> **ESA (2026), Figure 2.1:** objects in geocentric orbit by object class, 1957–2025 — 2007, 2009, 2021 annotated.
+> **You add:** who puts payloads up (HHI), who operates today, one dashboard with an action.
+
+| Step | Minutes |
+|---|---|
+| **1 · Collect — check** | 15 |
+| **2 · Prepare** | 15 |
+| **3 · Replicate** | 35 |
+| **4 · Compare and break** | 15 |
+| **5 · The catch** | 10 |
+
+::: {.warn}
+**The last practice round.** Session 10 reviewed your skeleton. Leave today with the space-infrastructure channel and a working action.
+:::
+
+## 1 · Collect — check, 15 min
+
+- **Snapshot:** latest `LAUNCH_DATE` + download date → log
+- **Codes:** `OBJECT_TYPE` (`PAY`, `R/B`, `DEB`, `UNK`) · active = `+ P B S X` · blank ≠ inactive
+- **The trap:** `FENGYUN 1C DEB` — how many rows, which `LAUNCH_DATE`?
+
+| file | version | notes |
+|---|---|---|
+| satcat.csv | *last LAUNCH_DATE, Last-Modified* | *debris dated by parent launch* |
+| ESA report | *Issue 10.0, 1 May 2026* | *Fig. 2.1, Table 3.1* |
+
+## 2 · Prepare — 15 min
+
+::::: columns
+
+:::: {.column width="50%"}
+
+### A · "SATCAT events"
+
+1. Dates as **dates**
+2. Data source filter `ORBIT_CENTER` = `EA`
+3. Select `LAUNCH_DATE` + `DECAY_DATE` → **Pivot** → `Event`, `Event date`
+
+```text
+Change = IF [Event] = "LAUNCH_DATE"
+         THEN 1 ELSE -1 END
+Year   = YEAR([Event date])
+```
+
+4. Exclude null `Event date` · row count before and after
+
+::::
+
+:::: {.column width="50%"}
+
+### B · "SATCAT objects"
+
+5. Same file, **not** pivoted
+6. **Data source** filter `OBJECT_TYPE` = `PAY`
+7. `Launch year`, `Power` (US · PRC · CIS · rest), `Active`, `Operator` (from `OBJECT_NAME`)
+
+::: {.warn}
+`CIS` = USSR **and** Russia. `OWNER` is not the operator: Starlink is `US`, Galileo is `ESA`.
+:::
+
+::::
+
+:::::
+
+## 3 · Replicate · the target figure
+
+**Sheet 1** (A): `Year` → Columns (continuous dimension) · `SUM([Change])` → Rows → **Running Total** · `OBJECT_TYPE` → Colour, stacked area
+
+::: {.step}
+*Edit Table Calculation → Specific Dimensions* → `Year` only — the total restarts for each type
+:::
+
+::: {.warn}
+Filter `Year` ≤ 2025 — but **never** filter out early years with a normal filter: the running total restarts at zero.
+:::
+
+::: {.check}
+Annotate 2007, 2009, 2021. **Where are the steps in the debris band?**
+:::
+
+## 3 · Replicate · the new space race
+
+```text
+Owner share = {FIXED [Launch year], [OWNER] : COUNT([NORAD_CAT_ID])}
+            / {FIXED [Launch year] : COUNT([NORAD_CAT_ID])}
+HHI piece   = 10000 * [Owner share] / {FIXED [Launch year] : COUNT([NORAD_CAT_ID])}
+```
+
+- **Sheet 2:** payloads per `Launch year`, `Power` → Colour, bars
+- **Sheet 3:** `SUM([HHI piece])` by `Launch year` = **HHI** · check **10,000 in 1957** · lines at 2,500 and 1,800
+- **Sheet 4:** `OWNER` ranked by count, top 10 — the action's target
+- **Sheet 5:** active satellites today by `Operator`, **Percent of Total**
+
+::: {.muted}
+`FIXED` runs before ordinary filters: that is why `PAY` is a data source filter.
+:::
+
+## 3 · Replicate · the dashboard
+
+| Top left | Top right |
+|---|---|
+| Objects in orbit (S1) | HHI (S3) |
+| **Bottom left** | **Bottom right** |
+| Who launched that year (S4) | Who operates today (S5) |
+
+**Actions:** *Dashboard → Actions → Filter* · sources S1 and S3 · target S4 · *Select* · **`Year` → `Launch year`** (map across data sources)
+
+::: {.check}
+Click 1965, then 2025: S4 follows. Nothing at all? The mapping is wrong — fix and log.
+:::
+
+## 4 · Compare and break — 15 min
+
+1. **Differ.** Yours vs ESA Table 3.1 (44,964 objects; 16,946 payloads) — one reason per gap
+2. **When does debris appear?** `Appearance year`: re-date `FENGYUN 1C DEB` → 2007, `COSMOS 2251 DEB` + `IRIDIUM 33 DEB` → 2009, `COSMOS 1408 DEB` → 2021. How big are the steps now?
+3. **Flag or firm?** HHI of active satellites by `OWNER` vs by `Operator` — which is your firm's dependence?
+4. **Extend.** Your firm's services: `NAVSTAR`, `GSAT0…` (Galileo), `BEIDOU`, `[GLONASS-M]`, a constellation · optional GCAT launches by state
+
+## 5 · The catch — 10 min
+
+| Original | Ours | The catch |
+|---|---|---|
+| ESA Figure 2.1 | Your dashboard | What it does **not** license **your firm** to conclude |
+
+::: {.get}
+**The model catch to beat:** objects are not risk; the public catalogue dates debris by its parent's launch, so the ASAT tests vanish; flag concentration hides dependence on one firm.
+:::
+
+::: {.muted}
+A member drawn at random presents, two minutes.
+:::
+
+## Hand in — and into the team dashboard
+
+- `.twbx` · provenance log · slide → ZoneCours
+
+::: {.check}
+**The one rule:** at least one place where the data disagreed with the paper.
+:::
+
+**Before Session 12:** re-point Sheet 5 at **your firm's** satellite services, keep the action, add the dependence view to your channel views — with a threshold.
+
+::: {.muted}
+Formative: commented, not marked; counts towards participation.
+:::

@@ -1,0 +1,151 @@
+---
+title: "Session 11: Before the session"
+subtitle: "When orbit is crowded, contested and run by one operator, who holds the risk?"
+author: "Thierry Warin, PhD"
+institute: "HEC Montréal"
+course-session: "11"
+filters:
+  - ../../slides/drop-comments.lua
+format:
+  revealjs:
+    theme: [default, ../../slides/economist.scss]
+    embed-resources: true
+    slide-number: c/t
+    slide-level: 2
+    history: false
+    transition: none
+    navigation-mode: linear
+    controls: true
+    progress: true
+    width: 1280
+    height: 760
+    margin: 0.06
+    smaller: true
+    footer: "INTE60019A · Session 11 pre-session · Thierry Warin, PhD · HEC Montréal"
+---
+
+## Outline · Before class {.center .scrollable}
+
+1. What to do, and how long it takes
+2. Read the ESA report
+3. Read the SWF summary, Pekkanen, the Treaty
+4. Get the data — once per team
+5. Self-check
+
+## What session 11 is for {.scrollable}
+
+::::: columns
+
+:::: {.column width="33%"}
+
+### The geopolitics
+
+- Orbit as a **commons**: the Outer Space Treaty, the ITU, Kessler
+- **Destructive** vs **non-destructive** counterspace
+- The **new space race**: democratisation, commercialisation, militarisation
+
+::::
+
+:::: {.column width="33%"}
+
+### The data and Tableau
+
+- Objects in orbit = **running sum** of launches − decays
+- **HHI** with LOD expressions
+- **Dashboard actions** across data sources
+
+::::
+
+:::: {.column width="33%"}
+
+### The international business
+
+- GNSS timing, connectivity, imagery: **who is behind them?**
+- **One operator**: Starlink in Ukraine
+- Redundancy, terrestrial back-ups, insurance, thresholds
+
+::::
+
+:::::
+
+# Before the session {background-color="#E3120B" style="color:#F7F4ED"}
+
+::: {style="margin-top: 1.0em; color:#F7F4ED"}
+### When orbit is crowded, contested and run by one operator, who holds the risk?
+:::
+
+## What to do, and how long it takes
+
+| | | |
+|---|---|---|
+| **1** | Read the ESA *Space Environment Report* (selected pages) | 45 min |
+| **2** | SWF executive summary · Pekkanen (2019) · Outer Space Treaty | 45 min |
+| **3** | **One** SATCAT download per team; find the `FENGYUN 1C DEB` rows | 15 min |
+| **4** | Self-check | 15 min |
+
+::: {.warn}
+CelesTrak blocks addresses that download too often. **One teammate downloads; the team shares.**
+:::
+
+## 1 · The big work
+
+**ESA Space Debris Office (2026), *ESA's Annual Space Environment Report*, Issue 10.0, 1 May 2026**
+
+::: {.muted}
+[sdo.esoc.esa.int — PDF](https://www.sdo.esoc.esa.int/publications/Space_Environment_Report_I10R0_20260501.pdf) · free · executive summary pp. 3–11 · §1.1–1.2 pp. 13–16 · §2.1 pp. 23–24 · Table 3.1 p. 63
+:::
+
+| | |
+|---|---|
+| **1** | What counts as an **object**? Catalogued, asserted, nine classes |
+| **2** | Where do the data **come from** — and what is out of scope? |
+| **3** | The **strongest evidence** that the environment is getting worse |
+| **4** | One **limitation** an insurer or a service buyer would raise |
+
+::: {.get}
+**Target: Figure 2.1** — objects in geocentric orbit by object class, since 1957. Mark 2007, 2009, 2021.
+:::
+
+## 2 · The companion readings
+
+| | |
+|---|---|
+| **Samson & Brett (Eds., 2026)** | *Global Counterspace Capabilities*, SWF · **executive summary** · five categories · which are **used** in current wars? |
+| **Pekkanen (2019)** | *AJIL Unbound* 113: 92–97 · [doi](https://doi.org/10.1017/aju.2019.16) · three trends · how much technology is **dual-use**? |
+| **Outer Space Treaty (1967)** | Articles I, II, IV, VI, VII, IX — two pages, [UNOOSA](https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html) |
+
+## 3 · Get the data — once per team
+
+::: {.step}
+**CelesTrak SATCAT** — [celestrak.org/pub/satcat.csv](https://celestrak.org/pub/satcat.csv) → `data/raw/` · note the date
+:::
+
+::: {.step}
+Open it. Filter `OBJECT_NAME` = `FENGYUN 1C DEB`. Read `LAUNCH_DATE`. When did the test happen?
+:::
+
+::: {.warn}
+Write down the gap. It is the first trap of the practice round.
+:::
+
+::: {.muted}
+Optional, for the extension: GCAT `launch.tsv` + `orgs.tsv` (planet4589.org).
+:::
+
+## 4 · Self-check
+
+1. Which Treaty article makes orbit a **commons**? Which makes a state answer for a **private** satellite?
+2. The **Kessler** mechanism — and why one ASAT test is every operator's problem
+3. SWF: **destructive** or **non-destructive** capabilities in current wars? Why does it matter to a firm?
+4. Shares 75%, 9%, 4%, and a long thin tail. **HHI?** Highly concentrated?
+5. A service your team's firm buys that stops without a satellite
+
+## Arrive with
+
+::: {.check}
+- ESA report annotated; Figure 2.1 located; three events marked
+- SWF, Pekkanen, Treaty articles annotated
+- `satcat.csv` in `data/raw/` — one download per team
+- The `FENGYUN 1C DEB` gap, written down
+- Provenance log started · self-check on paper
+:::

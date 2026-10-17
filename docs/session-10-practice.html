@@ -1066,11 +1066,11 @@ Thierry Warin, PhD
 <section id="prepare-20-min" class="slide level2">
 <h2>2 · Prepare — 20 min</h2>
 <ol type="1">
-<li>Codebook → exact names: case id, sanctioned, sanctioning, begin, end, <strong>types</strong>, <strong>objectives</strong>, <strong>outcomes</strong></li>
-<li>Type columns → select → <strong>Pivot</strong> → <code>Type</code>, <code>Type flag</code></li>
-<li>Join <code>years.csv</code>: <code>Year &gt;= begin</code> <strong>and</strong> <code>Year &lt;= IFNULL(end, 2025)</code> (<em>join calculation</em>)</li>
+<li>Confirm in the codebook: <code>case_id</code>, <code>sanctioned_state</code>, <code>sanctioning_state</code>, <code>begin_year</code>, <code>end_year</code>, <strong>types</strong>, <code>objective</code>, <code>success</code></li>
+<li>Six 0/1 type columns (<code>trade</code> … <code>other</code>) → select → <strong>Pivot</strong> → <code>Type</code>, <code>Type flag</code></li>
+<li>Join <code>years.csv</code>: <code>Year &gt;= begin_year</code> <strong>and</strong> <code>Year &lt;= IFNULL(end_year, 2025)</code> (<em>join calculation</em>)</li>
 <li>Row count before and after — what is one row now?</li>
-<li>One <code>Outcome</code> field from the outcome indicators — <strong>names from the codebook</strong></li>
+<li><code>Outcome</code> from <code>success</code>: one text code per objective (<code>success_total</code>, <code>success_part</code>, <code>nego_settlement</code>, <code>failed</code>, <code>ongoing</code>) — take the first: <code>SPLIT([success], &quot;,&quot;, 1)</code></li>
 </ol>
 </section>
 <section id="replicate-three-sheets" class="slide level2">
@@ -1094,19 +1094,19 @@ Thierry Warin, PhD
 <tr class="odd">
 <td><strong>1 · Active by type</strong></td>
 <td><code>Year</code></td>
-<td><code>COUNTD(case id)</code></td>
+<td><code>COUNTD(case_id)</code></td>
 <td><code>Type</code> → Colour; area or bar</td>
 </tr>
 <tr class="even">
 <td><strong>2 · Outcomes</strong></td>
-<td><code>COUNTD(case id)</code></td>
+<td><code>COUNTD(case_id)</code></td>
 <td><code>Objective</code></td>
 <td><code>Outcome</code> → Colour; <strong>Percent of Total</strong> within objective</td>
 </tr>
 <tr class="odd">
 <td><strong>3 · One target</strong></td>
-<td><code>begin</code></td>
-<td>case</td>
+<td><code>begin_year</code></td>
+<td><code>case_id</code></td>
 <td><strong>Gantt Bar</strong>; <code>Duration</code> → Size; <code>Type</code> → Colour</td>
 </tr>
 </tbody>
@@ -1119,7 +1119,7 @@ Thierry Warin, PhD
 <h2>4 · Compare and break — 10 min</h2>
 <ol type="1">
 <li><strong>Differ.</strong> Yours vs the paper’s figure — one difference</li>
-<li><strong>Threats vs impositions.</strong> TIES: threatened-only vs imposed, per start year — beside GSDB</li>
+<li><strong>Threats vs impositions.</strong> TIES: <code>imposition</code> = 0 (threat only) vs 1 (imposed), per <code>startyear</code> — beside GSDB</li>
 <li><strong>The firm.</strong> Your team firm’s top five countries: active cases naming each, latest year</li>
 </ol>
 </section>

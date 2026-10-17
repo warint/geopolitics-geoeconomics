@@ -3,7 +3,8 @@
 # Anarchy and the balance of the major powers
 
 Slides: [`INTE60019A-S03-Lecture.qmd`](INTE60019A-S03-Lecture.qmd) · Instructor plan:
-[`TEACHING-PLAN.md`](TEACHING-PLAN.md)
+[`TEACHING-PLAN.md`](TEACHING-PLAN.md) ·
+As a book chapter: [course book, Session 03](https://warint.github.io/geopolitics-geoeconomics/book/session-03.html)
 
 The session opens with four Risk Briefs (20 minutes); the lecture takes the next seventy.
 
@@ -95,7 +96,8 @@ The Correlates of War **Composite Index of National Capability** (Singer, Bremer
    population, iron and steel production, primary energy consumption, military personnel,
    military expenditure.
 2. For each indicator, compute the state's **share of the system total** that year.
-3. **Average** the six shares. CINC is a number between 0 and 1; the system sums to 1.
+3. **Average** the six shares. CINC is a number between 0 and 1; the system sums to about 1 (not exactly: a state missing a
+   component is averaged over the ones it has).
 
 **What it rewards.** Size and heavy industry. Two of six components are population and two are
 smokestack industry. CINC therefore shows China passing the United States **much earlier** than

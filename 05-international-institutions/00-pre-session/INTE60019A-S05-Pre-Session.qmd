@@ -108,7 +108,7 @@ format:
 
 ### Route A · faster
 
-- AidData → replication page → **Download Data**
+- AidData → replication page → **Download Data** (Google Drive; may ask for a sign-in — then take route B)
 - Log the format, the variable list, the units
 
 ::::
@@ -117,7 +117,7 @@ format:
 
 ### Route B · teaches more
 
-- **Greenbook** country summary — official site or the Heiss mirror
+- **Country Summary** (`us_foreign_aid_country.csv`) — official site or the Heiss mirror
 - **Transcribe** the UN list of elected members, 1970–2010, one row per term
 - Split the alphabet across the team
 

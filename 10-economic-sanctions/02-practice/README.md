@@ -25,28 +25,34 @@ GSDB, the **release number** and the **date of the e-mail**.
 
 ## 2 · Prepare — 20 min
 
-1. **Connect → Text file / Excel** → the GSDB **case-level** file. From the codebook, note the exact
-   names of: case identifier, sanctioned state, sanctioning state, begin year, end year, the **type**
-   columns, the **objective** column(s), the **outcome** column(s).
-2. **Pivot the types.** If the six types are separate indicator columns (trade, financial, travel,
-   arms, military assistance, other), select them in the grid → right-click → **Pivot**. Rename
+1. **Connect → Text file / Excel** → the GSDB **case-level** file. Confirm in the codebook, and log,
+   the names used below: `case_id`, `sanctioned_state`, `sanctioning_state`, `begin_year`,
+   `end_year`, the six **type** columns, `objective`, `success`.
+2. **Pivot the types.** The six types are separate 0/1 columns (`trade`, `financial`, `travel`,
+   `arms`, `military`, `other`): select them in the grid → right-click → **Pivot**. Rename
    `Pivot Field Names` → `Type`, `Pivot Field Values` → `Type flag`. Filter later on `Type flag = 1`.
 3. **Build the years.** Add `years.csv` to the canvas and **join** it to the GSDB table with two
    clauses:
-   - `Year` **>=** `begin`
-   - `Year` **<=** *join calculation* `IFNULL([end], 2025)`
+   - `Year` **>=** `begin_year`
+   - `Year` **<=** *join calculation* `IFNULL([end_year], 2025)`
    (click the right-hand field of a clause → *Create Join Calculation*). Each case now has one row per
-   active year — and, after the pivot, one per type.
+   active year — and, after the pivot, one per type. (In the R5 file ongoing cases already carry
+   `end_year` = 2025; the `IFNULL` is a guard for releases that leave it empty.)
 4. **Check the grain.** Note the row count before and after. Write in the log what one row now is.
-5. **Outcomes.** If outcomes are separate indicator columns, create one field `Outcome`:
+5. **Outcomes.** Outcomes are **not** indicator columns: `success` is one text field holding one code
+   per objective, in the order of `objective` (e.g. `objective` = `human_rights,democracy`,
+   `success` = `failed,ongoing`). Take the first objective and its outcome:
    ```
-   IF [success_total] = 1 THEN "Success"
-   ELSEIF [success_part] = 1 THEN "Partial success"
-   ELSEIF [nego_settlement] = 1 THEN "Negotiated settlement"
-   ELSEIF [fail] = 1 THEN "Failure"
-   ELSE "Ongoing / not coded" END
+   Objective  =  TRIM(SPLIT([objective], ",", 1))
+   Outcome    =  CASE TRIM(SPLIT([success], ",", 1))
+                 WHEN "success_total"   THEN "Success"
+                 WHEN "success_part"    THEN "Partial success"
+                 WHEN "nego_settlement" THEN "Negotiated settlement"
+                 WHEN "failed"          THEN "Failure"
+                 WHEN "ongoing"         THEN "Ongoing"
+                 ELSE "Not coded" END
    ```
-   **Replace the field names with the codebook's** — these are illustrative.
+   Log the decision: cases with several objectives count here under their **first** one only.
 
 ---
 
@@ -55,7 +61,7 @@ GSDB, the **release number** and the **date of the e-mail**.
 ### Sheet 1 · "Active sanctions cases per year, by type"
 
 1. `Year` → **Columns** (continuous).
-2. `COUNTD([case id])` → **Rows** — *count distinct*, never `SUM`, because the pivot and the
+2. `COUNTD([case_id])` → **Rows** — *count distinct*, never `SUM`, because the pivot and the
    scaffold multiply rows.
 3. Filter `Type flag = 1`; `Type` → **Colour**; mark type **Area** or **Bar**.
 4. Note in a caption: a case with several types is counted once **in each** type, so the stacked
@@ -65,8 +71,8 @@ GSDB, the **release number** and the **date of the e-mail**.
 ### Sheet 2 · "How do cases end, by objective?"
 
 1. Use the **case-level** grain: duplicate the data source **without** the year scaffold, or use
-   `{FIXED [case id] : MIN([Outcome])}`.
-2. `Objective` → **Rows**, `COUNTD([case id])` → **Columns**, `Outcome` → **Colour**.
+   `{FIXED [case_id] : MIN([Outcome])}`.
+2. `Objective` → **Rows**, `COUNTD([case_id])` → **Columns**, `Outcome` → **Colour**.
 3. *Quick Table Calculation → Percent of Total*; *Edit Table Calculation → Compute using* `Outcome`
    so each objective sums to 100%.
 4. Exclude ongoing cases from the denominator in a second version. How much does the success share
@@ -74,9 +80,10 @@ GSDB, the **release number** and the **date of the e-mail**.
 
 ### Sheet 3 · "One target's history" — a Gantt chart
 
-1. Filter sanctioned state to **one** target (Iran, Russia, Cuba, North Korea…).
-2. `begin` → **Columns** (continuous); case id (or sanctioning state + case id) → **Rows**.
-3. Mark type **Gantt Bar**; calculated field `Duration` = `IFNULL([end], 2025) - [begin]` → **Size**.
+1. Filter `sanctioned_state` to **one** target (Iran, Russia, Cuba, North Korea…) — with a
+   calculated filter `CONTAINS([sanctioned_state], "Iran")`, because some cases list several targets.
+2. `begin_year` → **Columns** (continuous); `case_id` (or `sanctioning_state` + `case_id`) → **Rows**.
+3. Mark type **Gantt Bar**; calculated field `Duration` = `IFNULL([end_year], 2025) - [begin_year]` → **Size**.
 4. `Type` → **Colour**. What does the target's history look like — layers added, never removed?
 
 ---
@@ -85,8 +92,9 @@ GSDB, the **release number** and the **date of the e-mail**.
 
 1. **Differ.** Put Sheet 1 beside the GSDB paper's figure. Release 5 runs years further and has
    added and recoded cases: write one difference.
-2. **Threats vs impositions.** Open TIES. Using the manual, separate **threatened-only** cases from
-   **imposed** cases and count each per start year (1945–2005). Put the counts beside GSDB
+2. **Threats vs impositions.** Open TIES. Using the manual, separate **threatened-only** cases
+   (`imposition` = 0) from **imposed** cases (`imposition` = 1) and count each per `startyear`
+   (1945–2005). Put the counts beside GSDB
    impositions for the same years. What does the gap say about Drezner's selection effect?
 3. **Extend — the firm.** For your team's firm, list its top five countries. How many active GSDB
    cases name each as the sanctioned state in the latest year?

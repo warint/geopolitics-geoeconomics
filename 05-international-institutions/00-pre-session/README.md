@@ -46,8 +46,10 @@ Security*, 19(3), 5–49 — the realist reply.
 Decide as a team which route you take: details in [`../data/README.md`](../data/README.md).
 
 - **Route A.** Download the authors' replication file from AidData. Open it; write the variable list
-  and units in your log.
-- **Route B.** Download the Greenbook country summary (official site or the mirror), and
+  and units in your log. The link is a Google Drive file that asked for a sign-in when checked
+  (October 2026): if it will not open, switch to route B.
+- **Route B.** Download the ForeignAssistance.gov Country Summary, `us_foreign_aid_country.csv`
+  (official site or the mirror), and
   **transcribe** the UN list of elected Council members, 1970–2010, one row per term. Split the
   alphabet between team members — it takes each of you about twenty minutes.
 

@@ -123,11 +123,11 @@ The debate in eleven pages.
 :::
 
 ::: {.step}
-[data.imf.org → IMTS](https://data.imf.org/en/datasets/IMF.STA:IMTS) → exports of goods, FOB, US$ · annual · all × all · 2015 → latest
+[data.imf.org → IMTS](https://data.imf.org/en/datasets/IMF.STA:IMTS) → exports of goods, FOB, US$ (`XG_FOB_USD`) · annual · all × all · 2015 → latest
 :::
 
 ::: {.warn}
-Ideal points are now estimated by **calendar year** (version 39). Log it.
+Ideal points are estimated by **calendar year**, not UNGA session. Log the version (39).
 The IMF extract is large: download **before** you read.
 :::
 

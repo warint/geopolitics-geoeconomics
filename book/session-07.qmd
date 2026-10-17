@@ -1,0 +1,504 @@
+---
+title: "Measuring risk: content analysis, coding, big data and composite indices"
+---
+
+::: {.chapter-meta}
+Session 7 · How a political judgement becomes a number — and what is lost on the way<br>
+[Pre-session slides](https://warint.github.io/geopolitics-geoeconomics/session-07-pre-session.html) · [Lecture slides](https://warint.github.io/geopolitics-geoeconomics/session-07-lecture.html) · [Practice slides](https://warint.github.io/geopolitics-geoeconomics/session-07-practice.html) · [Session folder](https://github.com/warint/geopolitics-geoeconomics/tree/main/07-measuring-risk-text-and-indices) · [Data instructions](https://github.com/warint/geopolitics-geoeconomics/blob/main/07-measuring-risk-text-and-indices/data/README.md)
+:::
+
+> **Every geopolitical risk score a multinational buys or builds is a chain of choices: which texts,
+> which words, which coder, which weights. Can you see the chain — and defend each link?**
+
+| | |
+|---|---|
+| **Big work** | Hassan, T. A., Hollander, S., van Lent, L., & Tahoun, A. (2019). Firm-level political risk: Measurement and effects. *Quarterly Journal of Economics*, 134(4), 2135–2202. [doi:10.1093/qje/qjz021](https://doi.org/10.1093/qje/qjz021) |
+| **Companion works** | Baker, Bloom & Davis (2016), *Measuring Economic Policy Uncertainty*, QJE, [doi:10.1093/qje/qjw024](https://doi.org/10.1093/qje/qjw024) · OECD/JRC (2008), *Handbook on Constructing Composite Indicators*, [doi:10.1787/9789264043466-en](https://doi.org/10.1787/9789264043466-en) · Krippendorff (2018), *Content Analysis*, 4th ed. |
+| **Target figures** | (a) **Average firm-level political risk over time**, against the Economic Policy Uncertainty index · (b) **your own coded index**, with its intercoder agreement · (c) **a composite exposure index** for your team's firm, with weights the reader can move |
+| **Data you collect** | firmlevelrisk.com firm-quarter file; EPU (global); 40 news headlines from GDELT that **your team codes**; GPR country indices and Worldwide Governance Indicators for the composite |
+| **Tableau skill** | **Tableau Prep** flows (or the data source pane) · unions · cleaning text-coded data · **normalisation** · **parameters as weights** |
+| **Course themes** | Methodology: content analysis, coding, big data, statistical treatment — the Synthesis outcome |
+
+## Before the session
+
+Four things to do before class. Budget **about two and a half hours**, and **revise Sessions 04–06**:
+Quiz 2 opens the session.
+
+| | Before class | Used in class for |
+|---|---|---|
+| **1** | Read the paper; skim two companions | the lecture and practice part (a) |
+| **2** | Collect the data | practice parts (a) and (c) |
+| **3** | Pull 40 headlines and **code them — two coders, independently** | practice part (b) |
+| **4** | Self-check | the lecture |
+
+---
+
+### 1. The reading — 60–75 min
+
+**The big work.** Hassan, T. A., Hollander, S., van Lent, L., & Tahoun, A. (2019). Firm-level
+political risk: Measurement and effects. *Quarterly Journal of Economics*, 134(4), 2135–2202.
+[doi:10.1093/qje/qjz021](https://doi.org/10.1093/qje/qjz021)
+
+| | What to look for |
+|---|---|
+| **1** | The **question**: how much political risk does an individual firm face, and does it matter? |
+| **2** | The **measurement**: what text, which word pairs, how are "political" bigrams identified, and how close to "risk" or "uncertainty" must they be? |
+| **3** | The **validation**: what evidence shows that PRisk measures political risk and not something else? |
+| **4** | The **finding** that surprised the authors most about where the variation lies — across time, sectors, or firms? |
+
+Sections I–III closely; skim the rest.
+
+**Skim, for the lecture:**
+
+- Baker, S. R., Bloom, N., & Davis, S. J. (2016). Measuring economic policy uncertainty. *Quarterly
+  Journal of Economics*, 131(4), 1593–1636. [doi:10.1093/qje/qjw024](https://doi.org/10.1093/qje/qjw024)
+  — Section II: how the index is built, and how they audited it **by hand**.
+- OECD/JRC (2008). *Handbook on Constructing Composite Indicators: Methodology and User Guide*. OECD
+  Publishing. [doi:10.1787/9789264043466-en](https://doi.org/10.1787/9789264043466-en) — the
+  ten-step checklist at the start of Part 1.
+
+---
+
+### 2. The data — 30 min
+
+Details: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/07-measuring-risk-text-and-indices/data/README.md). Split the work.
+
+- `firmquarter_2022q1.csv` from firmlevelrisk.com
+- `Global_Policy_Uncertainty_Data.xlsx` and `All_Country_Data.xlsx` from policyuncertainty.com
+- `data_gpr_export.xls` again (revised since Session 01) and the **WGI** 2025 edition
+- Your Session 04 ideal-point file
+
+---
+
+### 3. Your corpus, and coding it — 45 min
+
+**One member** retrieves the headlines (GDELT query in [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/07-measuring-risk-text-and-indices/data/README.md)),
+draws **40 at random**, and shares the coding sheet. **Two other members** code all 40 —
+**independently, without talking to each other** — using the protocol below. The fourth member (or
+the first, in a team of three) is the **adjudicator** in class.
+
+#### The coding protocol
+
+Code the **headline only**. Assign **one** code: the category that best describes the headline's
+main event. Categories follow Caldara and Iacoviello's eight, plus a zero.
+
+| Code | Category | Assign when the headline reports… |
+|---|---|---|
+| **0** | Not geopolitical | anything else — domestic politics, markets, company news, disasters |
+| **1** | War threats | a threat or risk of war between states |
+| **2** | Peace threats | a threat to a peace process, ceasefire or agreement |
+| **3** | Military build-ups | troop movements, exercises, arms build-ups, new deployments |
+| **4** | Nuclear threats | nuclear tests, weapons programmes, nuclear threats |
+| **5** | Terror threats | a threat or risk of a terrorist attack |
+| **6** | Beginning of war | the start of a war or armed conflict between states |
+| **7** | Escalation of war | an existing war intensifying |
+| **8** | Terror acts | a terrorist attack that happened |
+
+**Decision rules.**
+
+1. **Acts beat threats**: if a headline reports both, code the act (6, 7 or 8).
+2. **Sanctions, export controls and trade wars** are *not* in the eight categories: code **0**, and
+   write `econ` in a comment column. (That gap is one of today's discussion points.)
+3. **When in doubt, code 0** and write why in the comment column.
+4. **Never revise** your code after seeing your partner's.
+
+---
+
+### 4. Self-check — 15 min
+
+1. Name the three components of the EPU index's article filter.
+2. Why do Hassan et al. look for political bigrams **near** words like "risk" and "uncertainty",
+   rather than counting political words alone?
+3. Two coders agree on 80% of items. Why might that still be poor agreement?
+4. Name the steps in building a composite indicator. Which one do you think is most often skipped?
+
+---
+
+### Arrive with
+
+- [ ] Sessions 04–06 revised — **Quiz 2**
+- [ ] The paper read; the two companions skimmed
+- [ ] All files in `data/raw/`, logged
+- [ ] `coded/coding_sheet.xlsx` with **two independent codings** of 40 headlines
+- [ ] Your self-check, on paper
+
+---
+
+[Session 07 overview](session-07.qmd) · [The lecture](#the-lecture) ·
+[The practice](#in-the-practice)
+
+## The lecture
+
+---
+
+### 1. The measurement chain
+
+Every number in this course — GPR, a capability share, an ideal point, a sanctions count — is the
+end of a chain:
+
+```
+concept  →  indicator  →  source  →  coding rule  →  aggregation  →  presentation
+"geopolitical    "share of      ten          the eight       monthly share,    a line with
+ risk"           articles…"     newspapers   categories      base 1985–2019    spikes labelled
+```
+
+Two questions apply to every link:
+
+- **Validity** — does the indicator measure the concept? (Is newspaper attention geopolitical risk?)
+- **Reliability** — would someone else, following the same rules, get the same number? (Would a
+  second coder put the same article in the same category?)
+
+A measure can be perfectly reliable and invalid — a thermometer read identically by everyone that
+measures the wrong room. Today is about seeing every link, so you can audit a score you are sold
+and defend one you build.
+
+---
+
+### 2. Content analysis
+
+Krippendorff (2018) defines content analysis as a research technique for making **replicable and
+valid inferences** from texts to the contexts of their use. Its steps:
+
+| Step | In the GPR index | In your coding today |
+|---|---|---|
+| **Unitising** — what is one unit? | an article | a headline |
+| **Sampling** — which units? | all articles in ten newspapers | 40 headlines drawn at random from a GDELT query |
+| **Recording / coding** — which category? | a dictionary of words | two human coders and a protocol |
+| **Reducing** — how are codes summarised? | monthly share | counts and shares by category |
+| **Inferring** — what do we conclude? | geopolitical risk is high | your firm's countries are in the news for … |
+
+**Manifest vs latent content.** A dictionary sees **manifest** content — the words on the page. Human
+coders can see **latent** content — what an article is *about*. Dictionaries are cheap, fast and
+perfectly reliable; humans are slow and less reliable but can catch meaning. The best measures use
+both: a dictionary, **audited by humans**.
+
+---
+
+### 3. Three dictionary methods
+
+| | **GPR** — Caldara & Iacoviello | **EPU** — Baker, Bloom & Davis | **PRisk** — Hassan et al. |
+|---|---|---|---|
+| **Text** | newspaper articles | newspaper articles | earnings-call transcripts |
+| **Unit counted** | article with GPR words | article with **E**conomy **and** **P**olicy **and** **U**ncertainty terms | political two-word combinations (bigrams) near synonyms of risk or uncertainty |
+| **How the dictionary is chosen** | the authors' eight categories | the authors' term sets, audited by hand | **learned**: bigrams frequent in political texts and rare in non-political ones |
+| **Scaled by** | all articles | all articles | length of the transcript |
+| **Level** | world, 44 countries | country | **firm × quarter** |
+| **Validation** | narrative, hand audit | large human audit of articles | correlation with EPU; firms with high PRisk lobby and donate more; cut investment and hiring |
+
+**What Hassan et al. add.** Political risk becomes a **firm-level** variable — measured from what
+managers and analysts actually discuss. Their striking finding is that most of the variation in
+political risk is **across firms at a given time**, not common to all firms: aggregate indices like
+EPU, however useful, miss most of the political risk an individual firm faces.
+
+---
+
+### 4. Reliability: how much do coders agree?
+
+**Percent agreement** — the share of items both coders put in the same category — is intuitive and
+misleading: two coders guessing at random will often agree, especially when one category dominates.
+
+**Cohen's kappa** corrects for chance:
+
+$$
+\kappa = \frac{p_o - p_e}{1 - p_e}
+\qquad
+p_o = \frac{\text{agreements}}{N}
+\qquad
+p_e = \sum_k \frac{n_{A,k}}{N}\cdot\frac{n_{B,k}}{N}
+$$
+
+where $n_{A,k}$ is the number of items coder A put in category $k$.
+
+**A worked example.** 40 headlines, three collapsed categories: not geopolitical (0), threat (1–5),
+act (6–8).
+
+| | **B: 0** | **B: threat** | **B: act** | **A total** |
+|---|---:|---:|---:|---:|
+| **A: 0** | **20** | 3 | 1 | 24 |
+| **A: threat** | 2 | **8** | 0 | 10 |
+| **A: act** | 0 | 1 | **5** | 6 |
+| **B total** | 22 | 12 | 6 | 40 |
+
+- $p_o = (20 + 8 + 5)/40 = 0.825$
+- $p_e = (24\cdot22 + 10\cdot12 + 6\cdot6)/40^2 = 684/1600 = 0.4275$
+- $\kappa = (0.825 - 0.4275)/(1 - 0.4275) \approx 0.69$
+
+An 82.5% agreement becomes a kappa of about 0.69 once chance is removed. Conventions differ:
+Landis and Koch's widely used labels call 0.61–0.80 "substantial"; Krippendorff, for his alpha (the
+generalisation to more coders, missing data and other scales), asks for at least 0.800 for firm
+conclusions and accepts 0.667 only for tentative ones.
+
+**What to do with disagreement.** Never average it away. Read each disagreement, decide whether the
+protocol was unclear or a coder erred, **revise the protocol**, and adjudicate. The disagreements are
+where the concept is fuzzy — they are information.
+
+---
+
+### 5. Big data: what it adds, what it hides
+
+GDELT monitors news in many languages worldwide and turns it into searchable records. Its promise is
+**coverage and speed**: every country, every day, without a research assistant.
+
+Its traps:
+
+- **Selection.** Only what is reported, by sources GDELT monitors, in languages it processes. Coverage
+  changes over time: a rising count may be more sources, not more events.
+- **Duplication.** One wire story becomes hundreds of articles.
+- **Machine coding.** Automated event coding misreads irony, quotation, and historical references.
+- **"N = all" is never all.** A very large biased sample is still biased — and more confidently wrong.
+
+**The rule for a risk analyst:** big data for **detection** (something is happening, here, now);
+small, carefully coded data for **measurement** (how much, compared with what).
+
+---
+
+### 6. Composite indicators — the OECD/JRC discipline
+
+A composite indicator combines several indicators into one number — country-risk ratings, governance
+indices, your team's exposure index. The OECD/JRC *Handbook* (2008) sets out ten steps; the five
+that decide most of the outcome are:
+
+| Step | The choice | The risk |
+|---|---|---|
+| **Theoretical framework** | Which dimensions of risk, and why | An index of whatever data were available |
+| **Missing data** | Drop, impute, or flag | Countries silently disappear — usually the risky ones |
+| **Normalisation** | Min–max, z-score, rank, distance to a reference | Different methods, different rankings |
+| **Weighting and aggregation** | Equal, statistical, expert; additive or geometric | Additive aggregation lets a strength **compensate** for a weakness |
+| **Sensitivity analysis** | How much do results move when choices change? | A ranking presented as fact that one weight would overturn |
+
+**Min–max normalisation** puts every indicator on 0–1, with the direction made consistent (higher =
+more risk):
+
+$$
+x^{*} = \frac{x - \min x}{\max x - \min x}
+\qquad\text{or, for an indicator where higher is safer,}\qquad
+x^{*} = \frac{\max x - x}{\max x - \min x}
+$$
+
+**Weighted additive aggregation**: $\;CI = \dfrac{\sum_j w_j\, x^{*}_j}{\sum_j w_j}$.
+
+**The point for the board.** Weights are value judgements. Show them; let the reader move them; and
+report whether the ranking survives. A composite that hides its weights is an opinion dressed as a
+measurement.
+
+---
+
+### 7. The Tableau skill of the day
+
+- **Tableau Prep** (or the data source pane): parse a quarter string into a date; aggregate firm-
+  quarters to quarters; union or join sources on a common key.
+- A **highlight table** of coder A × coder B, with grand totals: the agreement matrix, read straight
+  off the screen.
+- **Normalisation with LOD**: `{ MIN([x]) }` and `{ MAX([x]) }` — a `FIXED` expression with no
+  dimension computes over the whole table.
+- **Parameters as weights**, and `RANK()` to show how the ranking moves when the weights do.
+
+---
+
+### References
+
+Baker, S. R., Bloom, N., & Davis, S. J. (2016). Measuring economic policy uncertainty. *Quarterly
+Journal of Economics*, 131(4), 1593–1636. https://doi.org/10.1093/qje/qjw024
+
+Caldara, D., & Iacoviello, M. (2022). Measuring geopolitical risk. *American Economic Review*,
+112(4), 1194–1225. https://doi.org/10.1257/aer.20191823
+
+Hassan, T. A., Hollander, S., van Lent, L., & Tahoun, A. (2019). Firm-level political risk:
+Measurement and effects. *Quarterly Journal of Economics*, 134(4), 2135–2202.
+https://doi.org/10.1093/qje/qjz021
+
+Krippendorff, K. (2018). *Content analysis: An introduction to its methodology* (4th ed.). SAGE.
+
+Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data.
+*Biometrics*, 33(1), 159–174.
+
+OECD/JRC. (2008). *Handbook on constructing composite indicators: Methodology and user guide*. OECD
+Publishing. https://doi.org/10.1787/9789264043466-en
+
+## In the practice
+
+> **The targets.** (a) Hassan et al. (2019): **average firm-level political risk over time**, against
+> the EPU index. (b) **Your own coded index** — 40 headlines, two coders, a kappa. (c) A **composite
+> exposure index** for your team's firm, with weights the board can move — your team's draft.
+
+Today has three short builds instead of one long one. Keep to the clock.
+
+| Part | Minutes | The five steps, compressed |
+|---|---|---|
+| **(a) Firm-level risk vs EPU** | 30 | collect · prepare · replicate · compare |
+| **(b) Your coded index** | 20 | agreement · adjudicate · count |
+| **(c) A composite with moving weights** | 30 | select · normalise · weight · test |
+| **The catch** | 10 | one slide, three panels |
+
+Data: [`../data/README.md`](https://github.com/warint/geopolitics-geoeconomics/blob/main/07-measuring-risk-text-and-indices/data/README.md). Provenance log as always — one line per file, including
+your own `coding_sheet.xlsx` ("produced by the team, protocol of Session 07").
+
+---
+
+### (a) Firm-level political risk against EPU — 30 min
+
+#### Prepare — choose a route
+
+The firm file is **firm × quarter**; EPU is **monthly**. Both must reach a common **quarter** grain.
+
+The quarter identifier in the firm file is a string such as `2010q1` in the vintages we have seen —
+**check yours**. Convert it to a date:
+
+```text
+[Quarter date] = MAKEDATE( INT(LEFT([date], 4)),
+                           (INT(RIGHT([date], 1)) - 1) * 3 + 1,
+                           1 )
+```
+
+And for EPU (`Year` and `Month` in the current file; `Year` may arrive as text because of the
+citation rows at the bottom, hence the `INT`):
+
+```text
+[Quarter date] = DATETRUNC('quarter', MAKEDATE(INT([Year]), INT([Month]), 1))
+```
+
+**Route 1 · Tableau Prep** (if your licence includes it)
+
+1. *Input* `firmquarter_2022q1.csv` → *Clean* step: add `[Quarter date]` → *Aggregate* step: group by
+   `[Quarter date]`; `AVG(PRisk)`, `COUNTD([gvkey])`.
+2. *Input* the EPU workbook → *Clean*: add `[Quarter date]`, drop rows with no value →
+   *Aggregate*: group by `[Quarter date]`; `AVG([GEPU_current])` (or `GEPU_ppp` — log which).
+3. *Join* the two on `[Quarter date]` (inner) → *Output* as `.hyper`. Open it in Tableau Desktop.
+4. Every step is a visible, saved decision: export the flow (`.tfl`) with your hand-in.
+
+**Route 2 · the data source pane** (Tableau Desktop or Tableau Public edition)
+
+1. Connect to both files. Drag the firm file to the canvas, then the EPU sheet next to it.
+2. In the relationship dialog, choose **Create Relationship Calculation** on each side and enter the
+   two `[Quarter date]` formulas above.
+3. Relationships aggregate each table at its own level: `AVG(PRisk)` is averaged over firms,
+   `AVG(GEPU_current)` over the months of the quarter — exactly what you want.
+
+#### Replicate — Sheet "Firm-level political risk and EPU"
+
+1. `[Quarter date]` → Columns as continuous **Quarter**.
+2. `AVG(PRisk)` → Rows; the EPU measure → Rows; **dual axis**, *not* synchronised (different units).
+3. Annotate three peaks; check what happened in those quarters.
+4. Title with the finding; caption with both sources, vintages and access dates.
+
+#### Compare
+
+- Do the two series move together? Where do they part company — and which one would you trust for a
+  firm, and which for a country?
+- Add `COUNTD` of firms as a third view. Does the number of firms change over the period? Why does
+  that matter for an average?
+- Filter `hqcountrycode` (2-letter codes) to exclude `US`. How many firms are left?
+
+---
+
+### (b) Your coded index — 20 min
+
+Connect to `coded/coding_sheet.xlsx`.
+
+1. **The agreement matrix.** `coder_A` → Rows, `coder_B` → Columns, `CNT(id)` → Text and Colour:
+   a **highlight table**. *Analysis → Totals → Show Row and Column Grand Totals.*
+2. **Percent agreement** in Tableau:
+
+   ```text
+   [Agree] = IF [coder_A] = [coder_B] THEN 1 ELSE 0 END      →   AVG([Agree]) = p_o
+   ```
+
+3. **Kappa, by hand.** From the grand totals, compute $p_e = \sum_k (n_{A,k}/N)(n_{B,k}/N)$ and
+   $\kappa = (p_o - p_e)/(1 - p_e)$. Write both on your slide. If categories are sparse, also compute
+   kappa on three collapsed categories (0 / threat / act) — and say which you report.
+4. **Adjudicate.** The adjudicator reads every disagreement and fills `final`, with a one-line reason.
+   List the **protocol changes** you would make.
+5. **The index.** From `final`: the share of headlines in each category, and the share coded
+   geopolitical (≠ 0) by month. Mark `econ` comments separately: how many headlines about sanctions
+   or export controls did the GPR categories force into 0?
+
+---
+
+### (c) A composite exposure index with moving weights — 30 min
+
+#### Select
+
+Start from a **spine**: a sheet listing your firm's key countries plus comparators — **8 to 12
+countries**, with `iso3`. Every input is **left-joined** to it, so missing values are visible rather
+than silently dropped.
+
+| Indicator | Source | Direction | Preparation |
+|---|---|---|---|
+| Country GPR | `GPRC_xxx` columns | higher = riskier | pivot the `GPRC_` columns (not `GPRHC_`; values are % of articles); extract the code with `RIGHT([Pivot Field Names], 3)`; average the last 12 months |
+| Country EPU | `All_Country_Data.xlsx` | higher = riskier | pivot country columns; add `iso3` (the columns are country names such as `UK`, `US`, `Korea`, and China appears three times); average the last 12 months |
+| Political stability | WGI 2025, sheet `pv`, `Governance score (0-100)` | **higher = safer** | latest year; join on `Economy (code)` |
+| Distance in UN voting from the firm's home country | Session 04 ideal points | higher = riskier | `ABS([Ideal point] - [Home ideal point])`, latest year |
+
+**Each input must be one row per country before it is joined to the spine** — otherwise the min and
+max below are taken over months, not countries. Reduce each input first: an *Aggregate* step in
+Tableau Prep, or — in Desktop — a small sheet (country × the averaged value) exported with
+*Worksheet → Export → Crosstab* into a derived file in `data/derived/`, logged as such. Raw files are
+never edited.
+
+#### Normalise
+
+Min–max across the spine countries, with a `FIXED` expression over the whole table:
+
+```text
+[GPR n]   = ([GPR]   - {MIN([GPR])})   / ({MAX([GPR])}   - {MIN([GPR])})
+[WGI n]   = ({MAX([WGI])} - [WGI])     / ({MAX([WGI])}   - {MIN([WGI])})      // inverted
+```
+
+…and the same for EPU and voting distance.
+
+#### Weight
+
+Create four **parameters**, `w GPR`, `w EPU`, `w WGI`, `w Vote` — integers 0 to 5, default 1 — and
+show their controls. Missing values must not count as zero risk, so reweight over the indicators
+that exist:
+
+```text
+[Composite] =
+  ( IF NOT ISNULL([GPR n])  THEN [w GPR]  * [GPR n]  ELSE 0 END
+  + IF NOT ISNULL([EPU n])  THEN [w EPU]  * [EPU n]  ELSE 0 END
+  + IF NOT ISNULL([WGI n])  THEN [w WGI]  * [WGI n]  ELSE 0 END
+  + IF NOT ISNULL([Vote n]) THEN [w Vote] * [Vote n] ELSE 0 END )
+  /
+  ( IF NOT ISNULL([GPR n])  THEN [w GPR]  ELSE 0 END
+  + IF NOT ISNULL([EPU n])  THEN [w EPU]  ELSE 0 END
+  + IF NOT ISNULL([WGI n])  THEN [w WGI]  ELSE 0 END
+  + IF NOT ISNULL([Vote n]) THEN [w Vote] ELSE 0 END )
+```
+
+That is a **decision**, not a fix: write it in your log ("composite renormalised over available
+indicators").
+
+Sheet: countries on Rows, sorted by `SUM([Composite])`, bars, with `RANK(SUM([Composite]))` as a
+label.
+
+#### Test
+
+Record each country's rank under **equal weights**, then under each indicator **alone** (weight 1,
+others 0). In a small table: how many countries change rank by more than two places? Which country
+is most sensitive to the weights — and why?
+
+---
+
+### The catch — 10 min
+
+One slide, three panels:
+
+| (a) | (b) | (c) |
+|---|---|---|
+| PRisk vs EPU: what an average of US-listed firms does **not** tell your firm | Your kappa and the protocol change you would make | Your composite's ranking — and the weight that would overturn it |
+
+A member drawn at random presents in two minutes.
+
+---
+
+### Hand in
+
+`.twbx` (+ `.tfl` if you used Prep), `coding_sheet.xlsx` with `final` filled, and the provenance log,
+on ZoneCours. Formative; counts towards participation.
+
+**The one rule:** your log records at least one place where the data disagreed with the paper — for
+(a), or for the GPR categories meeting your headlines in (b).
+
+**Team project milestone.** Part (c) is your **draft composite index**. Bring it, revised, to the
+dashboard review in Session 10.
+

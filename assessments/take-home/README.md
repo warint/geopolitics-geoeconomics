@@ -55,11 +55,12 @@ week with an export licensing regime on refined graphite.*
 **Firm:** a European automotive manufacturer with an EV assembly plant in Central Europe and a joint
 venture in the affected Asian economy.
 
-**Data instruction:** OECD Inventory of Export Restrictions on Industrial Raw Materials (graphite,
-HS 2504 and 3801); UN General Assembly ideal points (Bailey, Strezhnev & Voeten); the firm's last
+**Data instruction:** IMF International Trade in Goods by partner country (`XG_FOB_USD`); the Global
+Sanctions Data Base; UN General Assembly ideal points (Bailey, Strezhnev & Voeten); the firm's last
 annual report.
 
 *Part A (example):* Using Farrell and Newman's concept of weaponised interdependence, explain which
-side holds the stronger *chokepoint* and why. *Part B:* Build a view of the concentration of
-graphite exports and of the export restrictions applied to it since 2009. *Part C:* Advise the chief
+side holds the stronger *chokepoint* and why. *Part B:* Build a view of goods trade between the EU,
+the United States and the affected economy since 2000, set against the sanctions cases in force between
+them and the distance between their UN voting positions. *Part C:* Advise the chief
 risk officer on the joint venture and on sourcing for the European plant.

@@ -32,6 +32,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — the syllabus; risk vs uncertainty; a typology of indicators; how GPR is built | 90 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 01:** rebuild the GPR figure | 90 min |
 | **Data** | [`data/`](data/README.md) — what to download, where to put it | — |
+| **Lecture notes** | [Chapter 1 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-01.html) — pre-session, lecture and practice as one readable, searchable page | — |
 
 Session 01 has **no Risk Brief**. Sign-up for Risk Briefs (Sessions 02–11) opens at the end of class.
 Teams are formed at the start of Session 02.

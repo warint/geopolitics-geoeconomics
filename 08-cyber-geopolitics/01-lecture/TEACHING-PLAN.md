@@ -36,9 +36,10 @@ the break.
 
 ## Run Tableau live
 
-Import the DCID CSV and show that a dyad file needs **two** country fields. Build the highlight table
-(initiator on Rows, target on Columns, `Number of Records` on Colour, then *Show Me → highlight
-table*). Ask what the empty cells mean: no incidents, or no rivalry in the data? (The second — DCID
+Import the DCID CSV and show that a dyad file needs **two** country fields — and that DCID's are
+`StateA`/`StateB` (the dyad) plus `initiator` (a COW code), with no target column. Build `[Initiator]`
+and `[Target]` (formula in the practice README, step 2.3), then the highlight table (`[Initiator]` on
+Rows, `[Target]` on Columns, the record count on Colour, then *Show Me → highlight table*). Ask what the empty cells mean: no incidents, or no rivalry in the data? (The second — DCID
 only covers rivals.)
 
 ---

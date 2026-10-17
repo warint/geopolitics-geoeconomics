@@ -56,7 +56,7 @@ everything is assumed afterwards.
 | **08** | Cyber incidents | **Highlight tables** · dyad matrices (initiator × target) · **filter and highlight actions** |
 | **09** | Embassies and exports | **Log scales** · **trend lines** and what their R² and p-value do and do not say · clusters |
 | **10** | Sanctions episodes | **Gantt charts** for episode durations · stacked bars of shares · **quick table calculations** |
-| **11** | Critical-mineral concentration | **Herfindahl–Hirschman index** with LOD · treemaps · **dashboard actions** across sheets |
+| **11** | Objects in orbit and the new space race | **Running sum** (table calculation) on pivoted launch/decay events · **Herfindahl–Hirschman index** with LOD · **dashboard actions** across data sources |
 | **12** | Your team dashboard | **Dashboards** · **stories** · publishing to Tableau Public · writing captions a board can read |
 
 ---
@@ -79,7 +79,7 @@ everything is assumed afterwards.
 | Trap | Symptom | Fix |
 |---|---|---|
 | **Joining on country names** | Côte d'Ivoire, Türkiye, Korea, Rep. silently drop out | Always join on **ISO 3166 alpha-3** codes. Keep a concordance sheet for datasets that use COW or UN codes |
-| **Wide years** | 60 columns called `1960` … `2023` | **Pivot** them in the data source pane (select columns → right-click → *Pivot*) |
+| **Wide years** | 66 columns called `1960` … `2025` | **Pivot** them in the data source pane (select columns → right-click → *Pivot*) |
 | **SUM of an index** | A line ten times too high | An index is averaged, not summed. Check the aggregation on every pill |
 | **Discrete vs continuous dates** | A bar for "May" across all years | Use the *continuous* date (green pill) for time series |
 | **Duplicated rows after a join** | Totals inflate | Check the row count before and after; use a **relationship** instead of a join when the grain differs |

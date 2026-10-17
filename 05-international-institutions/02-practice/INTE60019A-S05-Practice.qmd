@@ -57,13 +57,13 @@ Route A: AidData replication file · Route B: Greenbook + UN list of elected mem
 - **Route A:** build the term table — filter members, export crosstab, mark `term_start`
 
 ::: {.warn}
-Fiscal years, obligations, current or constant dollars: all three go in the notes.
+Fiscal years, obligations, current or constant dollars — and economic + military combined in the Country Summary: all go in the notes.
 :::
 
 ## 2 · Prepare — 20 min
 
-1. Connect to both files
-2. Double-click the aid table → physical layer → **inner join** the term table on `Iso3`
+1. Connect to both files · aid: `Transaction Type Name` = Obligations, drop `1976tq`, `Fiscal Year` → number `Year`, `constant_amount` → `Aid`
+2. Double-click the aid table → physical layer → **inner join** the term table on `Country Code` = `Iso3`
 3. Row count **before and after** — in the log
 4. Drop donors and regional aggregates; check constant dollars
 

@@ -57,23 +57,23 @@ format:
 
 ## 2 · Prepare · NMC
 
-1. **Connect → Text file** → the NMC csv
-2. Columns vs **codebook** — `cinc`, `year`, `ccode`, `stateabb` up to v6.0; check v7.0
+1. **Connect → Text file** → `NMC-70-abridged.csv` (zip inside the zip)
+2. Columns vs **codebook** — `stateabb`, `ccode`, `year`, six components, `cinc`, `version`; missing = **`-9`**
 3. `year` stays a **whole number**
-4. Sanity check: `SUM(cinc)` by year, no filter → about **1** every year?
+4. Sanity check: `SUM(cinc)` by year, no filter → about **1** (1.000–1.075)? Why not exactly?
 
 ## 2 · Prepare · SIPRI
 
-1. **Connect → Excel** → **constant US$** sheet · **Data Interpreter**
+1. **Connect → Excel** → `Constant (2024) US$` sheet · **Data Interpreter** · drop region rows
 2. **Pivot** years → `Year`, `Milex`
 3. `Year` whole number, **same name** as NMC's year — the link
-4. `Milex` → number; read the notes on symbols
+4. `Milex` → number; `...` and `xxx` become nulls
 5. SIPRI uses **names**, not codes — log the exact strings
 
 ## 3 · Replicate · Sheet 1 — shares of capabilities
 
 - `year` → Columns · `SUM(cinc)` → Rows · `stateabb` → Colour
-- `USA UKG FRN GMY RUS JPN CHN ITA` — **check each code**
+- `USA UKG FRN GMY RUS JPN CHN ITA` — **check each code** · `GMY` gap 1946–1990 (`GFR`/`GDR`)
 - US and China in colour, the rest grey
 - Annotate 1945, 1991, the crossover
 - Title = finding · caption = NMC v7.0, accessed …

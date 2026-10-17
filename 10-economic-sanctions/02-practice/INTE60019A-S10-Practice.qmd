@@ -58,19 +58,19 @@ GSDB licence: **ZoneCours only**. Never Tableau Public.
 
 ## 2 · Prepare — 20 min
 
-1. Codebook → exact names: case id, sanctioned, sanctioning, begin, end, **types**, **objectives**, **outcomes**
-2. Type columns → select → **Pivot** → `Type`, `Type flag`
-3. Join `years.csv`: `Year >= begin` **and** `Year <= IFNULL(end, 2025)` (*join calculation*)
+1. Confirm in the codebook: `case_id`, `sanctioned_state`, `sanctioning_state`, `begin_year`, `end_year`, **types**, `objective`, `success`
+2. Six 0/1 type columns (`trade` … `other`) → select → **Pivot** → `Type`, `Type flag`
+3. Join `years.csv`: `Year >= begin_year` **and** `Year <= IFNULL(end_year, 2025)` (*join calculation*)
 4. Row count before and after — what is one row now?
-5. One `Outcome` field from the outcome indicators — **names from the codebook**
+5. `Outcome` from `success`: one text code per objective (`success_total`, `success_part`, `nego_settlement`, `failed`, `ongoing`) — take the first: `SPLIT([success], ",", 1)`
 
 ## 3 · Replicate · three sheets
 
 | Sheet | Columns | Rows | Marks |
 |---|---|---|---|
-| **1 · Active by type** | `Year` | `COUNTD(case id)` | `Type` → Colour; area or bar |
-| **2 · Outcomes** | `COUNTD(case id)` | `Objective` | `Outcome` → Colour; **Percent of Total** within objective |
-| **3 · One target** | `begin` | case | **Gantt Bar**; `Duration` → Size; `Type` → Colour |
+| **1 · Active by type** | `Year` | `COUNTD(case_id)` | `Type` → Colour; area or bar |
+| **2 · Outcomes** | `COUNTD(case_id)` | `Objective` | `Outcome` → Colour; **Percent of Total** within objective |
+| **3 · One target** | `begin_year` | `case_id` | **Gantt Bar**; `Duration` → Size; `Type` → Colour |
 
 ::: {.warn}
 After the pivot and the scaffold: **COUNTD**, never SUM. Stacked type totals ≠ number of cases.
@@ -79,7 +79,7 @@ After the pivot and the scaffold: **COUNTD**, never SUM. Stacked type totals ≠
 ## 4 · Compare and break — 10 min
 
 1. **Differ.** Yours vs the paper's figure — one difference
-2. **Threats vs impositions.** TIES: threatened-only vs imposed, per start year — beside GSDB
+2. **Threats vs impositions.** TIES: `imposition` = 0 (threat only) vs 1 (imposed), per `startyear` — beside GSDB
 3. **The firm.** Your team firm's top five countries: active cases naming each, latest year
 
 ## 5 · The catch — 10 min

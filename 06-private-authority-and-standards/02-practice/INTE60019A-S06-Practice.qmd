@@ -59,7 +59,7 @@ Log the survey edition, and whether you transcribed.
 ## 2 · Prepare — 20 min
 
 1. **Pivot** wide years — ISO and WDI
-2. Drop WDI aggregates; bring in **Region**
+2. Bring in **Region**; drop WDI aggregates (empty `Region`)
 3. **Join** ISO ↔ GDP on `iso3` **and** `Year`
 4. Calculated field:
 

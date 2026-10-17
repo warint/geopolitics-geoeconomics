@@ -42,8 +42,9 @@ per file. For WDI, the **version** is the "Last Updated" date DataBank shows for
    *Number (whole)*.)
 6. `Value` is text — DataBank writes missing data as `..`. Change its type to **Number (decimal)**;
    the dots become nulls. Check the null count: is it plausible?
-7. Look at `Country Code` and `Series Code` (check the exact column names in your file). **From now
-   on you filter on codes, never on names.**
+7. Look at `Country Code` and `Series Code` (in the Route B CSV the second is `Indicator Code`, the
+   years are plain `1990`, and missing values are blank). **From now on you filter on codes, never
+   on names.**
 
 ---
 

@@ -14,6 +14,8 @@
 
 There is no pre-session reading beyond your own work, no practice round and no Risk Brief.
 
+**Lecture notes:** this session is also [Chapter 12 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-12.html).
+
 ---
 
 ## Run of show
@@ -108,4 +110,4 @@ together they are the course's list of what each indicator cannot tell a firm.
 
 ---
 
-[← Previous session](../11-supply-chains-and-critical-minerals/README.md) · [Syllabus](../SYLLABUS.md)
+[← Previous session](../11-space-geopolitics/README.md) · [Syllabus](../SYLLABUS.md)

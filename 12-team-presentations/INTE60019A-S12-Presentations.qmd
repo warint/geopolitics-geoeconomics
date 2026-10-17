@@ -144,7 +144,7 @@ Kobrin, S. J. (1979). Political Risk: A Review and Reconsideration. *JIBS*, 10(1
 
 - **Low constraint** → policy can change fast, in either direction
 - The **structural** complement to every event- and text-based indicator of the course
-- And the second condition for a chokepoint (S11): can the state direct the firms at the hub?
+- And the second condition for a chokepoint (S08): can the state direct the firms at the hub?
 
 ::: {.muted}
 Henisz, W. J. (2000). The Institutional Environment for Economic Growth. *Economics & Politics*, 12(1), 1–31.

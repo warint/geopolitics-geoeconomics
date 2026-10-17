@@ -29,7 +29,8 @@ into `data/` and fill one line:
 ## 2 · Prepare — 15 min
 
 1. Tableau Desktop → **Connect → Microsoft Excel** → `data_gpr_export.xls`.
-2. Drag the data sheet to the canvas. Look at the grid at the bottom.
+2. Drag the data sheet (`Sheet1`) to the canvas. Look at the grid at the bottom. The last two
+   columns, `var_name` and `var_label`, are the authors' notes, not data.
 3. Check the type icon of `month`. It must be a **date** (calendar). If it is text (`Abc`) or a
    date-time, click the icon and change it to *Date*.
 4. Check `GPR`, `GPRT`, `GPRA`, `GPRH` are **numbers** (`#`). Empty cells in early years of the
@@ -56,7 +57,8 @@ into `data/` and fill one line:
 
 ### Sheet 2 · "GPR since 1900"
 
-Duplicate Sheet 1, replace `GPR` with `GPRH`, remove the 1985 filter. Annotate the two World Wars,
+Duplicate Sheet 1, replace `GPR` with `GPRH`, remove the 1985 filter. Relabel the reference line:
+`GPRH` is normalised to its **1900–2019** average = 100, not 1985–2019. Annotate the two World Wars,
 Korea and the Cuban missile crisis.
 
 ### Sheet 3 · "Threats and acts"
@@ -77,8 +79,9 @@ Put your Sheet 1 beside Figure 1 of the paper.
 3. **Break one decision.** Replace the monthly view by a **yearly average** (change the pill to
    continuous *Year*, aggregation `AVG`). Which spikes disappear? What does that tell you about the
    frequency at which a risk dashboard should run?
-4. **Extend.** Add a `GPRC_` country index for a country of your choice (Sheet 4). Is the country
-   index correlated with the global one? When does it diverge?
+4. **Extend.** Add a `GPRC_` country index for a country of your choice (Sheet 4). It is a *percent
+   of articles*, not an index to 100: use a dual axis. Is the country index correlated with the
+   global one? When does it diverge?
 
 ---
 

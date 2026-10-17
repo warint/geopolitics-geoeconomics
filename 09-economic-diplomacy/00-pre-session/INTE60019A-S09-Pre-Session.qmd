@@ -94,11 +94,11 @@ Annotate: Rose's **claim, data, effect size** · the **reverse-causality** objec
 ## 2 · Get the data
 
 ::: {.step}
-**Lowy GDI** → `downloads/DataDownload.xlsx` — one sheet per year, one row per **post**
+**Lowy GDI** → `downloads/DataDownload.xlsx` — one sheet per year (use **2023**; the 2019 sheet is incomplete), one row per **post**
 :::
 
 ::: {.step}
-**IMF IMTS** → goods exports, FOB, US$, **2023** — Canada + four other Lowy countries × all partners
+**IMF IMTS** → goods exports, FOB, US$ (`XG_FOB_USD`), **2023** — Canada + four other Lowy countries × all partners
 :::
 
 ::: {.step}

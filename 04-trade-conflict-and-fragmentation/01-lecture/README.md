@@ -3,7 +3,8 @@
 # Trade, conflict and geoeconomic fragmentation
 
 Slides: [`INTE60019A-S04-Lecture.qmd`](INTE60019A-S04-Lecture.qmd) · Instructor plan:
-[`TEACHING-PLAN.md`](TEACHING-PLAN.md)
+[`TEACHING-PLAN.md`](TEACHING-PLAN.md) ·
+As a book chapter: [course book, Session 04](https://warint.github.io/geopolitics-geoeconomics/book/session-04.html)
 
 The session opens with Quiz 1 (20 minutes) and four Risk Briefs (20 minutes); the lecture takes the
 remaining fifty.

@@ -3,7 +3,8 @@
 # Economic sanctions
 
 Slides: [`INTE60019A-S10-Lecture.qmd`](INTE60019A-S10-Lecture.qmd) · Instructor plan:
-[`TEACHING-PLAN.md`](TEACHING-PLAN.md)
+[`TEACHING-PLAN.md`](TEACHING-PLAN.md) ·
+As a book chapter: [course book, Session 10](https://warint.github.io/geopolitics-geoeconomics/book/session-10.html)
 
 The session opens with **Quiz 3** (20 min) and **four Risk Briefs** (20 min). The lecture is
 therefore shorter today.
@@ -102,7 +103,7 @@ assets, and in some cases temporary state management of foreign-owned firms. The
 
 ## 6. The Tableau skill of the day
 
-A **year scaffold** joined with a *range* condition (`Year ≥ start` and `Year ≤ end`) turns episodes
+A **year scaffold** joined with a *range* condition (`Year ≥ begin_year` and `Year ≤ end_year`, in the GSDB's column names) turns episodes
 into active cases per year; a **Gantt chart** draws each episode as a bar from start to end. Step by
 step: [`../02-practice/README.md`](../02-practice/README.md).
 

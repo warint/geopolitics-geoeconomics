@@ -1126,14 +1126,14 @@ Thierry Warin, PhD
 <li><strong>Route A:</strong> build the term table — filter members, export crosstab, mark <code>term_start</code></li>
 </ul>
 <div class="warn">
-<p>Fiscal years, obligations, current or constant dollars: all three go in the notes.</p>
+<p>Fiscal years, obligations, current or constant dollars — and economic + military combined in the Country Summary: all go in the notes.</p>
 </div>
 </section>
 <section id="prepare-20-min" class="slide level2">
 <h2>2 · Prepare — 20 min</h2>
 <ol type="1">
-<li>Connect to both files</li>
-<li>Double-click the aid table → physical layer → <strong>inner join</strong> the term table on <code>Iso3</code></li>
+<li>Connect to both files · aid: <code>Transaction Type Name</code> = Obligations, drop <code>1976tq</code>, <code>Fiscal Year</code> → number <code>Year</code>, <code>constant_amount</code> → <code>Aid</code></li>
+<li>Double-click the aid table → physical layer → <strong>inner join</strong> the term table on <code>Country Code</code> = <code>Iso3</code></li>
 <li>Row count <strong>before and after</strong> — in the log</li>
 <li>Drop donors and regional aggregates; check constant dollars</li>
 </ol>

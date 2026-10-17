@@ -163,7 +163,7 @@ Its cloud, its payment rails, its software updates are infrastructure its **home
 :::
 
 ::: {.step}
-The bridge to **Session 10** (sanctions: chokepoints in finance) and **Session 11** (supply chains: chokepoints in inputs).
+The bridge to **Session 10** (sanctions: chokepoints in finance) and **Session 11** (space: chokepoints in orbit).
 :::
 
 # The attribution problem {background-color="#E3120B" style="color:#F7F4ED"}

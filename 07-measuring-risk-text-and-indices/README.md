@@ -10,7 +10,7 @@
 | **Big work** | Hassan, T. A., Hollander, S., van Lent, L., & Tahoun, A. (2019). Firm-level political risk: Measurement and effects. *Quarterly Journal of Economics*, 134(4), 2135–2202. [doi:10.1093/qje/qjz021](https://doi.org/10.1093/qje/qjz021) |
 | **Companion works** | Baker, Bloom & Davis (2016), *Measuring Economic Policy Uncertainty*, QJE, [doi:10.1093/qje/qjw024](https://doi.org/10.1093/qje/qjw024) · OECD/JRC (2008), *Handbook on Constructing Composite Indicators*, [doi:10.1787/9789264043466-en](https://doi.org/10.1787/9789264043466-en) · Krippendorff (2018), *Content Analysis*, 4th ed. |
 | **Target figures** | (a) **Average firm-level political risk over time**, against the Economic Policy Uncertainty index · (b) **your own coded index**, with its intercoder agreement · (c) **a composite exposure index** for your team's firm, with weights the reader can move |
-| **Data you collect** | firmlevelrisk.com firm-quarter file; EPU (global); 40 news headlines from GDELT that **your team codes**; GPR country indices and World Governance Indicators for the composite |
+| **Data you collect** | firmlevelrisk.com firm-quarter file; EPU (global); 40 news headlines from GDELT that **your team codes**; GPR country indices and Worldwide Governance Indicators for the composite |
 | **Tableau skill** | **Tableau Prep** flows (or the data source pane) · unions · cleaning text-coded data · **normalisation** · **parameters as weights** |
 | **Course themes** | Methodology: content analysis, coding, big data, statistical treatment — the Synthesis outcome |
 
@@ -37,6 +37,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — content analysis; dictionaries; reliability; big data; composite indicators | 50 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 07:** three short builds — firm-level risk vs EPU; your coded index; a composite with moving weights | 90 min |
 | **Data** | [`data/`](data/README.md) | — |
+| **Lecture notes** | [Chapter 7 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-07.html) — pre-session, lecture and practice as one readable, searchable page | — |
 
 **Team project milestone.** The composite built in part (c) of today's practice is your **draft
 composite index**, reviewed in class.

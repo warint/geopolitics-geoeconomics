@@ -82,7 +82,7 @@ format:
 | **3** | Attempt the self-check | 15 min |
 
 ::: {.warn}
-**Start the ISO Survey download two days ahead.** IAF CertSearch may require a free account.
+**Start the ISO Survey download two days ahead.** It requires a free IAF CertSearch account.
 :::
 
 ## 1 · Read

@@ -1143,19 +1143,19 @@ Thierry Warin, PhD
 <section id="prepare-nmc" class="slide level2">
 <h2>2 · Prepare · NMC</h2>
 <ol type="1">
-<li><strong>Connect → Text file</strong> → the NMC csv</li>
-<li>Columns vs <strong>codebook</strong> — <code>cinc</code>, <code>year</code>, <code>ccode</code>, <code>stateabb</code> up to v6.0; check v7.0</li>
+<li><strong>Connect → Text file</strong> → <code>NMC-70-abridged.csv</code> (zip inside the zip)</li>
+<li>Columns vs <strong>codebook</strong> — <code>stateabb</code>, <code>ccode</code>, <code>year</code>, six components, <code>cinc</code>, <code>version</code>; missing = <strong><code>-9</code></strong></li>
 <li><code>year</code> stays a <strong>whole number</strong></li>
-<li>Sanity check: <code>SUM(cinc)</code> by year, no filter → about <strong>1</strong> every year?</li>
+<li>Sanity check: <code>SUM(cinc)</code> by year, no filter → about <strong>1</strong> (1.000–1.075)? Why not exactly?</li>
 </ol>
 </section>
 <section id="prepare-sipri" class="slide level2">
 <h2>2 · Prepare · SIPRI</h2>
 <ol type="1">
-<li><strong>Connect → Excel</strong> → <strong>constant US$</strong> sheet · <strong>Data Interpreter</strong></li>
+<li><strong>Connect → Excel</strong> → <code>Constant (2024) US$</code> sheet · <strong>Data Interpreter</strong> · drop region rows</li>
 <li><strong>Pivot</strong> years → <code>Year</code>, <code>Milex</code></li>
 <li><code>Year</code> whole number, <strong>same name</strong> as NMC’s year — the link</li>
-<li><code>Milex</code> → number; read the notes on symbols</li>
+<li><code>Milex</code> → number; <code>...</code> and <code>xxx</code> become nulls</li>
 <li>SIPRI uses <strong>names</strong>, not codes — log the exact strings</li>
 </ol>
 </section>
@@ -1163,7 +1163,7 @@ Thierry Warin, PhD
 <h2>3 · Replicate · Sheet 1 — shares of capabilities</h2>
 <ul>
 <li><code>year</code> → Columns · <code>SUM(cinc)</code> → Rows · <code>stateabb</code> → Colour</li>
-<li><code>USA UKG FRN GMY RUS JPN CHN ITA</code> — <strong>check each code</strong></li>
+<li><code>USA UKG FRN GMY RUS JPN CHN ITA</code> — <strong>check each code</strong> · <code>GMY</code> gap 1946–1990 (<code>GFR</code>/<code>GDR</code>)</li>
 <li>US and China in colour, the rest grey</li>
 <li>Annotate 1945, 1991, the crossover</li>
 <li>Title = finding · caption = NMC v7.0, accessed …</li>

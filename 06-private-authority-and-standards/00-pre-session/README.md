@@ -6,7 +6,7 @@
 Slides: [`INTE60019A-S06-Pre-Session.qmd`](INTE60019A-S06-Pre-Session.qmd)
 
 Three things to do before class. Budget **about two and a half hours**, and **start the ISO Survey
-download at least two days ahead**: it may need an account.
+download at least two days ahead**: it needs a free IAF CertSearch account.
 
 | | Before class | Used in class for |
 |---|---|---|

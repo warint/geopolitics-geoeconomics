@@ -35,6 +35,7 @@
 | **First half** | [`01-lecture/`](01-lecture/README.md) — instruments; do they work?; smart sanctions; the firm in the middle | 50 min |
 | **Second half** | [`02-practice/`](02-practice/README.md) — **Practice round 10:** rebuild the sanctions record · **team dashboard skeleton review** | 90 min |
 | **Data** | [`data/`](data/README.md) | — |
+| **Lecture notes** | [Chapter 10 of the course book](https://warint.github.io/geopolitics-geoeconomics/book/session-10.html) — pre-session, lecture and practice as one readable, searchable page | — |
 
 > **Licence.** The GSDB may not be redistributed. Your workbook goes to **ZoneCours only** — never to
 > Tableau Public with the raw data.
@@ -42,4 +43,4 @@
 ---
 
 [← Previous session](../09-economic-diplomacy/README.md) · [Syllabus](../SYLLABUS.md) ·
-[Next session →](../11-supply-chains-and-critical-minerals/README.md)
+[Next session →](../11-space-geopolitics/README.md)

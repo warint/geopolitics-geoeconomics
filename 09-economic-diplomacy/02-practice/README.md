@@ -30,22 +30,25 @@ reported exports) and the IMF indicator name exactly as shown.
 
 This is the hard part today. Take your time.
 
-1. **Lowy.** Connect to `DataDownload.xlsx`, sheet **2023**. Identify the columns for sending
-   country, host country and post type. Filter out posts that are not in a foreign country (e.g.
-   permanent missions to international organisations — check how the file labels them).
+1. **Lowy.** Connect to `DataDownload.xlsx`, sheet **2023**. The columns for sending country, host
+   country and post type are `COUNTRY`, `POST COUNTRY` and `TYPE OF POST`. Filter out posts that are
+   not bilateral: `TYPE OF POST` = `Permanent Mission` (missions to the UN, EU, OECD…). Look at what
+   `Other` holds (representative and trade offices, e.g. in Taipei) and log your choice.
 2. **IMF.** Add the IMF file as a **second table** on the canvas. Keep only the five exporters and
-   the year 2023; drop aggregate partners ("World", regional totals).
-3. **Concordance.** Country names differ between Lowy and the IMF. Make a small sheet
-   `name → ISO3` for both files (start with the names that fail to match) and add ISO3 to each.
+   the year 2023; drop aggregate partners ("World", regional totals — codes starting with `G` or
+   `TX`). Rename `OBS_VALUE` → `Exports`.
+3. **Concordance.** Lowy has country names only; the IMF file has ISO3 codes (`COUNTRY`,
+   `COUNTERPART_COUNTRY`). Make a small sheet `name → ISO3` for the Lowy `COUNTRY` and
+   `POST COUNTRY` names (watch the typos listed in the data README) and add ISO3 to Lowy.
 4. **Relate, don't join.** Drag the IMF table first, then the Lowy table, and create a
    **relationship** on `exporter ISO3 = sending ISO3` **and** `partner ISO3 = host ISO3`.
    A relationship keeps the export totals at their own grain; a plain join would repeat each
    export value once per post and inflate it.
 5. **Build the zeros.** Calculated field `Posts`:
    ```
-   ZN(COUNT([Post City]))
+   ZN(COUNT([POST CITY]))
    ```
-   (use whichever Lowy field identifies a post). Partners with exports but no post now get 0.
+   (`POST CITY` is never empty in the 2023 sheet). Partners with exports but no post now get 0.
 6. **Make logging possible.** Calculated field `Posts + 1` = `[Posts] + 1`. Write this decision in the
    log: it is the same compromise most gravity papers make, and it has consequences.
 7. **Exports per partner GDP.** Add WDI GDP (relationship on partner ISO3, year 2023) and create
@@ -75,7 +78,8 @@ This is the hard part today. Take your time.
    or flatter than the relationship he reports? Name one reason.
 2. **Break: size.** Replace `Exports` by `Exports / partner GDP (‰)`. What happens to the slope and
    the R²? What did the raw chart owe to the sheer size of partners?
-3. **Break: type of post.** Filter Lowy to **embassies** only, then to **consulates** only. Which
+3. **Break: type of post.** Filter `TYPE OF POST` to **`Embassy / High Commission`** only, then to
+   **`Consulate / Consulate-General`** only. Which
    carries the relationship? Does that match Rose?
 4. **Break: the zeros.** Exclude partners with `Posts = 0`. How much does the trend line move? Why
    should a careful analyst never drop them silently?
