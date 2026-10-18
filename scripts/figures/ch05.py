@@ -360,7 +360,7 @@ def fig_unsc_aid():
     ax.set_ylabel("US aid, % difference from the\ncountry's pre-term average")
     ax.set_xlim(-3.3, 4.0)
     ax.set_ylim(-50, 75)
-    ax.set_title("On current data, a simple event-time comparison does not show the jump")
+    ax.set_title("Exploratory check: on current data, a simple event-time comparison shows no jump")
     save(fig, "ch05-unsc-aid",
          f"ForeignAssistance.gov Country Summary (US obligations, constant $, 2026 release); "
          f"UN, elected members\nof the Security Council. {len(d)} terms by developing countries "

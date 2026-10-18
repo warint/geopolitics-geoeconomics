@@ -603,7 +603,14 @@ some countries serve several terms, so that the years after one term are the yea
 A re-estimate on current data that finds the same shape corroborates the finding; one that finds a
 different magnitude may simply be recording a disagreement between data vintages.
 
-### A re-estimate on current data
+### An exploratory check on current data
+
+::: {.warn}
+**Exploratory, not a replication.** What follows is a simple descriptive check, not a re-run of
+Kuziemko and Werker's model: a different window of years, a later release of the aid data, and no
+regression controls. It can show whether the effect is visible in the plainest picture; it cannot
+confirm or overturn the published estimate.
+:::
 
 That warning is not hypothetical. @fig-ch05-unsc-aid applies the simplest version of the design to
 the data available in 2026. The Council's page lists 204 elected terms beginning between 1970 and
@@ -613,11 +620,12 @@ taken in logs, net of the average across all recipients that year (removing swin
 aid budget), and relative to the country's own average
 over the three pre-term years. If the seat were bought, the line would jump in the shaded years.
 
-![On current data, a simple event-time comparison does not reproduce the jump: US aid around 129 Council terms starting 1970–2010, relative to each country's pre-term average, net of year effects, with a 95% interval. Source: ForeignAssistance.gov Country Summary (obligations, constant dollars); United Nations, elected members of the Security Council.](figures/ch05-unsc-aid.png){#fig-ch05-unsc-aid fig-alt="Event-time line chart: the mean stays within 5 per cent of the pre-term level in every year, its 95 per cent band well below a dotted line marking the published 59 per cent."}
+![An exploratory check: on current data, a simple event-time comparison does not show the jump: US aid around 129 Council terms starting 1970–2010, relative to each country's pre-term average, net of year effects, with a 95% interval. Source: ForeignAssistance.gov Country Summary (obligations, constant dollars); United Nations, elected members of the Security Council.](figures/ch05-unsc-aid.png){#fig-ch05-unsc-aid fig-alt="Event-time line chart: the mean stays within 5 per cent of the pre-term level in every year, its 95 per cent band well below a dotted line marking the published 59 per cent."}
 
-It does not. In the two term years aid is on average 1.5% above the pre-term level (95% interval:
-−13% to +18%), and in 57% of terms it is no higher. Splitting the period or dropping the year
-adjustment changes little (@tbl-ch05-unsc-aid); the published 59% lies outside every interval.
+In this simple picture it does not. In the two term years aid is on average 1.5% above the
+pre-term level (95% interval: −13% to +18%), and in 57% of terms it is no higher. Splitting the
+period or dropping the year adjustment changes little (@tbl-ch05-unsc-aid). Because the design
+differs from the paper's, these intervals are not a test of the published 59%.
 
 | Specification | Terms | Term years vs pre-term average | 95% interval | Terms above baseline |
 |:--------------|------:|-------------------------------:|:-------------|---------------------:|
@@ -626,9 +634,9 @@ adjustment changes little (@tbl-ch05-unsc-aid); the published 59% lies outside e
 | 1970–1989, net of year effects | 55 | +4.3% | −17% to +31% | 45% |
 | 1990–2010, net of year effects | 74 | −0.5% | −19% to +22% | 41% |
 
-: US aid during a Security Council term relative to the country's own three pre-term years, under four specifications. "Term years" averages event years 0 and +1. Source: ForeignAssistance.gov Country Summary (US obligations, constant dollars, 2026 release); United Nations; computed by the book's figure script. {#tbl-ch05-unsc-aid}
+: Exploratory check, not a replication: US aid during a Security Council term relative to the country's own three pre-term years, under four specifications. "Term years" averages event years 0 and +1. Source: ForeignAssistance.gov Country Summary (US obligations, constant dollars, 2026 release); United Nations; computed by the book's figure script. {#tbl-ch05-unsc-aid}
 
-This is a disagreement, not a refutation. The published estimate comes from regressions with
+This is an exploratory check, not a refutation. The published estimate comes from regressions with
 country and year fixed effects on 1946–2001 and the aid data of the early 2000s; the series here is
 the 2026 release, in fiscal years and re-based constant dollars. The balanced window drops every term
 in which a country received no US aid in some year — and a country that goes from nothing to
@@ -672,7 +680,7 @@ from official debt statistics.
 
 ## What the evidence does not license
 
-Suppose the pattern the published research reports is right, whatever the simple re-estimate above
+Suppose the pattern the published research reports is right, whatever the exploratory check above
 fails to show: aid flat before a term, higher during it, back down afterwards. That shows, about as
 cleanly as observational data can, influence being priced inside an international institution. It
 shows less than it seems to.
